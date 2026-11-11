@@ -1,0 +1,18 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+coverage: semantic fence|material|wood 10 pairs
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   3%|▎         | 21/657 [00:00<00:03, 208.09it/s]Loading weights:   8%|▊         | 50/657 [00:00<00:02, 239.39it/s]Loading weights:  12%|█▏        | 78/657 [00:00<00:02, 254.61it/s]Loading weights:  16%|█▌        | 106/657 [00:00<00:02, 259.28it/s]Loading weights:  21%|██        | 137/657 [00:00<00:01, 274.93it/s]Loading weights:  25%|██▌       | 165/657 [00:00<00:01, 274.55it/s]Loading weights:  30%|██▉       | 194/657 [00:00<00:01, 271.21it/s]Loading weights:  39%|███▊      | 253/657 [00:00<00:01, 368.89it/s]Loading weights:  69%|██████▉   | 453/657 [00:00<00:00, 861.91it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 636.72it/s]
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+saved /home/yucheng/ris/7506project/results/e2/coverage_semantic_fence_material_wood.json
+  single   n_tokens= 1 S1=-0.18 S6=-0.12
+  small    n_tokens= 4 S1=-0.36 S6=-0.31
+  object   n_tokens= 8 S1=-1.24 S6=-1.19
+  full     n_tokens=81 S1=-0.80 S6=-0.86

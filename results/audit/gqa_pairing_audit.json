@@ -1,0 +1,50 @@
+{
+  "testdev_balanced": {
+    "rows": 12578,
+    "unique_images": 398,
+    "simple_rel_verify_rows": 381,
+    "yes_ref_present": 209,
+    "no_ref_missing": 172,
+    "exact_question_multi_image_both_answers": 2,
+    "exact_question_multi_image_both_answers_ref_present": 0
+  },
+  "testdev_all": {
+    "rows": 172174,
+    "unique_images": 398,
+    "simple_rel_verify_rows": 5465,
+    "yes_ref_present": 3145,
+    "no_ref_missing": 2320,
+    "exact_question_multi_image_both_answers": 67,
+    "exact_question_multi_image_both_answers_ref_present": 0
+  },
+  "val_balanced": {
+    "rows": 132062,
+    "unique_images": 10234,
+    "simple_rel_verify_rows": 4269,
+    "yes_ref_present": 2207,
+    "no_ref_missing": 2062,
+    "exact_question_multi_image_both_answers": 115,
+    "exact_question_multi_image_both_answers_ref_present": 0
+  },
+  "coverage": {
+    "testdev_balanced": {
+      "val": {
+        "scene_graph_images": 10696,
+        "covered": 0,
+        "total": 398
+      },
+      "train": {
+        "scene_graph_images": 74942,
+        "covered": 3,
+        "total": 398
+      }
+    },
+    "val_balanced": {
+      "val": {
+        "scene_graph_images": 10696,
+        "covered": 10234,
+        "total": 10234
+      }
+    }
+  }
+}

@@ -1,0 +1,5547 @@
+{
+  "summary": [
+    {
+      "group": "fence|material|wood",
+      "n_pairs": 40,
+      "auc_clean": 0.875,
+      "S1:target": {
+        "source_delta_mean": -1.0777022294700145,
+        "target_delta_mean": 0.5378556556999683,
+        "source_delta_median": -0.3761987090110779,
+        "target_delta_median": 0.24278491735458374
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.1658602621820238,
+        "target_delta_mean": 0.17509972485336098,
+        "source_delta_median": -0.00046753883361816406,
+        "target_delta_median": 0.12505006790161133
+      },
+      "S1:background": {
+        "source_delta_mean": -0.01486215170691995,
+        "target_delta_mean": 0.14595976251142997,
+        "source_delta_median": 0.002715855836868286,
+        "target_delta_median": 0.12499880790710449
+      },
+      "S1:auc_after_target": 0.775,
+      "S6:target": {
+        "source_delta_mean": -1.0369437977671623,
+        "target_delta_mean": 0.5156406901776791,
+        "source_delta_median": -0.4389488101005554,
+        "target_delta_median": 0.25027817487716675
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.09699399355385038,
+        "target_delta_mean": 0.21881097555160522,
+        "source_delta_median": 0.055487632751464844,
+        "target_delta_median": 0.24437934160232544
+      },
+      "S6:background": {
+        "source_delta_mean": 0.032418661257799936,
+        "target_delta_mean": 0.16174095758685358,
+        "source_delta_median": 0.0637812614440918,
+        "target_delta_median": 0.12529683113098145
+      },
+      "S6:auc_after_target": 0.775
+    },
+    {
+      "group": "table|color|brown",
+      "n_pairs": 40,
+      "auc_clean": 0.85,
+      "S1:target": {
+        "source_delta_mean": -0.5438410729169846,
+        "target_delta_mean": 0.5112901166081428,
+        "source_delta_median": -0.380779892206192,
+        "target_delta_median": 0.3125232458114624
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": 0.1481039149420602,
+        "target_delta_mean": 0.31167762069141164,
+        "source_delta_median": 0.12247568368911743,
+        "target_delta_median": 0.24887877702713013
+      },
+      "S1:background": {
+        "source_delta_mean": 0.09860910375912985,
+        "target_delta_mean": 0.1030078460188473,
+        "source_delta_median": 0.12015897035598755,
+        "target_delta_median": 0.1248772144317627
+      },
+      "S1:auc_after_target": 0.55,
+      "S6:target": {
+        "source_delta_mean": -0.5343795210123062,
+        "target_delta_mean": 0.5048351213335991,
+        "source_delta_median": -0.3759858012199402,
+        "target_delta_median": 0.37092646956443787
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": 0.12366532853671483,
+        "target_delta_mean": 0.32303590108366576,
+        "source_delta_median": -6.556510925292969e-07,
+        "target_delta_median": 0.18683519959449768
+      },
+      "S6:background": {
+        "source_delta_mean": 0.09081149498621623,
+        "target_delta_mean": 0.08834862358429853,
+        "source_delta_median": 0.12293201684951782,
+        "target_delta_median": 0.12357336282730103
+      },
+      "S6:auc_after_target": 0.6
+    },
+    {
+      "group": "jacket|color|black",
+      "n_pairs": 40,
+      "auc_clean": 0.725,
+      "S1:target": {
+        "source_delta_mean": -0.18426475375890733,
+        "target_delta_mean": 0.2812008336186409,
+        "source_delta_median": -0.12436378002166748,
+        "target_delta_median": 0.18656516075134277
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": 0.019701298914457623,
+        "target_delta_mean": 0.0888038677604575,
+        "source_delta_median": 7.450580596923828e-06,
+        "target_delta_median": 0.00015121698379516602
+      },
+      "S1:background": {
+        "source_delta_mean": -0.04582892593584562,
+        "target_delta_mean": 0.010160670892612354,
+        "source_delta_median": -4.2110681533813477e-05,
+        "target_delta_median": 0.0001347064971923828
+      },
+      "S1:auc_after_target": 0.6,
+      "S6:target": {
+        "source_delta_mean": -0.15313329547643661,
+        "target_delta_mean": 0.256192746758461,
+        "source_delta_median": -0.0004038810729980469,
+        "target_delta_median": 0.12499350309371948
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": 0.02628878543251439,
+        "target_delta_mean": 0.08881994454484236,
+        "source_delta_median": 4.6372413635253906e-05,
+        "target_delta_median": 3.165006637573242e-05
+      },
+      "S6:background": {
+        "source_delta_mean": -9.188526555111534e-06,
+        "target_delta_mean": 0.01693038924320324,
+        "source_delta_median": -3.463029861450195e-05,
+        "target_delta_median": 6.258487701416016e-05
+      },
+      "S6:auc_after_target": 0.6
+    },
+    {
+      "group": "building|color|white",
+      "n_pairs": 40,
+      "auc_clean": 0.75,
+      "S1:target": {
+        "source_delta_mean": -0.8592958062887192,
+        "target_delta_mean": 0.20310008749365807,
+        "source_delta_median": -0.2496187686920166,
+        "target_delta_median": 0.12446317076683044
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.22917500221067005,
+        "target_delta_mean": 0.07289063433806102,
+        "source_delta_median": -0.06138381361961365,
+        "target_delta_median": 0.00041371583938598633
+      },
+      "S1:background": {
+        "source_delta_mean": -0.22916803260644278,
+        "target_delta_mean": -0.07494415839513142,
+        "source_delta_median": -0.12418752908706665,
+        "target_delta_median": -0.0001627206802368164
+      },
+      "S1:auc_after_target": 0.65,
+      "S6:target": {
+        "source_delta_mean": -0.753219448775053,
+        "target_delta_mean": 0.28095663636922835,
+        "source_delta_median": -0.12588965892791748,
+        "target_delta_median": 0.12475240230560303
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.21519731233517328,
+        "target_delta_mean": 0.11436292197969225,
+        "source_delta_median": -0.06040710210800171,
+        "target_delta_median": 0.00031185150146484375
+      },
+      "S6:background": {
+        "source_delta_mean": -0.10446156064669292,
+        "target_delta_mean": -0.03777883648872375,
+        "source_delta_median": -0.0013908743858337402,
+        "target_delta_median": -5.137920379638672e-05
+      },
+      "S6:auc_after_target": 0.575
+    },
+    {
+      "group": "door|color|white",
+      "n_pairs": 40,
+      "auc_clean": 0.825,
+      "S1:target": {
+        "source_delta_mean": -0.5342893891036511,
+        "target_delta_mean": 0.21868986189365386,
+        "source_delta_median": -0.25009238719940186,
+        "target_delta_median": 0.12327903509140015
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.2785019225034958,
+        "target_delta_mean": 0.04819361986340703,
+        "source_delta_median": -0.12465071678161621,
+        "target_delta_median": 0.0018184185028076172
+      },
+      "S1:background": {
+        "source_delta_mean": -0.22801051770939545,
+        "target_delta_mean": -0.03085066080093384,
+        "source_delta_median": -0.1254028081893921,
+        "target_delta_median": -0.0003675222396850586
+      },
+      "S1:auc_after_target": 0.75,
+      "S6:target": {
+        "source_delta_mean": -0.4785926893353462,
+        "target_delta_mean": 0.23072293624281884,
+        "source_delta_median": -0.18919673562049866,
+        "target_delta_median": 0.1234329342842102
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.2633045078852238,
+        "target_delta_mean": 0.06827553623431437,
+        "source_delta_median": -0.1250525712966919,
+        "target_delta_median": 0.0018897056579589844
+      },
+      "S6:background": {
+        "source_delta_mean": -0.1853760261746014,
+        "target_delta_mean": 0.010757814986365181,
+        "source_delta_median": -0.12555307149887085,
+        "target_delta_median": 7.450580596923828e-07
+      },
+      "S6:auc_after_target": 0.725
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "semantic:test:fence|material|wood:0000",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.7638339996337891,
+          "delta": {
+            "S1:target": -2.626981735229492,
+            "S6:target": -2.504893660545349,
+            "S1:irrelevant": -1.2479047179222107,
+            "S6:irrelevant": -1.253130704164505,
+            "S1:background": 0.12587988376617432,
+            "S6:background": 0.1223028302192688
+          }
+        },
+        "target": {
+          "m_clean": 0.2703458070755005,
+          "delta": {
+            "S1:target": -1.7534103393554688,
+            "S6:target": -1.7557029724121094,
+            "S1:irrelevant": -1.1281993389129639,
+            "S6:irrelevant": -1.0009614825248718,
+            "S1:background": 0.24103504419326782,
+            "S6:background": 0.3719053864479065
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0001",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -2.2377724647521973,
+          "delta": {
+            "S1:target": -0.002682209014892578,
+            "S6:target": 0.12170886993408203,
+            "S1:irrelevant": -0.0037736892700195312,
+            "S6:irrelevant": 0.12351679801940918,
+            "S1:background": 0.12294220924377441,
+            "S6:background": 0.24733459949493408
+          }
+        },
+        "target": {
+          "m_clean": -1.988279938697815,
+          "delta": {
+            "S1:target": 0.6173062324523926,
+            "S6:target": 0.867306113243103,
+            "S1:irrelevant": -0.2578784227371216,
+            "S6:irrelevant": -0.13441979885101318
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0002",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.23438364267349243,
+          "delta": {
+            "S1:target": -1.3729754090309143,
+            "S6:target": -1.379870355129242,
+            "S1:irrelevant": 0.004288077354431152,
+            "S6:irrelevant": 0.24512898921966553,
+            "S1:background": -0.004117131233215332,
+            "S6:background": 0.24907535314559937
+          }
+        },
+        "target": {
+          "m_clean": -2.2469468116760254,
+          "delta": {
+            "S1:target": 0.1250472068786621,
+            "S6:target": 0.12666630744934082,
+            "S1:irrelevant": 0.2493269443511963,
+            "S6:irrelevant": 0.37525761127471924
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0003",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.3631501793861389,
+          "delta": {
+            "S1:target": -0.3674786686897278,
+            "S6:target": -0.37073785066604614,
+            "S1:irrelevant": 0.24998551607131958,
+            "S6:irrelevant": 0.3736225962638855,
+            "S1:background": 0.0028691887855529785,
+            "S6:background": 0.12429141998291016
+          }
+        },
+        "target": {
+          "m_clean": -2.746687412261963,
+          "delta": {
+            "S1:target": 1.2492239475250244,
+            "S6:target": 1.2513178586959839,
+            "S1:irrelevant": 0.12426972389221191,
+            "S6:irrelevant": 0.250079870223999
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0004",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 1.2567877769470215,
+          "delta": {
+            "S1:target": -2.3651976585388184,
+            "S6:target": -2.5030038356781006,
+            "S1:irrelevant": 0.12292838096618652,
+            "S6:irrelevant": 0.24694585800170898
+          }
+        },
+        "target": {
+          "m_clean": -3.746701955795288,
+          "delta": {
+            "S1:target": 2.1484487056732178,
+            "S6:target": 2.0009857416152954,
+            "S1:irrelevant": 0.7579243183135986,
+            "S6:irrelevant": 0.500002384185791
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0005",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 1.0090829133987427,
+          "delta": {
+            "S1:target": -2.4728277921676636,
+            "S6:target": -2.4924771785736084,
+            "S1:background": 0.24656760692596436,
+            "S6:background": 0.24847114086151123
+          }
+        },
+        "target": {
+          "m_clean": -1.6198383569717407,
+          "delta": {
+            "S1:target": 0.12403273582458496,
+            "S6:target": -3.0875205993652344e-05,
+            "S1:irrelevant": -0.0009007453918457031,
+            "S6:irrelevant": -0.0006024837493896484,
+            "S1:background": 0.12437248229980469,
+            "S6:background": 0.12529683113098145
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0006",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.6847858428955078,
+          "delta": {
+            "S1:target": -2.1544313430786133,
+            "S6:target": -2.1608972549438477,
+            "S1:irrelevant": -2.2794137001037598,
+            "S6:irrelevant": -1.911085844039917,
+            "S1:background": 0.3694038391113281,
+            "S6:background": 0.3796720504760742
+          }
+        },
+        "target": {
+          "m_clean": -2.495739221572876,
+          "delta": {
+            "S1:target": 0.1258859634399414,
+            "S6:target": 0.3746836185455322,
+            "S1:irrelevant": 0.5016766786575317,
+            "S6:irrelevant": 0.7515654563903809,
+            "S1:background": 0.12869048118591309,
+            "S6:background": 0.25119781494140625
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0007",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.214399516582489,
+          "delta": {
+            "S1:target": -1.1197341084480286,
+            "S6:target": -1.0290257334709167,
+            "S1:irrelevant": 0.12954217195510864,
+            "S6:irrelevant": 0.2499983310699463,
+            "S1:background": 0.35878682136535645,
+            "S6:background": 0.6113044023513794
+          }
+        },
+        "target": {
+          "m_clean": -2.8642404079437256,
+          "delta": {
+            "S1:target": 0.24652457237243652,
+            "S6:target": -0.003534555435180664,
+            "S1:background": 0.24784111976623535,
+            "S6:background": 0.2468404769897461
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0008",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.9775080680847168,
+          "delta": {
+            "S1:target": -0.12193167209625244,
+            "S6:target": 0.0022630691528320312,
+            "S1:irrelevant": 0.49511831998825073,
+            "S6:irrelevant": 0.624142050743103,
+            "S1:background": -0.3787655830383301,
+            "S6:background": -0.49693095684051514
+          }
+        },
+        "target": {
+          "m_clean": -2.4899353981018066,
+          "delta": {
+            "S1:target": 0.0020422935485839844,
+            "S6:target": 0.12510466575622559,
+            "S1:irrelevant": 0.5006382465362549,
+            "S6:irrelevant": 0.49947893619537354,
+            "S1:background": 0.12152242660522461,
+            "S6:background": 0.1223917007446289
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0009",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -2.7457363605499268,
+          "delta": {
+            "S1:target": 0.2486734390258789,
+            "S6:target": 0.37450122833251953,
+            "S1:irrelevant": 0.0011966228485107422,
+            "S6:irrelevant": 0.00027298927307128906,
+            "S1:background": 0.12529659271240234,
+            "S6:background": 0.24944472312927246
+          }
+        },
+        "target": {
+          "m_clean": -2.4980967044830322,
+          "delta": {
+            "S1:target": 0.0002524852752685547,
+            "S6:target": -0.000324249267578125,
+            "S1:irrelevant": 0.0003688335418701172,
+            "S6:irrelevant": 0.1252579689025879,
+            "S1:background": 0.125868558883667,
+            "S6:background": 0.12467575073242188
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0010",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.4904918074607849,
+          "delta": {
+            "S1:target": -0.2525632977485657,
+            "S6:target": -0.2517600655555725,
+            "S1:irrelevant": -0.12477517127990723,
+            "S6:irrelevant": 5.960464477539063e-08,
+            "S1:background": -0.37556952238082886,
+            "S6:background": -0.12610572576522827
+          }
+        },
+        "target": {
+          "m_clean": -2.3670637607574463,
+          "delta": {
+            "S1:target": 0.37283432483673096,
+            "S6:target": 0.24901318550109863,
+            "S1:irrelevant": 0.251575231552124,
+            "S6:irrelevant": 0.12475204467773438,
+            "S1:background": 0.2474069595336914,
+            "S6:background": 0.12285804748535156
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0011",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -3.1235427856445312,
+          "delta": {
+            "S1:target": -0.3742036819458008,
+            "S6:target": -0.5001695156097412,
+            "S1:irrelevant": -0.12490606307983398,
+            "S6:irrelevant": -0.2495589256286621,
+            "S1:background": 0.0005631446838378906,
+            "S6:background": 0.12532687187194824
+          }
+        },
+        "target": {
+          "m_clean": -1.7445557117462158,
+          "delta": {
+            "S1:target": 0.2495793104171753,
+            "S6:target": 0.2493654489517212,
+            "S1:irrelevant": 0.4999992847442627,
+            "S6:irrelevant": 0.6232043504714966,
+            "S1:background": 0.24927330017089844,
+            "S6:background": 0.24854636192321777
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0012",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.618806004524231,
+          "delta": {
+            "S1:target": -1.0010498762130737,
+            "S6:target": -1.0003702640533447,
+            "S1:irrelevant": -0.12577080726623535,
+            "S6:irrelevant": 0.00033676624298095703,
+            "S1:background": -0.1042630672454834,
+            "S6:background": 0.1272621750831604
+          }
+        },
+        "target": {
+          "m_clean": -2.1179726123809814,
+          "delta": {
+            "S1:target": -0.24963021278381348,
+            "S6:target": -0.12312459945678711,
+            "S1:irrelevant": 0.0008387565612792969,
+            "S6:irrelevant": 0.25044894218444824,
+            "S1:background": -0.3761911392211914,
+            "S6:background": -0.1265714168548584
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0013",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.11387395858764648,
+          "delta": {
+            "S1:target": -1.2534512281417847,
+            "S6:target": -1.3795382976531982,
+            "S1:irrelevant": 0.12155801057815552,
+            "S6:irrelevant": -0.0029609203338623047,
+            "S1:background": 0.2651670575141907,
+            "S6:background": -0.12186819314956665
+          }
+        },
+        "target": {
+          "m_clean": -4.245077133178711,
+          "delta": {
+            "S1:target": 1.2520902156829834,
+            "S6:target": 1.378519058227539,
+            "S1:irrelevant": 0.1239938735961914,
+            "S6:irrelevant": 0.0007157325744628906
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0014",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.48342108726501465,
+          "delta": {
+            "S1:target": -1.258139729499817,
+            "S6:target": -1.1287028789520264,
+            "S1:irrelevant": 0.36584538221359253,
+            "S6:irrelevant": 0.24465960264205933,
+            "S1:background": 0.24357032775878906,
+            "S6:background": 0.1230926513671875
+          }
+        },
+        "target": {
+          "m_clean": -2.3699045181274414,
+          "delta": {
+            "S1:target": 1.2614946365356445,
+            "S6:target": 1.0023812055587769,
+            "S1:irrelevant": 0.37604057788848877,
+            "S6:irrelevant": 0.624159574508667
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0015",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 2.018738269805908,
+          "delta": {
+            "S1:target": -2.883567452430725,
+            "S6:target": -2.877282977104187,
+            "S1:irrelevant": -1.2579927444458008,
+            "S6:irrelevant": -1.1337968111038208
+          }
+        },
+        "target": {
+          "m_clean": -2.9984912872314453,
+          "delta": {
+            "S1:target": 1.8900814056396484,
+            "S6:target": 1.7525068521499634,
+            "S1:irrelevant": -3.62396240234375e-05,
+            "S6:irrelevant": -0.12493515014648438
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0016",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 1.503315806388855,
+          "delta": {
+            "S1:target": -2.747178316116333,
+            "S6:target": -2.8755773305892944,
+            "S1:irrelevant": 0.0002110004425048828,
+            "S6:irrelevant": -0.12476766109466553,
+            "S1:background": 0.6252299547195435,
+            "S6:background": 0.6256893873214722
+          }
+        },
+        "target": {
+          "m_clean": -2.494370937347412,
+          "delta": {
+            "S1:target": 0.37921977043151855,
+            "S6:target": 0.6305971145629883,
+            "S1:irrelevant": 0.6229811906814575,
+            "S6:irrelevant": 0.6230536699295044,
+            "S1:background": 0.12404990196228027,
+            "S6:background": 0.12389063835144043
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0017",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 2.757941961288452,
+          "delta": {
+            "S1:target": -3.969420313835144,
+            "S6:target": -3.992460608482361,
+            "S1:irrelevant": -1.9952471852302551,
+            "S6:irrelevant": -1.7464628219604492
+          }
+        },
+        "target": {
+          "m_clean": -4.124113082885742,
+          "delta": {
+            "S1:target": 0.6256964206695557,
+            "S6:target": 0.3751370906829834,
+            "S1:irrelevant": 0.12526750564575195,
+            "S6:irrelevant": 0.00026798248291015625,
+            "S1:background": 0.6252670288085938,
+            "S6:background": 0.6255049705505371
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0018",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.8878709077835083,
+          "delta": {
+            "S1:target": -1.5073986053466797,
+            "S6:target": -1.5066753029823303,
+            "S1:irrelevant": 0.12351000308990479,
+            "S6:irrelevant": 0.12499916553497314,
+            "S1:background": -0.0016481876373291016,
+            "S6:background": 0.0014812946319580078
+          }
+        },
+        "target": {
+          "m_clean": -1.366560697555542,
+          "delta": {
+            "S1:target": -0.37264180183410645,
+            "S6:target": -0.49474501609802246,
+            "S1:irrelevant": -0.12446355819702148,
+            "S6:irrelevant": -0.12328529357910156,
+            "S1:background": 0.0011088848114013672,
+            "S6:background": 0.000461578369140625
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0019",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -1.0782924890518188,
+          "delta": {
+            "S1:target": -0.13936161994934082,
+            "S6:target": -0.38608407974243164,
+            "S1:irrelevant": -0.00996100902557373,
+            "S6:irrelevant": 0.11063849925994873,
+            "S1:background": 0.10695385932922363,
+            "S6:background": -0.007969379425048828
+          }
+        },
+        "target": {
+          "m_clean": -3.3721883296966553,
+          "delta": {
+            "S1:target": 1.500579595565796,
+            "S6:target": 1.1261780261993408,
+            "S1:irrelevant": 0.7503736019134521,
+            "S6:irrelevant": 1.0000567436218262
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0020",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.9847285151481628,
+          "delta": {
+            "S1:target": -0.2517635226249695,
+            "S6:target": -0.25070852041244507,
+            "S1:irrelevant": 0.24842077493667603,
+            "S6:irrelevant": 0.12499874830245972,
+            "S1:background": 0.12121313810348511,
+            "S6:background": 0.12194079160690308
+          }
+        },
+        "target": {
+          "m_clean": -2.488513946533203,
+          "delta": {
+            "S1:target": 0.8957231044769287,
+            "S6:target": 1.0000189542770386,
+            "S1:irrelevant": -0.12568449974060059,
+            "S6:irrelevant": -0.1256852149963379,
+            "S1:background": 0.12343859672546387,
+            "S6:background": 0.000232696533203125
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0021",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.5112292766571045,
+          "delta": {
+            "S1:target": -0.4829031229019165,
+            "S6:target": -0.4918135404586792,
+            "S1:irrelevant": -0.12154579162597656,
+            "S6:irrelevant": -0.12332600355148315,
+            "S1:background": 0.0025625228881835938,
+            "S6:background": 0.1266728639602661
+          }
+        },
+        "target": {
+          "m_clean": -2.368468761444092,
+          "delta": {
+            "S1:target": 1.260058879852295,
+            "S6:target": 0.9991848468780518,
+            "S1:irrelevant": -0.12744498252868652,
+            "S6:irrelevant": 0.12389159202575684
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0022",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 2.2607524394989014,
+          "delta": {
+            "S1:target": -3.379557967185974,
+            "S6:target": -3.0042221546173096
+          }
+        },
+        "target": {
+          "m_clean": -1.1127920150756836,
+          "delta": {
+            "S1:target": 0.539432168006897,
+            "S6:target": 0.5042760372161865,
+            "S1:irrelevant": 0.245652437210083,
+            "S6:irrelevant": 0.24437934160232544
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0023",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.18067008256912231,
+          "delta": {
+            "S1:target": -0.6441827714443207,
+            "S6:target": -0.5120139718055725,
+            "S1:irrelevant": -0.9030910134315491,
+            "S6:irrelevant": -0.8976181745529175,
+            "S1:background": 0.10946637392044067,
+            "S6:background": 0.11456489562988281
+          }
+        },
+        "target": {
+          "m_clean": -1.9957690238952637,
+          "delta": {
+            "S1:target": -0.001959085464477539,
+            "S6:target": -0.0009303092956542969,
+            "S1:background": 0.1475144624710083,
+            "S6:background": 0.12863552570343018
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0024",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.6441207528114319,
+          "delta": {
+            "S1:target": -0.006299436092376709,
+            "S6:target": 0.12273114919662476,
+            "S1:irrelevant": -0.0022652149200439453,
+            "S6:irrelevant": -0.0021584630012512207,
+            "S1:background": 0.11870056390762329,
+            "S6:background": -0.004081428050994873
+          }
+        },
+        "target": {
+          "m_clean": -1.9959887266159058,
+          "delta": {
+            "S1:target": 0.12453949451446533,
+            "S6:target": -0.12571251392364502,
+            "S1:irrelevant": 0.12411737442016602,
+            "S6:irrelevant": -0.0002409219741821289,
+            "S1:background": 0.12454140186309814,
+            "S6:background": 0.12646007537841797
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0025",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.9735668897628784,
+          "delta": {
+            "S1:target": -0.266698956489563,
+            "S6:target": -0.012661635875701904,
+            "S1:irrelevant": 0.4911680221557617,
+            "S6:irrelevant": 0.9908188581466675
+          }
+        },
+        "target": {
+          "m_clean": -2.244654893875122,
+          "delta": {
+            "S1:target": 0.12421011924743652,
+            "S6:target": 0.0003418922424316406,
+            "S1:irrelevant": 0.24752581119537354,
+            "S6:irrelevant": 0.24778568744659424,
+            "S1:background": 0.13263964653015137,
+            "S6:background": 0.1281137466430664
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0026",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -2.8672454357147217,
+          "delta": {
+            "S1:target": -0.2514379024505615,
+            "S6:target": -0.24966216087341309,
+            "S1:irrelevant": -0.001611471176147461,
+            "S6:irrelevant": 0.12464118003845215,
+            "S1:background": -0.12732696533203125,
+            "S6:background": -0.12514877319335938
+          }
+        },
+        "target": {
+          "m_clean": -2.6184327602386475,
+          "delta": {
+            "S1:target": 0.12634038925170898,
+            "S6:target": 0.2511909008026123,
+            "S1:irrelevant": 0.24741458892822266,
+            "S6:irrelevant": 0.2485358715057373,
+            "S1:background": 0.1298832893371582,
+            "S6:background": 0.0013391971588134766
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0027",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.8646418452262878,
+          "delta": {
+            "S1:target": -0.0008121132850646973,
+            "S6:target": 0.0015835165977478027,
+            "S1:irrelevant": -0.8762031197547913,
+            "S6:irrelevant": -0.7495934367179871,
+            "S1:background": -0.23229318857192993,
+            "S6:background": 0.0003508329391479492
+          }
+        },
+        "target": {
+          "m_clean": -2.095700263977051,
+          "delta": {
+            "S1:target": 0.23904526233673096,
+            "S6:target": 0.11685597896575928,
+            "S1:irrelevant": 0.12088608741760254,
+            "S6:irrelevant": -0.001348733901977539,
+            "S1:background": 0.12056887149810791,
+            "S6:background": 0.24410760402679443
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0028",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 1.254455327987671,
+          "delta": {
+            "S1:target": -1.8708515167236328,
+            "S6:target": -1.7480170130729675,
+            "S1:background": -0.9821568131446838,
+            "S6:background": -0.6254281401634216
+          }
+        },
+        "target": {
+          "m_clean": -3.6203718185424805,
+          "delta": {
+            "S1:target": 2.2561702728271484,
+            "S6:target": 2.2538117170333862,
+            "S1:irrelevant": 0.37412333488464355,
+            "S6:irrelevant": 0.49928927421569824,
+            "S1:background": 0.5019042491912842,
+            "S6:background": 0.2486734390258789
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0029",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -1.1102977991104126,
+          "delta": {
+            "S1:target": -0.378193736076355,
+            "S6:target": -0.3740745782852173,
+            "S1:irrelevant": 0.11980688571929932,
+            "S6:irrelevant": 0.2454095482826233,
+            "S1:background": 0.1233065128326416,
+            "S6:background": 0.0009244680404663086
+          }
+        },
+        "target": {
+          "m_clean": -2.487823486328125,
+          "delta": {
+            "S1:target": 0.12528347969055176,
+            "S6:target": 0.12318038940429688,
+            "S1:irrelevant": 0.3847315311431885,
+            "S6:irrelevant": 0.3757741451263428,
+            "S1:background": 0.0012319087982177734,
+            "S6:background": 0.0004303455352783203
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0030",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -1.6093955039978027,
+          "delta": {
+            "S1:target": -0.2464582920074463,
+            "S6:target": -0.12414932250976562,
+            "S1:background": -0.0003374814987182617,
+            "S6:background": 0.0024069547653198242
+          }
+        },
+        "target": {
+          "m_clean": -2.747584104537964,
+          "delta": {
+            "S1:target": 1.639174222946167,
+            "S6:target": 1.37711501121521,
+            "S1:irrelevant": -0.25022387504577637,
+            "S6:irrelevant": -0.00039267539978027344
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0031",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -1.0956857204437256,
+          "delta": {
+            "S1:target": 0.25305187702178955,
+            "S6:target": 0.12364774942398071,
+            "S1:irrelevant": 0.25327515602111816,
+            "S6:irrelevant": 0.49827897548675537,
+            "S1:background": -0.12363719940185547,
+            "S6:background": -0.12274694442749023
+          }
+        },
+        "target": {
+          "m_clean": -3.619703769683838,
+          "delta": {
+            "S1:target": 2.511293888092041,
+            "S6:target": 2.5034998655319214
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0032",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 2.009557008743286,
+          "delta": {
+            "S1:target": -3.1076297760009766,
+            "S6:target": -2.6279834508895874,
+            "S1:irrelevant": -0.3742886781692505,
+            "S6:irrelevant": -0.5016591548919678
+          }
+        },
+        "target": {
+          "m_clean": -2.09454083442688,
+          "delta": {
+            "S1:target": -0.13596081733703613,
+            "S6:target": -0.008435726165771484,
+            "S1:irrelevant": 2.384185791015625e-07,
+            "S6:irrelevant": 0.0030558109283447266,
+            "S1:background": 0.11940860748291016,
+            "S6:background": 0.11940872669219971
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0033",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -1.8663995265960693,
+          "delta": {
+            "S1:target": -0.12466096878051758,
+            "S6:target": -0.0003572702407836914,
+            "S1:irrelevant": 0.624260425567627,
+            "S6:irrelevant": 0.6276259422302246,
+            "S1:background": -0.1240915060043335,
+            "S6:background": -0.12551426887512207
+          }
+        },
+        "target": {
+          "m_clean": -0.4776743948459625,
+          "delta": {
+            "S1:target": -0.2584937512874603,
+            "S6:target": -0.25028935074806213,
+            "S1:irrelevant": -0.12982627749443054,
+            "S6:irrelevant": -0.0024097561836242676,
+            "S1:background": 0.03491470217704773,
+            "S6:background": -0.12055757641792297
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0034",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 3.0023555755615234,
+          "delta": {
+            "S1:target": -4.366541266441345,
+            "S6:target": -4.2476747035980225,
+            "S1:irrelevant": 0.12445950508117676,
+            "S6:irrelevant": 0.12491893768310547,
+            "S1:background": -1.4939593076705933,
+            "S6:background": -0.9999804496765137
+          }
+        },
+        "target": {
+          "m_clean": -1.7410591840744019,
+          "delta": {
+            "S1:target": 0.12446355819702148,
+            "S6:target": 0.3721081018447876,
+            "S1:irrelevant": -0.5017954111099243,
+            "S6:irrelevant": -0.2539188861846924,
+            "S1:background": 0.0069942474365234375,
+            "S6:background": 0.2537606954574585
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0035",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.024746298789978027,
+          "delta": {
+            "S1:target": -0.2421741485595703,
+            "S6:target": -0.2484433650970459,
+            "S1:irrelevant": -0.12344491481781006,
+            "S6:irrelevant": -0.1303730010986328,
+            "S1:background": -0.12500059604644775,
+            "S6:background": -0.12646567821502686
+          }
+        },
+        "target": {
+          "m_clean": -1.4788460731506348,
+          "delta": {
+            "S1:target": -0.1262359619140625,
+            "S6:target": -0.12957143783569336,
+            "S1:irrelevant": -0.12756013870239258,
+            "S6:irrelevant": -0.12756216526031494,
+            "S1:background": 0.12871313095092773,
+            "S6:background": 0.12257742881774902
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0036",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.782224178314209,
+          "delta": {
+            "S1:target": -0.11702805757522583,
+            "S6:target": -0.11357933282852173,
+            "S1:irrelevant": 0.1310805082321167,
+            "S6:irrelevant": 0.25502216815948486,
+            "S1:background": 0.1300266981124878,
+            "S6:background": 0.012997627258300781
+          }
+        },
+        "target": {
+          "m_clean": -2.246748208999634,
+          "delta": {
+            "S1:target": -0.3685181140899658,
+            "S6:target": 0.0009791851043701172,
+            "S1:irrelevant": 0.12505006790161133,
+            "S6:irrelevant": 0.25147056579589844,
+            "S1:background": 0.12499880790710449,
+            "S6:background": 0.37451183795928955
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0037",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -1.9908483028411865,
+          "delta": {
+            "S1:target": 0.37313270568847656,
+            "S6:target": 0.37161922454833984,
+            "S1:irrelevant": 0.12517690658569336,
+            "S6:irrelevant": 0.12535762786865234,
+            "S1:background": 0.3716689348220825,
+            "S6:background": 0.24728357791900635
+          }
+        },
+        "target": {
+          "m_clean": -3.872404098510742,
+          "delta": {
+            "S1:target": 1.0020315647125244,
+            "S6:target": 1.0024259090423584,
+            "S1:irrelevant": 0.3751404285430908,
+            "S6:irrelevant": 0.500166654586792,
+            "S1:background": -0.12595748901367188,
+            "S6:background": -0.0004949569702148438
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0038",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -2.7427175045013428,
+          "delta": {
+            "S1:target": 0.0010797977447509766,
+            "S6:target": -0.12277388572692871,
+            "S1:irrelevant": -0.001146078109741211,
+            "S6:irrelevant": -0.12254953384399414,
+            "S1:background": 0.00046515464782714844,
+            "S6:background": 0.0013184547424316406
+          }
+        },
+        "target": {
+          "m_clean": -3.496751546859741,
+          "delta": {
+            "S1:target": 1.645625352859497,
+            "S6:target": 1.3802094459533691,
+            "S1:irrelevant": 1.625397801399231,
+            "S6:irrelevant": 1.5011851787567139
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0039",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -1.3562748432159424,
+          "delta": {
+            "S1:target": -0.2562587261199951,
+            "S6:target": -0.12814462184906006,
+            "S1:irrelevant": -0.12945973873138428,
+            "S6:irrelevant": -0.0040760040283203125,
+            "S1:background": -0.002786993980407715,
+            "S6:background": 0.12126505374908447
+          }
+        },
+        "target": {
+          "m_clean": -2.1172468662261963,
+          "delta": {
+            "S1:target": -0.0026552677154541016,
+            "S6:target": 0.12306869029998779,
+            "S1:irrelevant": 0.4973888397216797,
+            "S6:irrelevant": 0.2479332685470581,
+            "S1:background": 0.5098741054534912,
+            "S6:background": 0.5028089284896851
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0000",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.38139450550079346,
+          "delta": {
+            "S1:target": -0.6309975385665894,
+            "S6:target": -0.38094812631607056
+          }
+        },
+        "target": {
+          "m_clean": -0.999643087387085,
+          "delta": {
+            "S1:target": 0.2496393322944641,
+            "S6:target": 0.000650942325592041,
+            "S1:irrelevant": 0.12502193450927734,
+            "S6:irrelevant": 0.12507247924804688
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0001",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.5023037195205688,
+          "delta": {
+            "S1:target": -1.3745827674865723,
+            "S6:target": -1.249160647392273
+          }
+        },
+        "target": {
+          "m_clean": -0.12500476837158203,
+          "delta": {
+            "S1:target": -0.24904966354370117,
+            "S6:target": -0.12398958206176758,
+            "S1:irrelevant": -0.24833595752716064,
+            "S6:irrelevant": 0.0005542635917663574,
+            "S1:background": -0.12405037879943848,
+            "S6:background": -0.12256467342376709
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0002",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.6191823482513428,
+          "delta": {
+            "S1:target": 0.12055522203445435,
+            "S6:target": 0.12039941549301147,
+            "S1:irrelevant": -0.0022933483123779297,
+            "S6:irrelevant": -0.1259775161743164
+          }
+        },
+        "target": {
+          "m_clean": -0.7479735612869263,
+          "delta": {
+            "S1:target": 0.7496544122695923,
+            "S6:target": 0.6258363723754883,
+            "S1:background": 0.1248772144317627,
+            "S6:background": 0.00028395652770996094
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0003",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.6262040734291077,
+          "delta": {
+            "S1:target": -0.8756315112113953,
+            "S6:target": -0.8762087225914001,
+            "S1:irrelevant": 0.37470728158950806,
+            "S6:irrelevant": 0.24978595972061157
+          }
+        },
+        "target": {
+          "m_clean": -1.3724095821380615,
+          "delta": {
+            "S1:target": 0.000855565071105957,
+            "S6:target": 0.001309514045715332,
+            "S1:irrelevant": 9.810924530029297e-05,
+            "S6:irrelevant": 0.0015565156936645508,
+            "S1:background": 0.12575507164001465,
+            "S6:background": 0.1250213384628296
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0004",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.12144851684570312,
+          "delta": {
+            "S1:target": -0.6264388561248779,
+            "S6:target": -0.627528965473175,
+            "S1:irrelevant": 1.123815894126892,
+            "S6:irrelevant": 0.8737478852272034
+          }
+        },
+        "target": {
+          "m_clean": -1.874343752861023,
+          "delta": {
+            "S1:target": 1.624740719795227,
+            "S6:target": 1.3743400573730469,
+            "S1:irrelevant": 0.24995970726013184,
+            "S6:irrelevant": 0.25004255771636963
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0005",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -1.7491962909698486,
+          "delta": {
+            "S1:target": 0.2499065399169922,
+            "S6:target": 0.24919795989990234,
+            "S1:irrelevant": 0.12632787227630615,
+            "S6:irrelevant": 0.2498643398284912,
+            "S1:background": 0.0014629364013671875,
+            "S6:background": 5.066394805908203e-05
+          }
+        },
+        "target": {
+          "m_clean": -0.8719210624694824,
+          "delta": {
+            "S1:target": -0.1280820369720459,
+            "S6:target": -0.25205326080322266,
+            "S1:irrelevant": 0.247825026512146,
+            "S6:irrelevant": 0.0009081363677978516,
+            "S1:background": 0.1254461407661438,
+            "S6:background": 0.12357336282730103
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0006",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -1.3749988079071045,
+          "delta": {
+            "S1:target": -0.37590789794921875,
+            "S6:target": -0.2510915994644165,
+            "S1:irrelevant": -0.37500107288360596,
+            "S6:irrelevant": -0.2509075403213501,
+            "S1:background": 0.12688708305358887,
+            "S6:background": 0.2538943290710449
+          }
+        },
+        "target": {
+          "m_clean": -1.6250016689300537,
+          "delta": {
+            "S1:target": 0.001662135124206543,
+            "S6:target": -0.1233377456665039,
+            "S1:irrelevant": 0.0011415481567382812,
+            "S6:irrelevant": 0.12555289268493652,
+            "S1:background": 0.1258920431137085,
+            "S6:background": 0.24999845027923584
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0007",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.7494509220123291,
+          "delta": {
+            "S1:target": -0.0005533695220947266,
+            "S6:target": -0.12555193901062012,
+            "S1:irrelevant": -0.25025391578674316,
+            "S6:irrelevant": -0.37447333335876465,
+            "S1:background": 0.12398689985275269,
+            "S6:background": 0.12395727634429932
+          }
+        },
+        "target": {
+          "m_clean": -1.6243864297866821,
+          "delta": {
+            "S1:target": 0.12527406215667725,
+            "S6:target": 0.12527692317962646,
+            "S1:background": 0.37438535690307617,
+            "S6:background": 0.37461721897125244
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0008",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.1284744143486023,
+          "delta": {
+            "S1:target": 0.12218356132507324,
+            "S6:target": -0.0021188855171203613,
+            "S1:irrelevant": 0.6225181221961975,
+            "S6:irrelevant": 0.6236382126808167
+          }
+        },
+        "target": {
+          "m_clean": -3.499737024307251,
+          "delta": {
+            "S1:target": 2.624436676502228,
+            "S6:target": 2.499735116958618,
+            "S1:irrelevant": 0.12488722801208496,
+            "S6:irrelevant": 0.12473726272583008
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0009",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 1.0026063919067383,
+          "delta": {
+            "S1:target": -1.2522094249725342,
+            "S6:target": -1.6271849870681763,
+            "S1:irrelevant": -1.1271000504493713,
+            "S6:irrelevant": -1.3770601749420166
+          }
+        },
+        "target": {
+          "m_clean": -0.3696906566619873,
+          "delta": {
+            "S1:target": -0.2540161609649658,
+            "S6:target": 0.24433153867721558
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0010",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.7534437775611877,
+          "delta": {
+            "S1:target": -0.8795380592346191,
+            "S6:target": -1.0005466938018799,
+            "S1:irrelevant": -0.3774387836456299,
+            "S6:irrelevant": -0.5025558471679688
+          }
+        },
+        "target": {
+          "m_clean": -0.7497243881225586,
+          "delta": {
+            "S1:target": -0.12299013137817383,
+            "S6:target": -0.12432670593261719,
+            "S1:irrelevant": 0.37562090158462524,
+            "S6:irrelevant": 0.3756207823753357,
+            "S1:background": 0.12495243549346924,
+            "S6:background": 0.2497197389602661
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0011",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.6157933473587036,
+          "delta": {
+            "S1:target": 0.1157882809638977,
+            "S6:target": 0.1162518560886383,
+            "S1:irrelevant": -0.25920987129211426,
+            "S6:irrelevant": -0.13420915603637695
+          }
+        },
+        "target": {
+          "m_clean": -1.373926043510437,
+          "delta": {
+            "S1:target": 0.49854063987731934,
+            "S6:target": 0.24851715564727783,
+            "S1:irrelevant": 0.4993818998336792,
+            "S6:irrelevant": 0.3739222288131714,
+            "S1:background": 0.6239215135574341,
+            "S6:background": 0.37432825565338135
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0012",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -2.7485978603363037,
+          "delta": {
+            "S1:target": 2.498994827270508,
+            "S6:target": 2.749171197414398,
+            "S1:irrelevant": 0.7496081590652466,
+            "S6:irrelevant": 0.6250896453857422
+          }
+        },
+        "target": {
+          "m_clean": -1.3724395036697388,
+          "delta": {
+            "S1:target": 0.6215824484825134,
+            "S6:target": 0.6206797361373901,
+            "S1:irrelevant": 0.3741002678871155,
+            "S6:irrelevant": 0.37399423122406006
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0013",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.7524282932281494,
+          "delta": {
+            "S1:target": -1.0020313262939453,
+            "S6:target": -1.0022395253181458,
+            "S1:irrelevant": 0.1246267557144165,
+            "S6:irrelevant": -0.0007822513580322266
+          }
+        },
+        "target": {
+          "m_clean": -1.8743059635162354,
+          "delta": {
+            "S1:target": 1.6247029304504395,
+            "S6:target": 1.6243013739585876,
+            "S1:irrelevant": 1.2499979734420776,
+            "S6:irrelevant": 1.125622034072876
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0014",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.3831765055656433,
+          "delta": {
+            "S1:target": -0.6327795386314392,
+            "S6:target": -0.7579872608184814,
+            "S1:irrelevant": 0.12247568368911743,
+            "S6:irrelevant": 0.2482183575630188
+          }
+        },
+        "target": {
+          "m_clean": -1.5006296634674072,
+          "delta": {
+            "S1:target": -0.24888575077056885,
+            "S6:target": -0.249373197555542,
+            "S1:irrelevant": -0.2493743896484375,
+            "S6:irrelevant": -0.24878418445587158,
+            "S1:background": 0.25062572956085205,
+            "S6:background": 0.1256256103515625
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0015",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.12110728025436401,
+          "delta": {
+            "S1:target": -0.0038980841636657715,
+            "S6:target": -0.0004495382308959961,
+            "S1:irrelevant": -0.37889528274536133,
+            "S6:irrelevant": -0.37544476985931396,
+            "S1:background": 0.001862645149230957,
+            "S6:background": -0.12239056825637817
+          }
+        },
+        "target": {
+          "m_clean": -1.2465577125549316,
+          "delta": {
+            "S1:target": 0.49762582778930664,
+            "S6:target": 0.49718254804611206,
+            "S1:irrelevant": 0.3724461793899536,
+            "S6:irrelevant": 0.24811750650405884
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0016",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.8720480799674988,
+          "delta": {
+            "S1:target": 0.6288251280784607,
+            "S6:target": 0.2500861883163452,
+            "S1:irrelevant": 0.12482285499572754,
+            "S6:irrelevant": 0.12419658899307251,
+            "S1:background": -0.000933527946472168,
+            "S6:background": -0.12549978494644165
+          }
+        },
+        "target": {
+          "m_clean": -1.6263757944107056,
+          "delta": {
+            "S1:target": 0.12594294548034668,
+            "S6:target": 0.2501591444015503,
+            "S1:irrelevant": 0.1259160041809082,
+            "S6:irrelevant": 0.12523257732391357,
+            "S1:background": 0.000760197639465332,
+            "S6:background": -0.12324321269989014
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0017",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.12271493673324585,
+          "delta": {
+            "S1:target": -0.37591394782066345,
+            "S6:target": -0.3753868341445923,
+            "S1:irrelevant": 0.4986047148704529,
+            "S6:irrelevant": 0.4986613988876343,
+            "S1:background": -0.25026553869247437,
+            "S6:background": -0.12581729888916016
+          }
+        },
+        "target": {
+          "m_clean": -0.7483232021331787,
+          "delta": {
+            "S1:target": 0.37575292587280273,
+            "S6:target": 0.4986579418182373,
+            "S1:irrelevant": 0.37410789728164673,
+            "S6:irrelevant": 0.2501069903373718
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0018",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.13277310132980347,
+          "delta": {
+            "S1:target": -0.38237613439559937,
+            "S6:target": -0.25729799270629883,
+            "S1:irrelevant": -0.2568977475166321,
+            "S6:irrelevant": -0.13192331790924072
+          }
+        },
+        "target": {
+          "m_clean": 1.1412546634674072,
+          "delta": {
+            "S1:target": -1.7619791626930237,
+            "S6:target": -1.8872677087783813,
+            "S1:irrelevant": -0.38750898838043213,
+            "S6:irrelevant": -0.261749267578125
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0019",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 2.1295418739318848,
+          "delta": {
+            "S1:target": -2.378332257270813,
+            "S6:target": -2.6280613839626312,
+            "S1:background": -0.1275315284729004,
+            "S6:background": -0.12707042694091797
+          }
+        },
+        "target": {
+          "m_clean": -2.24870228767395,
+          "delta": {
+            "S1:target": 1.9990992546081543,
+            "S6:target": 2.1245391964912415,
+            "S1:irrelevant": 0.24993252754211426,
+            "S6:irrelevant": 0.25038135051727295
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0020",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 3.5025651454925537,
+          "delta": {
+            "S1:target": -3.7521681785583496,
+            "S6:target": -3.752025842666626,
+            "S1:irrelevant": -0.12541818618774414,
+            "S6:irrelevant": -0.3748347759246826
+          }
+        },
+        "target": {
+          "m_clean": -0.37296271324157715,
+          "delta": {
+            "S1:target": 0.12335968017578125,
+            "S6:target": 0.2489715814590454,
+            "S1:irrelevant": 0.12541651725769043,
+            "S6:irrelevant": 0.2504153251647949
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0021",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 2.0045206546783447,
+          "delta": {
+            "S1:target": -2.379066824913025,
+            "S6:target": -2.379206359386444,
+            "S1:irrelevant": 0.24822759628295898,
+            "S6:irrelevant": 0.3732278347015381
+          }
+        },
+        "target": {
+          "m_clean": -0.8762339353561401,
+          "delta": {
+            "S1:target": -0.37209463119506836,
+            "S6:target": -0.12376797199249268,
+            "S1:irrelevant": 0.00334930419921875,
+            "S6:irrelevant": 0.0036257505416870117,
+            "S1:background": -0.24785888195037842,
+            "S6:background": -0.1228601336479187
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0022",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.37084925174713135,
+          "delta": {
+            "S1:target": -0.002255558967590332,
+            "S6:target": 0.12125253677368164
+          }
+        },
+        "target": {
+          "m_clean": -1.4989244937896729,
+          "delta": {
+            "S1:target": 0.7495826482772827,
+            "S6:target": 0.8739217519760132,
+            "S1:irrelevant": 0.12476003170013428,
+            "S6:irrelevant": 0.12392258644104004
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0023",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.37391233444213867,
+          "delta": {
+            "S1:target": 2.205371856689453e-06,
+            "S6:target": 5.364418029785156e-07,
+            "S1:irrelevant": 0.00039190053939819336,
+            "S6:irrelevant": -0.12409886717796326,
+            "S1:background": -0.12397101521492004,
+            "S6:background": -0.12383782863616943
+          }
+        },
+        "target": {
+          "m_clean": -1.247244954109192,
+          "delta": {
+            "S1:target": 0.25035953521728516,
+            "S6:target": 0.49724280834198,
+            "S1:irrelevant": 0.3738209009170532,
+            "S6:irrelevant": 0.37382131814956665
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0024",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.8743083477020264,
+          "delta": {
+            "S1:target": 0.37544628977775574,
+            "S6:target": 0.3751956820487976,
+            "S1:irrelevant": 0.6249995827674866,
+            "S6:irrelevant": 0.5003809332847595,
+            "S1:background": 0.125044584274292,
+            "S6:background": 0.12538158893585205
+          }
+        },
+        "target": {
+          "m_clean": -1.4985564947128296,
+          "delta": {
+            "S1:target": 1.2489534616470337,
+            "S6:target": 0.8739050626754761
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0025",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.3728504776954651,
+          "delta": {
+            "S1:target": -0.501351535320282,
+            "S6:target": -0.5021505951881409,
+            "S1:irrelevant": -0.5011406540870667,
+            "S6:irrelevant": -0.3768554925918579,
+            "S1:background": 0.499525785446167,
+            "S6:background": 0.3747478723526001
+          }
+        },
+        "target": {
+          "m_clean": -0.12638312578201294,
+          "delta": {
+            "S1:target": -1.3742737174034119,
+            "S6:target": -1.3740511536598206,
+            "S1:irrelevant": -0.12476593255996704,
+            "S6:irrelevant": 0.0007495284080505371,
+            "S1:background": -0.12411171197891235,
+            "S6:background": 0.0007882118225097656
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0026",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.004007875919342041,
+          "delta": {
+            "S1:target": -0.25361090898513794,
+            "S6:target": 0.121113121509552,
+            "S1:irrelevant": 1.87341970205307,
+            "S6:irrelevant": 1.998926818370819
+          }
+        },
+        "target": {
+          "m_clean": -1.6235215663909912,
+          "delta": {
+            "S1:target": 0.12081599235534668,
+            "S6:target": 0.12194693088531494,
+            "S1:irrelevant": -0.1251673698425293,
+            "S6:irrelevant": -0.001479029655456543,
+            "S1:background": 0.3746758699417114,
+            "S6:background": 0.24982905387878418
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0027",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.5168332457542419,
+          "delta": {
+            "S1:target": -1.5155252814292908,
+            "S6:target": -1.5121078491210938,
+            "S1:irrelevant": 0.12699848413467407,
+            "S6:irrelevant": 0.37500065565109253,
+            "S1:background": 0.37318581342697144,
+            "S6:background": 0.4964072108268738
+          }
+        },
+        "target": {
+          "m_clean": -0.8664505481719971,
+          "delta": {
+            "S1:target": 0.6168475151062012,
+            "S6:target": 0.49169379472732544
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0028",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.8718565106391907,
+          "delta": {
+            "S1:target": 0.6242858171463013,
+            "S6:target": 0.7483217120170593,
+            "S1:irrelevant": -0.000709235668182373,
+            "S6:irrelevant": -6.556510925292969e-07,
+            "S1:background": 0.24794191122055054,
+            "S6:background": 0.12293201684951782
+          }
+        },
+        "target": {
+          "m_clean": -0.6242899894714355,
+          "delta": {
+            "S1:target": 0.37468695640563965,
+            "S6:target": 0.6241159439086914,
+            "S1:irrelevant": 1.0001264214515686,
+            "S6:irrelevant": 1.0004348158836365
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0029",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 2.502544641494751,
+          "delta": {
+            "S1:target": -2.752147674560547,
+            "S6:target": -2.6271671652793884,
+            "S1:irrelevant": 0.0005691051483154297,
+            "S6:irrelevant": -0.12529802322387695
+          }
+        },
+        "target": {
+          "m_clean": -1.9959754943847656,
+          "delta": {
+            "S1:target": 1.7463724613189697,
+            "S6:target": 1.4968647360801697,
+            "S1:irrelevant": 0.6226372718811035,
+            "S6:irrelevant": 0.8747261762619019
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0030",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.37728607654571533,
+          "delta": {
+            "S1:target": -0.24990063905715942,
+            "S6:target": -0.3749988079071045,
+            "S1:irrelevant": -0.5018829703330994,
+            "S6:irrelevant": -0.7510676383972168
+          }
+        },
+        "target": {
+          "m_clean": -0.49231183528900146,
+          "delta": {
+            "S1:target": -0.12854623794555664,
+            "S6:target": -0.2536659240722656,
+            "S1:irrelevant": 0.3729628324508667,
+            "S6:irrelevant": 0.12486469745635986,
+            "S1:background": -0.12754350900650024,
+            "S6:background": -0.1278511881828308
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0031",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.002685248851776123,
+          "delta": {
+            "S1:target": -0.252288281917572,
+            "S6:target": -0.37711095809936523,
+            "S1:irrelevant": 0.4985305666923523,
+            "S6:irrelevant": 0.5001742243766785
+          }
+        },
+        "target": {
+          "m_clean": -0.12188833951950073,
+          "delta": {
+            "S1:target": -0.12397092580795288,
+            "S6:target": 0.0012933611869812012,
+            "S1:irrelevant": -0.1247720718383789,
+            "S6:irrelevant": -0.12455850839614868,
+            "S1:background": -0.0011158585548400879,
+            "S6:background": 0.00019848346710205078
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0032",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.13055157661437988,
+          "delta": {
+            "S1:target": -0.37918365001678467,
+            "S6:target": -0.255551815032959,
+            "S1:irrelevant": 0.746823251247406,
+            "S6:irrelevant": 0.7470861077308655
+          }
+        },
+        "target": {
+          "m_clean": -2.4988415241241455,
+          "delta": {
+            "S1:target": 2.2492384910583496,
+            "S6:target": 2.2490301728248596,
+            "S1:irrelevant": 0.8744574785232544,
+            "S6:irrelevant": 0.9996390342712402
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0033",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.501705527305603,
+          "delta": {
+            "S1:target": -0.7513085603713989,
+            "S6:target": -0.3765847682952881,
+            "S1:irrelevant": 0.24979960918426514,
+            "S6:irrelevant": 0.2501603960990906
+          }
+        },
+        "target": {
+          "m_clean": -2.121880531311035,
+          "delta": {
+            "S1:target": 1.8730934858322144,
+            "S6:target": 1.872827172279358,
+            "S1:irrelevant": 0.7479543685913086,
+            "S6:irrelevant": 0.8725932836532593
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0034",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.2469615936279297,
+          "delta": {
+            "S1:target": -0.12499892711639404,
+            "S6:target": -0.0015737414360046387,
+            "S1:irrelevant": -0.0012741684913635254,
+            "S6:irrelevant": -0.1270325779914856,
+            "S1:background": 0.24872499704360962,
+            "S6:background": 0.12385767698287964
+          }
+        },
+        "target": {
+          "m_clean": -0.8730983734130859,
+          "delta": {
+            "S1:target": 0.7502456903457642,
+            "S6:target": 0.7503640651702881,
+            "S1:irrelevant": 0.8730961680412292,
+            "S6:irrelevant": 0.7496615052223206
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0035",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.004018247127532959,
+          "delta": {
+            "S1:target": -0.752712070941925,
+            "S6:target": -0.8790197968482971,
+            "S1:irrelevant": 0.9979953169822693,
+            "S6:irrelevant": 0.9984273314476013
+          }
+        },
+        "target": {
+          "m_clean": -1.7500029802322388,
+          "delta": {
+            "S1:target": 1.430511474609375e-06,
+            "S6:target": 0.12429177761077881,
+            "S1:irrelevant": -2.384185791015625e-07,
+            "S6:irrelevant": 0.125,
+            "S1:background": 0.0004316568374633789,
+            "S6:background": 0.0006262063980102539
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0036",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.13408011198043823,
+          "delta": {
+            "S1:target": -0.755423367023468,
+            "S6:target": -0.5028940439224243,
+            "S1:irrelevant": -0.2555280923843384,
+            "S6:irrelevant": -0.3759315013885498
+          }
+        },
+        "target": {
+          "m_clean": -1.6229989528656006,
+          "delta": {
+            "S1:target": 1.3733959197998047,
+            "S6:target": 1.6231878399848938,
+            "S1:irrelevant": 1.3733959197998047,
+            "S6:irrelevant": 1.6231878399848938
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0037",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.8667093515396118,
+          "delta": {
+            "S1:target": 0.1183786392211914,
+            "S6:target": -0.004397392272949219,
+            "S1:irrelevant": -0.0029529333114624023,
+            "S6:irrelevant": -0.0048410892486572266,
+            "S1:background": 0.12015897035598755,
+            "S6:background": 0.12060272693634033
+          }
+        },
+        "target": {
+          "m_clean": -1.1200028657913208,
+          "delta": {
+            "S1:target": 0.8703998327255249,
+            "S6:target": 0.6204786896705627,
+            "S1:irrelevant": 1.3719694018363953,
+            "S6:irrelevant": 1.248042345046997
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0038",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.8509899377822876,
+          "delta": {
+            "S1:target": -0.5172067880630493,
+            "S6:target": -0.5169223546981812,
+            "S1:irrelevant": 0.3643708825111389,
+            "S6:irrelevant": 0.6249943375587463,
+            "S1:background": 0.11305654048919678,
+            "S6:background": 0.24495697021484375
+          }
+        },
+        "target": {
+          "m_clean": 0.2529245615005493,
+          "delta": {
+            "S1:target": -0.2502078413963318,
+            "S6:target": -0.2500000596046448,
+            "S1:irrelevant": -0.37741976976394653,
+            "S6:irrelevant": -0.5023143887519836,
+            "S1:background": 0.12409049272537231,
+            "S6:background": 0.12383592128753662
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0039",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.6280674338340759,
+          "delta": {
+            "S1:target": -0.8776704668998718,
+            "S6:target": -1.002696454524994
+          }
+        },
+        "target": {
+          "m_clean": -1.9988422393798828,
+          "delta": {
+            "S1:target": 1.998837947845459,
+            "S6:target": 1.7495849132537842
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0000",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.25035715103149414,
+          "delta": {
+            "S1:target": 0.12502217292785645,
+            "S6:target": 0.12497740983963013,
+            "S1:irrelevant": -0.00021845102310180664,
+            "S6:irrelevant": -0.00021845102310180664,
+            "S1:background": -0.1246410608291626,
+            "S6:background": -0.0003364682197570801
+          }
+        },
+        "target": {
+          "m_clean": -0.12690222263336182,
+          "delta": {
+            "S1:target": -0.1241106390953064,
+            "S6:target": 0.00022155046463012695,
+            "S1:irrelevant": 0.00016009807586669922,
+            "S6:irrelevant": -0.12417584657669067,
+            "S1:background": 0.12520897388458252,
+            "S6:background": -0.12404704093933105
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0001",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.7505766153335571,
+          "delta": {
+            "S1:target": 0.00029754638671875,
+            "S6:target": -0.00011789798736572266,
+            "S1:irrelevant": 0.12487351894378662,
+            "S6:irrelevant": 0.12492358684539795,
+            "S1:background": 0.12433791160583496,
+            "S6:background": -0.0004349946975708008
+          }
+        },
+        "target": {
+          "m_clean": -1.500331163406372,
+          "delta": {
+            "S1:target": 0.00011742115020751953,
+            "S6:target": -0.12466943264007568,
+            "S1:irrelevant": 0.0001423358917236328,
+            "S6:irrelevant": 0.00022041797637939453,
+            "S1:background": 0.12497913837432861,
+            "S6:background": 0.00011754035949707031
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0002",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.752261221408844,
+          "delta": {
+            "S1:target": 0.0015984773635864258,
+            "S6:target": 0.001122593879699707,
+            "S1:irrelevant": -0.1241106390953064,
+            "S6:irrelevant": -0.24895042181015015,
+            "S1:background": -0.12461638450622559,
+            "S6:background": -0.12402719259262085
+          }
+        },
+        "target": {
+          "m_clean": -2.125450372695923,
+          "delta": {
+            "S1:target": 1.3751728534698486,
+            "S6:target": 1.3750189542770386,
+            "S1:irrelevant": 1.000098705291748,
+            "S6:irrelevant": 1.2498705387115479,
+            "S1:background": 0.3757297992706299,
+            "S6:background": 0.49987196922302246
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0003",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.6256260871887207,
+          "delta": {
+            "S1:target": -0.12477266788482666,
+            "S6:target": 0.0002957582473754883,
+            "S1:irrelevant": 0.1251974105834961,
+            "S6:irrelevant": 0.1251697540283203,
+            "S1:background": -0.12470501661300659,
+            "S6:background": -0.12470519542694092
+          }
+        },
+        "target": {
+          "m_clean": -2.7497520446777344,
+          "delta": {
+            "S1:target": 0.9993549585342407,
+            "S6:target": 0.8745721578598022,
+            "S1:irrelevant": 0.8745720386505127,
+            "S6:irrelevant": 0.9992727041244507,
+            "S1:background": 0.12511157989501953,
+            "S6:background": 0.24975347518920898
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0004",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.1252009868621826,
+          "delta": {
+            "S1:target": 2.3365020751953125e-05,
+            "S6:target": 0.00012004375457763672,
+            "S1:irrelevant": 1.239776611328125e-05,
+            "S6:irrelevant": -0.00010967254638671875,
+            "S1:background": 0.1248701810836792,
+            "S6:background": 0.1249089241027832
+          }
+        },
+        "target": {
+          "m_clean": -0.37545108795166016,
+          "delta": {
+            "S1:target": 0.00014036893844604492,
+            "S6:target": -2.866983413696289e-05,
+            "S1:irrelevant": -0.12473070621490479,
+            "S6:irrelevant": -0.00039017200469970703,
+            "S1:background": -0.0002472400665283203,
+            "S6:background": -0.0001278519630432129
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0005",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.62548828125,
+          "delta": {
+            "S1:target": -0.4998694658279419,
+            "S6:target": -0.4998668432235718,
+            "S1:irrelevant": 2.5033950805664062e-06,
+            "S6:irrelevant": -0.12491393089294434,
+            "S1:background": 0.12495338916778564,
+            "S6:background": 8.314847946166992e-05
+          }
+        },
+        "target": {
+          "m_clean": -1.5002601146697998,
+          "delta": {
+            "S1:target": 0.12475073337554932,
+            "S6:target": -6.830692291259766e-05,
+            "S1:background": -0.00043451786041259766,
+            "S6:background": 0.12464594841003418
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0006",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.5001933574676514,
+          "delta": {
+            "S1:target": -0.12480747699737549,
+            "S6:target": -0.1249774694442749,
+            "S1:irrelevant": 5.14984130859375e-05,
+            "S6:irrelevant": -0.12480759620666504,
+            "S1:background": -0.12480735778808594,
+            "S6:background": -0.1246572732925415
+          }
+        },
+        "target": {
+          "m_clean": -2.250231981277466,
+          "delta": {
+            "S1:target": 0.250232458114624,
+            "S6:target": 0.2502322196960449,
+            "S1:irrelevant": 0.1250908374786377,
+            "S6:irrelevant": 0.0003650188446044922,
+            "S1:background": 0.0005297660827636719,
+            "S6:background": 0.12465548515319824
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0007",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -2.123852491378784,
+          "delta": {
+            "S1:target": 0.3745063543319702,
+            "S6:target": 0.2491697072982788,
+            "S1:irrelevant": 0.249259352684021,
+            "S6:irrelevant": 0.12428569793701172,
+            "S1:background": 0.12413322925567627,
+            "S6:background": -6.866455078125e-05
+          }
+        },
+        "target": {
+          "m_clean": -1.874999761581421,
+          "delta": {
+            "S1:target": 1.3748671412467957,
+            "S6:target": 1.3748894333839417,
+            "S1:irrelevant": 1.4996891617774963,
+            "S6:irrelevant": 1.4996892809867859,
+            "S1:background": -0.37494444847106934,
+            "S6:background": -0.24991965293884277
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0008",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.3753951787948608,
+          "delta": {
+            "S1:target": 0.5000463724136353,
+            "S6:target": 0.5000002384185791,
+            "S1:irrelevant": 0.24988484382629395,
+            "S6:irrelevant": 0.25006604194641113,
+            "S1:background": 0.3752366304397583,
+            "S6:background": 0.4999459981918335
+          }
+        },
+        "target": {
+          "m_clean": -0.37535226345062256,
+          "delta": {
+            "S1:target": 0.00022655725479125977,
+            "S6:target": 0.0004610419273376465,
+            "S1:irrelevant": -0.374350905418396,
+            "S6:irrelevant": -0.2499781847000122,
+            "S1:background": -0.25002288818359375,
+            "S6:background": -0.24977350234985352
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0009",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 1.2489734888076782,
+          "delta": {
+            "S1:target": -0.12397396564483643,
+            "S6:target": 0.00022399425506591797,
+            "S1:irrelevant": -0.1265350580215454,
+            "S6:irrelevant": 0.00035941600799560547,
+            "S1:background": -0.8717083930969238,
+            "S6:background": -0.5002849698066711
+          }
+        },
+        "target": {
+          "m_clean": -2.1249969005584717,
+          "delta": {
+            "S1:target": 0.3748166561126709,
+            "S6:target": 0.4997009038925171,
+            "S1:irrelevant": 0.12453961372375488,
+            "S6:irrelevant": 0.12456703186035156,
+            "S1:background": 0.12499845027923584,
+            "S6:background": 1.6689300537109375e-06
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0010",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 2.124997854232788,
+          "delta": {
+            "S1:target": -0.8756972551345825,
+            "S6:target": -0.8751809597015381,
+            "S1:irrelevant": -1.0003976821899414,
+            "S6:irrelevant": -0.7505435943603516,
+            "S1:background": -0.7504796981811523,
+            "S6:background": -0.5001599788665771
+          }
+        },
+        "target": {
+          "m_clean": -1.2491604089736938,
+          "delta": {
+            "S1:target": -0.5005909204483032,
+            "S6:target": -0.6256201267242432,
+            "S1:irrelevant": -0.7508385181427002,
+            "S6:irrelevant": -0.8754874467849731,
+            "S1:background": 0.12416243553161621,
+            "S6:background": 0.12459421157836914
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0011",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 1.377563714981079,
+          "delta": {
+            "S1:target": -0.8769352436065674,
+            "S6:target": -0.7531880140304565,
+            "S1:irrelevant": -0.0010998249053955078,
+            "S6:irrelevant": -0.1256808042526245,
+            "S1:background": -0.3768959045410156,
+            "S6:background": -0.3768947124481201
+          }
+        },
+        "target": {
+          "m_clean": -1.375508189201355,
+          "delta": {
+            "S1:target": -0.12428736686706543,
+            "S6:target": -0.12469518184661865,
+            "S1:irrelevant": -0.3744910955429077,
+            "S6:irrelevant": -0.37461531162261963,
+            "S1:background": 0.0005090236663818359,
+            "S6:background": 0.0002351999282836914
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0012",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.8762952089309692,
+          "delta": {
+            "S1:target": -0.12401998043060303,
+            "S6:target": 0.0004019737243652344,
+            "S1:irrelevant": -0.24918246269226074,
+            "S6:irrelevant": -0.2487027645111084,
+            "S1:background": -0.1244426965713501,
+            "S6:background": 0.00045883655548095703
+          }
+        },
+        "target": {
+          "m_clean": -0.3756166696548462,
+          "delta": {
+            "S1:target": -0.25003957748413086,
+            "S6:target": -0.2502785921096802,
+            "S1:irrelevant": 0.12506729364395142,
+            "S6:irrelevant": 0.00024253129959106445,
+            "S1:background": 0.12521737813949585,
+            "S6:background": 0.00028586387634277344
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0013",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 0.12392735481262207,
+          "delta": {
+            "S1:target": -0.12466764450073242,
+            "S6:target": -0.12476521730422974,
+            "S1:irrelevant": 0.12491649389266968,
+            "S6:irrelevant": 0.12459069490432739,
+            "S1:background": -8.386373519897461e-05,
+            "S6:background": -0.00042068958282470703
+          }
+        },
+        "target": {
+          "m_clean": 0.24903440475463867,
+          "delta": {
+            "S1:target": 0.2504858076572418,
+            "S6:target": 0.2506927251815796,
+            "S1:irrelevant": -0.9993857145309448,
+            "S6:irrelevant": -1.1241663694381714,
+            "S1:background": -0.49978184700012207,
+            "S6:background": -0.3747817277908325
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0014",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.3749973773956299,
+          "delta": {
+            "S1:target": -0.12524378299713135,
+            "S6:target": -0.25016093254089355,
+            "S1:irrelevant": -0.00031757354736328125,
+            "S6:irrelevant": -0.0006535053253173828,
+            "S1:background": -0.12561511993408203,
+            "S6:background": -0.0013109445571899414
+          }
+        },
+        "target": {
+          "m_clean": -1.1252716779708862,
+          "delta": {
+            "S1:target": -0.37506115436553955,
+            "S6:target": -0.37494170665740967,
+            "S1:irrelevant": -0.3748689889907837,
+            "S6:irrelevant": -0.3748934268951416,
+            "S1:background": 0.1251159906387329,
+            "S6:background": -0.12496936321258545
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0015",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.12565279006958,
+          "delta": {
+            "S1:target": -0.12434554100036621,
+            "S6:target": -0.12464344501495361,
+            "S1:irrelevant": -0.12459254264831543,
+            "S6:irrelevant": -0.12434494495391846,
+            "S1:background": -0.12434625625610352,
+            "S6:background": 0.00017511844635009766
+          }
+        },
+        "target": {
+          "m_clean": -0.7506654262542725,
+          "delta": {
+            "S1:target": -0.24984407424926758,
+            "S6:target": -0.25007402896881104,
+            "S1:irrelevant": -0.2493324875831604,
+            "S6:irrelevant": -0.24877893924713135,
+            "S1:background": -0.12433373928070068,
+            "S6:background": -8.755922317504883e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0016",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 2.125457286834717,
+          "delta": {
+            "S1:target": 0.3745403289794922,
+            "S6:target": 0.37511706352233887,
+            "S1:irrelevant": 0.49933552742004395,
+            "S6:irrelevant": 0.37474513053894043,
+            "S1:background": -0.0004591941833496094,
+            "S6:background": -0.0009481906890869141
+          }
+        },
+        "target": {
+          "m_clean": -1.6251497268676758,
+          "delta": {
+            "S1:target": 0.6249686479568481,
+            "S6:target": 0.6248400211334229,
+            "S1:irrelevant": 0.49978864192962646,
+            "S6:irrelevant": 0.5000250339508057,
+            "S1:background": 0.24963438510894775,
+            "S6:background": -5.030632019042969e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0017",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 0.24892723560333252,
+          "delta": {
+            "S1:target": -0.6254092454910278,
+            "S6:target": -0.5001571774482727,
+            "S1:irrelevant": -0.000695347785949707,
+            "S6:irrelevant": -0.0005895495414733887,
+            "S1:background": -0.12444597482681274,
+            "S6:background": 0.12405067682266235
+          }
+        },
+        "target": {
+          "m_clean": -1.3758509159088135,
+          "delta": {
+            "S1:target": -0.24914896488189697,
+            "S6:target": -0.24914824962615967,
+            "S1:irrelevant": -0.12463104724884033,
+            "S6:irrelevant": -0.1246575117111206,
+            "S1:background": 0.12551701068878174,
+            "S6:background": 0.12540483474731445
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0018",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.875,
+          "delta": {
+            "S1:target": 0.12457704544067383,
+            "S6:target": 0.12483954429626465,
+            "S1:irrelevant": 0.12478286027908325,
+            "S6:irrelevant": 0.12460321187973022,
+            "S1:background": 0.12472617626190186,
+            "S6:background": 0.24937820434570312
+          }
+        },
+        "target": {
+          "m_clean": 0.4991619288921356,
+          "delta": {
+            "S1:target": 0.0005743205547332764,
+            "S6:target": 0.0003580451011657715,
+            "S1:irrelevant": 0.0005743205547332764,
+            "S6:irrelevant": 0.0003580451011657715,
+            "S1:background": 0.0005401670932769775,
+            "S6:background": -0.12373033165931702
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0019",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.5002745389938354,
+          "delta": {
+            "S1:target": -0.749846339225769,
+            "S6:target": -0.6248544454574585,
+            "S1:irrelevant": -0.12500011920928955,
+            "S6:irrelevant": -0.12493884563446045,
+            "S1:background": 1.609325408935547e-05,
+            "S6:background": -0.00023055076599121094
+          }
+        },
+        "target": {
+          "m_clean": -1.87514066696167,
+          "delta": {
+            "S1:target": 0.00014138221740722656,
+            "S6:target": 0.0002446174621582031,
+            "S1:irrelevant": -0.12474918365478516,
+            "S6:irrelevant": -0.12485826015472412,
+            "S1:background": -0.12485873699188232,
+            "S6:background": 1.6808509826660156e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0020",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.7499991655349731,
+          "delta": {
+            "S1:target": -0.24990975856781006,
+            "S6:target": -0.12490952014923096,
+            "S1:irrelevant": 0.6247349977493286,
+            "S6:irrelevant": 0.6248494386672974,
+            "S1:background": 0.24988460540771484,
+            "S6:background": 0.37478530406951904
+          }
+        },
+        "target": {
+          "m_clean": -0.6249997615814209,
+          "delta": {
+            "S1:target": -0.00020444393157958984,
+            "S6:target": 0.12448996305465698,
+            "S1:irrelevant": 0.12415969371795654,
+            "S6:irrelevant": 8.940696716308594e-07,
+            "S1:background": -0.12538325786590576,
+            "S6:background": 0.12430465221405029
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0021",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.7503370046615601,
+          "delta": {
+            "S1:target": 0.00033652782440185547,
+            "S6:target": 0.00011837482452392578,
+            "S1:irrelevant": -0.12466257810592651,
+            "S6:irrelevant": 7.426738739013672e-05,
+            "S1:background": 0.0003368258476257324,
+            "S6:background": 0.00016748905181884766
+          }
+        },
+        "target": {
+          "m_clean": -1.4992437362670898,
+          "delta": {
+            "S1:target": 0.24817192554473877,
+            "S6:target": 0.2482362985610962,
+            "S1:irrelevant": 0.1236187219619751,
+            "S6:irrelevant": 0.12357938289642334,
+            "S1:background": 0.12340712547302246,
+            "S6:background": 0.12424540519714355
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0022",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.628987193107605,
+          "delta": {
+            "S1:target": -0.24816352128982544,
+            "S6:target": -0.2481400966644287,
+            "S1:irrelevant": -0.12412846088409424,
+            "S6:irrelevant": -0.12503516674041748,
+            "S1:background": 0.0025056004524230957,
+            "S6:background": 0.0018366575241088867
+          }
+        },
+        "target": {
+          "m_clean": -1.6251771450042725,
+          "delta": {
+            "S1:target": 0.5000388622283936,
+            "S6:target": 0.6250392198562622,
+            "S1:irrelevant": -0.12489199638366699,
+            "S6:irrelevant": 4.780292510986328e-05,
+            "S1:background": -0.24993669986724854,
+            "S6:background": 6.258487701416016e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0023",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.877700924873352,
+          "delta": {
+            "S1:target": 0.12497752904891968,
+            "S6:target": 0.0017960071563720703,
+            "S1:irrelevant": 0.8739501237869263,
+            "S6:irrelevant": 0.7502923607826233,
+            "S1:background": -0.12320303916931152,
+            "S6:background": -0.12416815757751465
+          }
+        },
+        "target": {
+          "m_clean": -1.62533438205719,
+          "delta": {
+            "S1:target": 0.12468397617340088,
+            "S6:target": 0.12464070320129395,
+            "S1:irrelevant": 0.0003380775451660156,
+            "S6:irrelevant": 0.12497818470001221,
+            "S1:background": 0.00011849403381347656,
+            "S6:background": 0.12491285800933838
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0024",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.5018662214279175,
+          "delta": {
+            "S1:target": 0.12375330924987793,
+            "S6:target": -0.0006898641586303711,
+            "S1:irrelevant": 0.12499958276748657,
+            "S6:irrelevant": 0.12355548143386841,
+            "S1:background": 0.1244611144065857,
+            "S6:background": -5.960464477539062e-07
+          }
+        },
+        "target": {
+          "m_clean": -2.3752031326293945,
+          "delta": {
+            "S1:target": 0.6248078346252441,
+            "S6:target": 0.6248944997787476,
+            "S1:irrelevant": 0.25020480155944824,
+            "S6:irrelevant": 0.25020456314086914,
+            "S1:background": -0.24962520599365234,
+            "S6:background": -0.12505269050598145
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0025",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 0.123119056224823,
+          "delta": {
+            "S1:target": -1.2485416531562805,
+            "S6:target": -1.2489078640937805,
+            "S1:irrelevant": -1.3735166192054749,
+            "S6:irrelevant": -1.3736626505851746,
+            "S1:background": 0.0005005598068237305,
+            "S6:background": 0.2494264841079712
+          }
+        },
+        "target": {
+          "m_clean": -0.6259087324142456,
+          "delta": {
+            "S1:target": -5.8531761169433594e-05,
+            "S6:target": 0.00010591745376586914,
+            "S1:irrelevant": -0.00018644332885742188,
+            "S6:irrelevant": -8.606910705566406e-05,
+            "S1:background": -0.0003675222396850586,
+            "S6:background": 0.00015985965728759766
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0026",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.8753555417060852,
+          "delta": {
+            "S1:target": -0.3748628497123718,
+            "S6:target": -0.12482398748397827,
+            "S1:irrelevant": -0.3743974566459656,
+            "S6:irrelevant": -0.1248893141746521
+          }
+        },
+        "target": {
+          "m_clean": -2.1249969005584717,
+          "delta": {
+            "S1:target": 0.3742574453353882,
+            "S6:target": 0.24978148937225342,
+            "S1:irrelevant": 0.3744204044342041,
+            "S6:irrelevant": 0.3742023706436157,
+            "S1:background": 4.76837158203125e-07,
+            "S6:background": -0.00021791458129882812
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0027",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.3754281997680664,
+          "delta": {
+            "S1:target": -0.37564539909362793,
+            "S6:target": -0.37564486265182495,
+            "S1:irrelevant": -0.4998849630355835,
+            "S6:irrelevant": -0.37571465969085693,
+            "S1:background": 0.3742724657058716,
+            "S6:background": 0.37421107292175293
+          }
+        },
+        "target": {
+          "m_clean": -2.3748741149902344,
+          "delta": {
+            "S1:target": 0.7507120370864868,
+            "S6:target": 0.7497150897979736,
+            "S1:irrelevant": -0.2502107620239258,
+            "S6:irrelevant": -0.2500619888305664
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0028",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 1.125003695487976,
+          "delta": {
+            "S1:target": -0.25000274181365967,
+            "S6:target": -0.3773946166038513,
+            "S1:irrelevant": 1.1241940259933472,
+            "S6:irrelevant": 1.1249958276748657,
+            "S1:background": -0.24610495567321777,
+            "S6:background": -0.12155044078826904
+          }
+        },
+        "target": {
+          "m_clean": -1.1256122589111328,
+          "delta": {
+            "S1:target": -0.12461888790130615,
+            "S6:target": -0.00017583370208740234,
+            "S1:irrelevant": -0.12471580505371094,
+            "S6:irrelevant": -0.000408172607421875,
+            "S1:background": 0.0001347064971923828,
+            "S6:background": 0.1245262622833252
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0029",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 1.1246616840362549,
+          "delta": {
+            "S1:target": 0.3751184940338135,
+            "S6:target": 0.6250386238098145,
+            "S1:irrelevant": 0.750154972076416,
+            "S6:irrelevant": 0.7505679130554199,
+            "S1:background": -0.12527704238891602,
+            "S6:background": 5.733966827392578e-05
+          }
+        },
+        "target": {
+          "m_clean": -1.874735713005066,
+          "delta": {
+            "S1:target": 0.4997357130050659,
+            "S6:target": 0.4996393918991089,
+            "S1:irrelevant": -0.125404953956604,
+            "S6:irrelevant": -0.12552082538604736
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0030",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 0.24952161312103271,
+          "delta": {
+            "S1:target": -1.4999183416366577,
+            "S6:target": -1.2498716115951538
+          }
+        },
+        "target": {
+          "m_clean": -1.1249998807907104,
+          "delta": {
+            "S1:target": 0.24975764751434326,
+            "S6:target": 0.249875009059906,
+            "S1:irrelevant": 0.3747718930244446,
+            "S6:irrelevant": 0.37483274936676025,
+            "S1:background": -0.1249997615814209,
+            "S6:background": -1.1920928955078125e-07
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0031",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 1.7499988079071045,
+          "delta": {
+            "S1:target": 0.1249997615814209,
+            "S6:target": 0.24964118003845215,
+            "S1:background": -3.5762786865234375e-07,
+            "S6:background": 0.0
+          }
+        },
+        "target": {
+          "m_clean": -1.2503793239593506,
+          "delta": {
+            "S1:target": 0.3748612403869629,
+            "S6:target": 0.12506771087646484,
+            "S1:background": 0.12510621547698975,
+            "S6:background": 0.0001201629638671875
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0032",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.250167727470398,
+          "delta": {
+            "S1:target": -0.12499773502349854,
+            "S6:target": -0.12503182888031006,
+            "S1:irrelevant": -8.916854858398438e-05,
+            "S6:irrelevant": 1.8477439880371094e-05,
+            "S1:background": 0.12491106986999512,
+            "S6:background": -0.00010418891906738281
+          }
+        },
+        "target": {
+          "m_clean": -1.2505093812942505,
+          "delta": {
+            "S1:target": 0.3750585913658142,
+            "S6:target": 0.3753776550292969,
+            "S1:irrelevant": -0.24981951713562012,
+            "S6:irrelevant": -0.24962282180786133,
+            "S1:background": -0.3747214078903198,
+            "S6:background": -0.37448906898498535
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0033",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.5005082488059998,
+          "delta": {
+            "S1:target": -0.749594509601593,
+            "S6:target": -0.7496159672737122,
+            "S1:irrelevant": -0.2496824860572815,
+            "S6:irrelevant": -0.12488847970962524,
+            "S1:background": 3.069639205932617e-05,
+            "S6:background": -0.12493950128555298
+          }
+        },
+        "target": {
+          "m_clean": -1.1255420446395874,
+          "delta": {
+            "S1:target": 0.12495839595794678,
+            "S6:target": -0.12483203411102295,
+            "S1:irrelevant": -0.7496629953384399,
+            "S6:irrelevant": -0.7497870922088623,
+            "S1:background": 0.6249974966049194,
+            "S6:background": 0.6252310276031494
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0034",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.3749996423721313,
+          "delta": {
+            "S1:target": 0.3749333620071411,
+            "S6:target": 0.3750002980232239,
+            "S1:irrelevant": -0.25010907649993896,
+            "S6:irrelevant": -0.2501094341278076,
+            "S1:background": -0.24999916553497314,
+            "S6:background": 1.3113021850585938e-06
+          }
+        },
+        "target": {
+          "m_clean": -1.6249988079071045,
+          "delta": {
+            "S1:target": 0.6244242191314697,
+            "S6:target": 0.5000015497207642,
+            "S1:irrelevant": 0.2499988079071045,
+            "S6:irrelevant": 0.3749988079071045,
+            "S1:background": 0.1249992847442627,
+            "S6:background": 0.12499964237213135
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0035",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.6260569095611572,
+          "delta": {
+            "S1:target": 0.00025665760040283203,
+            "S6:target": 0.00020503997802734375,
+            "S1:irrelevant": 0.00025665760040283203,
+            "S6:irrelevant": 0.00020503997802734375,
+            "S1:background": 0.0003548860549926758,
+            "S6:background": 0.0002562999725341797
+          }
+        },
+        "target": {
+          "m_clean": -2.374718189239502,
+          "delta": {
+            "S1:target": 1.2490640878677368,
+            "S6:target": 1.2492088079452515,
+            "S1:irrelevant": 1.374387502670288,
+            "S6:irrelevant": 1.2496147155761719,
+            "S1:background": -0.00028061866760253906,
+            "S6:background": -0.12470197677612305
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0036",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.4998297691345215,
+          "delta": {
+            "S1:target": -0.12438201904296875,
+            "S6:target": 0.1243511438369751,
+            "S1:irrelevant": 0.12458860874176025,
+            "S6:irrelevant": 0.12471342086791992,
+            "S1:background": -0.00031054019927978516,
+            "S6:background": -0.0003104209899902344
+          }
+        },
+        "target": {
+          "m_clean": -2.124998092651367,
+          "delta": {
+            "S1:target": -0.12472081184387207,
+            "S6:target": -0.1250009536743164,
+            "S1:irrelevant": -0.24979615211486816,
+            "S6:irrelevant": -0.24945831298828125,
+            "S1:background": -9.5367431640625e-07,
+            "S6:background": -0.12473797798156738
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0037",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.0001037120819092,
+          "delta": {
+            "S1:target": 0.2498760223388672,
+            "S6:target": 0.00010395050048828125,
+            "S1:irrelevant": 0.125,
+            "S6:irrelevant": 0.12477314472198486,
+            "S1:background": 0.12497913837432861,
+            "S6:background": 0.12487685680389404
+          }
+        },
+        "target": {
+          "m_clean": -1.7501325607299805,
+          "delta": {
+            "S1:target": 0.12484121322631836,
+            "S6:target": 0.12491929531097412,
+            "S1:irrelevant": 0.0001329183578491211,
+            "S6:irrelevant": 1.5497207641601562e-05,
+            "S1:background": 1.5735626220703125e-05,
+            "S6:background": -0.12474286556243896
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0038",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.6253371238708496,
+          "delta": {
+            "S1:target": 0.00033724308013916016,
+            "S6:target": -8.654594421386719e-05,
+            "S1:irrelevant": 0.0003364682197570801,
+            "S6:irrelevant": 0.12438559532165527,
+            "S1:background": 0.12482613325119019,
+            "S6:background": 0.24988579750061035
+          }
+        },
+        "target": {
+          "m_clean": -1.7503092288970947,
+          "delta": {
+            "S1:target": 1.0000183582305908,
+            "S6:target": 0.7503091096878052,
+            "S1:irrelevant": 0.8751494884490967,
+            "S6:irrelevant": 0.7503092288970947
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0039",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 1.4986062049865723,
+          "delta": {
+            "S1:target": -0.5001835823059082,
+            "S6:target": -0.3748255968093872,
+            "S1:irrelevant": 0.2507380247116089,
+            "S6:irrelevant": 0.2505531311035156,
+            "S1:background": -0.1246938705444336,
+            "S6:background": -0.24930155277252197
+          }
+        },
+        "target": {
+          "m_clean": -2.999708414077759,
+          "delta": {
+            "S1:target": 0.7494778633117676,
+            "S6:target": 0.6247096061706543,
+            "S1:irrelevant": 0.749708890914917,
+            "S6:irrelevant": 0.6247098445892334,
+            "S1:background": 0.24985003471374512,
+            "S6:background": 0.249708890914917
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0000",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.9989120960235596,
+          "delta": {
+            "S1:target": 1.2494550943374634,
+            "S6:target": 1.374158263206482,
+            "S1:irrelevant": 0.750007152557373,
+            "S6:irrelevant": 0.7500072717666626,
+            "S1:background": -0.2484753131866455,
+            "S6:background": 0.12436318397521973
+          }
+        },
+        "target": {
+          "m_clean": -1.623988151550293,
+          "delta": {
+            "S1:target": 0.6248807907104492,
+            "S6:target": 0.8742499947547913,
+            "S1:irrelevant": -0.24586164951324463,
+            "S6:irrelevant": 0.0001354217529296875,
+            "S1:background": -0.12582361698150635,
+            "S6:background": -0.250637412071228
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0001",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.12853246927261353,
+          "delta": {
+            "S1:target": -1.2527411580085754,
+            "S6:target": -1.127149760723114,
+            "S1:irrelevant": -1.3773842453956604,
+            "S6:irrelevant": -1.2530093789100647,
+            "S1:background": 0.12390744686126709,
+            "S6:background": -0.12593746185302734
+          }
+        },
+        "target": {
+          "m_clean": -2.9996144771575928,
+          "delta": {
+            "S1:target": 1.9997658729553223,
+            "S6:target": 2.249614894390106,
+            "S1:irrelevant": 1.2497968673706055,
+            "S6:irrelevant": 1.3751598596572876
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0002",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.3755435943603516,
+          "delta": {
+            "S1:target": -2.6246933937072754,
+            "S6:target": -2.624221920967102,
+            "S1:irrelevant": 0.1250399351119995,
+            "S6:irrelevant": 0.00011754035949707031
+          }
+        },
+        "target": {
+          "m_clean": -0.9986132979393005,
+          "delta": {
+            "S1:target": -0.4988568425178528,
+            "S6:target": -0.24782544374465942,
+            "S1:irrelevant": -0.6247929930686951,
+            "S6:irrelevant": -0.7487711310386658,
+            "S1:background": -0.5003065466880798,
+            "S6:background": -0.3758247494697571
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0003",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.5008933544158936,
+          "delta": {
+            "S1:target": -1.749941349029541,
+            "S6:target": -1.624213457107544,
+            "S1:irrelevant": 0.2502511143684387,
+            "S6:irrelevant": 0.2497590184211731,
+            "S1:background": 0.24934667348861694,
+            "S6:background": 0.37431061267852783
+          }
+        },
+        "target": {
+          "m_clean": -1.3753538131713867,
+          "delta": {
+            "S1:target": 0.1250002384185791,
+            "S6:target": 0.12446701526641846,
+            "S1:irrelevant": 0.12512528896331787,
+            "S6:irrelevant": 0.1250598430633545,
+            "S1:background": -0.12525618076324463,
+            "S6:background": -0.12502264976501465
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0004",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.8746392726898193,
+          "delta": {
+            "S1:target": -6.0677528381347656e-05,
+            "S6:target": 1.1920928955078125e-07,
+            "S1:irrelevant": -0.7495704889297485,
+            "S6:irrelevant": -0.7495200634002686,
+            "S1:background": -0.1248161792755127,
+            "S6:background": -0.12474459409713745
+          }
+        },
+        "target": {
+          "m_clean": -0.873780369758606,
+          "delta": {
+            "S1:target": 0.12378442287445068,
+            "S6:target": 0.12378400564193726,
+            "S1:background": 0.12458693981170654,
+            "S6:background": -0.001215815544128418
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0005",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.6181943416595459,
+          "delta": {
+            "S1:target": -0.2502933740615845,
+            "S6:target": -0.1268419623374939,
+            "S1:irrelevant": -0.12831908464431763,
+            "S6:irrelevant": -0.1253972053527832,
+            "S1:background": -0.1283191442489624,
+            "S6:background": -0.12646126747131348
+          }
+        },
+        "target": {
+          "m_clean": -0.876865804195404,
+          "delta": {
+            "S1:target": 0.0005769133567810059,
+            "S6:target": -0.0005379319190979004,
+            "S1:irrelevant": 0.00010138750076293945,
+            "S6:irrelevant": -0.0016554594039916992,
+            "S1:background": 0.0005765557289123535,
+            "S6:background": -0.00024574995040893555
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0006",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.126290202140808,
+          "delta": {
+            "S1:target": 0.1257721185684204,
+            "S6:target": 0.0006667375564575195,
+            "S1:irrelevant": 0.1258324384689331,
+            "S6:irrelevant": 0.0012943744659423828,
+            "S1:background": 0.001292586326599121,
+            "S6:background": 0.0012935400009155273
+          }
+        },
+        "target": {
+          "m_clean": -2.246950626373291,
+          "delta": {
+            "S1:target": 0.74784255027771,
+            "S6:target": 1.2467347383499146,
+            "S1:irrelevant": 0.12309741973876953,
+            "S6:irrelevant": 0.37220096588134766
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0007",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.374487280845642,
+          "delta": {
+            "S1:target": -0.00023937225341796875,
+            "S6:target": 0.249487042427063,
+            "S1:irrelevant": -1.62484610080719,
+            "S6:irrelevant": -1.374886393547058
+          }
+        },
+        "target": {
+          "m_clean": -0.6245194673538208,
+          "delta": {
+            "S1:target": -0.5002239942550659,
+            "S6:target": -0.5003403425216675,
+            "S1:irrelevant": 0.37451982498168945,
+            "S6:irrelevant": 0.24971330165863037
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0008",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.12296617031097412,
+          "delta": {
+            "S1:target": -0.9988582134246826,
+            "S6:target": -0.9988001585006714,
+            "S1:irrelevant": 0.7514570951461792,
+            "S6:irrelevant": 0.8757146596908569,
+            "S1:background": 0.00045937299728393555,
+            "S6:background": 0.0006574392318725586
+          }
+        },
+        "target": {
+          "m_clean": -1.1920928955078125e-07,
+          "delta": {
+            "S1:target": -0.12442260980606079,
+            "S6:target": 0.00033718347549438477,
+            "S1:irrelevant": 0.0003813505172729492,
+            "S6:irrelevant": -0.12410593032836914,
+            "S1:background": -0.1242598295211792,
+            "S6:background": 0.0003171563148498535
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0009",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7506934404373169,
+          "delta": {
+            "S1:target": -0.1238563060760498,
+            "S6:target": -0.1240077018737793,
+            "S1:irrelevant": -0.37417423725128174,
+            "S6:irrelevant": -0.37416505813598633
+          }
+        },
+        "target": {
+          "m_clean": -2.49489688873291,
+          "delta": {
+            "S1:target": 1.4975110292434692,
+            "S6:target": 1.8749988675117493,
+            "S1:irrelevant": 0.3747444152832031,
+            "S6:irrelevant": 0.6246340274810791
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0010",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.0029606223106384277,
+          "delta": {
+            "S1:target": 0.12499880790710449,
+            "S6:target": 0.12482142448425293,
+            "S1:irrelevant": 0.0010706186294555664,
+            "S6:irrelevant": 0.12479960918426514,
+            "S1:background": -1.001171052455902,
+            "S6:background": -1.0010572671890259
+          }
+        },
+        "target": {
+          "m_clean": 0.00017178058624267578,
+          "delta": {
+            "S1:target": -1.3748211860656738,
+            "S6:target": -1.0002814531326294,
+            "S1:irrelevant": -0.2500476837158203,
+            "S6:irrelevant": -0.25017082691192627
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0011",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.8762906789779663,
+          "delta": {
+            "S1:target": -0.12370568513870239,
+            "S6:target": 0.12452393770217896,
+            "S1:irrelevant": 0.0005048513412475586,
+            "S6:irrelevant": -0.12370574474334717,
+            "S1:background": -0.12419557571411133,
+            "S6:background": 0.0001507401466369629
+          }
+        },
+        "target": {
+          "m_clean": -1.6253539323806763,
+          "delta": {
+            "S1:target": 0.37602436542510986,
+            "S6:target": 0.6246485710144043,
+            "S1:irrelevant": 0.12470376491546631,
+            "S6:irrelevant": -4.673004150390625e-05,
+            "S1:background": -0.12463927268981934,
+            "S6:background": -0.0005890130996704102
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0012",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 2.8763904571533203,
+          "delta": {
+            "S1:target": -3.626061201095581,
+            "S6:target": -3.3765320777893066,
+            "S1:irrelevant": -0.12560367584228516,
+            "S6:irrelevant": -0.12609577178955078,
+            "S1:background": -0.9959759712219238,
+            "S6:background": -0.2510344982147217
+          }
+        },
+        "target": {
+          "m_clean": -3.874382734298706,
+          "delta": {
+            "S1:target": 2.375274658203125,
+            "S6:target": 2.74916672706604,
+            "S1:irrelevant": 0.0004706382751464844,
+            "S6:irrelevant": 0.12480759620666504
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0013",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.12528079748153687,
+          "delta": {
+            "S1:target": -0.24971997737884521,
+            "S6:target": -0.2490662932395935,
+            "S1:irrelevant": -0.37448710203170776,
+            "S6:irrelevant": -0.24971920251846313,
+            "S1:background": -0.12505686283111572,
+            "S6:background": -0.12471944093704224
+          }
+        },
+        "target": {
+          "m_clean": 0.13090813159942627,
+          "delta": {
+            "S1:target": -0.2520018219947815,
+            "S6:target": -0.374223530292511,
+            "S1:irrelevant": 0.1225709319114685,
+            "S6:irrelevant": 0.12254303693771362,
+            "S1:background": -1.0004258155822754,
+            "S6:background": -0.6290198564529419
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0014",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.25080162286758423,
+          "delta": {
+            "S1:target": -1.5003697276115417,
+            "S6:target": -1.3751009106636047,
+            "S1:irrelevant": -0.5004870891571045,
+            "S6:irrelevant": -0.5006163120269775,
+            "S1:background": -0.7507998645305634,
+            "S6:background": -0.5013748407363892
+          }
+        },
+        "target": {
+          "m_clean": -0.2528952956199646,
+          "delta": {
+            "S1:target": 0.12455230951309204,
+            "S6:target": 0.12477898597717285,
+            "S1:background": 0.12496644258499146,
+            "S6:background": 0.12458133697509766
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0015",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.3732339143753052,
+          "delta": {
+            "S1:target": -0.8753826022148132,
+            "S6:target": -0.9976762533187866,
+            "S1:irrelevant": 0.250693678855896,
+            "S6:irrelevant": 0.12587687373161316,
+            "S1:background": -0.12417948246002197,
+            "S6:background": 0.00010561943054199219
+          }
+        },
+        "target": {
+          "m_clean": 1.1250016689300537,
+          "delta": {
+            "S1:target": -3.12188184261322,
+            "S6:target": -3.124344229698181,
+            "S1:irrelevant": 0.0009474754333496094,
+            "S6:irrelevant": 0.00048828125
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0016",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.5015568733215332,
+          "delta": {
+            "S1:target": 0.1261361837387085,
+            "S6:target": 0.25086474418640137,
+            "S1:irrelevant": 0.0007245540618896484,
+            "S6:irrelevant": 0.12541532516479492,
+            "S1:background": -0.12459194660186768,
+            "S6:background": 0.12397468090057373
+          }
+        },
+        "target": {
+          "m_clean": -0.8747519254684448,
+          "delta": {
+            "S1:target": -5.53131103515625e-05,
+            "S6:target": -0.12484931945800781,
+            "S1:irrelevant": -0.12491714954376221,
+            "S6:irrelevant": 6.210803985595703e-05,
+            "S1:background": 0.1247524619102478,
+            "S6:background": 0.12495779991149902
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0017",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.6257094144821167,
+          "delta": {
+            "S1:target": -3.1234185695648193,
+            "S6:target": -2.876283884048462,
+            "S1:irrelevant": -0.6270835399627686,
+            "S6:irrelevant": -0.7507075667381287
+          }
+        },
+        "target": {
+          "m_clean": -1.8740980625152588,
+          "delta": {
+            "S1:target": 0.6240975856781006,
+            "S6:target": 0.3742988109588623,
+            "S1:irrelevant": 0.12475895881652832,
+            "S6:irrelevant": -5.4836273193359375e-05,
+            "S1:background": -0.12346076965332031,
+            "S6:background": -0.24974679946899414
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0018",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.1261556148529053,
+          "delta": {
+            "S1:target": -0.12407505512237549,
+            "S6:target": 0.0007069110870361328,
+            "S1:background": -0.12410593032836914,
+            "S6:background": -0.12435245513916016
+          }
+        },
+        "target": {
+          "m_clean": -1.3749971389770508,
+          "delta": {
+            "S1:target": 0.1250009536743164,
+            "S6:target": 0.126073956489563,
+            "S1:background": 0.12447941303253174,
+            "S6:background": 0.12405097484588623
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0019",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 2.2505545616149902,
+          "delta": {
+            "S1:target": -3.1254048347473145,
+            "S6:target": -3.1253950595855713,
+            "S1:irrelevant": -1.1252264976501465,
+            "S6:irrelevant": -1.2502436637878418
+          }
+        },
+        "target": {
+          "m_clean": -1.9989888668060303,
+          "delta": {
+            "S1:target": 0.7498822212219238,
+            "S6:target": 0.6257781982421875,
+            "S1:irrelevant": -0.00031507015228271484,
+            "S6:irrelevant": 0.12432694435119629,
+            "S1:background": -0.0002224445343017578,
+            "S6:background": 0.00037097930908203125
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0020",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.8743536472320557,
+          "delta": {
+            "S1:target": 0.3752455711364746,
+            "S6:target": 0.4999338388442993,
+            "S1:irrelevant": 0.0008511543273925781,
+            "S6:irrelevant": -0.12444090843200684
+          }
+        },
+        "target": {
+          "m_clean": -2.874157190322876,
+          "delta": {
+            "S1:target": 0.9995565414428711,
+            "S6:target": 1.0000615119934082,
+            "S1:irrelevant": -0.12539076805114746,
+            "S6:irrelevant": -0.0003905296325683594,
+            "S1:background": 0.1250615119934082,
+            "S6:background": 0.12511968612670898
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0021",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.001678228378296,
+          "delta": {
+            "S1:target": -1.6273727416992188,
+            "S6:target": -1.6278184652328491,
+            "S1:irrelevant": -0.3755321502685547,
+            "S6:irrelevant": -0.24987876415252686,
+            "S1:background": -0.6202966570854187,
+            "S6:background": -0.375379741191864
+          }
+        },
+        "target": {
+          "m_clean": -2.499752998352051,
+          "delta": {
+            "S1:target": 0.3747527599334717,
+            "S6:target": 0.375,
+            "S1:irrelevant": 0.12517642974853516,
+            "S6:irrelevant": 0.12520360946655273,
+            "S1:background": -0.12505388259887695,
+            "S6:background": -0.12459135055541992
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0022",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.1251886487007141,
+          "delta": {
+            "S1:target": -1.1251898407936096,
+            "S6:target": -1.1251893639564514,
+            "S1:irrelevant": -1.74923974275589,
+            "S6:irrelevant": -1.5001880526542664
+          }
+        },
+        "target": {
+          "m_clean": -0.8749953508377075,
+          "delta": {
+            "S1:target": -0.2491990327835083,
+            "S6:target": -0.12500059604644775,
+            "S1:irrelevant": 0.0,
+            "S6:irrelevant": 0.12499886751174927,
+            "S1:background": 0.12312781810760498,
+            "S6:background": 0.2490919828414917
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0023",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.3727421760559082,
+          "delta": {
+            "S1:target": -0.3656473755836487,
+            "S6:target": -0.23877805471420288,
+            "S1:irrelevant": -0.12273544073104858,
+            "S6:irrelevant": -0.12017810344696045,
+            "S1:background": 0.0005909204483032227,
+            "S6:background": 0.004531383514404297
+          }
+        },
+        "target": {
+          "m_clean": -1.6217575073242188,
+          "delta": {
+            "S1:target": 0.2486104965209961,
+            "S6:target": 0.2492130994796753,
+            "S1:background": -0.2516500949859619,
+            "S6:background": -0.375546932220459
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0024",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.2495713233947754,
+          "delta": {
+            "S1:target": -1.1244014501571655,
+            "S6:target": -0.9995707273483276,
+            "S1:irrelevant": -0.7498872876167297,
+            "S6:irrelevant": -0.625356912612915,
+            "S1:background": -0.6238601803779602,
+            "S6:background": -0.3752342462539673
+          }
+        },
+        "target": {
+          "m_clean": -1.6255494356155396,
+          "delta": {
+            "S1:target": 0.0005534887313842773,
+            "S6:target": 0.0005532503128051758,
+            "S1:irrelevant": 0.2500932216644287,
+            "S6:irrelevant": 0.12555325031280518,
+            "S1:background": 0.0005525350570678711,
+            "S6:background": 0.0005526542663574219
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0025",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.8753790855407715,
+          "delta": {
+            "S1:target": -0.2496182918548584,
+            "S6:target": -0.12433856725692749,
+            "S1:background": 2.300739288330078e-05,
+            "S6:background": 8.350610733032227e-05
+          }
+        },
+        "target": {
+          "m_clean": -0.8749980926513672,
+          "delta": {
+            "S1:target": 0.12585318088531494,
+            "S6:target": 0.25,
+            "S1:irrelevant": 1.1324882507324219e-06,
+            "S6:irrelevant": 0.24897468090057373,
+            "S1:background": -0.12403500080108643,
+            "S6:background": 0.12499940395355225
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0026",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.3745896816253662,
+          "delta": {
+            "S1:target": -0.2496192455291748,
+            "S6:target": -0.12509047985076904,
+            "S1:irrelevant": 0.0007565021514892578,
+            "S6:irrelevant": 0.0012514591217041016,
+            "S1:background": 0.00028836727142333984,
+            "S6:background": 0.0003809928894042969
+          }
+        },
+        "target": {
+          "m_clean": -3.372218132019043,
+          "delta": {
+            "S1:target": 1.997733235359192,
+            "S6:target": 2.1227285861968994,
+            "S1:irrelevant": 1.1232326030731201,
+            "S6:irrelevant": 1.498058795928955
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0027",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.747992753982544,
+          "delta": {
+            "S1:target": -0.126112163066864,
+            "S6:target": -0.12668883800506592,
+            "S1:irrelevant": 0.24914154410362244,
+            "S6:irrelevant": 0.24883317947387695
+          }
+        },
+        "target": {
+          "m_clean": -0.4999972879886627,
+          "delta": {
+            "S1:target": -5.066394805908203e-07,
+            "S6:target": -0.12323972582817078,
+            "S1:irrelevant": -0.12312760949134827,
+            "S6:irrelevant": -0.12312766909599304,
+            "S1:background": -0.24834540486335754,
+            "S6:background": -0.12424692511558533
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0028",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.998837947845459,
+          "delta": {
+            "S1:target": -2.376916289329529,
+            "S6:target": -2.502111077308655,
+            "S1:irrelevant": 0.6253557205200195,
+            "S6:irrelevant": 0.6243901252746582,
+            "S1:background": -0.6388977766036987,
+            "S6:background": -0.3803447484970093
+          }
+        },
+        "target": {
+          "m_clean": -1.8746464252471924,
+          "delta": {
+            "S1:target": -7.891654968261719e-05,
+            "S6:target": -0.00035321712493896484,
+            "S1:irrelevant": 0.00044608116149902344,
+            "S6:irrelevant": -0.00015842914581298828,
+            "S1:background": -0.24881196022033691,
+            "S6:background": -0.24987006187438965
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0029",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 3.500272750854492,
+          "delta": {
+            "S1:target": -4.499955534934998,
+            "S6:target": -4.250553011894226,
+            "S1:irrelevant": -3.218650817871094e-05,
+            "S6:irrelevant": -0.00019025802612304688,
+            "S1:background": -1.1252779960632324,
+            "S6:background": -0.8754458427429199
+          }
+        },
+        "target": {
+          "m_clean": -0.499999076128006,
+          "delta": {
+            "S1:target": -1.243698924779892,
+            "S6:target": -0.8789341151714325,
+            "S1:irrelevant": -0.24951061606407166,
+            "S6:irrelevant": -0.24953898787498474,
+            "S1:background": -0.3750006854534149,
+            "S6:background": -0.3749997913837433
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0030",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.38076454401016235,
+          "delta": {
+            "S1:target": -1.3772339224815369,
+            "S6:target": -1.3784956336021423,
+            "S1:irrelevant": -1.2541049122810364,
+            "S6:irrelevant": -1.2522754073143005,
+            "S1:background": -0.002278625965118408,
+            "S6:background": -0.0028652548789978027
+          }
+        },
+        "target": {
+          "m_clean": -1.0003095865249634,
+          "delta": {
+            "S1:target": -0.12484991550445557,
+            "S6:target": -0.12484979629516602,
+            "S1:irrelevant": -0.12483108043670654,
+            "S6:irrelevant": -0.1248396635055542,
+            "S1:background": -0.3746887445449829,
+            "S6:background": -0.12493574619293213
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0031",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.9992073774337769,
+          "delta": {
+            "S1:target": 0.5000993013381958,
+            "S6:target": 0.749207615852356,
+            "S1:irrelevant": 0.12506306171417236,
+            "S6:irrelevant": 0.00048661231994628906
+          }
+        },
+        "target": {
+          "m_clean": -3.4996676445007324,
+          "delta": {
+            "S1:target": 0.12502074241638184,
+            "S6:target": 0.24982953071594238,
+            "S1:irrelevant": -0.00018930435180664062,
+            "S6:irrelevant": 0.12466883659362793,
+            "S1:background": 0.3760504722595215,
+            "S6:background": 0.2500438690185547
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0032",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.1249995231628418,
+          "delta": {
+            "S1:target": 0.12629282474517822,
+            "S6:target": 0.24999988079071045,
+            "S1:irrelevant": 0.0008902549743652344,
+            "S6:irrelevant": 0.000519871711730957,
+            "S1:background": -0.12399077415466309,
+            "S6:background": 0.0004597902297973633
+          }
+        },
+        "target": {
+          "m_clean": -0.3748171329498291,
+          "delta": {
+            "S1:target": -0.1251276433467865,
+            "S6:target": 0.1247258186340332,
+            "S1:irrelevant": 0.4995895028114319,
+            "S6:irrelevant": 0.49981749057769775
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0033",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7513085603713989,
+          "delta": {
+            "S1:target": -0.24868977069854736,
+            "S6:target": -0.12458151578903198,
+            "S1:background": -0.12443041801452637,
+            "S6:background": -0.12398713827133179
+          }
+        },
+        "target": {
+          "m_clean": -1.3755390644073486,
+          "delta": {
+            "S1:target": 0.0005420446395874023,
+            "S6:target": -0.12414085865020752,
+            "S1:irrelevant": 0.0009002685546875,
+            "S6:irrelevant": -0.12412047386169434,
+            "S1:background": 0.1255415678024292,
+            "S6:background": 0.12537157535552979
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0034",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.9974093437194824,
+          "delta": {
+            "S1:target": -0.002231597900390625,
+            "S6:target": 0.12240976095199585,
+            "S1:irrelevant": -0.2508028745651245,
+            "S6:irrelevant": -0.37497806549072266,
+            "S1:background": -0.3705950975418091,
+            "S6:background": -0.1251530647277832
+          }
+        },
+        "target": {
+          "m_clean": -2.3748390674591064,
+          "delta": {
+            "S1:target": 0.9995982646942139,
+            "S6:target": 0.9996803998947144,
+            "S1:irrelevant": -0.12515974044799805,
+            "S6:irrelevant": -0.12500929832458496,
+            "S1:background": 0.24994945526123047,
+            "S6:background": 0.37506675720214844
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0035",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.62547767162323,
+          "delta": {
+            "S1:target": 0.00016796588897705078,
+            "S6:target": 0.0004781484603881836,
+            "S1:irrelevant": 0.00047957897186279297,
+            "S6:irrelevant": 0.1254788637161255,
+            "S1:background": 0.00047969818115234375,
+            "S6:background": 0.000727534294128418
+          }
+        },
+        "target": {
+          "m_clean": -1.3737034797668457,
+          "delta": {
+            "S1:target": 0.12437403202056885,
+            "S6:target": 0.12370765209197998,
+            "S1:irrelevant": 0.12370765209197998,
+            "S6:irrelevant": 0.12370812892913818,
+            "S1:background": 0.12370657920837402,
+            "S6:background": 0.12370645999908447
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0036",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 3.1273739337921143,
+          "delta": {
+            "S1:target": -4.62699568271637,
+            "S6:target": -3.626893848180771,
+            "S1:irrelevant": -0.1256849765777588,
+            "S6:irrelevant": -0.0006361007690429688
+          }
+        },
+        "target": {
+          "m_clean": -2.4989235401153564,
+          "delta": {
+            "S1:target": 0.9986622333526611,
+            "S6:target": 0.9986929893493652,
+            "S1:irrelevant": 0.24892616271972656,
+            "S6:irrelevant": 0.24892568588256836
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0037",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.1249942779541016,
+          "delta": {
+            "S1:target": 0.12499940395355225,
+            "S6:target": 0.0015559196472167969,
+            "S1:irrelevant": -0.12385761737823486,
+            "S6:irrelevant": -1.1920928955078125e-06,
+            "S1:background": -0.12334442138671875,
+            "S6:background": 0.0007530450820922852
+          }
+        },
+        "target": {
+          "m_clean": -1.124996542930603,
+          "delta": {
+            "S1:target": 0.0005893707275390625,
+            "S6:target": 0.12500083446502686,
+            "S1:irrelevant": -0.3750004768371582,
+            "S6:irrelevant": -0.24999797344207764,
+            "S1:background": 0.0004062652587890625,
+            "S6:background": 0.12499988079071045
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0038",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.1275534629821777,
+          "delta": {
+            "S1:target": 0.37331902980804443,
+            "S6:target": 0.4974614977836609,
+            "S1:background": -0.0016791820526123047,
+            "S6:background": 0.12300801277160645
+          }
+        },
+        "target": {
+          "m_clean": -2.374997615814209,
+          "delta": {
+            "S1:target": 0.12426018714904785,
+            "S6:target": 0.12416315078735352,
+            "S1:irrelevant": 4.76837158203125e-07,
+            "S6:irrelevant": 0.0,
+            "S1:background": 4.76837158203125e-07,
+            "S6:background": 0.0
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0039",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -2.7496893405914307,
+          "delta": {
+            "S1:target": 0.2504868507385254,
+            "S6:target": 0.5003452301025391,
+            "S1:irrelevant": 0.2506399154663086,
+            "S6:irrelevant": 0.12514209747314453,
+            "S1:background": 0.3749094009399414,
+            "S6:background": 0.7494449615478516
+          }
+        },
+        "target": {
+          "m_clean": -3.249810218811035,
+          "delta": {
+            "S1:target": 0.12492156028747559,
+            "S6:target": 0.12489724159240723,
+            "S1:irrelevant": -8.487701416015625e-05,
+            "S6:irrelevant": 1.239776611328125e-05,
+            "S1:background": -0.000102996826171875,
+            "S6:background": -0.00010275840759277344
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0000",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.125000238418579,
+          "delta": {
+            "S1:target": 0.0004057884216308594,
+            "S6:target": 0.12447941303253174,
+            "S1:irrelevant": -0.3749988079071045,
+            "S6:irrelevant": -0.2499990463256836,
+            "S1:background": -0.12194418907165527,
+            "S6:background": -0.12566375732421875
+          }
+        },
+        "target": {
+          "m_clean": -1.999999761581421,
+          "delta": {
+            "S1:target": 0.24999964237213135,
+            "S6:target": 0.12687039375305176,
+            "S1:irrelevant": -0.1243741512298584,
+            "S6:irrelevant": -0.24870800971984863,
+            "S1:background": -0.1250011920928955,
+            "S6:background": -0.1250007152557373
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0001",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7467252016067505,
+          "delta": {
+            "S1:target": -0.1249992847442627,
+            "S6:target": -0.0010257363319396973,
+            "S1:irrelevant": -0.25021862983703613,
+            "S6:irrelevant": -0.0032747983932495117,
+            "S1:background": -0.37499892711639404,
+            "S6:background": -0.2514033317565918
+          }
+        },
+        "target": {
+          "m_clean": -1.0038931369781494,
+          "delta": {
+            "S1:target": 0.12688779830932617,
+            "S6:target": 0.12499946355819702,
+            "S1:irrelevant": -0.12455606460571289,
+            "S6:irrelevant": 0.0018897056579589844,
+            "S1:background": -0.12845110893249512,
+            "S6:background": -0.24767827987670898
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0002",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.374051809310913,
+          "delta": {
+            "S1:target": -0.0006132125854492188,
+            "S6:target": 0.0005184412002563477,
+            "S1:irrelevant": -0.12465071678161621,
+            "S6:irrelevant": -0.00036013126373291016,
+            "S1:background": -0.3749978542327881,
+            "S6:background": -0.25065112113952637
+          }
+        },
+        "target": {
+          "m_clean": -2.249034881591797,
+          "delta": {
+            "S1:target": -0.00037550926208496094,
+            "S6:target": -0.0009646415710449219,
+            "S1:irrelevant": 0.12488770484924316,
+            "S6:irrelevant": 0.12403535842895508,
+            "S1:background": 0.24974322319030762,
+            "S6:background": 0.24903512001037598
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0003",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.8742611408233643,
+          "delta": {
+            "S1:target": -0.8752614259719849,
+            "S6:target": -0.7504425048828125,
+            "S1:irrelevant": -0.0002906322479248047,
+            "S6:irrelevant": -8.64267349243164e-05,
+            "S1:background": -0.1254028081893921,
+            "S6:background": -0.12544238567352295
+          }
+        },
+        "target": {
+          "m_clean": -2.7505860328674316,
+          "delta": {
+            "S1:target": 1.0005905628204346,
+            "S6:target": 1.1286449432373047,
+            "S1:irrelevant": 0.009948968887329102,
+            "S6:irrelevant": 0.12798428535461426
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0004",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.0028961896896362,
+          "delta": {
+            "S1:target": -0.6221035718917847,
+            "S6:target": -0.4971050024032593,
+            "S1:irrelevant": -0.12451326847076416,
+            "S6:irrelevant": -0.37466442584991455,
+            "S1:background": -0.1237567663192749,
+            "S6:background": 0.0008962154388427734
+          }
+        },
+        "target": {
+          "m_clean": -0.12129718065261841,
+          "delta": {
+            "S1:target": -0.0025448203086853027,
+            "S6:target": -0.0037047863006591797,
+            "S1:background": -0.24980729818344116,
+            "S6:background": -0.003704249858856201
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0005",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.2492930293083191,
+          "delta": {
+            "S1:target": -0.7501539587974548,
+            "S6:target": -0.7511671185493469,
+            "S1:irrelevant": -0.12646138668060303,
+            "S6:irrelevant": -0.2501186430454254,
+            "S1:background": 0.00018286705017089844,
+            "S6:background": -0.2503267824649811
+          }
+        },
+        "target": {
+          "m_clean": 0.10616445541381836,
+          "delta": {
+            "S1:target": -0.12110471725463867,
+            "S6:target": -0.12110459804534912,
+            "S1:irrelevant": -0.12110376358032227,
+            "S6:irrelevant": -0.11941027641296387,
+            "S1:background": 0.005587756633758545,
+            "S6:background": 0.009483277797698975
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0006",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.8759633898735046,
+          "delta": {
+            "S1:target": -1.3735573291778564,
+            "S6:target": -1.3735303282737732,
+            "S1:irrelevant": -0.00011867284774780273,
+            "S6:irrelevant": -0.12516993284225464,
+            "S1:background": -0.12538844347000122,
+            "S6:background": -0.3752180337905884
+          }
+        },
+        "target": {
+          "m_clean": -1.875739574432373,
+          "delta": {
+            "S1:target": 1.5007402300834656,
+            "S6:target": 1.6257396936416626,
+            "S1:irrelevant": 0.6281435489654541,
+            "S6:irrelevant": 0.7507400512695312
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0007",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.0081758499145508,
+          "delta": {
+            "S1:target": -1.2447941899299622,
+            "S6:target": -1.2539888620376587,
+            "S1:irrelevant": -0.00756525993347168,
+            "S6:irrelevant": -0.3814992904663086
+          }
+        },
+        "target": {
+          "m_clean": -2.874995231628418,
+          "delta": {
+            "S1:target": 0.7499983310699463,
+            "S6:target": 0.7511575222015381,
+            "S1:irrelevant": 0.12499856948852539,
+            "S6:irrelevant": 0.125,
+            "S1:background": 0.12996172904968262,
+            "S6:background": 0.3766765594482422
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0008",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.002390146255493164,
+          "delta": {
+            "S1:target": -0.8789660930633545,
+            "S6:target": -0.8755205273628235,
+            "S1:irrelevant": -1.249986171722412,
+            "S6:irrelevant": -1.0047823190689087
+          }
+        },
+        "target": {
+          "m_clean": -0.5000004768371582,
+          "delta": {
+            "S1:target": -0.0025528669357299805,
+            "S6:target": 6.854534149169922e-07,
+            "S1:irrelevant": 0.0016737878322601318,
+            "S6:irrelevant": 0.0018894374370574951,
+            "S1:background": 8.344650268554688e-07,
+            "S6:background": 7.450580596923828e-07
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0009",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.3706033229827881,
+          "delta": {
+            "S1:target": -0.25000131130218506,
+            "S6:target": -0.25272083282470703,
+            "S1:irrelevant": -0.251692533493042,
+            "S6:irrelevant": -0.3793964982032776
+          }
+        },
+        "target": {
+          "m_clean": -1.4985367059707642,
+          "delta": {
+            "S1:target": 0.1243903636932373,
+            "S6:target": 0.12353718280792236,
+            "S1:irrelevant": -0.0006607770919799805,
+            "S6:irrelevant": -0.0006601810455322266,
+            "S1:background": -0.0005550384521484375,
+            "S6:background": 0.12424492835998535
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0010",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.50444495677948,
+          "delta": {
+            "S1:target": -1.1920928955078125e-07,
+            "S6:target": 0.0032156705856323242,
+            "S1:irrelevant": -0.24948740005493164,
+            "S6:irrelevant": -0.0006486177444458008,
+            "S1:background": -3.5762786865234375e-07,
+            "S6:background": -0.0020579099655151367
+          }
+        },
+        "target": {
+          "m_clean": -0.004955291748046875,
+          "delta": {
+            "S1:target": -0.24504035711288452,
+            "S6:target": -0.12562984228134155,
+            "S1:irrelevant": -1.242640733718872,
+            "S6:irrelevant": -0.9950426816940308
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0011",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.8652596473693848,
+          "delta": {
+            "S1:target": -0.119789719581604,
+            "S6:target": -0.1178901195526123,
+            "S1:irrelevant": -0.121132493019104,
+            "S6:irrelevant": -0.12284839153289795,
+            "S1:background": -0.12284994125366211,
+            "S6:background": -0.0020655393600463867
+          }
+        },
+        "target": {
+          "m_clean": -1.4993852376937866,
+          "delta": {
+            "S1:target": -0.12507259845733643,
+            "S6:target": -0.12491905689239502,
+            "S1:irrelevant": -0.00033605098724365234,
+            "S6:irrelevant": -0.24960124492645264,
+            "S1:background": -0.0003675222396850586,
+            "S6:background": -0.12438309192657471
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0012",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7500009536743164,
+          "delta": {
+            "S1:target": 0.0006538033485412598,
+            "S6:target": 0.12405097484588623,
+            "S1:irrelevant": -0.2499995231628418,
+            "S6:irrelevant": -0.12569493055343628,
+            "S1:background": -0.12500059604644775,
+            "S6:background": -0.12601226568222046
+          }
+        },
+        "target": {
+          "m_clean": -1.1228827238082886,
+          "delta": {
+            "S1:target": -0.0009591579437255859,
+            "S6:target": -0.0021169185638427734,
+            "S1:irrelevant": -0.0012089014053344727,
+            "S6:irrelevant": 0.12288308143615723,
+            "S1:background": -0.12177610397338867,
+            "S6:background": -0.12499713897705078
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0013",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.1249969005584717,
+          "delta": {
+            "S1:target": -2.3725929260253906,
+            "S6:target": -1.874996304512024
+          }
+        },
+        "target": {
+          "m_clean": -2.8749988079071045,
+          "delta": {
+            "S1:target": 0.5008904933929443,
+            "S6:target": 0.5014817714691162,
+            "S1:irrelevant": 0.3759005069732666,
+            "S6:irrelevant": 0.5006132125854492,
+            "S1:background": 0.6254496574401855,
+            "S6:background": 0.6257414817810059
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0014",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.6284533143043518,
+          "delta": {
+            "S1:target": 0.12277764081954956,
+            "S6:target": 0.12110275030136108,
+            "S1:irrelevant": 0.12277597188949585,
+            "S6:irrelevant": 0.12400120496749878,
+            "S1:background": -0.0013439655303955078,
+            "S6:background": 0.12194222211837769
+          }
+        },
+        "target": {
+          "m_clean": -1.3965225219726562,
+          "delta": {
+            "S1:target": 0.005266308784484863,
+            "S6:target": 0.12517166137695312,
+            "S1:irrelevant": 0.1489264965057373,
+            "S6:irrelevant": 0.5202898979187012
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0015",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.2499985694885254,
+          "delta": {
+            "S1:target": 0.12390995025634766,
+            "S6:target": 0.12376821041107178,
+            "S1:irrelevant": -0.0010901689529418945,
+            "S6:irrelevant": -1.1920928955078125e-07,
+            "S1:background": 0.12376594543457031,
+            "S6:background": 0.12243771553039551
+          }
+        },
+        "target": {
+          "m_clean": -3.3749918937683105,
+          "delta": {
+            "S1:target": 0.36791491508483887,
+            "S6:target": 0.3670327663421631,
+            "S1:irrelevant": 0.12135505676269531,
+            "S6:irrelevant": 0.12500238418579102,
+            "S1:background": -0.0032393932342529297,
+            "S6:background": -0.005587577819824219
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0016",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.8794066905975342,
+          "delta": {
+            "S1:target": -1.1266844272613525,
+            "S6:target": -1.1259251832962036,
+            "S1:irrelevant": -0.500511646270752,
+            "S6:irrelevant": -0.6262925863265991,
+            "S1:background": -0.25145506858825684,
+            "S6:background": -0.502528190612793
+          }
+        },
+        "target": {
+          "m_clean": -1.744404673576355,
+          "delta": {
+            "S1:target": -0.12292015552520752,
+            "S6:target": 0.12246406078338623,
+            "S1:irrelevant": 0.11940979957580566,
+            "S6:irrelevant": 0.11940944194793701,
+            "S1:background": 0.0030535459518432617,
+            "S6:background": -0.0021497011184692383
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0017",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.2549573183059692,
+          "delta": {
+            "S1:target": 0.12740492820739746,
+            "S6:target": 0.12437009811401367,
+            "S1:irrelevant": 0.24773573875427246,
+            "S6:irrelevant": 0.24681520462036133,
+            "S1:background": 0.2477349042892456,
+            "S6:background": 0.24681615829467773
+          }
+        },
+        "target": {
+          "m_clean": -2.1274046897888184,
+          "delta": {
+            "S1:target": 0.12499880790710449,
+            "S6:target": 0.0017409324645996094,
+            "S1:irrelevant": 0.0018184185028076172,
+            "S6:irrelevant": 0.12527823448181152,
+            "S1:background": 0.0007548332214355469,
+            "S6:background": 0.0007545948028564453
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0018",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.7563939094543457,
+          "delta": {
+            "S1:target": -1.2555426359176636,
+            "S6:target": -1.130841612815857,
+            "S1:irrelevant": -0.0015555620193481445,
+            "S6:irrelevant": 0.12212848663330078,
+            "S1:background": -0.6200330257415771,
+            "S6:background": -0.5063941478729248
+          }
+        },
+        "target": {
+          "m_clean": -0.6243061423301697,
+          "delta": {
+            "S1:target": 0.25095850229263306,
+            "S6:target": 0.1256788969039917,
+            "S1:irrelevant": 0.12544548511505127,
+            "S6:irrelevant": -0.12422698736190796,
+            "S1:background": -0.12411773204803467,
+            "S6:background": -0.24865812063217163
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0019",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.12574487924575806,
+          "delta": {
+            "S1:target": -1.1254110932350159,
+            "S6:target": -1.000748336315155,
+            "S1:irrelevant": -0.0005063414573669434,
+            "S6:irrelevant": -0.0004184842109680176,
+            "S1:background": -0.12556767463684082,
+            "S6:background": -0.2504182457923889
+          }
+        },
+        "target": {
+          "m_clean": -1.751868724822998,
+          "delta": {
+            "S1:target": 0.24946200847625732,
+            "S6:target": 0.24788260459899902,
+            "S1:irrelevant": -0.0008524656295776367,
+            "S6:irrelevant": -0.0002573728561401367,
+            "S1:background": 0.1249997615814209,
+            "S6:background": 0.0011178255081176758
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0020",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.9995371103286743,
+          "delta": {
+            "S1:target": 0.750092625617981,
+            "S6:target": 0.6245409250259399,
+            "S1:irrelevant": -0.12545788288116455,
+            "S6:irrelevant": -0.1250525712966919,
+            "S1:background": -0.875458836555481,
+            "S6:background": -0.7514675855636597
+          }
+        },
+        "target": {
+          "m_clean": -1.4999977350234985,
+          "delta": {
+            "S1:target": 0.2491452693939209,
+            "S6:target": 0.12500035762786865,
+            "S1:irrelevant": 0.12409400939941406,
+            "S6:irrelevant": 0.12500059604644775,
+            "S1:background": 0.12370669841766357,
+            "S6:background": 0.12429118156433105
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0021",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.3731207251548767,
+          "delta": {
+            "S1:target": -0.5001124739646912,
+            "S6:target": -0.3763279318809509,
+            "S1:irrelevant": -0.0012921690940856934,
+            "S6:irrelevant": 3.5762786865234375e-07,
+            "S1:background": -0.1251215934753418,
+            "S6:background": -0.001328110694885254
+          }
+        },
+        "target": {
+          "m_clean": -1.9983261823654175,
+          "delta": {
+            "S1:target": 0.12332725524902344,
+            "S6:target": 0.12332868576049805,
+            "S1:irrelevant": -0.12536132335662842,
+            "S6:irrelevant": -0.12499868869781494,
+            "S1:background": -0.12194192409515381,
+            "S6:background": 0.002224445343017578
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0022",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.12210202217102051,
+          "delta": {
+            "S1:target": 0.12515789270401,
+            "S6:target": 0.37333428859710693,
+            "S1:irrelevant": -0.24354130029678345,
+            "S6:irrelevant": -0.12789583206176758,
+            "S1:background": -0.8754624128341675,
+            "S6:background": -0.6267555952072144
+          }
+        },
+        "target": {
+          "m_clean": -1.37711501121521,
+          "delta": {
+            "S1:target": 0.25072169303894043,
+            "S6:target": 0.12711691856384277,
+            "S1:irrelevant": 0.3771160840988159,
+            "S6:irrelevant": 0.4986656904220581,
+            "S1:background": -0.3679225444793701,
+            "S6:background": 0.0005443096160888672
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0023",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.5007534027099609,
+          "delta": {
+            "S1:target": -0.75,
+            "S6:target": -0.6250004768371582,
+            "S1:irrelevant": -0.6256208419799805,
+            "S6:irrelevant": -0.7492456436157227,
+            "S1:background": -0.12546253204345703,
+            "S6:background": -0.24983572959899902
+          }
+        },
+        "target": {
+          "m_clean": -1.633949875831604,
+          "delta": {
+            "S1:target": -0.0013742446899414062,
+            "S6:target": -0.11969172954559326,
+            "S1:irrelevant": 0.005896568298339844,
+            "S6:irrelevant": -0.11831104755401611,
+            "S1:background": -0.12065136432647705,
+            "S6:background": 0.0009846687316894531
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0024",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.09170371294021606,
+          "delta": {
+            "S1:target": -0.003774702548980713,
+            "S6:target": 0.1407446265220642,
+            "S1:irrelevant": -0.10924750566482544,
+            "S6:irrelevant": 0.017551302909851074,
+            "S1:background": -0.24999862909317017,
+            "S6:background": -0.25377386808395386
+          }
+        },
+        "target": {
+          "m_clean": -1.6223887205123901,
+          "delta": {
+            "S1:target": 0.24779438972473145,
+            "S6:target": 0.2486041784286499,
+            "S1:irrelevant": 0.37417423725128174,
+            "S6:irrelevant": 0.249619722366333,
+            "S1:background": 0.001091599464416504,
+            "S6:background": -0.0019016265869140625
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0025",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.2563998699188232,
+          "delta": {
+            "S1:target": 0.3764423727989197,
+            "S6:target": 0.3757277727127075,
+            "S1:irrelevant": 0.5031595230102539,
+            "S6:irrelevant": 0.6264415979385376,
+            "S1:background": -0.12673819065093994,
+            "S6:background": 0.11814916133880615
+          }
+        },
+        "target": {
+          "m_clean": -1.624144196510315,
+          "delta": {
+            "S1:target": -0.0008527040481567383,
+            "S6:target": -0.0008530616760253906,
+            "S1:irrelevant": -0.0008527040481567383,
+            "S6:irrelevant": 0.00017344951629638672,
+            "S1:background": 0.24914610385894775,
+            "S6:background": 0.2501722574234009
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0026",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.4996635317802429,
+          "delta": {
+            "S1:target": -2.2529438138008118,
+            "S6:target": -2.1276400685310364,
+            "S1:irrelevant": -2.002120077610016,
+            "S6:irrelevant": -1.8777876496315002,
+            "S1:background": -0.37490415573120117,
+            "S6:background": -0.12574297189712524
+          }
+        },
+        "target": {
+          "m_clean": 1.2518491744995117,
+          "delta": {
+            "S1:target": -0.0012755393981933594,
+            "S6:target": -0.0009014606475830078,
+            "S1:irrelevant": -2.251062750816345,
+            "S6:irrelevant": -2.12619549036026,
+            "S1:background": -1.1230707168579102,
+            "S6:background": -0.9998300075531006
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0027",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.3789844512939453,
+          "delta": {
+            "S1:target": -0.6289862990379333,
+            "S6:target": -0.5062376260757446,
+            "S1:irrelevant": 0.12312769889831543,
+            "S6:irrelevant": -0.1247478723526001,
+            "S1:background": -1.1273258924484253,
+            "S6:background": -1.0025243163108826
+          }
+        },
+        "target": {
+          "m_clean": -1.8793940544128418,
+          "delta": {
+            "S1:target": 0.0018427371978759766,
+            "S6:target": -1.1920928955078125e-06,
+            "S1:irrelevant": -0.0005625486373901367,
+            "S6:irrelevant": 0.12372076511383057,
+            "S1:background": 0.6276177167892456,
+            "S6:background": 0.6276166439056396
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0028",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7507091760635376,
+          "delta": {
+            "S1:target": -0.25018346309661865,
+            "S6:target": -0.12567263841629028,
+            "S1:irrelevant": -0.12567204236984253,
+            "S6:irrelevant": -0.37429046630859375,
+            "S1:background": -0.0015567541122436523,
+            "S6:background": -0.0017004013061523438
+          }
+        },
+        "target": {
+          "m_clean": -0.7512902021408081,
+          "delta": {
+            "S1:target": 0.999162495136261,
+            "S6:target": 0.9988831877708435,
+            "S1:irrelevant": 1.1240277290344238,
+            "S6:irrelevant": 1.1237295269966125,
+            "S1:background": -0.0011421442031860352,
+            "S6:background": -0.1249992847442627
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0029",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7478706240653992,
+          "delta": {
+            "S1:target": -0.12419801950454712,
+            "S6:target": -0.12547427415847778,
+            "S1:irrelevant": 0.0008022785186767578,
+            "S6:irrelevant": -0.0001277327537536621,
+            "S1:background": -0.12535947561264038,
+            "S6:background": -0.1245388388633728
+          }
+        },
+        "target": {
+          "m_clean": -1.1267775297164917,
+          "delta": {
+            "S1:target": 0.0017768144607543945,
+            "S6:target": 0.00177764892578125,
+            "S1:irrelevant": 0.0030106306076049805,
+            "S6:irrelevant": 0.0017784833908081055,
+            "S1:background": 0.0034505128860473633,
+            "S6:background": -0.12016701698303223
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0030",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.8740360736846924,
+          "delta": {
+            "S1:target": 0.1245875358581543,
+            "S6:target": 0.24993932247161865,
+            "S1:irrelevant": -0.37355995178222656,
+            "S6:irrelevant": -0.25037550926208496
+          }
+        },
+        "target": {
+          "m_clean": -1.2557634115219116,
+          "delta": {
+            "S1:target": -0.0012317895889282227,
+            "S6:target": 7.152557373046875e-07,
+            "S1:irrelevant": 0.0017725229263305664,
+            "S6:irrelevant": -0.12163019180297852,
+            "S1:background": 0.001824021339416504,
+            "S6:background": -0.0012313127517700195
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0031",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.6242626905441284,
+          "delta": {
+            "S1:target": -0.8748853206634521,
+            "S6:target": -0.9986087083816528,
+            "S1:irrelevant": 0.12495723366737366,
+            "S6:irrelevant": 0.12464088201522827,
+            "S1:background": -0.1254028081893921,
+            "S6:background": -0.0007396936416625977
+          }
+        },
+        "target": {
+          "m_clean": -1.3763930797576904,
+          "delta": {
+            "S1:target": -0.0001819133758544922,
+            "S6:target": -0.12360501289367676,
+            "S1:background": -0.12055420875549316,
+            "S6:background": 1.7881393432617188e-06
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0032",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.1244584321975708,
+          "delta": {
+            "S1:target": -0.5000910758972168,
+            "S6:target": -0.6252319812774658,
+            "S1:irrelevant": -0.12523233890533447,
+            "S6:irrelevant": -0.125372052192688,
+            "S1:background": -0.7447786331176758,
+            "S6:background": -0.625540018081665
+          }
+        },
+        "target": {
+          "m_clean": -0.11604291200637817,
+          "delta": {
+            "S1:target": -0.2589549422264099,
+            "S6:target": -0.1410394310951233,
+            "S1:irrelevant": -0.13835102319717407,
+            "S6:irrelevant": -0.13395428657531738,
+            "S1:background": -0.8720706105232239,
+            "S6:background": -0.6339530348777771
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0033",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.006122171878814697,
+          "delta": {
+            "S1:target": -0.5012229084968567,
+            "S6:target": -0.37927883863449097,
+            "S1:irrelevant": -0.37360429763793945,
+            "S6:irrelevant": -0.1277991533279419,
+            "S1:background": -0.3728140592575073,
+            "S6:background": -0.12500011920928955
+          }
+        },
+        "target": {
+          "m_clean": -2.376274585723877,
+          "delta": {
+            "S1:target": 0.7507323026657104,
+            "S6:target": 0.8758251667022705,
+            "S1:irrelevant": 0.0001811981201171875,
+            "S6:irrelevant": 0.00031566619873046875,
+            "S1:background": 0.12552165985107422,
+            "S6:background": 0.25092434883117676
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0034",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.6241634488105774,
+          "delta": {
+            "S1:target": 0.1250530183315277,
+            "S6:target": 0.0014505982398986816,
+            "S1:irrelevant": -0.12417489290237427,
+            "S6:irrelevant": -0.12488937377929688,
+            "S1:background": -0.12547975778579712,
+            "S6:background": -0.12469178438186646
+          }
+        },
+        "target": {
+          "m_clean": -2.5035243034362793,
+          "delta": {
+            "S1:target": 0.2500433921813965,
+            "S6:target": 0.25080275535583496,
+            "S1:irrelevant": -0.001461029052734375,
+            "S6:irrelevant": -0.0004596710205078125,
+            "S1:background": -0.0007538795471191406,
+            "S6:background": -0.0014617443084716797
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0035",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.1212961673736572,
+          "delta": {
+            "S1:target": -0.001310586929321289,
+            "S6:target": 0.12277758121490479,
+            "S1:irrelevant": 0.2489997148513794,
+            "S6:irrelevant": 0.373427152633667,
+            "S1:background": -0.00042808055877685547,
+            "S6:background": 0.12277781963348389
+          }
+        },
+        "target": {
+          "m_clean": -1.4999982118606567,
+          "delta": {
+            "S1:target": 0.12323081493377686,
+            "S6:target": 0.12392604351043701,
+            "S1:irrelevant": 1.1920928955078125e-07,
+            "S6:irrelevant": -3.5762786865234375e-07,
+            "S1:background": -0.12444615364074707,
+            "S6:background": -4.76837158203125e-07
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0036",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.5104007720947266,
+          "delta": {
+            "S1:target": -0.8664324283599854,
+            "S6:target": -0.5081379413604736,
+            "S1:irrelevant": -1.495458960533142,
+            "S6:irrelevant": -1.2521061897277832,
+            "S1:background": -0.2547297477722168,
+            "S6:background": -0.3803757429122925
+          }
+        },
+        "target": {
+          "m_clean": -2.1242868900299072,
+          "delta": {
+            "S1:target": 0.6235363483428955,
+            "S6:target": 0.7483835220336914,
+            "S1:irrelevant": 0.2485358715057373,
+            "S6:irrelevant": 0.12429165840148926,
+            "S1:background": 0.3742908239364624,
+            "S6:background": 0.37429022789001465
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0037",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.6249937415122986,
+          "delta": {
+            "S1:target": 0.0036646127700805664,
+            "S6:target": -2.7418136596679688e-06,
+            "S1:irrelevant": 0.0018889307975769043,
+            "S6:irrelevant": 0.0018901228904724121,
+            "S1:background": -1.1920928955078125e-06,
+            "S6:background": 0.0018891692161560059
+          }
+        },
+        "target": {
+          "m_clean": -1.8722881078720093,
+          "delta": {
+            "S1:target": 0.0016863346099853516,
+            "S6:target": 0.120025634765625,
+            "S1:irrelevant": 0.4972881078720093,
+            "S6:irrelevant": 0.6222901344299316,
+            "S1:background": -0.24590623378753662,
+            "S6:background": -0.12530243396759033
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0038",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.1247227191925049,
+          "delta": {
+            "S1:target": -0.0007686614990234375,
+            "S6:target": -0.12481939792633057,
+            "S1:irrelevant": -0.4999488592147827,
+            "S6:irrelevant": -0.3750736713409424,
+            "S1:background": -0.0002789497375488281,
+            "S6:background": 0.12450313568115234
+          }
+        },
+        "target": {
+          "m_clean": -1.3758015632629395,
+          "delta": {
+            "S1:target": 0.0008022785186767578,
+            "S6:target": 0.0018274784088134766,
+            "S1:background": 0.12580156326293945,
+            "S6:background": 0.24942493438720703
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0039",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 2.626702070236206,
+          "delta": {
+            "S1:target": -3.876344680786133,
+            "S6:target": -4.1253931522369385,
+            "S1:irrelevant": -2.3753117322921753,
+            "S6:irrelevant": -2.6257537603378296
+          }
+        },
+        "target": {
+          "m_clean": -2.6255388259887695,
+          "delta": {
+            "S1:target": 0.7561357021331787,
+            "S6:target": 0.8755443096160889,
+            "S1:irrelevant": 1.3779428005218506,
+            "S6:irrelevant": 1.3750505447387695
+          }
+        }
+      }
+    }
+  ]
+}

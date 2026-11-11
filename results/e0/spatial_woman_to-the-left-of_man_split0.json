@@ -1,0 +1,90 @@
+{
+  "config_version": "v5-pilot-1",
+  "task": "spatial",
+  "group": "woman|to the left of|man",
+  "pair_id": "spatial:dev:woman|to the left of|man:0000",
+  "splitting": false,
+  "input_len": 113,
+  "visual_tokens": 81,
+  "image_positions": [
+    5,
+    85
+  ],
+  "clean_margin_source": 1.999191164970398,
+  "clean_margin_source_repeat": 1.999191164970398,
+  "clean_margin_target": 0.6223887801170349,
+  "reproducibility_error": 0.0,
+  "shapes": {
+    "S0": [
+      1,
+      729,
+      1152
+    ],
+    "S1": [
+      1,
+      81,
+      2048
+    ],
+    "S6": [
+      1,
+      113,
+      2048
+    ],
+    "S12": [
+      1,
+      113,
+      2048
+    ],
+    "S18": [
+      1,
+      113,
+      2048
+    ]
+  },
+  "token_regions_9x9": {
+    "target": [
+      36,
+      45,
+      54,
+      63
+    ],
+    "reference": [
+      43,
+      44,
+      52,
+      53,
+      61,
+      62,
+      70,
+      71
+    ]
+  },
+  "identity_patch_margin": {
+    "S0": 1.999191164970398,
+    "S1": 1.999191164970398,
+    "S6": 1.999191164970398,
+    "S12": 1.999191164970398,
+    "S18": 1.999191164970398
+  },
+  "identity_patch_error": {
+    "S0": 0.0,
+    "S1": 0.0,
+    "S6": 0.0,
+    "S12": 0.0,
+    "S18": 0.0
+  },
+  "source_to_target_patch_margin": {
+    "S0": 1.999191164970398,
+    "S1": 1.999191164970398,
+    "S6": 1.997538685798645,
+    "S12": 0.7439224720001221,
+    "S18": 0.4956648349761963
+  },
+  "recovery_R": {
+    "S0": 1.0,
+    "S1": 1.0,
+    "S6": 0.9987997702575675,
+    "S12": 0.08827242981281672,
+    "S18": -0.09204221792100935
+  }
+}

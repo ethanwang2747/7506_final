@@ -1,0 +1,4218 @@
+{
+  "summary": [
+    {
+      "group": "bus|to the left of|building",
+      "n_pairs": 10,
+      "auc_clean": 0.7,
+      "mean_delta": 0.17512338161468505,
+      "S1:auc_after_target_ablation": 0.7,
+      "S1:target": {
+        "orig_delta_mean": -0.43748012781143186,
+        "flip_delta_mean": -0.23896205127239228
+      },
+      "S1:reference": {
+        "orig_delta_mean": -0.15026960372924805,
+        "flip_delta_mean": -0.14969038367271423
+      },
+      "S1:irrelevant": {
+        "orig_delta_mean": -0.04741562157869339,
+        "flip_delta_mean": 0.03204646334052086
+      },
+      "S1:background": {
+        "orig_delta_mean": 0.031932760030031204,
+        "flip_delta_mean": -0.03319179266691208
+      },
+      "S1:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S1:patch_target": {
+        "median_R": 0.04294331810364381,
+        "n": 10
+      },
+      "S1:patch_reference": {
+        "median_R": 0.0013947984937578385,
+        "n": 10
+      },
+      "S1:patch_irrelevant": {
+        "median_R": 0.0017634895459223913,
+        "n": 8
+      },
+      "S1:patch_random": {
+        "median_R": 0.0004671257528257091,
+        "n": 10
+      },
+      "S6:auc_after_target_ablation": 0.6,
+      "S6:target": {
+        "orig_delta_mean": -0.03692108392715454,
+        "flip_delta_mean": 0.08760653734207154
+      },
+      "S6:reference": {
+        "orig_delta_mean": -0.07532103061676025,
+        "flip_delta_mean": -0.062330585718154904
+      },
+      "S6:irrelevant": {
+        "orig_delta_mean": -0.04631954804062843,
+        "flip_delta_mean": 0.031975287944078445
+      },
+      "S6:background": {
+        "orig_delta_mean": 0.20394708216190338,
+        "flip_delta_mean": 0.17209314927458763
+      },
+      "S6:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S6:patch_target": {
+        "median_R": 0.1996759860056201,
+        "n": 10
+      },
+      "S6:patch_reference": {
+        "median_R": 0.0005480450253974691,
+        "n": 10
+      },
+      "S6:patch_irrelevant": {
+        "median_R": 0.3146305615097288,
+        "n": 8
+      },
+      "S6:patch_random": {
+        "median_R": 0.0706319809730839,
+        "n": 10
+      }
+    },
+    {
+      "group": "fence|to the left of|tree",
+      "n_pairs": 10,
+      "auc_clean": 0.6,
+      "mean_delta": 0.023637491464614867,
+      "S1:auc_after_target_ablation": 0.4,
+      "S1:target": {
+        "orig_delta_mean": -0.24249447286128997,
+        "flip_delta_mean": -0.19368959367275237
+      },
+      "S1:reference": {
+        "orig_delta_mean": -0.12827473878860474,
+        "flip_delta_mean": -0.030697926878929138
+      },
+      "S1:irrelevant": {
+        "orig_delta_mean": 0.16788727045059204,
+        "flip_delta_mean": 0.13701040670275688
+      },
+      "S1:background": {
+        "orig_delta_mean": -0.03936026245355606,
+        "flip_delta_mean": -0.007863804697990417
+      },
+      "S1:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S1:patch_target": {
+        "median_R": 0.3261999511649944,
+        "n": 10
+      },
+      "S1:patch_reference": {
+        "median_R": 0.4277018966242268,
+        "n": 10
+      },
+      "S1:patch_irrelevant": {
+        "median_R": -0.41595598497217634,
+        "n": 8
+      },
+      "S1:patch_random": {
+        "median_R": 0.09512800907023695,
+        "n": 10
+      },
+      "S6:auc_after_target_ablation": 0.4,
+      "S6:target": {
+        "orig_delta_mean": 0.0086954265832901,
+        "flip_delta_mean": 0.15697761178016661
+      },
+      "S6:reference": {
+        "orig_delta_mean": 0.1482088953256607,
+        "flip_delta_mean": 0.23190688192844391
+      },
+      "S6:irrelevant": {
+        "orig_delta_mean": 0.37306685745716095,
+        "flip_delta_mean": 0.386937465518713
+      },
+      "S6:background": {
+        "orig_delta_mean": 0.25907376781105995,
+        "flip_delta_mean": 0.30323293805122375
+      },
+      "S6:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S6:patch_target": {
+        "median_R": 0.6729356000644499,
+        "n": 10
+      },
+      "S6:patch_reference": {
+        "median_R": 0.2696869749631582,
+        "n": 10
+      },
+      "S6:patch_irrelevant": {
+        "median_R": 0.000718967588670857,
+        "n": 8
+      },
+      "S6:patch_random": {
+        "median_R": -0.012479218390496183,
+        "n": 10
+      }
+    },
+    {
+      "group": "man|to the left of|woman",
+      "n_pairs": 10,
+      "auc_clean": 0.8,
+      "mean_delta": 0.49979447722435,
+      "S1:auc_after_target_ablation": 0.8,
+      "S1:target": {
+        "orig_delta_mean": -0.28707619607448576,
+        "flip_delta_mean": -0.11217746138572693
+      },
+      "S1:reference": {
+        "orig_delta_mean": 0.43792960941791537,
+        "flip_delta_mean": 0.9507786095142364
+      },
+      "S1:irrelevant": {
+        "orig_delta_mean": -0.21264982521533965,
+        "flip_delta_mean": -0.11263642907142639
+      },
+      "S1:background": {
+        "orig_delta_mean": 0.013214223914676242,
+        "flip_delta_mean": -0.028082009818818834
+      },
+      "S1:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S1:patch_target": {
+        "median_R": 0.33322127134488344,
+        "n": 10
+      },
+      "S1:patch_reference": {
+        "median_R": 0.2502320521499151,
+        "n": 10
+      },
+      "S1:patch_irrelevant": {
+        "median_R": 0.5209579305842086,
+        "n": 10
+      },
+      "S1:patch_random": {
+        "median_R": 0.0006692678757648163,
+        "n": 10
+      },
+      "S6:auc_after_target_ablation": 0.8,
+      "S6:target": {
+        "orig_delta_mean": -0.28734939098358153,
+        "flip_delta_mean": -0.16214666962623597
+      },
+      "S6:reference": {
+        "orig_delta_mean": 0.4256584167480469,
+        "flip_delta_mean": 0.8007552117109299
+      },
+      "S6:irrelevant": {
+        "orig_delta_mean": -0.13782190382480622,
+        "flip_delta_mean": -0.1248208999633789
+      },
+      "S6:background": {
+        "orig_delta_mean": 0.0970363782511817,
+        "flip_delta_mean": 0.013919618394639757
+      },
+      "S6:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S6:patch_target": {
+        "median_R": 0.35395080919106336,
+        "n": 10
+      },
+      "S6:patch_reference": {
+        "median_R": 0.24069554139507854,
+        "n": 10
+      },
+      "S6:patch_irrelevant": {
+        "median_R": 0.520592405730524,
+        "n": 10
+      },
+      "S6:patch_random": {
+        "median_R": 0.0005835390558317528,
+        "n": 10
+      }
+    },
+    {
+      "group": "man|to the left of|table",
+      "n_pairs": 10,
+      "auc_clean": 0.7,
+      "mean_delta": 0.5748326539993286,
+      "S1:auc_after_target_ablation": 0.5,
+      "S1:target": {
+        "orig_delta_mean": -0.44955037236213685,
+        "flip_delta_mean": 0.024836111068725585
+      },
+      "S1:reference": {
+        "orig_delta_mean": -0.07722973525524139,
+        "flip_delta_mean": 0.19972909092903138
+      },
+      "S1:irrelevant": {
+        "orig_delta_mean": 0.02524440288543701,
+        "flip_delta_mean": 0.42524455189704896
+      },
+      "S1:background": {
+        "orig_delta_mean": -0.04110748569170634,
+        "flip_delta_mean": 0.16580787301063538
+      },
+      "S1:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S1:patch_target": {
+        "median_R": 0.5245245437627224,
+        "n": 10
+      },
+      "S1:patch_reference": {
+        "median_R": 0.11702384985991157,
+        "n": 10
+      },
+      "S1:patch_irrelevant": {
+        "median_R": 0.1291146800816841,
+        "n": 10
+      },
+      "S1:patch_random": {
+        "median_R": 0.03339582130987079,
+        "n": 10
+      },
+      "S6:auc_after_target_ablation": 0.5,
+      "S6:target": {
+        "orig_delta_mean": -0.3496733129024506,
+        "flip_delta_mean": -0.01244407296180725
+      },
+      "S6:reference": {
+        "orig_delta_mean": 0.02485547661781311,
+        "flip_delta_mean": 0.17516751885414122
+      },
+      "S6:irrelevant": {
+        "orig_delta_mean": 0.050141441822052005,
+        "flip_delta_mean": 0.4252229928970337
+      },
+      "S6:background": {
+        "orig_delta_mean": -0.04113459587097168,
+        "flip_delta_mean": 0.20800351103146872
+      },
+      "S6:patch_full": {
+        "median_R": 1.0,
+        "n": 10
+      },
+      "S6:patch_target": {
+        "median_R": 0.5745839168055089,
+        "n": 10
+      },
+      "S6:patch_reference": {
+        "median_R": 0.1329719816742056,
+        "n": 10
+      },
+      "S6:patch_irrelevant": {
+        "median_R": 0.16236244833078356,
+        "n": 10
+      },
+      "S6:patch_random": {
+        "median_R": 0.05001136885856212,
+        "n": 10
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0001",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2393869",
+      "m_original": -0.25040513277053833,
+      "m_flipped": 0.37393689155578613,
+      "delta": -0.6243420243263245,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.00016629695892333984,
+          "flip_delta": 0.125063955783844,
+          "orig_margin": -0.25057142972946167,
+          "flip_margin": 0.4990008473396301
+        },
+        "S1:reference": {
+          "orig_delta": -0.12524324655532837,
+          "flip_delta": -0.49962759017944336,
+          "orig_margin": -0.3756483793258667,
+          "flip_margin": -0.12569069862365723
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.0002416372299194336,
+          "flip_delta": 0.0004748702049255371,
+          "orig_margin": -0.25064677000045776,
+          "flip_margin": 0.37441176176071167
+        },
+        "S1:background": {
+          "orig_delta": -5.2988529205322266e-05,
+          "flip_delta": -0.12460553646087646,
+          "orig_margin": -0.25045812129974365,
+          "flip_margin": 0.24933135509490967
+        },
+        "S6:target": {
+          "orig_delta": 0.12475711107254028,
+          "flip_delta": 0.250329852104187,
+          "orig_margin": -0.12564802169799805,
+          "flip_margin": 0.6242667436599731
+        },
+        "S6:reference": {
+          "orig_delta": -0.12497645616531372,
+          "flip_delta": -0.4995463490486145,
+          "orig_margin": -0.37538158893585205,
+          "flip_margin": -0.12560945749282837
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.00024116039276123047,
+          "flip_delta": 0.12554416060447693,
+          "orig_margin": -0.25064629316329956,
+          "flip_margin": 0.49948105216026306
+        },
+        "S6:background": {
+          "orig_delta": 0.12475764751434326,
+          "flip_delta": 0.0003943443298339844,
+          "orig_margin": -0.12564748525619507,
+          "flip_margin": 0.3743312358856201
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.25040513277053833,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.4992205798625946,
+          "R": -0.20066515375445323
+        },
+        "S1:reference": {
+          "margin": -0.000690162181854248,
+          "R": 0.6000349794519587
+        },
+        "S1:irrelevant": {
+          "margin": 0.37428730726242065,
+          "R": -0.000561255999085799
+        },
+        "S1:random": {
+          "margin": 0.4989998936653137,
+          "R": -0.2003116837193086
+        },
+        "S6:full": {
+          "margin": -0.25040513277053833,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.49917072057724,
+          "R": -0.20058529482551374
+        },
+        "S6:reference": {
+          "margin": -0.12564736604690552,
+          "R": 0.8001772075838584
+        },
+        "S6:irrelevant": {
+          "margin": 0.37411707639694214,
+          "R": -0.0002885995722463634
+        },
+        "S6:random": {
+          "margin": 0.37424200773239136,
+          "R": -0.0004887003672937924
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0003",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2379754",
+      "m_original": 0.24343794584274292,
+      "m_flipped": 0.24205780029296875,
+      "delta": 0.00138014554977417,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.2504565119743347,
+          "flip_delta": -1.4990758895874023,
+          "orig_margin": -1.0070185661315918,
+          "flip_margin": -1.2570180892944336
+        },
+        "S1:reference": {
+          "orig_delta": 0.12576240301132202,
+          "flip_delta": -0.12095814943313599,
+          "orig_margin": 0.36920034885406494,
+          "flip_margin": 0.12109965085983276
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.12259089946746826,
+          "flip_delta": -0.1254529356956482,
+          "orig_margin": 0.12084704637527466,
+          "flip_margin": 0.11660486459732056
+        },
+        "S1:background": {
+          "orig_delta": -0.12182319164276123,
+          "flip_delta": -0.2653007507324219,
+          "orig_margin": 0.12161475419998169,
+          "flip_margin": -0.023242950439453125
+        },
+        "S6:target": {
+          "orig_delta": -0.8742551207542419,
+          "flip_delta": -1.1221965551376343,
+          "orig_margin": -0.630817174911499,
+          "flip_margin": -0.8801387548446655
+        },
+        "S6:reference": {
+          "orig_delta": 0.0013429522514343262,
+          "flip_delta": -0.12276244163513184,
+          "orig_margin": 0.24478089809417725,
+          "flip_margin": 0.11929535865783691
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.12398827075958252,
+          "flip_delta": -0.12242001295089722,
+          "orig_margin": 0.1194496750831604,
+          "flip_margin": 0.11963778734207153
+        },
+        "S6:background": {
+          "orig_delta": -0.12285417318344116,
+          "flip_delta": -0.12779539823532104,
+          "orig_margin": 0.12058377265930176,
+          "flip_margin": 0.1142624020576477
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.24343794584274292,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.1187971830368042,
+          "R": -89.30986827898941
+        },
+        "S1:reference": {
+          "margin": 0.11544567346572876,
+          "R": -91.73824228028504
+        },
+        "S1:irrelevant": {
+          "margin": 0.1189311146736145,
+          "R": -89.21282660332541
+        },
+        "S1:random": {
+          "margin": 0.1227683424949646,
+          "R": -86.43251997408767
+        },
+        "S6:full": {
+          "margin": 0.24343794584274292,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.007421314716339111,
+          "R": -180.76290218095443
+        },
+        "S6:reference": {
+          "margin": 0.24155312776565552,
+          "R": -0.3656661628158065
+        },
+        "S6:irrelevant": {
+          "margin": 0.24302363395690918,
+          "R": 0.6998056575253725
+        },
+        "S6:random": {
+          "margin": 0.24429363012313843,
+          "R": 1.6199956812783416
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0004",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2325359",
+      "m_original": 0.7500005960464478,
+      "m_flipped": 0.12016385793685913,
+      "delta": 0.6298367381095886,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.12361836433410645,
+          "flip_delta": 0.3738246262073517,
+          "orig_margin": 0.8736189603805542,
+          "flip_margin": 0.4939884841442108
+        },
+        "S1:reference": {
+          "orig_delta": -1.0012798309326172,
+          "flip_delta": -0.1234084963798523,
+          "orig_margin": -0.25127923488616943,
+          "flip_margin": -0.003244638442993164
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.0009500980377197266,
+          "flip_delta": 0.37708351016044617,
+          "orig_margin": 0.749050498008728,
+          "flip_margin": 0.4972473680973053
+        },
+        "S1:background": {
+          "orig_delta": 0.1261606216430664,
+          "flip_delta": 0.12836980819702148,
+          "orig_margin": 0.8761612176895142,
+          "flip_margin": 0.24853366613388062
+        },
+        "S6:target": {
+          "orig_delta": 0.12399029731750488,
+          "flip_delta": 0.24936729669570923,
+          "orig_margin": 0.8739908933639526,
+          "flip_margin": 0.36953115463256836
+        },
+        "S6:reference": {
+          "orig_delta": -0.7518538236618042,
+          "flip_delta": 0.12659907341003418,
+          "orig_margin": -0.0018532276153564453,
+          "flip_margin": 0.2467629313468933
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.0003814101219177246,
+          "flip_delta": 0.25190865993499756,
+          "orig_margin": 0.74961918592453,
+          "flip_margin": 0.3720725178718567
+        },
+        "S6:background": {
+          "orig_delta": 0.2494465708732605,
+          "flip_delta": 0.2514955401420593,
+          "orig_margin": 0.9994471669197083,
+          "flip_margin": 0.37165939807891846
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.7500005960464478,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.37227916717529297,
+          "R": 0.40028676319380874
+        },
+        "S1:reference": {
+          "margin": 0.7485378980636597,
+          "R": 0.9976776553441797
+        },
+        "S1:irrelevant": {
+          "margin": 0.122738778591156,
+          "R": 0.004088235090930582
+        },
+        "S1:random": {
+          "margin": 0.11985659599304199,
+          "R": -0.0004878437938367396
+        },
+        "S6:full": {
+          "margin": 0.7500005960464478,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.37168800830841064,
+          "R": 0.3993481725541826
+        },
+        "S6:reference": {
+          "margin": 0.6233468651771545,
+          "R": 0.7989102203700666
+        },
+        "S6:irrelevant": {
+          "margin": 0.24692147970199585,
+          "R": 0.2012547285596438
+        },
+        "S6:random": {
+          "margin": 0.11862325668334961,
+          "R": -0.002446032694335249
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0007",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2392802",
+      "m_original": 0.49844464659690857,
+      "m_flipped": -0.3772537112236023,
+      "delta": 0.8756983578205109,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.5026985704898834,
+          "flip_delta": 1.0008467435836792,
+          "orig_margin": 1.001143217086792,
+          "flip_margin": 0.6235930323600769
+        },
+        "S1:reference": {
+          "orig_delta": 0.37399205565452576,
+          "flip_delta": 0.5000001192092896,
+          "orig_margin": 0.8724367022514343,
+          "flip_margin": 0.12274640798568726
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.0006480813026428223,
+          "flip_delta": 0.37510156631469727,
+          "orig_margin": 0.4990927278995514,
+          "flip_margin": -0.0021521449089050293
+        },
+        "S1:background": {
+          "orig_delta": 0.25109460949897766,
+          "flip_delta": 0.6262562274932861,
+          "orig_margin": 0.7495392560958862,
+          "flip_margin": 0.24900251626968384
+        },
+        "S6:target": {
+          "orig_delta": 0.6265555918216705,
+          "flip_delta": 1.1249196529388428,
+          "orig_margin": 1.125000238418579,
+          "flip_margin": 0.7476659417152405
+        },
+        "S6:reference": {
+          "orig_delta": 0.2491450011730194,
+          "flip_delta": 0.3754332661628723,
+          "orig_margin": 0.747589647769928,
+          "flip_margin": -0.0018204450607299805
+        },
+        "S6:irrelevant": {
+          "orig_delta": 9.295344352722168e-05,
+          "flip_delta": 0.24996501207351685,
+          "orig_margin": 0.4985376000404358,
+          "flip_margin": -0.12728869915008545
+        },
+        "S6:background": {
+          "orig_delta": 0.250889390707016,
+          "flip_delta": 0.8748537600040436,
+          "orig_margin": 0.7493340373039246,
+          "flip_margin": 0.4976000487804413
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.49844464659690857,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.12632077932357788,
+          "R": 0.28655178996174085
+        },
+        "S1:reference": {
+          "margin": -0.37794989347457886,
+          "R": -0.0007950023484219629
+        },
+        "S1:irrelevant": {
+          "margin": -0.12743490934371948,
+          "R": 0.2852795139431875
+        },
+        "S1:random": {
+          "margin": -0.12870365381240845,
+          "R": 0.2838306766154041
+        },
+        "S6:full": {
+          "margin": 0.49844464659690857,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.002237081527709961,
+          "R": 0.42824863875416597
+        },
+        "S6:reference": {
+          "margin": -0.37739795446395874,
+          "R": -0.00016471795232715327
+        },
+        "S6:irrelevant": {
+          "margin": -0.002449214458465576,
+          "R": 0.42800639445981375
+        },
+        "S6:random": {
+          "margin": -0.25312113761901855,
+          "R": 0.1417526623134616
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0009",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2398647",
+      "m_original": 0.4993705451488495,
+      "m_flipped": 0.37432968616485596,
+      "delta": 0.12504085898399353,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.7499574720859528,
+          "flip_delta": -0.8752117156982422,
+          "orig_margin": -0.25058692693710327,
+          "flip_margin": -0.5008820295333862
+        },
+        "S1:reference": {
+          "orig_delta": 0.00035056471824645996,
+          "flip_delta": -0.1250196099281311,
+          "orig_margin": 0.49972110986709595,
+          "flip_margin": 0.24931007623672485
+        },
+        "S6:target": {
+          "orig_delta": 0.6256262362003326,
+          "flip_delta": 0.5002380609512329,
+          "orig_margin": 1.1249967813491821,
+          "flip_margin": 0.8745677471160889
+        },
+        "S6:reference": {
+          "orig_delta": 0.0005400478839874268,
+          "flip_delta": -0.12485271692276001,
+          "orig_margin": 0.4999105930328369,
+          "flip_margin": 0.24947696924209595
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.4993705451488495,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.1244085431098938,
+          "R": -1.9987158204579716
+        },
+        "S1:reference": {
+          "margin": -0.0005550980567932129,
+          "R": -2.998098279776198
+        },
+        "S1:random": {
+          "margin": 0.6243341565132141,
+          "R": 1.9993822209775542
+        },
+        "S6:full": {
+          "margin": 0.4993705451488495,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.0004876852035522461,
+          "R": -2.9975591531755916
+        },
+        "S6:reference": {
+          "margin": -0.0007327795028686523,
+          "R": -2.999519266864092
+        },
+        "S6:random": {
+          "margin": 0.4996442496776581,
+          "R": 1.002188920733851
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0014",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2365793",
+      "m_original": 0.8560311198234558,
+      "m_flipped": 0.23719197511672974,
+      "delta": 0.6188391447067261,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.2468933463096619,
+          "flip_delta": -0.8766230344772339,
+          "orig_margin": -0.39086222648620605,
+          "flip_margin": -0.6394310593605042
+        },
+        "S1:reference": {
+          "orig_delta": 0.12207251787185669,
+          "flip_delta": -0.37993043661117554,
+          "orig_margin": 0.9781036376953125,
+          "flip_margin": -0.1427384614944458
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.12003940343856812,
+          "flip_delta": 0.0041730403900146484,
+          "orig_margin": 0.9760705232620239,
+          "flip_margin": 0.24136501550674438
+        },
+        "S1:background": {
+          "orig_delta": -0.2511584162712097,
+          "flip_delta": -0.3667033314704895,
+          "orig_margin": 0.6048727035522461,
+          "flip_margin": -0.12951135635375977
+        },
+        "S6:target": {
+          "orig_delta": -0.9946261644363403,
+          "flip_delta": -0.4992528557777405,
+          "orig_margin": -0.13859504461288452,
+          "flip_margin": -0.26206088066101074
+        },
+        "S6:reference": {
+          "orig_delta": 0.12142115831375122,
+          "flip_delta": -0.25546735525131226,
+          "orig_margin": 0.977452278137207,
+          "flip_margin": -0.01827538013458252
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12902718782424927,
+          "flip_delta": 0.12808138132095337,
+          "orig_margin": 0.9850583076477051,
+          "flip_margin": 0.3652733564376831
+        },
+        "S6:background": {
+          "orig_delta": 0.0031014680862426758,
+          "flip_delta": -0.1183125376701355,
+          "orig_margin": 0.8591325879096985,
+          "flip_margin": 0.11887943744659424
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.8560311198234558,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.4841359853744507,
+          "R": 0.399043939560013
+        },
+        "S1:reference": {
+          "margin": -0.01187896728515625,
+          "R": -0.402480910479448
+        },
+        "S1:irrelevant": {
+          "margin": 0.11312168836593628,
+          "R": -0.20048875028678345
+        },
+        "S1:random": {
+          "margin": 0.10904264450073242,
+          "R": -0.20708019476810655
+        },
+        "S6:full": {
+          "margin": 0.8560311198234558,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.6060312390327454,
+          "R": 0.5960179912193696
+        },
+        "S6:reference": {
+          "margin": -0.014432251453399658,
+          "R": -0.4066068359159416
+        },
+        "S6:irrelevant": {
+          "margin": 0.1158326268196106,
+          "R": -0.19610806674912673
+        },
+        "S6:random": {
+          "margin": 0.11565113067626953,
+          "R": -0.1964013515952673
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0015",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2352009",
+      "m_original": -1.2527756690979004,
+      "m_flipped": -1.002610445022583,
+      "delta": -0.2501652240753174,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.2511265277862549,
+          "flip_delta": -0.5014643669128418,
+          "orig_margin": -1.5039021968841553,
+          "flip_margin": -1.5040748119354248
+        },
+        "S1:reference": {
+          "orig_delta": -0.37439286708831787,
+          "flip_delta": -0.37500035762786865,
+          "orig_margin": -1.6271685361862183,
+          "flip_margin": -1.3776108026504517
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.25008726119995117,
+          "flip_delta": -0.5006303787231445,
+          "orig_margin": -1.5028629302978516,
+          "flip_margin": -1.5032408237457275
+        },
+        "S1:background": {
+          "orig_delta": 0.0013077259063720703,
+          "flip_delta": -0.264093279838562,
+          "orig_margin": -1.2514679431915283,
+          "flip_margin": -1.266703724861145
+        },
+        "S6:target": {
+          "orig_delta": -0.25008368492126465,
+          "flip_delta": -0.3771313428878784,
+          "orig_margin": -1.502859354019165,
+          "flip_margin": -1.3797417879104614
+        },
+        "S6:reference": {
+          "orig_delta": -0.24967825412750244,
+          "flip_delta": -0.3754308223724365,
+          "orig_margin": -1.5024539232254028,
+          "flip_margin": -1.3780412673950195
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.37426042556762695,
+          "flip_delta": -0.37783944606781006,
+          "orig_margin": -1.6270360946655273,
+          "flip_margin": -1.380449891090393
+        },
+        "S6:background": {
+          "orig_delta": 0.2503213882446289,
+          "flip_delta": -0.1294950246810913,
+          "orig_margin": -1.0024542808532715,
+          "flip_margin": -1.1321054697036743
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -1.2527756690979004,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -1.1288301944732666,
+          "R": 0.5045455455178796
+        },
+        "S1:reference": {
+          "margin": -1.0026870965957642,
+          "R": 0.00030640379159205125
+        },
+        "S1:irrelevant": {
+          "margin": -1.1286687850952148,
+          "R": 0.5039003344232985
+        },
+        "S1:random": {
+          "margin": -1.0026092529296875,
+          "R": -4.765222264262072e-06
+        },
+        "S6:full": {
+          "margin": -1.2527756690979004,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -1.1286004781723022,
+          "R": 0.5036272871875563
+        },
+        "S6:reference": {
+          "margin": -1.1274526119232178,
+          "R": 0.4990388546692983
+        },
+        "S6:irrelevant": {
+          "margin": -1.2527763843536377,
+          "R": 1.0000028591333585
+        },
+        "S6:random": {
+          "margin": -0.8782370090484619,
+          "R": -0.4971651692749905
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0016",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2398368",
+      "m_original": -0.12764370441436768,
+      "m_flipped": 0.1233590841293335,
+      "delta": -0.25100278854370117,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.3761938810348511,
+          "flip_delta": 0.3747667074203491,
+          "orig_margin": 0.2485501766204834,
+          "flip_margin": 0.4981257915496826
+        },
+        "S1:reference": {
+          "orig_delta": 0.12600207328796387,
+          "flip_delta": 0.1256418228149414,
+          "orig_margin": -0.0016416311264038086,
+          "flip_margin": 0.2490009069442749
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.2507050037384033,
+          "flip_delta": 0.12547171115875244,
+          "orig_margin": 0.12306129932403564,
+          "flip_margin": 0.24883079528808594
+        },
+        "S1:background": {
+          "orig_delta": -0.00023114681243896484,
+          "flip_delta": -0.00022411346435546875,
+          "orig_margin": -0.12787485122680664,
+          "flip_margin": 0.12313497066497803
+        },
+        "S6:target": {
+          "orig_delta": 0.5004091262817383,
+          "flip_delta": 0.5002787113189697,
+          "orig_margin": 0.3727654218673706,
+          "flip_margin": 0.6236377954483032
+        },
+        "S6:reference": {
+          "orig_delta": 0.2504056692123413,
+          "flip_delta": 0.2505098581314087,
+          "orig_margin": 0.12276196479797363,
+          "flip_margin": 0.3738689422607422
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.249830424785614,
+          "flip_delta": 0.12536144256591797,
+          "orig_margin": 0.12218672037124634,
+          "flip_margin": 0.24872052669525146
+        },
+        "S6:background": {
+          "orig_delta": 0.6256625354290009,
+          "flip_delta": 0.5000954270362854,
+          "orig_margin": 0.4980188310146332,
+          "flip_margin": 0.6234545111656189
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.12764370441436768,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.2481769323348999,
+          "R": -0.4972767391539749
+        },
+        "S1:reference": {
+          "margin": -0.001279592514038086,
+          "R": 0.49656291615928083
+        },
+        "S1:irrelevant": {
+          "margin": 0.12379699945449829,
+          "R": -0.0017446631876304876
+        },
+        "S1:random": {
+          "margin": 0.1228036880493164,
+          "R": 0.002212708803911921
+        },
+        "S6:full": {
+          "margin": -0.12764370441436768,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.12335813045501709,
+          "R": 3.799457057586471e-06
+        },
+        "S6:reference": {
+          "margin": 0.12363696098327637,
+          "R": -0.001107066800154258
+        },
+        "S6:irrelevant": {
+          "margin": 0.12293678522109985,
+          "R": 0.0016824470783125091
+        },
+        "S6:random": {
+          "margin": -0.0014492273330688477,
+          "R": 0.497238744583399
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0017",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "1159507",
+      "m_original": 0.12325197458267212,
+      "m_flipped": -0.2521584630012512,
+      "delta": 0.37541043758392334,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.751436710357666,
+          "flip_delta": -0.38677841424942017,
+          "orig_margin": -0.6281847357749939,
+          "flip_margin": -0.6389368772506714
+        },
+        "S1:reference": {
+          "orig_delta": 0.0003819465637207031,
+          "flip_delta": 0.1261386275291443,
+          "orig_margin": 0.12363392114639282,
+          "flip_margin": -0.12601983547210693
+        },
+        "S6:target": {
+          "orig_delta": 0.12470495700836182,
+          "flip_delta": 0.249201238155365,
+          "orig_margin": 0.24795693159103394,
+          "flip_margin": -0.0029572248458862305
+        },
+        "S6:reference": {
+          "orig_delta": 0.00033599138259887695,
+          "flip_delta": 0.25107342004776,
+          "orig_margin": 0.123587965965271,
+          "flip_margin": -0.001085042953491211
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.12325197458267212,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.5057644844055176,
+          "R": -0.6755433414063574
+        },
+        "S1:reference": {
+          "margin": -0.2512262463569641,
+          "R": 0.0024831931959236257
+        },
+        "S1:random": {
+          "margin": 0.24835634231567383,
+          "R": 1.3332469084721026
+        },
+        "S6:full": {
+          "margin": 0.12325197458267212,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.2522389888763428,
+          "R": -0.00021450089563253313
+        },
+        "S6:reference": {
+          "margin": -0.25168514251708984,
+          "R": 0.0012608080031220915
+        },
+        "S6:random": {
+          "margin": 0.1231924295425415,
+          "R": 0.9998413868284701
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:bus|to the left of|building:0018",
+      "group": "bus|to the left of|building",
+      "question": "Is the bus to the left of the building?",
+      "image_id": "2388090",
+      "m_original": 0.6235204935073853,
+      "m_flipped": 0.37298232316970825,
+      "delta": 0.250538170337677,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.1272752285003662,
+          "flip_delta": -0.12496912479400635,
+          "orig_margin": -0.503754734992981,
+          "flip_margin": 0.2480131983757019
+        },
+        "S1:reference": {
+          "orig_delta": -0.7503416538238525,
+          "flip_delta": -0.6247397661209106,
+          "orig_margin": -0.12682116031646729,
+          "flip_margin": -0.2517574429512024
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.3768475651741028,
+          "flip_delta": 0.00015032291412353516,
+          "orig_margin": 0.24667292833328247,
+          "flip_margin": 0.3731326460838318
+        },
+        "S1:background": {
+          "orig_delta": 0.25016486644744873,
+          "flip_delta": 0.0007666349411010742,
+          "orig_margin": 0.873685359954834,
+          "flip_margin": 0.3737489581108093
+        },
+        "S6:target": {
+          "orig_delta": -0.3762891888618469,
+          "flip_delta": 0.00031131505966186523,
+          "orig_margin": 0.24723130464553833,
+          "flip_margin": 0.3732936382293701
+        },
+        "S6:reference": {
+          "orig_delta": -0.24989259243011475,
+          "flip_delta": -0.24886178970336914,
+          "orig_margin": 0.3736279010772705,
+          "flip_margin": 0.12412053346633911
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.25063568353652954,
+          "flip_delta": -0.12479889392852783,
+          "orig_margin": 0.3728848099708557,
+          "flip_margin": 0.24818342924118042
+        },
+        "S6:background": {
+          "orig_delta": 0.250251829624176,
+          "flip_delta": 0.1255090832710266,
+          "orig_margin": 0.8737723231315613,
+          "flip_margin": 0.49849140644073486
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.6235204935073853,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.7490233182907104,
+          "R": 1.500932950113636
+        },
+        "S1:reference": {
+          "margin": 0.49785298109054565,
+          "R": 0.49840971438617876
+        },
+        "S1:irrelevant": {
+          "margin": 0.6235828995704651,
+          "R": 1.0002490880451298
+        },
+        "S1:random": {
+          "margin": 0.3732175827026367,
+          "R": 0.0009390167279156803
+        },
+        "S6:full": {
+          "margin": 0.6235204935073853,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.7490824460983276,
+          "R": 1.5011689533044372
+        },
+        "S6:reference": {
+          "margin": 0.49844929575920105,
+          "R": 0.5007898493885685
+        },
+        "S6:irrelevant": {
+          "margin": 0.6234267354011536,
+          "R": 0.9996257731661993
+        },
+        "S6:random": {
+          "margin": 0.24849259853363037,
+          "R": -0.4968892543131843
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0003",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2366569",
+      "m_original": -0.6289387345314026,
+      "m_flipped": -0.7521170377731323,
+      "delta": 0.12317830324172974,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.0016884207725524902,
+          "flip_delta": -0.2478821873664856,
+          "orig_margin": -0.6272503137588501,
+          "flip_margin": -0.9999992251396179
+        },
+        "S1:reference": {
+          "orig_delta": 0.00023221969604492188,
+          "flip_delta": -0.1241154670715332,
+          "orig_margin": -0.6287065148353577,
+          "flip_margin": -0.8762325048446655
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.003938198089599609,
+          "flip_delta": 0.002117335796356201,
+          "orig_margin": -0.625000536441803,
+          "flip_margin": -0.7499997019767761
+        },
+        "S1:background": {
+          "orig_delta": 0.0016865134239196777,
+          "flip_delta": -0.25227832794189453,
+          "orig_margin": -0.6272522211074829,
+          "flip_margin": -1.0043953657150269
+        },
+        "S6:target": {
+          "orig_delta": 0.002626180648803711,
+          "flip_delta": -0.12411415576934814,
+          "orig_margin": -0.6263125538825989,
+          "flip_margin": -0.8762311935424805
+        },
+        "S6:reference": {
+          "orig_delta": 0.0008834004402160645,
+          "flip_delta": -0.12288224697113037,
+          "orig_margin": -0.6280553340911865,
+          "flip_margin": -0.8749992847442627
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.13061189651489258,
+          "flip_delta": 0.2511509656906128,
+          "orig_margin": -0.49832683801651,
+          "flip_margin": -0.5009660720825195
+        },
+        "S6:background": {
+          "orig_delta": 0.1258835792541504,
+          "flip_delta": -0.12855255603790283,
+          "orig_margin": -0.5030551552772522,
+          "flip_margin": -0.8806695938110352
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.6289387345314026,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.7523931264877319,
+          "R": -0.002241374554882466
+        },
+        "S1:reference": {
+          "margin": -0.8749995231628418,
+          "R": -0.9975984581356041
+        },
+        "S1:irrelevant": {
+          "margin": -0.8763918876647949,
+          "R": -1.008902108740538
+        },
+        "S1:random": {
+          "margin": -0.6257545351982117,
+          "R": 1.02585032631065
+        },
+        "S6:full": {
+          "margin": -0.6289387345314026,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.752251386642456,
+          "R": -0.0010906861499795073
+        },
+        "S6:reference": {
+          "margin": -0.7527250647544861,
+          "R": -0.004936153245759074
+        },
+        "S6:irrelevant": {
+          "margin": -0.7521152496337891,
+          "R": 1.4516674578254313e-05
+        },
+        "S6:random": {
+          "margin": -0.8740920424461365,
+          "R": -0.9902312457871401
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0004",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2363956",
+      "m_original": 1.3807529211044312,
+      "m_flipped": 1.2531133890151978,
+      "delta": 0.1276395320892334,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.1257917284965515,
+          "flip_delta": -1.1281096935272217,
+          "orig_margin": 0.25496119260787964,
+          "flip_margin": 0.12500369548797607
+        },
+        "S1:reference": {
+          "orig_delta": -0.8750802278518677,
+          "flip_delta": -1.0004099011421204,
+          "orig_margin": 0.5056726932525635,
+          "flip_margin": 0.2527034878730774
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.501822292804718,
+          "flip_delta": -0.5000369548797607,
+          "orig_margin": 0.8789306282997131,
+          "flip_margin": 0.753076434135437
+        },
+        "S6:target": {
+          "orig_delta": -0.8787422776222229,
+          "flip_delta": -0.7570073306560516,
+          "orig_margin": 0.5020106434822083,
+          "flip_margin": 0.4961060583591461
+        },
+        "S6:reference": {
+          "orig_delta": -0.37508225440979004,
+          "flip_delta": -0.25041234493255615,
+          "orig_margin": 1.0056706666946411,
+          "flip_margin": 1.0027010440826416
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.378506064414978,
+          "flip_delta": -0.375852108001709,
+          "orig_margin": 1.0022468566894531,
+          "flip_margin": 0.8772612810134888
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 1.3807529211044312,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 1.0039321184158325,
+          "R": -1.952226449914917
+        },
+        "S1:reference": {
+          "margin": 1.3804693222045898,
+          "R": 0.997778126453464
+        },
+        "S1:irrelevant": {
+          "margin": 1.0056716203689575,
+          "R": -1.938598211667311
+        },
+        "S1:random": {
+          "margin": 1.6289818286895752,
+          "R": 2.9447651015486804
+        },
+        "S6:full": {
+          "margin": 1.3807529211044312,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 1.005092978477478,
+          "R": -1.9431316182225384
+        },
+        "S6:reference": {
+          "margin": 1.380143404006958,
+          "R": 0.9952246996874994
+        },
+        "S6:irrelevant": {
+          "margin": 0.8842092156410217,
+          "R": -2.890203116039891
+        },
+        "S6:random": {
+          "margin": 1.502556562423706,
+          "R": 1.9542783440644502
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0007",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2347590",
+      "m_original": -0.7331454753875732,
+      "m_flipped": -0.589086651802063,
+      "delta": -0.14405882358551025,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.3749971389770508,
+          "flip_delta": 0.6079344749450684,
+          "orig_margin": -0.35814833641052246,
+          "flip_margin": 0.01884782314300537
+        },
+        "S1:reference": {
+          "orig_delta": 0.24263224005699158,
+          "flip_delta": 0.23160117864608765,
+          "orig_margin": -0.49051323533058167,
+          "flip_margin": -0.35748547315597534
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.37140536308288574,
+          "flip_delta": 0.4830726981163025,
+          "orig_margin": -0.3617401123046875,
+          "flip_margin": -0.1060139536857605
+        },
+        "S1:background": {
+          "orig_delta": -0.26471662521362305,
+          "flip_delta": -0.2859095335006714,
+          "orig_margin": -0.9978621006011963,
+          "flip_margin": -0.8749961853027344
+        },
+        "S6:target": {
+          "orig_delta": 0.6249985694885254,
+          "flip_delta": 0.9863847494125366,
+          "orig_margin": -0.10814690589904785,
+          "flip_margin": 0.39729809761047363
+        },
+        "S6:reference": {
+          "orig_delta": 0.24568843841552734,
+          "flip_delta": 0.47519469261169434,
+          "orig_margin": -0.4874570369720459,
+          "flip_margin": -0.11389195919036865
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.6269945502281189,
+          "flip_delta": 0.8694024085998535,
+          "orig_margin": -0.10615092515945435,
+          "flip_margin": 0.2803157567977905
+        },
+        "S6:background": {
+          "orig_delta": 0.11495870351791382,
+          "flip_delta": 0.09076941013336182,
+          "orig_margin": -0.6181867718696594,
+          "flip_margin": -0.49831724166870117
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.7331454753875732,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.35374563932418823,
+          "R": -1.6336452472706842
+        },
+        "S1:reference": {
+          "margin": -0.4732971489429474,
+          "R": -0.8037654339887443
+        },
+        "S1:irrelevant": {
+          "margin": -0.469677597284317,
+          "R": -0.8288909456966882
+        },
+        "S1:random": {
+          "margin": -0.4596270024776459,
+          "R": -0.8986582432250158
+        },
+        "S6:full": {
+          "margin": -0.7331454753875732,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.4730716347694397,
+          "R": -0.8053308651639741
+        },
+        "S6:reference": {
+          "margin": -0.601049542427063,
+          "R": 0.08304170704197847
+        },
+        "S6:irrelevant": {
+          "margin": -0.5846254825592041,
+          "R": -0.03096769175135483
+        },
+        "S6:random": {
+          "margin": -0.5846222639083862,
+          "R": -0.03099003436625173
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0008",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2410652",
+      "m_original": -0.49548986554145813,
+      "m_flipped": 0.13507670164108276,
+      "delta": -0.6305665671825409,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.3795100152492523,
+          "flip_delta": -0.8820182681083679,
+          "orig_margin": -0.8749998807907104,
+          "flip_margin": -0.7469415664672852
+        },
+        "S1:reference": {
+          "orig_delta": 0.2482139766216278,
+          "flip_delta": 0.11885958909988403,
+          "orig_margin": -0.24727588891983032,
+          "flip_margin": 0.2539362907409668
+        },
+        "S1:background": {
+          "orig_delta": 0.49704214930534363,
+          "flip_delta": -0.25753408670425415,
+          "orig_margin": 0.001552283763885498,
+          "flip_margin": -0.12245738506317139
+        },
+        "S6:target": {
+          "orig_delta": -0.25261661410331726,
+          "flip_delta": -0.3834035396575928,
+          "orig_margin": -0.7481064796447754,
+          "flip_margin": -0.24832683801651
+        },
+        "S6:reference": {
+          "orig_delta": 0.6239722073078156,
+          "flip_delta": 0.37068402767181396,
+          "orig_margin": 0.12848234176635742,
+          "flip_margin": 0.5057607293128967
+        },
+        "S6:background": {
+          "orig_delta": 0.6253295242786407,
+          "flip_delta": 0.11623507738113403,
+          "orig_margin": 0.12983965873718262,
+          "flip_margin": 0.2513117790222168
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.49548986554145813,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.24452519416809082,
+          "R": 0.6020013041688645
+        },
+        "S1:reference": {
+          "margin": 0.007352173328399658,
+          "R": 0.2025551860184628
+        },
+        "S1:random": {
+          "margin": -0.23944544792175293,
+          "R": 0.5939454596146014
+        },
+        "S6:full": {
+          "margin": -0.49548986554145813,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.37020355463027954,
+          "R": 0.8013115229515335
+        },
+        "S6:reference": {
+          "margin": 0.006918609142303467,
+          "R": 0.20324276479073014
+        },
+        "S6:random": {
+          "margin": -0.24472665786743164,
+          "R": 0.6023208004914193
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0013",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2379192",
+      "m_original": -0.11757153272628784,
+      "m_flipped": -0.7430897355079651,
+      "delta": 0.6255182027816772,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.7574326992034912,
+          "flip_delta": -0.006916522979736328,
+          "orig_margin": -0.875004231929779,
+          "flip_margin": -0.7500062584877014
+        },
+        "S1:reference": {
+          "orig_delta": -0.8759229779243469,
+          "flip_delta": -0.13191479444503784,
+          "orig_margin": -0.9934945106506348,
+          "flip_margin": -0.8750045299530029
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.12478059530258179,
+          "flip_delta": 0.12202262878417969,
+          "orig_margin": 0.007209062576293945,
+          "flip_margin": -0.6210671067237854
+        },
+        "S1:background": {
+          "orig_delta": -0.12684452533721924,
+          "flip_delta": 0.11931627988815308,
+          "orig_margin": -0.24441605806350708,
+          "flip_margin": -0.623773455619812
+        },
+        "S6:target": {
+          "orig_delta": -0.6315786242485046,
+          "flip_delta": 0.368083655834198,
+          "orig_margin": -0.7491501569747925,
+          "flip_margin": -0.3750060796737671
+        },
+        "S6:reference": {
+          "orig_delta": -0.5005174279212952,
+          "flip_delta": 0.11808556318283081,
+          "orig_margin": -0.618088960647583,
+          "flip_margin": -0.6250041723251343
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12375485897064209,
+          "flip_delta": 0.36808377504348755,
+          "orig_margin": 0.006183326244354248,
+          "flip_margin": -0.37500596046447754
+        },
+        "S6:background": {
+          "orig_delta": 0.0019217729568481445,
+          "flip_delta": 0.3707887530326843,
+          "orig_margin": -0.1156497597694397,
+          "flip_margin": -0.37230098247528076
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.11757153272628784,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.1201639175415039,
+          "R": 0.995855620502029
+        },
+        "S1:reference": {
+          "margin": -0.6171053051948547,
+          "R": 0.20140809612391458
+        },
+        "S1:irrelevant": {
+          "margin": -0.7449794411659241,
+          "R": -0.0030210242476645284
+        },
+        "S1:random": {
+          "margin": -0.6192443370819092,
+          "R": 0.19798848039164305
+        },
+        "S6:full": {
+          "margin": -0.11757153272628784,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.11924344301223755,
+          "R": 0.9973271596597594
+        },
+        "S6:reference": {
+          "margin": -0.6188819408416748,
+          "R": 0.1985678340197594
+        },
+        "S6:irrelevant": {
+          "margin": -0.7421993613243103,
+          "R": 0.0014234185027634596
+        },
+        "S6:random": {
+          "margin": -0.6215529441833496,
+          "R": 0.19429776908832036
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0014",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2368211",
+      "m_original": -0.2410709261894226,
+      "m_flipped": -0.6161800026893616,
+      "delta": 0.37510907649993896,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.7574401497840881,
+          "flip_delta": -0.38192135095596313,
+          "orig_margin": -0.9985110759735107,
+          "flip_margin": -0.9981013536453247
+        },
+        "S1:reference": {
+          "orig_delta": -0.3806789517402649,
+          "flip_delta": -0.007657825946807861,
+          "orig_margin": -0.6217498779296875,
+          "flip_margin": -0.6238378286361694
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.24710434675216675,
+          "flip_delta": 0.13113433122634888,
+          "orig_margin": 0.006033420562744141,
+          "flip_margin": -0.4850456714630127
+        },
+        "S1:background": {
+          "orig_delta": 0.12298941612243652,
+          "flip_delta": -0.37042731046676636,
+          "orig_margin": -0.11808151006698608,
+          "flip_margin": -0.9866073131561279
+        },
+        "S6:target": {
+          "orig_delta": -0.6322500109672546,
+          "flip_delta": -0.38075506687164307,
+          "orig_margin": -0.8733209371566772,
+          "flip_margin": -0.9969350695610046
+        },
+        "S6:reference": {
+          "orig_delta": -0.003965556621551514,
+          "flip_delta": 0.1205824613571167,
+          "orig_margin": -0.24503648281097412,
+          "flip_margin": -0.4955975413322449
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.2511481046676636,
+          "flip_delta": 0.24999696016311646,
+          "orig_margin": 0.010077178478240967,
+          "flip_margin": -0.3661830425262451
+        },
+        "S6:background": {
+          "orig_delta": 0.49747735261917114,
+          "flip_delta": -0.002511262893676758,
+          "orig_margin": 0.25640642642974854,
+          "flip_margin": -0.6186912655830383
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.2410709261894226,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.242090106010437,
+          "R": 0.9972829774461227
+        },
+        "S1:reference": {
+          "margin": -0.37129056453704834,
+          "R": 0.6528486072299908
+        },
+        "S1:irrelevant": {
+          "margin": -0.6136256456375122,
+          "R": 0.00680963808096438
+        },
+        "S1:random": {
+          "margin": -0.9890280961990356,
+          "R": -0.9939724652590077
+        },
+        "S6:full": {
+          "margin": -0.2410709261894226,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.3632431626319885,
+          "R": 0.6743021054501576
+        },
+        "S6:reference": {
+          "margin": -0.3684866428375244,
+          "R": 0.6603235575182822
+        },
+        "S6:irrelevant": {
+          "margin": -0.4911801815032959,
+          "R": 0.33323592793971224
+        },
+        "S6:random": {
+          "margin": -0.8636218309402466,
+          "R": -0.6596530016274487
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0015",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2367922",
+      "m_original": -0.24647104740142822,
+      "m_flipped": -0.12168031930923462,
+      "delta": -0.1247907280921936,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.0022345781326293945,
+          "flip_delta": -0.12765038013458252,
+          "orig_margin": -0.24870562553405762,
+          "flip_margin": -0.24933069944381714
+        },
+        "S1:reference": {
+          "orig_delta": -0.12731236219406128,
+          "flip_delta": -0.12523341178894043,
+          "orig_margin": -0.3737834095954895,
+          "flip_margin": -0.24691373109817505
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.12323063611984253,
+          "flip_delta": 0.12424486875534058,
+          "orig_margin": -0.1232404112815857,
+          "flip_margin": 0.002564549446105957
+        },
+        "S1:background": {
+          "orig_delta": -0.3785250186920166,
+          "flip_delta": 0.24940526485443115,
+          "orig_margin": -0.6249960660934448,
+          "flip_margin": 0.12772494554519653
+        },
+        "S6:target": {
+          "orig_delta": 0.12440401315689087,
+          "flip_delta": 0.12424695491790771,
+          "orig_margin": -0.12206703424453735,
+          "flip_margin": 0.0025666356086730957
+        },
+        "S6:reference": {
+          "orig_delta": 0.24955415725708008,
+          "flip_delta": 0.12596523761749268,
+          "orig_margin": 0.0030831098556518555,
+          "flip_margin": 0.004284918308258057
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.7493678331375122,
+          "flip_delta": 0.5012343525886536,
+          "orig_margin": 0.502896785736084,
+          "flip_margin": 0.37955403327941895
+        },
+        "S6:background": {
+          "orig_delta": 0.24763303995132446,
+          "flip_delta": 0.6246110200881958,
+          "orig_margin": 0.0011619925498962402,
+          "flip_margin": 0.5029307007789612
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.24647104740142822,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.12121093273162842,
+          "R": -0.003761389846683362
+        },
+        "S1:reference": {
+          "margin": -0.24183976650238037,
+          "R": 0.9628876201793908
+        },
+        "S1:irrelevant": {
+          "margin": 0.0033202767372131348,
+          "R": -1.0016817591936726
+        },
+        "S1:random": {
+          "margin": -0.12071537971496582,
+          "R": -0.007732462251169136
+        },
+        "S6:full": {
+          "margin": -0.24647104740142822,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.2453036904335022,
+          "R": 0.9906454831558992
+        },
+        "S6:reference": {
+          "margin": -0.36933696269989014,
+          "R": 1.9845756746261656
+        },
+        "S6:irrelevant": {
+          "margin": -0.12121045589447021,
+          "R": -0.003765210941130786
+        },
+        "S6:random": {
+          "margin": -0.12243300676345825,
+          "R": 0.006031597585259364
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0018",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2376445",
+      "m_original": -0.8731323480606079,
+      "m_flipped": -0.49823662638664246,
+      "delta": -0.37489572167396545,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.49903643131256104,
+          "flip_delta": 0.12403270602226257,
+          "orig_margin": -0.3740959167480469,
+          "flip_margin": -0.3742039203643799
+        },
+        "S1:reference": {
+          "orig_delta": 0.25011730194091797,
+          "flip_delta": 0.12419602274894714,
+          "orig_margin": -0.6230150461196899,
+          "flip_margin": -0.3740406036376953
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.5018300414085388,
+          "flip_delta": -0.001771479845046997,
+          "orig_margin": -0.3713023066520691,
+          "flip_margin": -0.5000081062316895
+        },
+        "S6:target": {
+          "orig_delta": 0.9981260299682617,
+          "flip_delta": 0.7488970458507538,
+          "orig_margin": 0.12499368190765381,
+          "flip_margin": 0.25066041946411133
+        },
+        "S6:reference": {
+          "orig_delta": 0.5010262727737427,
+          "flip_delta": 0.49822959303855896,
+          "orig_margin": -0.37210607528686523,
+          "flip_margin": -7.033348083496094e-06
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.8764044046401978,
+          "flip_delta": 0.3712221086025238,
+          "orig_margin": 0.0032720565795898438,
+          "flip_margin": -0.12701451778411865
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.8731323480606079,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.8727530837059021,
+          "R": 0.9989883470715207
+        },
+        "S1:reference": {
+          "margin": -0.7474417686462402,
+          "R": 0.6647318917027368
+        },
+        "S1:irrelevant": {
+          "margin": -1.1250011920928955,
+          "R": 1.6718370722067875
+        },
+        "S1:random": {
+          "margin": -0.24647867679595947,
+          "R": -0.6715412714408852
+        },
+        "S6:full": {
+          "margin": -0.8731323480606079,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.7500050067901611,
+          "R": 0.6715690946787422
+        },
+        "S6:reference": {
+          "margin": -0.6242507696151733,
+          "R": 0.3361311851355862
+        },
+        "S6:irrelevant": {
+          "margin": -1.1231122016906738,
+          "R": 1.6667983633258563
+        },
+        "S6:random": {
+          "margin": -0.37224799394607544,
+          "R": -0.3360631374452846
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0022",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2381389",
+      "m_original": 0.3799060583114624,
+      "m_flipped": 0.2613849639892578,
+      "delta": 0.11852109432220459,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.37990373373031616,
+          "flip_delta": -0.2592535614967346,
+          "orig_margin": 2.3245811462402344e-06,
+          "flip_margin": 0.0021314024925231934
+        },
+        "S1:reference": {
+          "orig_delta": 0.12399083375930786,
+          "flip_delta": 0.24303674697875977,
+          "orig_margin": 0.5038968920707703,
+          "flip_margin": 0.5044217109680176
+        },
+        "S1:background": {
+          "orig_delta": 0.12109804153442383,
+          "flip_delta": 0.1254165768623352,
+          "orig_margin": 0.5010040998458862,
+          "flip_margin": 0.386801540851593
+        },
+        "S6:target": {
+          "orig_delta": -0.00334930419921875,
+          "flip_delta": 0.11634200811386108,
+          "orig_margin": 0.37655675411224365,
+          "flip_margin": 0.3777269721031189
+        },
+        "S6:reference": {
+          "orig_delta": 0.4972209930419922,
+          "flip_delta": 0.4920603632926941,
+          "orig_margin": 0.8771270513534546,
+          "flip_margin": 0.7534453272819519
+        },
+        "S6:background": {
+          "orig_delta": 0.24823617935180664,
+          "flip_delta": 0.2442612648010254,
+          "orig_margin": 0.628142237663269,
+          "flip_margin": 0.5056462287902832
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.3799060583114624,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.3807089924812317,
+          "R": 1.0067746098225052
+        },
+        "S1:reference": {
+          "margin": 0.6294597387313843,
+          "R": 3.105563417609862
+        },
+        "S1:random": {
+          "margin": 0.14059829711914062,
+          "R": -1.0191153529324792
+        },
+        "S6:full": {
+          "margin": 0.3799060583114624,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.5049059391021729,
+          "R": 2.054663572805808
+        },
+        "S6:reference": {
+          "margin": 0.6288317441940308,
+          "R": 3.1002648288569916
+        },
+        "S6:random": {
+          "margin": 0.14047467708587646,
+          "R": -1.020158374294804
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:fence|to the left of|tree:0024",
+      "group": "fence|to the left of|tree",
+      "question": "Is the fence to the left of the tree?",
+      "image_id": "2354705",
+      "m_original": -0.20913958549499512,
+      "m_flipped": -0.34986013174057007,
+      "delta": 0.14072054624557495,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.10164618492126465,
+          "flip_delta": 0.36488884687423706,
+          "orig_margin": -0.10749340057373047,
+          "flip_margin": 0.015028715133666992
+        },
+        "S1:reference": {
+          "orig_delta": 0.11106055974960327,
+          "flip_delta": 0.3646585941314697,
+          "orig_margin": -0.09807902574539185,
+          "flip_margin": 0.014798462390899658
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.4726312756538391,
+          "flip_delta": 0.735299825668335,
+          "orig_margin": 0.263491690158844,
+          "flip_margin": 0.3854396939277649
+        },
+        "S1:background": {
+          "orig_delta": -0.28761205077171326,
+          "flip_delta": 0.6091006994247437,
+          "orig_margin": -0.4967516362667084,
+          "flip_margin": 0.2592405676841736
+        },
+        "S6:target": {
+          "orig_delta": 0.7353363037109375,
+          "flip_delta": 0.8711017966270447,
+          "orig_margin": 0.5261967182159424,
+          "flip_margin": 0.5212416648864746
+        },
+        "S6:reference": {
+          "orig_delta": 0.24330872297286987,
+          "flip_delta": 0.4915614724159241,
+          "orig_margin": 0.034169137477874756,
+          "flip_margin": 0.141701340675354
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.6047592759132385,
+          "flip_delta": 0.8602612614631653,
+          "orig_margin": 0.3956196904182434,
+          "flip_margin": 0.5104011297225952
+        },
+        "S6:background": {
+          "orig_delta": 0.21114999055862427,
+          "flip_delta": 1.1102617979049683,
+          "orig_margin": 0.0020104050636291504,
+          "flip_margin": 0.7604016661643982
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.20913958549499512,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.34276801347732544,
+          "R": 0.050398598161124214
+        },
+        "S1:reference": {
+          "margin": -0.3498622179031372,
+          "R": -1.4824861207531538e-05
+        },
+        "S1:irrelevant": {
+          "margin": -0.21809744834899902,
+          "R": 0.9363428931097857
+        },
+        "S1:random": {
+          "margin": -0.09466558694839478,
+          "R": 1.813484609040878
+        },
+        "S6:full": {
+          "margin": -0.20913958549499512,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.3341391086578369,
+          "R": 0.1117180362226423
+        },
+        "S6:reference": {
+          "margin": -0.3466707468032837,
+          "R": 0.02266467138153729
+        },
+        "S6:irrelevant": {
+          "margin": -0.22606772184371948,
+          "R": 0.8797038755152169
+        },
+        "S6:random": {
+          "margin": -0.21370059251785278,
+          "R": 0.9675881941582423
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0001",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2379466",
+      "m_original": 0.6239403486251831,
+      "m_flipped": 0.6241364479064941,
+      "delta": -0.00019609928131103516,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.12523436546325684,
+          "flip_delta": 0.12523603439331055,
+          "orig_margin": 0.7491747140884399,
+          "flip_margin": 0.7493724822998047
+        },
+        "S1:reference": {
+          "orig_delta": -0.503555953502655,
+          "flip_delta": 0.25021713972091675,
+          "orig_margin": 0.12038439512252808,
+          "flip_margin": 0.8743535876274109
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.12487590312957764,
+          "flip_delta": -0.37758469581604004,
+          "orig_margin": 0.49906444549560547,
+          "flip_margin": 0.2465517520904541
+        },
+        "S1:background": {
+          "orig_delta": 2.002716064453125e-05,
+          "flip_delta": -0.12478122115135193,
+          "orig_margin": 0.6239603757858276,
+          "flip_margin": 0.4993552267551422
+        },
+        "S6:target": {
+          "orig_delta": 0.12506437301635742,
+          "flip_delta": 0.12494528293609619,
+          "orig_margin": 0.7490047216415405,
+          "flip_margin": 0.7490817308425903
+        },
+        "S6:reference": {
+          "orig_delta": -0.25021636486053467,
+          "flip_delta": 0.375430703163147,
+          "orig_margin": 0.37372398376464844,
+          "flip_margin": 0.9995671510696411
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.0001239776611328125,
+          "flip_delta": -0.1252654790878296,
+          "orig_margin": 0.6240643262863159,
+          "flip_margin": 0.49887096881866455
+        },
+        "S6:background": {
+          "orig_delta": -0.12466856837272644,
+          "flip_delta": -0.12494748830795288,
+          "orig_margin": 0.49927178025245667,
+          "flip_margin": 0.49918895959854126
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.6239403486251831,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.3742230534553528,
+          "R": 1274.4227963525836
+        },
+        "S1:reference": {
+          "margin": 0.9995942115783691,
+          "R": -1914.6310030395136
+        },
+        "S1:irrelevant": {
+          "margin": 0.12155336141586304,
+          "R": 2562.901215805471
+        },
+        "S1:random": {
+          "margin": 0.24896126985549927,
+          "R": 1913.189969604863
+        },
+        "S6:full": {
+          "margin": 0.6239403486251831,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.4991198480129242,
+          "R": 637.5168693009118
+        },
+        "S6:reference": {
+          "margin": 1.1244299411773682,
+          "R": -2551.2255319148935
+        },
+        "S6:irrelevant": {
+          "margin": 0.49855247139930725,
+          "R": 640.4101823708206
+        },
+        "S6:random": {
+          "margin": 0.2490038275718689,
+          "R": 1912.9729483282674
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0006",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2343558",
+      "m_original": 0.49926725029945374,
+      "m_flipped": 0.6245248913764954,
+      "delta": -0.12525764107704163,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.3752196133136749,
+          "flip_delta": 0.3752722144126892,
+          "orig_margin": 0.8744868636131287,
+          "flip_margin": 0.9997971057891846
+        },
+        "S1:reference": {
+          "orig_delta": 0.12497469782829285,
+          "flip_delta": 0.12486648559570312,
+          "orig_margin": 0.6242419481277466,
+          "flip_margin": 0.7493913769721985
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.12479385733604431,
+          "flip_delta": 0.12498462200164795,
+          "orig_margin": 0.624061107635498,
+          "flip_margin": 0.7495095133781433
+        },
+        "S6:target": {
+          "orig_delta": 0.2498219907283783,
+          "flip_delta": 0.2501416802406311,
+          "orig_margin": 0.749089241027832,
+          "flip_margin": 0.8746665716171265
+        },
+        "S6:reference": {
+          "orig_delta": 0.12455186247825623,
+          "flip_delta": 4.190206527709961e-05,
+          "orig_margin": 0.62381911277771,
+          "flip_margin": 0.6245667934417725
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12436947226524353,
+          "flip_delta": 0.12491971254348755,
+          "orig_margin": 0.6236367225646973,
+          "flip_margin": 0.7494446039199829
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.49926725029945374,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.7495540380477905,
+          "R": -0.9981758046552551
+        },
+        "S1:reference": {
+          "margin": 0.49953925609588623,
+          "R": 0.9978284295146098
+        },
+        "S1:irrelevant": {
+          "margin": 0.4992676377296448,
+          "R": 0.9999969069336792
+        },
+        "S1:random": {
+          "margin": 0.4990592300891876,
+          "R": 1.0016607386860987
+        },
+        "S6:full": {
+          "margin": 0.49926725029945374,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.8746284246444702,
+          "R": -1.99671278428551
+        },
+        "S6:reference": {
+          "margin": 0.4994954764842987,
+          "R": 0.9981779460088619
+        },
+        "S6:irrelevant": {
+          "margin": 0.4994952380657196,
+          "R": 0.9981798494342901
+        },
+        "S6:random": {
+          "margin": 0.6241852045059204,
+          "R": 0.002711905378818539
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0007",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2407659",
+      "m_original": -1.7533190250396729,
+      "m_flipped": -2.253127336502075,
+      "delta": 0.49980831146240234,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.12416279315948486,
+          "flip_delta": -0.12481093406677246,
+          "orig_margin": -1.8774818181991577,
+          "flip_margin": -2.3779382705688477
+        },
+        "S1:reference": {
+          "orig_delta": 1.7520729303359985,
+          "flip_delta": 2.7523951828479767,
+          "orig_margin": -0.0012460947036743164,
+          "flip_margin": 0.4992678463459015
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.1243215799331665,
+          "flip_delta": 0.0005397796630859375,
+          "orig_margin": -1.8776406049728394,
+          "flip_margin": -2.2525875568389893
+        },
+        "S1:background": {
+          "orig_delta": 0.1252458095550537,
+          "flip_delta": 0.0003597736358642578,
+          "orig_margin": -1.6280732154846191,
+          "flip_margin": -2.252767562866211
+        },
+        "S6:target": {
+          "orig_delta": -0.1243208646774292,
+          "flip_delta": -0.12462520599365234,
+          "orig_margin": -1.877639889717102,
+          "flip_margin": -2.3777525424957275
+        },
+        "S6:reference": {
+          "orig_delta": 1.6269850134849548,
+          "flip_delta": 2.251915991306305,
+          "orig_margin": -0.12633401155471802,
+          "flip_margin": -0.0012113451957702637
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.00021266937255859375,
+          "flip_delta": 0.0001983642578125,
+          "orig_margin": -1.7535316944122314,
+          "flip_margin": -2.2529289722442627
+        },
+        "S6:background": {
+          "orig_delta": 0.12543106079101562,
+          "flip_delta": 0.00018215179443359375,
+          "orig_margin": -1.6278879642486572,
+          "flip_margin": -2.2529451847076416
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -1.7533190250396729,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -2.128133773803711,
+          "R": 0.25008300148639445
+        },
+        "S1:reference": {
+          "margin": -2.127768039703369,
+          "R": 0.25081475022276833
+        },
+        "S1:irrelevant": {
+          "margin": -1.7527530193328857,
+          "R": 1.0011324455672437
+        },
+        "S1:random": {
+          "margin": -2.3779296875,
+          "R": -0.24970043141692125
+        },
+        "S6:full": {
+          "margin": -1.7533190250396729,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -2.12813401222229,
+          "R": 0.2500825244663577
+        },
+        "S6:reference": {
+          "margin": -2.1281182765960693,
+          "R": 0.2501140077887832
+        },
+        "S6:irrelevant": {
+          "margin": -1.8790185451507568,
+          "R": 0.7485045421847899
+        },
+        "S6:random": {
+          "margin": -2.3779454231262207,
+          "R": -0.24973191473934672
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0008",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2402114",
+      "m_original": -1.1280949115753174,
+      "m_flipped": -1.8774346113204956,
+      "delta": 0.7493396997451782,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.12467002868652344,
+          "flip_delta": 0.12516629695892334,
+          "orig_margin": -1.2527649402618408,
+          "flip_margin": -1.7522683143615723
+        },
+        "S1:reference": {
+          "orig_delta": 1.5020539164543152,
+          "flip_delta": 2.376429259777069,
+          "orig_margin": 0.3739590048789978,
+          "flip_margin": 0.4989946484565735
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.00015282630920410156,
+          "flip_delta": 0.24970102310180664,
+          "orig_margin": -1.1279420852661133,
+          "flip_margin": -1.627733588218689
+        },
+        "S1:background": {
+          "orig_delta": 0.0011973381042480469,
+          "flip_delta": 0.2501457929611206,
+          "orig_margin": -1.1268975734710693,
+          "flip_margin": -1.627288818359375
+        },
+        "S6:target": {
+          "orig_delta": -0.00040912628173828125,
+          "flip_delta": 0.2497410774230957,
+          "orig_margin": -1.1285040378570557,
+          "flip_margin": -1.6276935338974
+        },
+        "S6:reference": {
+          "orig_delta": 1.3769184947013855,
+          "flip_delta": 2.2509766221046448,
+          "orig_margin": 0.24882358312606812,
+          "flip_margin": 0.37354201078414917
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.1241835355758667,
+          "flip_delta": 0.24970102310180664,
+          "orig_margin": -1.0039113759994507,
+          "flip_margin": -1.627733588218689
+        },
+        "S6:background": {
+          "orig_delta": 0.12536144256591797,
+          "flip_delta": 0.24986636638641357,
+          "orig_margin": -1.0027334690093994,
+          "flip_margin": -1.627568244934082
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -1.1280949115753174,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -1.6279914379119873,
+          "R": 0.3328839690374531
+        },
+        "S1:reference": {
+          "margin": -1.252591609954834,
+          "R": 0.8338581308025543
+        },
+        "S1:irrelevant": {
+          "margin": -1.6277334690093994,
+          "R": 0.3332282306622884
+        },
+        "S1:random": {
+          "margin": -1.6371393203735352,
+          "R": 0.32067604456119925
+        },
+        "S6:full": {
+          "margin": -1.1280949115753174,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -1.627810001373291,
+          "R": 0.33312609759244355
+        },
+        "S6:reference": {
+          "margin": -1.1281248331069946,
+          "R": 0.9999600694695778
+        },
+        "S6:irrelevant": {
+          "margin": -1.6275304555892944,
+          "R": 0.3334991537432009
+        },
+        "S6:random": {
+          "margin": -1.7548285722732544,
+          "R": 0.1636187687492533
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0014",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2365840",
+      "m_original": 0.12283611297607422,
+      "m_flipped": -0.12658822536468506,
+      "delta": 0.24942433834075928,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.74904465675354,
+          "flip_delta": -1.7491261959075928,
+          "orig_margin": -1.6262085437774658,
+          "flip_margin": -1.8757144212722778
+        },
+        "S1:reference": {
+          "orig_delta": 0.0008439421653747559,
+          "flip_delta": 0.12542176246643066,
+          "orig_margin": 0.12368005514144897,
+          "flip_margin": -0.0011664628982543945
+        },
+        "S1:irrelevant": {
+          "orig_delta": -1.6241482496261597,
+          "flip_delta": -1.7491456270217896,
+          "orig_margin": -1.5013121366500854,
+          "flip_margin": -1.8757338523864746
+        },
+        "S1:background": {
+          "orig_delta": 0.12430638074874878,
+          "flip_delta": 0.0006224513053894043,
+          "orig_margin": 0.247142493724823,
+          "flip_margin": -0.12596577405929565
+        },
+        "S6:target": {
+          "orig_delta": -1.7492247819900513,
+          "flip_delta": -1.8739451169967651,
+          "orig_margin": -1.626388669013977,
+          "flip_margin": -2.00053334236145
+        },
+        "S6:reference": {
+          "orig_delta": 0.25071775913238525,
+          "flip_delta": 0.12522965669631958,
+          "orig_margin": 0.3735538721084595,
+          "flip_margin": -0.0013585686683654785
+        },
+        "S6:irrelevant": {
+          "orig_delta": -1.6244179010391235,
+          "flip_delta": -1.8742421865463257,
+          "orig_margin": -1.5015817880630493,
+          "flip_margin": -2.0008304119110107
+        },
+        "S6:background": {
+          "orig_delta": 0.24947822093963623,
+          "flip_delta": 0.00035005807876586914,
+          "orig_margin": 0.37231433391571045,
+          "flip_margin": -0.1262381672859192
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.12283611297607422,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.37391555309295654,
+          "R": 2.0066356867462622
+        },
+        "S1:reference": {
+          "margin": -0.5020947456359863,
+          "R": -1.5054926987850346
+        },
+        "S1:irrelevant": {
+          "margin": 0.37391507625579834,
+          "R": 2.006633774995543
+        },
+        "S1:random": {
+          "margin": -0.12679755687713623,
+          "R": -0.0008392585657185817
+        },
+        "S6:full": {
+          "margin": 0.12283611297607422,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.3734249472618103,
+          "R": 2.0046687342250693
+        },
+        "S6:reference": {
+          "margin": -0.7523720264434814,
+          "R": -2.508912342883962
+        },
+        "S6:irrelevant": {
+          "margin": 0.37341296672821045,
+          "R": 2.0046207014882502
+        },
+        "S6:random": {
+          "margin": -0.2515745759010315,
+          "R": -0.5010992566635266
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0018",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2386194",
+      "m_original": -0.25042325258255005,
+      "m_flipped": -0.3764840364456177,
+      "delta": 0.12606078386306763,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -5.650520324707031e-05,
+          "flip_delta": 0.0007416605949401855,
+          "orig_margin": -0.2504797577857971,
+          "flip_margin": -0.3757423758506775
+        },
+        "S1:reference": {
+          "orig_delta": 0.12432664632797241,
+          "flip_delta": 0.12480497360229492,
+          "orig_margin": -0.12609660625457764,
+          "flip_margin": -0.25167906284332275
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.1244005560874939,
+          "flip_delta": -0.12499856948852539,
+          "orig_margin": -0.12602269649505615,
+          "flip_margin": -0.5014826059341431
+        },
+        "S1:background": {
+          "orig_delta": 0.12425702810287476,
+          "flip_delta": -0.2522675395011902,
+          "orig_margin": -0.1261662244796753,
+          "flip_margin": -0.6287515759468079
+        },
+        "S6:target": {
+          "orig_delta": 0.24945533275604248,
+          "flip_delta": -0.12435519695281982,
+          "orig_margin": -0.0009679198265075684,
+          "flip_margin": -0.5008392333984375
+        },
+        "S6:reference": {
+          "orig_delta": -0.0002745985984802246,
+          "flip_delta": 0.0005336999893188477,
+          "orig_margin": -0.2506978511810303,
+          "flip_margin": -0.37595033645629883
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12445545196533203,
+          "flip_delta": -0.12467288970947266,
+          "orig_margin": -0.12596780061721802,
+          "flip_margin": -0.5011569261550903
+        },
+        "S6:background": {
+          "orig_delta": 0.12467330694198608,
+          "flip_delta": -0.12509316205978394,
+          "orig_margin": -0.12574994564056396,
+          "flip_margin": -0.5015771985054016
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.25042325258255005,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.3763941526412964,
+          "R": 0.0007130195574455932
+        },
+        "S1:reference": {
+          "margin": -0.5010117888450623,
+          "R": -0.9878389502536468
+        },
+        "S1:irrelevant": {
+          "margin": -0.5006959438323975,
+          "R": -0.9853334524851427
+        },
+        "S1:random": {
+          "margin": -0.5003165006637573,
+          "R": -0.9823234508255282
+        },
+        "S6:full": {
+          "margin": -0.25042325258255005,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.3763105273246765,
+          "R": 0.0013763925276685158
+        },
+        "S6:reference": {
+          "margin": -0.3764945864677429,
+          "R": -8.368996131821618e-05
+        },
+        "S6:irrelevant": {
+          "margin": -0.37615787982940674,
+          "R": 0.002587296431261463
+        },
+        "S6:random": {
+          "margin": -0.5010774731636047,
+          "R": -0.9883600030071648
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0019",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "1159486",
+      "m_original": 0.7492547631263733,
+      "m_flipped": -0.25140607357025146,
+      "delta": 1.0006608366966248,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.24971213936805725,
+          "flip_delta": 0.12540757656097412,
+          "orig_margin": 0.49954262375831604,
+          "flip_margin": -0.12599849700927734
+        },
+        "S1:reference": {
+          "orig_delta": 0.2500792145729065,
+          "flip_delta": 0.7505764365196228,
+          "orig_margin": 0.9993339776992798,
+          "flip_margin": 0.49917036294937134
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.12737733125686646,
+          "flip_delta": 0.3748650550842285,
+          "orig_margin": 0.6218774318695068,
+          "flip_margin": 0.12345898151397705
+        },
+        "S1:background": {
+          "orig_delta": -4.774332046508789e-05,
+          "flip_delta": 0.2499096393585205,
+          "orig_margin": 0.7492070198059082,
+          "flip_margin": -0.001496434211730957
+        },
+        "S6:target": {
+          "orig_delta": -0.37465834617614746,
+          "flip_delta": 0.1252765655517578,
+          "orig_margin": 0.37459641695022583,
+          "flip_margin": -0.12612950801849365
+        },
+        "S6:reference": {
+          "orig_delta": 0.25003373622894287,
+          "flip_delta": 0.6254948973655701,
+          "orig_margin": 0.9992884993553162,
+          "flip_margin": 0.3740888237953186
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12416309118270874,
+          "flip_delta": 0.3747645616531372,
+          "orig_margin": 0.873417854309082,
+          "flip_margin": 0.12335848808288574
+        },
+        "S6:background": {
+          "orig_delta": -0.00028020143508911133,
+          "flip_delta": 0.12481415271759033,
+          "orig_margin": 0.7489745616912842,
+          "flip_margin": -0.12659192085266113
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.7492547631263733,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.12425726652145386,
+          "R": 0.3754152519167661
+        },
+        "S1:reference": {
+          "margin": -0.0015917420387268066,
+          "R": 0.24964935407706187
+        },
+        "S1:irrelevant": {
+          "margin": 0.12420111894607544,
+          "R": 0.3753591414212622
+        },
+        "S1:random": {
+          "margin": -0.5025310516357422,
+          "R": -0.2509591350596901
+        },
+        "S6:full": {
+          "margin": 0.7492547631263733,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.12361711263656616,
+          "R": 0.3747755207896831
+        },
+        "S6:reference": {
+          "margin": -0.0014066696166992188,
+          "R": 0.24983430427721015
+        },
+        "S6:irrelevant": {
+          "margin": 0.12408822774887085,
+          "R": 0.3752463247774358
+        },
+        "S6:random": {
+          "margin": -0.2515416145324707,
+          "R": -0.00013545145092985276
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0022",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "1159718",
+      "m_original": 0.6233913898468018,
+      "m_flipped": 0.24806225299835205,
+      "delta": 0.3753291368484497,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.2500014901161194,
+          "flip_delta": -0.24980700016021729,
+          "orig_margin": 0.3733898997306824,
+          "flip_margin": -0.0017447471618652344
+        },
+        "S1:reference": {
+          "orig_delta": -0.1250458061695099,
+          "flip_delta": 0.2508392035961151,
+          "orig_margin": 0.49834558367729187,
+          "flip_margin": 0.49890145659446716
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.1251383125782013,
+          "flip_delta": 0.1252979040145874,
+          "orig_margin": 0.49825307726860046,
+          "flip_margin": 0.37336015701293945
+        },
+        "S1:background": {
+          "orig_delta": -0.12494537234306335,
+          "flip_delta": 8.213520050048828e-05,
+          "orig_margin": 0.4984460175037384,
+          "flip_margin": 0.24814438819885254
+        },
+        "S6:target": {
+          "orig_delta": -0.25026440620422363,
+          "flip_delta": -0.24950993061065674,
+          "orig_margin": 0.3731269836425781,
+          "flip_margin": -0.0014476776123046875
+        },
+        "S6:reference": {
+          "orig_delta": -0.2495933175086975,
+          "flip_delta": 0.2505773603916168,
+          "orig_margin": 0.37379807233810425,
+          "flip_margin": 0.49863961338996887
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.12493321299552917,
+          "flip_delta": 0.12539595365524292,
+          "orig_margin": 0.4984581768512726,
+          "flip_margin": 0.37345820665359497
+        },
+        "S6:background": {
+          "orig_delta": 5.412101745605469e-05,
+          "flip_delta": 0.00029778480529785156,
+          "orig_margin": 0.6234455108642578,
+          "flip_margin": 0.2483600378036499
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.6233913898468018,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.37325650453567505,
+          "R": 0.33355857365231384
+        },
+        "S1:reference": {
+          "margin": 0.49872055649757385,
+          "R": 0.6678359841816186
+        },
+        "S1:irrelevant": {
+          "margin": 0.4982404112815857,
+          "R": 0.6665567197471549
+        },
+        "S1:random": {
+          "margin": 0.24845898151397705,
+          "R": 0.0010570149681323328
+        },
+        "S6:full": {
+          "margin": 0.6233913898468018,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.4982895851135254,
+          "R": 0.6666877349738239
+        },
+        "S6:reference": {
+          "margin": 0.49825355410575867,
+          "R": 0.666591736544101
+        },
+        "S6:irrelevant": {
+          "margin": 0.4980083703994751,
+          "R": 0.6659384866836123
+        },
+        "S6:random": {
+          "margin": 0.2485511302947998,
+          "R": 0.0013025295625933584
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0025",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2402230",
+      "m_original": -0.7537566423416138,
+      "m_flipped": -2.3777108192443848,
+      "delta": 1.623954176902771,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.6233581304550171,
+          "flip_delta": 0.2505967617034912,
+          "orig_margin": -1.3771147727966309,
+          "flip_margin": -2.1271140575408936
+        },
+        "S1:reference": {
+          "orig_delta": 0.7518860697746277,
+          "flip_delta": 2.6268110871315002,
+          "orig_margin": -0.001870572566986084,
+          "flip_margin": 0.24910026788711548
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.00022608041763305664,
+          "flip_delta": 0.25042724609375,
+          "orig_margin": -0.7535305619239807,
+          "flip_margin": -2.1272835731506348
+        },
+        "S1:background": {
+          "orig_delta": 0.2513108253479004,
+          "flip_delta": -0.12698030471801758,
+          "orig_margin": -0.5024458169937134,
+          "flip_margin": -2.5046911239624023
+        },
+        "S6:target": {
+          "orig_delta": -0.7485278844833374,
+          "flip_delta": 0.12559771537780762,
+          "orig_margin": -1.5022845268249512,
+          "flip_margin": -2.252113103866577
+        },
+        "S6:reference": {
+          "orig_delta": 0.6261526346206665,
+          "flip_delta": 2.001976788043976,
+          "orig_margin": -0.12760400772094727,
+          "flip_margin": -0.37573403120040894
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12447941303253174,
+          "flip_delta": 0.12572550773620605,
+          "orig_margin": -0.629277229309082,
+          "flip_margin": -2.2519853115081787
+        },
+        "S6:background": {
+          "orig_delta": 0.3758089542388916,
+          "flip_delta": 0.12531590461730957,
+          "orig_margin": -0.37794768810272217,
+          "flip_margin": -2.252394914627075
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.7537566423416138,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -1.5031342506408691,
+          "R": 0.5385475655917341
+        },
+        "S1:reference": {
+          "margin": -1.752027988433838,
+          "R": 0.38528355030550077
+        },
+        "S1:irrelevant": {
+          "margin": -2.3777670860290527,
+          "R": -3.464801252907368e-05
+        },
+        "S1:random": {
+          "margin": -2.252145767211914,
+          "R": 0.0773205634853258
+        },
+        "S6:full": {
+          "margin": -0.7537566423416138,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -1.5027529001235962,
+          "R": 0.538782393964786
+        },
+        "S6:reference": {
+          "margin": -2.0016732215881348,
+          "R": 0.23155677851294695
+        },
+        "S6:irrelevant": {
+          "margin": -2.50205659866333,
+          "R": -0.07656975867145425
+        },
+        "S6:random": {
+          "margin": -2.50205659866333,
+          "R": -0.07656975867145425
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|woman:0026",
+      "group": "man|to the left of|woman",
+      "question": "Is the man to the left of the woman?",
+      "image_id": "2348528",
+      "m_original": 0.4976211488246918,
+      "m_flipped": -0.0012000799179077148,
+      "delta": 0.4988212287425995,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.2502101957798004,
+          "flip_delta": -0.00045102834701538086,
+          "orig_margin": 0.24741095304489136,
+          "flip_margin": -0.0016511082649230957
+        },
+        "S1:reference": {
+          "orig_delta": 0.5016604363918304,
+          "flip_delta": 0.1254245638847351,
+          "orig_margin": 0.9992815852165222,
+          "flip_margin": 0.12422448396682739
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.2502101957798004,
+          "flip_delta": -0.00045102834701538086,
+          "orig_margin": 0.24741095304489136,
+          "flip_margin": -0.0016511082649230957
+        },
+        "S1:background": {
+          "orig_delta": -0.3824162781238556,
+          "flip_delta": -0.24982881546020508,
+          "orig_margin": 0.11520487070083618,
+          "flip_margin": -0.2510288953781128
+        },
+        "S6:target": {
+          "orig_delta": -0.2504301965236664,
+          "flip_delta": -0.124733567237854,
+          "orig_margin": 0.2471909523010254,
+          "flip_margin": -0.12593364715576172
+        },
+        "S6:reference": {
+          "orig_delta": 0.50130894780159,
+          "flip_delta": 0.12537449598312378,
+          "orig_margin": 0.9989300966262817,
+          "flip_margin": 0.12417441606521606
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.2504301965236664,
+          "flip_delta": -0.124733567237854,
+          "orig_margin": 0.2471909523010254,
+          "flip_margin": -0.12593364715576172
+        },
+        "S6:background": {
+          "orig_delta": -0.0025309324264526367,
+          "flip_delta": -0.12550920248031616,
+          "orig_margin": 0.49509021639823914,
+          "flip_margin": -0.12670928239822388
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.4976211488246918,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.12346142530441284,
+          "R": 0.249912189055306
+        },
+        "S1:reference": {
+          "margin": -0.0014440417289733887,
+          "R": -0.0004890766411057506
+        },
+        "S1:irrelevant": {
+          "margin": 0.12346142530441284,
+          "R": 0.249912189055306
+        },
+        "S1:random": {
+          "margin": -0.0010596513748168945,
+          "R": 0.00028152078339729983
+        },
+        "S6:full": {
+          "margin": 0.4976211488246918,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.12329012155532837,
+          "R": 0.24956877193667956
+        },
+        "S6:reference": {
+          "margin": -0.12627482414245605,
+          "R": -0.25074062012122
+        },
+        "S6:irrelevant": {
+          "margin": 0.12329012155532837,
+          "R": 0.24956877193667956
+        },
+        "S6:random": {
+          "margin": 0.12372088432312012,
+          "R": 0.25043233335502096
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0003",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "4488",
+      "m_original": 1.4984219074249268,
+      "m_flipped": 0.7487627267837524,
+      "delta": 0.7496591806411743,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.000820159912109375,
+          "flip_delta": 0.37585365772247314,
+          "orig_margin": 1.4992420673370361,
+          "flip_margin": 1.1246163845062256
+        },
+        "S1:reference": {
+          "orig_delta": -0.1332569122314453,
+          "flip_delta": 0.12475335597991943,
+          "orig_margin": 1.3651649951934814,
+          "flip_margin": 0.8735160827636719
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.0008895397186279297,
+          "flip_delta": 0.37545740604400635,
+          "orig_margin": 1.4993114471435547,
+          "flip_margin": 1.1242201328277588
+        },
+        "S1:background": {
+          "orig_delta": -0.12434303760528564,
+          "flip_delta": -0.3810027837753296,
+          "orig_margin": 1.3740788698196411,
+          "flip_margin": 0.36775994300842285
+        },
+        "S6:target": {
+          "orig_delta": 0.0009310245513916016,
+          "flip_delta": 0.0008040666580200195,
+          "orig_margin": 1.4993529319763184,
+          "flip_margin": 0.7495667934417725
+        },
+        "S6:reference": {
+          "orig_delta": -0.2519038915634155,
+          "flip_delta": 6.4373016357421875e-06,
+          "orig_margin": 1.2465180158615112,
+          "flip_margin": 0.7487691640853882
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.0007978677749633789,
+          "flip_delta": 0.37554776668548584,
+          "orig_margin": 1.4992197751998901,
+          "flip_margin": 1.1243104934692383
+        },
+        "S6:background": {
+          "orig_delta": -0.24948513507843018,
+          "flip_delta": -0.12710124254226685,
+          "orig_margin": 1.2489367723464966,
+          "flip_margin": 0.6216614842414856
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 1.4984219074249268,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 1.4989930391311646,
+          "R": 1.0007618551482946
+        },
+        "S1:reference": {
+          "margin": 0.8740976452827454,
+          "R": 0.16718919975314048
+        },
+        "S1:irrelevant": {
+          "margin": 1.2487623691558838,
+          "R": 0.6669692778850355
+        },
+        "S1:random": {
+          "margin": 0.7484186887741089,
+          "R": -0.0004589258939633117
+        },
+        "S6:full": {
+          "margin": 1.4984219074249268,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 1.3739126920700073,
+          "R": 0.8339122382941696
+        },
+        "S6:reference": {
+          "margin": 0.8734139204025269,
+          "R": 0.16627715212153044
+        },
+        "S6:irrelevant": {
+          "margin": 0.9990203976631165,
+          "R": 0.3338285948360183
+        },
+        "S6:random": {
+          "margin": 0.6237104535102844,
+          "R": -0.16681216811953445
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0004",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2336990",
+      "m_original": -1.5042520761489868,
+      "m_flipped": -1.8779867887496948,
+      "delta": 0.373734712600708,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.4986327886581421,
+          "flip_delta": 0.12550747394561768,
+          "orig_margin": -2.002884864807129,
+          "flip_margin": -1.7524793148040771
+        },
+        "S1:reference": {
+          "orig_delta": 0.3689805269241333,
+          "flip_delta": 0.6259288787841797,
+          "orig_margin": -1.1352715492248535,
+          "flip_margin": -1.2520579099655151
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.0010728836059570312,
+          "flip_delta": 0.00075531005859375,
+          "orig_margin": -1.5031791925430298,
+          "flip_margin": -1.877231478691101
+        },
+        "S1:background": {
+          "orig_delta": 0.12626433372497559,
+          "flip_delta": 0.3752340078353882,
+          "orig_margin": -1.3779877424240112,
+          "flip_margin": -1.5027527809143066
+        },
+        "S6:target": {
+          "orig_delta": -0.4989258050918579,
+          "flip_delta": 0.12480878829956055,
+          "orig_margin": -2.0031778812408447,
+          "flip_margin": -1.7531780004501343
+        },
+        "S6:reference": {
+          "orig_delta": 0.4998379945755005,
+          "flip_delta": 0.7505092620849609,
+          "orig_margin": -1.0044140815734863,
+          "flip_margin": -1.1274775266647339
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12443780899047852,
+          "flip_delta": 0.12527668476104736,
+          "orig_margin": -1.3798142671585083,
+          "flip_margin": -1.7527101039886475
+        },
+        "S6:background": {
+          "orig_delta": 0.12656307220458984,
+          "flip_delta": 0.25075531005859375,
+          "orig_margin": -1.377689003944397,
+          "flip_margin": -1.627231478691101
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -1.5042520761489868,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -1.3777111768722534,
+          "R": 1.3385848170114387
+        },
+        "S1:reference": {
+          "margin": -1.8764441013336182,
+          "R": 0.004127760585420498
+        },
+        "S1:irrelevant": {
+          "margin": -1.8771895170211792,
+          "R": 0.0021332557603965917
+        },
+        "S1:random": {
+          "margin": -2.0072343349456787,
+          "R": -0.34582697790255795
+        },
+        "S6:full": {
+          "margin": -1.5042520761489868,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -1.5022319555282593,
+          "R": 1.0054052260938517
+        },
+        "S6:reference": {
+          "margin": -1.877329707145691,
+          "R": 0.001758149783389057
+        },
+        "S6:irrelevant": {
+          "margin": -1.7537555694580078,
+          "R": 0.33240481845317266
+        },
+        "S6:random": {
+          "margin": -2.0036675930023193,
+          "R": -0.3362834652902574
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0005",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2336932",
+      "m_original": 0.12321597337722778,
+      "m_flipped": -0.5024493932723999,
+      "delta": 0.6256653666496277,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.3740400671958923,
+          "flip_delta": -0.49815309047698975,
+          "orig_margin": -1.2508240938186646,
+          "flip_margin": -1.0006024837493896
+        },
+        "S1:reference": {
+          "orig_delta": -0.37897753715515137,
+          "flip_delta": 0.24586880207061768,
+          "orig_margin": -0.2557615637779236,
+          "flip_margin": -0.2565805912017822
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.0005193352699279785,
+          "flip_delta": 0.00022125244140625,
+          "orig_margin": 0.1226966381072998,
+          "flip_margin": -0.5022281408309937
+        },
+        "S6:target": {
+          "orig_delta": -1.4991479516029358,
+          "flip_delta": -0.6233727931976318,
+          "orig_margin": -1.375931978225708,
+          "flip_margin": -1.1258221864700317
+        },
+        "S6:reference": {
+          "orig_delta": -0.2491721510887146,
+          "flip_delta": 0.2503941059112549,
+          "orig_margin": -0.12595617771148682,
+          "flip_margin": -0.252055287361145
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.12451010942459106,
+          "flip_delta": -0.12412357330322266,
+          "orig_margin": -0.0012941360473632812,
+          "flip_margin": -0.6265729665756226
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.12321597337722778,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.12691187858581543,
+          "R": 0.6002210362027044
+        },
+        "S1:reference": {
+          "margin": -0.2516750693321228,
+          "R": 0.4008122189712166
+        },
+        "S1:irrelevant": {
+          "margin": -0.502683162689209,
+          "R": -0.0003736333018733204
+        },
+        "S1:random": {
+          "margin": -0.752429723739624,
+          "R": -0.3995431804158228
+        },
+        "S6:full": {
+          "margin": 0.12321597337722778,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.1273031234741211,
+          "R": 0.5995957100952346
+        },
+        "S6:reference": {
+          "margin": -0.37716323137283325,
+          "R": 0.20024468122706054
+        },
+        "S6:irrelevant": {
+          "margin": -0.6270323991775513,
+          "R": -0.19912082807504639
+        },
+        "S6:random": {
+          "margin": -0.7524490356445312,
+          "R": -0.3995740466039429
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0006",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2335798",
+      "m_original": 1.123363733291626,
+      "m_flipped": -0.12499493360519409,
+      "delta": 1.24835866689682,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.1920928955078125e-06,
+          "flip_delta": 0.1242101788520813,
+          "orig_margin": 1.1233625411987305,
+          "flip_margin": -0.000784754753112793
+        },
+        "S1:reference": {
+          "orig_delta": -0.628205806016922,
+          "flip_delta": 0.12473541498184204,
+          "orig_margin": 0.495157927274704,
+          "flip_margin": -0.0002595186233520508
+        },
+        "S1:irrelevant": {
+          "orig_delta": 9.834766387939453e-05,
+          "flip_delta": 0.12410444021224976,
+          "orig_margin": 1.1234620809555054,
+          "flip_margin": -0.0008904933929443359
+        },
+        "S1:background": {
+          "orig_delta": -0.49929893016815186,
+          "flip_delta": 0.249103844165802,
+          "orig_margin": 0.6240648031234741,
+          "flip_margin": 0.12410891056060791
+        },
+        "S6:target": {
+          "orig_delta": -4.76837158203125e-07,
+          "flip_delta": 0.12370073795318604,
+          "orig_margin": 1.1233632564544678,
+          "flip_margin": -0.0012941956520080566
+        },
+        "S6:reference": {
+          "orig_delta": -0.2509114742279053,
+          "flip_delta": 0.0,
+          "orig_margin": 0.8724522590637207,
+          "flip_margin": -0.12499493360519409
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12492775917053223,
+          "flip_delta": 0.12398558855056763,
+          "orig_margin": 1.2482914924621582,
+          "flip_margin": -0.0010093450546264648
+        },
+        "S6:background": {
+          "orig_delta": -0.4993923306465149,
+          "flip_delta": 0.2486160397529602,
+          "orig_margin": 0.6239714026451111,
+          "flip_margin": 0.12362110614776611
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 1.123363733291626,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.12430757284164429,
+          "R": 0.19970423008842206
+        },
+        "S1:reference": {
+          "margin": 0.12421226501464844,
+          "R": 0.1996278835787825
+        },
+        "S1:irrelevant": {
+          "margin": -0.12569177150726318,
+          "R": -0.0005582032796722572
+        },
+        "S1:random": {
+          "margin": 0.0034568309783935547,
+          "R": 0.10289652164060675
+        },
+        "S6:full": {
+          "margin": 1.123363733291626,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.12385731935501099,
+          "R": 0.19934355370704798
+        },
+        "S6:reference": {
+          "margin": -0.0005750060081481934,
+          "R": 0.09966681122688077
+        },
+        "S6:irrelevant": {
+          "margin": -0.12535470724105835,
+          "R": -0.0002881973309470314
+        },
+        "S6:random": {
+          "margin": 5.841255187988281e-06,
+          "R": 0.10013209999263273
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0007",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2390633",
+      "m_original": -0.0006442070007324219,
+      "m_flipped": -0.37627625465393066,
+      "delta": 0.37563204765319824,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.00015920400619506836,
+          "flip_delta": -0.0002613663673400879,
+          "orig_margin": -0.0004850029945373535,
+          "flip_margin": -0.37653762102127075
+        },
+        "S1:reference": {
+          "orig_delta": -0.6255238056182861,
+          "flip_delta": 0.00042241811752319336,
+          "orig_margin": -0.6261680126190186,
+          "flip_margin": -0.37585383653640747
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.25002169609069824,
+          "flip_delta": -8.237361907958984e-05,
+          "orig_margin": -0.25066590309143066,
+          "flip_margin": -0.37635862827301025
+        },
+        "S1:background": {
+          "orig_delta": 0.0001595616340637207,
+          "flip_delta": 0.2503107190132141,
+          "orig_margin": -0.00048464536666870117,
+          "flip_margin": -0.12596553564071655
+        },
+        "S6:target": {
+          "orig_delta": 0.00016003847122192383,
+          "flip_delta": 0.0003096461296081543,
+          "orig_margin": -0.00048416852951049805,
+          "flip_margin": -0.3759666085243225
+        },
+        "S6:reference": {
+          "orig_delta": -0.12513166666030884,
+          "flip_delta": 0.0001500844955444336,
+          "orig_margin": -0.12577587366104126,
+          "flip_margin": -0.37612617015838623
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.24987149238586426,
+          "flip_delta": 0.00014978647232055664,
+          "orig_margin": -0.2505156993865967,
+          "flip_margin": -0.3761264681816101
+        },
+        "S6:background": {
+          "orig_delta": 0.0002161860466003418,
+          "flip_delta": 0.25037503242492676,
+          "orig_margin": -0.0004280209541320801,
+          "flip_margin": -0.1259012222290039
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.0006442070007324219,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.25093531608581543,
+          "R": 0.3336800982535869
+        },
+        "S1:reference": {
+          "margin": -0.1260022521018982,
+          "R": 0.6662743610819319
+        },
+        "S1:irrelevant": {
+          "margin": -0.37635886669158936,
+          "R": -0.0002199280870064709
+        },
+        "S1:random": {
+          "margin": -0.37605851888656616,
+          "R": 0.0005796517329254244
+        },
+        "S6:full": {
+          "margin": -0.0006442070007324219,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.25099462270736694,
+          "R": 0.33352221337150073
+        },
+        "S6:reference": {
+          "margin": -0.25097566843032837,
+          "R": 0.33357267306245897
+        },
+        "S6:irrelevant": {
+          "margin": -0.37612682580947876,
+          "R": 0.0003978064315477796
+        },
+        "S6:random": {
+          "margin": -0.25127744674682617,
+          "R": 0.3327692849639642
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0008",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2415549",
+      "m_original": 1.8745226860046387,
+      "m_flipped": -0.6260219216346741,
+      "delta": 2.5005446076393127,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.3752139210700989,
+          "flip_delta": -0.12607938051223755,
+          "orig_margin": 0.4993087649345398,
+          "flip_margin": -0.7521013021469116
+        },
+        "S1:reference": {
+          "orig_delta": -0.12499678134918213,
+          "flip_delta": 0.12506103515625,
+          "orig_margin": 1.7495259046554565,
+          "flip_margin": -0.5009608864784241
+        },
+        "S1:irrelevant": {
+          "orig_delta": -0.8754367828369141,
+          "flip_delta": 1.3756036758422852,
+          "orig_margin": 0.9990859031677246,
+          "flip_margin": 0.7495817542076111
+        },
+        "S6:target": {
+          "orig_delta": -0.8751822710037231,
+          "flip_delta": -0.12504327297210693,
+          "orig_margin": 0.9993404150009155,
+          "flip_margin": -0.751065194606781
+        },
+        "S6:reference": {
+          "orig_delta": -0.12496817111968994,
+          "flip_delta": 0.0001742839813232422,
+          "orig_margin": 1.7495545148849487,
+          "flip_margin": -0.6258476376533508
+        },
+        "S6:irrelevant": {
+          "orig_delta": -0.7502858638763428,
+          "flip_delta": 1.3754974007606506,
+          "orig_margin": 1.124236822128296,
+          "flip_margin": 0.7494754791259766
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 1.8745226860046387,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": 0.4977453052997589,
+          "R": 0.4494089901460894
+        },
+        "S1:reference": {
+          "margin": -0.6258434057235718,
+          "R": 7.139081244818356e-05
+        },
+        "S1:irrelevant": {
+          "margin": 0.624427318572998,
+          "R": 0.5000707591408189
+        },
+        "S1:random": {
+          "margin": -0.7507802248001099,
+          "R": -0.04989245254185498
+        },
+        "S6:full": {
+          "margin": 1.8745226860046387,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": 0.748207688331604,
+          "R": 0.5495721235157832
+        },
+        "S6:reference": {
+          "margin": -0.5010195970535278,
+          "R": 0.04999003984942188
+        },
+        "S6:irrelevant": {
+          "margin": 0.6243900060653687,
+          "R": 0.5000558373883672
+        },
+        "S6:random": {
+          "margin": -0.7508969306945801,
+          "R": -0.04993912473243045
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0009",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2353206",
+      "m_original": -0.8758029937744141,
+      "m_flipped": -0.25091105699539185,
+      "delta": -0.6248919367790222,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -0.24959468841552734,
+          "flip_delta": -0.6243802309036255,
+          "orig_margin": -1.1253976821899414,
+          "flip_margin": -0.8752912878990173
+        },
+        "S1:reference": {
+          "orig_delta": -0.1245952844619751,
+          "flip_delta": 0.0003979802131652832,
+          "orig_margin": -1.0003982782363892,
+          "flip_margin": -0.25051307678222656
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.12521404027938843,
+          "flip_delta": 0.12572860717773438,
+          "orig_margin": -0.7505889534950256,
+          "flip_margin": -0.12518244981765747
+        },
+        "S1:background": {
+          "orig_delta": -0.1246485710144043,
+          "flip_delta": 0.2506906986236572,
+          "orig_margin": -1.0004515647888184,
+          "flip_margin": -0.00022035837173461914
+        },
+        "S6:target": {
+          "orig_delta": -0.24965405464172363,
+          "flip_delta": -0.49986404180526733,
+          "orig_margin": -1.1254570484161377,
+          "flip_margin": -0.7507750988006592
+        },
+        "S6:reference": {
+          "orig_delta": 0.00013697147369384766,
+          "flip_delta": -0.12444102764129639,
+          "orig_margin": -0.8756660223007202,
+          "flip_margin": -0.37535208463668823
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.12521415948867798,
+          "flip_delta": 0.0003663301467895508,
+          "orig_margin": -0.7505888342857361,
+          "flip_margin": -0.2505447268486023
+        },
+        "S6:background": {
+          "orig_delta": 0.00025069713592529297,
+          "flip_delta": 0.2502482533454895,
+          "orig_margin": -0.8755522966384888,
+          "flip_margin": -0.0006628036499023438
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.8758029937744141,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.6256213188171387,
+          "R": 0.5996400973793553
+        },
+        "S1:reference": {
+          "margin": -0.37565696239471436,
+          "R": 0.19962796454426945
+        },
+        "S1:irrelevant": {
+          "margin": -0.3757503032684326,
+          "R": 0.19977733576867568
+        },
+        "S1:random": {
+          "margin": -0.6252749562263489,
+          "R": 0.5990858213991352
+        },
+        "S6:full": {
+          "margin": -0.8758029937744141,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.6256214380264282,
+          "R": 0.5996402881472026
+        },
+        "S6:reference": {
+          "margin": -0.3761659860610962,
+          "R": 0.20044254325207864
+        },
+        "S6:irrelevant": {
+          "margin": -0.3757500648498535,
+          "R": 0.19977695423298114
+        },
+        "S6:random": {
+          "margin": -0.37555086612701416,
+          "R": 0.19945818116020617
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0010",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2386099",
+      "m_original": -1.876442790031433,
+      "m_flipped": -0.8760204315185547,
+      "delta": -1.0004223585128784,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.12535035610198975,
+          "flip_delta": 0.24899637699127197,
+          "orig_margin": -1.7510924339294434,
+          "flip_margin": -0.6270240545272827
+        },
+        "S1:reference": {
+          "orig_delta": 0.5000863075256348,
+          "flip_delta": 0.250113308429718,
+          "orig_margin": -1.3763564825057983,
+          "flip_margin": -0.6259071230888367
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.6255362033843994,
+          "flip_delta": 0.5003176331520081,
+          "orig_margin": -1.2509065866470337,
+          "flip_margin": -0.37570279836654663
+        },
+        "S1:background": {
+          "orig_delta": 0.37522172927856445,
+          "flip_delta": 0.2505107522010803,
+          "orig_margin": -1.5012210607528687,
+          "flip_margin": -0.6255096793174744
+        },
+        "S6:target": {
+          "orig_delta": 0.24990713596343994,
+          "flip_delta": 0.24986565113067627,
+          "orig_margin": -1.6265356540679932,
+          "flip_margin": -0.6261547803878784
+        },
+        "S6:reference": {
+          "orig_delta": 0.37535107135772705,
+          "flip_delta": 0.25006186962127686,
+          "orig_margin": -1.501091718673706,
+          "flip_margin": -0.6259585618972778
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.6255367994308472,
+          "flip_delta": 0.5000007152557373,
+          "orig_margin": -1.250905990600586,
+          "flip_margin": -0.3760197162628174
+        },
+        "S6:background": {
+          "orig_delta": 0.3750399351119995,
+          "flip_delta": 0.3751276731491089,
+          "orig_margin": -1.5014028549194336,
+          "flip_margin": -0.5008927583694458
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -1.876442790031433,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -1.003345251083374,
+          "R": 0.12727106554684253
+        },
+        "S1:reference": {
+          "margin": -0.8761650323867798,
+          "R": 0.00014453982060141674
+        },
+        "S1:irrelevant": {
+          "margin": -1.0007481575012207,
+          "R": 0.12467506840618096
+        },
+        "S1:random": {
+          "margin": -1.3757737874984741,
+          "R": 0.49954237000740337
+        },
+        "S6:full": {
+          "margin": -1.876442790031433,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -1.0019128322601318,
+          "R": 0.12583925146246772
+        },
+        "S6:reference": {
+          "margin": -1.1256959438323975,
+          "R": 0.2495701042557504
+        },
+        "S6:irrelevant": {
+          "margin": -1.001021146774292,
+          "R": 0.12494794242858595
+        },
+        "S6:random": {
+          "margin": -1.3758513927459717,
+          "R": 0.4996199424915019
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0012",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2413903",
+      "m_original": -0.8753328323364258,
+      "m_flipped": -0.5005097389221191,
+      "delta": -0.37482309341430664,
+      "clean_rank": false,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": 0.2503345012664795,
+          "flip_delta": 0.5003722310066223,
+          "orig_margin": -0.6249983310699463,
+          "flip_margin": -0.00013750791549682617
+        },
+        "S1:reference": {
+          "orig_delta": 0.625630259513855,
+          "flip_delta": 0.37515896558761597,
+          "orig_margin": -0.2497025728225708,
+          "flip_margin": -0.12535077333450317
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.2500433921813965,
+          "flip_delta": 0.6251150369644165,
+          "orig_margin": -0.6252894401550293,
+          "flip_margin": 0.12460529804229736
+        },
+        "S6:target": {
+          "orig_delta": 0.4999604821205139,
+          "flip_delta": 0.49993032217025757,
+          "orig_margin": -0.37537235021591187,
+          "flip_margin": -0.0005794167518615723
+        },
+        "S6:reference": {
+          "orig_delta": 0.6250916719436646,
+          "flip_delta": 0.37511199712753296,
+          "orig_margin": -0.25024116039276123,
+          "flip_margin": -0.12539774179458618
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.37491142749786377,
+          "flip_delta": 0.6252577304840088,
+          "orig_margin": -0.500421404838562,
+          "flip_margin": 0.12474799156188965
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": -0.8753328323364258,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.7505443096160889,
+          "R": 0.6670735477272121
+        },
+        "S1:reference": {
+          "margin": -0.3754226565361023,
+          "R": -0.3337229871473079
+        },
+        "S1:irrelevant": {
+          "margin": -0.6253275871276855,
+          "R": 0.33300469047567555
+        },
+        "S1:random": {
+          "margin": -1.1270182132720947,
+          "R": 1.6714777860751264
+        },
+        "S6:full": {
+          "margin": -0.8753328323364258,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.7502229809761047,
+          "R": 0.6662162669309379
+        },
+        "S6:reference": {
+          "margin": -0.5003255605697632,
+          "R": -0.0004913740791109087
+        },
+        "S6:irrelevant": {
+          "margin": -0.6252897381782532,
+          "R": 0.3329037123073146
+        },
+        "S6:random": {
+          "margin": -1.25053870677948,
+          "R": 2.0010212311767153
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|table:0016",
+      "group": "man|to the left of|table",
+      "question": "Is the man to the left of the table?",
+      "image_id": "2318392",
+      "m_original": 0.6237447261810303,
+      "m_flipped": -1.251124620437622,
+      "delta": 1.8748693466186523,
+      "clean_rank": true,
+      "ablation": {
+        "S1:target": {
+          "orig_delta": -1.374685287475586,
+          "flip_delta": 0.12229526042938232,
+          "orig_margin": -0.7509405612945557,
+          "flip_margin": -1.1288293600082397
+        },
+        "S1:reference": {
+          "orig_delta": -0.25143831968307495,
+          "flip_delta": 0.12485074996948242,
+          "orig_margin": 0.3723064064979553,
+          "flip_margin": -1.1262738704681396
+        },
+        "S1:irrelevant": {
+          "orig_delta": 0.3755674362182617,
+          "flip_delta": 1.125224530696869,
+          "orig_margin": 0.999312162399292,
+          "flip_margin": -0.12590008974075317
+        },
+        "S6:target": {
+          "orig_delta": -1.1247812509536743,
+          "flip_delta": 0.124420166015625,
+          "orig_margin": -0.501036524772644,
+          "flip_margin": -1.126704454421997
+        },
+        "S6:reference": {
+          "orig_delta": -0.24977558851242065,
+          "flip_delta": 0.2497081756591797,
+          "orig_margin": 0.3739691376686096,
+          "flip_margin": -1.0014164447784424
+        },
+        "S6:irrelevant": {
+          "orig_delta": 0.2502560615539551,
+          "flip_delta": 1.250271499156952,
+          "orig_margin": 0.8740007877349854,
+          "flip_margin": -0.000853121280670166
+        }
+      },
+      "patching": {
+        "S1:full": {
+          "margin": 0.6237447261810303,
+          "R": 1.0
+        },
+        "S1:target": {
+          "margin": -0.6278649568557739,
+          "R": 0.33242831811502166
+        },
+        "S1:reference": {
+          "margin": -1.1257736682891846,
+          "R": 0.06685849996668265
+        },
+        "S1:irrelevant": {
+          "margin": -1.0007277727127075,
+          "R": 0.13355429175718728
+        },
+        "S1:random": {
+          "margin": -1.126985788345337,
+          "R": 0.06621199088681615
+        },
+        "S6:full": {
+          "margin": 0.6237447261810303,
+          "R": 1.0
+        },
+        "S6:target": {
+          "margin": -0.5018534660339355,
+          "R": 0.39963912992390926
+        },
+        "S6:reference": {
+          "margin": -1.1260355710983276,
+          "R": 0.06671880873453605
+        },
+        "S6:irrelevant": {
+          "margin": -1.1254538297653198,
+          "R": 0.06702909239993225
+        },
+        "S6:random": {
+          "margin": -1.2513296604156494,
+          "R": -0.00010936227550849643
+        }
+      }
+    }
+  ]
+}

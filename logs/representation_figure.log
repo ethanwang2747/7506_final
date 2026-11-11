@@ -1,0 +1,8 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   3%|▎         | 20/657 [00:00<00:03, 198.55it/s]Loading weights:   7%|▋         | 48/657 [00:00<00:02, 241.97it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:02, 255.91it/s]Loading weights:  16%|█▌        | 105/657 [00:00<00:02, 261.24it/s]Loading weights:  20%|██        | 133/657 [00:00<00:01, 265.04it/s]Loading weights:  25%|██▍       | 164/657 [00:00<00:01, 278.48it/s]Loading weights:  29%|██▉       | 192/657 [00:00<00:01, 278.67it/s]Loading weights:  35%|███▌      | 231/657 [00:00<00:01, 311.62it/s]Loading weights:  67%|██████▋   | 439/657 [00:00<00:00, 854.23it/s]Loading weights:  98%|█████████▊| 647/657 [00:01<00:00, 1227.56it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 641.87it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+saved /home/yucheng/ris/7506project/results/figures/representation_3d.png
+mean sim source-target {'S0': 0.4750370979309082, 'S1': 0.5616377592086792, 'S6': 0.7231650352478027, 'S12': 0.6619839668273926}
+mean sim target-ablated {'S1': 0.9621433019638062, 'S6': 0.9746705889701843, 'S12': 0.9594075679779053}
+mean sim source-patched {'S1': 1.0000003576278687, 'S6': 1.0000005960464478, 'S12': 1.0000007152557373}

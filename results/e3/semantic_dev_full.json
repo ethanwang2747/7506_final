@@ -1,0 +1,1791 @@
+{
+  "summary": [
+    {
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "n_pairs": 10,
+      "n_stable": 7,
+      "mean_delta": 1.9473576247692108,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": -1.6153004065370686,
+        "R_median": 0.8763421977979997,
+        "R_frac_pos": 0.8,
+        "R_frac_gt_half": 0.8,
+        "R_mean_stable": 0.8908884596589429,
+        "R_median_stable": 0.8963751688851406
+      },
+      "S12": {
+        "R_mean": 2.753234660107087,
+        "R_median": 0.007318687893704736,
+        "R_frac_pos": 0.5,
+        "R_frac_gt_half": 0.2,
+        "R_mean_stable": -0.04499053847671144,
+        "R_median_stable": -0.035482155963290206
+      },
+      "S18": {
+        "R_mean": 2.4932677659331035,
+        "R_median": -0.02982181030225887,
+        "R_frac_pos": 0.2,
+        "R_frac_gt_half": 0.1,
+        "R_mean_stable": -0.02067150423131043,
+        "R_median_stable": -0.024658990212332185
+      }
+    },
+    {
+      "task": "semantic",
+      "group": "table|color|brown",
+      "n_pairs": 10,
+      "n_stable": 8,
+      "mean_delta": 0.6521796882152557,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 0.6986361115044839,
+        "R_median": 0.8162130197680743,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 0.7,
+        "R_mean_stable": 0.7251960782820713,
+        "R_median_stable": 0.8162130197680743
+      },
+      "S12": {
+        "R_mean": 12.977319740482828,
+        "R_median": 0.23126005103504765,
+        "R_frac_pos": 0.7,
+        "R_frac_gt_half": 0.4,
+        "R_mean_stable": -0.009680264587341236,
+        "R_median_stable": 0.12258572027388993
+      },
+      "S18": {
+        "R_mean": -6.819746053625812,
+        "R_median": -0.0007776365839102049,
+        "R_frac_pos": 0.5,
+        "R_frac_gt_half": 0.0,
+        "R_mean_stable": -0.007932913391733706,
+        "R_median_stable": 0.02985397003103502
+      }
+    },
+    {
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "n_pairs": 10,
+      "n_stable": 6,
+      "mean_delta": 1.1248712837696075,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 1.0340324631784124,
+        "R_median": 0.9367412203934253,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 0.8780785051503486,
+        "R_median_stable": 0.8676040878684961
+      },
+      "S12": {
+        "R_mean": 0.26183032636178855,
+        "R_median": 0.3395914699257544,
+        "R_frac_pos": 0.9,
+        "R_frac_gt_half": 0.3,
+        "R_mean_stable": 0.4201355477815795,
+        "R_median_stable": 0.4235303309731736
+      },
+      "S18": {
+        "R_mean": -0.04916803697705909,
+        "R_median": -0.00013274800480857143,
+        "R_frac_pos": 0.3,
+        "R_frac_gt_half": 0.0,
+        "R_mean_stable": 0.02870386195129471,
+        "R_median_stable": -0.00013274800480857143
+      }
+    },
+    {
+      "task": "semantic",
+      "group": "building|color|white",
+      "n_pairs": 10,
+      "n_stable": 6,
+      "mean_delta": 1.450433486700058,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": -5.549844882096088,
+        "R_median": 0.9855825113674165,
+        "R_frac_pos": 0.9,
+        "R_frac_gt_half": 0.9,
+        "R_mean_stable": 0.9889357687648448,
+        "R_median_stable": 0.9855825113674165
+      },
+      "S12": {
+        "R_mean": -39.12342916774663,
+        "R_median": 0.4421426285230894,
+        "R_frac_pos": 0.9,
+        "R_frac_gt_half": 0.4,
+        "R_mean_stable": 0.4578194855155528,
+        "R_median_stable": 0.4421426285230894
+      },
+      "S18": {
+        "R_mean": -0.1600977114217929,
+        "R_median": -0.0002626385327940812,
+        "R_frac_pos": 0.4,
+        "R_frac_gt_half": 0.0,
+        "R_mean_stable": -0.0038645387758793944,
+        "R_median_stable": -1.365498958144393e-05
+      }
+    },
+    {
+      "task": "semantic",
+      "group": "door|color|white",
+      "n_pairs": 10,
+      "n_stable": 8,
+      "mean_delta": 1.8380122065544129,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 1.2368855269378143,
+        "R_median": 1.119720548297984,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.1037624387090985,
+        "R_median_stable": 1.076222078207872
+      },
+      "S12": {
+        "R_mean": 0.7344706521400537,
+        "R_median": 0.5815414781852746,
+        "R_frac_pos": 0.8,
+        "R_frac_gt_half": 0.6,
+        "R_mean_stable": 0.3497539234551834,
+        "R_median_stable": 0.5815414781852746
+      },
+      "S18": {
+        "R_mean": 0.0594670931675583,
+        "R_median": 0.0456257752331309,
+        "R_frac_pos": 0.6,
+        "R_frac_gt_half": 0.0,
+        "R_mean_stable": 0.013404579657484537,
+        "R_median_stable": 0.0456257752331309
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0000",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": -1.8611935377120972,
+      "m_target": -1.8562849760055542,
+      "delta": -0.004908561706542969,
+      "patch": {
+        "S0": {
+          "margin": -1.8611935377120972,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.8611935377120972,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.7385153770446777,
+          "R": -23.99268991645619
+        },
+        "S12": {
+          "margin": -1.9896438121795654,
+          "R": 27.168617641344472
+        },
+        "S18": {
+          "margin": -1.9833534955978394,
+          "R": 25.887118709928114
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0001",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": -0.4882787764072418,
+      "m_target": -1.868563175201416,
+      "delta": 1.3802843987941742,
+      "patch": {
+        "S0": {
+          "margin": -0.4882787764072418,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.4882787764072418,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7385462522506714,
+          "R": 0.8186841233139598
+        },
+        "S12": {
+          "margin": -1.8716011047363281,
+          "R": -0.0022009446296473866
+        },
+        "S18": {
+          "margin": -1.8673049211502075,
+          "R": 0.0009115904318760072
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0002",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": 1.3798391819000244,
+      "m_target": -2.1064040660858154,
+      "delta": 3.48624324798584,
+      "patch": {
+        "S0": {
+          "margin": 1.3798391819000244,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.3798391819000244,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.0185778141021729,
+          "R": 0.8963751688851406
+        },
+        "S12": {
+          "margin": -2.2301034927368164,
+          "R": -0.035482155963290206
+        },
+        "S18": {
+          "margin": -2.2283689975738525,
+          "R": -0.03498463039218556
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0003",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": -0.47809985280036926,
+      "m_target": -3.121539831161499,
+      "delta": 2.6434399783611298,
+      "patch": {
+        "S0": {
+          "margin": -0.47809985280036926,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.47809985280036926,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7434424161911011,
+          "R": 0.8996222476913442
+        },
+        "S12": {
+          "margin": -2.9949777126312256,
+          "R": 0.047877810567402763
+        },
+        "S18": {
+          "margin": -3.121814250946045,
+          "R": -0.00010381161925077346
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0004",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": -2.2445733547210693,
+      "m_target": -1.9859044551849365,
+      "delta": -0.2586688995361328,
+      "patch": {
+        "S0": {
+          "margin": -2.2445733547210693,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -2.2445733547210693,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.6132827997207642,
+          "R": -1.440535202076436
+        },
+        "S12": {
+          "margin": -1.9902600049972534,
+          "R": 0.016838320417056858
+        },
+        "S18": {
+          "margin": -1.8675256967544556,
+          "R": -0.4576458887897535
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0005",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": 3.252276659011841,
+      "m_target": -1.4898271560668945,
+      "delta": 4.742103815078735,
+      "patch": {
+        "S0": {
+          "margin": 3.252276659011841,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 3.252276659011841,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 3.380439519882202,
+          "R": 1.027026582687379
+        },
+        "S12": {
+          "margin": -1.7308472394943237,
+          "R": -0.050825560305331995
+        },
+        "S18": {
+          "margin": -1.6067626476287842,
+          "R": -0.024658990212332185
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0006",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": 1.7551345825195312,
+      "m_target": -1.619901180267334,
+      "delta": 3.3750357627868652,
+      "patch": {
+        "S0": {
+          "margin": 1.7551345825195312,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.7551345825195312,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 2.378121852874756,
+          "R": 1.1845868648931903
+        },
+        "S12": {
+          "margin": -1.746946096420288,
+          "R": -0.03764253924469512
+        },
+        "S18": {
+          "margin": -1.7446550130844116,
+          "R": -0.036963706930934793
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0007",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": -1.8685641288757324,
+      "m_target": -2.2353720664978027,
+      "delta": 0.3668079376220703,
+      "patch": {
+        "S0": {
+          "margin": -1.8685641288757324,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.8685641288757324,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1188080310821533,
+          "R": 3.044001835549339
+        },
+        "S12": {
+          "margin": -1.9926096200942993,
+          "R": 0.6618244086463214
+        },
+        "S18": {
+          "margin": -2.36452317237854,
+          "R": -0.3520946321881516
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0008",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": -0.24400323629379272,
+      "m_target": -1.3603543043136597,
+      "delta": 1.116351068019867,
+      "patch": {
+        "S0": {
+          "margin": -0.24400323629379272,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.24400323629379272,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7423256039619446,
+          "R": 0.5536150034307277
+        },
+        "S12": {
+          "margin": -1.731278657913208,
+          "R": -0.33226496952923346
+        },
+        "S18": {
+          "margin": -1.3613004684448242,
+          "R": -0.0008475507018081811
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:fence|material|wood:0009",
+      "task": "semantic",
+      "group": "fence|material|wood",
+      "question": "Is the fence made of wood?",
+      "m_source": -0.11855775117874146,
+      "m_target": -2.7454452514648438,
+      "delta": 2.6268875002861023,
+      "patch": {
+        "S0": {
+          "margin": -0.11855775117874146,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.11855775117874146,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.4960172474384308,
+          "R": 0.8563092267108587
+        },
+        "S12": {
+          "margin": -2.494302749633789,
+          "R": 0.09560458976781533
+        },
+        "S18": {
+          "margin": -2.871676206588745,
+          "R": -0.04805343019453752
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0000",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": -0.9975493550300598,
+      "m_target": -1.874211072921753,
+      "delta": 0.8766617178916931,
+      "patch": {
+        "S0": {
+          "margin": -0.9975493550300598,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.9975493550300598,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.747967004776001,
+          "R": 1.2846963032152083
+        },
+        "S12": {
+          "margin": -1.6240079402923584,
+          "R": 0.28540442399049276
+        },
+        "S18": {
+          "margin": -1.749212384223938,
+          "R": 0.14258486043901583
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0001",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": -0.9983218908309937,
+      "m_target": -0.37369251251220703,
+      "delta": -0.6246293783187866,
+      "patch": {
+        "S0": {
+          "margin": -0.9983218908309937,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.9983218908309937,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.4959750473499298,
+          "R": 0.1957681452109262
+        },
+        "S12": {
+          "margin": 0.5010946989059448,
+          "R": -1.400490021415058
+        },
+        "S18": {
+          "margin": -0.37384092807769775,
+          "R": 0.0002376058037650882
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0002",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": -0.9965528845787048,
+      "m_target": -0.9946593046188354,
+      "delta": -0.0018935799598693848,
+      "patch": {
+        "S0": {
+          "margin": -0.9965528845787048,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.9965528845787048,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.9950127601623535,
+          "R": 0.18665995152507162
+        },
+        "S12": {
+          "margin": -1.2367503643035889,
+          "R": 127.84834272403916
+        },
+        "S18": {
+          "margin": -0.8656455278396606,
+          "R": -68.13220435015266
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0003",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": -0.6227163076400757,
+      "m_target": 0.2526867985725403,
+      "delta": -0.875403106212616,
+      "patch": {
+        "S0": {
+          "margin": -0.6227163076400757,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6227163076400757,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.4954521656036377,
+          "R": 0.8546222407331413
+        },
+        "S12": {
+          "margin": -0.24808812141418457,
+          "R": 0.5720506546444647
+        },
+        "S18": {
+          "margin": 0.3764796853065491,
+          "R": -0.14141243714520502
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0004",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": 0.004504561424255371,
+      "m_target": -1.250000238418579,
+      "delta": 1.2545047998428345,
+      "patch": {
+        "S0": {
+          "margin": 0.004504561424255371,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.004504561424255371,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.37192291021347046,
+          "R": 0.6999393930697714
+        },
+        "S12": {
+          "margin": -1.4989758729934692,
+          "R": -0.19846527060405192
+        },
+        "S18": {
+          "margin": -1.1260945796966553,
+          "R": 0.09876858082762764
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0005",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": 0.6271858811378479,
+      "m_target": -1.498993158340454,
+      "delta": 2.126179039478302,
+      "patch": {
+        "S0": {
+          "margin": 0.6271858811378479,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.6271858811378479,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.37709254026412964,
+          "R": 0.8823742797619323
+        },
+        "S12": {
+          "margin": -1.1224135160446167,
+          "R": 0.17711567807960252
+        },
+        "S18": {
+          "margin": -1.3725485801696777,
+          "R": 0.05947033425830495
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0006",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": -0.9987713098526001,
+      "m_target": -1.7494847774505615,
+      "delta": 0.7507134675979614,
+      "patch": {
+        "S0": {
+          "margin": -0.9987713098526001,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.9987713098526001,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1233644485473633,
+          "R": 0.8340336971795369
+        },
+        "S12": {
+          "margin": -1.2493810653686523,
+          "R": 0.6661712273286879
+        },
+        "S18": {
+          "margin": -1.8744816780090332,
+          "R": -0.1665041403325573
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0007",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": -1.2496287822723389,
+      "m_target": -1.374298334121704,
+      "delta": 0.12466955184936523,
+      "patch": {
+        "S0": {
+          "margin": -1.2496287822723389,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.2496287822723389,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.2498615980148315,
+          "R": 0.9981325372631965
+        },
+        "S12": {
+          "margin": -1.1246728897094727,
+          "R": 2.002296797487866
+        },
+        "S18": {
+          "margin": -1.3745218515396118,
+          "R": -0.001792878971585498
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0008",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": -0.1212456226348877,
+      "m_target": -1.1250027418136597,
+      "delta": 1.003757119178772,
+      "patch": {
+        "S0": {
+          "margin": -0.1212456226348877,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.1212456226348877,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8723146915435791,
+          "R": 0.25174222472944285
+        },
+        "S12": {
+          "margin": -1.3732163906097412,
+          "R": -0.24728457119104527
+        },
+        "S18": {
+          "margin": -1.2483230829238892,
+          "R": -0.12285874615875655
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:table|color|brown:0009",
+      "task": "semantic",
+      "group": "table|color|brown",
+      "question": "Is the table brown?",
+      "m_source": 1.2626919746398926,
+      "m_target": -0.6245452761650085,
+      "delta": 1.8872372508049011,
+      "patch": {
+        "S0": {
+          "margin": 1.2626919746398926,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.2626919746398926,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.8822104930877686,
+          "R": 0.7983923423566116
+        },
+        "S12": {
+          "margin": -0.49610790610313416,
+          "R": 0.06805576246817735
+        },
+        "S18": {
+          "margin": -0.4995146095752716,
+          "R": 0.06625063517393573
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0000",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": -0.49999895691871643,
+      "m_target": -0.8753370046615601,
+      "delta": 0.37533804774284363,
+      "patch": {
+        "S0": {
+          "margin": -0.49999895691871643,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.49999895691871643,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.4999995231628418,
+          "R": 0.9999984913756312
+        },
+        "S12": {
+          "margin": -0.7509468793869019,
+          "R": 0.33140824923744994
+        },
+        "S18": {
+          "margin": -1.000738501548767,
+          "R": -0.33410281116270873
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0001",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": 2.874830961227417,
+      "m_target": -2.124997138977051,
+      "delta": 4.999828100204468,
+      "patch": {
+        "S0": {
+          "margin": 2.874830961227417,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.874830961227417,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.8744498491287231,
+          "R": 0.7999168987314217
+        },
+        "S12": {
+          "margin": -1.0008376836776733,
+          "R": 0.22483962103685223
+        },
+        "S18": {
+          "margin": -2.1252450942993164,
+          "R": -4.959276945051068e-05
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0002",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": 0.872976541519165,
+      "m_target": -2.0003714561462402,
+      "delta": 2.8733479976654053,
+      "patch": {
+        "S0": {
+          "margin": 0.872976541519165,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.872976541519165,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.7489112615585327,
+          "R": 0.9568220486827786
+        },
+        "S12": {
+          "margin": -1.0010937452316284,
+          "R": 0.34777469061405886
+        },
+        "S18": {
+          "margin": -2.0009918212890625,
+          "R": -0.00021590324016663217
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0003",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": -1.8749988079071045,
+      "m_target": -2.373116970062256,
+      "delta": 0.49811816215515137,
+      "patch": {
+        "S0": {
+          "margin": -1.8749988079071045,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.8749988079071045,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.9999980926513672,
+          "R": 0.7490569623009881
+        },
+        "S12": {
+          "margin": -1.9996415376663208,
+          "R": 0.7497727663252857
+        },
+        "S18": {
+          "margin": -2.372997999191284,
+          "R": 0.00023884066073186712
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0004",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": -0.1252046823501587,
+      "m_target": -0.2512892484664917,
+      "delta": 0.126084566116333,
+      "patch": {
+        "S0": {
+          "margin": -0.1252046823501587,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.1252046823501587,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.00029718875885009766,
+          "R": 1.9906644202277828
+        },
+        "S12": {
+          "margin": -0.3755512833595276,
+          "R": -0.9855451679818167
+        },
+        "S18": {
+          "margin": -0.2512902617454529,
+          "R": -8.03650274092017e-06
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0005",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": -0.8754593729972839,
+      "m_target": -2.3755745887756348,
+      "delta": 1.5001152157783508,
+      "patch": {
+        "S0": {
+          "margin": -0.8754593729972839,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.8754593729972839,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.0004783868789673,
+          "R": 0.9166603921040719
+        },
+        "S12": {
+          "margin": -1.6265881061553955,
+          "R": 0.49928597133228836
+        },
+        "S18": {
+          "margin": -2.500539541244507,
+          "R": -0.08330356972216475
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0006",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": -1.2495908737182617,
+      "m_target": -2.3749969005584717,
+      "delta": 1.12540602684021,
+      "patch": {
+        "S0": {
+          "margin": -1.2495908737182617,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.2495908737182617,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1265596151351929,
+          "R": 1.1093216631587643
+        },
+        "S12": {
+          "margin": -2.125516653060913,
+          "R": 0.2216802127833112
+        },
+        "S18": {
+          "margin": -2.3768672943115234,
+          "R": -0.0016619723979115712
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0007",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": -0.6251598596572876,
+      "m_target": 0.7496668100357056,
+      "delta": -1.3748266696929932,
+      "patch": {
+        "S0": {
+          "margin": -0.6251598596572876,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6251598596572876,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.37569451332092285,
+          "R": 0.8185477836329202
+        },
+        "S12": {
+          "margin": -0.2499980926513672,
+          "R": 0.7271206798092619
+        },
+        "S18": {
+          "margin": 0.6250013113021851,
+          "R": 0.09067724788998968
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0008",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": -0.6255103349685669,
+      "m_target": -1.0013084411621094,
+      "delta": 0.3757981061935425,
+      "patch": {
+        "S0": {
+          "margin": -0.6255103349685669,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6255103349685669,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.5006951093673706,
+          "R": 1.3321337269776297
+        },
+        "S12": {
+          "margin": -1.000611662864685,
+          "R": 0.001854129347489217
+        },
+        "S18": {
+          "margin": -1.1253336668014526,
+          "R": -0.33003153447364136
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:jacket|color|black:0009",
+      "task": "semantic",
+      "group": "jacket|color|black",
+      "question": "Is the jacket black?",
+      "m_source": 0.49905070662498474,
+      "m_target": -0.25045257806777954,
+      "delta": 0.7495032846927643,
+      "patch": {
+        "S0": {
+          "margin": 0.49905070662498474,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.49905070662498474,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.24961769580841064,
+          "R": 0.6672022445921348
+        },
+        "S12": {
+          "margin": 0.12438309192657471,
+          "R": 0.5001121111137046
+        },
+        "S18": {
+          "margin": -0.1254526972770691,
+          "R": 0.16677696194747205
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0000",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -1.2491521835327148,
+      "m_target": -2.874620199203491,
+      "delta": 1.6254680156707764,
+      "patch": {
+        "S0": {
+          "margin": -1.2491521835327148,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.2491521835327148,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.374843955039978,
+          "R": 0.9226734883150596
+        },
+        "S12": {
+          "margin": -2.249892473220825,
+          "R": 0.38433713857166346
+        },
+        "S18": {
+          "margin": -2.8748116493225098,
+          "R": -0.00011778153563947527
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0001",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -0.6247084140777588,
+      "m_target": -1.874668836593628,
+      "delta": 1.2499604225158691,
+      "patch": {
+        "S0": {
+          "margin": -0.6247084140777588,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6247084140777588,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7496266961097717,
+          "R": 0.900062210145356
+        },
+        "S12": {
+          "margin": -1.249753475189209,
+          "R": 0.4999481184745153
+        },
+        "S18": {
+          "margin": -1.999379277229309,
+          "R": -0.09977151147287455
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0002",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -1.8748745918273926,
+      "m_target": -1.6234596967697144,
+      "delta": -0.2514148950576782,
+      "patch": {
+        "S0": {
+          "margin": -1.8748745918273926,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.8748745918273926,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.7496893405914307,
+          "R": 0.5020770300532806
+        },
+        "S12": {
+          "margin": -1.62391996383667,
+          "R": 0.0018307072333561402
+        },
+        "S18": {
+          "margin": -1.499734878540039,
+          "R": -0.4921141136100589
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0003",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": 1.1208471059799194,
+      "m_target": -2.373851776123047,
+      "delta": 3.4946988821029663,
+      "patch": {
+        "S0": {
+          "margin": 1.1208471059799194,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.1208471059799194,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.4981458187103271,
+          "R": 1.1079631537534258
+        },
+        "S12": {
+          "margin": -0.1263178586959839,
+          "R": 0.6431266307197802
+        },
+        "S18": {
+          "margin": -2.3752758502960205,
+          "R": -0.00040749552994868716
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0004",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": 2.625545024871826,
+      "m_target": -1.499997854232788,
+      "delta": 4.125542879104614,
+      "patch": {
+        "S0": {
+          "margin": 2.625545024871826,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.625545024871826,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 2.1258983612060547,
+          "R": 0.8788894750806197
+        },
+        "S12": {
+          "margin": -0.2500019073486328,
+          "R": 0.30298944490802326
+        },
+        "S18": {
+          "margin": -1.4996246099472046,
+          "R": 9.047155647658741e-05
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0005",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -0.11871123313903809,
+      "m_target": -2.624779224395752,
+      "delta": 2.506067991256714,
+      "patch": {
+        "S0": {
+          "margin": -0.11871123313903809,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.11871123313903809,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.0028118491172790527,
+          "R": 1.0484915344197734
+        },
+        "S12": {
+          "margin": -1.8667302131652832,
+          "R": 0.30248541295574793
+        },
+        "S18": {
+          "margin": -2.6240458488464355,
+          "R": 0.00029263992512375595
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0006",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -0.9999992251396179,
+      "m_target": -1.0018541812896729,
+      "delta": 0.0018549561500549316,
+      "patch": {
+        "S0": {
+          "margin": -0.9999992251396179,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.9999992251396179,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1249990463256836,
+          "R": -66.38694129366023
+        },
+        "S12": {
+          "margin": -1.7499990463256836,
+          "R": -403.3221297516147
+        },
+        "S18": {
+          "margin": -1.0011563301086426,
+          "R": 0.37620899071366604
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0007",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -1.9954833984375,
+      "m_target": -2.250243663787842,
+      "delta": 0.2547602653503418,
+      "patch": {
+        "S0": {
+          "margin": -1.9954833984375,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.9954833984375,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.6220638751983643,
+          "R": 2.4657683085924558
+        },
+        "S12": {
+          "margin": -2.1214351654052734,
+          "R": 0.5056067052114002
+        },
+        "S18": {
+          "margin": -2.374779224395752,
+          "R": -0.4888343181643773
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0008",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -1.126755952835083,
+      "m_target": -0.9991579055786133,
+      "delta": -0.12759804725646973,
+      "patch": {
+        "S0": {
+          "margin": -1.126755952835083,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.126755952835083,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.252699375152588,
+          "R": 1.9870325214645403
+        },
+        "S12": {
+          "margin": -2.126293182373047,
+          "R": 8.833483748610293
+        },
+        "S18": {
+          "margin": -0.8749985694885254,
+          "R": -0.9730504405018825
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:building|color|white:0009",
+      "task": "semantic",
+      "group": "building|color|white",
+      "question": "Is the building white?",
+      "m_source": -0.875696063041687,
+      "m_target": -2.500690460205078,
+      "delta": 1.6249943971633911,
+      "patch": {
+        "S0": {
+          "margin": -0.875696063041687,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.875696063041687,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.752952516078949,
+          "R": 1.075534750874834
+        },
+        "S12": {
+          "margin": -1.5028948783874512,
+          "R": 0.6140301674635865
+        },
+        "S18": {
+          "margin": -2.3760104179382324,
+          "R": 0.076726444401586
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0000",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": 0.376653254032135,
+      "m_target": -2.25026273727417,
+      "delta": 2.626915991306305,
+      "patch": {
+        "S0": {
+          "margin": 0.376653254032135,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.376653254032135,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.4999980032444,
+          "R": 1.0469542039488398
+        },
+        "S12": {
+          "margin": -0.24948149919509888,
+          "R": 0.7616464495631352
+        },
+        "S18": {
+          "margin": -2.1256542205810547,
+          "R": 0.047435288035667364
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0001",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -1.126662015914917,
+      "m_target": -3.499105930328369,
+      "delta": 2.372443914413452,
+      "patch": {
+        "S0": {
+          "margin": -1.126662015914917,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.126662015914917,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8763930201530457,
+          "R": 1.1054899524669042
+        },
+        "S12": {
+          "margin": -2.0000009536743164,
+          "R": 0.631882156432213
+        },
+        "S18": {
+          "margin": -3.2499985694885254,
+          "R": 0.10500031605654689
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0002",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -0.5013929009437561,
+      "m_target": -1.0054161548614502,
+      "delta": 0.5040232539176941,
+      "patch": {
+        "S0": {
+          "margin": -0.5013929009437561,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5013929009437561,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.6249994039535522,
+          "R": 0.7547603170111258
+        },
+        "S12": {
+          "margin": -1.3749985694885254,
+          "R": -0.7332646098257745
+        },
+        "S18": {
+          "margin": -1.1280514001846313,
+          "R": -0.24331267331409123
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0003",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -1.6259499788284302,
+      "m_target": -3.499382495880127,
+      "delta": 1.8734325170516968,
+      "patch": {
+        "S0": {
+          "margin": -1.6259499788284302,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.6259499788284302,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.3750015497207642,
+          "R": 1.1339511441290635
+        },
+        "S12": {
+          "margin": -1.5005223751068115,
+          "R": 1.066950692154639
+        },
+        "S18": {
+          "margin": -3.3751914501190186,
+          "R": 0.06629064278042601
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0004",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -0.4995938539505005,
+      "m_target": -1.6249953508377075,
+      "delta": 1.125401496887207,
+      "patch": {
+        "S0": {
+          "margin": -0.4995938539505005,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.4995938539505005,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.12845051288604736,
+          "R": 1.3297874954769593
+        },
+        "S12": {
+          "margin": -0.9999980330467224,
+          "R": 0.5553549728871786
+        },
+        "S18": {
+          "margin": -1.4995073080062866,
+          "R": 0.111505132327008
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0005",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -1.121550440788269,
+      "m_target": -1.7513902187347412,
+      "delta": 0.6298397779464722,
+      "patch": {
+        "S0": {
+          "margin": -1.121550440788269,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.121550440788269,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8717252016067505,
+          "R": 1.3966488747281858
+        },
+        "S12": {
+          "margin": -1.9931962490081787,
+          "R": -0.3839167336522015
+        },
+        "S18": {
+          "margin": -1.7530523538589478,
+          "R": -0.0026389808684770017
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0006",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": 4.126061916351318,
+      "m_target": -1.8742611408233643,
+      "delta": 6.000323057174683,
+      "patch": {
+        "S0": {
+          "margin": 4.126061916351318,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 4.126061916351318,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 4.251076698303223,
+          "R": 1.0208346751934334
+        },
+        "S12": {
+          "margin": -0.12426406145095825,
+          "R": 0.29165047659890686
+        },
+        "S18": {
+          "margin": -1.9994239807128906,
+          "R": -0.020859350187798165
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0007",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -0.24877530336380005,
+      "m_target": -0.4934238791465759,
+      "delta": 0.24464857578277588,
+      "patch": {
+        "S0": {
+          "margin": -0.24877530336380005,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.24877530336380005,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.12431126832962036,
+          "R": 1.5087462072319262
+        },
+        "S12": {
+          "margin": -0.3750041127204895,
+          "R": 0.4840402853243325
+        },
+        "S18": {
+          "margin": -0.3736916184425354,
+          "R": 0.48940510003357274
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0008",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -0.370039701461792,
+      "m_target": -3.2505853176116943,
+      "delta": 2.8805456161499023,
+      "patch": {
+        "S0": {
+          "margin": -0.370039701461792,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.370039701461792,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.24999916553497314,
+          "R": 1.0416728467182768
+        },
+        "S12": {
+          "margin": -1.4999971389770508,
+          "R": 0.6077279834833706
+        },
+        "S18": {
+          "margin": -3.124370574951172,
+          "R": 0.04381626243059444
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:dev:door|color|white:0009",
+      "task": "semantic",
+      "group": "door|color|white",
+      "question": "Is the door white?",
+      "m_source": -1.50031578540802,
+      "m_target": -1.6228636503219604,
+      "delta": 0.12254786491394043,
+      "patch": {
+        "S0": {
+          "margin": -1.50031578540802,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.50031578540802,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.374090313911438,
+          "R": 2.030009552473429
+        },
+        "S12": {
+          "margin": -1.1249964237213135,
+          "R": 4.062634848434737
+        },
+        "S18": {
+          "margin": -1.6231051683425903,
+          "R": -0.0019708056178660434
+        }
+      }
+    }
+  ]
+}

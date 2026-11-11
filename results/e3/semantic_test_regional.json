@@ -1,0 +1,1582 @@
+{
+  "summary": [
+    {
+      "group": "fence|material|wood",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.6563119851272261,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.10648555810136567,
+        "n": 18
+      },
+      "S1:random": {
+        "median": 0.057119982224612766,
+        "n": 17
+      },
+      "S6:target": {
+        "median": 0.4302628636862297,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.09509432199753731,
+        "n": 18
+      },
+      "S6:random": {
+        "median": 0.04728333890325076,
+        "n": 17
+      }
+    },
+    {
+      "group": "table|color|brown",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.4756316169141874,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.30854708248263235,
+        "n": 14
+      },
+      "S1:random": {
+        "median": 0.06991028277782971,
+        "n": 12
+      },
+      "S6:target": {
+        "median": 0.6293609997115636,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.35667141358541177,
+        "n": 14
+      },
+      "S6:random": {
+        "median": 0.044319904409020935,
+        "n": 12
+      }
+    },
+    {
+      "group": "jacket|color|black",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.11024639335353341,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.0003758818675159519,
+        "n": 19
+      },
+      "S1:random": {
+        "median": 0.046002973574763906,
+        "n": 20
+      },
+      "S6:target": {
+        "median": 0.11016773995433937,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.0903550033796926,
+        "n": 19
+      },
+      "S6:random": {
+        "median": 0.016727451344630658,
+        "n": 20
+      }
+    },
+    {
+      "group": "building|color|white",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.505528905591166,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.00019092575929681376,
+        "n": 17
+      },
+      "S1:random": {
+        "median": 0.01643919531437304,
+        "n": 18
+      },
+      "S6:target": {
+        "median": 0.5299788619616478,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 3.175515629960866e-05,
+        "n": 17
+      },
+      "S6:random": {
+        "median": -3.535470341238862e-05,
+        "n": 18
+      }
+    },
+    {
+      "group": "door|color|white",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.1630294066601899,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.1230907758593374,
+        "n": 18
+      },
+      "S1:random": {
+        "median": 0.06709784370548652,
+        "n": 15
+      },
+      "S6:target": {
+        "median": 0.16245580859895675,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.16558430916065586,
+        "n": 18
+      },
+      "S6:random": {
+        "median": 0.10952429619297234,
+        "n": 15
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "semantic:test:fence|material|wood:0000",
+      "group": "fence|material|wood",
+      "m_source": 0.7638339996337891,
+      "m_target": 0.2703458070755005,
+      "delta": 0.4934881925582886,
+      "patch": {
+        "S1:target": 2.781533544025998,
+        "S6:target": 2.773595972054838,
+        "S1:irrelevant": 4.292878988926436,
+        "S6:irrelevant": 3.2875099735994024,
+        "S1:random": -1.4898970427417197,
+        "S6:random": -0.9850715478180796
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0001",
+      "group": "fence|material|wood",
+      "m_source": -2.2377724647521973,
+      "m_target": -1.988279938697815,
+      "delta": -0.24949252605438232,
+      "patch": {
+        "S1:target": -0.9799703281817769,
+        "S6:target": -2.9762066419958955,
+        "S1:irrelevant": 0.5175104341116014,
+        "S6:irrelevant": 0.5328690641432083,
+        "S1:random": -2.036305691398756,
+        "S6:random": -1.03427405579353
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0002",
+      "group": "fence|material|wood",
+      "m_source": -0.23438364267349243,
+      "m_target": -2.2469468116760254,
+      "delta": 2.012563169002533,
+      "patch": {
+        "S1:target": 3.167045177599533,
+        "S6:target": 3.2291145142394657,
+        "S1:irrelevant": 0.0010864438058975916,
+        "S6:irrelevant": 0.12424286337116192,
+        "S1:random": 0.06367679013488649,
+        "S6:random": 0.0012017103878557594
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0003",
+      "group": "fence|material|wood",
+      "m_source": -0.3631501793861389,
+      "m_target": -2.746687412261963,
+      "delta": 2.383537232875824,
+      "patch": {
+        "S1:target": 3.3029386818949424,
+        "S6:target": 3.303079920315324,
+        "S1:irrelevant": 0.0005065377909425811,
+        "S6:irrelevant": -3.000816297053206e-07,
+        "S1:random": 0.21762069827044703,
+        "S6:random": 0.16160496058940432
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0004",
+      "group": "fence|material|wood",
+      "m_source": 1.2567877769470215,
+      "m_target": -3.746701955795288,
+      "delta": 5.00348973274231,
+      "patch": {
+        "S1:target": 0.9247424266386647,
+        "S6:target": 0.8996558779199069,
+        "S1:irrelevant": 0.2771443099372601,
+        "S6:irrelevant": 0.2255265697287979
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0005",
+      "group": "fence|material|wood",
+      "m_source": 1.0090829133987427,
+      "m_target": -1.6198383569717407,
+      "delta": 2.6289212703704834,
+      "patch": {
+        "S1:target": 0.09442189018359869,
+        "S6:target": 0.0947281071636998,
+        "S1:random": 0.04734278662439878,
+        "S6:random": 0.04728333890325076
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0006",
+      "group": "fence|material|wood",
+      "m_source": 0.6847858428955078,
+      "m_target": -2.495739221572876,
+      "delta": 3.180525064468384,
+      "patch": {
+        "S1:target": 0.4775107010155629,
+        "S6:target": 0.35569650247460866,
+        "S1:irrelevant": 0.3198765765355838,
+        "S6:irrelevant": 0.19736412553169622,
+        "S1:random": 0.0032788386944045127,
+        "S6:random": -0.038300569059171945
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0007",
+      "group": "fence|material|wood",
+      "m_source": -0.214399516582489,
+      "m_target": -2.8642404079437256,
+      "delta": 2.6498408913612366,
+      "patch": {
+        "S1:target": 0.42688553126886586,
+        "S6:target": 0.2834483955749284,
+        "S1:random": 0.09373876792680776,
+        "S6:random": 0.04685764226801598
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0008",
+      "group": "fence|material|wood",
+      "m_source": -0.9775080680847168,
+      "m_target": -2.4899353981018066,
+      "delta": 1.5124273300170898,
+      "patch": {
+        "S1:target": 0.1638861652253144,
+        "S6:target": 0.08313160707360828,
+        "S1:irrelevant": -0.24061397507401183,
+        "S6:irrelevant": -0.5742459305313403,
+        "S1:random": 0.16520450597296796,
+        "S6:random": 0.1676931637970988
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0009",
+      "group": "fence|material|wood",
+      "m_source": -2.7457363605499268,
+      "m_target": -2.4980967044830322,
+      "delta": -0.24763965606689453,
+      "patch": {
+        "S1:target": 1.0063128444288691,
+        "S6:target": 0.5048292248978508,
+        "S1:irrelevant": -0.5063455784094366,
+        "S6:irrelevant": -1.010025262930885,
+        "S1:random": -1.0117023980529058,
+        "S6:random": -1.0104681344326816
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0010",
+      "group": "fence|material|wood",
+      "m_source": -0.4904918074607849,
+      "m_target": -2.3670637607574463,
+      "delta": 1.8765719532966614,
+      "patch": {
+        "S1:target": 0.26760674817499736,
+        "S6:target": 0.2658636848779905,
+        "S1:irrelevant": 0.06701865250515879,
+        "S6:irrelevant": 0.00013035336147301584,
+        "S1:random": 0.19839781616193014,
+        "S6:random": 0.13272894349331063
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0011",
+      "group": "fence|material|wood",
+      "m_source": -3.1235427856445312,
+      "m_target": -1.7445557117462158,
+      "delta": -1.3789870738983154,
+      "patch": {
+        "S1:target": -0.5418464836214929,
+        "S6:target": -0.5424374352836179,
+        "S1:irrelevant": 0.08828399428689095,
+        "S6:irrelevant": -3.4578798251903433e-07,
+        "S1:random": -0.0008086251971207618,
+        "S6:random": -0.0014615593551123283
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0012",
+      "group": "fence|material|wood",
+      "m_source": -0.618806004524231,
+      "m_target": -2.1179726123809814,
+      "delta": 1.4991666078567505,
+      "patch": {
+        "S1:target": 0.8351132692388892,
+        "S6:target": 0.9197086241238316,
+        "S1:irrelevant": 0.3348317789210031,
+        "S6:irrelevant": 0.33446202468988157,
+        "S1:random": 0.3364306280231881,
+        "S6:random": 0.33446345599658267
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0013",
+      "group": "fence|material|wood",
+      "m_source": -0.11387395858764648,
+      "m_target": -4.245077133178711,
+      "delta": 4.1312031745910645,
+      "patch": {
+        "S1:target": 0.8512539329051205,
+        "S6:target": 0.8836480628909316,
+        "S1:irrelevant": 0.03117225879153407,
+        "S6:irrelevant": 0.030557975918310765,
+        "S1:random": 0.21204757379618389,
+        "S6:random": 0.12086731155210768
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0014",
+      "group": "fence|material|wood",
+      "m_source": -0.48342108726501465,
+      "m_target": -2.3699045181274414,
+      "delta": 1.8864834308624268,
+      "patch": {
+        "S1:target": 1.6637524747282302,
+        "S6:target": 1.262693167822751,
+        "S1:irrelevant": 0.13254647560153351,
+        "S6:irrelevant": 0.06594578062391271
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0015",
+      "group": "fence|material|wood",
+      "m_source": 2.018738269805908,
+      "m_target": -2.9984912872314453,
+      "delta": 5.0172295570373535,
+      "patch": {
+        "S1:target": 0.9318121273424849,
+        "S6:target": 0.947853347301669,
+        "S1:irrelevant": 0.598718856958534,
+        "S6:irrelevant": 0.5988439889096002
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0016",
+      "group": "fence|material|wood",
+      "m_source": 1.503315806388855,
+      "m_target": -2.494370937347412,
+      "delta": 3.997686743736267,
+      "patch": {
+        "S1:target": 0.06448314474295787,
+        "S6:target": 0.1261472072170987,
+        "S1:irrelevant": 0.12468712191584042,
+        "S6:irrelevant": 0.12494506117439536,
+        "S1:random": -0.00044741279021484013,
+        "S6:random": 0.03210607225692706
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0017",
+      "group": "fence|material|wood",
+      "m_source": 2.757941961288452,
+      "m_target": -4.124113082885742,
+      "delta": 6.882055044174194,
+      "patch": {
+        "S1:target": 0.07280542597822288,
+        "S6:target": 0.01822155366396573,
+        "S1:irrelevant": 0.7814689134556834,
+        "S6:irrelevant": 0.7631997249582034,
+        "S1:random": 0.054694073336372495,
+        "S6:random": 0.054621321954278115
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0018",
+      "group": "fence|material|wood",
+      "m_source": 0.8878709077835083,
+      "m_target": -1.366560697555542,
+      "delta": 2.2544316053390503,
+      "patch": {
+        "S1:target": -0.2204351067493541,
+        "S6:target": -0.22154707312882932,
+        "S1:irrelevant": -0.054399368681868,
+        "S6:irrelevant": -0.11016948749237436,
+        "S1:random": 0.057119982224612766,
+        "S6:random": 0.05746236570966208
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0019",
+      "group": "fence|material|wood",
+      "m_source": -1.0782924890518188,
+      "m_target": -3.3721883296966553,
+      "delta": 2.2938958406448364,
+      "patch": {
+        "S1:target": 2.0764286808955528,
+        "S6:target": 1.7506882258539689,
+        "S1:irrelevant": 0.00041719949073391513,
+        "S6:irrelevant": -0.054044379569842795,
+        "S1:random": 0.5523085168407397,
+        "S6:random": 0.43883846631272616
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0000",
+      "group": "table|color|brown",
+      "m_source": 0.38139450550079346,
+      "m_target": -0.999643087387085,
+      "delta": 1.3810375928878784,
+      "patch": {
+        "S1:target": 0.09442413510662899,
+        "S6:target": -0.08902654410455328
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0001",
+      "group": "table|color|brown",
+      "m_source": 0.5023037195205688,
+      "m_target": -0.12500476837158203,
+      "delta": 0.6273084878921509,
+      "patch": {
+        "S1:target": -0.5947908639753565,
+        "S6:target": -0.39764425639627193,
+        "S1:random": -0.196772575203169,
+        "S6:random": -0.1969211809788408
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0002",
+      "group": "table|color|brown",
+      "m_source": -0.6191823482513428,
+      "m_target": -0.7479735612869263,
+      "delta": 0.1287912130355835,
+      "patch": {
+        "S1:target": 3.9225531040495976,
+        "S6:target": 3.9053424770381504,
+        "S1:random": -0.9540568633784996,
+        "S6:random": 0.019648660331235614
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0003",
+      "group": "table|color|brown",
+      "m_source": 0.6262040734291077,
+      "m_target": -1.3724095821380615,
+      "delta": 1.9986136555671692,
+      "patch": {
+        "S1:target": 0.0017145836204417902,
+        "S6:target": 0.0013652370586618012,
+        "S1:irrelevant": -0.062115751214548924,
+        "S6:irrelevant": -0.06244958981900216,
+        "S1:random": -0.062059266462285705,
+        "S6:random": -0.12403055508973694
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0004",
+      "group": "table|color|brown",
+      "m_source": -0.12144851684570312,
+      "m_target": -1.874343752861023,
+      "delta": 1.7528952360153198,
+      "patch": {
+        "S1:target": 1.2836970159376637,
+        "S6:target": 0.7148879947166659,
+        "S1:irrelevant": 0.28556438839089193,
+        "S6:irrelevant": 0.2143529490012854
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0005",
+      "group": "table|color|brown",
+      "m_source": -1.7491962909698486,
+      "m_target": -0.8719210624694824,
+      "delta": -0.8772752285003662,
+      "patch": {
+        "S1:target": 0.28659969849647743,
+        "S6:target": 0.5689113831304241,
+        "S1:irrelevant": 0.28556465598187175,
+        "S6:irrelevant": 0.42578118736511633,
+        "S1:random": 0.42515801485993293,
+        "S6:random": 0.4244014024506741
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0006",
+      "group": "table|color|brown",
+      "m_source": -1.3749988079071045,
+      "m_target": -1.6250016689300537,
+      "delta": 0.2500028610229492,
+      "patch": {
+        "S1:target": 3.0482334339130337,
+        "S6:target": 2.5216452982486923,
+        "S1:irrelevant": 1.533161260666725,
+        "S6:irrelevant": 1.0149911118570878,
+        "S1:random": -1.9073268051894549e-06,
+        "S6:random": -0.4951363166467669
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0007",
+      "group": "table|color|brown",
+      "m_source": -0.7494509220123291,
+      "m_target": -1.6243864297866821,
+      "delta": 0.874935507774353,
+      "patch": {
+        "S1:target": 0.14331715918719704,
+        "S6:target": 0.1455151317713994,
+        "S1:random": 0.14279941211182084,
+        "S6:random": 0.2859335885826415
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0008",
+      "group": "table|color|brown",
+      "m_source": 0.1284744143486023,
+      "m_target": -3.499737024307251,
+      "delta": 3.6282114386558533,
+      "patch": {
+        "S1:target": 0.7930939590615195,
+        "S6:target": 0.689810616292703,
+        "S1:irrelevant": 0.06904917255979819,
+        "S6:irrelevant": 0.00031193689070513656,
+        "S1:random": 0.13799859365549474,
+        "S6:random": 0.06899114848680626
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0009",
+      "group": "table|color|brown",
+      "m_source": 1.0026063919067383,
+      "m_target": -0.3696906566619873,
+      "delta": 1.3722970485687256,
+      "patch": {
+        "S1:target": 1.181279992411174,
+        "S6:target": 2.002906096443763
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0010",
+      "group": "table|color|brown",
+      "m_source": 0.7534437775611877,
+      "m_target": -0.7497243881225586,
+      "delta": 1.5031681656837463,
+      "patch": {
+        "S1:target": 0.16763616145095814,
+        "S6:target": 0.16808033093491462,
+        "S1:irrelevant": 1.1643809342464606,
+        "S6:irrelevant": 0.9987619244031984,
+        "S1:random": -0.16650048889770588,
+        "S6:random": -0.16562892301301516
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0011",
+      "group": "table|color|brown",
+      "m_source": -0.6157933473587036,
+      "m_target": -1.373926043510437,
+      "delta": 0.7581326961517334,
+      "patch": {
+        "S1:target": -0.495368476202726,
+        "S6:target": -0.33195407063062,
+        "S1:irrelevant": -0.8243041550216851,
+        "S6:irrelevant": -0.824305570187673,
+        "S1:random": 0.32833800705004246,
+        "S6:random": 0.0006332081592810202
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0012",
+      "group": "table|color|brown",
+      "m_source": -2.7485978603363037,
+      "m_target": -1.3724395036697388,
+      "delta": -1.376158356666565,
+      "patch": {
+        "S1:target": 0.0910311135958922,
+        "S6:target": -0.08985353757471487,
+        "S1:irrelevant": 0.0920042553512185,
+        "S6:irrelevant": 0.0013463209151933033
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0013",
+      "group": "table|color|brown",
+      "m_source": 0.7524282932281494,
+      "m_target": -1.8743059635162354,
+      "delta": 2.6267342567443848,
+      "patch": {
+        "S1:target": 1.0,
+        "S6:target": 0.9526737078211929,
+        "S1:irrelevant": 0.4285573889916261,
+        "S6:irrelevant": 0.38109821515609693
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0014",
+      "group": "table|color|brown",
+      "m_source": 0.3831765055656433,
+      "m_target": -1.5006296634674072,
+      "delta": 1.8838061690330505,
+      "patch": {
+        "S1:target": 0.13278269090327827,
+        "S6:target": 0.0666873743455273,
+        "S1:irrelevant": 0.332106228810528,
+        "S6:irrelevant": 0.4641197065415836
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0015",
+      "group": "table|color|brown",
+      "m_source": -0.12110728025436401,
+      "m_target": -1.2465577125549316,
+      "delta": 1.1254504323005676,
+      "patch": {
+        "S1:target": 0.22055680233874458,
+        "S6:target": 0.884071883560601,
+        "S1:irrelevant": 0.7776617055729222,
+        "S6:irrelevant": 0.8899141904228515,
+        "S1:random": 0.44365476507294677,
+        "S6:random": 0.5539614207767481
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0016",
+      "group": "table|color|brown",
+      "m_source": -0.8720480799674988,
+      "m_target": -1.6263757944107056,
+      "delta": 0.7543277144432068,
+      "patch": {
+        "S1:target": 0.6646635353318975,
+        "S6:target": 0.5027942354635949,
+        "S1:irrelevant": 0.33152950898339295,
+        "S6:irrelevant": 0.33224461201472655,
+        "S1:random": 0.0018219719001646634,
+        "S6:random": 0.1682666668984496
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0017",
+      "group": "table|color|brown",
+      "m_source": -0.12271493673324585,
+      "m_target": -0.7483232021331787,
+      "delta": 0.6256082653999329,
+      "patch": {
+        "S1:target": 2.197037909329919,
+        "S6:target": 3.1974340615655636,
+        "S1:irrelevant": -0.39760736625931964,
+        "S6:irrelevant": -0.3986357614569027,
+        "S1:random": 0.4012222315909018,
+        "S6:random": 0.5999627475891927
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0018",
+      "group": "table|color|brown",
+      "m_source": 0.13277310132980347,
+      "m_target": 1.1412546634674072,
+      "delta": -1.0084815621376038,
+      "patch": {
+        "S1:target": 1.3690745117782055,
+        "S6:target": 1.4892815177363556,
+        "S1:irrelevant": 0.7317195240785004,
+        "S6:irrelevant": 0.6169147421678154
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0019",
+      "group": "table|color|brown",
+      "m_source": 2.1295418739318848,
+      "m_target": -2.24870228767395,
+      "delta": 4.378244161605835,
+      "patch": {
+        "S1:target": 1.1995653160500939,
+        "S6:target": 1.3428612130015067
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0000",
+      "group": "jacket|color|black",
+      "m_source": -0.25035715103149414,
+      "m_target": -0.12690222263336182,
+      "delta": -0.12345492839813232,
+      "patch": {
+        "S1:target": 0.0020316430333666468,
+        "S6:target": 1.012511406265842,
+        "S1:irrelevant": -1.0133423135045359,
+        "S6:irrelevant": -0.011189003635520922,
+        "S1:random": -0.0026143885517301312,
+        "S6:random": -0.006680571447883625
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0001",
+      "group": "jacket|color|black",
+      "m_source": -1.7505766153335571,
+      "m_target": -1.500331163406372,
+      "delta": -0.25024545192718506,
+      "patch": {
+        "S1:target": 0.49862781778487253,
+        "S6:target": -0.0004139650563949979,
+        "S1:irrelevant": -0.0008831889695699956,
+        "S6:irrelevant": -0.0002934435842799985,
+        "S1:random": 0.4981890815168175,
+        "S6:random": 0.4981866996695425
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0002",
+      "group": "jacket|color|black",
+      "m_source": -0.752261221408844,
+      "m_target": -2.125450372695923,
+      "delta": 1.3731891512870789,
+      "patch": {
+        "S1:target": 1.2744932338948232,
+        "S6:target": 1.3654510223870338,
+        "S1:irrelevant": 1.0012751379865807,
+        "S6:irrelevant": 1.0009895265234734,
+        "S1:random": 0.09135747091657102,
+        "S6:random": -4.323237344297804e-05
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0003",
+      "group": "jacket|color|black",
+      "m_source": -0.6256260871887207,
+      "m_target": -2.7497520446777344,
+      "delta": 2.1241259574890137,
+      "patch": {
+        "S1:target": 0.5284278776055843,
+        "S6:target": 0.41173260764398273,
+        "S1:irrelevant": 0.29412272441052706,
+        "S6:irrelevant": 0.3528050123299095,
+        "S1:random": 0.05873178714658842,
+        "S6:random": 0.05873189938973402
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0004",
+      "group": "jacket|color|black",
+      "m_source": -1.1252009868621826,
+      "m_target": -0.37545108795166016,
+      "delta": -0.7497498989105225,
+      "patch": {
+        "S1:target": 0.1667604229239296,
+        "S6:target": 0.1664510113750879,
+        "S1:irrelevant": 0.1663942488247608,
+        "S6:irrelevant": 0.00032960438887403134,
+        "S1:random": 0.16717509163892402,
+        "S6:random": 0.1673243914561709
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0005",
+      "group": "jacket|color|black",
+      "m_source": -0.62548828125,
+      "m_target": -1.5002601146697998,
+      "delta": 0.8747718334197998,
+      "patch": {
+        "S1:target": 2.143198433167741,
+        "S6:target": 1.8579247431017054,
+        "S1:random": -0.1425948724182413,
+        "S6:random": -0.00040173788429131286
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0006",
+      "group": "jacket|color|black",
+      "m_source": -0.5001933574676514,
+      "m_target": -2.250231981277466,
+      "delta": 1.7500386238098145,
+      "patch": {
+        "S1:target": 0.14286175542499285,
+        "S6:target": 0.1428770138772899,
+        "S1:irrelevant": 0.07155982525802451,
+        "S6:irrelevant": 0.14287674140492745,
+        "S1:random": -0.07129402846845738,
+        "S6:random": -0.14250781382617408
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0007",
+      "group": "jacket|color|black",
+      "m_source": -2.123852491378784,
+      "m_target": -1.874999761581421,
+      "delta": -0.24885272979736328,
+      "patch": {
+        "S1:target": -3.516135831471482,
+        "S6:target": -3.515313806569301,
+        "S1:irrelevant": -1.0033704937131382,
+        "S6:irrelevant": -0.5013379461257526,
+        "S1:random": -0.5052847195343009,
+        "S6:random": 1.0021154207272909
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0008",
+      "group": "jacket|color|black",
+      "m_source": -1.3753951787948608,
+      "m_target": -0.37535226345062256,
+      "delta": -1.0000429153442383,
+      "patch": {
+        "S1:target": -0.37533412929933696,
+        "S6:target": -0.5002190376694726,
+        "S1:irrelevant": -0.0014244898776583723,
+        "S6:irrelevant": 0.2493735820663519,
+        "S1:random": -0.24983090887937587,
+        "S6:random": -0.12480176345886645
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0009",
+      "group": "jacket|color|black",
+      "m_source": 1.2489734888076782,
+      "m_target": -2.1249969005584717,
+      "delta": 3.37397038936615,
+      "patch": {
+        "S1:target": 0.25911504168386895,
+        "S6:target": 0.3320987608520182,
+        "S1:irrelevant": 0.00018570525332814658,
+        "S6:irrelevant": 0.00043387757056119485,
+        "S1:random": 0.22205221617631965,
+        "S6:random": 0.18524311011780942
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0010",
+      "group": "jacket|color|black",
+      "m_source": 2.124997854232788,
+      "m_target": -1.2491604089736938,
+      "delta": 3.374158263206482,
+      "patch": {
+        "S1:target": 0.03679776470808113,
+        "S6:target": 0.03688598392389392,
+        "S1:irrelevant": 0.5182855522821449,
+        "S6:irrelevant": 0.48123211260008175,
+        "S1:random": 0.07394393702398676,
+        "S6:random": 0.07384416487122132
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0011",
+      "group": "jacket|color|black",
+      "m_source": 1.377563714981079,
+      "m_target": -1.375508189201355,
+      "delta": 2.753071904182434,
+      "patch": {
+        "S1:target": -0.31709817094079046,
+        "S6:target": -0.31716468045275487,
+        "S1:irrelevant": -0.04508301370013676,
+        "S6:irrelevant": -0.04521845755002254,
+        "S1:random": 0.2716274015898458,
+        "S6:random": 0.22703783997196555
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0012",
+      "group": "jacket|color|black",
+      "m_source": -0.8762952089309692,
+      "m_target": -0.3756166696548462,
+      "delta": -0.500678539276123,
+      "patch": {
+        "S1:target": 0.24933142793469326,
+        "S6:target": 0.2498219045922901,
+        "S1:irrelevant": -0.49970809496009044,
+        "S6:irrelevant": -0.4991598801522668,
+        "S1:random": -0.000648095855329386,
+        "S6:random": -0.00014452394716566396
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0013",
+      "group": "jacket|color|black",
+      "m_source": 0.12392735481262207,
+      "m_target": 0.24903440475463867,
+      "delta": -0.1251070499420166,
+      "patch": {
+        "S1:target": -4.000213440256738,
+        "S6:target": -4.001112938481564,
+        "S1:irrelevant": 9.98372232184885,
+        "S6:irrelevant": 9.983723274707138,
+        "S1:random": -5.98740178413186,
+        "S6:random": -3.9987279341841724
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0014",
+      "group": "jacket|color|black",
+      "m_source": -1.3749973773956299,
+      "m_target": -1.1252716779708862,
+      "delta": -0.24972569942474365,
+      "patch": {
+        "S1:target": -5.004116760571516,
+        "S6:target": -4.50338735308621,
+        "S1:irrelevant": 1.9992973247261978,
+        "S6:irrelevant": 1.0000019094436787,
+        "S1:random": 0.5008575788922458,
+        "S6:random": 7.208149887509899e-05
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0015",
+      "group": "jacket|color|black",
+      "m_source": -1.12565279006958,
+      "m_target": -0.7506654262542725,
+      "delta": -0.3749873638153076,
+      "patch": {
+        "S1:target": 0.3331085235288919,
+        "S6:target": 0.3332062784403212,
+        "S1:irrelevant": 0.9982528097781616,
+        "S6:irrelevant": 0.9999252929945175,
+        "S1:random": 0.33687296184983445,
+        "S6:random": 0.33655728501390186
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0016",
+      "group": "jacket|color|black",
+      "m_source": 2.125457286834717,
+      "m_target": -1.6251497268676758,
+      "delta": 3.7506070137023926,
+      "patch": {
+        "S1:target": 0.19990635162536377,
+        "S6:target": 0.23312517568605445,
+        "S1:irrelevant": 0.16668020135290498,
+        "S6:irrelevant": 0.23324649521021493,
+        "S1:random": 0.03327416000293938,
+        "S6:random": 0.03328512548259235
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0017",
+      "group": "jacket|color|black",
+      "m_source": 0.24892723560333252,
+      "m_target": -1.3758509159088135,
+      "delta": 1.624778151512146,
+      "patch": {
+        "S1:target": 0.07763103128207396,
+        "S6:target": 0.07745846603138883,
+        "S1:irrelevant": -0.07665367511524711,
+        "S6:irrelevant": -0.07650656910860437,
+        "S1:random": 0.0003093995162156675,
+        "S6:random": 0.00016977720666897195
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0018",
+      "group": "jacket|color|black",
+      "m_source": -0.875,
+      "m_target": 0.4991619288921356,
+      "delta": -1.3741619288921356,
+      "patch": {
+        "S1:target": -0.0003646558954159778,
+        "S6:target": -0.09157371834264047,
+        "S1:irrelevant": -0.0913823900263945,
+        "S6:irrelevant": 0.0903550033796926,
+        "S1:random": 0.09063269185863314,
+        "S6:random": 0.09035543713239323
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0019",
+      "group": "jacket|color|black",
+      "m_source": -1.5002745389938354,
+      "m_target": -1.87514066696167,
+      "delta": 0.3748661279678345,
+      "patch": {
+        "S1:target": -0.3330761733190655,
+        "S6:target": -0.6657497523536342,
+        "S1:irrelevant": 0.0003758818675159519,
+        "S6:irrelevant": 8.36353055471196e-05,
+        "S1:random": 0.00037778989730029685,
+        "S6:random": -0.33269870142672925
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0000",
+      "group": "building|color|white",
+      "m_source": -1.9989120960235596,
+      "m_target": -1.623988151550293,
+      "delta": -0.3749239444732666,
+      "patch": {
+        "S1:target": -1.6719408665570779,
+        "S6:target": -2.0025105799834026,
+        "S1:irrelevant": 1.3251283747046985,
+        "S6:irrelevant": -0.000549427838313053,
+        "S1:random": -0.33143026113720114,
+        "S6:random": -0.33190242568575146
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0001",
+      "group": "building|color|white",
+      "m_source": 0.12853246927261353,
+      "m_target": -2.9996144771575928,
+      "delta": 3.1281469464302063,
+      "patch": {
+        "S1:target": 1.0795120049414655,
+        "S6:target": 1.1187505212541455,
+        "S1:irrelevant": 0.7599488826530946,
+        "S6:irrelevant": 0.7593816933581499,
+        "S1:random": 0.08039930644641016,
+        "S6:random": 0.04084365039425153
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0002",
+      "group": "building|color|white",
+      "m_source": 1.3755435943603516,
+      "m_target": -0.9986132979393005,
+      "delta": 2.374156892299652,
+      "patch": {
+        "S1:target": 1.9486283339395918,
+        "S6:target": 1.8961310078747997,
+        "S1:irrelevant": -0.3155187308775315,
+        "S6:irrelevant": -0.26303270233491916,
+        "S1:random": -0.1056072539933791,
+        "S6:random": -0.10556346981853142
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0003",
+      "group": "building|color|white",
+      "m_source": 0.5008933544158936,
+      "m_target": -1.3753538131713867,
+      "delta": 1.8762471675872803,
+      "patch": {
+        "S1:target": -0.13318606105990036,
+        "S6:target": -0.06668754036920277,
+        "S1:irrelevant": 0.00019092575929681376,
+        "S6:irrelevant": -6.353602638829076e-08,
+        "S1:random": 0.00019105283134959034,
+        "S6:random": -0.06643136311080518
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0004",
+      "group": "building|color|white",
+      "m_source": -0.8746392726898193,
+      "m_target": -0.873780369758606,
+      "delta": -0.0008589029312133789,
+      "patch": {
+        "S1:target": -144.11908396946563,
+        "S6:target": -144.11922276197086,
+        "S1:random": 1.4151977793199166,
+        "S6:random": 1.4155447605829286
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0005",
+      "group": "building|color|white",
+      "m_source": -0.6181943416595459,
+      "m_target": -0.876865804195404,
+      "delta": 0.25867146253585815,
+      "patch": {
+        "S1:target": 0.004489851690877916,
+        "S6:target": 0.9525437538754782,
+        "S1:irrelevant": -0.4789195875281437,
+        "S6:irrelevant": 0.0012145757383945342,
+        "S1:random": 0.4851498472160039,
+        "S6:random": 0.47505027320465265
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0006",
+      "group": "building|color|white",
+      "m_source": -1.126290202140808,
+      "m_target": -2.246950626373291,
+      "delta": 1.120660424232483,
+      "patch": {
+        "S1:target": 1.3364336431196515,
+        "S6:target": 1.4476200966706916,
+        "S1:irrelevant": -0.11351376018652068,
+        "S6:irrelevant": -0.0024678800623054616
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0007",
+      "group": "building|color|white",
+      "m_source": -1.374487280845642,
+      "m_target": -0.6245194673538208,
+      "delta": -0.7499678134918213,
+      "patch": {
+        "S1:target": 0.8331885275685698,
+        "S6:target": 0.49979034159854757,
+        "S1:irrelevant": -1.6666254184823022,
+        "S6:irrelevant": -1.6666254184823022,
+        "S1:random": 0.16731201398273712,
+        "S6:random": 0.332793848409505
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0008",
+      "group": "building|color|white",
+      "m_source": 0.12296617031097412,
+      "m_target": -1.1920928955078125e-07,
+      "delta": 0.12296628952026367,
+      "patch": {
+        "S1:target": 17.286187514299343,
+        "S6:target": 16.26804916259176,
+        "S1:irrelevant": -4.062839064057174,
+        "S6:irrelevant": -3.0496061137200003,
+        "S1:random": 0.003515699223279135,
+        "S6:random": -1.9388938222965035e-06
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0009",
+      "group": "building|color|white",
+      "m_source": -0.7506934404373169,
+      "m_target": -2.49489688873291,
+      "delta": 1.7442034482955933,
+      "patch": {
+        "S1:target": 1.2173789262969965,
+        "S6:target": 1.005218864665328,
+        "S1:irrelevant": 0.21821134612938617,
+        "S6:irrelevant": 0.21478789611876178,
+        "S1:random": -0.07369664733591823,
+        "S6:random": -0.14301928880679474
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0010",
+      "group": "building|color|white",
+      "m_source": 0.0029606223106384277,
+      "m_target": 0.00017178058624267578,
+      "delta": 0.002788841724395752,
+      "patch": {
+        "S1:target": -537.9189125649191,
+        "S6:target": -537.78388082669,
+        "S1:irrelevant": 44.75975122357819,
+        "S6:irrelevant": 44.7600504392058,
+        "S1:random": 0.3249481715787899,
+        "S6:random": -44.739169462907945
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0011",
+      "group": "building|color|white",
+      "m_source": -0.8762906789779663,
+      "m_target": -1.6253539323806763,
+      "delta": 0.74906325340271,
+      "patch": {
+        "S1:target": 0.5024721505099466,
+        "S6:target": 0.5011022347387596,
+        "S1:irrelevant": 0.1660004347827471,
+        "S6:irrelevant": -0.00045069719609688587,
+        "S1:random": -0.16638747418278507,
+        "S6:random": -0.16560527901371158
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0012",
+      "group": "building|color|white",
+      "m_source": 2.8763904571533203,
+      "m_target": -3.874382734298706,
+      "delta": 6.750773191452026,
+      "patch": {
+        "S1:target": 0.9639309414036019,
+        "S6:target": 1.074381432039328,
+        "S1:irrelevant": -2.4545471722468765e-05,
+        "S6:irrelevant": -2.0201452985974294e-05
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0013",
+      "group": "building|color|white",
+      "m_source": -0.12528079748153687,
+      "m_target": 0.13090813159942627,
+      "delta": -0.25618892908096313,
+      "patch": {
+        "S1:target": -0.9662549146292917,
+        "S6:target": -0.482878977566327,
+        "S1:irrelevant": 0.00714449074098848,
+        "S6:irrelevant": 0.00958857290961177,
+        "S1:random": 0.4929675345388013,
+        "S6:random": 0.49296846517456283
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0014",
+      "group": "building|color|white",
+      "m_source": 0.25080162286758423,
+      "m_target": -0.2528952956199646,
+      "delta": 0.5036969184875488,
+      "patch": {
+        "S1:target": 0.000667997375817572,
+        "S6:target": 0.24044722335560229,
+        "S1:random": 0.24691502363373533,
+        "S6:random": -0.0012479539991801796
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0015",
+      "group": "building|color|white",
+      "m_source": 0.3732339143753052,
+      "m_target": 1.1250016689300537,
+      "delta": -0.7517677545547485,
+      "patch": {
+        "S1:target": 0.15544524232571158,
+        "S6:target": 0.0010687750395042407,
+        "S1:irrelevant": 0.8313696574131997,
+        "S6:irrelevant": 1.1639194073848549,
+        "S1:random": -0.000507271713853719,
+        "S6:random": 0.16515856800001902
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0016",
+      "group": "building|color|white",
+      "m_source": -1.5015568733215332,
+      "m_target": -0.8747519254684448,
+      "delta": -0.6268049478530884,
+      "patch": {
+        "S1:target": 8.72001081775824e-05,
+        "S6:target": 2.415357412988651e-05,
+        "S1:irrelevant": -1.141113738419835e-06,
+        "S6:irrelevant": 0.0007874635723212212,
+        "S1:random": 4.564454953679341e-05,
+        "S6:random": 0.00039368423975484314
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0017",
+      "group": "building|color|white",
+      "m_source": 1.6257094144821167,
+      "m_target": -1.8740980625152588,
+      "delta": 3.4998074769973755,
+      "patch": {
+        "S1:target": 1.1071032105747318,
+        "S6:target": 1.1070301823529005,
+        "S1:irrelevant": 0.2499977945068267,
+        "S6:irrelevant": 0.24975803440726035,
+        "S1:random": 0.03555687578590919,
+        "S6:random": -6.877051300248074e-05
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0018",
+      "group": "building|color|white",
+      "m_source": -1.1261556148529053,
+      "m_target": -1.3749971389770508,
+      "delta": 0.2488415241241455,
+      "patch": {
+        "S1:target": 0.5085856606723853,
+        "S6:target": 1.0073314892830145,
+        "S1:random": -0.5023286963803406,
+        "S6:random": -0.001848681203812911
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0019",
+      "group": "building|color|white",
+      "m_source": 2.2505545616149902,
+      "m_target": -1.9989888668060303,
+      "delta": 4.2495434284210205,
+      "patch": {
+        "S1:target": 0.559037071451963,
+        "S6:target": 0.558855489184536,
+        "S1:irrelevant": -8.40445656127452e-05,
+        "S6:irrelevant": 3.175515629960866e-05,
+        "S1:random": 0.029362691405466948,
+        "S6:random": 8.743888885678464e-05
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0000",
+      "group": "door|color|white",
+      "m_source": -1.125000238418579,
+      "m_target": -1.999999761581421,
+      "delta": 0.8749995231628418,
+      "patch": {
+        "S1:target": 1.143959191981284,
+        "S6:target": 1.1428561307940515,
+        "S1:irrelevant": 0.0010369170253846443,
+        "S6:irrelevant": -0.0011019031535029567,
+        "S1:random": 0.14199400874220097,
+        "S6:random": 0.0007610325192219976
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0001",
+      "group": "door|color|white",
+      "m_source": -0.7467252016067505,
+      "m_target": -1.0038931369781494,
+      "delta": 0.2571679353713989,
+      "patch": {
+        "S1:target": 0.0017271741604362157,
+        "S6:target": 0.00734860224514099,
+        "S1:irrelevant": -0.07771078501131749,
+        "S6:irrelevant": -0.4953948975585471,
+        "S1:random": 0.0017285647998568569,
+        "S6:random": 0.4648307290519872
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0002",
+      "group": "door|color|white",
+      "m_source": -1.374051809310913,
+      "m_target": -2.249034881591797,
+      "delta": 0.8749830722808838,
+      "patch": {
+        "S1:target": 0.7113985359453616,
+        "S6:target": 0.8529671425593571,
+        "S1:irrelevant": 0.1448493097307998,
+        "S6:irrelevant": 0.14175689281446996,
+        "S1:random": 0.4253363470024755,
+        "S6:random": 0.14267216538667474
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0003",
+      "group": "door|color|white",
+      "m_source": -0.8742611408233643,
+      "m_target": -2.7505860328674316,
+      "delta": 1.8763248920440674,
+      "patch": {
+        "S1:target": 1.6771612821903061,
+        "S6:target": 1.7387536679416973,
+        "S1:irrelevant": 0.13717850990555508,
+        "S6:irrelevant": 0.33411093972624983,
+        "S1:random": 0.0671118493973921,
+        "S6:random": 0.1338125106656686
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0004",
+      "group": "door|color|white",
+      "m_source": -1.0028961896896362,
+      "m_target": -0.12129718065261841,
+      "delta": -0.8815990090370178,
+      "patch": {
+        "S1:target": -1.9818486209345187,
+        "S6:target": -1.981984245993297,
+        "S1:random": 0.8510103965464424,
+        "S6:random": 0.8514596630048576
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0005",
+      "group": "door|color|white",
+      "m_source": -0.2492930293083191,
+      "m_target": 0.10616445541381836,
+      "delta": -0.35545748472213745,
+      "patch": {
+        "S1:target": 1.0283025970778996,
+        "S6:target": 0.6977143118730388,
+        "S1:irrelevant": 0.335934396530142,
+        "S6:irrelevant": 0.31932794809566795,
+        "S1:random": 0.6766290153895633,
+        "S6:random": 0.6736437315327168
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0006",
+      "group": "door|color|white",
+      "m_source": 0.8759633898735046,
+      "m_target": -1.875739574432373,
+      "delta": 2.7517029643058777,
+      "patch": {
+        "S1:target": 0.7271991034944287,
+        "S6:target": 0.7727270433175645,
+        "S1:irrelevant": 0.09727037794008848,
+        "S6:irrelevant": 0.22787123357134803
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0007",
+      "group": "door|color|white",
+      "m_source": 1.0081758499145508,
+      "m_target": -2.874995231628418,
+      "delta": 3.8831710815429688,
+      "patch": {
+        "S1:target": 0.16308475367159486,
+        "S6:target": 0.19427182081634659,
+        "S1:irrelevant": 0.3561448867822585,
+        "S6:irrelevant": 0.38628247949309885,
+        "S1:random": 0.06709784370548652,
+        "S6:random": 0.09784904710447467
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0008",
+      "group": "door|color|white",
+      "m_source": 0.002390146255493164,
+      "m_target": -0.5000004768371582,
+      "delta": 0.5023906230926514,
+      "patch": {
+        "S1:target": -0.49282713998193795,
+        "S6:target": -0.4877475999903188,
+        "S1:irrelevant": 0.4835170623853028,
+        "S6:irrelevant": 0.2488122746097982
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0009",
+      "group": "door|color|white",
+      "m_source": -0.3706033229827881,
+      "m_target": -1.4985367059707642,
+      "delta": 1.127933382987976,
+      "patch": {
+        "S1:target": 0.10952514169886018,
+        "S6:target": 0.21967881133709252,
+        "S1:irrelevant": 0.10900304181311973,
+        "S6:irrelevant": -0.0006286336276081347,
+        "S1:random": -0.000586041268508256,
+        "S6:random": 0.10952429619297234
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0010",
+      "group": "door|color|white",
+      "m_source": -1.50444495677948,
+      "m_target": -0.004955291748046875,
+      "delta": -1.499489665031433,
+      "patch": {
+        "S1:target": 0.16492541994434848,
+        "S6:target": 0.25008309727823325,
+        "S1:irrelevant": 0.7422246506793942,
+        "S6:irrelevant": 0.5795416846237083
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0011",
+      "group": "door|color|white",
+      "m_source": -1.8652596473693848,
+      "m_target": -1.4993852376937866,
+      "delta": -0.36587440967559814,
+      "patch": {
+        "S1:target": 0.6800546205057577,
+        "S6:target": -0.00233254712908379,
+        "S1:irrelevant": -0.3422608080276895,
+        "S6:irrelevant": -0.6816192093189803,
+        "S1:random": 0.6823738090048245,
+        "S6:random": 0.6831867305144017
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0012",
+      "group": "door|color|white",
+      "m_source": -0.7500009536743164,
+      "m_target": -1.1228827238082886,
+      "delta": 0.37288177013397217,
+      "patch": {
+        "S1:target": 0.667056057959839,
+        "S6:target": 0.6667903895159751,
+        "S1:irrelevant": 0.33266164933747533,
+        "S6:irrelevant": 0.3326605303969777,
+        "S1:random": -0.005673987414796677,
+        "S6:random": 0.3295505152081597
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0013",
+      "group": "door|color|white",
+      "m_source": 1.1249969005584717,
+      "m_target": -2.8749988079071045,
+      "delta": 3.999995708465576,
+      "patch": {
+        "S1:target": 0.1563799866938448,
+        "S6:target": 0.1565741788348686
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0014",
+      "group": "door|color|white",
+      "m_source": -0.6284533143043518,
+      "m_target": -1.3965225219726562,
+      "delta": 0.7680692076683044,
+      "patch": {
+        "S1:target": 0.1629740596487849,
+        "S6:target": 0.16694812061682454,
+        "S1:irrelevant": 0.3599673538768203,
+        "S6:irrelevant": 1.3314987673116296
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0015",
+      "group": "door|color|white",
+      "m_source": -1.2499985694885254,
+      "m_target": -3.3749918937683105,
+      "delta": 2.124993324279785,
+      "patch": {
+        "S1:target": 0.1722581328479228,
+        "S6:target": 0.11764944796669265,
+        "S1:irrelevant": -0.0015227421745727637,
+        "S6:irrelevant": 2.131749286537173e-06,
+        "S1:random": -0.11764675523075176,
+        "S6:random": -0.11357915319737709
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0016",
+      "group": "door|color|white",
+      "m_source": 1.8794066905975342,
+      "m_target": -1.744404673576355,
+      "delta": 3.623811364173889,
+      "patch": {
+        "S1:target": 0.07039701292813749,
+        "S6:target": 0.06932190233060043,
+        "S1:irrelevant": 0.20789307238561555,
+        "S6:irrelevant": 0.17339943082496234,
+        "S1:random": 0.06828810924455306,
+        "S6:random": 0.034907244324952624
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0017",
+      "group": "door|color|white",
+      "m_source": -1.2549573183059692,
+      "m_target": -2.1274046897888184,
+      "delta": 0.8724473714828491,
+      "patch": {
+        "S1:target": 0.1441373024063693,
+        "S6:target": -2.732756002191124e-07,
+        "S1:irrelevant": 0.001655776861727602,
+        "S6:irrelevant": 0.0012781099822247886,
+        "S1:random": 5.465512004382248e-07,
+        "S6:random": -0.14219021375480811
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0018",
+      "group": "door|color|white",
+      "m_source": 1.7563939094543457,
+      "m_target": -0.6243061423301697,
+      "delta": 2.3807000517845154,
+      "patch": {
+        "S1:target": 0.1572243909902375,
+        "S6:target": 0.15796349658108896,
+        "S1:irrelevant": 0.10562968323763551,
+        "S6:irrelevant": 0.15776918749634936,
+        "S1:random": -0.26191615296353654,
+        "S6:random": -0.2623959544452979
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0019",
+      "group": "door|color|white",
+      "m_source": 0.12574487924575806,
+      "m_target": -1.751868724822998,
+      "delta": 1.877613604068756,
+      "patch": {
+        "S1:target": 0.13414528730065517,
+        "S6:target": 0.13067982420566576,
+        "S1:irrelevant": 0.0009967261808298997,
+        "S6:irrelevant": 0.0005423932583495659,
+        "S1:random": 0.00099647222167815,
+        "S6:random": 0.00016767652994278395
+      }
+    }
+  ]
+}

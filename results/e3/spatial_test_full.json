@@ -1,0 +1,4248 @@
+{
+  "summary": [
+    {
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "n_pairs": 20,
+      "n_stable": 17,
+      "mean_delta": 0.6000798463821411,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 0.825033358722357,
+        "R_median": 0.9435956359273057,
+        "R_frac_pos": 0.9,
+        "R_frac_gt_half": 0.85,
+        "R_mean_stable": 0.985064854430871,
+        "R_median_stable": 0.9487105495106503
+      },
+      "S12": {
+        "R_mean": 0.463605666238619,
+        "R_median": 0.5425956263987045,
+        "R_frac_pos": 0.9,
+        "R_frac_gt_half": 0.6,
+        "R_mean_stable": 0.5175403108923384,
+        "R_median_stable": 0.5296928300281152
+      },
+      "S18": {
+        "R_mean": -0.040379943757292036,
+        "R_median": 4.081863822525878e-05,
+        "R_frac_pos": 0.55,
+        "R_frac_gt_half": 0.0,
+        "R_mean_stable": 0.011953775471841193,
+        "R_median_stable": 6.741226538441259e-05
+      }
+    },
+    {
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "n_pairs": 20,
+      "n_stable": 13,
+      "mean_delta": 0.5433038413524628,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": -21.29497937960058,
+        "R_median": 1.0054610242699518,
+        "R_frac_pos": 0.95,
+        "R_frac_gt_half": 0.9,
+        "R_mean_stable": 1.072178653440205,
+        "R_median_stable": 1.0033439058107305
+      },
+      "S12": {
+        "R_mean": -89.59328723279498,
+        "R_median": 0.5814729967040886,
+        "R_frac_pos": 0.9,
+        "R_frac_gt_half": 0.55,
+        "R_mean_stable": 0.5279760615741101,
+        "R_median_stable": 0.5655143261797195
+      },
+      "S18": {
+        "R_mean": -22.497847484939573,
+        "R_median": 5.2582233163969366e-05,
+        "R_frac_pos": 0.6,
+        "R_frac_gt_half": 0.0,
+        "R_mean_stable": 0.032090342484722936,
+        "R_median_stable": 0.0010011360800878412
+      }
+    },
+    {
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "n_pairs": 20,
+      "n_stable": 9,
+      "mean_delta": -0.2197556748986244,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 9.961103606214234,
+        "R_median": 0.9991569965361661,
+        "R_frac_pos": 0.8,
+        "R_frac_gt_half": 0.75,
+        "R_mean_stable": 0.8942724419039484,
+        "R_median_stable": 0.9997115927653067
+      },
+      "S12": {
+        "R_mean": -11.671349703389964,
+        "R_median": 0.5421757789783754,
+        "R_frac_pos": 0.65,
+        "R_frac_gt_half": 0.55,
+        "R_mean_stable": 0.8173471734819847,
+        "R_median_stable": 0.8279442884957278
+      },
+      "S18": {
+        "R_mean": 1.9504184712878314,
+        "R_median": -0.0008744619317400811,
+        "R_frac_pos": 0.35,
+        "R_frac_gt_half": 0.05,
+        "R_mean_stable": 0.0179025637950174,
+        "R_median_stable": -0.0004942226072851194
+      }
+    },
+    {
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "n_pairs": 20,
+      "n_stable": 14,
+      "mean_delta": -0.2908170759677887,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 3.903301010941362,
+        "R_median": 0.9998431141505195,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 0.9402391909221075,
+        "R_median_stable": 0.9950960227562814
+      },
+      "S12": {
+        "R_mean": -14.24481028799072,
+        "R_median": 0.709988718538125,
+        "R_frac_pos": 0.9,
+        "R_frac_gt_half": 0.8,
+        "R_mean_stable": 0.7783829949922898,
+        "R_median_stable": 0.709988718538125
+      },
+      "S18": {
+        "R_mean": 0.03439177100826563,
+        "R_median": 0.0001575189287569065,
+        "R_frac_pos": 0.5,
+        "R_frac_gt_half": 0.05,
+        "R_mean_stable": 0.07208299653670845,
+        "R_median_stable": 0.0001575189287569065
+      }
+    },
+    {
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "n_pairs": 20,
+      "n_stable": 16,
+      "mean_delta": 0.006657664477825165,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 0.9297608948330051,
+        "R_median": 0.9478236026253588,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 0.9070811459160261,
+        "R_median_stable": 0.9291750247640638
+      },
+      "S12": {
+        "R_mean": 0.7775852840374825,
+        "R_median": 0.7465605740576045,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 0.65,
+        "R_mean_stable": 0.6028015718894457,
+        "R_median_stable": 0.5442798253369738
+      },
+      "S18": {
+        "R_mean": -0.009029751776146514,
+        "R_median": 0.0017002182338081207,
+        "R_frac_pos": 0.65,
+        "R_frac_gt_half": 0.05,
+        "R_mean_stable": 0.007309648131513096,
+        "R_median_stable": 0.0015997127981390807
+      }
+    },
+    {
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "n_pairs": 20,
+      "n_stable": 11,
+      "mean_delta": 0.4616692304611206,
+      "S0": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S1": {
+        "R_mean": 1.0,
+        "R_median": 1.0,
+        "R_frac_pos": 1.0,
+        "R_frac_gt_half": 1.0,
+        "R_mean_stable": 1.0,
+        "R_median_stable": 1.0
+      },
+      "S6": {
+        "R_mean": 0.8460624869252988,
+        "R_median": 0.9814073278555556,
+        "R_frac_pos": 0.95,
+        "R_frac_gt_half": 0.9,
+        "R_mean_stable": 0.9749412563990718,
+        "R_median_stable": 0.9813505270746495
+      },
+      "S12": {
+        "R_mean": 0.5668387772814044,
+        "R_median": 0.538591888860795,
+        "R_frac_pos": 0.85,
+        "R_frac_gt_half": 0.65,
+        "R_mean_stable": 0.4159285872515018,
+        "R_median_stable": 0.5008258532370945
+      },
+      "S18": {
+        "R_mean": 0.028324361086597475,
+        "R_median": -0.0009716078719767217,
+        "R_frac_pos": 0.45,
+        "R_frac_gt_half": 0.1,
+        "R_mean_stable": 0.06958499507348402,
+        "R_median_stable": -0.0004108104690040212
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2330666",
+      "target_image_id": "2354629",
+      "m_source": 1.1241180896759033,
+      "m_target": 0.3747056722640991,
+      "delta": 0.7494124174118042,
+      "patch": {
+        "S0": {
+          "margin": 1.1241180896759033,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.1241180896759033,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.2494961023330688,
+          "R": 1.1673017550071765
+        },
+        "S12": {
+          "margin": 0.4982168972492218,
+          "R": 0.1648107532187486
+        },
+        "S18": {
+          "margin": 0.49862924218177795,
+          "R": 0.1653609775317914
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2388873",
+      "target_image_id": "2416057",
+      "m_source": 3.4997024536132812,
+      "m_target": -1.3757610321044922,
+      "delta": 4.875463485717773,
+      "patch": {
+        "S0": {
+          "margin": 3.4997024536132812,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 3.4997024536132812,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 3.2496426105499268,
+          "R": 0.9487105495106503
+        },
+        "S12": {
+          "margin": 1.4995384216308594,
+          "R": 0.5897489463634134
+        },
+        "S18": {
+          "margin": -1.375976324081421,
+          "R": -4.4158258503912334e-05
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2412670",
+      "target_image_id": "2366127",
+      "m_source": -0.0012913346290588379,
+      "m_target": 1.3744943141937256,
+      "delta": -1.3757856488227844,
+      "patch": {
+        "S0": {
+          "margin": -0.0012913346290588379,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.0012913346290588379,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.12391191720962524,
+          "R": 0.9089950880460074
+        },
+        "S12": {
+          "margin": 0.24811160564422607,
+          "R": 0.8187196235934784
+        },
+        "S18": {
+          "margin": 1.374401569366455,
+          "R": 6.741226538441259e-05
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "713770",
+      "target_image_id": "2413209",
+      "m_source": 3.374880313873291,
+      "m_target": 1.8748137950897217,
+      "delta": 1.5000665187835693,
+      "patch": {
+        "S0": {
+          "margin": 3.374880313873291,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 3.374880313873291,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 3.2498719692230225,
+          "R": 0.9166647991372809
+        },
+        "S12": {
+          "margin": 2.4999144077301025,
+          "R": 0.4167152621653646
+        },
+        "S18": {
+          "margin": 1.8748351335525513,
+          "R": 1.4225011066104977e-05
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2352092",
+      "target_image_id": "2272",
+      "m_source": 2.374323844909668,
+      "m_target": 0.248141348361969,
+      "delta": 2.126182496547699,
+      "patch": {
+        "S0": {
+          "margin": 2.374323844909668,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.374323844909668,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 2.249401807785034,
+          "R": 0.941245853858984
+        },
+        "S12": {
+          "margin": 1.374364972114563,
+          "R": 0.5296928300281152
+        },
+        "S18": {
+          "margin": 0.37246692180633545,
+          "R": 0.05847361345803334
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0005",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2349905",
+      "target_image_id": "2347450",
+      "m_source": 0.7491711378097534,
+      "m_target": 0.1242169737815857,
+      "delta": 0.6249541640281677,
+      "patch": {
+        "S0": {
+          "margin": 0.7491711378097534,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.7491711378097534,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.7492191791534424,
+          "R": 1.0000768717874913
+        },
+        "S12": {
+          "margin": 0.6242672801017761,
+          "R": 0.8001391703626641
+        },
+        "S18": {
+          "margin": 0.24916613101959229,
+          "R": 0.19993331420122346
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0006",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2348670",
+      "target_image_id": "2364258",
+      "m_source": 1.1240354776382446,
+      "m_target": 0.3738023042678833,
+      "delta": 0.7502331733703613,
+      "patch": {
+        "S0": {
+          "margin": 1.1240354776382446,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.1240354776382446,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.8742039203643799,
+          "R": 0.6669947875651554
+        },
+        "S12": {
+          "margin": -0.1261594295501709,
+          "R": -0.6664084601484854
+        },
+        "S18": {
+          "margin": 0.24882644414901733,
+          "R": -0.16658268996213818
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0007",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2412751",
+      "target_image_id": "2347226",
+      "m_source": 1.3745503425598145,
+      "m_target": 2.4997174739837646,
+      "delta": -1.1251671314239502,
+      "patch": {
+        "S0": {
+          "margin": 1.3745503425598145,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.3745503425598145,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.499732494354248,
+          "R": 0.8887435045885052
+        },
+        "S12": {
+          "margin": 1.8743869066238403,
+          "R": 0.5557668277854331
+        },
+        "S18": {
+          "margin": 2.6244606971740723,
+          "R": -0.11086639460614121
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0008",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2373679",
+      "target_image_id": "2378533",
+      "m_source": -0.001991868019104004,
+      "m_target": 0.6241201162338257,
+      "delta": -0.6261119842529297,
+      "patch": {
+        "S0": {
+          "margin": -0.001991868019104004,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.001991868019104004,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.2507311701774597,
+          "R": 1.3972760598970948
+        },
+        "S12": {
+          "margin": -0.5007618069648743,
+          "R": 1.7966145857132847
+        },
+        "S18": {
+          "margin": 0.7488705515861511,
+          "R": -0.19924620273987625
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0009",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2334878",
+      "target_image_id": "2324119",
+      "m_source": 2.999717950820923,
+      "m_target": 0.37405455112457275,
+      "delta": 2.62566339969635,
+      "patch": {
+        "S0": {
+          "margin": 2.999717950820923,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.999717950820923,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 2.9996776580810547,
+          "R": 0.9999846542630435
+        },
+        "S12": {
+          "margin": 1.4997572898864746,
+          "R": 0.42873078814751575
+        },
+        "S18": {
+          "margin": 0.3743517994880676,
+          "R": 0.00011320886124598031
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0010",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2861",
+      "target_image_id": "2360622",
+      "m_source": 1.1236392259597778,
+      "m_target": -0.0006528496742248535,
+      "delta": 1.1242920756340027,
+      "patch": {
+        "S0": {
+          "margin": 1.1236392259597778,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.1236392259597778,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.1234874725341797,
+          "R": 0.9998650231297659
+        },
+        "S12": {
+          "margin": 0.6238896250724792,
+          "R": 0.5554984227692938
+        },
+        "S18": {
+          "margin": -0.0006618499755859375,
+          "R": -8.005305343816997e-06
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0011",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2404030",
+      "target_image_id": "2384693",
+      "m_source": 0.12393993139266968,
+      "m_target": 0.24954718351364136,
+      "delta": -0.12560725212097168,
+      "patch": {
+        "S0": {
+          "margin": 0.12393993139266968,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.12393993139266968,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.3732571005821228,
+          "R": -0.9848947013770915
+        },
+        "S12": {
+          "margin": 0.12461656332015991,
+          "R": 0.9946131141628783
+        },
+        "S18": {
+          "margin": 0.24930179119110107,
+          "R": 0.00195364772651779
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0012",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2365923",
+      "target_image_id": "2379879",
+      "m_source": 4.74983549118042,
+      "m_target": 0.12406027317047119,
+      "delta": 4.625775218009949,
+      "patch": {
+        "S0": {
+          "margin": 4.74983549118042,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 4.74983549118042,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 4.499791145324707,
+          "R": 0.9459454179956275
+        },
+        "S12": {
+          "margin": 2.9997780323028564,
+          "R": 0.6216726113141195
+        },
+        "S18": {
+          "margin": 0.12400096654891968,
+          "R": -1.2820904336339094e-05
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0013",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2332878",
+      "target_image_id": "2339204",
+      "m_source": 1.2481391429901123,
+      "m_target": 1.1241978406906128,
+      "delta": 0.12394130229949951,
+      "patch": {
+        "S0": {
+          "margin": 1.2481391429901123,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.2481391429901123,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.1228954792022705,
+          "R": -0.01050788933292937
+        },
+        "S12": {
+          "margin": 0.8736379742622375,
+          "R": -2.021601046460741
+        },
+        "S18": {
+          "margin": 0.9987188577651978,
+          "R": -1.0124065230668609
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0014",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2317358",
+      "target_image_id": "2337631",
+      "m_source": -1.0008940696716309,
+      "m_target": 1.8730989694595337,
+      "delta": -2.8739930391311646,
+      "patch": {
+        "S0": {
+          "margin": -1.0008940696716309,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.0008940696716309,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1258502006530762,
+          "R": 1.0434782302114485
+        },
+        "S12": {
+          "margin": 0.4990934729576111,
+          "R": 0.47808240235588656
+        },
+        "S18": {
+          "margin": 1.7483463287353516,
+          "R": 0.04340742619261738
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0015",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2404848",
+      "target_image_id": "2356967",
+      "m_source": 0.2498360276222229,
+      "m_target": 1.249495029449463,
+      "delta": -0.99965900182724,
+      "patch": {
+        "S0": {
+          "margin": 0.2498360276222229,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.2498360276222229,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.37468570470809937,
+          "R": 0.8751077348799258
+        },
+        "S12": {
+          "margin": 0.6244792938232422,
+          "R": 0.6252289375514825
+        },
+        "S18": {
+          "margin": 1.2496815919876099,
+          "R": -0.0001866261773324322
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0016",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2403125",
+      "target_image_id": "2378123",
+      "m_source": -1.8763319253921509,
+      "m_target": -0.37625330686569214,
+      "delta": -1.5000786185264587,
+      "patch": {
+        "S0": {
+          "margin": -1.8763319253921509,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.8763319253921509,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1262868642807007,
+          "R": 0.4999961656354875
+        },
+        "S12": {
+          "margin": -0.5012778043746948,
+          "R": 0.08334529668306014
+        },
+        "S18": {
+          "margin": -0.37651097774505615,
+          "R": 0.00017177158329016528
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0017",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "107903",
+      "target_image_id": "2362149",
+      "m_source": 0.8743867874145508,
+      "m_target": 1.3738187551498413,
+      "delta": -0.4994319677352905,
+      "patch": {
+        "S0": {
+          "margin": 0.8743867874145508,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.8743867874145508,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.9992611408233643,
+          "R": 0.7499672398323539
+        },
+        "S12": {
+          "margin": 0.6242133378982544,
+          "R": 1.5009159719004883
+        },
+        "S18": {
+          "margin": 1.3739986419677734,
+          "R": -0.00036018282679788874
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0018",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2336164",
+      "target_image_id": "2402334",
+      "m_source": 2.9999170303344727,
+      "m_target": 0.24900221824645996,
+      "delta": 2.7509148120880127,
+      "patch": {
+        "S0": {
+          "margin": 2.9999170303344727,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.9999170303344727,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 3.124943494796753,
+          "R": 1.0454490498625735
+        },
+        "S12": {
+          "margin": 1.6245653629302979,
+          "R": 0.5000384376278636
+        },
+        "S18": {
+          "margin": 0.3740617036819458,
+          "R": 0.045461053496077757
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0019",
+      "task": "spatial",
+      "group": "woman|to the left of|man",
+      "question": "Is the woman to the left of the man?",
+      "source_image_id": "2416035",
+      "target_image_id": "2384950",
+      "m_source": 1.1241687536239624,
+      "m_target": 1.873636245727539,
+      "delta": -0.7494674921035767,
+      "patch": {
+        "S0": {
+          "margin": 1.1241687536239624,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.1241687536239624,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.7492349147796631,
+          "R": 1.500266979948589
+        },
+        "S12": {
+          "margin": 1.4990607500076294,
+          "R": 0.49978884963851533
+        },
+        "S18": {
+          "margin": 1.7483566999435425,
+          "R": 0.16715807837424243
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0000",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2330666",
+      "target_image_id": "2354629",
+      "m_source": -0.25370246171951294,
+      "m_target": -0.3764682412147522,
+      "delta": 0.12276577949523926,
+      "patch": {
+        "S0": {
+          "margin": -0.25370246171951294,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.25370246171951294,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.2517099380493164,
+          "R": 1.0162302856576886
+        },
+        "S12": {
+          "margin": -0.5028636455535889,
+          "R": -1.029565444527953
+        },
+        "S18": {
+          "margin": -0.5030413866043091,
+          "R": -1.0310132506792358
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0001",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2388873",
+      "target_image_id": "2416057",
+      "m_source": 1.7483396530151367,
+      "m_target": -1.1261272430419922,
+      "delta": 2.874466896057129,
+      "patch": {
+        "S0": {
+          "margin": 1.7483396530151367,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.7483396530151367,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.997728943824768,
+          "R": 1.0867601888724883
+        },
+        "S12": {
+          "margin": 0.8739186525344849,
+          "R": 0.6957971574902865
+        },
+        "S18": {
+          "margin": -1.1259351968765259,
+          "R": 6.681105485324461e-05
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0002",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2412670",
+      "target_image_id": "2366127",
+      "m_source": -0.8777717351913452,
+      "m_target": -1.880653977394104,
+      "delta": 1.0028822422027588,
+      "patch": {
+        "S0": {
+          "margin": -0.8777717351913452,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.8777717351913452,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.6281018853187561,
+          "R": 1.2489523090210544
+        },
+        "S12": {
+          "margin": -1.503135085105896,
+          "R": 0.37643391856158
+        },
+        "S18": {
+          "margin": -1.757106065750122,
+          "R": 0.12319284004133708
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0003",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "713770",
+      "target_image_id": "2413209",
+      "m_source": 2.1230807304382324,
+      "m_target": -0.7546108961105347,
+      "delta": 2.877691626548767,
+      "patch": {
+        "S0": {
+          "margin": 2.1230807304382324,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.1230807304382324,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.6228293180465698,
+          "R": 0.8261622587436107
+        },
+        "S12": {
+          "margin": 0.8727649450302124,
+          "R": 0.5655143261797195
+        },
+        "S18": {
+          "margin": -0.8794169425964355,
+          "R": -0.04337019482368287
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0004",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2352092",
+      "target_image_id": "2272",
+      "m_source": 1.9986382722854614,
+      "m_target": -0.3765929937362671,
+      "delta": 2.3752312660217285,
+      "patch": {
+        "S0": {
+          "margin": 1.9986382722854614,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.9986382722854614,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.8737202882766724,
+          "R": 0.9474080752490203
+        },
+        "S12": {
+          "margin": 0.4975164532661438,
+          "R": 0.3680102478890216
+        },
+        "S18": {
+          "margin": -0.25253093242645264,
+          "R": 0.05223157133562233
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0005",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2349905",
+      "target_image_id": "2347450",
+      "m_source": -1.011492133140564,
+      "m_target": -0.6287777423858643,
+      "delta": -0.3827143907546997,
+      "patch": {
+        "S0": {
+          "margin": -1.011492133140564,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.011492133140564,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.755905032157898,
+          "R": 0.3321727451150792
+        },
+        "S12": {
+          "margin": -0.7544194459915161,
+          "R": 0.3282910354060392
+        },
+        "S18": {
+          "margin": -0.5035332441329956,
+          "R": -0.32725317176051516
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0006",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2348670",
+      "target_image_id": "2364258",
+      "m_source": 0.1215200424194336,
+      "m_target": -0.3762401342391968,
+      "delta": 0.49776017665863037,
+      "patch": {
+        "S0": {
+          "margin": 0.1215200424194336,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.1215200424194336,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.12222689390182495,
+          "R": 1.0014200643513436
+        },
+        "S12": {
+          "margin": -0.0018988251686096191,
+          "R": 0.7520515433425577
+        },
+        "S18": {
+          "margin": -0.376989483833313,
+          "R": -0.0015054430411577972
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0007",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2412751",
+      "target_image_id": "2347226",
+      "m_source": -1.5040745735168457,
+      "m_target": 1.998843789100647,
+      "delta": -3.5029183626174927,
+      "patch": {
+        "S0": {
+          "margin": -1.5040745735168457,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.5040745735168457,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.6262755393981934,
+          "R": 1.0348854735484143
+        },
+        "S12": {
+          "margin": -0.25150978565216064,
+          "R": 0.642422500840491
+        },
+        "S18": {
+          "margin": 1.9987094402313232,
+          "R": 3.835341147469412e-05
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0008",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2373679",
+      "target_image_id": "2378533",
+      "m_source": -0.6279923319816589,
+      "m_target": -0.6282691359519958,
+      "delta": 0.00027680397033691406,
+      "patch": {
+        "S0": {
+          "margin": -0.6279923319816589,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6279923319816589,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7523326873779297,
+          "R": -448.2000430663221
+        },
+        "S12": {
+          "margin": -1.1271477937698364,
+          "R": -1802.2814384151593
+        },
+        "S18": {
+          "margin": -0.7526918649673462,
+          "R": -449.4976313522825
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0009",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2334878",
+      "target_image_id": "2324119",
+      "m_source": 0.7469480037689209,
+      "m_target": -0.3773344159126282,
+      "delta": 1.124282419681549,
+      "patch": {
+        "S0": {
+          "margin": 0.7469480037689209,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.7469480037689209,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.747132420539856,
+          "R": 1.0001640306454203
+        },
+        "S12": {
+          "margin": -0.0018997788429260254,
+          "R": 0.3339326760762152
+        },
+        "S18": {
+          "margin": -0.37719494104385376,
+          "R": 0.00012405679065400672
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0010",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2861",
+      "target_image_id": "2360622",
+      "m_source": -0.25318360328674316,
+      "m_target": -0.37794357538223267,
+      "delta": 0.1247599720954895,
+      "patch": {
+        "S0": {
+          "margin": -0.25318360328674316,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.25318360328674316,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.2522381544113159,
+          "R": 1.0075781427291728
+        },
+        "S12": {
+          "margin": -0.25219398736953735,
+          "R": 1.0079321588533892
+        },
+        "S18": {
+          "margin": -0.3779425024986267,
+          "R": 8.599581964765602e-06
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0011",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2404030",
+      "target_image_id": "2384693",
+      "m_source": -0.7526885867118835,
+      "m_target": -0.5016691088676453,
+      "delta": -0.2510194778442383,
+      "patch": {
+        "S0": {
+          "margin": -0.7526885867118835,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.7526885867118835,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.0018792152404785,
+          "R": 1.992714313122832
+        },
+        "S12": {
+          "margin": -0.7507993578910828,
+          "R": 0.9924737759913074
+        },
+        "S18": {
+          "margin": -0.6233223080635071,
+          "R": 0.48463649211855037
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0012",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2365923",
+      "target_image_id": "2379879",
+      "m_source": 2.4993813037872314,
+      "m_target": -0.12697571516036987,
+      "delta": 2.6263570189476013,
+      "patch": {
+        "S0": {
+          "margin": 2.4993813037872314,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.4993813037872314,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 2.74910044670105,
+          "R": 1.0950819485364112
+        },
+        "S12": {
+          "margin": 1.1239734888076782,
+          "R": 0.47630584682249777
+        },
+        "S18": {
+          "margin": -0.002194702625274658,
+          "R": 0.04751106252305933
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0013",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2332878",
+      "target_image_id": "2339204",
+      "m_source": 0.1188250184059143,
+      "m_target": -0.629337728023529,
+      "delta": 0.7481627464294434,
+      "patch": {
+        "S0": {
+          "margin": 0.1188250184059143,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.1188250184059143,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.12132680416107178,
+          "R": 1.0033439058107305
+        },
+        "S12": {
+          "margin": -0.37918996810913086,
+          "R": 0.33434939270661584
+        },
+        "S18": {
+          "margin": -0.7579296827316284,
+          "R": -0.1718769817420018
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0014",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2317358",
+      "target_image_id": "2337631",
+      "m_source": -0.626678466796875,
+      "m_target": 0.12256026268005371,
+      "delta": -0.7492387294769287,
+      "patch": {
+        "S0": {
+          "margin": -0.626678466796875,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.626678466796875,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.6264682412147522,
+          "R": 0.9997194144217965
+        },
+        "S12": {
+          "margin": -0.12677067518234253,
+          "R": 0.3327790303051517
+        },
+        "S18": {
+          "margin": -0.0022853612899780273,
+          "R": 0.1666299659351447
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0015",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2404848",
+      "target_image_id": "2356967",
+      "m_source": 0.12360382080078125,
+      "m_target": -0.6273711919784546,
+      "delta": 0.7509750127792358,
+      "patch": {
+        "S0": {
+          "margin": 0.12360382080078125,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.12360382080078125,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.12314468622207642,
+          "R": 0.9993886153721605
+        },
+        "S12": {
+          "margin": -0.12663698196411133,
+          "R": 0.6667787895647922
+        },
+        "S18": {
+          "margin": -0.5028875470161438,
+          "R": 0.16576269895001852
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0016",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2403125",
+      "target_image_id": "2378123",
+      "m_source": -0.12866079807281494,
+      "m_target": -0.37759071588516235,
+      "delta": 0.2489299178123474,
+      "patch": {
+        "S0": {
+          "margin": -0.12866079807281494,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.12866079807281494,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.37219053506851196,
+          "R": 3.0120174286117236
+        },
+        "S12": {
+          "margin": -0.003991246223449707,
+          "R": 1.5008218897310115
+        },
+        "S18": {
+          "margin": -0.37793076038360596,
+          "R": -0.0013660250299843092
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0017",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "107903",
+      "target_image_id": "2362149",
+      "m_source": 0.4980597496032715,
+      "m_target": -0.12826955318450928,
+      "delta": 0.6263293027877808,
+      "patch": {
+        "S0": {
+          "margin": 0.4980597496032715,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.4980597496032715,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.4978048503398895,
+          "R": 0.9995930267636411
+        },
+        "S12": {
+          "margin": 0.24591940641403198,
+          "R": 0.5974316672284575
+        },
+        "S18": {
+          "margin": -0.12764251232147217,
+          "R": 0.0010011360800878412
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0018",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2336164",
+      "target_image_id": "2402334",
+      "m_source": 1.8738394975662231,
+      "m_target": 0.871925950050354,
+      "delta": 1.0019135475158691,
+      "patch": {
+        "S0": {
+          "margin": 1.8738394975662231,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.8738394975662231,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 2.3730807304382324,
+          "R": 1.4982877356133384
+        },
+        "S12": {
+          "margin": 1.7484185695648193,
+          "R": 0.8748186125316194
+        },
+        "S18": {
+          "margin": 0.7483082413673401,
+          "R": -0.12338161210566519
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0019",
+      "task": "spatial",
+      "group": "man|to the right of|woman",
+      "question": "Is the man to the right of the woman?",
+      "source_image_id": "2416035",
+      "target_image_id": "2384950",
+      "m_source": -0.7541483640670776,
+      "m_target": 0.49666857719421387,
+      "delta": -1.2508169412612915,
+      "patch": {
+        "S0": {
+          "margin": -0.7541483640670776,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.7541483640670776,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.0025299787521362,
+          "R": 1.1985755121245776
+        },
+        "S12": {
+          "margin": -0.2527141571044922,
+          "R": 0.5991146342669839
+        },
+        "S18": {
+          "margin": 0.2474498748779297,
+          "R": 0.19924474485049626
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0000",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2327999",
+      "target_image_id": "2379799",
+      "m_source": 0.3746638894081116,
+      "m_target": -0.250731885433197,
+      "delta": 0.6253957748413086,
+      "patch": {
+        "S0": {
+          "margin": 0.3746638894081116,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.3746638894081116,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.24973684549331665,
+          "R": 0.800243223666654
+        },
+        "S12": {
+          "margin": 0.24942773580551147,
+          "R": 0.7997489611528344
+        },
+        "S18": {
+          "margin": -0.3758285641670227,
+          "R": -0.2000280202813465
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0001",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2394560",
+      "target_image_id": "2272",
+      "m_source": -0.5007636547088623,
+      "m_target": 0.12181520462036133,
+      "delta": -0.6225788593292236,
+      "patch": {
+        "S0": {
+          "margin": -0.5007636547088623,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5007636547088623,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.5007787346839905,
+          "R": 1.000024221791187
+        },
+        "S12": {
+          "margin": -0.2507302761077881,
+          "R": 0.598390830568092
+        },
+        "S18": {
+          "margin": 0.12369793653488159,
+          "R": -0.0030240858427938735
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0002",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "713572",
+      "target_image_id": "2358390",
+      "m_source": 0.12251538038253784,
+      "m_target": 0.4984383285045624,
+      "delta": -0.37592294812202454,
+      "patch": {
+        "S0": {
+          "margin": 0.12251538038253784,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.12251538038253784,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.12970298528671265,
+          "R": 1.670931016393765
+        },
+        "S12": {
+          "margin": 0.7479801177978516,
+          "R": -0.6638110031321843
+        },
+        "S18": {
+          "margin": 0.7483205199241638,
+          "R": -0.6647165134981058
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0003",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2352342",
+      "target_image_id": "2377973",
+      "m_source": -0.0014685988426208496,
+      "m_target": 0.7486836314201355,
+      "delta": -0.7501522302627563,
+      "patch": {
+        "S0": {
+          "margin": -0.0014685988426208496,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.0014685988426208496,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.0014696121215820312,
+          "R": 1.0000013507644452
+        },
+        "S12": {
+          "margin": -0.0005423426628112793,
+          "R": 0.9987652423835558
+        },
+        "S18": {
+          "margin": 0.7496248483657837,
+          "R": -0.0012547012561950428
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0004",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2350568",
+      "target_image_id": "2353765",
+      "m_source": -0.378939151763916,
+      "m_target": -0.3757495880126953,
+      "delta": -0.003189563751220703,
+      "patch": {
+        "S0": {
+          "margin": -0.378939151763916,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.378939151763916,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.5029900074005127,
+          "R": 39.89273433996113
+        },
+        "S12": {
+          "margin": 0.1238444447517395,
+          "R": -156.63396995066526
+        },
+        "S18": {
+          "margin": -0.5007052421569824,
+          "R": 39.17640902975034
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0005",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2346644",
+      "target_image_id": "2400997",
+      "m_source": -0.5030455589294434,
+      "m_target": -0.37705981731414795,
+      "delta": -0.1259857416152954,
+      "patch": {
+        "S0": {
+          "margin": -0.5030455589294434,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5030455589294434,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.007904767990112305,
+          "R": -2.930133557901111
+        },
+        "S12": {
+          "margin": 0.49651312828063965,
+          "R": -6.933903268691246
+        },
+        "S18": {
+          "margin": -0.3768557906150818,
+          "R": -0.001619442775430645
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0006",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2374661",
+      "target_image_id": "2323780",
+      "m_source": -0.1289989948272705,
+      "m_target": -0.6281816959381104,
+      "delta": 0.49918270111083984,
+      "patch": {
+        "S0": {
+          "margin": -0.1289989948272705,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.1289989948272705,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.25170987844467163,
+          "R": 0.7541764100712415
+        },
+        "S12": {
+          "margin": -0.3775510787963867,
+          "R": 0.5020819363010597
+        },
+        "S18": {
+          "margin": -0.6295273900032043,
+          "R": -0.0026957946701666505
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0007",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2369041",
+      "target_image_id": "2368559",
+      "m_source": -0.37697547674179077,
+      "m_target": -0.0019061565399169922,
+      "delta": -0.3750693202018738,
+      "patch": {
+        "S0": {
+          "margin": -0.37697547674179077,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.37697547674179077,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.5021932721138,
+          "R": 1.3338524070820115
+        },
+        "S12": {
+          "margin": -0.1283208727836609,
+          "R": 0.33704360616779755
+        },
+        "S18": {
+          "margin": -0.12737977504730225,
+          "R": 0.3345344760265956
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0008",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2379879",
+      "target_image_id": "2409866",
+      "m_source": -0.12663960456848145,
+      "m_target": -0.37661105394363403,
+      "delta": 0.2499714493751526,
+      "patch": {
+        "S0": {
+          "margin": -0.12663960456848145,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.12663960456848145,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.3766378164291382,
+          "R": -0.00010706216878386675
+        },
+        "S12": {
+          "margin": -0.7527694702148438,
+          "R": -1.5048055176360482
+        },
+        "S18": {
+          "margin": -0.376653790473938,
+          "R": -0.00017096564591989412
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0009",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2341861",
+      "target_image_id": "2861",
+      "m_source": -0.2553722858428955,
+      "m_target": 0.12235844135284424,
+      "delta": -0.37773072719573975,
+      "patch": {
+        "S0": {
+          "margin": -0.2553722858428955,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.2553722858428955,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.12690085172653198,
+          "R": 0.6598861970533053
+        },
+        "S12": {
+          "margin": -0.001363515853881836,
+          "R": 0.3275400921848051
+        },
+        "S18": {
+          "margin": 0.12335968017578125,
+          "R": -0.0026506681899303645
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0010",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2372693",
+      "target_image_id": "285915",
+      "m_source": -0.502100944519043,
+      "m_target": -0.6292704343795776,
+      "delta": 0.12716948986053467,
+      "patch": {
+        "S0": {
+          "margin": -0.502100944519043,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.502100944519043,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7536054253578186,
+          "R": -0.977710857491036
+        },
+        "S12": {
+          "margin": -0.8783891797065735,
+          "R": -1.9589505753321927
+        },
+        "S18": {
+          "margin": -0.6276962161064148,
+          "R": 0.012378899018068478
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0011",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2324881",
+      "target_image_id": "2321891",
+      "m_source": -0.8808032274246216,
+      "m_target": -0.12679433822631836,
+      "delta": -0.7540088891983032,
+      "patch": {
+        "S0": {
+          "margin": -0.8808032274246216,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.8808032274246216,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.5019934177398682,
+          "R": 0.49760564482532643
+        },
+        "S12": {
+          "margin": -0.7510716915130615,
+          "R": 0.8279442884957278
+        },
+        "S18": {
+          "margin": -0.12642168998718262,
+          "R": -0.0004942226072851194
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0012",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2328930",
+      "target_image_id": "2336137",
+      "m_source": 0.6233218312263489,
+      "m_target": -0.0006464719772338867,
+      "delta": 0.6239683032035828,
+      "patch": {
+        "S0": {
+          "margin": 0.6233218312263489,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.6233218312263489,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.6240988373756409,
+          "R": 1.0012452654170134
+        },
+        "S12": {
+          "margin": 0.37430745363235474,
+          "R": 0.6009182256286054
+        },
+        "S18": {
+          "margin": 0.12392836809158325,
+          "R": 0.19964930819277849
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0013",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2354629",
+      "target_image_id": "2349434",
+      "m_source": -0.12737315893173218,
+      "m_target": -0.12568676471710205,
+      "delta": -0.001686394214630127,
+      "patch": {
+        "S0": {
+          "margin": -0.12737315893173218,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.12737315893173218,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.37743353843688965,
+          "R": 149.28109426359876
+        },
+        "S12": {
+          "margin": -0.00048613548278808594,
+          "R": -74.24161453363023
+        },
+        "S18": {
+          "margin": -0.12568676471710205,
+          "R": -0.0
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0014",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2339668",
+      "target_image_id": "2338191",
+      "m_source": -0.00452953577041626,
+      "m_target": 1.624192476272583,
+      "delta": -1.6287220120429993,
+      "patch": {
+        "S0": {
+          "margin": -0.00452953577041626,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.00452953577041626,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.002253234386444092,
+          "R": 0.9986024003070254
+        },
+        "S12": {
+          "margin": 0.24740999937057495,
+          "R": 0.8453145881997572
+        },
+        "S18": {
+          "margin": 1.748785138130188,
+          "R": -0.07649719285203328
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0015",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2387706",
+      "target_image_id": "2400591",
+      "m_source": -0.7536994814872742,
+      "m_target": 0.7491714954376221,
+      "delta": -1.5028709769248962,
+      "patch": {
+        "S0": {
+          "margin": -0.7536994814872742,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.7536994814872742,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.3767838478088379,
+          "R": 0.7492029326099149
+        },
+        "S12": {
+          "margin": -0.1259046196937561,
+          "R": 0.5822696216556911
+        },
+        "S18": {
+          "margin": 0.7489368915557861,
+          "R": 0.00015610380760427812
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0016",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2318392",
+      "target_image_id": "3898",
+      "m_source": 0.24866539239883423,
+      "m_target": -0.002335786819458008,
+      "delta": 0.25100117921829224,
+      "patch": {
+        "S0": {
+          "margin": 0.24866539239883423,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.24866539239883423,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.3738212585449219,
+          "R": 1.4986266062010862
+        },
+        "S12": {
+          "margin": 0.24900180101394653,
+          "R": 1.0013402670702982
+        },
+        "S18": {
+          "margin": -0.0026947855949401855,
+          "R": -0.0014302672863937484
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0017",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "150507",
+      "target_image_id": "2398067",
+      "m_source": 0.370830237865448,
+      "m_target": -0.876459538936615,
+      "delta": 1.247289776802063,
+      "patch": {
+        "S0": {
+          "margin": 0.370830237865448,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.370830237865448,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.37309449911117554,
+          "R": 1.0018153449886624
+        },
+        "S12": {
+          "margin": 0.4989856779575348,
+          "R": 1.1027471261896058
+        },
+        "S18": {
+          "margin": -0.7522737979888916,
+          "R": 0.09956446629918211
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0018",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2378560",
+      "target_image_id": "2362398",
+      "m_source": -0.8762894868850708,
+      "m_target": 0.873984694480896,
+      "delta": -1.7502741813659668,
+      "patch": {
+        "S0": {
+          "margin": -0.8762894868850708,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.8762894868850708,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.875784695148468,
+          "R": 0.9997115927653067
+        },
+        "S12": {
+          "margin": -0.8763344287872314,
+          "R": 1.0000256770639933
+        },
+        "S18": {
+          "margin": 0.623605489730835,
+          "R": 0.14305141869524554
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0019",
+      "task": "spatial",
+      "group": "man|to the left of|person",
+      "question": "Is the man to the left of the person?",
+      "source_image_id": "2395374",
+      "target_image_id": "2391104",
+      "m_source": -0.5027561187744141,
+      "m_target": -0.7518557906150818,
+      "delta": 0.24909967184066772,
+      "patch": {
+        "S0": {
+          "margin": -0.5027561187744141,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5027561187744141,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7542794346809387,
+          "R": -0.00972961565122886
+        },
+        "S12": {
+          "margin": -1.0044602155685425,
+          "R": -1.0140696817739476
+        },
+        "S18": {
+          "margin": -0.7525513768196106,
+          "R": -0.0027924011275844963
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0000",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2327999",
+      "target_image_id": "2379799",
+      "m_source": 0.1238563060760498,
+      "m_target": -0.6260848641395569,
+      "delta": 0.7499411702156067,
+      "patch": {
+        "S0": {
+          "margin": 0.1238563060760498,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.1238563060760498,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.12589192390441895,
+          "R": 0.6669762377378661
+        },
+        "S12": {
+          "margin": -0.2509584426879883,
+          "R": 0.5002077980913096
+        },
+        "S18": {
+          "margin": -0.6268523335456848,
+          "R": -0.0010233728145732867
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0001",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2394560",
+      "target_image_id": "2272",
+      "m_source": -0.751851499080658,
+      "m_target": -1.2586888074874878,
+      "delta": 0.5068373084068298,
+      "patch": {
+        "S0": {
+          "margin": -0.751851499080658,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.751851499080658,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8769112825393677,
+          "R": 0.7532545821225806
+        },
+        "S12": {
+          "margin": -1.0011231899261475,
+          "R": 0.508182040447971
+        },
+        "S18": {
+          "margin": -1.0058175325393677,
+          "R": 0.49892000993964825
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0002",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "713572",
+      "target_image_id": "2358390",
+      "m_source": 0.3715221881866455,
+      "m_target": 0.7450976371765137,
+      "delta": -0.37357544898986816,
+      "patch": {
+        "S0": {
+          "margin": 0.3715221881866455,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.3715221881866455,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.24606823921203613,
+          "R": 1.3358195762431162
+        },
+        "S12": {
+          "margin": 0.7425686717033386,
+          "R": 0.006769624395857013
+        },
+        "S18": {
+          "margin": 0.8708572387695312,
+          "R": -0.3366377580032791
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0003",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2352342",
+      "target_image_id": "2377973",
+      "m_source": 1.132228136062622,
+      "m_target": 1.4995431900024414,
+      "delta": -0.36731505393981934,
+      "patch": {
+        "S0": {
+          "margin": 1.132228136062622,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 1.132228136062622,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.7500053644180298,
+          "R": 2.0405856431553047
+        },
+        "S12": {
+          "margin": 0.8773959875106812,
+          "R": 1.6937699552975372
+        },
+        "S18": {
+          "margin": 1.4999996423721313,
+          "R": -0.0012426726451694144
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0004",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2350568",
+      "target_image_id": "2353765",
+      "m_source": -1.0154931545257568,
+      "m_target": -0.8764421343803406,
+      "delta": -0.13905102014541626,
+      "patch": {
+        "S0": {
+          "margin": -1.0154931545257568,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.0154931545257568,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.007765293121338,
+          "R": 0.9444242739367368
+        },
+        "S12": {
+          "margin": -0.12811583280563354,
+          "R": -5.381667108893737
+        },
+        "S18": {
+          "margin": -1.0025285482406616,
+          "R": 0.9067636737110081
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0005",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2346644",
+      "target_image_id": "2400997",
+      "m_source": -0.7560091018676758,
+      "m_target": -0.7552903890609741,
+      "delta": -0.0007187128067016602,
+      "patch": {
+        "S0": {
+          "margin": -0.7560091018676758,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.7560091018676758,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7715157270431519,
+          "R": 22.575551501078124
+        },
+        "S12": {
+          "margin": -0.5189588069915771,
+          "R": -328.8261734947753
+        },
+        "S18": {
+          "margin": -0.755459189414978,
+          "R": 0.23486482003649028
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0006",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2374661",
+      "target_image_id": "2323780",
+      "m_source": -0.6462302207946777,
+      "m_target": -0.7532651424407959,
+      "delta": 0.10703492164611816,
+      "patch": {
+        "S0": {
+          "margin": -0.6462302207946777,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6462302207946777,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.26269054412841797,
+          "R": 4.583313471600692
+        },
+        "S12": {
+          "margin": -0.38339555263519287,
+          "R": 3.455597333256114
+        },
+        "S18": {
+          "margin": -0.8785464763641357,
+          "R": -1.1704715806449457
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0007",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2369041",
+      "target_image_id": "2368559",
+      "m_source": -1.0039951801300049,
+      "m_target": -0.26044362783432007,
+      "delta": -0.7435515522956848,
+      "patch": {
+        "S0": {
+          "margin": -1.0039951801300049,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.0039951801300049,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.004016399383545,
+          "R": 1.0000285377032359
+        },
+        "S12": {
+          "margin": -0.8803611993789673,
+          "R": 0.8337250720957776
+        },
+        "S18": {
+          "margin": -0.5086922645568848,
+          "R": 0.33386876263805415
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0008",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2379879",
+      "target_image_id": "2409866",
+      "m_source": -1.0064518451690674,
+      "m_target": -1.0026862621307373,
+      "delta": -0.003765583038330078,
+      "patch": {
+        "S0": {
+          "margin": -1.0064518451690674,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.0064518451690674,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1285432577133179,
+          "R": 33.42297707990376
+        },
+        "S12": {
+          "margin": -1.127922534942627,
+          "R": 33.25813600101304
+        },
+        "S18": {
+          "margin": -1.0028572082519531,
+          "R": 0.04539698619729011
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0009",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2341861",
+      "target_image_id": "2861",
+      "m_source": -2.0069727897644043,
+      "m_target": -0.005148351192474365,
+      "delta": -2.00182443857193,
+      "patch": {
+        "S0": {
+          "margin": -2.0069727897644043,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -2.0069727897644043,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.6294127702713013,
+          "R": 0.8113920420701586
+        },
+        "S12": {
+          "margin": -0.8777118921279907,
+          "R": 0.43588414854101265
+        },
+        "S18": {
+          "margin": 0.11995786428451538,
+          "R": -0.06249609759297301
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0010",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2372693",
+      "target_image_id": "285915",
+      "m_source": -1.3733365535736084,
+      "m_target": -0.7579232454299927,
+      "delta": -0.6154133081436157,
+      "patch": {
+        "S0": {
+          "margin": -1.3733365535736084,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.3733365535736084,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.6256999969482422,
+          "R": 1.4100714756004937
+        },
+        "S12": {
+          "margin": -1.6255459785461426,
+          "R": 1.4098212073660217
+        },
+        "S18": {
+          "margin": -0.8790203332901001,
+          "R": 0.19677359305958922
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0011",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2324881",
+      "target_image_id": "2321891",
+      "m_source": -1.1519453525543213,
+      "m_target": -0.13317477703094482,
+      "delta": -1.0187705755233765,
+      "patch": {
+        "S0": {
+          "margin": -1.1519453525543213,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.1519453525543213,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7609919309616089,
+          "R": 0.6162497906931925
+        },
+        "S12": {
+          "margin": -0.8795233964920044,
+          "R": 0.7325973456561948
+        },
+        "S18": {
+          "margin": -0.1301490068435669,
+          "R": -0.0029700211805032653
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0012",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2328930",
+      "target_image_id": "2336137",
+      "m_source": -1.2522258758544922,
+      "m_target": -0.7505757808685303,
+      "delta": -0.5016500949859619,
+      "patch": {
+        "S0": {
+          "margin": -1.2522258758544922,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.2522258758544922,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.2522780895233154,
+          "R": 1.0001040838411974
+        },
+        "S12": {
+          "margin": -1.1263004541397095,
+          "R": 0.7489775782494239
+        },
+        "S18": {
+          "margin": -0.6269311904907227,
+          "R": -0.24647576391123313
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0013",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2354629",
+      "target_image_id": "2349434",
+      "m_source": 0.3701677918434143,
+      "m_target": -0.37648046016693115,
+      "delta": 0.7466482520103455,
+      "patch": {
+        "S0": {
+          "margin": 0.3701677918434143,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.3701677918434143,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.36991220712661743,
+          "R": 0.9996576905978033
+        },
+        "S12": {
+          "margin": 0.6228509545326233,
+          "R": 1.3384232963900489
+        },
+        "S18": {
+          "margin": -0.12763750553131104,
+          "R": 0.33328003375834886
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0014",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2339668",
+      "target_image_id": "2338191",
+      "m_source": -0.380545973777771,
+      "m_target": 0.6210224628448486,
+      "delta": -1.0015684366226196,
+      "patch": {
+        "S0": {
+          "margin": -0.380545973777771,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.380545973777771,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.2565953731536865,
+          "R": 0.8762435035971609
+        },
+        "S12": {
+          "margin": -0.25744473934173584,
+          "R": 0.8770915396943381
+        },
+        "S18": {
+          "margin": 0.8689917325973511,
+          "R": -0.24758095471606265
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0015",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2387706",
+      "target_image_id": "2400591",
+      "m_source": -1.262315273284912,
+      "m_target": -0.5025580525398254,
+      "delta": -0.7597572207450867,
+      "patch": {
+        "S0": {
+          "margin": -1.262315273284912,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.262315273284912,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.2552891969680786,
+          "R": 0.9907522085674381
+        },
+        "S12": {
+          "margin": -1.0013853311538696,
+          "R": 0.6565614185605884
+        },
+        "S18": {
+          "margin": -0.6258457899093628,
+          "R": 0.16227254444338185
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0016",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2318392",
+      "target_image_id": "3898",
+      "m_source": 0.24731868505477905,
+      "m_target": -1.2614905834197998,
+      "delta": 1.5088092684745789,
+      "patch": {
+        "S0": {
+          "margin": 0.24731868505477905,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.24731868505477905,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.24771910905838013,
+          "R": 1.0002653907368995
+        },
+        "S12": {
+          "margin": -0.5036590099334717,
+          "R": 0.5022712872466003
+        },
+        "S18": {
+          "margin": -1.3839091062545776,
+          "R": -0.08113585023145051
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0017",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "150507",
+      "target_image_id": "2398067",
+      "m_source": -0.5322091579437256,
+      "m_target": -1.252732515335083,
+      "delta": 0.7205233573913574,
+      "patch": {
+        "S0": {
+          "margin": -0.5322091579437256,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5322091579437256,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.63880455493927,
+          "R": 0.8520583740942539
+        },
+        "S12": {
+          "margin": -0.7574591040611267,
+          "R": 0.6873800914200551
+        },
+        "S18": {
+          "margin": -1.2535319328308105,
+          "R": -0.001109495601394265
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0018",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2378560",
+      "target_image_id": "2362398",
+      "m_source": -1.0040054321289062,
+      "m_target": 0.9992895126342773,
+      "delta": -2.0032949447631836,
+      "patch": {
+        "S0": {
+          "margin": -1.0040054321289062,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.0040054321289062,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.378330945968628,
+          "R": 1.1868549186020994
+        },
+        "S12": {
+          "margin": -1.1298083066940308,
+          "R": 1.06279797934597
+        },
+        "S18": {
+          "margin": 0.7478756904602051,
+          "R": 0.12550015305099907
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0019",
+      "task": "spatial",
+      "group": "person|to the right of|man",
+      "question": "Is the person to the right of the man?",
+      "source_image_id": "2395374",
+      "target_image_id": "2391104",
+      "m_source": -1.254777431488037,
+      "m_target": -0.628898024559021,
+      "delta": -0.6258794069290161,
+      "patch": {
+        "S0": {
+          "margin": -1.254777431488037,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.254777431488037,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.2544268369674683,
+          "R": 0.9994398369451247
+        },
+        "S12": {
+          "margin": -1.0065793991088867,
+          "R": 0.6034411267867459
+        },
+        "S18": {
+          "margin": -0.6297357082366943,
+          "R": 0.0013384106720870997
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0000",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2327592",
+      "target_image_id": "2367922",
+      "m_source": 2.0187294483184814,
+      "m_target": -0.24860268831253052,
+      "delta": 2.267332136631012,
+      "patch": {
+        "S0": {
+          "margin": 2.0187294483184814,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.0187294483184814,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.8806358575820923,
+          "R": 0.9390942383317603
+        },
+        "S12": {
+          "margin": 0.38063931465148926,
+          "R": 0.2775252874503861
+        },
+        "S18": {
+          "margin": -0.24575746059417725,
+          "R": 0.0012548791032358161
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0001",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "3810",
+      "target_image_id": "2317403",
+      "m_source": 2.499910593032837,
+      "m_target": -1.1260195970535278,
+      "delta": 3.6259301900863647,
+      "patch": {
+        "S0": {
+          "margin": 2.499910593032837,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 2.499910593032837,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 2.3749940395355225,
+          "R": 0.9655491013481594
+        },
+        "S12": {
+          "margin": 0.7499989867210388,
+          "R": 0.5173896036122754
+        },
+        "S18": {
+          "margin": -0.7539364695549011,
+          "R": 0.10261728935541481
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0002",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2374317",
+      "target_image_id": "2357869",
+      "m_source": 4.0016279220581055,
+      "m_target": 0.6274377107620239,
+      "delta": 3.3741902112960815,
+      "patch": {
+        "S0": {
+          "margin": 4.0016279220581055,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 4.0016279220581055,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 3.127606153488159,
+          "R": 0.7409684357319559
+        },
+        "S12": {
+          "margin": 0.8757081031799316,
+          "R": 0.07357925216745353
+        },
+        "S18": {
+          "margin": 0.7492904663085938,
+          "R": 0.03611318506545136
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0003",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2389837",
+      "target_image_id": "2365375",
+      "m_source": -1.126556396484375,
+      "m_target": -1.0010855197906494,
+      "delta": -0.12547087669372559,
+      "patch": {
+        "S0": {
+          "margin": -1.126556396484375,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.126556396484375,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1266613006591797,
+          "R": 1.0008360838592112
+        },
+        "S12": {
+          "margin": -1.2499983310699463,
+          "R": 1.983829378086622
+        },
+        "S18": {
+          "margin": -0.8782721757888794,
+          "R": -0.9788195255984176
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0004",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "713542",
+      "target_image_id": "2355633",
+      "m_source": -0.00393986701965332,
+      "m_target": -0.8772574663162231,
+      "delta": 0.8733175992965698,
+      "patch": {
+        "S0": {
+          "margin": -0.00393986701965332,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.00393986701965332,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.006398499011993408,
+          "R": 0.9971847218075984
+        },
+        "S12": {
+          "margin": -0.3784446120262146,
+          "R": 0.5711700470616724
+        },
+        "S18": {
+          "margin": -0.8790217638015747,
+          "R": -0.002020224356834958
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0005",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2350250",
+      "target_image_id": "2386569",
+      "m_source": -0.8784818053245544,
+      "m_target": 0.4987660050392151,
+      "delta": -1.3772478103637695,
+      "patch": {
+        "S0": {
+          "margin": -0.8784818053245544,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.8784818053245544,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7531428337097168,
+          "R": 0.9089931596393447
+        },
+        "S12": {
+          "margin": -1.1265743970870972,
+          "R": 1.1801364938797867
+        },
+        "S18": {
+          "margin": 0.24647706747055054,
+          "R": 0.1831834007432751
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0006",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2349040",
+      "target_image_id": "2321728",
+      "m_source": -1.5015649795532227,
+      "m_target": -0.7482315301895142,
+      "delta": -0.7533334493637085,
+      "patch": {
+        "S0": {
+          "margin": -1.5015649795532227,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.5015649795532227,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.3763954639434814,
+          "R": 0.8338458013307869
+        },
+        "S12": {
+          "margin": -1.6254889965057373,
+          "R": 1.1645008821222331
+        },
+        "S18": {
+          "margin": -0.6244816780090332,
+          "R": -0.16426968998257593
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0007",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2344867",
+      "target_image_id": "2363826",
+      "m_source": 0.49861469864845276,
+      "m_target": 1.251459002494812,
+      "delta": -0.7528443038463593,
+      "patch": {
+        "S0": {
+          "margin": 0.49861469864845276,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.49861469864845276,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.875004231929779,
+          "R": 0.5000433272081447
+        },
+        "S12": {
+          "margin": 0.9993746280670166,
+          "R": 0.3348426402907883
+        },
+        "S18": {
+          "margin": 1.5007513761520386,
+          "R": -0.3311340371223719
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0008",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2395949",
+      "target_image_id": "2395097",
+      "m_source": -1.7510735988616943,
+      "m_target": 0.626583456993103,
+      "delta": -2.3776570558547974,
+      "patch": {
+        "S0": {
+          "margin": -1.7510735988616943,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.7510735988616943,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.2515562772750854,
+          "R": 0.789911955403078
+        },
+        "S12": {
+          "margin": -1.2481242418289185,
+          "R": 0.7884685027244355
+        },
+        "S18": {
+          "margin": 0.5025456547737122,
+          "R": 0.05216807946039036
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0009",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2391104",
+      "target_image_id": "2391016",
+      "m_source": -0.119320809841156,
+      "m_target": 1.3768759965896606,
+      "delta": -1.4961968064308167,
+      "patch": {
+        "S0": {
+          "margin": -0.119320809841156,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.119320809841156,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.0014883875846862793,
+          "R": 0.9192558111963672
+        },
+        "S12": {
+          "margin": 0.24947816133499146,
+          "R": 0.7535090506870424
+        },
+        "S18": {
+          "margin": 1.375516414642334,
+          "R": 0.0009086919190597313
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0010",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2410596",
+      "target_image_id": "2344624",
+      "m_source": -1.1242468357086182,
+      "m_target": -0.5023932456970215,
+      "delta": -0.6218535900115967,
+      "patch": {
+        "S0": {
+          "margin": -1.1242468357086182,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.1242468357086182,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8753597736358643,
+          "R": 0.5997658193657569
+        },
+        "S12": {
+          "margin": -0.7480100393295288,
+          "R": 0.39497527646005376
+        },
+        "S18": {
+          "margin": -0.49883776903152466,
+          "R": -0.005717546256234561
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0011",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2361351",
+      "target_image_id": "2344439",
+      "m_source": -1.1256669759750366,
+      "m_target": 1.7557551860809326,
+      "delta": -2.8814221620559692,
+      "patch": {
+        "S0": {
+          "margin": -1.1256669759750366,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.1256669759750366,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8758370280265808,
+          "R": 0.913296305123788
+        },
+        "S12": {
+          "margin": -0.3753795027732849,
+          "R": 0.7396120974281665
+        },
+        "S18": {
+          "margin": 1.8784823417663574,
+          "R": -0.042592563249342054
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0012",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2392384",
+      "target_image_id": "2361675",
+      "m_source": 0.5044480562210083,
+      "m_target": -0.7542837262153625,
+      "delta": 1.2587317824363708,
+      "patch": {
+        "S0": {
+          "margin": 0.5044480562210083,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.5044480562210083,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.6277025938034058,
+          "R": 1.0979196198127523
+        },
+        "S12": {
+          "margin": -0.6235184669494629,
+          "R": 0.10388651584914586
+        },
+        "S18": {
+          "margin": -0.6298432350158691,
+          "R": 0.09886180116833898
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0013",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2332111",
+      "target_image_id": "2380732",
+      "m_source": -0.750956654548645,
+      "m_target": -1.2467526197433472,
+      "delta": 0.49579596519470215,
+      "patch": {
+        "S0": {
+          "margin": -0.750956654548645,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.750956654548645,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8749951124191284,
+          "R": 0.7498195496170028
+        },
+        "S12": {
+          "margin": -0.6237590312957764,
+          "R": 1.2565523565786128
+        },
+        "S18": {
+          "margin": -1.2452648878097534,
+          "R": 0.0030006939104667953
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0014",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "3121",
+      "target_image_id": "2363956",
+      "m_source": -0.6281180381774902,
+      "m_target": 2.252699136734009,
+      "delta": -2.880817174911499,
+      "patch": {
+        "S0": {
+          "margin": -0.6281180381774902,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6281180381774902,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.5029550790786743,
+          "R": 0.9565529669189573
+        },
+        "S12": {
+          "margin": -0.6274359226226807,
+          "R": 0.999763221505082
+        },
+        "S18": {
+          "margin": 2.2470972537994385,
+          "R": 0.0019445464930423454
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0015",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2383409",
+      "target_image_id": "2395374",
+      "m_source": -0.8762164115905762,
+      "m_target": -0.6267668604850769,
+      "delta": -0.24944955110549927,
+      "patch": {
+        "S0": {
+          "margin": -0.8762164115905762,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.8762164115905762,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8750002384185791,
+          "R": 0.9951245726175602
+        },
+        "S12": {
+          "margin": -0.8757541179656982,
+          "R": 0.9981467450118504
+        },
+        "S18": {
+          "margin": -0.6271300315856934,
+          "R": 0.001455889974573896
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0016",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2360441",
+      "target_image_id": "2377810",
+      "m_source": -1.127543568611145,
+      "m_target": -0.50559002161026,
+      "delta": -0.621953547000885,
+      "patch": {
+        "S0": {
+          "margin": -1.127543568611145,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.127543568611145,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1319916248321533,
+          "R": 1.0071517499055311
+        },
+        "S12": {
+          "margin": -0.7499967813491821,
+          "R": 0.39296626077216396
+        },
+        "S18": {
+          "margin": -0.5043913722038269,
+          "R": -0.0019272330099459982
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0017",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2328273",
+      "target_image_id": "4343",
+      "m_source": 0.9999956488609314,
+      "m_target": -0.12499785423278809,
+      "delta": 1.1249935030937195,
+      "patch": {
+        "S0": {
+          "margin": 0.9999956488609314,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.9999956488609314,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 1.1267766952514648,
+          "R": 1.1126949142745153
+        },
+        "S12": {
+          "margin": 0.8773946762084961,
+          "R": 0.8910207282839554
+        },
+        "S18": {
+          "margin": -0.0005196928977966309,
+          "R": 0.11064789351465401
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0018",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2318396",
+      "target_image_id": "2403961",
+      "m_source": 0.12499821186065674,
+      "m_target": -1.5008912086486816,
+      "delta": 1.6258894205093384,
+      "patch": {
+        "S0": {
+          "margin": 0.12499821186065674,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.12499821186065674,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.500693142414093,
+          "R": 1.23107040725792
+        },
+        "S12": {
+          "margin": -0.750576913356781,
+          "R": 0.46147928993648996
+        },
+        "S18": {
+          "margin": -1.3758344650268555,
+          "R": 0.0769158972586524
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0019",
+      "task": "spatial",
+      "group": "tree|to the left of|building",
+      "question": "Is the tree to the left of the building?",
+      "source_image_id": "2400631",
+      "target_image_id": "2405227",
+      "m_source": 0.004731237888336182,
+      "m_target": 0.3795124292373657,
+      "delta": -0.37478119134902954,
+      "patch": {
+        "S0": {
+          "margin": 0.004731237888336182,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.004731237888336182,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.12124747037887573,
+          "R": 1.336139355909911
+        },
+        "S12": {
+          "margin": -0.24575453996658325,
+          "R": 1.6683520508414331
+        },
+        "S18": {
+          "margin": 0.1258554458618164,
+          "R": 0.6768135360862371
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2335072",
+      "target_image_id": "2372163",
+      "m_source": -0.37655407190322876,
+      "m_target": -1.0162588357925415,
+      "delta": 0.6397047638893127,
+      "patch": {
+        "S0": {
+          "margin": -0.37655407190322876,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.37655407190322876,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.37823742628097534,
+          "R": 0.9973685448776213
+        },
+        "S12": {
+          "margin": -1.25895094871521,
+          "R": -0.3793814375355522
+        },
+        "S18": {
+          "margin": -0.7570858001708984,
+          "R": 0.40514476404069333
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2389312",
+      "target_image_id": "2386194",
+      "m_source": -1.5033389329910278,
+      "m_target": -1.3763132095336914,
+      "delta": -0.12702572345733643,
+      "patch": {
+        "S0": {
+          "margin": -1.5033389329910278,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.5033389329910278,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.502716064453125,
+          "R": 0.9950965165090201
+        },
+        "S12": {
+          "margin": -1.50229012966156,
+          "R": 0.9917433784203556
+        },
+        "S18": {
+          "margin": -1.3765919208526611,
+          "R": 0.0021941328998872902
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "575",
+      "target_image_id": "2316450",
+      "m_source": 0.3679124116897583,
+      "m_target": -0.8757076263427734,
+      "delta": 1.2436200380325317,
+      "patch": {
+        "S0": {
+          "margin": 0.3679124116897583,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.3679124116897583,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.37110209465026855,
+          "R": 1.0025648372195388
+        },
+        "S12": {
+          "margin": -0.2528705596923828,
+          "R": 0.5008258532370945
+        },
+        "S18": {
+          "margin": -0.8783141374588013,
+          "R": -0.0020959063349859346
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2363630",
+      "target_image_id": "2364614",
+      "m_source": -0.5049483776092529,
+      "m_target": -1.6285282373428345,
+      "delta": 1.1235798597335815,
+      "patch": {
+        "S0": {
+          "margin": -0.5049483776092529,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5049483776092529,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7562811374664307,
+          "R": 0.7763107288904478
+        },
+        "S12": {
+          "margin": -1.0091644525527954,
+          "R": 0.5512414444104577
+        },
+        "S18": {
+          "margin": -1.628989815711975,
+          "R": -0.0004108104690040212
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2362398",
+      "target_image_id": "2384655",
+      "m_source": -0.37688350677490234,
+      "m_target": -0.6339351534843445,
+      "delta": 0.25705164670944214,
+      "patch": {
+        "S0": {
+          "margin": -0.37688350677490234,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.37688350677490234,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.5032781362533569,
+          "R": 0.5082909170337877
+        },
+        "S12": {
+          "margin": -0.6291505098342896,
+          "R": 0.0186135498889188
+        },
+        "S18": {
+          "margin": -0.5109239220619202,
+          "R": 0.4785467550864198
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0005",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2358723",
+      "target_image_id": "2340079",
+      "m_source": -1.8777234554290771,
+      "m_target": -1.3743717670440674,
+      "delta": -0.5033516883850098,
+      "patch": {
+        "S0": {
+          "margin": -1.8777234554290771,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.8777234554290771,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -2.1263914108276367,
+          "R": 1.4940242799153092
+        },
+        "S12": {
+          "margin": -1.6260592937469482,
+          "R": 0.5000232094391368
+        },
+        "S18": {
+          "margin": -1.3772895336151123,
+          "R": 0.005796675839921182
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0006",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2381398",
+      "target_image_id": "2356041",
+      "m_source": -0.6335372924804688,
+      "m_target": -1.629696011543274,
+      "delta": 0.9961587190628052,
+      "patch": {
+        "S0": {
+          "margin": -0.6335372924804688,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6335372924804688,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.8831443190574646,
+          "R": 0.749430465446482
+        },
+        "S12": {
+          "margin": -2.0012269020080566,
+          "R": -0.3729635482328782
+        },
+        "S18": {
+          "margin": -1.7508498430252075,
+          "R": -0.12162101195672531
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0007",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2343911",
+      "target_image_id": "2320162",
+      "m_source": -1.7535252571105957,
+      "m_target": -1.6270323991775513,
+      "delta": -0.12649285793304443,
+      "patch": {
+        "S0": {
+          "margin": -1.7535252571105957,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.7535252571105957,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.5034434795379639,
+          "R": -0.9770426699111016
+        },
+        "S12": {
+          "margin": -1.5024793148040771,
+          "R": -0.9846649558617999
+        },
+        "S18": {
+          "margin": -1.5039952993392944,
+          "R": -0.9726802117427309
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0008",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "4622",
+      "target_image_id": "2393682",
+      "m_source": -1.39004647731781,
+      "m_target": -0.8963527679443359,
+      "delta": -0.4936937093734741,
+      "patch": {
+        "S0": {
+          "margin": -1.39004647731781,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.39004647731781,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.266913890838623,
+          "R": 0.7505891119507085
+        },
+        "S12": {
+          "margin": -1.0213137865066528,
+          "R": 0.2531144638664723
+        },
+        "S18": {
+          "margin": -0.7769403457641602,
+          "R": -0.24187551899682305
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0009",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2410307",
+      "target_image_id": "2342838",
+      "m_source": -0.7600725889205933,
+      "m_target": -1.1312922239303589,
+      "delta": 0.3712196350097656,
+      "patch": {
+        "S0": {
+          "margin": -0.7600725889205933,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.7600725889205933,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.7669534683227539,
+          "R": 0.9814641286364617
+        },
+        "S12": {
+          "margin": -0.7715246677398682,
+          "R": 0.9691501263962677
+        },
+        "S18": {
+          "margin": -1.136881709098816,
+          "R": -0.015057083842857583
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0010",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2378945",
+      "target_image_id": "2365993",
+      "m_source": -0.5016771554946899,
+      "m_target": -1.249983310699463,
+      "delta": 0.748306155204773,
+      "patch": {
+        "S0": {
+          "margin": -0.5016771554946899,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5016771554946899,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.624999463558197,
+          "R": 0.8351980573649563
+        },
+        "S12": {
+          "margin": -1.1231046915054321,
+          "R": 0.1695544240970604
+        },
+        "S18": {
+          "margin": -1.3660353422164917,
+          "R": -0.15508629818135242
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0011",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2337449",
+      "target_image_id": "2364335",
+      "m_source": -1.3853950500488281,
+      "m_target": -1.0190041065216064,
+      "delta": -0.3663909435272217,
+      "patch": {
+        "S0": {
+          "margin": -1.3853950500488281,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -1.3853950500488281,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -1.1400450468063354,
+          "R": 0.3303600769153183
+        },
+        "S12": {
+          "margin": -1.8855464458465576,
+          "R": 2.3650757602870986
+        },
+        "S18": {
+          "margin": -0.8839587569236755,
+          "R": -0.3685826628187317
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0012",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2319473",
+      "target_image_id": "2333167",
+      "m_source": -0.25628191232681274,
+      "m_target": -1.1275553703308105,
+      "delta": 0.8712734580039978,
+      "patch": {
+        "S0": {
+          "margin": -0.25628191232681274,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.25628191232681274,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.004189848899841309,
+          "R": 1.289337476209237
+        },
+        "S12": {
+          "margin": -0.6292493343353271,
+          "R": 0.5719284013736098
+        },
+        "S18": {
+          "margin": -1.1288905143737793,
+          "R": -0.001532405274949422
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0013",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2381592",
+      "target_image_id": "2329177",
+      "m_source": -2.005755662918091,
+      "m_target": -1.6368790864944458,
+      "delta": -0.368876576423645,
+      "patch": {
+        "S0": {
+          "margin": -2.005755662918091,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -2.005755662918091,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -2.1313977241516113,
+          "R": 1.3406073176335922
+        },
+        "S12": {
+          "margin": -2.1400492191314697,
+          "R": 1.3640609482862536
+        },
+        "S18": {
+          "margin": -1.8855371475219727,
+          "R": 0.6740955564008208
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0014",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2367682",
+      "target_image_id": "2342480",
+      "m_source": 0.4962999224662781,
+      "m_target": -1.1160483360290527,
+      "delta": 1.6123482584953308,
+      "patch": {
+        "S0": {
+          "margin": 0.4962999224662781,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": 0.4962999224662781,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": 0.11605393886566162,
+          "R": 0.7641663445864555
+        },
+        "S12": {
+          "margin": -0.508948028087616,
+          "R": 0.3765317478669233
+        },
+        "S18": {
+          "margin": -0.8919165730476379,
+          "R": 0.1390095234081613
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0015",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2367678",
+      "target_image_id": "2416649",
+      "m_source": -0.3786431550979614,
+      "m_target": -0.8771162629127502,
+      "delta": 0.4984731078147888,
+      "patch": {
+        "S0": {
+          "margin": -0.3786431550979614,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.3786431550979614,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.24104493856430054,
+          "R": 1.2760393978661462
+        },
+        "S12": {
+          "margin": -0.6149481534957886,
+          "R": 0.5259423333111324
+        },
+        "S18": {
+          "margin": -0.7509657144546509,
+          "R": 0.25307393012858675
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0016",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2317127",
+      "target_image_id": "2343402",
+      "m_source": -0.6300240159034729,
+      "m_target": -1.5035268068313599,
+      "delta": 0.873502790927887,
+      "patch": {
+        "S0": {
+          "margin": -0.6300240159034729,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.6300240159034729,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.6463143825531006,
+          "R": 0.9813505270746495
+        },
+        "S12": {
+          "margin": -0.6301489472389221,
+          "R": 0.9998569766041429
+        },
+        "S18": {
+          "margin": -1.5027258396148682,
+          "R": 0.0009169601114163171
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0017",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2334334",
+      "target_image_id": "2399389",
+      "m_source": -0.2539878487586975,
+      "m_target": -1.0058144330978394,
+      "delta": 0.7518265843391418,
+      "patch": {
+        "S0": {
+          "margin": -0.2539878487586975,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.2539878487586975,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.12870049476623535,
+          "R": 1.1666439530102413
+        },
+        "S12": {
+          "margin": -0.2632497549057007,
+          "R": 0.9876807945609632
+        },
+        "S18": {
+          "margin": -0.6289349794387817,
+          "R": 0.5012850855630969
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0018",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2374146",
+      "target_image_id": "2452",
+      "m_source": -0.5147992372512817,
+      "m_target": -1.004840612411499,
+      "delta": 0.4900413751602173,
+      "patch": {
+        "S0": {
+          "margin": -0.5147992372512817,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.5147992372512817,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.518968939781189,
+          "R": 0.9914911214822545
+        },
+        "S12": {
+          "margin": -0.38811105489730835,
+          "R": 1.258525481266869
+        },
+        "S18": {
+          "margin": -1.0090856552124023,
+          "R": -0.00866262119094621
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0019",
+      "task": "spatial",
+      "group": "chair|to the left of|table",
+      "question": "Is the chair to the left of the table?",
+      "source_image_id": "2385021",
+      "target_image_id": "2407481",
+      "m_source": -0.516839325428009,
+      "m_target": -1.2589490413665771,
+      "delta": 0.7421097159385681,
+      "patch": {
+        "S0": {
+          "margin": -0.516839325428009,
+          "R": 1.0
+        },
+        "S1": {
+          "margin": -0.516839325428009,
+          "R": 1.0
+        },
+        "S6": {
+          "margin": -0.763250470161438,
+          "R": 0.6679586057948513
+        },
+        "S12": {
+          "margin": -0.7617974281311035,
+          "R": 0.6699165939455614
+        },
+        "S18": {
+          "margin": -1.2633806467056274,
+          "R": -0.005971630937947646
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "summary": [
+    {
+      "group": "woman|to the left of|man",
+      "n_pairs": 5,
+      "n_blocks_mean": 13,
+      "n_target_crops_mean": 4.6,
+      "global": {
+        "mean": -1.349962830543518,
+        "median": -1.5000638961791992,
+        "n": 5
+      },
+      "crops_all": {
+        "mean": -0.3496927857398987,
+        "median": -0.25,
+        "n": 5
+      },
+      "global_plus_crops": {
+        "mean": -3.3269990205764772,
+        "median": -4.128993988037109,
+        "n": 5
+      },
+      "full": {
+        "mean": -2.6717065572738647,
+        "median": -3.7502174377441406,
+        "n": 5
+      },
+      "random_crops": {
+        "mean": -0.04935520887374878,
+        "median": -7.772445678710938e-05,
+        "n": 5
+      },
+      "cumulative": [
+        {
+          "k": 1,
+          "mean": -0.049528086185455324,
+          "n": 5
+        },
+        {
+          "k": 2,
+          "mean": 0.03132367134094238,
+          "n": 4
+        },
+        {
+          "k": 3,
+          "mean": -0.31263262033462524,
+          "n": 4
+        },
+        {
+          "k": 4,
+          "mean": -0.2503792643547058,
+          "n": 4
+        },
+        {
+          "k": 5,
+          "mean": -0.45855458577473956,
+          "n": 3
+        },
+        {
+          "k": 6,
+          "mean": -0.3752921422322591,
+          "n": 3
+        }
+      ]
+    },
+    {
+      "group": "chair|to the left of|table",
+      "n_pairs": 5,
+      "n_blocks_mean": 13.8,
+      "n_target_crops_mean": 3,
+      "global": {
+        "mean": -0.4784679889678955,
+        "median": -5.960464477539063e-08,
+        "n": 5
+      },
+      "crops_all": {
+        "mean": -0.060235840082168576,
+        "median": -0.12344318628311157,
+        "n": 5
+      },
+      "global_plus_crops": {
+        "mean": -0.8573468685150146,
+        "median": -0.007086396217346191,
+        "n": 5
+      },
+      "full": {
+        "mean": -0.9547593593597412,
+        "median": -0.7582234740257263,
+        "n": 5
+      },
+      "random_crops": {
+        "mean": 0.024808228015899658,
+        "median": 0.0001431107521057129,
+        "n": 5
+      },
+      "cumulative": [
+        {
+          "k": 1,
+          "mean": -0.05389120578765869,
+          "n": 5
+        },
+        {
+          "k": 2,
+          "mean": -0.033449992537498474,
+          "n": 4
+        },
+        {
+          "k": 3,
+          "mean": -0.17591883738835654,
+          "n": 3
+        },
+        {
+          "k": 4,
+          "mean": -0.017578651507695515,
+          "n": 3
+        }
+      ]
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "m_clean": 2.3738555908203125,
+      "delta": {
+        "global": 0.37614011764526367,
+        "crop_cum_1": 0.24957847595214844,
+        "crop_cum_2": 0.12551498413085938,
+        "crop_cum_3": 0.12513351440429688,
+        "crop_cum_4": 0.12484979629516602,
+        "crops_all": 0.12484979629516602,
+        "global_plus_crops": 0.50113844871521,
+        "full": -1.3740792274475098,
+        "random_crops": 0.0005888938903808594
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "m_clean": 5.750657081604004,
+      "delta": {
+        "global": -3.877431035041809,
+        "crop_cum_1": 0.0,
+        "crop_cum_2": -0.00023698806762695312,
+        "crop_cum_3": -0.24991178512573242,
+        "crop_cum_4": -0.25011682510375977,
+        "crop_cum_5": -0.25011634826660156,
+        "crop_cum_6": -0.0005483627319335938,
+        "crops_all": -0.0005483627319335938,
+        "global_plus_crops": -7.757053375244141,
+        "full": -4.750880718231201,
+        "random_crops": -7.772445678710938e-05
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        9
+      ],
+      "m_clean": -0.14224684238433838,
+      "delta": {
+        "global": -0.2474381923675537,
+        "crop_cum_1": -0.7474372982978821,
+        "crops_all": -0.7474372982978821,
+        "global_plus_crops": -0.8743430376052856,
+        "full": 1.391863465309143,
+        "random_crops": -0.12230342626571655
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "m_clean": 5.874995231628418,
+      "delta": {
+        "global": -1.5000638961791992,
+        "crop_cum_1": 0.24999189376831055,
+        "crop_cum_2": 1.71661376953125e-05,
+        "crop_cum_3": -0.125,
+        "crop_cum_4": -0.1249995231628418,
+        "crop_cum_5": -0.25,
+        "crop_cum_6": -0.25,
+        "crops_all": -0.25,
+        "global_plus_crops": -4.37574315071106,
+        "full": -4.875218868255615,
+        "random_crops": 1.71661376953125e-05
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "m_clean": 4.749993801116943,
+      "delta": {
+        "global": -1.501021146774292,
+        "crop_cum_1": 0.00022649765014648438,
+        "crop_cum_2": -4.76837158203125e-07,
+        "crop_cum_3": -1.0007522106170654,
+        "crop_cum_4": -0.7512505054473877,
+        "crop_cum_5": -0.8755474090576172,
+        "crop_cum_6": -0.8753280639648438,
+        "crops_all": -0.8753280639648438,
+        "global_plus_crops": -4.128993988037109,
+        "full": -3.7502174377441406,
+        "random_crops": -0.1250009536743164
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "group": "chair|to the left of|table",
+      "n_blocks": 17,
+      "n_crops": 16,
+      "target_crops": [
+        8,
+        9,
+        12,
+        13
+      ],
+      "m_clean": 1.057011604309082,
+      "delta": {
+        "global": -0.5100082755088806,
+        "crop_cum_1": 0.11604428291320801,
+        "crop_cum_2": 0.09705424308776855,
+        "crop_cum_3": -0.40527307987213135,
+        "crop_cum_4": -0.28106236457824707,
+        "crops_all": -0.28106236457824707,
+        "global_plus_crops": -2.0297513008117676,
+        "full": -1.308010995388031,
+        "random_crops": 0.1206512451171875
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        1
+      ],
+      "m_clean": -0.6274009943008423,
+      "delta": {
+        "global": 0.12451040744781494,
+        "crop_cum_1": -0.12344318628311157,
+        "crops_all": -0.12344318628311157,
+        "global_plus_crops": -0.00015372037887573242,
+        "full": 0.1263377070426941,
+        "random_crops": 0.0001431107521057129
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "m_clean": 2.4567441940307617,
+      "delta": {
+        "global": -2.0148048400878906,
+        "crop_cum_1": -0.1479957103729248,
+        "crop_cum_2": -0.11590981483459473,
+        "crop_cum_3": -0.1325366497039795,
+        "crop_cum_4": 0.10332894325256348,
+        "crops_all": 0.10332894325256348,
+        "global_plus_crops": -2.2647950649261475,
+        "full": -2.95780748128891,
+        "random_crops": -0.12499547004699707
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "m_clean": -0.6249707341194153,
+      "delta": {
+        "global": 0.007962822914123535,
+        "crop_cum_1": -0.11494261026382446,
+        "crop_cum_2": 0.01005566120147705,
+        "crop_cum_3": 0.01005321741104126,
+        "crop_cum_4": 0.12499746680259705,
+        "crops_all": 0.12499746680259705,
+        "global_plus_crops": 0.01505213975906372,
+        "full": 0.12390744686126709,
+        "random_crops": 1.6093254089355469e-06
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "n_crops": 12,
+      "target_crops": [
+        6,
+        9
+      ],
+      "m_clean": 0.3820919394493103,
+      "delta": {
+        "global": -5.960464477539063e-08,
+        "crop_cum_1": 0.000881195068359375,
+        "crop_cum_2": -0.12500005960464478,
+        "crops_all": -0.12500005960464478,
+        "global_plus_crops": -0.007086396217346191,
+        "full": -0.7582234740257263,
+        "random_crops": 0.1282406449317932
+      }
+    }
+  ]
+}

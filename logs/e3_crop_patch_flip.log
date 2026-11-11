@@ -1,0 +1,136 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+crop patch: 30 pairs
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/657 [00:00<00:04, 159.76it/s]Loading weights:   7%|▋         | 43/657 [00:00<00:02, 222.56it/s]Loading weights:  11%|█         | 70/657 [00:00<00:02, 242.09it/s]Loading weights:  15%|█▍        | 97/657 [00:00<00:02, 248.96it/s]Loading weights:  19%|█▊        | 123/657 [00:00<00:02, 250.07it/s]Loading weights:  23%|██▎       | 150/657 [00:00<00:01, 255.80it/s]Loading weights:  27%|██▋       | 177/657 [00:00<00:01, 258.94it/s]Loading weights:  31%|███       | 204/657 [00:00<00:01, 262.15it/s]Loading weights:  49%|████▉     | 325/657 [00:00<00:00, 554.65it/s]Loading weights:  79%|███████▉  | 519/657 [00:01<00:00, 978.27it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 607.90it/s]
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  1/30 woman|to the left of|man
+  2/30 woman|to the left of|man
+  3/30 woman|to the left of|man
+  4/30 woman|to the left of|man
+  5/30 woman|to the left of|man
+  6/30 chair|to the left of|table
+  7/30 chair|to the left of|table
+  8/30 chair|to the left of|table
+  9/30 chair|to the left of|table
+  10/30 chair|to the left of|table
+  11/30 man|to the left of|person
+  12/30 man|to the left of|person
+  13/30 man|to the left of|person
+  14/30 man|to the left of|person
+  15/30 man|to the left of|person
+  16/30 man|to the right of|woman
+  17/30 man|to the right of|woman
+  18/30 man|to the right of|woman
+  19/30 man|to the right of|woman
+  20/30 man|to the right of|woman
+  21/30 person|to the right of|man
+  22/30 person|to the right of|man
+  23/30 person|to the right of|man
+  24/30 person|to the right of|man
+  25/30 person|to the right of|man
+  26/30 tree|to the left of|building
+  27/30 tree|to the left of|building
+  28/30 tree|to the left of|building
+  29/30 tree|to the left of|building
+  30/30 tree|to the left of|building
+saved results/e3/crop_patch_flip.json
+  woman|to the left of|man n=5 blocks=13.0
+    global: median=0.3235734319103914
+    crops_all: median=0.07522399045834692
+    global_plus_crops: median=0.5015821536484492
+    full: median=1.0
+    random_crops: median=0.0011077718900849537
+    cum: [(1, 0.0006833433202318229), (2, 0.011865161412163611), (3, 0.04917756205195386), (4, 0.04921436262745271), (5, 0.04884282494998662), (6, 0.04884285982256576)]
+  chair|to the left of|table n=5 blocks=13.8
+    global: median=-0.10801097888489766
+    crops_all: median=-5.866747880455615e-06
+    global_plus_crops: median=-0.10000176909040476
+    full: median=1.0
+    random_crops: median=-4.4130404410506835e-06
+    cum: [(1, 1.3351625696329005e-06), (2, -0.09415081032235939), (3, -0.010996985270361288), (4, 0.0017816887169602752)]
+  man|to the left of|person n=5 blocks=13.0
+    global: median=0.45685612688707544
+    crops_all: median=0.04766141210239239
+    global_plus_crops: median=0.44962538921547673
+    full: median=1.0
+    random_crops: median=0.09136587824275753
+    cum: [(1, 0.0023598415628410807), (2, 0.04744996149356399), (3, 0.021676835851164738), (4, 0.09479649013779017), (5, 0.047061119901239526), (6, 0.02334675393613039)]
+  man|to the right of|woman n=5 blocks=13.0
+    global: median=0.43085289424842066
+    crops_all: median=0.0013960587810794125
+    global_plus_crops: median=0.36161567204426587
+    full: median=1.0
+    random_crops: median=0.0018362738981278592
+    cum: [(1, 0.0013960587810794125), (2, 0.031469837028803335), (3, 0.014684054130247912), (4, 0.016021851796345802), (5, 0.03316830400757749), (6, 0.048215822465044314), (7, 0.06439678401359232), (8, 0.03218313144257453), (9, 0.09668816864285082)]
+  person|to the right of|man n=5 blocks=13.0
+    global: median=0.1945868643907074
+    crops_all: median=-0.002212669637135074
+    global_plus_crops: median=0.20603844677474906
+    full: median=1.0
+    random_crops: median=-0.06955986896897474
+    cum: [(1, 6.068877862315801e-07), (2, -0.002212669637135074), (3, 0.003955923403990251), (4, 0.08003867260669434)]
+  tree|to the left of|building n=5 blocks=13.0
+    global: median=0.4832624553961512
+    crops_all: median=0.0007946413105487843
+    global_plus_crops: median=0.45522603268388495
+    full: median=1.0
+    random_crops: median=0.04727506415541286
+    cum: [(1, 0.0007958661911816148), (2, -0.014192091646097709), (3, -0.00028639513347809424), (4, 0.02954147416736919), (5, -0.04748023234779004), (6, -0.023698833591599362), (7, 0.00010156462912751837), (8, 0.00025451441305811946), (9, 0.0007946413105487843)]

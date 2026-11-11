@@ -1,0 +1,3905 @@
+{
+  "summary": [
+    {
+      "group": "man|to the left of|person",
+      "n_pairs": 40,
+      "auc_clean": 0.575,
+      "S1:target": {
+        "source_delta_mean": 0.025349311530590057,
+        "target_delta_mean": 0.08148378282785415,
+        "source_delta_median": 0.12495321035385132,
+        "target_delta_median": 0.12467151880264282
+      },
+      "S1:reference": {
+        "source_delta_mean": 0.0001102551817893982,
+        "target_delta_mean": 0.044110172986984254,
+        "source_delta_median": 0.0003886222839355469,
+        "target_delta_median": 0.12471465766429901
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": 0.03711168669365548,
+        "target_delta_mean": 0.15479651794714086,
+        "source_delta_median": 0.0002778768539428711,
+        "target_delta_median": 0.12501153349876404
+      },
+      "S1:background": {
+        "source_delta_mean": 0.10135426837950945,
+        "target_delta_mean": 0.11170215669431184,
+        "source_delta_median": 0.12500616908073425,
+        "target_delta_median": 0.12488418817520142
+      },
+      "S1:auc_after_target": 0.5,
+      "S6:target": {
+        "source_delta_mean": -0.012214385718107224,
+        "target_delta_mean": 0.06266254484653473,
+        "source_delta_median": 0.0008662939071655273,
+        "target_delta_median": 0.0014704465866088867
+      },
+      "S6:reference": {
+        "source_delta_mean": 0.00019588619470596315,
+        "target_delta_mean": -0.012127456814050674,
+        "source_delta_median": 0.00011864304542541504,
+        "target_delta_median": 0.06282062828540802
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": 0.06089251830771163,
+        "target_delta_mean": 0.12166416031472824,
+        "source_delta_median": 0.00029671192169189453,
+        "target_delta_median": 0.12500013411045074
+      },
+      "S6:background": {
+        "source_delta_mean": 0.10547653306275606,
+        "target_delta_mean": 0.13151146549927561,
+        "source_delta_median": 0.12436574697494507,
+        "target_delta_median": 0.12442538142204285
+      },
+      "S6:auc_after_target": 0.575
+    },
+    {
+      "group": "person|to the right of|man",
+      "n_pairs": 40,
+      "auc_clean": 0.5,
+      "S1:target": {
+        "source_delta_mean": -0.11521553099155427,
+        "target_delta_mean": 0.042464011907577516,
+        "source_delta_median": -0.0006477832794189453,
+        "target_delta_median": 0.12392199039459229
+      },
+      "S1:reference": {
+        "source_delta_mean": -0.12410075068473816,
+        "target_delta_mean": 0.05836528539657593,
+        "source_delta_median": 0.0009826719760894775,
+        "target_delta_median": 0.12410116195678711
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.036816688808234965,
+        "target_delta_mean": 0.031510069089777326,
+        "source_delta_median": -0.0006691813468933105,
+        "target_delta_median": 0.0005536079406738281
+      },
+      "S1:background": {
+        "source_delta_mean": 0.08589361939165327,
+        "target_delta_mean": 0.07188798831059383,
+        "source_delta_median": 0.006582736968994141,
+        "target_delta_median": 0.12337040901184082
+      },
+      "S1:auc_after_target": 0.525,
+      "S6:target": {
+        "source_delta_mean": -0.16526446342468262,
+        "target_delta_mean": -0.015558552742004395,
+        "source_delta_median": -0.007597386837005615,
+        "target_delta_median": 0.0002638101577758789
+      },
+      "S6:reference": {
+        "source_delta_mean": -0.19635428637266159,
+        "target_delta_mean": -0.05427047908306122,
+        "source_delta_median": -5.662441253662109e-06,
+        "target_delta_median": -0.00025588274002075195
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.05679927484409229,
+        "target_delta_mean": 0.005178376155741075,
+        "source_delta_median": -9.5367431640625e-07,
+        "target_delta_median": 0.00032454729080200195
+      },
+      "S6:background": {
+        "source_delta_mean": 0.04185412493016985,
+        "target_delta_mean": 0.060608391578380875,
+        "source_delta_median": 0.001424342393875122,
+        "target_delta_median": 0.0017967820167541504
+      },
+      "S6:auc_after_target": 0.525
+    },
+    {
+      "group": "tree|to the left of|building",
+      "n_pairs": 40,
+      "auc_clean": 0.475,
+      "S1:target": {
+        "source_delta_mean": -0.3508851811289787,
+        "target_delta_mean": -0.10724951401352882,
+        "source_delta_median": -0.12602651119232178,
+        "target_delta_median": -0.0005097389221191406
+      },
+      "S1:reference": {
+        "source_delta_mean": -0.06311553046107292,
+        "target_delta_mean": 0.018691389262676238,
+        "source_delta_median": -0.0023227930068969727,
+        "target_delta_median": 0.18832305073738098
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": 0.19783390230602688,
+        "target_delta_mean": 0.3182128020695278,
+        "source_delta_median": 0.2505999803543091,
+        "target_delta_median": 0.2499992847442627
+      },
+      "S1:background": {
+        "source_delta_mean": 0.19885940499165478,
+        "target_delta_mean": 0.2788504523890359,
+        "source_delta_median": 0.25066590309143066,
+        "target_delta_median": 0.24988508224487305
+      },
+      "S1:auc_after_target": 0.475,
+      "S6:target": {
+        "source_delta_mean": -0.07233117595314979,
+        "target_delta_mean": 0.18352435156702995,
+        "source_delta_median": 0.1223854124546051,
+        "target_delta_median": 0.24752336740493774
+      },
+      "S6:reference": {
+        "source_delta_mean": 0.258580531924963,
+        "target_delta_mean": 0.5374067276716232,
+        "source_delta_median": 0.1887199878692627,
+        "target_delta_median": 0.500923752784729
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": 0.2778037604358461,
+        "target_delta_mean": 0.521483165877206,
+        "source_delta_median": 0.25044773519039154,
+        "target_delta_median": 0.3760925531387329
+      },
+      "S6:background": {
+        "source_delta_mean": 0.3568830192089081,
+        "target_delta_mean": 0.5354146650859288,
+        "source_delta_median": 0.3122371584177017,
+        "target_delta_median": 0.4989084005355835
+      },
+      "S6:auc_after_target": 0.5
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0000",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.3746638894081116,
+          "delta": {
+            "S1:target": 0.3746485114097595,
+            "S6:target": 0.12485012412071228,
+            "S1:reference": -9.781122207641602e-05,
+            "S6:reference": -0.12521934509277344,
+            "S1:irrelevant": 0.12509074807167053,
+            "S6:irrelevant": -6.866455078125e-05,
+            "S1:background": 0.499860942363739,
+            "S6:background": 0.24987494945526123
+          }
+        },
+        "target": {
+          "m_clean": -0.250731885433197,
+          "delta": {
+            "S1:target": 0.12510764598846436,
+            "S6:target": 0.00021499395370483398,
+            "S1:reference": 0.0002110004425048828,
+            "S6:reference": 0.12500017881393433,
+            "S1:irrelevant": -0.12482202053070068,
+            "S6:irrelevant": 0.0001418590545654297,
+            "S1:background": -2.467632293701172e-05,
+            "S6:background": -4.5180320739746094e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0001",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.5007636547088623,
+          "delta": {
+            "S1:target": 8.976459503173828e-05,
+            "S6:target": 0.00012969970703125,
+            "S1:reference": 4.684925079345703e-05,
+            "S6:reference": -0.12477225065231323,
+            "S1:irrelevant": -0.12480652332305908,
+            "S6:irrelevant": -0.12492412328720093,
+            "S1:background": -0.12480628490447998,
+            "S6:background": -0.12480640411376953
+          }
+        },
+        "target": {
+          "m_clean": 0.12181520462036133,
+          "delta": {
+            "S1:target": 0.2510834336280823,
+            "S6:target": 0.12491202354431152,
+            "S1:reference": 0.25182217359542847,
+            "S6:reference": 0.12654316425323486,
+            "S1:irrelevant": 0.12580430507659912,
+            "S6:irrelevant": 0.0007259249687194824,
+            "S1:background": 0.12494218349456787,
+            "S6:background": 0.0001366138458251953
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0002",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.12251538038253784,
+          "delta": {
+            "S1:target": -0.7492583990097046,
+            "S6:target": -0.6248487234115601,
+            "S1:reference": 0.0011230111122131348,
+            "S6:reference": 0.12616151571273804,
+            "S1:irrelevant": -0.13067686557769775,
+            "S6:irrelevant": -0.0009626150131225586,
+            "S1:background": 0.0011616349220275879,
+            "S6:background": 0.0006276369094848633
+          }
+        },
+        "target": {
+          "m_clean": 0.4984383285045624,
+          "delta": {
+            "S1:target": 0.37498679757118225,
+            "S6:target": 0.5003269016742706,
+            "S1:reference": 0.37524887919425964,
+            "S6:reference": 0.4998813569545746,
+            "S1:irrelevant": 0.0004038214683532715,
+            "S6:irrelevant": 0.12499979138374329,
+            "S1:background": 0.12534037232398987,
+            "S6:background": 0.2501802146434784
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0003",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.0014685988426208496,
+          "delta": {
+            "S1:target": -0.12598848342895508,
+            "S6:target": -0.12511086463928223,
+            "S1:reference": -0.2503092885017395,
+            "S6:reference": 0.12248146533966064,
+            "S1:background": 0.12443119287490845,
+            "S6:background": 0.12456846237182617
+          }
+        },
+        "target": {
+          "m_clean": 0.7486836314201355,
+          "delta": {
+            "S1:target": -0.12452429533004761,
+            "S6:target": -0.12477153539657593,
+            "S1:reference": 0.1251125931739807,
+            "S6:reference": -4.488229751586914e-05,
+            "S1:irrelevant": 0.3745717406272888,
+            "S6:irrelevant": 0.12500756978988647,
+            "S1:background": -0.6263793110847473,
+            "S6:background": -0.12636756896972656
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0004",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.378939151763916,
+          "delta": {
+            "S1:target": 0.37381213903427124,
+            "S6:target": 0.2503369450569153,
+            "S1:reference": -0.12325406074523926,
+            "S6:reference": -0.12365120649337769,
+            "S1:irrelevant": 0.12545782327651978,
+            "S6:irrelevant": 0.2508634924888611,
+            "S1:background": -0.25530970096588135,
+            "S6:background": -0.0014299750328063965
+          }
+        },
+        "target": {
+          "m_clean": -0.3757495880126953,
+          "delta": {
+            "S1:target": 0.7503675222396851,
+            "S6:target": 0.7501580119132996,
+            "S1:reference": 0.0003666877746582031,
+            "S6:reference": -0.12478828430175781,
+            "S1:background": 0.625176727771759,
+            "S6:background": 0.4998847246170044
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0005",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.5030455589294434,
+          "delta": {
+            "S1:target": 0.1263524293899536,
+            "S6:target": 0.2508116364479065,
+            "S1:reference": -0.5023750066757202,
+            "S6:reference": -0.25195467472076416,
+            "S1:irrelevant": -0.12440991401672363,
+            "S6:irrelevant": -0.0006202459335327148
+          }
+        },
+        "target": {
+          "m_clean": -0.37705981731414795,
+          "delta": {
+            "S1:target": 1.000419557094574,
+            "S6:target": 0.8749976456165314,
+            "S1:reference": 0.24986553192138672,
+            "S6:reference": 0.12542235851287842,
+            "S1:irrelevant": 0.6257805824279785,
+            "S6:irrelevant": 0.3758929967880249
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0006",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.1289989948272705,
+          "delta": {
+            "S1:target": -0.0005278587341308594,
+            "S6:target": 0.00029796361923217773,
+            "S1:reference": 0.000728607177734375,
+            "S6:reference": -0.0002560615539550781,
+            "S1:irrelevant": -0.0005278587341308594,
+            "S6:irrelevant": 0.00029796361923217773,
+            "S1:background": 0.12471973896026611,
+            "S6:background": 0.12447249889373779
+          }
+        },
+        "target": {
+          "m_clean": -0.6281816959381104,
+          "delta": {
+            "S1:target": -0.00041961669921875,
+            "S6:target": 0.12493759393692017,
+            "S1:reference": 0.12578493356704712,
+            "S6:reference": 0.0012096166610717773,
+            "S1:irrelevant": 0.7506496906280518,
+            "S6:irrelevant": 0.6249983310699463,
+            "S1:background": 0.12513411045074463,
+            "S6:background": 0.12447988986968994
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0007",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.37697547674179077,
+          "delta": {
+            "S1:target": -0.2502603530883789,
+            "S6:target": -0.3749987483024597,
+            "S1:reference": 0.00011903047561645508,
+            "S6:reference": 0.00047963857650756836,
+            "S1:irrelevant": -0.12535756826400757,
+            "S6:irrelevant": -0.2497689127922058,
+            "S1:background": 0.00011903047561645508,
+            "S6:background": -0.0005559921264648438
+          }
+        },
+        "target": {
+          "m_clean": -0.0019061565399169922,
+          "delta": {
+            "S1:target": -0.24922752380371094,
+            "S6:target": 0.2507258653640747,
+            "S1:reference": 0.24966728687286377,
+            "S6:reference": 0.12558311223983765,
+            "S1:irrelevant": 0.3762804865837097,
+            "S6:irrelevant": 0.3756253719329834
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0008",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.12663960456848145,
+          "delta": {
+            "S1:target": 0.25019192695617676,
+            "S6:target": 0.24978119134902954,
+            "S1:reference": 0.00014215707778930664,
+            "S6:reference": -2.384185791015625e-07,
+            "S1:irrelevant": 0.12489438056945801,
+            "S6:irrelevant": 0.12399476766586304,
+            "S1:background": 0.1253170371055603,
+            "S6:background": 0.1253960132598877
+          }
+        },
+        "target": {
+          "m_clean": -0.37661105394363403,
+          "delta": {
+            "S1:target": 0.0001888871192932129,
+            "S6:target": -0.00010263919830322266,
+            "S1:reference": 0.1252468228340149,
+            "S6:reference": 8.344650268554688e-07,
+            "S1:irrelevant": 0.00024706125259399414,
+            "S6:irrelevant": -0.00021225214004516602,
+            "S1:background": 0.12518781423568726,
+            "S6:background": -0.0005102753639221191
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0009",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.2553722858428955,
+          "delta": {
+            "S1:target": 0.12603437900543213,
+            "S6:target": 0.12259906530380249,
+            "S1:reference": 0.2498859167098999,
+            "S6:reference": 0.12591052055358887,
+            "S1:irrelevant": 0.0011799335479736328,
+            "S6:irrelevant": -0.12346011400222778,
+            "S1:background": 0.2514311671257019,
+            "S6:background": 0.3745689392089844
+          }
+        },
+        "target": {
+          "m_clean": 0.12235844135284424,
+          "delta": {
+            "S1:target": 0.12553781270980835,
+            "S6:target": 0.1252601146697998,
+            "S1:reference": 0.12508785724639893,
+            "S6:reference": -0.12433242797851562,
+            "S1:irrelevant": 0.0013984441757202148,
+            "S6:irrelevant": -0.12380528450012207,
+            "S1:background": 0.24964910745620728,
+            "S6:background": 0.125
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0010",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.502100944519043,
+          "delta": {
+            "S1:target": 0.5002419352531433,
+            "S6:target": 0.24986505508422852,
+            "S1:reference": 0.12550783157348633,
+            "S6:reference": 0.12486517429351807,
+            "S1:irrelevant": 0.00012624263763427734,
+            "S6:irrelevant": -0.1249992847442627,
+            "S1:background": 0.37461453676223755,
+            "S6:background": 0.12486541271209717
+          }
+        },
+        "target": {
+          "m_clean": -0.6292704343795776,
+          "delta": {
+            "S1:target": 0.1244344711303711,
+            "S6:target": 0.0002466440200805664,
+            "S1:reference": 0.25112879276275635,
+            "S6:reference": 0.25092852115631104,
+            "S1:irrelevant": 0.125715434551239,
+            "S6:irrelevant": 0.12525582313537598,
+            "S1:background": 0.12548887729644775,
+            "S6:background": 0.12524628639221191
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0011",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.8808032274246216,
+          "delta": {
+            "S1:target": 0.6284675598144531,
+            "S6:target": 0.5026202201843262,
+            "S1:reference": 0.3780841827392578,
+            "S6:reference": 0.2532694339752197,
+            "S1:irrelevant": 0.12634211778640747,
+            "S6:irrelevant": 0.12598323822021484,
+            "S1:background": 0.5031552910804749,
+            "S6:background": 0.5003451704978943
+          }
+        },
+        "target": {
+          "m_clean": -0.12679433822631836,
+          "delta": {
+            "S1:target": -2.6345252990722656e-05,
+            "S6:target": -0.0002650618553161621,
+            "S1:reference": 0.25091224908828735,
+            "S6:reference": 0.1255919337272644,
+            "S1:irrelevant": 0.2505928874015808,
+            "S6:irrelevant": 0.12528443336486816,
+            "S1:background": -0.12891936302185059,
+            "S6:background": -0.0009195208549499512
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0012",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.6233218312263489,
+          "delta": {
+            "S1:target": 0.12531542778015137,
+            "S6:target": 0.00047463178634643555,
+            "S1:reference": 0.25079530477523804,
+            "S6:reference": 0.12556833028793335,
+            "S1:irrelevant": 0.1258499026298523,
+            "S6:irrelevant": 0.12542277574539185,
+            "S1:background": 0.1251239776611328,
+            "S6:background": 0.2500991225242615
+          }
+        },
+        "target": {
+          "m_clean": -0.0006464719772338867,
+          "delta": {
+            "S1:target": 0.12510985136032104,
+            "S6:target": 7.152557373046875e-07,
+            "S1:reference": 0.12499970197677612,
+            "S6:reference": 0.1251092553138733,
+            "S1:irrelevant": 0.1249588131904602,
+            "S6:irrelevant": 0.12507575750350952,
+            "S1:background": -0.12576079368591309,
+            "S6:background": 0.24951553344726562
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0013",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.12737315893173218,
+          "delta": {
+            "S1:target": -0.24959897994995117,
+            "S6:target": -0.37393689155578613,
+            "S1:reference": 0.2501387596130371,
+            "S6:reference": 0.250737726688385,
+            "S1:irrelevant": -0.00015234947204589844,
+            "S6:irrelevant": 0.00027763843536376953,
+            "S1:background": -0.37713509798049927,
+            "S6:background": -0.12537872791290283
+          }
+        },
+        "target": {
+          "m_clean": -0.12568676471710205,
+          "delta": {
+            "S1:target": 0.12490856647491455,
+            "S6:target": 4.202127456665039e-05,
+            "S1:reference": 0.1250409483909607,
+            "S6:reference": 0.2498578429222107,
+            "S1:irrelevant": 0.12462460994720459,
+            "S6:irrelevant": 0.1248592734336853,
+            "S1:background": 0.12468892335891724,
+            "S6:background": 0.12474918365478516
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0014",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.00452953577041626,
+          "delta": {
+            "S1:target": -0.12300235033035278,
+            "S6:target": 0.0012579560279846191,
+            "S1:reference": -0.2504746913909912,
+            "S6:reference": -0.12371551990509033,
+            "S1:irrelevant": 0.0016396045684814453,
+            "S6:irrelevant": 0.0011425614356994629,
+            "S1:background": 0.12558692693710327,
+            "S6:background": 0.0005886554718017578
+          }
+        },
+        "target": {
+          "m_clean": 1.624192476272583,
+          "delta": {
+            "S1:target": -1.000830054283142,
+            "S6:target": -1.1255127489566803,
+            "S1:reference": -1.000830054283142,
+            "S6:reference": -1.1255127489566803,
+            "S1:irrelevant": 0.12480473518371582,
+            "S6:irrelevant": -0.12468135356903076,
+            "S1:background": -0.00025856494903564453,
+            "S6:background": -0.00032639503479003906
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0015",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.7536994814872742,
+          "delta": {
+            "S1:target": 0.12588828802108765,
+            "S6:target": 0.12616866827011108,
+            "S1:reference": 0.12581056356430054,
+            "S6:reference": 0.0004584193229675293,
+            "S1:background": -0.004848122596740723,
+            "S6:background": -0.0012079477310180664
+          }
+        },
+        "target": {
+          "m_clean": 0.7491714954376221,
+          "delta": {
+            "S1:target": 0.25009673833847046,
+            "S6:target": 0.12489020824432373,
+            "S1:reference": -0.0002340078353881836,
+            "S6:reference": -0.0004623532295227051,
+            "S1:irrelevant": 0.12482953071594238,
+            "S6:irrelevant": 0.12482964992523193,
+            "S1:background": -0.25068384408950806,
+            "S6:background": -5.984306335449219e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0016",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.24866539239883423,
+          "delta": {
+            "S1:target": -1.1251431107521057,
+            "S6:target": -1.0000333786010742,
+            "S1:reference": 0.37541455030441284,
+            "S6:reference": 0.12539619207382202,
+            "S1:irrelevant": -0.12685006856918335,
+            "S6:irrelevant": 0.12393558025360107
+          }
+        },
+        "target": {
+          "m_clean": -0.002335786819458008,
+          "delta": {
+            "S1:target": 0.00047653913497924805,
+            "S6:target": 0.00035756826400756836,
+            "S1:reference": 0.0007923245429992676,
+            "S6:reference": 0.0003960728645324707,
+            "S1:irrelevant": 0.0008858442306518555,
+            "S6:irrelevant": 0.0003578066825866699,
+            "S1:background": -0.12386685609817505,
+            "S6:background": 0.00014036893844604492
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0017",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.370830237865448,
+          "delta": {
+            "S1:target": 0.2493351697921753,
+            "S6:target": 0.12583070993423462,
+            "S1:reference": 0.12565767765045166,
+            "S6:reference": -6.16908073425293e-05,
+            "S1:irrelevant": 0.3748869299888611,
+            "S6:irrelevant": 0.2506164312362671,
+            "S1:background": 0.12515726685523987,
+            "S6:background": 0.00039005279541015625
+          }
+        },
+        "target": {
+          "m_clean": -0.876459538936615,
+          "delta": {
+            "S1:target": -0.251664936542511,
+            "S6:target": 0.12480670213699341,
+            "S1:reference": 0.2503970265388489,
+            "S6:reference": 0.1251712441444397,
+            "S1:irrelevant": 0.12467455863952637,
+            "S6:irrelevant": 0.12478119134902954,
+            "S1:background": 0.24990564584732056,
+            "S6:background": 0.12508779764175415
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0018",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.8762894868850708,
+          "delta": {
+            "S1:target": 0.49992841482162476,
+            "S6:target": 0.3743525743484497,
+            "S1:reference": -4.5418739318847656e-05,
+            "S6:reference": -0.00013148784637451172,
+            "S1:irrelevant": 0.3753204345703125,
+            "S6:irrelevant": 0.249650776386261,
+            "S1:background": 0.2500344514846802,
+            "S6:background": 0.2499173879623413
+          }
+        },
+        "target": {
+          "m_clean": 0.873984694480896,
+          "delta": {
+            "S1:target": 0.24993407726287842,
+            "S6:target": 0.2506953477859497,
+            "S1:reference": -3.5762786865234375e-07,
+            "S6:reference": -6.520748138427734e-05,
+            "S1:irrelevant": -0.0003815293312072754,
+            "S6:irrelevant": 6.139278411865234e-05,
+            "S1:background": -0.25078707933425903,
+            "S6:background": -0.25038087368011475
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0019",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.5027561187744141,
+          "delta": {
+            "S1:target": 0.37546801567077637,
+            "S6:target": 0.1260128617286682,
+            "S1:reference": 0.2501664161682129,
+            "S6:reference": 0.24941754341125488,
+            "S1:irrelevant": 0.2498241662979126,
+            "S6:irrelevant": 0.24897605180740356,
+            "S1:background": 0.25076615810394287,
+            "S6:background": 0.24980860948562622
+          }
+        },
+        "target": {
+          "m_clean": -0.7518557906150818,
+          "delta": {
+            "S1:target": -0.24968498945236206,
+            "S6:target": -0.3747839331626892,
+            "S1:reference": 0.3744540214538574,
+            "S6:reference": 0.24966096878051758,
+            "S1:irrelevant": 0.2502151131629944,
+            "S6:irrelevant": 0.12421196699142456,
+            "S1:background": 0.12475258111953735,
+            "S6:background": 0.12437087297439575
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0020",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.12678605318069458,
+          "delta": {
+            "S1:target": 0.0006569027900695801,
+            "S6:target": 0.2505328059196472,
+            "S1:reference": 0.0004044175148010254,
+            "S6:reference": 0.12487059831619263,
+            "S1:irrelevant": -0.24901223182678223,
+            "S6:irrelevant": 0.0007567405700683594
+          }
+        },
+        "target": {
+          "m_clean": 0.12354040145874023,
+          "delta": {
+            "S1:target": -0.12453848123550415,
+            "S6:target": -0.12467062473297119,
+            "S1:reference": 3.826618194580078e-05,
+            "S6:reference": -0.12460136413574219,
+            "S1:irrelevant": 0.12520474195480347,
+            "S6:irrelevant": 0.1250004768371582,
+            "S1:background": -0.12474244832992554,
+            "S6:background": 0.00012427568435668945
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0021",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.37617069482803345,
+          "delta": {
+            "S1:target": 0.12488740682601929,
+            "S6:target": -0.00028008222579956055,
+            "S1:reference": 0.12452620267868042,
+            "S6:reference": 0.12430953979492188,
+            "S1:background": 0.1248883605003357,
+            "S6:background": 0.24910521507263184
+          }
+        },
+        "target": {
+          "m_clean": -0.3760616183280945,
+          "delta": {
+            "S1:target": -0.12474536895751953,
+            "S6:target": -0.24987751245498657,
+            "S1:reference": 0.24969714879989624,
+            "S6:reference": 0.125255286693573,
+            "S1:irrelevant": -0.12474536895751953,
+            "S6:irrelevant": -0.24987751245498657,
+            "S1:background": 0.12509095668792725,
+            "S6:background": 0.00020438432693481445
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0022",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.8762017488479614,
+          "delta": {
+            "S1:target": 0.12509429454803467,
+            "S6:target": 2.3484230041503906e-05,
+            "S1:reference": 0.12491273880004883,
+            "S6:reference": -0.12492573261260986,
+            "S1:irrelevant": 0.12444329261779785,
+            "S6:irrelevant": -7.700920104980469e-05,
+            "S1:background": 0.24964767694473267,
+            "S6:background": 0.24964773654937744
+          }
+        },
+        "target": {
+          "m_clean": 0.24820846319198608,
+          "delta": {
+            "S1:target": -0.3765330910682678,
+            "S6:target": -0.12523645162582397,
+            "S1:reference": 0.00010693073272705078,
+            "S6:reference": 0.12478131055831909,
+            "S1:background": 0.12421393394470215,
+            "S6:background": -0.0003669261932373047
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0023",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.8746157288551331,
+          "delta": {
+            "S1:target": 0.12495541572570801,
+            "S6:target": 0.12500035762786865,
+            "S1:reference": -6.216764450073242e-05,
+            "S6:reference": -9.08970832824707e-05,
+            "S1:irrelevant": 0.12489300966262817,
+            "S6:irrelevant": 0.12481147050857544,
+            "S1:background": -0.5015414357185364,
+            "S6:background": 0.24949997663497925
+          }
+        },
+        "target": {
+          "m_clean": -1.3768179416656494,
+          "delta": {
+            "S1:target": 1.1252787113189697,
+            "S6:target": 0.9995859265327454,
+            "S1:reference": 0.12426817417144775,
+            "S6:reference": 0.12488222122192383,
+            "S1:background": 0.8731447458267212,
+            "S6:background": 1.249584972858429
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0024",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.9978994727134705,
+          "delta": {
+            "S1:target": -0.24906015396118164,
+            "S6:target": -0.37398916482925415,
+            "S1:reference": -0.248803973197937,
+            "S6:reference": -0.24886232614517212,
+            "S1:irrelevant": -0.6264630556106567,
+            "S6:irrelevant": -0.1254323124885559,
+            "S1:background": 0.12524455785751343,
+            "S6:background": 0.0010107755661010742
+          }
+        },
+        "target": {
+          "m_clean": -1.127377986907959,
+          "delta": {
+            "S1:target": 0.2513377070426941,
+            "S6:target": 0.2505931854248047,
+            "S1:reference": 0.12550735473632812,
+            "S6:reference": 0.12497997283935547,
+            "S1:irrelevant": 0.12631702423095703,
+            "S6:irrelevant": 0.2509189248085022,
+            "S1:background": 0.12482619285583496,
+            "S6:background": 0.1250448226928711
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0025",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.0008338689804077148,
+          "delta": {
+            "S1:target": 0.12495100498199463,
+            "S6:target": -0.12485289573669434,
+            "S1:reference": -0.24975591897964478,
+            "S6:reference": -0.24999481439590454,
+            "S1:irrelevant": 0.7501010894775391,
+            "S6:irrelevant": 0.5002630352973938
+          }
+        },
+        "target": {
+          "m_clean": -0.5065600872039795,
+          "delta": {
+            "S1:target": 0.12585145235061646,
+            "S6:target": 0.1266547441482544,
+            "S1:reference": 0.2491357922554016,
+            "S6:reference": 0.12634241580963135,
+            "S1:irrelevant": 0.1258513331413269,
+            "S6:irrelevant": 0.12610960006713867,
+            "S1:background": 0.12619543075561523,
+            "S6:background": 0.1257622241973877
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0026",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.3770383596420288,
+          "delta": {
+            "S1:target": -0.12440675497055054,
+            "S6:target": -0.12436521053314209,
+            "S1:reference": 0.12493926286697388,
+            "S6:reference": 0.00023752450942993164,
+            "S1:irrelevant": -0.12380290031433105,
+            "S6:irrelevant": 0.00029671192169189453,
+            "S1:background": 0.12234336137771606,
+            "S6:background": 0.12425899505615234
+          }
+        },
+        "target": {
+          "m_clean": -0.7512289881706238,
+          "delta": {
+            "S1:target": 0.25040143728256226,
+            "S6:target": 0.12514346837997437,
+            "S1:reference": 0.0004016757011413574,
+            "S6:reference": 0.00016003847122192383,
+            "S1:irrelevant": 0.00029218196868896484,
+            "S6:irrelevant": 0.00030988454818725586,
+            "S1:background": 0.5003404021263123,
+            "S6:background": 0.3750736713409424
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0027",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.37025612592697144,
+          "delta": {
+            "S1:target": -0.12312108278274536,
+            "S6:target": -0.12312120199203491,
+            "S1:reference": -0.12312132120132446,
+            "S6:reference": -0.12278485298156738,
+            "S1:irrelevant": 0.0018779635429382324,
+            "S6:irrelevant": 0.1259101927280426,
+            "S1:background": -0.49700164794921875,
+            "S6:background": -0.4966631531715393
+          }
+        },
+        "target": {
+          "m_clean": -0.2510625720024109,
+          "delta": {
+            "S1:target": 0.12508344650268555,
+            "S6:target": -6.753206253051758e-05,
+            "S1:reference": 0.3749534487724304,
+            "S6:reference": 0.12500035762786865,
+            "S1:irrelevant": 0.12506425380706787,
+            "S6:irrelevant": 0.1250211000442505,
+            "S1:background": 0.12512463331222534,
+            "S6:background": 6.514787673950195e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0028",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.24863678216934204,
+          "delta": {
+            "S1:target": 3.886222839355469e-05,
+            "S6:target": 0.1247209906578064,
+            "S1:reference": -0.3776693344116211,
+            "S6:reference": -0.0003333091735839844,
+            "S1:irrelevant": -0.000613868236541748,
+            "S6:irrelevant": -0.0003841519355773926,
+            "S1:background": -0.00017851591110229492,
+            "S6:background": -0.00017911195755004883
+          }
+        },
+        "target": {
+          "m_clean": -0.127893328666687,
+          "delta": {
+            "S1:target": 0.0015564560890197754,
+            "S6:target": 0.00110548734664917,
+            "S1:reference": 0.2512509226799011,
+            "S6:reference": 0.0005581378936767578,
+            "S1:irrelevant": 0.25137871503829956,
+            "S6:irrelevant": 0.25060200691223145,
+            "S1:background": 0.2511795163154602,
+            "S6:background": 0.0003395676612854004
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0029",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.4981423020362854,
+          "delta": {
+            "S1:target": 0.00019180774688720703,
+            "S6:target": 0.00027740001678466797,
+            "S1:reference": 0.00037282705307006836,
+            "S6:reference": 0.00036895275115966797,
+            "S1:irrelevant": 0.0002778768539428711,
+            "S6:irrelevant": 8.52346420288086e-05,
+            "S1:background": -0.12527751922607422,
+            "S6:background": -0.00033855438232421875
+          }
+        },
+        "target": {
+          "m_clean": -1.1282446384429932,
+          "delta": {
+            "S1:target": 0.0003821849822998047,
+            "S6:target": 0.00038230419158935547,
+            "S1:reference": 0.0009357929229736328,
+            "S6:reference": 0.12600994110107422,
+            "S1:irrelevant": 0.5,
+            "S6:irrelevant": 0.6249995231628418,
+            "S1:background": 0.12434375286102295,
+            "S6:background": 0.12479209899902344
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0030",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.500522255897522,
+          "delta": {
+            "S1:target": 0.2497895359992981,
+            "S6:target": 0.12487560510635376,
+            "S1:reference": 0.2499660849571228,
+            "S6:reference": 0.2499142289161682,
+            "S1:irrelevant": 0.12481045722961426,
+            "S6:irrelevant": 0.00014549493789672852,
+            "S1:background": 0.24985277652740479,
+            "S6:background": 0.12496620416641235
+          }
+        },
+        "target": {
+          "m_clean": 0.49859270453453064,
+          "delta": {
+            "S1:target": 0.37527480721473694,
+            "S6:target": 0.12454906105995178,
+            "S1:reference": 0.1244296133518219,
+            "S6:reference": 0.12443163990974426,
+            "S1:background": 0.37546440958976746,
+            "S6:background": 0.3754338324069977
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0031",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.8739013671875,
+          "delta": {
+            "S1:target": -0.8757559061050415,
+            "S6:target": -0.8758769035339355,
+            "S1:reference": 0.12481844425201416,
+            "S6:reference": 0.1249685287475586,
+            "S1:irrelevant": -0.12470102310180664,
+            "S6:irrelevant": -0.0005422830581665039,
+            "S1:background": 0.12485486268997192,
+            "S6:background": 6.681680679321289e-05
+          }
+        },
+        "target": {
+          "m_clean": -1.0011367797851562,
+          "delta": {
+            "S1:target": -7.224082946777344e-05,
+            "S6:target": 0.1246483325958252,
+            "S1:reference": 0.00020051002502441406,
+            "S6:reference": 3.0517578125e-05,
+            "S1:background": 9.66787338256836e-05,
+            "S6:background": -0.1249232292175293
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0032",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.003541409969329834,
+          "delta": {
+            "S1:target": 0.12630170583724976,
+            "S6:target": 0.2518976330757141,
+            "S1:reference": 0.0004585385322570801,
+            "S6:reference": -0.12418031692504883,
+            "S1:irrelevant": -0.24856442213058472,
+            "S6:irrelevant": 0.00041240453720092773,
+            "S1:background": 0.6271989941596985,
+            "S6:background": 0.5019945204257965
+          }
+        },
+        "target": {
+          "m_clean": -0.5001837015151978,
+          "delta": {
+            "S1:target": -1.1252965927124023,
+            "S6:target": -1.2506572008132935,
+            "S1:reference": -0.12509870529174805,
+            "S6:reference": -0.0006158947944641113,
+            "S1:background": -6.0439109802246094e-05,
+            "S6:background": 4.887580871582031e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0033",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.500718355178833,
+          "delta": {
+            "S1:target": 0.6250074505805969,
+            "S6:target": 0.5002887845039368,
+            "S1:reference": -0.24992775917053223,
+            "S6:reference": -0.2501460313796997,
+            "S1:irrelevant": 0.6252843141555786,
+            "S6:irrelevant": 0.8751800656318665
+          }
+        },
+        "target": {
+          "m_clean": -0.8767560720443726,
+          "delta": {
+            "S1:target": 0.0006272792816162109,
+            "S6:target": 0.00010520219802856445,
+            "S1:reference": -0.24944305419921875,
+            "S6:reference": -0.3741532564163208,
+            "S1:irrelevant": 4.6372413635253906e-05,
+            "S6:irrelevant": 0.00042319297790527344,
+            "S1:background": -6.413459777832031e-05,
+            "S6:background": -0.12460291385650635
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0034",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.24898558855056763,
+          "delta": {
+            "S1:target": -0.2502201795578003,
+            "S6:target": -0.25030815601348877,
+            "S1:reference": 0.125396728515625,
+            "S6:reference": 0.12452834844589233,
+            "S1:irrelevant": 0.2497905194759369,
+            "S6:irrelevant": 0.24961689114570618
+          }
+        },
+        "target": {
+          "m_clean": 0.24727874994277954,
+          "delta": {
+            "S1:target": -0.12434577941894531,
+            "S6:target": -0.24922055006027222,
+            "S1:reference": -0.49848222732543945,
+            "S6:reference": -0.6235591769218445,
+            "S1:irrelevant": 0.00012451410293579102,
+            "S6:irrelevant": -0.12382292747497559,
+            "S1:background": -0.24892157316207886,
+            "S6:background": 0.00031894445419311523
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0035",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.5022361278533936,
+          "delta": {
+            "S1:target": 0.12513452768325806,
+            "S6:target": -0.0004553794860839844,
+            "S1:reference": 0.12378311157226562,
+            "S6:reference": -0.0006273984909057617,
+            "S1:irrelevant": -3.5762786865234375e-07,
+            "S6:irrelevant": -0.12461972236633301,
+            "S1:background": 0.3745184540748596,
+            "S6:background": 0.24999791383743286
+          }
+        },
+        "target": {
+          "m_clean": -0.2519383430480957,
+          "delta": {
+            "S1:target": 0.374963641166687,
+            "S6:target": 0.4992437958717346,
+            "S1:reference": 0.3755762577056885,
+            "S6:reference": 0.3756577968597412,
+            "S1:irrelevant": 0.3751920461654663,
+            "S6:irrelevant": 0.6251951456069946,
+            "S1:background": 0.4982641935348511,
+            "S6:background": 0.6236915588378906
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0036",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.3739951252937317,
+          "delta": {
+            "S1:target": 0.3751928210258484,
+            "S6:target": 0.3752410411834717,
+            "S1:reference": -0.12744951248168945,
+            "S6:reference": 0.2495846152305603,
+            "S1:irrelevant": -0.2536129355430603,
+            "S6:irrelevant": 0.12445220351219177,
+            "S1:background": -0.00028324127197265625,
+            "S6:background": -0.0004544258117675781
+          }
+        },
+        "target": {
+          "m_clean": -0.6266105771064758,
+          "delta": {
+            "S1:target": 0.7504779696464539,
+            "S6:target": 0.500479519367218,
+            "S1:reference": 0.00035572052001953125,
+            "S6:reference": -4.357099533081055e-05,
+            "S1:irrelevant": 0.37535351514816284,
+            "S6:irrelevant": 0.25047963857650757,
+            "S1:background": 0.62515789270401,
+            "S6:background": 0.4999659061431885
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0037",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.9973071813583374,
+          "delta": {
+            "S1:target": -0.49880364537239075,
+            "S6:target": -0.49995121359825134,
+            "S1:reference": -0.1259804368019104,
+            "S6:reference": 0.0005913972854614258,
+            "S1:irrelevant": -0.12454020977020264,
+            "S6:irrelevant": -0.12453967332839966
+          }
+        },
+        "target": {
+          "m_clean": 0.8737972974777222,
+          "delta": {
+            "S1:target": -0.2504923939704895,
+            "S6:target": -0.12511968612670898,
+            "S1:reference": 0.0006629228591918945,
+            "S6:reference": -0.124245285987854,
+            "S1:irrelevant": 0.0002894401550292969,
+            "S6:irrelevant": 0.1251692771911621,
+            "S1:background": -0.12515974044799805,
+            "S6:background": 0.12520337104797363
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0038",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.3735198378562927,
+          "delta": {
+            "S1:target": -0.12433207035064697,
+            "S6:target": 8.755922317504883e-05,
+            "S1:reference": -0.24953949451446533,
+            "S6:reference": -0.25000107288360596,
+            "S1:irrelevant": 0.12489479780197144,
+            "S6:irrelevant": 0.00010961294174194336,
+            "S1:background": 0.2496897578239441,
+            "S6:background": 0.00019228458404541016
+          }
+        },
+        "target": {
+          "m_clean": -0.3808361291885376,
+          "delta": {
+            "S1:target": 0.12776094675064087,
+            "S6:target": 0.0018354058265686035,
+            "S1:reference": -0.9961529970169067,
+            "S6:reference": -1.1214168071746826,
+            "S1:irrelevant": 0.2510136365890503,
+            "S6:irrelevant": 0.126895010471344,
+            "S1:background": 0.1263047456741333,
+            "S6:background": 0.12599003314971924
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0039",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.3737170696258545,
+          "delta": {
+            "S1:target": 0.12547609210014343,
+            "S6:target": 0.12521842122077942,
+            "S1:reference": -0.24992281198501587,
+            "S6:reference": -0.37457501888275146,
+            "S1:irrelevant": 0.00023895502090454102,
+            "S6:irrelevant": -0.24977904558181763
+          }
+        },
+        "target": {
+          "m_clean": -0.37674373388290405,
+          "delta": {
+            "S1:target": 0.250105082988739,
+            "S6:target": 0.24988847970962524,
+            "S1:reference": -0.24901103973388672,
+            "S6:reference": -0.24970310926437378,
+            "S1:irrelevant": -0.24953490495681763,
+            "S6:irrelevant": -0.3742521405220032,
+            "S1:background": 0.250296950340271,
+            "S6:background": 0.12550324201583862
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0000",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.1238563060760498,
+          "delta": {
+            "S1:target": -0.6249992251396179,
+            "S6:target": -0.7499303817749023,
+            "S1:reference": -0.4997437596321106,
+            "S6:reference": -0.6249402761459351,
+            "S1:irrelevant": -0.7495485544204712,
+            "S6:irrelevant": -0.874690592288971,
+            "S1:background": 0.1254502534866333,
+            "S6:background": 0.000194549560546875
+          }
+        },
+        "target": {
+          "m_clean": -0.6260848641395569,
+          "delta": {
+            "S1:target": 0.12476730346679688,
+            "S6:target": -0.0002320408821105957,
+            "S1:reference": 0.24959295988082886,
+            "S6:reference": 0.12455004453659058,
+            "S1:irrelevant": 0.12476778030395508,
+            "S6:irrelevant": -0.12493377923965454,
+            "S1:background": 0.2493463158607483,
+            "S6:background": 0.00034493207931518555
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0001",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.751851499080658,
+          "delta": {
+            "S1:target": -0.0006270408630371094,
+            "S6:target": -0.12567418813705444,
+            "S1:reference": -0.0001188516616821289,
+            "S6:reference": -0.00011855363845825195,
+            "S1:irrelevant": -0.12438565492630005,
+            "S6:irrelevant": -8.130073547363281e-05,
+            "S1:background": 0.1253165602684021,
+            "S6:background": 0.00031691789627075195
+          }
+        },
+        "target": {
+          "m_clean": -1.2586888074874878,
+          "delta": {
+            "S1:target": 0.004276633262634277,
+            "S6:target": 0.0021327733993530273,
+            "S1:reference": 0.0027881860733032227,
+            "S6:reference": -0.1229853630065918,
+            "S1:irrelevant": -0.0009653568267822266,
+            "S6:irrelevant": -0.12753653526306152,
+            "S1:background": 0.24745917320251465,
+            "S6:background": 0.12245941162109375
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0002",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.3715221881866455,
+          "delta": {
+            "S1:target": -0.7496627569198608,
+            "S6:target": -0.7485191226005554,
+            "S1:reference": -0.6268224716186523,
+            "S6:reference": -0.7496331334114075,
+            "S1:irrelevant": -0.24907010793685913,
+            "S6:irrelevant": -0.24938929080963135,
+            "S1:background": 0.25109124183654785,
+            "S6:background": 0.2502058744430542
+          }
+        },
+        "target": {
+          "m_clean": 0.7450976371765137,
+          "delta": {
+            "S1:target": 0.12656116485595703,
+            "S6:target": 0.25146061182022095,
+            "S1:reference": 0.6285841464996338,
+            "S6:reference": 0.7530488967895508,
+            "S1:irrelevant": 0.0013071894645690918,
+            "S6:irrelevant": 0.12529468536376953,
+            "S1:background": -0.373538613319397,
+            "S6:background": -0.12362343072891235
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0003",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 1.132228136062622,
+          "delta": {
+            "S1:target": -0.5072239637374878,
+            "S6:target": -0.007225155830383301,
+            "S1:reference": -1.1272612810134888,
+            "S6:reference": -1.1322208642959595,
+            "S1:background": -0.12499856948852539,
+            "S6:background": -0.2522619962692261
+          }
+        },
+        "target": {
+          "m_clean": 1.4995431900024414,
+          "delta": {
+            "S1:target": -0.250030517578125,
+            "S6:target": -0.2516922950744629,
+            "S1:reference": -1.3768235445022583,
+            "S6:reference": -1.5018230676651,
+            "S1:irrelevant": 2.777576446533203e-05,
+            "S6:irrelevant": 0.12397551536560059,
+            "S1:background": 0.2497185468673706,
+            "S6:background": 0.12488210201263428
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0004",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.0154931545257568,
+          "delta": {
+            "S1:target": 0.2590383291244507,
+            "S6:target": 0.1321016550064087,
+            "S1:reference": 0.2532777786254883,
+            "S6:reference": 0.12677985429763794,
+            "S1:irrelevant": 0.2586287260055542,
+            "S6:irrelevant": 0.25469017028808594,
+            "S1:background": 0.0069550275802612305,
+            "S6:background": -0.1187434196472168
+          }
+        },
+        "target": {
+          "m_clean": -0.8764421343803406,
+          "delta": {
+            "S1:target": -0.12447220087051392,
+            "S6:target": -0.37424057722091675,
+            "S1:reference": 0.6254222989082336,
+            "S6:reference": 0.3757409453392029,
+            "S1:background": -0.12495690584182739,
+            "S6:background": 0.00031942129135131836
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0005",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.7560091018676758,
+          "delta": {
+            "S1:target": -0.510828971862793,
+            "S6:target": -0.37822842597961426,
+            "S1:reference": 0.12632358074188232,
+            "S6:reference": 0.12797129154205322,
+            "S1:irrelevant": -0.12397491931915283,
+            "S6:irrelevant": -0.12339556217193604
+          }
+        },
+        "target": {
+          "m_clean": -0.7552903890609741,
+          "delta": {
+            "S1:target": -0.0006955862045288086,
+            "S6:target": -0.0015685558319091797,
+            "S1:reference": 0.3733052611351013,
+            "S6:reference": -0.12835931777954102,
+            "S1:irrelevant": 0.0006070137023925781,
+            "S6:irrelevant": -0.0009751319885253906,
+            "S1:background": 0.3742882013320923,
+            "S6:background": 0.12500041723251343
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0006",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.6462302207946777,
+          "delta": {
+            "S1:target": 0.12953388690948486,
+            "S6:target": 0.004535019397735596,
+            "S1:reference": 0.13143706321716309,
+            "S6:reference": -9.5367431640625e-07,
+            "S1:irrelevant": 0.13143706321716309,
+            "S6:irrelevant": -9.5367431640625e-07,
+            "S1:background": 0.006210446357727051,
+            "S6:background": 0.12499833106994629
+          }
+        },
+        "target": {
+          "m_clean": -0.7532651424407959,
+          "delta": {
+            "S1:target": 0.0004596710205078125,
+            "S6:target": 8.893013000488281e-05,
+            "S1:reference": 0.00027942657470703125,
+            "S6:reference": -0.12425941228866577,
+            "S1:irrelevant": 0.12460768222808838,
+            "S6:irrelevant": 0.0005815029144287109,
+            "S1:background": 0.00040984153747558594,
+            "S6:background": -0.12353074550628662
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0007",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.0039951801300049,
+          "delta": {
+            "S1:target": -0.12519025802612305,
+            "S6:target": -0.12499880790710449,
+            "S1:reference": 0.12316721677780151,
+            "S6:reference": -2.1219253540039062e-05,
+            "S1:irrelevant": 0.0012865066528320312,
+            "S6:irrelevant": 0.0006799697875976562,
+            "S1:background": -7.68899917602539e-05,
+            "S6:background": -0.00045800209045410156
+          }
+        },
+        "target": {
+          "m_clean": -0.26044362783432007,
+          "delta": {
+            "S1:target": -0.2451959252357483,
+            "S6:target": -0.4930775761604309,
+            "S1:reference": -0.11614888906478882,
+            "S6:reference": -0.36629611253738403,
+            "S1:irrelevant": 0.25799185037612915,
+            "S6:irrelevant": 0.13313955068588257
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0008",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.0064518451690674,
+          "delta": {
+            "S1:target": 0.12403321266174316,
+            "S6:target": 0.0010914802551269531,
+            "S1:reference": 0.0012400150299072266,
+            "S6:reference": -0.0014369487762451172,
+            "S1:irrelevant": 0.0003864765167236328,
+            "S6:irrelevant": -0.0008488893508911133,
+            "S1:background": -0.12261652946472168,
+            "S6:background": -0.24875974655151367
+          }
+        },
+        "target": {
+          "m_clean": -1.0026862621307373,
+          "delta": {
+            "S1:target": 0.12378442287445068,
+            "S6:target": -0.0012079477310180664,
+            "S1:reference": 0.12444519996643066,
+            "S6:reference": -0.0007600784301757812,
+            "S1:irrelevant": -0.001215219497680664,
+            "S6:irrelevant": -0.0009758472442626953,
+            "S1:background": -0.12459945678710938,
+            "S6:background": -0.00026607513427734375
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0009",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -2.0069727897644043,
+          "delta": {
+            "S1:target": 0.24548625946044922,
+            "S6:target": 0.12353074550628662,
+            "S1:reference": 0.3734358549118042,
+            "S6:reference": 0.24548697471618652,
+            "S1:irrelevant": 0.1224830150604248,
+            "S6:irrelevant": 0.12403655052185059,
+            "S1:background": 0.2496715784072876,
+            "S6:background": 0.12408304214477539
+          }
+        },
+        "target": {
+          "m_clean": -0.005148351192474365,
+          "delta": {
+            "S1:target": 0.1243848204612732,
+            "S6:target": -7.152557373046875e-07,
+            "S1:reference": -0.37354904413223267,
+            "S6:reference": -0.37265676259994507,
+            "S1:irrelevant": -0.7479199767112732,
+            "S6:irrelevant": -0.8723977208137512,
+            "S1:background": 0.12587499618530273,
+            "S6:background": 0.12639456987380981
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0010",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.3733365535736084,
+          "delta": {
+            "S1:target": 0.1233445405960083,
+            "S6:target": -0.0007462501525878906,
+            "S1:reference": 0.12414705753326416,
+            "S6:reference": 0.12425267696380615,
+            "S1:irrelevant": -0.12926959991455078,
+            "S6:irrelevant": -0.25353991985321045,
+            "S1:background": 0.24834227561950684,
+            "S6:background": -0.0009458065032958984
+          }
+        },
+        "target": {
+          "m_clean": -0.7579232454299927,
+          "delta": {
+            "S1:target": 0.0009080171585083008,
+            "S6:target": 0.12634241580963135,
+            "S1:reference": -0.12662827968597412,
+            "S6:reference": -0.12501537799835205,
+            "S1:irrelevant": 0.0017227530479431152,
+            "S6:irrelevant": -0.0009647607803344727,
+            "S1:background": 0.12337040901184082,
+            "S6:background": 0.12213599681854248
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0011",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.1519453525543213,
+          "delta": {
+            "S1:target": -0.10754454135894775,
+            "S6:target": -0.11143946647644043,
+            "S1:reference": 0.2530829906463623,
+            "S6:reference": 0.12949621677398682,
+            "S1:irrelevant": -0.002708911895751953,
+            "S6:irrelevant": 9.5367431640625e-07,
+            "S1:background": -0.0016846656799316406,
+            "S6:background": -0.0055887699127197266
+          }
+        },
+        "target": {
+          "m_clean": -0.13317477703094482,
+          "delta": {
+            "S1:target": 0.13125991821289062,
+            "S6:target": 0.005740523338317871,
+            "S1:reference": 0.13022202253341675,
+            "S6:reference": 0.004861116409301758,
+            "S1:irrelevant": 0.003335297107696533,
+            "S6:irrelevant": -0.12110233306884766,
+            "S1:background": 0.0027034878730773926,
+            "S6:background": 0.0017967820167541504
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0012",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.2522258758544922,
+          "delta": {
+            "S1:target": 0.25069332122802734,
+            "S6:target": 0.12483441829681396,
+            "S1:reference": 0.3743728995323181,
+            "S6:reference": 0.12470436096191406,
+            "S1:irrelevant": 0.3756932020187378,
+            "S6:irrelevant": 0.1248999834060669,
+            "S1:background": 0.37470269203186035,
+            "S6:background": 0.12485599517822266
+          }
+        },
+        "target": {
+          "m_clean": -0.7505757808685303,
+          "delta": {
+            "S1:target": 0.124875009059906,
+            "S6:target": 3.4928321838378906e-05,
+            "S1:reference": 0.124825119972229,
+            "S6:reference": -0.0002987384796142578,
+            "S1:irrelevant": 0.12487483024597168,
+            "S6:irrelevant": 6.759166717529297e-05,
+            "S1:background": 0.12503445148468018,
+            "S6:background": 0.12478125095367432
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0013",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.3701677918434143,
+          "delta": {
+            "S1:target": 0.0031743645668029785,
+            "S6:target": -0.1213042140007019,
+            "S1:reference": -0.1228836178779602,
+            "S6:reference": 0.0008513927459716797,
+            "S1:irrelevant": -0.12347549200057983,
+            "S6:irrelevant": 0.0010554790496826172,
+            "S1:background": -0.24971187114715576,
+            "S6:background": -0.1258034110069275
+          }
+        },
+        "target": {
+          "m_clean": -0.37648046016693115,
+          "delta": {
+            "S1:target": 0.1250789761543274,
+            "S6:target": 0.2489526867866516,
+            "S1:reference": 0.24938267469406128,
+            "S6:reference": 0.12450921535491943,
+            "S1:irrelevant": 0.00025218725204467773,
+            "S6:irrelevant": 0.12438243627548218,
+            "S1:background": 0.12450969219207764,
+            "S6:background": 0.12438541650772095
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0014",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.380545973777771,
+          "delta": {
+            "S1:target": 0.24751168489456177,
+            "S6:target": 0.0006442666053771973,
+            "S1:reference": 0.25018298625946045,
+            "S6:reference": 0.2497175931930542,
+            "S1:irrelevant": 0.2525608539581299,
+            "S6:irrelevant": 0.126950204372406,
+            "S1:background": 0.1229931116104126,
+            "S6:background": 0.1259368658065796
+          }
+        },
+        "target": {
+          "m_clean": 0.6210224628448486,
+          "delta": {
+            "S1:target": -0.5002526044845581,
+            "S6:target": -0.5005636215209961,
+            "S1:reference": -0.5002526044845581,
+            "S6:reference": -0.5005636215209961,
+            "S1:irrelevant": -0.37425947189331055,
+            "S6:irrelevant": -0.37339258193969727,
+            "S1:background": 0.0004616379737854004,
+            "S6:background": -0.0008530616760253906
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0015",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.262315273284912,
+          "delta": {
+            "S1:target": 0.0063135623931884766,
+            "S6:target": 0.004151344299316406,
+            "S1:reference": 0.12766730785369873,
+            "S6:reference": 0.0046596527099609375,
+            "S1:background": -0.017971038818359375,
+            "S6:background": -0.12446331977844238
+          }
+        },
+        "target": {
+          "m_clean": -0.5025580525398254,
+          "delta": {
+            "S1:target": 0.0005721449851989746,
+            "S6:target": -0.002911984920501709,
+            "S1:reference": 0.2498374581336975,
+            "S6:reference": -0.12533336877822876,
+            "S1:irrelevant": 0.24857383966445923,
+            "S6:irrelevant": 0.12208795547485352,
+            "S1:background": 0.12544578313827515,
+            "S6:background": 0.2477205991744995
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0016",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.24731868505477905,
+          "delta": {
+            "S1:target": -0.9986220002174377,
+            "S6:target": -0.9989483952522278,
+            "S1:reference": -0.24895453453063965,
+            "S6:reference": -0.374168336391449,
+            "S1:irrelevant": -0.5043046474456787,
+            "S6:irrelevant": -0.24897432327270508
+          }
+        },
+        "target": {
+          "m_clean": -1.2614905834197998,
+          "delta": {
+            "S1:target": -0.0007082223892211914,
+            "S6:target": -0.12366902828216553,
+            "S1:reference": -0.12106108665466309,
+            "S6:reference": 0.0013304948806762695,
+            "S1:irrelevant": -0.001499772071838379,
+            "S6:irrelevant": -0.0007079839706420898,
+            "S1:background": 0.0007545948028564453,
+            "S6:background": 0.0006849765777587891
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0017",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.5322091579437256,
+          "delta": {
+            "S1:target": 0.0036347508430480957,
+            "S6:target": -0.00796961784362793,
+            "S1:reference": 0.25389564037323,
+            "S6:reference": 0.12502926588058472,
+            "S1:irrelevant": 0.2536303997039795,
+            "S6:irrelevant": 0.13030928373336792,
+            "S1:background": -0.0019402503967285156,
+            "S6:background": 0.12519389390945435
+          }
+        },
+        "target": {
+          "m_clean": -1.252732515335083,
+          "delta": {
+            "S1:target": 0.2502967119216919,
+            "S6:target": 0.000438690185546875,
+            "S1:reference": -0.12709712982177734,
+            "S6:reference": -0.12580716609954834,
+            "S1:irrelevant": 0.12480473518371582,
+            "S6:irrelevant": 0.12460780143737793,
+            "S1:background": 0.12557709217071533,
+            "S6:background": 0.12422728538513184
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0018",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.0040054321289062,
+          "delta": {
+            "S1:target": 0.12527525424957275,
+            "S6:target": 0.0006731748580932617,
+            "S1:reference": 0.3744845390319824,
+            "S6:reference": 0.24945944547653198,
+            "S1:irrelevant": 0.0004801750183105469,
+            "S6:irrelevant": 0.00023293495178222656,
+            "S1:background": 0.0008918046951293945,
+            "S6:background": 0.0006916522979736328
+          }
+        },
+        "target": {
+          "m_clean": 0.9992895126342773,
+          "delta": {
+            "S1:target": -0.3748103380203247,
+            "S6:target": -0.37487804889678955,
+            "S1:reference": 0.4999997615814209,
+            "S6:reference": 0.24999988079071045,
+            "S1:irrelevant": -0.12429046630859375,
+            "S6:irrelevant": -0.1242901086807251,
+            "S1:background": 0.12490725517272949,
+            "S6:background": 0.0007095932960510254
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0019",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.254777431488037,
+          "delta": {
+            "S1:target": 0.12624335289001465,
+            "S6:target": 0.12624430656433105,
+            "S1:reference": 0.12578940391540527,
+            "S6:reference": 0.0007677078247070312,
+            "S1:irrelevant": 0.1264500617980957,
+            "S6:irrelevant": 0.1260087490081787,
+            "S1:background": 0.3499962091445923,
+            "S6:background": -0.002491474151611328
+          }
+        },
+        "target": {
+          "m_clean": -0.628898024559021,
+          "delta": {
+            "S1:target": 0.25085538625717163,
+            "S6:target": 0.12604284286499023,
+            "S1:reference": -0.2484757900238037,
+            "S6:reference": -0.3731955289840698,
+            "S1:irrelevant": 0.24974846839904785,
+            "S6:irrelevant": 0.2507205605506897,
+            "S1:background": 0.0015304088592529297,
+            "S6:background": 0.12545359134674072
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0020",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.2506742477416992,
+          "delta": {
+            "S1:target": -0.0006685256958007812,
+            "S6:target": -0.0018099546432495117,
+            "S1:reference": 0.24843615293502808,
+            "S6:reference": 0.37401407957077026,
+            "S1:irrelevant": -0.0006691813468933105,
+            "S6:irrelevant": -0.00028693675994873047
+          }
+        },
+        "target": {
+          "m_clean": 1.621882677078247,
+          "delta": {
+            "S1:target": 0.2503387928009033,
+            "S6:target": 0.24997258186340332,
+            "S1:reference": -0.24802565574645996,
+            "S6:reference": -0.2494732141494751,
+            "S1:irrelevant": -2.658367156982422e-05,
+            "S6:irrelevant": -0.25090718269348145,
+            "S1:background": -0.2488842010498047,
+            "S6:background": -0.12603557109832764
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0021",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.7551419734954834,
+          "delta": {
+            "S1:target": 0.37590503692626953,
+            "S6:target": 0.37336111068725586,
+            "S1:reference": 0.0013973712921142578,
+            "S6:reference": 0.0008665323257446289,
+            "S1:background": 0.0006381869316101074,
+            "S6:background": 0.12336015701293945
+          }
+        },
+        "target": {
+          "m_clean": -1.6258375644683838,
+          "delta": {
+            "S1:target": 0.24925017356872559,
+            "S6:target": 0.12425112724304199,
+            "S1:reference": 0.24913108348846436,
+            "S6:reference": 0.1240990161895752,
+            "S1:irrelevant": 0.24913108348846436,
+            "S6:irrelevant": 0.1240990161895752,
+            "S1:background": 0.24952948093414307,
+            "S6:background": 0.24909865856170654
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0022",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.251753330230713,
+          "delta": {
+            "S1:target": -0.0003027915954589844,
+            "S6:target": 0.12435972690582275,
+            "S1:reference": 0.24988782405853271,
+            "S6:reference": 0.24932324886322021,
+            "S1:irrelevant": 0.2499997615814209,
+            "S6:irrelevant": 0.12488758563995361,
+            "S1:background": -6.198883056640625e-05,
+            "S6:background": 0.12473726272583008
+          }
+        },
+        "target": {
+          "m_clean": -0.8839658498764038,
+          "delta": {
+            "S1:target": 0.001963019371032715,
+            "S6:target": 0.1256091594696045,
+            "S1:reference": -0.37677061557769775,
+            "S6:reference": -0.24895942211151123,
+            "S1:background": -0.0011953115463256836,
+            "S6:background": -0.0005704164505004883
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0023",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.12732833623886108,
+          "delta": {
+            "S1:target": -0.24829542636871338,
+            "S6:target": -0.3735479712486267,
+            "S1:reference": -0.24869799613952637,
+            "S6:reference": -0.3737277388572693,
+            "S1:irrelevant": -0.24829542636871338,
+            "S6:irrelevant": -0.3735479712486267,
+            "S1:background": -0.12485921382904053,
+            "S6:background": -0.12430548667907715
+          }
+        },
+        "target": {
+          "m_clean": -1.5020530223846436,
+          "delta": {
+            "S1:target": 0.24982428550720215,
+            "S6:target": 0.3745763301849365,
+            "S1:reference": 0.6254690289497375,
+            "S6:reference": 0.4990696907043457,
+            "S1:background": 0.12486779689788818,
+            "S6:background": 0.12466287612915039
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0024",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.8824214935302734,
+          "delta": {
+            "S1:target": 0.0012418031692504883,
+            "S6:target": 0.0017853975296020508,
+            "S1:reference": 0.003679037094116211,
+            "S6:reference": 0.0010483860969543457,
+            "S1:irrelevant": 0.23858857154846191,
+            "S6:irrelevant": -0.12813520431518555,
+            "S1:background": 0.12322086095809937,
+            "S6:background": -0.000962376594543457
+          }
+        },
+        "target": {
+          "m_clean": -1.8784452676773071,
+          "delta": {
+            "S1:target": -0.12441432476043701,
+            "S6:target": -0.12441408634185791,
+            "S1:reference": 0.3764607906341553,
+            "S6:reference": 0.37580978870391846,
+            "S1:irrelevant": 0.375860333442688,
+            "S6:irrelevant": 0.37518084049224854,
+            "S1:background": 5.364418029785156e-06,
+            "S6:background": 5.0067901611328125e-06
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0025",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.5009956359863281,
+          "delta": {
+            "S1:target": 0.49972689151763916,
+            "S6:target": 0.0003001689910888672,
+            "S1:reference": 0.7504217624664307,
+            "S6:reference": 0.3752480745315552,
+            "S1:irrelevant": 0.24975168704986572,
+            "S6:irrelevant": 0.24977576732635498,
+            "S1:background": 0.8749425411224365,
+            "S6:background": 0.8749189376831055
+          }
+        },
+        "target": {
+          "m_clean": 0.33459848165512085,
+          "delta": {
+            "S1:target": 0.05213344097137451,
+            "S6:target": 0.11098617315292358,
+            "S1:reference": 0.05600452423095703,
+            "S6:reference": 0.05600625276565552,
+            "S1:irrelevant": -0.05931121110916138,
+            "S6:irrelevant": 0.04848116636276245,
+            "S1:background": -0.1783028244972229,
+            "S6:background": -0.12640130519866943
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0026",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.1263907551765442,
+          "delta": {
+            "S1:target": -0.25114697217941284,
+            "S6:target": -0.252540647983551,
+            "S1:reference": 0.0007253289222717285,
+            "S6:reference": -0.1251615285873413,
+            "S1:irrelevant": 0.12639492750167847,
+            "S6:irrelevant": 0.12639379501342773,
+            "S1:background": 0.12080127000808716,
+            "S6:background": 0.1263948678970337
+          }
+        },
+        "target": {
+          "m_clean": -1.0018805265426636,
+          "delta": {
+            "S1:target": -0.00087738037109375,
+            "S6:target": -0.12501657009124756,
+            "S1:reference": 0.12375712394714355,
+            "S6:reference": -0.12501680850982666,
+            "S1:irrelevant": -0.000710606575012207,
+            "S6:irrelevant": -0.1251387596130371,
+            "S1:background": -0.0007174015045166016,
+            "S6:background": -0.00038564205169677734
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0027",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.37229490280151367,
+          "delta": {
+            "S1:target": -0.25451380014419556,
+            "S6:target": -0.254638671875,
+            "S1:reference": -0.24728715419769287,
+            "S6:reference": -0.2496928572654724,
+            "S1:irrelevant": -0.1222832202911377,
+            "S6:irrelevant": 0.12771445512771606,
+            "S1:background": -0.24099022150039673,
+            "S6:background": -0.24728727340698242
+          }
+        },
+        "target": {
+          "m_clean": -0.7522281408309937,
+          "delta": {
+            "S1:target": 0.12418520450592041,
+            "S6:target": 0.12499773502349854,
+            "S1:reference": 0.00026047229766845703,
+            "S6:reference": 4.0650367736816406e-05,
+            "S1:irrelevant": -0.12461996078491211,
+            "S6:irrelevant": -0.1250995397567749,
+            "S1:background": -0.0001431107521057129,
+            "S6:background": 0.00037789344787597656
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0028",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.25212860107421875,
+          "delta": {
+            "S1:target": -0.12782996892929077,
+            "S6:target": -0.12661981582641602,
+            "S1:reference": -0.0008018612861633301,
+            "S6:reference": -0.0004603266716003418,
+            "S1:irrelevant": -0.000950157642364502,
+            "S6:irrelevant": 0.12298387289047241,
+            "S1:background": 0.1250014305114746,
+            "S6:background": 0.12437355518341064
+          }
+        },
+        "target": {
+          "m_clean": -1.6319983005523682,
+          "delta": {
+            "S1:target": 0.5015323162078857,
+            "S6:target": 0.3758115768432617,
+            "S1:reference": 0.12658298015594482,
+            "S6:reference": 0.0024611949920654297,
+            "S1:irrelevant": -0.0004621744155883789,
+            "S6:irrelevant": 0.12414491176605225,
+            "S1:background": -0.01530158519744873,
+            "S6:background": -0.0058667659759521484
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0029",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.3649441599845886,
+          "delta": {
+            "S1:target": -0.24883228540420532,
+            "S6:target": -0.24939829111099243,
+            "S1:reference": -0.2490876317024231,
+            "S6:reference": -0.24883198738098145,
+            "S1:irrelevant": -0.24817949533462524,
+            "S6:irrelevant": -0.372325599193573,
+            "S1:background": 0.0010900497436523438,
+            "S6:background": 0.0017002224922180176
+          }
+        },
+        "target": {
+          "m_clean": -0.25254005193710327,
+          "delta": {
+            "S1:target": 0.12405955791473389,
+            "S6:target": 0.12466901540756226,
+            "S1:reference": 0.0013115406036376953,
+            "S6:reference": 0.00015091896057128906,
+            "S1:irrelevant": 0.3764519691467285,
+            "S6:irrelevant": 0.37515050172805786,
+            "S1:background": -0.12245523929595947,
+            "S6:background": 0.0011515617370605469
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0030",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.1264814138412476,
+          "delta": {
+            "S1:target": -0.12425625324249268,
+            "S6:target": 0.0005316734313964844,
+            "S1:reference": -0.0001062154769897461,
+            "S6:reference": -1.0371208190917969e-05,
+            "S1:irrelevant": 0.12479138374328613,
+            "S6:irrelevant": 5.960464477539062e-07,
+            "S1:background": 0.3752634525299072,
+            "S6:background": 0.3751722574234009
+          }
+        },
+        "target": {
+          "m_clean": -0.753900408744812,
+          "delta": {
+            "S1:target": 0.25023937225341797,
+            "S6:target": 0.0004608035087585449,
+            "S1:reference": 0.1263730525970459,
+            "S6:reference": -0.2509114742279053,
+            "S1:background": 0.3752394914627075,
+            "S6:background": 0.24975812435150146
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0031",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 1.2400649785995483,
+          "delta": {
+            "S1:target": 0.5040308237075806,
+            "S6:target": 0.5023810863494873,
+            "S1:reference": -1.3699666857719421,
+            "S6:reference": -1.4944770336151123,
+            "S1:irrelevant": -0.2493029236793518,
+            "S6:irrelevant": -0.24940729141235352,
+            "S1:background": 0.12500035762786865,
+            "S6:background": 0.0011484622955322266
+          }
+        },
+        "target": {
+          "m_clean": -1.1272934675216675,
+          "delta": {
+            "S1:target": 6.9141387939453125e-06,
+            "S6:target": -0.0001399517059326172,
+            "S1:reference": 0.12453627586364746,
+            "S6:reference": -0.00014090538024902344,
+            "S1:background": 0.12516355514526367,
+            "S6:background": 0.12472653388977051
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0032",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -1.2589240074157715,
+          "delta": {
+            "S1:target": -0.12208116054534912,
+            "S6:target": -0.12317085266113281,
+            "S1:reference": 0.2532740831375122,
+            "S6:reference": 0.005033969879150391,
+            "S1:irrelevant": 0.0024709701538085938,
+            "S6:irrelevant": 0.004231691360473633,
+            "S1:background": 0.0003892183303833008,
+            "S6:background": 0.003027200698852539
+          }
+        },
+        "target": {
+          "m_clean": -1.0016436576843262,
+          "delta": {
+            "S1:target": 0.24911946058273315,
+            "S6:target": 0.1250118613243103,
+            "S1:reference": -0.49949026107788086,
+            "S6:reference": -0.7492325305938721,
+            "S1:background": -0.12973105907440186,
+            "S6:background": -0.12488794326782227
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0033",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.25223034620285034,
+          "delta": {
+            "S1:target": -0.3741268515586853,
+            "S6:target": -0.624306857585907,
+            "S1:reference": -0.2489309310913086,
+            "S6:reference": -0.4994017481803894,
+            "S1:irrelevant": -0.12500250339508057,
+            "S6:irrelevant": -0.24974113702774048,
+            "S1:background": -0.12791705131530762,
+            "S6:background": 0.12436729669570923
+          }
+        },
+        "target": {
+          "m_clean": -1.2551465034484863,
+          "delta": {
+            "S1:target": -0.3749992847442627,
+            "S6:target": -0.37497031688690186,
+            "S1:reference": -0.12437295913696289,
+            "S6:reference": -0.12466263771057129,
+            "S1:irrelevant": -0.12564384937286377,
+            "S6:irrelevant": -0.12410056591033936,
+            "S1:background": -0.12499916553497314,
+            "S6:background": -0.12384521961212158
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0034",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.49647510051727295,
+          "delta": {
+            "S1:target": 0.12499988079071045,
+            "S6:target": 0.12337875366210938,
+            "S1:reference": -0.9975627660751343,
+            "S6:reference": -0.9971393346786499,
+            "S1:irrelevant": -0.24793606996536255,
+            "S6:irrelevant": -0.24903523921966553,
+            "S1:background": 0.12593579292297363,
+            "S6:background": 0.001970827579498291
+          }
+        },
+        "target": {
+          "m_clean": -1.003678560256958,
+          "delta": {
+            "S1:target": 0.12574106454849243,
+            "S6:target": 0.12608468532562256,
+            "S1:reference": 0.0005805492401123047,
+            "S6:reference": 0.0005521774291992188,
+            "S1:irrelevant": -0.1342298984527588,
+            "S6:irrelevant": -0.12708735466003418,
+            "S1:background": -0.12465572357177734,
+            "S6:background": -0.1253296136856079
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0035",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.8862267136573792,
+          "delta": {
+            "S1:target": -1.6689300537109375e-06,
+            "S6:target": -0.0009889602661132812,
+            "S1:reference": -0.12433332204818726,
+            "S6:reference": -0.2473103404045105,
+            "S1:irrelevant": -0.0017420053482055664,
+            "S6:irrelevant": -0.12311333417892456,
+            "S1:background": -0.003106057643890381,
+            "S6:background": -0.00018525123596191406
+          }
+        },
+        "target": {
+          "m_clean": -0.6306505799293518,
+          "delta": {
+            "S1:target": 0.12596458196640015,
+            "S6:target": -0.12404394149780273,
+            "S1:reference": -0.12282675504684448,
+            "S6:reference": -0.24727457761764526,
+            "S1:irrelevant": -0.24748772382736206,
+            "S6:irrelevant": -0.37286776304244995,
+            "S1:background": 0.7506550550460815,
+            "S6:background": 0.3769908547401428
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0036",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.62770676612854,
+          "delta": {
+            "S1:target": -0.0048449039459228516,
+            "S6:target": -0.25055527687072754,
+            "S1:reference": -0.00017338991165161133,
+            "S6:reference": 0.124950110912323,
+            "S1:irrelevant": -0.25243353843688965,
+            "S6:irrelevant": -0.2507643699645996,
+            "S1:background": -0.0004661083221435547,
+            "S6:background": -0.12476563453674316
+          }
+        },
+        "target": {
+          "m_clean": -1.630146861076355,
+          "delta": {
+            "S1:target": 0.12559998035430908,
+            "S6:target": 0.0008736848831176758,
+            "S1:reference": 0.7514499425888062,
+            "S6:reference": 0.3751077651977539,
+            "S1:irrelevant": 0.25069642066955566,
+            "S6:irrelevant": 0.3732067346572876,
+            "S1:background": 0.12468338012695312,
+            "S6:background": 0.12468326091766357
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0037",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 1.4926940202713013,
+          "delta": {
+            "S1:target": -1.254295289516449,
+            "S6:target": -1.4985937476158142,
+            "S1:reference": -1.7542895674705505,
+            "S6:reference": -1.6282525658607483,
+            "S1:irrelevant": -0.3749045133590698,
+            "S6:irrelevant": -0.12479782104492188
+          }
+        },
+        "target": {
+          "m_clean": -1.2515510320663452,
+          "delta": {
+            "S1:target": 0.12655413150787354,
+            "S6:target": 0.12533509731292725,
+            "S1:reference": 0.1258467435836792,
+            "S6:reference": -0.0002130270004272461,
+            "S1:irrelevant": 0.3739625811576843,
+            "S6:irrelevant": 0.3729960322380066,
+            "S1:background": 0.12383115291595459,
+            "S6:background": 0.24823927879333496
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0038",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.6184055805206299,
+          "delta": {
+            "S1:target": -0.9985515475273132,
+            "S6:target": -0.9992311000823975,
+            "S1:reference": -0.747951090335846,
+            "S6:reference": -0.9979507923126221,
+            "S1:irrelevant": 0.0011501312255859375,
+            "S6:irrelevant": -0.12258845567703247,
+            "S1:background": 0.12614911794662476,
+            "S6:background": 0.0018587112426757812
+          }
+        },
+        "target": {
+          "m_clean": -1.3787504434585571,
+          "delta": {
+            "S1:target": -0.12456226348876953,
+            "S6:target": -0.24977314472198486,
+            "S1:reference": 0.24949002265930176,
+            "S6:reference": 0.12498843669891357,
+            "S1:irrelevant": 0.12476062774658203,
+            "S6:irrelevant": 0.12543880939483643,
+            "S1:background": 0.2483365535736084,
+            "S6:background": 0.12498819828033447
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0039",
+      "group": "person|to the right of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.12208271026611328,
+          "delta": {
+            "S1:target": -0.12436199188232422,
+            "S6:target": -0.12409669160842896,
+            "S1:reference": -0.7493827939033508,
+            "S6:reference": -0.7488753795623779,
+            "S1:irrelevant": 3.552436828613281e-05,
+            "S6:irrelevant": 0.24823898077011108,
+            "S1:background": 0.24851727485656738,
+            "S6:background": 0.12426358461380005
+          }
+        },
+        "target": {
+          "m_clean": -0.8765730857849121,
+          "delta": {
+            "S1:target": -0.1250133514404297,
+            "S6:target": -0.2498159408569336,
+            "S1:reference": 0.5001953840255737,
+            "S6:reference": 0.5000928640365601,
+            "S1:irrelevant": 0.0005002021789550781,
+            "S6:irrelevant": 0.12498712539672852,
+            "S1:background": 0.24940842390060425,
+            "S6:background": 0.24934446811676025
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0000",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 2.0187294483184814,
+          "delta": {
+            "S1:target": -1.75980943441391,
+            "S6:target": -1.5083307027816772,
+            "S1:reference": -1.0158047676086426,
+            "S6:reference": -0.6410117149353027,
+            "S1:irrelevant": 0.49170589447021484,
+            "S6:irrelevant": 0.4905056953430176,
+            "S1:background": -0.010557889938354492,
+            "S6:background": 0.11620163917541504
+          }
+        },
+        "target": {
+          "m_clean": -0.24860268831253052,
+          "delta": {
+            "S1:target": -0.12730258703231812,
+            "S6:target": 0.37451112270355225,
+            "S1:reference": 0.3727484941482544,
+            "S6:reference": 0.9973073601722717,
+            "S1:irrelevant": -0.5013917684555054,
+            "S6:irrelevant": -0.1263943910598755,
+            "S1:background": -0.0013980865478515625,
+            "S6:background": 0.6236028075218201
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0001",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 2.499910593032837,
+          "delta": {
+            "S1:target": -1.5000748038291931,
+            "S6:target": -0.24991583824157715,
+            "S1:reference": -0.12518906593322754,
+            "S6:reference": -0.12491536140441895
+          }
+        },
+        "target": {
+          "m_clean": -1.1260195970535278,
+          "delta": {
+            "S1:target": 0.2491549253463745,
+            "S6:target": 0.24903571605682373,
+            "S1:reference": 0.4996311068534851,
+            "S6:reference": 0.7510243654251099,
+            "S1:irrelevant": 0.24462389945983887,
+            "S6:irrelevant": 0.7473645806312561,
+            "S1:background": 0.5002702474594116,
+            "S6:background": 0.376989483833313
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0002",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 4.0016279220581055,
+          "delta": {
+            "S1:target": -3.377084970474243,
+            "S6:target": -1.8762993812561035,
+            "S1:reference": -3.2521437406539917,
+            "S6:reference": -2.0018991231918335,
+            "S1:irrelevant": -0.12566828727722168,
+            "S6:irrelevant": -4.673004150390625e-05
+          }
+        },
+        "target": {
+          "m_clean": 0.6274377107620239,
+          "delta": {
+            "S1:target": -1.1263611614704132,
+            "S6:target": -0.6263617873191833,
+            "S1:reference": -1.000776469707489,
+            "S6:reference": -1.0024332404136658,
+            "S1:irrelevant": -0.502436637878418,
+            "S6:irrelevant": -0.6274363398551941,
+            "S1:background": -0.37502896785736084,
+            "S6:background": 0.24921703338623047
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0003",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.126556396484375,
+          "delta": {
+            "S1:target": 0.12655681371688843,
+            "S6:target": 0.2497958540916443,
+            "S1:reference": 1.125801146030426,
+            "S6:reference": 1.6259655952453613,
+            "S1:irrelevant": 0.37414729595184326,
+            "S6:irrelevant": 0.25018244981765747,
+            "S1:background": 0.2509673833847046,
+            "S6:background": 0.25093066692352295
+          }
+        },
+        "target": {
+          "m_clean": -1.0010855197906494,
+          "delta": {
+            "S1:target": 0.24897384643554688,
+            "S6:target": 0.25109100341796875,
+            "S1:reference": 0.8768895268440247,
+            "S6:reference": 1.376087248325348,
+            "S1:irrelevant": 0.25000059604644775,
+            "S6:irrelevant": 0.3760913610458374,
+            "S1:background": 0.12443482875823975,
+            "S6:background": 0.1260906457901001
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0004",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.00393986701965332,
+          "delta": {
+            "S1:target": -0.2504727244377136,
+            "S6:target": 0.5009823739528656,
+            "S1:reference": -0.3717234134674072,
+            "S6:reference": 0.7534434795379639,
+            "S1:irrelevant": 0.374947726726532,
+            "S6:irrelevant": 0.6256599426269531
+          }
+        },
+        "target": {
+          "m_clean": -0.8772574663162231,
+          "delta": {
+            "S1:target": 0.12596869468688965,
+            "S6:target": 0.5015941858291626,
+            "S1:reference": 0.5013096332550049,
+            "S6:reference": 0.6278868317604065,
+            "S1:irrelevant": 0.2515547275543213,
+            "S6:irrelevant": 0.6243311166763306,
+            "S1:background": 0.1255040168762207,
+            "S6:background": 0.12646281719207764
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0005",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.8784818053245544,
+          "delta": {
+            "S1:target": -0.37352055311203003,
+            "S6:target": -0.3736346364021301,
+            "S1:reference": -0.12178438901901245,
+            "S6:reference": 0.12969332933425903,
+            "S1:irrelevant": 0.5009183287620544,
+            "S6:irrelevant": 0.5023208856582642,
+            "S1:background": 0.12593907117843628,
+            "S6:background": 0.2512322664260864
+          }
+        },
+        "target": {
+          "m_clean": 0.4987660050392151,
+          "delta": {
+            "S1:target": 0.49835866689682007,
+            "S6:target": 0.7481513619422913,
+            "S1:reference": -0.3743836283683777,
+            "S6:reference": 0.6254400610923767,
+            "S1:irrelevant": 0.24581390619277954,
+            "S6:irrelevant": 0.2458145022392273,
+            "S1:background": 0.12484091520309448,
+            "S6:background": 0.24975162744522095
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0006",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.5015649795532227,
+          "delta": {
+            "S1:target": 0.2499988079071045,
+            "S6:target": 0.25100886821746826,
+            "S1:reference": 1.2510168552398682,
+            "S6:reference": 1.8765583634376526,
+            "S1:irrelevant": 0.24989914894104004,
+            "S6:irrelevant": 0.24989891052246094,
+            "S1:background": 0.2502650022506714,
+            "S6:background": 0.1251819133758545
+          }
+        },
+        "target": {
+          "m_clean": -0.7482315301895142,
+          "delta": {
+            "S1:target": -0.12636351585388184,
+            "S6:target": 0.4982292652130127,
+            "S1:reference": -0.625103235244751,
+            "S6:reference": -0.3762465715408325,
+            "S1:irrelevant": 0.6245229840278625,
+            "S6:irrelevant": 0.8735886216163635,
+            "S1:background": 0.24937209486961365,
+            "S6:background": 0.37437355518341064
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0007",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.49861469864845276,
+          "delta": {
+            "S1:target": -1.3748373091220856,
+            "S6:target": -1.2495724856853485,
+            "S1:reference": -1.1249949038028717,
+            "S6:reference": -0.7499109208583832,
+            "S1:irrelevant": -0.7486033737659454,
+            "S6:irrelevant": -0.7513091862201691,
+            "S1:background": -0.37527403235435486,
+            "S6:background": 0.3729410469532013
+          }
+        },
+        "target": {
+          "m_clean": 1.251459002494812,
+          "delta": {
+            "S1:target": -0.6258732080459595,
+            "S6:target": -8.249282836914062e-05,
+            "S1:reference": -1.6271222829818726,
+            "S6:reference": -0.12754356861114502,
+            "S1:irrelevant": 0.25165319442749023,
+            "S6:irrelevant": 0.3766547441482544
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0008",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.7510735988616943,
+          "delta": {
+            "S1:target": 0.37607264518737793,
+            "S6:target": 0.3765615224838257,
+            "S1:reference": 0.37607264518737793,
+            "S6:reference": 0.5006403923034668,
+            "S1:irrelevant": 0.0010755062103271484,
+            "S6:irrelevant": 0.0016276836395263672,
+            "S1:background": 0.25036442279815674,
+            "S6:background": 0.25153326988220215
+          }
+        },
+        "target": {
+          "m_clean": 0.626583456993103,
+          "delta": {
+            "S1:target": -0.0002657175064086914,
+            "S6:target": 0.12567222118377686,
+            "S1:reference": -1.12766695022583,
+            "S6:reference": -1.0041210651397705,
+            "S1:irrelevant": 0.12581288814544678,
+            "S6:irrelevant": 0.4996485710144043,
+            "S1:background": -0.3782479166984558,
+            "S6:background": 0.37531113624572754
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0009",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.119320809841156,
+          "delta": {
+            "S1:target": -0.3779687285423279,
+            "S6:target": -0.25313109159469604,
+            "S1:reference": -0.25410187244415283,
+            "S6:reference": -0.13067686557769775,
+            "S1:irrelevant": -0.004005551338195801,
+            "S6:irrelevant": 0.24872010946273804,
+            "S1:background": 0.1243520975112915,
+            "S6:background": 0.24799060821533203
+          }
+        },
+        "target": {
+          "m_clean": 1.3768759965896606,
+          "delta": {
+            "S1:target": -1.5018797516822815,
+            "S6:target": -0.8771279454231262,
+            "S1:reference": -2.1268787384033203,
+            "S6:reference": -0.8768795430660248,
+            "S1:background": 0.24988508224487305,
+            "S6:background": 0.5005712509155273
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0010",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.1242468357086182,
+          "delta": {
+            "S1:target": 0.3736913204193115,
+            "S6:target": 0.3736917972564697,
+            "S1:reference": 0.12470561265945435,
+            "S6:reference": -0.1253725290298462,
+            "S1:irrelevant": 0.00013649463653564453,
+            "S6:irrelevant": 0.00019407272338867188,
+            "S1:background": 0.3748713731765747,
+            "S6:background": 0.2500002980232239
+          }
+        },
+        "target": {
+          "m_clean": -0.5023932456970215,
+          "delta": {
+            "S1:target": -1.375166893005371,
+            "S6:target": -0.8759223222732544,
+            "S1:reference": 0.6266822218894958,
+            "S6:reference": 1.375733733177185,
+            "S1:background": 0.2501415014266968,
+            "S6:background": 0.4989084005355835
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0011",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.1256669759750366,
+          "delta": {
+            "S1:target": 0.3743724822998047,
+            "S6:target": 0.37566566467285156,
+            "S1:reference": 0.2493729591369629,
+            "S6:reference": 0.3750767707824707,
+            "S1:irrelevant": 0.12495636940002441,
+            "S6:irrelevant": 0.2493724822998047,
+            "S1:background": 0.37470197677612305,
+            "S6:background": 0.4998124837875366
+          }
+        },
+        "target": {
+          "m_clean": 1.7557551860809326,
+          "delta": {
+            "S1:target": -1.0042922496795654,
+            "S6:target": 0.24601101875305176,
+            "S1:reference": -0.7529816627502441,
+            "S6:reference": -0.25280463695526123,
+            "S1:irrelevant": -0.12682390213012695,
+            "S6:irrelevant": 0.37574267387390137
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0012",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.5044480562210083,
+          "delta": {
+            "S1:target": -0.004449039697647095,
+            "S6:target": -0.0017426013946533203,
+            "S1:reference": -0.5029670000076294,
+            "S6:reference": -0.2544478178024292,
+            "S1:irrelevant": 0.4989994764328003,
+            "S6:irrelevant": 0.5038421154022217,
+            "S1:background": -1.0058408975601196,
+            "S6:background": -0.8807585835456848
+          }
+        },
+        "target": {
+          "m_clean": -0.7542837262153625,
+          "delta": {
+            "S1:target": -0.002129495143890381,
+            "S6:target": 0.12228542566299438,
+            "S1:reference": 0.8763781189918518,
+            "S6:reference": 1.3768678307533264,
+            "S1:background": 0.8720619082450867,
+            "S6:background": 0.9978962540626526
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0013",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.750956654548645,
+          "delta": {
+            "S1:target": 0.12440681457519531,
+            "S6:target": 0.12493884563446045,
+            "S1:reference": 0.49958425760269165,
+            "S6:reference": 0.6244959235191345,
+            "S1:irrelevant": 0.3752068281173706,
+            "S6:irrelevant": 0.25010770559310913,
+            "S1:background": 0.1249990463256836,
+            "S6:background": 0.1249992847442627
+          }
+        },
+        "target": {
+          "m_clean": -1.2467526197433472,
+          "delta": {
+            "S1:target": -0.0032501220703125,
+            "S6:target": 0.12175130844116211,
+            "S1:reference": 0.12388598918914795,
+            "S6:reference": 0.12620365619659424,
+            "S1:irrelevant": 0.2535554766654968,
+            "S6:irrelevant": 0.37565040588378906,
+            "S1:background": 0.3756493330001831,
+            "S6:background": 0.6230620741844177
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0014",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.6281180381774902,
+          "delta": {
+            "S1:target": 0.12536263465881348,
+            "S6:target": 0.2508530020713806,
+            "S1:reference": 1.2522600889205933,
+            "S6:reference": 2.1275570392608643,
+            "S1:irrelevant": 0.4998002052307129,
+            "S6:irrelevant": 0.25018590688705444,
+            "S1:background": -0.12722563743591309,
+            "S6:background": 0.24838680028915405
+          }
+        },
+        "target": {
+          "m_clean": 2.252699136734009,
+          "delta": {
+            "S1:target": -1.6263014078140259,
+            "S6:target": -0.6263091564178467,
+            "S1:reference": -2.2527040243148804,
+            "S6:reference": -1.12738835811615,
+            "S1:irrelevant": 0.25,
+            "S6:irrelevant": 0.377321720123291
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0015",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.8762164115905762,
+          "delta": {
+            "S1:target": 0.2512161135673523,
+            "S6:target": 0.3752051591873169,
+            "S1:reference": 0.12575531005859375,
+            "S6:reference": 0.12507319450378418,
+            "S1:irrelevant": 0.49895042181015015,
+            "S6:irrelevant": 0.4993327856063843,
+            "S1:background": 0.24746304750442505,
+            "S6:background": 0.4998398423194885
+          }
+        },
+        "target": {
+          "m_clean": -0.6267668604850769,
+          "delta": {
+            "S1:target": 0.1243332028388977,
+            "S6:target": 0.6256269812583923,
+            "S1:reference": 0.37401145696640015,
+            "S6:reference": 0.5010601878166199,
+            "S1:irrelevant": 0.125552237033844,
+            "S6:irrelevant": 0.12539339065551758,
+            "S1:background": 0.125385582447052,
+            "S6:background": 0.6248851418495178
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0016",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.127543568611145,
+          "delta": {
+            "S1:target": 0.250555157661438,
+            "S6:target": 0.25151920318603516,
+            "S1:reference": 0.3772045969963074,
+            "S6:reference": 0.6275416016578674,
+            "S1:irrelevant": 0.12426841259002686,
+            "S6:irrelevant": 0.12335789203643799,
+            "S1:background": 0.2515183687210083,
+            "S6:background": 0.25131165981292725
+          }
+        },
+        "target": {
+          "m_clean": -0.50559002161026,
+          "delta": {
+            "S1:target": 0.13058876991271973,
+            "S6:target": 0.005590260028839111,
+            "S1:reference": 0.5072623491287231,
+            "S6:reference": 0.6319804191589355,
+            "S1:irrelevant": 0.13059002161026,
+            "S6:irrelevant": 0.13058799505233765,
+            "S1:background": 0.2555903196334839,
+            "S6:background": 0.2555888891220093
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0017",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.9999956488609314,
+          "delta": {
+            "S1:target": 0.2509062886238098,
+            "S6:target": 0.2518710494041443,
+            "S1:reference": -0.7512167096138,
+            "S6:reference": -0.2500022053718567,
+            "S1:irrelevant": 0.37623077630996704,
+            "S6:irrelevant": 0.3760891556739807,
+            "S1:background": 0.0010898709297180176,
+            "S6:background": 0.12596267461776733
+          }
+        },
+        "target": {
+          "m_clean": -0.12499785423278809,
+          "delta": {
+            "S1:target": 0.8756518363952637,
+            "S6:target": 0.5002794861793518,
+            "S1:reference": 0.749622106552124,
+            "S6:reference": 1.7496205568313599,
+            "S1:irrelevant": 1.6252433061599731,
+            "S6:irrelevant": 2.0002589225769043,
+            "S1:background": 1.0002604126930237,
+            "S6:background": 0.9996610879898071
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0018",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.12499821186065674,
+          "delta": {
+            "S1:target": -0.9999974966049194,
+            "S6:target": -0.8746384382247925,
+            "S1:reference": 0.24999886751174927,
+            "S6:reference": 0.3745672404766083,
+            "S1:irrelevant": 0.24999916553497314,
+            "S6:irrelevant": 0.2499990463256836,
+            "S1:background": -0.6249994039535522,
+            "S6:background": -0.37570667266845703
+          }
+        },
+        "target": {
+          "m_clean": -1.5008912086486816,
+          "delta": {
+            "S1:target": 0.4998812675476074,
+            "S6:target": 0.5005769729614258,
+            "S1:reference": 1.5010697841644287,
+            "S6:reference": 2.8760902881622314,
+            "S1:irrelevant": 0.24994254112243652,
+            "S6:irrelevant": 0.3743997812271118,
+            "S1:background": -0.1258641481399536,
+            "S6:background": -0.0008728504180908203
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0019",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.004731237888336182,
+          "delta": {
+            "S1:target": -0.5040235221385956,
+            "S6:target": -0.5040656328201294,
+            "S1:reference": -0.2536592483520508,
+            "S6:reference": -0.12807053327560425,
+            "S1:irrelevant": -0.12872397899627686,
+            "S6:irrelevant": 0.3718287944793701,
+            "S1:background": 0.37761610746383667,
+            "S6:background": 0.377618670463562
+          }
+        },
+        "target": {
+          "m_clean": 0.3795124292373657,
+          "delta": {
+            "S1:target": -0.5017866492271423,
+            "S6:target": -0.12724792957305908,
+            "S1:reference": -1.252637267112732,
+            "S6:reference": -1.1278547048568726,
+            "S1:irrelevant": -0.002245485782623291,
+            "S6:irrelevant": 0.3728976249694824,
+            "S1:background": 4.464387893676758e-05,
+            "S6:background": 0.1277066469192505
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0020",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.9999926090240479,
+          "delta": {
+            "S1:target": 0.12500035762786865,
+            "S6:target": 0.3739734888076782,
+            "S1:reference": 0.12376481294631958,
+            "S6:reference": 0.24774664640426636,
+            "S1:irrelevant": 0.24999701976776123,
+            "S6:irrelevant": 0.498834490776062,
+            "S1:background": 0.24897348880767822,
+            "S6:background": 0.4991444945335388
+          }
+        },
+        "target": {
+          "m_clean": -0.6226070523262024,
+          "delta": {
+            "S1:target": -0.005848109722137451,
+            "S6:target": 0.24582648277282715,
+            "S1:reference": 0.37499791383743286,
+            "S6:reference": 0.5015418529510498,
+            "S1:irrelevant": 0.6238365173339844,
+            "S6:irrelevant": 0.7495939135551453,
+            "S1:background": 0.7485694885253906,
+            "S6:background": 0.7484573721885681
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0021",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.25000137090682983,
+          "delta": {
+            "S1:target": -0.8749987483024597,
+            "S6:target": -0.6249988675117493,
+            "S1:reference": 0.12590759992599487,
+            "S6:reference": 0.24999892711639404,
+            "S1:irrelevant": 0.5021160244941711,
+            "S6:irrelevant": 0.498973548412323,
+            "S1:background": 0.37629234790802,
+            "S6:background": 0.37590640783309937
+          }
+        },
+        "target": {
+          "m_clean": -1.1280827522277832,
+          "delta": {
+            "S1:target": 0.5023716688156128,
+            "S6:target": 1.2541029453277588,
+            "S1:reference": -0.2469172477722168,
+            "S6:reference": -0.12191665172576904,
+            "S1:irrelevant": 0.3769913911819458,
+            "S6:irrelevant": 0.6255185604095459,
+            "S1:background": 0.25308364629745483,
+            "S6:background": 0.7500246167182922
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0022",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.3722957968711853,
+          "delta": {
+            "S1:target": -0.253506600856781,
+            "S6:target": 0.12132996320724487,
+            "S1:reference": -0.12654492259025574,
+            "S6:reference": -0.12674051523208618,
+            "S1:irrelevant": 0.24814897775650024,
+            "S6:irrelevant": 0.37320226430892944,
+            "S1:background": -0.12826216220855713,
+            "S6:background": 0.37360674142837524
+          }
+        },
+        "target": {
+          "m_clean": -1.751658320426941,
+          "delta": {
+            "S1:target": -0.12548840045928955,
+            "S6:target": -0.0017815828323364258,
+            "S1:reference": 1.126275360584259,
+            "S6:reference": 1.8753581643104553,
+            "S1:irrelevant": 1.1240689754486084,
+            "S6:irrelevant": 1.3749962449073792,
+            "S1:background": 0.24725103378295898,
+            "S6:background": 0.24751532077789307
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0023",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.1294491291046143,
+          "delta": {
+            "S1:target": -0.0005779266357421875,
+            "S6:target": 0.0030558109283447266,
+            "S1:reference": -0.37176692485809326,
+            "S6:reference": -0.24684488773345947,
+            "S1:irrelevant": 0.12657642364501953,
+            "S6:irrelevant": 0.24942314624786377,
+            "S1:background": 0.2520560026168823,
+            "S6:background": 0.37599778175354004
+          }
+        },
+        "target": {
+          "m_clean": 0.4989126920700073,
+          "delta": {
+            "S1:target": 0.3760894536972046,
+            "S6:target": 0.3750641345977783,
+            "S1:reference": -0.6245675086975098,
+            "S6:reference": 0.3765171766281128,
+            "S1:background": -0.6259025931358337,
+            "S6:background": -0.12933003902435303
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0024",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.7509631514549255,
+          "delta": {
+            "S1:target": -1.7509631514549255,
+            "S6:target": -0.6254446506500244,
+            "S1:reference": 0.0014286637306213379,
+            "S6:reference": 0.2490362524986267,
+            "S1:irrelevant": -1.7509624361991882,
+            "S6:irrelevant": -0.6264241337776184
+          }
+        },
+        "target": {
+          "m_clean": -0.3788962960243225,
+          "delta": {
+            "S1:target": -0.12336784601211548,
+            "S6:target": -0.12677794694900513,
+            "S1:reference": -0.12249797582626343,
+            "S6:reference": -0.0017774105072021484,
+            "S1:irrelevant": -0.12438195943832397,
+            "S6:irrelevant": -0.00222700834274292,
+            "S1:background": 0.5054686069488525,
+            "S6:background": 0.5004429221153259
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0025",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.5057656764984131,
+          "delta": {
+            "S1:target": 0.37591588497161865,
+            "S6:target": 0.753494381904602,
+            "S1:reference": -0.49423933029174805,
+            "S6:reference": 0.3772766590118408,
+            "S1:irrelevant": 0.6291847229003906,
+            "S6:irrelevant": 1.0012480020523071,
+            "S1:background": 1.0041039288043976,
+            "S6:background": 1.3816136121749878
+          }
+        },
+        "target": {
+          "m_clean": -0.8718810081481934,
+          "delta": {
+            "S1:target": 0.24929094314575195,
+            "S6:target": 0.3738819658756256,
+            "S1:reference": 1.746876299381256,
+            "S6:reference": 2.6221203804016113,
+            "S1:irrelevant": -0.24777436256408691,
+            "S6:irrelevant": -0.12243920564651489,
+            "S1:background": 0.49974167346954346,
+            "S6:background": 0.7488815188407898
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0026",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.0025429725646973,
+          "delta": {
+            "S1:target": 0.1264539361000061,
+            "S6:target": 0.25029242038726807,
+            "S1:reference": 0.8758841156959534,
+            "S6:reference": 1.125884771347046,
+            "S1:background": 0.25145411491394043,
+            "S6:background": 0.12863612174987793
+          }
+        },
+        "target": {
+          "m_clean": -0.8829597234725952,
+          "delta": {
+            "S1:target": -1.0012086629867554,
+            "S6:target": -0.37638700008392334,
+            "S1:reference": 0.37401461601257324,
+            "S6:reference": 0.6240143179893494,
+            "S1:irrelevant": 0.24999678134918213,
+            "S6:irrelevant": 0.4990144371986389,
+            "S1:background": 0.8795064091682434,
+            "S6:background": 1.5006093978881836
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0027",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.2650589942932129,
+          "delta": {
+            "S1:target": -0.26250433921813965,
+            "S6:target": -0.012505888938903809,
+            "S1:reference": -0.7623534202575684,
+            "S6:reference": -0.1382814645767212,
+            "S1:irrelevant": 0.6339510679244995,
+            "S6:irrelevant": 0.6312929391860962,
+            "S1:background": 0.998321533203125,
+            "S6:background": 1.1289100646972656
+          }
+        },
+        "target": {
+          "m_clean": -1.4985144138336182,
+          "delta": {
+            "S1:target": 0.37125253677368164,
+            "S6:target": 0.6221413612365723,
+            "S1:reference": 0.4994209408760071,
+            "S6:reference": 0.7493170499801636,
+            "S1:irrelevant": 0.6425272226333618,
+            "S6:irrelevant": 1.1276546120643616,
+            "S1:background": 0.873513400554657,
+            "S6:background": 1.247805118560791
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0028",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.6263938546180725,
+          "delta": {
+            "S1:target": 0.000737607479095459,
+            "S6:target": 0.37598538398742676,
+            "S1:reference": 0.2505536675453186,
+            "S6:reference": 0.500382661819458,
+            "S1:irrelevant": 1.0004398822784424,
+            "S6:irrelevant": 1.5003144145011902
+          }
+        },
+        "target": {
+          "m_clean": -0.7499983310699463,
+          "delta": {
+            "S1:target": 0.49876469373703003,
+            "S6:target": 0.4999988079071045,
+            "S1:reference": 0.24788200855255127,
+            "S6:reference": 0.12631440162658691,
+            "S1:irrelevant": 0.24884092807769775,
+            "S6:irrelevant": 0.3760925531387329,
+            "S1:background": -7.748603820800781e-07,
+            "S6:background": 0.12500107288360596
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0029",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.6271142363548279,
+          "delta": {
+            "S1:target": -0.37334519624710083,
+            "S6:target": 0.00144881010055542,
+            "S1:reference": 0.12711751461029053,
+            "S6:reference": 0.249866783618927,
+            "S1:irrelevant": 0.25211697816848755,
+            "S6:irrelevant": 0.3771163821220398,
+            "S1:background": 0.12711620330810547,
+            "S6:background": 0.375637948513031
+          }
+        },
+        "target": {
+          "m_clean": 1.0008537769317627,
+          "delta": {
+            "S1:target": -2.001404047012329,
+            "S6:target": -1.6271488070487976,
+            "S1:reference": -1.3765170574188232,
+            "S6:reference": 0.12359750270843506,
+            "S1:irrelevant": 0.3733927011489868,
+            "S6:irrelevant": 0.2491469383239746
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0030",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.4986207187175751,
+          "delta": {
+            "S1:target": -0.9993766844272614,
+            "S6:target": -0.6258871853351593,
+            "S1:reference": -0.748625248670578,
+            "S6:reference": -0.6236232817173004,
+            "S1:irrelevant": 0.3744937479496002,
+            "S6:irrelevant": 0.25070956349372864,
+            "S1:background": -0.4955664575099945,
+            "S6:background": 0.12498107552528381
+          }
+        },
+        "target": {
+          "m_clean": -1.126662015914917,
+          "delta": {
+            "S1:target": 0.1243736743927002,
+            "S6:target": 0.12451136112213135,
+            "S1:reference": 0.12519335746765137,
+            "S6:reference": 0.12571430206298828,
+            "S1:irrelevant": 0.1255892515182495,
+            "S6:irrelevant": 0.12437403202056885,
+            "S1:background": 0.0007150173187255859,
+            "S6:background": 0.24937337636947632
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0031",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.248443603515625,
+          "delta": {
+            "S1:target": -0.25084900856018066,
+            "S6:target": 0.12344086170196533,
+            "S1:reference": 0.37543463706970215,
+            "S6:reference": 0.3758523464202881,
+            "S1:background": 0.3795676827430725,
+            "S6:background": 0.7506940364837646
+          }
+        },
+        "target": {
+          "m_clean": -1.0000009536743164,
+          "delta": {
+            "S1:target": 2.384185791015625e-07,
+            "S6:target": 0.250964879989624,
+            "S1:reference": 0.5019887089729309,
+            "S6:reference": 1.3757978677749634,
+            "S1:irrelevant": 0.6266529560089111,
+            "S6:irrelevant": 1.2520198822021484,
+            "S1:background": -0.24672389030456543,
+            "S6:background": 0.0008014440536499023
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0032",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.7491975426673889,
+          "delta": {
+            "S1:target": -0.6252793669700623,
+            "S6:target": -0.5012900233268738,
+            "S1:reference": -0.00015020370483398438,
+            "S6:reference": 0.49881356954574585,
+            "S1:irrelevant": 0.250490665435791,
+            "S6:irrelevant": 0.0023170113563537598,
+            "S1:background": 0.3748631477355957,
+            "S6:background": 0.12541449069976807
+          }
+        },
+        "target": {
+          "m_clean": -1.3757551908493042,
+          "delta": {
+            "S1:target": 1.1236239671707153,
+            "S6:target": 1.7496101260185242,
+            "S1:reference": 0.8757543563842773,
+            "S6:reference": 1.8747426569461823,
+            "S1:irrelevant": 0.9992841482162476,
+            "S6:irrelevant": 1.750138282775879,
+            "S1:background": 0.8748051524162292,
+            "S6:background": 1.7500116229057312
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0033",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.74853515625,
+          "delta": {
+            "S1:target": -0.2514641284942627,
+            "S6:target": -0.2519524097442627,
+            "S1:reference": -0.0014653205871582031,
+            "S6:reference": 0.3735346794128418,
+            "S1:irrelevant": 0.49853408336639404,
+            "S6:irrelevant": 0.37499886751174927,
+            "S1:background": 0.4999094605445862,
+            "S6:background": 0.6235343217849731
+          }
+        },
+        "target": {
+          "m_clean": -0.378118097782135,
+          "delta": {
+            "S1:target": 0.6249995231628418,
+            "S6:target": 0.5009879469871521,
+            "S1:reference": 0.002454817295074463,
+            "S6:reference": 1.252035915851593
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0034",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.7458553314208984,
+          "delta": {
+            "S1:target": -0.12569141387939453,
+            "S6:target": -0.2476332187652588,
+            "S1:reference": -0.003180265426635742,
+            "S6:reference": -0.12624573707580566,
+            "S1:irrelevant": -0.2533907890319824,
+            "S6:irrelevant": -0.3764185905456543,
+            "S1:background": 0.00534135103225708,
+            "S6:background": 0.12808263301849365
+          }
+        },
+        "target": {
+          "m_clean": -0.12273281812667847,
+          "delta": {
+            "S1:target": -0.1272655725479126,
+            "S6:target": 0.0006099343299865723,
+            "S1:reference": 0.1287640929222107,
+            "S6:reference": 0.24962186813354492,
+            "S1:irrelevant": -0.0007846355438232422,
+            "S6:irrelevant": 0.2502777576446533,
+            "S1:background": 0.6256071329116821,
+            "S6:background": 0.7521819472312927
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0035",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.7507096529006958,
+          "delta": {
+            "S1:target": 0.24902820587158203,
+            "S6:target": 0.625247597694397,
+            "S1:reference": -0.24972522258758545,
+            "S6:reference": 0.0007060766220092773,
+            "S1:irrelevant": 0.25070929527282715,
+            "S6:irrelevant": 0.49999940395355225,
+            "S1:background": 0.3745640516281128,
+            "S6:background": 0.5007080435752869
+          }
+        },
+        "target": {
+          "m_clean": 0.24842512607574463,
+          "delta": {
+            "S1:target": -0.12532192468643188,
+            "S6:target": 0.4996819496154785,
+            "S1:reference": -0.24719220399856567,
+            "S6:reference": 0.00427776575088501,
+            "S1:irrelevant": 0.5015727281570435,
+            "S6:irrelevant": 0.6265708804130554,
+            "S1:background": 0.12657171487808228,
+            "S6:background": 0.5024231672286987
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0036",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -1.3776886463165283,
+          "delta": {
+            "S1:target": 0.624449610710144,
+            "S6:target": 0.6246397495269775,
+            "S1:reference": 1.626728594303131,
+            "S6:reference": 2.6272478103637695,
+            "S1:background": 1.0008994340896606,
+            "S6:background": 1.1253106594085693
+          }
+        },
+        "target": {
+          "m_clean": -0.6196521520614624,
+          "delta": {
+            "S1:target": 0.8696488738059998,
+            "S6:target": 0.7422578930854797,
+            "S1:reference": 0.9941257238388062,
+            "S6:reference": 1.6196467876434326,
+            "S1:irrelevant": 1.123546838760376,
+            "S6:irrelevant": 1.2458808422088623,
+            "S1:background": 0.874104917049408,
+            "S6:background": 1.1196508407592773
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0037",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 1.751226544380188,
+          "delta": {
+            "S1:target": -1.8739619851112366,
+            "S6:target": -0.49850571155548096,
+            "S1:reference": -0.37754499912261963,
+            "S6:reference": -0.12771594524383545,
+            "S1:irrelevant": -0.1238408088684082,
+            "S6:irrelevant": -0.2481774091720581
+          }
+        },
+        "target": {
+          "m_clean": -1.3765705823898315,
+          "delta": {
+            "S1:target": 0.24832260608673096,
+            "S6:target": 0.12212276458740234,
+            "S1:reference": 0.24812018871307373,
+            "S6:reference": 0.2481217384338379,
+            "S1:irrelevant": 0.2481229305267334,
+            "S6:irrelevant": 0.1248999834060669,
+            "S1:background": 0.37499475479125977,
+            "S6:background": 0.3738657236099243
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0038",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": -0.24811625480651855,
+          "delta": {
+            "S1:target": 0.25098681449890137,
+            "S6:target": 0.37656307220458984,
+            "S1:reference": -0.3786656856536865,
+            "S6:reference": 0.12171787023544312,
+            "S1:irrelevant": 0.25200921297073364,
+            "S6:irrelevant": 0.37813782691955566,
+            "S1:background": 0.2537856101989746,
+            "S6:background": 0.3781372308731079
+          }
+        },
+        "target": {
+          "m_clean": -0.12500137090682983,
+          "delta": {
+            "S1:target": -0.49999886751174927,
+            "S6:target": 0.12461793422698975,
+            "S1:reference": 0.12461626529693604,
+            "S6:reference": 0.2504052519798279,
+            "S1:irrelevant": 0.49999839067459106,
+            "S6:irrelevant": 0.6249979138374329,
+            "S1:background": -0.12655705213546753,
+            "S6:background": 0.37259215116500854
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0039",
+      "group": "tree|to the left of|building",
+      "sides": {
+        "source": {
+          "m_clean": 0.12360429763793945,
+          "delta": {
+            "S1:target": -0.12636160850524902,
+            "S6:target": 0.37473684549331665,
+            "S1:reference": -0.3753665089607239,
+            "S6:reference": 0.00030219554901123047,
+            "S1:irrelevant": 0.24720555543899536,
+            "S6:irrelevant": 0.12351793050765991,
+            "S1:background": 0.6275501251220703,
+            "S6:background": 1.0002291202545166
+          }
+        },
+        "target": {
+          "m_clean": -0.37500303983688354,
+          "delta": {
+            "S1:target": -0.0007537603378295898,
+            "S6:target": 0.2493342161178589,
+            "S1:reference": 0.12562638521194458,
+            "S6:reference": 0.5007873177528381,
+            "S1:irrelevant": 0.2499992847442627,
+            "S6:irrelevant": 0.25348490476608276,
+            "S1:background": 0.5021154284477234,
+            "S6:background": 0.7499997019767761
+          }
+        }
+      }
+    }
+  ]
+}

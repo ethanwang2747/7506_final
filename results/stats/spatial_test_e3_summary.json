@@ -1,0 +1,544 @@
+{
+  "e3": [
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S0",
+      "n": 20,
+      "n_stable": 11,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S1",
+      "n": 20,
+      "n_stable": 11,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S6",
+      "n": 20,
+      "n_stable": 11,
+      "median_R": 0.9229284774012917,
+      "ci95": [
+        0.7505891119507085,
+        0.99996669104858
+      ],
+      "frac_pos": 0.95,
+      "frac_gt_half": 0.9,
+      "stable_median_R": 0.9303695175157575,
+      "stable_ci95": [
+        0.7641663445864555,
+        1.1666439530102413
+      ]
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S12",
+      "n": 20,
+      "n_stable": 11,
+      "median_R": 0.5529369559714276,
+      "ci95": [
+        0.2531144638664723,
+        0.9784154604786155
+      ],
+      "frac_pos": 0.85,
+      "frac_gt_half": 0.65,
+      "stable_median_R": 0.49106004391176705,
+      "stable_ci95": [
+        0.1695544240970604,
+        0.6699165939455614
+      ]
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S18",
+      "n": 20,
+      "n_stable": 11,
+      "median_R": 0.0014147418062304712,
+      "ci95": [
+        -0.015057083842857583,
+        0.07240309962404125
+      ],
+      "frac_pos": 0.45,
+      "frac_gt_half": 0.1,
+      "stable_median_R": 0.007169829295601299,
+      "stable_ci95": [
+        -0.005971630937947646,
+        0.1390095234081613
+      ]
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S0",
+      "n": 20,
+      "n_stable": 9,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S1",
+      "n": 20,
+      "n_stable": 9,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S6",
+      "n": 20,
+      "n_stable": 9,
+      "median_R": 0.9132118858976337,
+      "ci95": [
+        0.6598861970533053,
+        1.0012452654170134
+      ],
+      "frac_pos": 0.8,
+      "frac_gt_half": 0.75,
+      "stable_median_R": 0.9716360095390533,
+      "stable_ci95": [
+        0.800243223666654,
+        1.0012452654170134
+      ]
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S12",
+      "n": 20,
+      "n_stable": 9,
+      "median_R": 0.3970498837188629,
+      "ci95": [
+        -0.8389403424530659,
+        0.813846624824281
+      ],
+      "frac_pos": 0.65,
+      "frac_gt_half": 0.55,
+      "stable_median_R": 0.8155971429392705,
+      "stable_ci95": [
+        0.598390830568092,
+        1.0000256770639933
+      ]
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S18",
+      "n": 20,
+      "n_stable": 9,
+      "median_R": -2.581805415829308e-05,
+      "ci95": [
+        -0.0026732314300485075,
+        0.006267501412836378
+      ],
+      "frac_pos": 0.35,
+      "frac_gt_half": 0.05,
+      "stable_median_R": 0.013733110329395093,
+      "stable_ci95": [
+        -0.07649719285203328,
+        0.14305141869524554
+      ]
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S0",
+      "n": 20,
+      "n_stable": 13,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S1",
+      "n": 20,
+      "n_stable": 13,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S6",
+      "n": 20,
+      "n_stable": 13,
+      "median_R": 1.0156429297013567,
+      "ci95": [
+        0.999654640746992,
+        1.0909210687044497
+      ],
+      "frac_pos": 0.95,
+      "frac_gt_half": 0.9,
+      "stable_median_R": 1.0273591418122905,
+      "stable_ci95": [
+        0.9995930267636411,
+        1.0950819485364112
+      ]
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S12",
+      "n": 20,
+      "n_stable": 13,
+      "median_R": 0.5415332770577898,
+      "ci95": [
+        0.35117461133993866,
+        0.6957971574902865
+      ],
+      "frac_pos": 0.9,
+      "frac_gt_half": 0.55,
+      "stable_median_R": 0.5226012664236105,
+      "stable_ci95": [
+        0.3680102478890216,
+        0.642422500840491
+      ]
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S18",
+      "n": 20,
+      "n_stable": 13,
+      "median_R": 0.00315221820804053,
+      "ci95": [
+        -0.022437818932420334,
+        0.04987131692934083
+      ],
+      "frac_pos": 0.6,
+      "frac_gt_half": 0.0,
+      "stable_median_R": 0.02586734757703224,
+      "stable_ci95": [
+        3.835341147469412e-05,
+        0.12319284004133708
+      ]
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S0",
+      "n": 20,
+      "n_stable": 14,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S1",
+      "n": 20,
+      "n_stable": 14,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S6",
+      "n": 20,
+      "n_stable": 14,
+      "median_R": 1.0223603176420057,
+      "ci95": [
+        0.9103338887669488,
+        1.2613372474226079
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 0.9574931256712164,
+      "stable_ci95": [
+        0.814665117840128,
+        1.0001040838411974
+      ]
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S12",
+      "n": 20,
+      "n_stable": 14,
+      "median_R": 0.7180894107997308,
+      "ci95": [
+        0.508182040447971,
+        0.969944759520154
+      ],
+      "frac_pos": 0.9,
+      "frac_gt_half": 0.8,
+      "stable_median_R": 0.7121776153542204,
+      "stable_ci95": [
+        0.5558115836173585,
+        0.8770915396943381
+      ]
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S18",
+      "n": 20,
+      "n_stable": 14,
+      "median_R": 0.0320966184869813,
+      "ci95": [
+        -0.03186938511907121,
+        0.17952306875148555
+      ],
+      "frac_pos": 0.5,
+      "frac_gt_half": 0.05,
+      "stable_median_R": 0.04331280660319716,
+      "stable_ci95": [
+        -0.06249609759297301,
+        0.19677359305958922
+      ]
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S0",
+      "n": 20,
+      "n_stable": 16,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S1",
+      "n": 20,
+      "n_stable": 16,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S6",
+      "n": 20,
+      "n_stable": 16,
+      "median_R": 0.9437130634691985,
+      "ci95": [
+        0.8714194804850658,
+        0.9990104028334048
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 0.9286130654611545,
+      "stable_ci95": [
+        0.8338458013307869,
+        0.9971847218075984
+      ]
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S12",
+      "n": 20,
+      "n_stable": 16,
+      "median_R": 0.717783990928229,
+      "ci95": [
+        0.4264165878819702,
+        0.9989549832584662
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 0.65,
+      "stable_median_R": 0.5809811629267806,
+      "stable_ci95": [
+        0.39296626077216396,
+        0.8222648894854989
+      ]
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S18",
+      "n": 20,
+      "n_stable": 16,
+      "median_R": 0.009484016318743134,
+      "ci95": [
+        -0.002020224356834958,
+        0.06454198835952138
+      ],
+      "frac_pos": 0.65,
+      "frac_gt_half": 0.05,
+      "stable_median_R": 0.015612717902085068,
+      "stable_ci95": [
+        -0.0038688853065347592,
+        0.0769158972586524
+      ]
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S0",
+      "n": 20,
+      "n_stable": 17,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S1",
+      "n": 20,
+      "n_stable": 17,
+      "median_R": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "frac_pos": 1.0,
+      "frac_gt_half": 1.0,
+      "stable_median_R": 1.0,
+      "stable_ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S6",
+      "n": 20,
+      "n_stable": 17,
+      "median_R": 0.9420736529349645,
+      "ci95": [
+        0.8819256197342155,
+        1.0000307630252674
+      ],
+      "frac_pos": 0.9,
+      "frac_gt_half": 0.85,
+      "stable_median_R": 0.966354140086068,
+      "stable_ci95": [
+        0.9089950880460074,
+        1.0434782302114485
+      ]
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S12",
+      "n": 20,
+      "n_stable": 17,
+      "median_R": 0.5392080059808955,
+      "ci95": [
+        0.45340659525170113,
+        0.6234507744328011
+      ],
+      "frac_pos": 0.9,
+      "frac_gt_half": 0.6,
+      "stable_median_R": 0.5312149746707612,
+      "stable_ci95": [
+        0.47808240235588656,
+        0.6216726113141195
+      ]
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S18",
+      "n": 20,
+      "n_stable": 17,
+      "median_R": 0.0014650947669739647,
+      "ci95": [
+        -0.0001866261773324322,
+        0.022680536959567586
+      ],
+      "frac_pos": 0.55,
+      "frac_gt_half": 0.0,
+      "stable_median_R": 0.005162940180935709,
+      "stable_ci95": [
+        -4.4158258503912334e-05,
+        0.045461053496077757
+      ]
+    }
+  ]
+}

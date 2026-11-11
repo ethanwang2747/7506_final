@@ -1,0 +1,18 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+coverage: spatial chair|to the left of|table 10 pairs
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   3%|▎         | 20/657 [00:00<00:03, 195.23it/s]Loading weights:   7%|▋         | 48/657 [00:00<00:02, 241.88it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:02, 253.15it/s]Loading weights:  16%|█▌        | 105/657 [00:00<00:02, 257.17it/s]Loading weights:  20%|██        | 133/657 [00:00<00:01, 262.70it/s]Loading weights:  24%|██▍       | 160/657 [00:00<00:01, 265.06it/s]Loading weights:  29%|██▉       | 192/657 [00:00<00:01, 280.17it/s]Loading weights:  35%|███▌      | 231/657 [00:00<00:01, 311.20it/s]Loading weights:  67%|██████▋   | 439/657 [00:00<00:00, 847.82it/s]Loading weights:  99%|█████████▉| 653/657 [00:01<00:00, 1238.56it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 637.03it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+saved /home/yucheng/ris/7506project/results/e2/coverage_spatial_chair_to-the-left-of_table.json
+  single   n_tokens= 1 S1=-0.04 S6=-0.02
+  small    n_tokens= 4 S1=-0.15 S6=-0.09
+  object   n_tokens=16 S1=-0.30 S6=-0.20
+  full     n_tokens=81 S1=+0.13 S6=+0.44

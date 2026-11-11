@@ -1,0 +1,245 @@
+{
+  "summary": [
+    {
+      "group": "woman|to the left of|man",
+      "n_pairs": 5,
+      "blocks": 13,
+      "S1": {
+        "median": 1.0,
+        "frac_gt_half": 1.0
+      },
+      "S6": {
+        "median": 0.8643085970601943,
+        "frac_gt_half": 0.8
+      }
+    },
+    {
+      "group": "man|to the right of|woman",
+      "n_pairs": 5,
+      "blocks": 13,
+      "S1": {
+        "median": 1.0,
+        "frac_gt_half": 1.0
+      },
+      "S6": {
+        "median": 0.72507124959078,
+        "frac_gt_half": 0.8
+      }
+    },
+    {
+      "group": "tree|to the left of|building",
+      "n_pairs": 4,
+      "blocks": 13,
+      "S1": {
+        "median": 1.0,
+        "frac_gt_half": 1.0
+      },
+      "S6": {
+        "median": 0.8286476194436334,
+        "frac_gt_half": 1.0
+      }
+    },
+    {
+      "group": "chair|to the left of|table",
+      "n_pairs": 3,
+      "blocks": 13,
+      "S1": {
+        "median": 1.0,
+        "frac_gt_half": 1.0
+      },
+      "S6": {
+        "median": 0.5567887636743943,
+        "frac_gt_half": 0.6666666666666666
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "group": "woman|to the left of|man",
+      "source_image_id": "2330666",
+      "blocks": 13,
+      "m_source": 2.3738555908203125,
+      "m_target": 0.2499985694885254,
+      "delta": 2.123857021331787,
+      "R_S1": 1.0,
+      "R_S6": 0.9406704144160002
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "group": "woman|to the left of|man",
+      "source_image_id": "2388873",
+      "blocks": 13,
+      "m_source": 5.750657081604004,
+      "m_target": -2.506392002105713,
+      "delta": 8.257049083709717,
+      "R_S1": 1.0,
+      "R_S6": 0.9248303057116113
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "group": "woman|to the left of|man",
+      "source_image_id": "2412670",
+      "blocks": 13,
+      "m_source": -0.14224684238433838,
+      "m_target": 0.4969013035297394,
+      "delta": -0.6391481459140778,
+      "R_S1": 1.0058546357725053,
+      "R_S6": 0.1998523005393996
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "group": "woman|to the left of|man",
+      "source_image_id": "713770",
+      "blocks": 13,
+      "m_source": 5.874995231628418,
+      "m_target": 2.37434983253479,
+      "delta": 3.500645399093628,
+      "R_S1": 1.0,
+      "R_S6": 0.7857537926594373
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "group": "woman|to the left of|man",
+      "source_image_id": "2352092",
+      "blocks": 13,
+      "m_source": 4.749993801116943,
+      "m_target": 1.9929062128067017,
+      "delta": 2.7570875883102417,
+      "R_S1": 1.0,
+      "R_S6": 0.8643085970601943
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0000",
+      "group": "man|to the right of|woman",
+      "source_image_id": "2330666",
+      "blocks": 13,
+      "m_source": 0.719704806804657,
+      "m_target": 0.1256309151649475,
+      "delta": 0.5940738916397095,
+      "R_S1": 1.0,
+      "R_S6": 0.18685327221908182
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0001",
+      "group": "man|to the right of|woman",
+      "source_image_id": "2388873",
+      "blocks": 13,
+      "m_source": 5.378524303436279,
+      "m_target": -0.5027788877487183,
+      "delta": 5.881303191184998,
+      "R_S1": 1.0,
+      "R_S6": 0.8532737194646329
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0002",
+      "group": "man|to the right of|woman",
+      "source_image_id": "2412670",
+      "blocks": 13,
+      "m_source": 0.7416043281555176,
+      "m_target": -2.159149169921875,
+      "delta": 2.9007534980773926,
+      "R_S1": 1.0431380326634088,
+      "R_S6": 0.6966005698203334
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0003",
+      "group": "man|to the right of|woman",
+      "source_image_id": "713770",
+      "blocks": 13,
+      "m_source": 5.249697208404541,
+      "m_target": 0.25630509853363037,
+      "delta": 4.993392109870911,
+      "R_S1": 1.0,
+      "R_S6": 0.72507124959078
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0004",
+      "group": "man|to the right of|woman",
+      "source_image_id": "2352092",
+      "blocks": 13,
+      "m_source": 5.001584529876709,
+      "m_target": 0.5000067949295044,
+      "delta": 4.501577734947205,
+      "R_S1": 1.0,
+      "R_S6": 0.8896848895943488
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0000",
+      "group": "tree|to the left of|building",
+      "source_image_id": "2327592",
+      "blocks": 13,
+      "m_source": 5.170204162597656,
+      "m_target": 0.3750131130218506,
+      "delta": 4.795191049575806,
+      "R_S1": 1.0,
+      "R_S6": 0.9167446654663179
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0001",
+      "group": "tree|to the left of|building",
+      "source_image_id": "3810",
+      "blocks": 13,
+      "m_source": 2.750417470932007,
+      "m_target": -0.6149071455001831,
+      "delta": 3.36532461643219,
+      "R_S1": 1.0371044125534365,
+      "R_S6": 0.7036328475672086
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0003",
+      "group": "tree|to the left of|building",
+      "source_image_id": "2389837",
+      "blocks": 13,
+      "m_source": 1.748328685760498,
+      "m_target": -0.4161662459373474,
+      "delta": 2.1644949316978455,
+      "R_S1": 1.0,
+      "R_S6": 0.8976264903984251
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0004",
+      "group": "tree|to the left of|building",
+      "source_image_id": "713542",
+      "blocks": 13,
+      "m_source": 3.388376474380493,
+      "m_target": 0.7321357131004333,
+      "delta": 2.65624076128006,
+      "R_S1": 0.9039100446377231,
+      "R_S6": 0.7596687484888417
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "source_image_id": "2389312",
+      "blocks": 13,
+      "m_source": -0.6274009943008423,
+      "m_target": -0.11888355016708374,
+      "delta": -0.5085174441337585,
+      "R_S1": 1.0,
+      "R_S6": 2.7106321309939734
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "source_image_id": "2363630",
+      "blocks": 13,
+      "m_source": -0.6249707341194153,
+      "m_target": -1.736145257949829,
+      "delta": 1.1111745238304138,
+      "R_S1": 1.0,
+      "R_S6": 0.22323513343094228
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "source_image_id": "2362398",
+      "blocks": 13,
+      "m_source": 0.3820919394493103,
+      "m_target": -0.748228907585144,
+      "delta": 1.1303208470344543,
+      "R_S1": 1.0,
+      "R_S6": 0.5567887636743943
+    }
+  ]
+}

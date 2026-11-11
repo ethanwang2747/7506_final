@@ -1,0 +1,48 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+crop patch: 10 pairs
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   4%|▎         | 23/657 [00:00<00:02, 217.18it/s]Loading weights:   8%|▊         | 50/657 [00:00<00:02, 246.41it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:02, 254.31it/s]Loading weights:  16%|█▌        | 104/657 [00:00<00:02, 258.59it/s]Loading weights:  20%|█▉        | 131/657 [00:00<00:02, 258.90it/s]Loading weights:  24%|██▍       | 158/657 [00:00<00:01, 262.46it/s]Loading weights:  28%|██▊       | 185/657 [00:00<00:01, 263.59it/s]Loading weights:  32%|███▏      | 212/657 [00:00<00:01, 264.14it/s]Loading weights:  57%|█████▋    | 373/657 [00:00<00:00, 675.73it/s]Loading weights:  88%|████████▊ | 580/657 [00:01<00:00, 1095.95it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 620.12it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  1/10 man|to the left of|person
+  2/10 man|to the left of|person
+  3/10 man|to the left of|person
+  4/10 man|to the left of|person
+  5/10 man|to the left of|person
+  6/10 tree|to the left of|building
+  7/10 tree|to the left of|building
+  8/10 tree|to the left of|building
+  9/10 tree|to the left of|building
+  10/10 tree|to the left of|building
+saved results/e3/crop_patch_more.json
+  man|to the left of|person n=5 blocks=13.0
+    global: median=0.45685612688707544
+    crops_all: median=0.04766141210239239
+    global_plus_crops: median=0.44962538921547673
+    full: median=1.0
+    random_crops: median=0.09136587824275753
+    cum: [(1, 0.0023598415628410807), (2, 0.04744996149356399), (3, 0.021676835851164738), (4, 0.09479649013779017), (5, 0.047061119901239526), (6, 0.02334675393613039)]
+  tree|to the left of|building n=5 blocks=13.0
+    global: median=0.4832624553961512
+    crops_all: median=0.0007946413105487843
+    global_plus_crops: median=0.45522603268388495
+    full: median=1.0
+    random_crops: median=0.04727506415541286
+    cum: [(1, 0.0007958661911816148), (2, -0.014192091646097709), (3, -0.00028639513347809424), (4, 0.02954147416736919), (5, -0.04748023234779004), (6, -0.023698833591599362), (7, 0.00010156462912751837), (8, 0.00025451441305811946), (9, 0.0007946413105487843)]

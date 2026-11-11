@@ -1,0 +1,193 @@
+{
+  "created_at": "2026-11-07T07:02:37+00:00",
+  "seed": 42,
+  "sources": {
+    "gqa": {
+      "repo": "lmms-lab-encoder/GQA",
+      "revision": "a6e72d6e1b912da88af8b2f9eba05d5ea8ec2dd8",
+      "files": [
+        "data/raw/gqa/testdev_balanced_instructions/testdev-00000-of-00001.parquet",
+        "data/raw/gqa/testdev_balanced_images/testdev-00000-of-00001.parquet"
+      ]
+    },
+    "textvqa": {
+      "repo": "lmms-lab-encoder/textvqa",
+      "revision": "9c0699cd19768ac5ab97568f6b3cbac4c0062884",
+      "files": [
+        "data/raw/textvqa/data/validation-00000-of-00003.parquet",
+        "data/raw/textvqa/data/validation-00001-of-00003.parquet",
+        "data/raw/textvqa/data/validation-00002-of-00003.parquet"
+      ]
+    },
+    "cvbench_2d": {
+      "repo": "nyu-visionx/CV-Bench",
+      "revision": "bc284db50d036958861cb60cdd7b77612052ce0d",
+      "files": [
+        "data/raw/cvbench/test_2d.parquet"
+      ]
+    }
+  },
+  "splits": {
+    "gqa": {
+      "pool": 12578,
+      "test": 500,
+      "dev": 100,
+      "stratify": "types.semantic",
+      "images": 293,
+      "test_semantic": {
+        "rel": 211,
+        "attr": 206,
+        "cat": 46,
+        "obj": 31,
+        "global": 6
+      },
+      "dev_semantic": {
+        "rel": 42,
+        "attr": 41,
+        "cat": 9,
+        "obj": 6,
+        "global": 2
+      },
+      "test_detailed": {
+        "relS": 59,
+        "relO": 54,
+        "verifyAttrsC": 30,
+        "verifyAttrs": 28,
+        "categoryRelS": 25,
+        "chooseAttr": 24,
+        "categoryThat": 24,
+        "categoryRelO": 20,
+        "relVerify": 15,
+        "positionQuery": 14,
+        "directWhich": 14,
+        "material": 12,
+        "relChooser": 11,
+        "relVerifyCo": 10,
+        "activity": 10,
+        "directOf": 8,
+        "how": 8,
+        "verifyAttrK": 8,
+        "existRelSC": 7,
+        "activityWho": 6,
+        "categoryThatChoose": 6,
+        "existOr": 6,
+        "verifyAttr": 5,
+        "positionChoose": 5,
+        "existAttrOrC": 5,
+        "verifyAttrKC": 5,
+        "positionVerifyC": 5,
+        "place": 4,
+        "existRelS": 4,
+        "twoDifferent": 4,
+        "twoDifferentC": 4,
+        "twoSameMaterialC": 4,
+        "twoSameC": 3,
+        "categoryAttr": 3,
+        "positionVerify": 3,
+        "relVerifyCr": 3,
+        "existOrC": 2,
+        "category": 2,
+        "twoCommon": 2,
+        "categoryThis": 2,
+        "twoSame": 2,
+        "verifyAttrAnd": 2,
+        "comparativeChoose": 2,
+        "verifyAttrC": 2,
+        "existAndC": 2,
+        "existAnd": 2,
+        "existRelSRC": 2,
+        "existAttrOr": 2,
+        "objThisChoose": 2,
+        "existThatC": 2,
+        "materialChoose": 1,
+        "existThat": 1,
+        "existAttrNotC": 1,
+        "categoryRelOChoose": 1,
+        "existThatOrC": 1,
+        "sameAnimalsC": 1,
+        "exist": 1,
+        "existC": 1,
+        "twoSameMaterial": 1,
+        "weatherVerify": 1,
+        "categoryThisChoose": 1,
+        "existAttr": 1,
+        "existAttrNot": 1,
+        "sameGenderC": 1,
+        "existAttrC": 1,
+        "weather": 1
+      }
+    },
+    "textvqa": {
+      "pool": 5000,
+      "test": 500,
+      "dev": 100,
+      "stratify": "has_ocr",
+      "images": 576,
+      "test_has_ocr": {
+        "true": 489,
+        "false": 11
+      },
+      "dev_has_ocr": {
+        "true": 98,
+        "false": 2
+      }
+    },
+    "cvbench_2d": {
+      "pool": 1438,
+      "test": 1338,
+      "dev": 100,
+      "stratify": "task|source",
+      "images": 1438,
+      "test_task": {
+        "Count": 733,
+        "Relation": 605
+      },
+      "dev_task": {
+        "Count": 55,
+        "Relation": 45
+      },
+      "test_source": {
+        "COCO": 749,
+        "ADE20K": 589
+      }
+    }
+  },
+  "files": {
+    "gqa_test.jsonl": {
+      "count": 500,
+      "sha256": "b0207be3d5cde76f93b1b1922687606a54e47ab5a45c28f7bf83a27e2fe2319e",
+      "bytes": 256367
+    },
+    "gqa_dev.jsonl": {
+      "count": 100,
+      "sha256": "44cb9784c2331f6af397fc2e540027303336f9f1530cc343e5bc6aa37a216568",
+      "bytes": 50991
+    },
+    "textvqa_test.jsonl": {
+      "count": 500,
+      "sha256": "8152bcaabb6d5349941295ff8129c37779568ee925211363247c37663a5b5030",
+      "bytes": 296594
+    },
+    "textvqa_dev.jsonl": {
+      "count": 100,
+      "sha256": "39b09209edc32b3210fcecb8d1283010e4843dcc9059ad18cc13a8008ef04452",
+      "bytes": 58382
+    },
+    "cvbench_2d_test.jsonl": {
+      "count": 1338,
+      "sha256": "c735ce8aad34f7357648f3934281a6cb0223a2d7b303a01b79120de7999bb45f",
+      "bytes": 934023
+    },
+    "cvbench_2d_dev.jsonl": {
+      "count": 100,
+      "sha256": "ae0029c0386572079aec81595b6dfcc2d6aa6652ca52e31b32019c855a34d0b7",
+      "bytes": 70277
+    }
+  },
+  "notes": [
+    "GQA uses the testdev balanced split; 500 test + 100 dev sampled by types.semantic.",
+    "TextVQA uses the 5,000-question validation split; 500 test + 100 dev sampled by has_ocr.",
+    "CV-Bench uses the full 2D set; 1,338 test + 100 dev sampled by task x source.",
+    "Images are stored once per image id; image_path is relative to the project root."
+  ]
+}

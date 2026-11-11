@@ -1,0 +1,33 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+crop cumulative: 10 pairs
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   3%|▎         | 21/657 [00:00<00:03, 207.68it/s]Loading weights:   7%|▋         | 48/657 [00:00<00:02, 243.20it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:02, 255.75it/s]Loading weights:  16%|█▌        | 105/657 [00:00<00:02, 262.11it/s]Loading weights:  20%|██        | 133/657 [00:00<00:01, 262.81it/s]Loading weights:  25%|██▌       | 165/657 [00:00<00:01, 278.69it/s]Loading weights:  30%|██▉       | 194/657 [00:00<00:01, 275.90it/s]Loading weights:  39%|███▉      | 255/657 [00:00<00:01, 378.61it/s]Loading weights:  69%|██████▉   | 453/657 [00:00<00:00, 865.02it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 639.80it/s]
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  2/10
+  4/10
+  6/10
+  8/10
+  10/10
+saved results/e4/crop_cumulative.json
+  woman|to the left of|man n=5 blocks=13.0 target_crops=4.6
+    global: mean=-1.35 median=-1.50
+    crops_all: mean=-0.35 median=-0.25
+    global_plus_crops: mean=-3.33 median=-4.13
+    full: mean=-2.67 median=-3.75
+    random_crops: mean=-0.05 median=-0.00
+    cum: [(1, -0.05), (2, 0.03), (3, -0.31), (4, -0.25), (5, -0.46), (6, -0.38)]
+  chair|to the left of|table n=5 blocks=13.8 target_crops=3.0
+    global: mean=-0.48 median=-0.00
+    crops_all: mean=-0.06 median=-0.12
+    global_plus_crops: mean=-0.86 median=-0.01
+    full: mean=-0.95 median=-0.76
+    random_crops: mean=+0.02 median=+0.00
+    cum: [(1, -0.05), (2, -0.03), (3, -0.18), (4, -0.02)]

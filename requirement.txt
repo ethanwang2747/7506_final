@@ -1,0 +1,18 @@
+Final Research Project
+by Chen Jiayu - Thursday, 5 November 2026, 9:49 AM
+Number of replies: 0
+
+Dear all,
+
+Please find below the arrangements for the final project in DASE7506 Advanced Machine Learning Methods.
+- Topic: You may choose any topic related to the course, including large language models, reasoning models, or LLM agents.
+- Team size: You may work individually or in a group of up to five students.
+- Deliverable: Submit a written report describing your problem, approach, results, and limitations, following the style of a short conference or workshop paper.
+- Template: You may use the IEEE Conference Paper Templates, available in both LaTeX and Word, as a formatting reference.
+- Presentation: No oral presentation is required.
+- Deadline: December 10, 2026.
+- Weighting: The final project accounts for 30% of your final course grade.
+Projects will be assessed on the novelty of the problem formulation or the soundness of the technical execution, as well as the clarity and quality of the written report.
+
+If you have any questions about your proposed topic or the project requirements, please contact YANG Zhen (u3014008@connect.hku.hk
+).

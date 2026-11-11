@@ -1,0 +1,268 @@
+{
+  "summary": [
+    {
+      "region": "single",
+      "S1": {
+        "mean": -0.03682934641838074,
+        "median": -0.0019367039203643799,
+        "n": 10
+      },
+      "S6": {
+        "mean": -0.023857110738754274,
+        "median": -0.00021517276763916016,
+        "n": 10
+      }
+    },
+    {
+      "region": "small",
+      "S1": {
+        "mean": -0.1500127613544464,
+        "median": -0.0013746023178100586,
+        "n": 10
+      },
+      "S6": {
+        "mean": -0.08700519204139709,
+        "median": -0.0025720596313476562,
+        "n": 10
+      }
+    },
+    {
+      "region": "object",
+      "S1": {
+        "mean": -0.29838401079177856,
+        "median": -0.06324630975723267,
+        "n": 10
+      },
+      "S6": {
+        "mean": -0.19821561574935914,
+        "median": -0.00046306848526000977,
+        "n": 10
+      }
+    },
+    {
+      "region": "full",
+      "S1": {
+        "mean": 0.12978623509407045,
+        "median": -0.05428057909011841,
+        "n": 10
+      },
+      "S6": {
+        "mean": 0.441485196352005,
+        "median": 0.2572472095489502,
+        "n": 10
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "group": "chair|to the left of|table",
+      "m_clean": -0.37655407190322876,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 16,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.0008361935615539551,
+        "S6:single": -9.804964065551758e-05,
+        "S1:small": -0.49935030937194824,
+        "S6:small": -0.25085318088531494,
+        "S1:object": -0.9966854453086853,
+        "S6:object": -0.6227357983589172,
+        "S1:full": -0.37453144788742065,
+        "S6:full": 6.884336471557617e-05
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "m_clean": -1.5033389329910278,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 4,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.00018084049224853516,
+        "S6:single": 3.039836883544922e-05,
+        "S1:small": 0.12456083297729492,
+        "S6:small": 0.2493194341659546,
+        "S1:object": 0.12456083297729492,
+        "S6:object": 0.2493194341659546,
+        "S1:full": 0.7522534132003784,
+        "S6:full": 1.251166045665741
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "group": "chair|to the left of|table",
+      "m_clean": 0.3679124116897583,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 18,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.12420922517776489,
+        "S6:single": -0.11791294813156128,
+        "S1:small": -0.37587881088256836,
+        "S6:small": -0.36790937185287476,
+        "S1:object": -0.99290931224823,
+        "S6:object": -0.8742063045501709,
+        "S1:full": -1.1189979314804077,
+        "S6:full": -0.9942126870155334
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "m_clean": -0.5049483776092529,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 16,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.12230575084686279,
+        "S6:single": -0.12443578243255615,
+        "S1:small": 0.0005607008934020996,
+        "S6:small": -0.005589604377746582,
+        "S1:object": 0.0007688403129577637,
+        "S6:object": 0.1242799162864685,
+        "S1:full": -0.24613714218139648,
+        "S6:full": 0.12749123573303223
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "m_clean": -0.37688350677490234,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 4,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": 0.0012153983116149902,
+        "S6:single": 0.0005064606666564941,
+        "S1:small": -0.12374389171600342,
+        "S6:small": -0.12440979480743408,
+        "S1:object": -0.12374389171600342,
+        "S6:object": -0.12440979480743408,
+        "S1:full": -0.37420201301574707,
+        "S6:full": -0.12413245439529419
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0005",
+      "group": "chair|to the left of|table",
+      "m_clean": -1.8777234554290771,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 4,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.12575697898864746,
+        "S6:single": -0.0021157264709472656,
+        "S1:small": -0.002748727798461914,
+        "S6:small": 0.12348365783691406,
+        "S1:object": -0.002748727798461914,
+        "S6:object": 0.12348365783691406,
+        "S1:full": 1.1266379356384277,
+        "S6:full": 1.375430941581726
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0006",
+      "group": "chair|to the left of|table",
+      "m_clean": -0.6335372924804688,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 6,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.0030585527420043945,
+        "S6:single": -0.0005400776863098145,
+        "S1:small": -0.7541468143463135,
+        "S6:small": -0.629446268081665,
+        "S1:object": -0.7541465759277344,
+        "S6:object": -0.624718427658081,
+        "S1:full": -0.11754822731018066,
+        "S6:full": 0.25622546672821045
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0007",
+      "group": "chair|to the left of|table",
+      "m_clean": -1.7535252571105957,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 9,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": 0.0011172294616699219,
+        "S6:single": 0.0004448890686035156,
+        "S1:small": -4.76837158203125e-07,
+        "S6:small": 0.00044548511505126953,
+        "S1:object": 0.12528717517852783,
+        "S6:object": 0.12540817260742188,
+        "S1:full": 1.0024397373199463,
+        "S6:full": 1.3774346709251404
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0008",
+      "group": "chair|to the left of|table",
+      "m_clean": -1.39004647731781,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 9,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": 0.00875866413116455,
+        "S6:single": 0.0058820247650146484,
+        "S1:small": 0.0069119930267333984,
+        "S6:small": 0.008759021759033203,
+        "S1:object": 0.1297285556793213,
+        "S6:object": 0.1337590217590332,
+        "S1:full": 0.6389609575271606,
+        "S6:full": 0.8871109485626221
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0009",
+      "group": "chair|to the left of|table",
+      "m_clean": -0.7600725889205933,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 9,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.0030372142791748047,
+        "S6:single": -0.00033229589462280273,
+        "S1:small": 0.12370789051055908,
+        "S6:small": 0.12614870071411133,
+        "S1:object": -0.49395155906677246,
+        "S6:object": -0.4923360347747803,
+        "S1:full": 0.008987069129943848,
+        "S6:full": 0.25826895236968994
+      }
+    }
+  ]
+}

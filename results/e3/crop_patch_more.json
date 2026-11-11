@@ -1,0 +1,395 @@
+{
+  "summary": [
+    {
+      "group": "man|to the left of|person",
+      "n_pairs": 5,
+      "n_blocks": 13,
+      "global": {
+        "median": 0.45685612688707544,
+        "n": 5
+      },
+      "crops_all": {
+        "median": 0.04766141210239239,
+        "n": 5
+      },
+      "global_plus_crops": {
+        "median": 0.44962538921547673,
+        "n": 5
+      },
+      "full": {
+        "median": 1.0,
+        "n": 5
+      },
+      "random_crops": {
+        "median": 0.09136587824275753,
+        "n": 5
+      },
+      "cumulative": [
+        {
+          "k": 1,
+          "median": 0.0023598415628410807,
+          "n": 5
+        },
+        {
+          "k": 2,
+          "median": 0.04744996149356399,
+          "n": 5
+        },
+        {
+          "k": 3,
+          "median": 0.021676835851164738,
+          "n": 4
+        },
+        {
+          "k": 4,
+          "median": 0.09479649013779017,
+          "n": 3
+        },
+        {
+          "k": 5,
+          "median": 0.047061119901239526,
+          "n": 2
+        },
+        {
+          "k": 6,
+          "median": 0.02334675393613039,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "group": "tree|to the left of|building",
+      "n_pairs": 5,
+      "n_blocks": 13,
+      "global": {
+        "median": 0.4832624553961512,
+        "n": 5
+      },
+      "crops_all": {
+        "median": 0.0007946413105487843,
+        "n": 5
+      },
+      "global_plus_crops": {
+        "median": 0.45522603268388495,
+        "n": 5
+      },
+      "full": {
+        "median": 1.0,
+        "n": 5
+      },
+      "random_crops": {
+        "median": 0.04727506415541286,
+        "n": 5
+      },
+      "cumulative": [
+        {
+          "k": 1,
+          "median": 0.0007958661911816148,
+          "n": 5
+        },
+        {
+          "k": 2,
+          "median": -0.014192091646097709,
+          "n": 4
+        },
+        {
+          "k": 3,
+          "median": -0.00028639513347809424,
+          "n": 3
+        },
+        {
+          "k": 4,
+          "median": 0.02954147416736919,
+          "n": 3
+        },
+        {
+          "k": 5,
+          "median": -0.04748023234779004,
+          "n": 2
+        },
+        {
+          "k": 6,
+          "median": -0.023698833591599362,
+          "n": 2
+        },
+        {
+          "k": 7,
+          "median": 0.00010156462912751837,
+          "n": 2
+        },
+        {
+          "k": 8,
+          "median": 0.00025451441305811946,
+          "n": 2
+        },
+        {
+          "k": 9,
+          "median": 0.0007946413105487843,
+          "n": 1
+        }
+      ]
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0000",
+      "group": "man|to the left of|person",
+      "n_blocks": 13,
+      "target_crops": [
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "m_source": 2.624659776687622,
+      "m_target": -0.001376032829284668,
+      "delta": 2.6260358095169067,
+      "R": {
+        "global": 0.2379328228951347,
+        "crop_cum_1": 0.047600128649855175,
+        "crop_cum_2": 0.04744996149356399,
+        "crop_cum_3": 0.04791319630202029,
+        "crop_cum_4": 0.09479649013779017,
+        "crop_cum_5": 0.09509087768571893,
+        "crop_cum_6": 0.04766141210239239,
+        "crops_all": 0.04766141210239239,
+        "global_plus_crops": 0.28587228029144596,
+        "full": 1.0,
+        "random_crops": 0.09531553828320537
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0001",
+      "group": "man|to the left of|person",
+      "n_blocks": 13,
+      "target_crops": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "m_source": -0.6281205415725708,
+      "m_target": -0.8764854669570923,
+      "delta": 0.24836492538452148,
+      "R": {
+        "global": 0.5020648582437858,
+        "crop_cum_1": 1.5050006335687778,
+        "crop_cum_2": 1.0035657442801218,
+        "crop_cum_3": 1.0023734830347562,
+        "crop_cum_4": 1.0048381615753976,
+        "crops_all": 1.0048381615753976,
+        "global_plus_crops": 1.001033149086413,
+        "full": 1.0,
+        "random_crops": 1.003563824374735
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0002",
+      "group": "man|to the left of|person",
+      "n_blocks": 13,
+      "target_crops": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "m_source": 1.3705992698669434,
+      "m_target": -0.010542511940002441,
+      "delta": 1.3811417818069458,
+      "R": {
+        "global": 0.6343934678289228,
+        "crop_cum_1": -0.004560171940668697,
+        "crop_cum_2": -0.0009698462530652674,
+        "crop_cum_3": -0.004559524599690812,
+        "crop_cum_4": -1.2515258905750347e-06,
+        "crop_cum_5": -0.0009686378832398846,
+        "crop_cum_6": -0.0009679042301316165,
+        "crops_all": -0.0009679042301316165,
+        "global_plus_crops": 0.6335286202824703,
+        "full": 1.0,
+        "random_crops": 0.09136587824275753
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0003",
+      "group": "man|to the left of|person",
+      "n_blocks": 13,
+      "target_crops": [
+        3,
+        7,
+        11
+      ],
+      "m_source": 1.7650535106658936,
+      "m_target": 0.3749973773956299,
+      "delta": 1.3900561332702637,
+      "R": {
+        "global": 0.45685612688707544,
+        "crop_cum_1": -1.200620617949141e-06,
+        "crop_cum_2": -0.08590273292125747,
+        "crop_cum_3": -0.08590466249010774,
+        "crops_all": -0.08590466249010774,
+        "global_plus_crops": 0.44962538921547673,
+        "full": 1.0,
+        "random_crops": -0.08635733934238235
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0004",
+      "group": "man|to the left of|person",
+      "n_blocks": 13,
+      "target_crops": [
+        6,
+        10
+      ],
+      "m_source": -0.28399670124053955,
+      "m_target": 2.230578899383545,
+      "delta": -2.5145756006240845,
+      "R": {
+        "global": 0.05085478004923629,
+        "crop_cum_1": 0.0023598415628410807,
+        "crop_cum_2": 0.04787447148542161,
+        "crops_all": 0.04787447148542161,
+        "global_plus_crops": 0.04804968893924178,
+        "full": 1.0,
+        "random_crops": 0.05069710330372604
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0000",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "target_crops": [
+        2,
+        3
+      ],
+      "m_source": 5.170204162597656,
+      "m_target": 1.0070921182632446,
+      "delta": 4.163112044334412,
+      "R": {
+        "global": 0.4832624553961512,
+        "crop_cum_1": -0.058137461534705996,
+        "crop_cum_2": -0.03002637395173886,
+        "crops_all": -0.03002637395173886,
+        "global_plus_crops": 0.45522603268388495,
+        "full": 1.0,
+        "random_crops": 0.06196522807576673
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0001",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "target_crops": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "m_source": 2.750417470932007,
+      "m_target": 0.9986000657081604,
+      "delta": 1.7518174052238464,
+      "R": {
+        "global": 0.93054219103041,
+        "crop_cum_1": 0.0007958661911816148,
+        "crop_cum_2": 0.0016421906595434413,
+        "crop_cum_3": -0.06985293504706383,
+        "crop_cum_4": 0.07214849745083626,
+        "crop_cum_5": 0.0007953898487132918,
+        "crop_cum_6": 0.0007962744847258916,
+        "crop_cum_7": 0.0007948794817829457,
+        "crop_cum_8": 0.000795968264567684,
+        "crop_cum_9": 0.0007946413105487843,
+        "crops_all": 0.0007946413105487843,
+        "global_plus_crops": 0.7884572625027054,
+        "full": 1.0,
+        "random_crops": 0.00017355878077967668
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0002",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "target_crops": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "m_source": 5.253893852233887,
+      "m_target": 2.6257505416870117,
+      "delta": 2.628143310546875,
+      "R": {
+        "global": 0.5234528312567494,
+        "crop_cum_1": -0.09512337216525969,
+        "crop_cum_2": -0.047218819308166605,
+        "crop_cum_3": -0.00028639513347809424,
+        "crop_cum_4": -0.0946987235685505,
+        "crop_cum_5": -0.09575585454429336,
+        "crop_cum_6": -0.048193941667924615,
+        "crop_cum_7": -0.000591750223527909,
+        "crop_cum_8": -0.00028693943845144507,
+        "crops_all": -0.00028693943845144507,
+        "global_plus_crops": 0.5238118911041698,
+        "full": 1.0,
+        "random_crops": 0.04727506415541286
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0003",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "target_crops": [
+        2
+      ],
+      "m_source": 1.748328685760498,
+      "m_target": -0.26691776514053345,
+      "delta": 2.0152464509010315,
+      "R": {
+        "global": -0.31512097301925673,
+        "crop_cum_1": 0.003956436255600192,
+        "crops_all": 0.003956436255600192,
+        "global_plus_crops": -0.31116583814511733,
+        "full": 1.0,
+        "random_crops": 0.058510909051921425
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0004",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "target_crops": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "m_source": 3.388376474380493,
+      "m_target": -0.5049563646316528,
+      "delta": 3.893332839012146,
+      "R": {
+        "global": 0.12756866325819913,
+        "crop_cum_1": 0.03067025258053188,
+        "crop_cum_2": 0.029976322766296006,
+        "crop_cum_3": 0.030670665934713372,
+        "crop_cum_4": 0.02954147416736919,
+        "crops_all": 0.02954147416736919,
+        "global_plus_crops": 0.1272962475431835,
+        "full": 1.0,
+        "random_crops": 0.03067025258053188
+      }
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "summary": [
+    {
+      "group": "woman|to the left of|man",
+      "n_pairs": 5,
+      "n_blocks_mean": 13,
+      "S1:target": {
+        "mean": -1.349962830543518,
+        "median": -1.5000638961791992,
+        "n": 5
+      },
+      "S1:reference": {
+        "mean": -0.6758228540420532,
+        "median": -0.37528419494628906,
+        "n": 5
+      },
+      "S1:irrelevant": {
+        "mean": -0.5343257784843445,
+        "median": -0.5693420171737671,
+        "n": 4
+      },
+      "S1:background": {
+        "mean": -0.031082481145858765,
+        "median": -0.062416255474090576,
+        "n": 4
+      },
+      "S1:full": {
+        "mean": -2.6717065572738647,
+        "median": -3.7502174377441406,
+        "n": 5
+      }
+    },
+    {
+      "group": "man|to the right of|woman",
+      "n_pairs": 5,
+      "n_blocks_mean": 13,
+      "S1:target": {
+        "mean": -1.6740901589393615,
+        "median": -1.498530626296997,
+        "n": 5
+      },
+      "S1:reference": {
+        "mean": -0.5454327940940857,
+        "median": 0.00013273954391479492,
+        "n": 5
+      },
+      "S1:irrelevant": {
+        "mean": -0.3732621446251869,
+        "median": -0.18253345787525177,
+        "n": 4
+      },
+      "S1:background": {
+        "mean": -0.27811938524246216,
+        "median": -0.12435257434844971,
+        "n": 4
+      },
+      "S1:full": {
+        "mean": -3.019084560871124,
+        "median": -4.627474069595337,
+        "n": 5
+      }
+    },
+    {
+      "group": "tree|to the left of|building",
+      "n_pairs": 5,
+      "n_blocks_mean": 13,
+      "S1:target": {
+        "mean": -1.0307013511657714,
+        "median": -1.2633767127990723,
+        "n": 5
+      },
+      "S1:reference": {
+        "mean": -0.7050600051879883,
+        "median": -0.750298023223877,
+        "n": 5
+      },
+      "S1:irrelevant": {
+        "mean": -0.0629836916923523,
+        "median": -0.06166207790374756,
+        "n": 4
+      },
+      "S1:background": {
+        "mean": -0.06244933605194092,
+        "median": -0.06244933605194092,
+        "n": 2
+      },
+      "S1:full": {
+        "mean": -3.412951171398163,
+        "median": -3.139066159725189,
+        "n": 5
+      }
+    },
+    {
+      "group": "chair|to the left of|table",
+      "n_pairs": 5,
+      "n_blocks_mean": 13.8,
+      "S1:target": {
+        "mean": -0.4784679889678955,
+        "median": -5.960464477539063e-08,
+        "n": 5
+      },
+      "S1:reference": {
+        "mean": -0.280873692035675,
+        "median": -0.12446105480194092,
+        "n": 5
+      },
+      "S1:irrelevant": {
+        "mean": -0.0016975581645965576,
+        "median": -2.384185791015625e-06,
+        "n": 5
+      },
+      "S1:background": {
+        "mean": -0.2028091549873352,
+        "median": -0.3007063865661621,
+        "n": 5
+      },
+      "S1:full": {
+        "mean": -0.9547593593597412,
+        "median": -0.7582234740257263,
+        "n": 5
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 2.3738555908203125,
+      "delta": {
+        "S1:target": 0.37614011764526367,
+        "S1:irrelevant": -0.25077295303344727,
+        "S1:background": 0.24957895278930664,
+        "S1:reference": -0.2523019313812256,
+        "S1:full": -1.3740792274475098
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 5.750657081604004,
+      "delta": {
+        "S1:target": -3.877431035041809,
+        "S1:irrelevant": -1.1238665580749512,
+        "S1:background": -0.24907636642456055,
+        "S1:reference": -0.37528419494628906,
+        "S1:full": -4.750880718231201
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "visual_tokens": 1081,
+      "m_clean": -0.14224684238433838,
+      "delta": {
+        "S1:target": -0.2474381923675537,
+        "S1:irrelevant": -0.8879110813140869,
+        "S1:background": -3.5762786865234375e-07,
+        "S1:reference": 0.374627947807312,
+        "S1:full": 1.391863465309143
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 5.874995231628418,
+      "delta": {
+        "S1:target": -1.5000638961791992,
+        "S1:reference": -1.6249990463256836,
+        "S1:full": -4.875218868255615
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "group": "woman|to the left of|man",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 4.749993801116943,
+      "delta": {
+        "S1:target": -1.501021146774292,
+        "S1:irrelevant": 0.12524747848510742,
+        "S1:background": -0.1248321533203125,
+        "S1:reference": -1.5011570453643799,
+        "S1:full": -3.7502174377441406
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0000",
+      "group": "man|to the right of|woman",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 0.719704806804657,
+      "delta": {
+        "S1:target": -1.4939159750938416,
+        "S1:irrelevant": -0.1097460389137268,
+        "S1:background": 0.011333465576171875,
+        "S1:reference": 0.276405930519104,
+        "S1:full": -0.3455943465232849
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0001",
+      "group": "man|to the right of|woman",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 5.378524303436279,
+      "delta": {
+        "S1:target": -1.498530626296997,
+        "S1:irrelevant": -0.001979827880859375,
+        "S1:background": -0.1249990463256836,
+        "S1:reference": -1.502082347869873,
+        "S1:full": -5.004413843154907
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0002",
+      "group": "man|to the right of|woman",
+      "n_blocks": 13,
+      "visual_tokens": 1081,
+      "m_clean": 0.7416043281555176,
+      "delta": {
+        "S1:target": -0.2482832670211792,
+        "S1:irrelevant": -0.25532087683677673,
+        "S1:background": -0.12370610237121582,
+        "S1:reference": 0.00013273954391479492,
+        "S1:full": -0.24235379695892334
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0003",
+      "group": "man|to the right of|woman",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 5.249697208404541,
+      "delta": {
+        "S1:target": -2.37626051902771,
+        "S1:reference": 0.2499675750732422,
+        "S1:full": -4.875586748123169
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0004",
+      "group": "man|to the right of|woman",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 5.001584529876709,
+      "delta": {
+        "S1:target": -2.75346040725708,
+        "S1:irrelevant": -1.1260018348693848,
+        "S1:background": -0.8751058578491211,
+        "S1:reference": -1.7515878677368164,
+        "S1:full": -4.627474069595337
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0000",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 5.170204162597656,
+      "delta": {
+        "S1:target": -1.2668814659118652,
+        "S1:irrelevant": -0.13148784637451172,
+        "S1:background": -0.1265735626220703,
+        "S1:reference": -0.6379952430725098,
+        "S1:full": -4.920893847942352
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0001",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "visual_tokens": 1081,
+      "m_clean": 2.750417470932007,
+      "delta": {
+        "S1:target": -0.8755025863647461,
+        "S1:reference": -0.750298023223877,
+        "S1:full": -2.5011505484580994
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0002",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "visual_tokens": 1081,
+      "m_clean": 5.253893852233887,
+      "delta": {
+        "S1:target": -1.7511975765228271,
+        "S1:irrelevant": 0.0,
+        "S1:reference": -1.2503752708435059,
+        "S1:full": -5.004626929759979
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0003",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 1.748328685760498,
+      "delta": {
+        "S1:target": 0.0034515857696533203,
+        "S1:irrelevant": -0.12332415580749512,
+        "S1:background": 0.0016748905181884766,
+        "S1:reference": 0.6279044151306152,
+        "S1:full": -1.499018371105194
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0004",
+      "group": "tree|to the left of|building",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 3.388376474380493,
+      "delta": {
+        "S1:target": -1.2633767127990723,
+        "S1:irrelevant": 0.0028772354125976562,
+        "S1:reference": -1.514535903930664,
+        "S1:full": -3.139066159725189
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "group": "chair|to the left of|table",
+      "n_blocks": 17,
+      "visual_tokens": 1413,
+      "m_clean": 1.057011604309082,
+      "delta": {
+        "S1:target": -0.5100082755088806,
+        "S1:irrelevant": 0.11604547500610352,
+        "S1:background": -0.3007063865661621,
+        "S1:reference": -0.00895547866821289,
+        "S1:full": -1.308010995388031
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": -0.6274009943008423,
+      "delta": {
+        "S1:target": 0.12451040744781494,
+        "S1:irrelevant": -0.00015151500701904297,
+        "S1:background": 0.0015554428100585938,
+        "S1:reference": -0.12446105480194092,
+        "S1:full": 0.1263377070426941
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": 2.4567441940307617,
+      "delta": {
+        "S1:target": -2.0148048400878906,
+        "S1:irrelevant": -0.2583279609680176,
+        "S1:background": 0.04325699806213379,
+        "S1:reference": -1.0289113521575928,
+        "S1:full": -2.95780748128891
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "visual_tokens": 1080,
+      "m_clean": -0.6249707341194153,
+      "delta": {
+        "S1:target": 0.007962822914123535,
+        "S1:irrelevant": 0.13394859433174133,
+        "S1:background": -0.3831539750099182,
+        "S1:reference": -0.2429230809211731,
+        "S1:full": 0.12390744686126709
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "n_blocks": 13,
+      "visual_tokens": 1081,
+      "m_clean": 0.3820919394493103,
+      "delta": {
+        "S1:target": -5.960464477539063e-08,
+        "S1:irrelevant": -2.384185791015625e-06,
+        "S1:background": -0.3749978542327881,
+        "S1:reference": 0.0008825063705444336,
+        "S1:full": -0.7582234740257263
+      }
+    }
+  ]
+}

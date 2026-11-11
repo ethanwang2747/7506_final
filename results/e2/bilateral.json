@@ -1,0 +1,1099 @@
+{
+  "summary": [
+    {
+      "group": "woman|to the left of|man",
+      "n_pairs": 10,
+      "auc_clean": 0.7,
+      "S1:target": {
+        "source_delta_mean": -0.7872831106185914,
+        "target_delta_mean": 0.012542271614074707,
+        "source_delta_median": -0.12427884340286255,
+        "target_delta_median": 0.06243014335632324
+      },
+      "S1:reference": {
+        "source_delta_mean": -0.4749276787042618,
+        "target_delta_mean": 0.0751456379890442,
+        "source_delta_median": -0.18759191036224365,
+        "target_delta_median": 0.06254953145980835
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.406577255576849,
+        "target_delta_mean": 0.21245120763778685,
+        "source_delta_median": -0.12590396404266357,
+        "target_delta_median": 0.12482324242591858
+      },
+      "S1:background": {
+        "source_delta_mean": -0.15619724988937378,
+        "target_delta_mean": 0.054809639851252236,
+        "source_delta_median": 0.0627196729183197,
+        "target_delta_median": 0.12462359666824341
+      },
+      "S1:auc_after_target": 0.5,
+      "S6:target": {
+        "source_delta_mean": -0.774897164106369,
+        "target_delta_mean": -0.024914824962615968,
+        "source_delta_median": -0.18706956505775452,
+        "target_delta_median": -6.246566772460938e-05
+      },
+      "S6:reference": {
+        "source_delta_mean": -0.5372837901115417,
+        "target_delta_mean": -0.06236889958381653,
+        "source_delta_median": -0.3125336766242981,
+        "target_delta_median": -0.06234532594680786
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.2499450072646141,
+        "target_delta_mean": 0.05008623003959656,
+        "source_delta_median": 1.677870750427246e-05,
+        "target_delta_median": 3.057718276977539e-05
+      },
+      "S6:background": {
+        "source_delta_mean": -0.09370504319667816,
+        "target_delta_mean": 0.08294680714607239,
+        "source_delta_median": 0.00035691261291503906,
+        "target_delta_median": 0.12419602274894714
+      },
+      "S6:auc_after_target": 0.5
+    },
+    {
+      "group": "chair|to the left of|table",
+      "n_pairs": 10,
+      "auc_clean": 0.6,
+      "S1:target": {
+        "source_delta_mean": -0.29838401079177856,
+        "target_delta_mean": -0.02559685707092285,
+        "source_delta_median": -0.06324630975723267,
+        "target_delta_median": -0.003703773021697998
+      },
+      "S1:reference": {
+        "source_delta_mean": 0.026759523153305053,
+        "target_delta_mean": 0.11481412649154663,
+        "source_delta_median": 0.00052642822265625,
+        "target_delta_median": 0.06612831354141235
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": 0.05710884597566393,
+        "target_delta_mean": 0.2769732740190294,
+        "source_delta_median": 0.0019297599792480469,
+        "target_delta_median": 0.23545587062835693
+      },
+      "S1:background": {
+        "source_delta_mean": 0.00013240178426106772,
+        "target_delta_mean": 0.08842447825840541,
+        "source_delta_median": 0.12287330627441406,
+        "target_delta_median": 0.11604642868041992
+      },
+      "S1:auc_after_target": 0.5,
+      "S6:target": {
+        "source_delta_mean": -0.19821561574935914,
+        "target_delta_mean": 0.13586600720882416,
+        "source_delta_median": -0.00046306848526000977,
+        "target_delta_median": -0.0032002925872802734
+      },
+      "S6:reference": {
+        "source_delta_mean": 0.2637408494949341,
+        "target_delta_mean": 0.3517253279685974,
+        "source_delta_median": 0.25264477729797363,
+        "target_delta_median": 0.25514140725135803
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": 0.1818403270509508,
+        "target_delta_mean": 0.4834221733940972,
+        "source_delta_median": 0.1250009536743164,
+        "target_delta_median": 0.35599344968795776
+      },
+      "S6:background": {
+        "source_delta_mean": 0.18008560604519314,
+        "target_delta_mean": 0.14198791129248484,
+        "source_delta_median": 0.24897277355194092,
+        "target_delta_median": 0.13129520416259766
+      },
+      "S6:auc_after_target": 0.4
+    },
+    {
+      "group": "man|to the left of|person",
+      "n_pairs": 10,
+      "auc_clean": 0.3,
+      "S1:target": {
+        "source_delta_mean": 0.012509405612945557,
+        "target_delta_mean": 0.2253520220518112,
+        "source_delta_median": 0.06306207180023193,
+        "target_delta_median": 0.12532272934913635
+      },
+      "S1:reference": {
+        "source_delta_mean": -0.062399059534072876,
+        "target_delta_mean": 0.16284137666225434,
+        "source_delta_median": 8.293986320495605e-05,
+        "target_delta_median": 0.125515878200531
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.014350649383332994,
+        "target_delta_mean": 0.23670156796773276,
+        "source_delta_median": -0.0005278587341308594,
+        "target_delta_median": 0.12580430507659912
+      },
+      "S1:background": {
+        "source_delta_mean": 0.08299163977305095,
+        "target_delta_mean": 0.09362829104065895,
+        "source_delta_median": 0.12443119287490845,
+        "target_delta_median": 0.12516096234321594
+      },
+      "S1:auc_after_target": 0.3,
+      "S6:target": {
+        "source_delta_mean": -0.01261517107486725,
+        "target_delta_mean": 0.26266589760780334,
+        "source_delta_median": 0.061448514461517334,
+        "target_delta_median": 0.12509885430335999
+      },
+      "S6:reference": {
+        "source_delta_mean": -0.02508206367492676,
+        "target_delta_mean": 0.07544750273227692,
+        "source_delta_median": -0.00012814998626708984,
+        "target_delta_median": 0.06310489773750305
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.013849827978346083,
+        "target_delta_mean": 0.16704158981641135,
+        "source_delta_median": -0.0006202459335327148,
+        "target_delta_median": 0.12499979138374329
+      },
+      "S6:background": {
+        "source_delta_mean": 0.09696845875846015,
+        "target_delta_mean": 0.10909480229020119,
+        "source_delta_median": 0.12447249889373779,
+        "target_delta_median": 0.06230825185775757
+      },
+      "S6:auc_after_target": 0.3
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 1.1241180896759033,
+          "delta": {
+            "S1:target": 0.0001703500747680664,
+            "S6:target": 7.581710815429688e-05,
+            "S1:reference": -0.1252574920654297,
+            "S6:reference": -0.1251596212387085,
+            "S1:irrelevant": 0.37516283988952637,
+            "S6:irrelevant": 0.2501927614212036,
+            "S1:background": 0.2501487731933594,
+            "S6:background": 0.12505245208740234
+          }
+        },
+        "target": {
+          "m_clean": 0.3747056722640991,
+          "delta": {
+            "S1:target": -0.2501104474067688,
+            "S6:target": -0.2501668930053711,
+            "S1:reference": 0.24970734119415283,
+            "S6:reference": 0.3746689558029175,
+            "S1:irrelevant": 0.37480628490448,
+            "S6:irrelevant": 0.2499173879623413,
+            "S1:background": -0.25072234869003296,
+            "S6:background": 0.12419602274894714
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 3.4997024536132812,
+          "delta": {
+            "S1:target": -4.500329256057739,
+            "S6:target": -4.000465035438538,
+            "S1:reference": -0.6248452663421631,
+            "S6:reference": -0.4999077320098877,
+            "S1:irrelevant": -2.3751862049102783,
+            "S6:irrelevant": -1.6251909732818604,
+            "S1:background": -1.1251890659332275,
+            "S6:background": -0.5001101493835449
+          }
+        },
+        "target": {
+          "m_clean": -1.3757610321044922,
+          "delta": {
+            "S1:target": 0.37518763542175293,
+            "S6:target": 0.37512898445129395,
+            "S1:reference": -0.24984359741210938,
+            "S6:reference": -0.49996697902679443,
+            "S1:irrelevant": -0.0003223419189453125,
+            "S6:irrelevant": -0.00037467479705810547,
+            "S1:background": 0.24806690216064453,
+            "S6:background": 0.12442851066589355
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.0012913346290588379,
+          "delta": {
+            "S1:target": 0.12521898746490479,
+            "S6:target": 0.12480688095092773,
+            "S1:reference": 0.37547624111175537,
+            "S6:reference": 0.2503510117530823,
+            "S1:irrelevant": -0.12695914506912231,
+            "S6:irrelevant": 0.12441760301589966,
+            "S1:background": 0.12489694356918335,
+            "S6:background": 0.125
+          }
+        },
+        "target": {
+          "m_clean": 1.3744943141937256,
+          "delta": {
+            "S1:target": 0.12493276596069336,
+            "S6:target": 0.12496781349182129,
+            "S1:reference": 9.655952453613281e-06,
+            "S6:reference": 3.5762786865234375e-07,
+            "S1:irrelevant": 0.5000821352005005,
+            "S6:irrelevant": 0.00013387203216552734,
+            "S1:background": 0.2499992847442627,
+            "S6:background": -0.0002143383026123047
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 3.374880313873291,
+          "delta": {
+            "S1:target": -2.7501800060272217,
+            "S6:target": -2.50016188621521,
+            "S1:reference": -3.0008217096328735,
+            "S6:reference": -3.0002062916755676
+          }
+        },
+        "target": {
+          "m_clean": 1.8748137950897217,
+          "delta": {
+            "S1:target": -7.2479248046875e-05,
+            "S6:target": -5.7220458984375e-05,
+            "S1:reference": -0.12499940395355225,
+            "S6:reference": -0.12503719329833984,
+            "S1:irrelevant": -0.12500977516174316,
+            "S6:irrelevant": -7.271766662597656e-05,
+            "S1:background": -3.6835670471191406e-05,
+            "S6:background": 0.1249701976776123
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 2.374323844909668,
+          "delta": {
+            "S1:target": -0.7497632503509521,
+            "S6:target": -0.9997999668121338,
+            "S1:reference": -0.7495977878570557,
+            "S6:reference": -0.8746737241744995,
+            "S1:irrelevant": -0.376132607460022,
+            "S6:irrelevant": -8.273124694824219e-05,
+            "S1:background": 0.2503035068511963,
+            "S6:background": 0.12528109550476074
+          }
+        },
+        "target": {
+          "m_clean": 0.248141348361969,
+          "delta": {
+            "S1:target": -0.24958956241607666,
+            "S6:target": -0.24938440322875977,
+            "S1:reference": 0.37600070238113403,
+            "S6:reference": 0.1254085898399353,
+            "S1:irrelevant": 0.7506011724472046,
+            "S6:irrelevant": 0.5011694431304932,
+            "S1:background": 0.24961921572685242,
+            "S6:background": 0.0
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0005",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 0.7491711378097534,
+          "delta": {
+            "S1:target": 0.12553155422210693,
+            "S6:target": 0.12542206048965454,
+            "S1:reference": 0.1255340576171875,
+            "S6:reference": 0.0005517005920410156,
+            "S1:irrelevant": 0.1250706911087036,
+            "S6:irrelevant": 0.00011628866195678711,
+            "S1:background": 0.25011610984802246,
+            "S6:background": 0.1251593828201294
+          }
+        },
+        "target": {
+          "m_clean": 0.1242169737815857,
+          "delta": {
+            "S1:target": 0.12499916553497314,
+            "S6:target": 0.12504661083221436,
+            "S1:reference": 0.12508940696716309,
+            "S6:reference": -0.12469100952148438,
+            "S1:irrelevant": 0.12462586164474487,
+            "S6:irrelevant": 0.12462228536605835,
+            "S1:background": 0.12462359666824341,
+            "S6:background": 0.12454891204833984
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0006",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 1.1240354776382446,
+          "delta": {
+            "S1:target": -0.12461209297180176,
+            "S6:target": -0.3747292160987854,
+            "S1:reference": -0.6257844269275665,
+            "S6:reference": -0.49997466802597046,
+            "S1:irrelevant": -0.12484878301620483,
+            "S6:irrelevant": -0.12466996908187866,
+            "S1:background": -0.12501496076583862,
+            "S6:background": -0.1254284381866455
+          }
+        },
+        "target": {
+          "m_clean": 0.3738023042678833,
+          "delta": {
+            "S1:target": 0.6247523427009583,
+            "S6:target": 0.499922513961792,
+            "S1:reference": -0.24935680627822876,
+            "S6:reference": -0.37440818548202515,
+            "S1:irrelevant": 7.343292236328125e-05,
+            "S6:irrelevant": -0.12464702129364014,
+            "S1:background": -0.1268429160118103,
+            "S6:background": -0.0005841255187988281
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0007",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 1.3745503425598145,
+          "delta": {
+            "S1:target": 0.3751392364501953,
+            "S6:target": 0.250018835067749,
+            "S1:reference": 0.12508511543273926,
+            "S6:reference": 0.00010085105895996094,
+            "S1:irrelevant": -0.8752032220363617,
+            "S6:irrelevant": -0.6252260208129883
+          }
+        },
+        "target": {
+          "m_clean": 2.4997174739837646,
+          "delta": {
+            "S1:target": 0.1250462532043457,
+            "S6:target": -6.771087646484375e-05,
+            "S1:reference": 0.25004029273986816,
+            "S6:reference": 5.507469177246094e-05,
+            "S1:irrelevant": 0.25000882148742676,
+            "S6:irrelevant": -0.2500264644622803
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0008",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": -0.001991868019104004,
+          "delta": {
+            "S1:target": -0.12394559383392334,
+            "S6:target": -0.12406975030899048,
+            "S1:reference": 0.0008608102798461914,
+            "S6:reference": -0.12400740385055542,
+            "S1:irrelevant": 0.12547838687896729,
+            "S6:irrelevant": 0.0008829832077026367,
+            "S1:background": 0.0005424022674560547,
+            "S6:background": -0.12428617477416992
+          }
+        },
+        "target": {
+          "m_clean": 0.6241201162338257,
+          "delta": {
+            "S1:target": -0.24997490644454956,
+            "S6:target": -0.24994653463363647,
+            "S1:reference": -0.0003218650817871094,
+            "S6:reference": -0.12497520446777344,
+            "S1:irrelevant": 0.12477278709411621,
+            "S6:irrelevant": -0.00011616945266723633,
+            "S1:background": 0.37501615285873413,
+            "S6:background": 0.374942421913147
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0009",
+      "group": "woman|to the left of|man",
+      "sides": {
+        "source": {
+          "m_clean": 2.999717950820923,
+          "delta": {
+            "S1:target": -0.25006103515625,
+            "S6:target": -0.25006937980651855,
+            "S1:reference": -0.24992632865905762,
+            "S6:reference": -0.4999120235443115,
+            "S1:background": -0.8753817081451416,
+            "S6:background": -0.5003085136413574
+          }
+        },
+        "target": {
+          "m_clean": 0.37405455112457275,
+          "delta": {
+            "S1:target": -0.4997480511665344,
+            "S6:target": -0.6245914101600647,
+            "S1:reference": 0.37513065338134766,
+            "S6:reference": 0.12525659799575806,
+            "S1:irrelevant": 0.12487369775772095,
+            "S6:irrelevant": 0.0002563595771789551,
+            "S1:background": -0.3764362931251526,
+            "S6:background": -0.1257663369178772
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -0.37655407190322876,
+          "delta": {
+            "S1:target": -0.9966854453086853,
+            "S6:target": -0.6227357983589172,
+            "S1:reference": 0.0004646778106689453,
+            "S6:reference": 0.3710795044898987,
+            "S1:irrelevant": 0.12399411201477051,
+            "S6:irrelevant": 0.1250009536743164,
+            "S1:background": 0.24868160486221313,
+            "S6:background": 0.37347304821014404
+          }
+        },
+        "target": {
+          "m_clean": -1.0162588357925415,
+          "delta": {
+            "S1:target": -0.25505363941192627,
+            "S6:target": -0.12931311130523682,
+            "S1:reference": -0.12500059604644775,
+            "S6:reference": -0.12318193912506104,
+            "S1:irrelevant": 0.24490702152252197,
+            "S6:irrelevant": 0.23219871520996094,
+            "S1:background": 0.247414231300354,
+            "S6:background": 0.24202466011047363
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -1.5033389329910278,
+          "delta": {
+            "S1:target": 0.12456083297729492,
+            "S6:target": 0.2493194341659546,
+            "S1:reference": 0.12431943416595459,
+            "S6:reference": 0.24906408786773682,
+            "S1:irrelevant": 0.2497856616973877,
+            "S6:irrelevant": 0.7505850195884705,
+            "S1:background": 0.12287330627441406,
+            "S6:background": 0.37558889389038086
+          }
+        },
+        "target": {
+          "m_clean": -1.3763132095336914,
+          "delta": {
+            "S1:target": -0.24953687191009521,
+            "S6:target": -0.2498457431793213,
+            "S1:reference": -0.24996495246887207,
+            "S6:reference": -0.24992918968200684,
+            "S1:irrelevant": 0.12473249435424805,
+            "S6:irrelevant": 0.2502329349517822,
+            "S1:background": 0.0002334117889404297,
+            "S6:background": 0.0002987384796142578
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": 0.3679124116897583,
+          "delta": {
+            "S1:target": -0.99290931224823,
+            "S6:target": -0.8742063045501709,
+            "S1:reference": -0.49290794134140015,
+            "S6:reference": -0.37286972999572754,
+            "S1:irrelevant": -0.24850136041641235,
+            "S6:irrelevant": 0.0014979243278503418,
+            "S1:background": -0.5018691420555115,
+            "S6:background": -0.009758949279785156
+          }
+        },
+        "target": {
+          "m_clean": -0.8757076263427734,
+          "delta": {
+            "S1:target": 0.1249544620513916,
+            "S6:target": 0.6252189874649048,
+            "S1:reference": 0.12481069564819336,
+            "S6:reference": 0.7489195466041565,
+            "S1:irrelevant": 0.874565064907074,
+            "S6:irrelevant": 1.0000813007354736
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -0.5049483776092529,
+          "delta": {
+            "S1:target": 0.0007688403129577637,
+            "S6:target": 0.1242799162864685,
+            "S1:reference": -0.2500728368759155,
+            "S6:reference": -0.24644064903259277,
+            "S1:irrelevant": -0.12370848655700684,
+            "S6:irrelevant": -0.1272650957107544,
+            "S1:background": -0.24944531917572021,
+            "S6:background": -0.005592703819274902
+          }
+        },
+        "target": {
+          "m_clean": -1.6285282373428345,
+          "delta": {
+            "S1:target": 0.3750452995300293,
+            "S6:target": 0.37641167640686035,
+            "S1:reference": 0.24959039688110352,
+            "S6:reference": 0.3750423192977905,
+            "S1:irrelevant": 0.25044751167297363,
+            "S6:irrelevant": 0.37234067916870117,
+            "S1:background": 0.12368834018707275,
+            "S6:background": 0.25004565715789795
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -0.37688350677490234,
+          "delta": {
+            "S1:target": -0.12374389171600342,
+            "S6:target": -0.12440979480743408,
+            "S1:reference": 0.0005881786346435547,
+            "S6:reference": 0.0006660819053649902,
+            "S1:irrelevant": -0.12441074848175049,
+            "S6:irrelevant": -0.00012099742889404297,
+            "S1:background": 0.0005066990852355957,
+            "S6:background": 0.0005888938903808594
+          }
+        },
+        "target": {
+          "m_clean": -0.6339351534843445,
+          "delta": {
+            "S1:target": 0.6321320533752441,
+            "S6:target": 1.1320283114910126,
+            "S1:reference": 0.007445931434631348,
+            "S6:reference": 0.2589288353919983,
+            "S1:irrelevant": 0.12947601079940796,
+            "S6:irrelevant": 0.37500113248825073
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0005",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -1.8777234554290771,
+          "delta": {
+            "S1:target": -0.002748727798461914,
+            "S6:target": 0.12348365783691406,
+            "S1:reference": 0.6272034645080566,
+            "S6:reference": 1.2520118951797485,
+            "S1:irrelevant": -0.12403368949890137,
+            "S6:irrelevant": 0.0019230842590332031,
+            "S1:background": -0.0010584592819213867,
+            "S6:background": 0.24897277355194092
+          }
+        },
+        "target": {
+          "m_clean": -1.3743717670440674,
+          "delta": {
+            "S1:target": -0.5029339790344238,
+            "S6:target": -0.3774145841598511,
+            "S1:reference": 0.623286247253418,
+            "S6:reference": 0.9981696009635925
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0006",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -0.6335372924804688,
+          "delta": {
+            "S1:target": -0.7541465759277344,
+            "S6:target": -0.624718427658081,
+            "S1:reference": -0.11754822731018066,
+            "S6:reference": 0.25622546672821045
+          }
+        },
+        "target": {
+          "m_clean": -1.629696011543274,
+          "delta": {
+            "S1:target": 0.001355290412902832,
+            "S6:target": 0.001743912696838379,
+            "S1:reference": 0.12710785865783691,
+            "S6:reference": 0.2513539791107178,
+            "S1:irrelevant": 0.0005459785461425781,
+            "S6:irrelevant": 0.12603461742401123,
+            "S1:background": -0.1230776309967041,
+            "S6:background": 0.0010353326797485352
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0007",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -1.7535252571105957,
+          "delta": {
+            "S1:target": 0.12528717517852783,
+            "S6:target": 0.12540817260742188,
+            "S1:reference": 0.6267378330230713,
+            "S6:reference": 0.8767553567886353,
+            "S1:irrelevant": 0.5003809928894043,
+            "S6:irrelevant": 0.5009632110595703,
+            "S1:background": 0.1250002384185791,
+            "S6:background": 0.2500002384185791
+          }
+        },
+        "target": {
+          "m_clean": -1.6270323991775513,
+          "delta": {
+            "S1:target": 0.12458360195159912,
+            "S6:target": 0.24980592727661133,
+            "S1:reference": 0.5000135898590088,
+            "S6:reference": 1.1229593753814697,
+            "S1:irrelevant": 0.6263347864151001,
+            "S6:irrelevant": 1.5020304918289185,
+            "S1:background": 0.24836790561676025,
+            "S6:background": 0.24980545043945312
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0008",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -1.39004647731781,
+          "delta": {
+            "S1:target": 0.1297285556793213,
+            "S6:target": 0.1337590217590332,
+            "S1:reference": 0.2600947618484497,
+            "S6:reference": 0.5058776140213013,
+            "S1:irrelevant": 0.25854337215423584,
+            "S6:irrelevant": 0.25783002376556396,
+            "S1:background": 0.12972581386566162,
+            "S6:background": 0.26249825954437256
+          }
+        },
+        "target": {
+          "m_clean": -0.8963527679443359,
+          "delta": {
+            "S1:target": -0.49775195121765137,
+            "S6:target": -0.26183080673217773,
+            "S1:reference": -0.11544442176818848,
+            "S6:reference": -0.11500918865203857,
+            "S1:irrelevant": 0.23545587062835693,
+            "S6:irrelevant": 0.35599344968795776,
+            "S1:background": 0.11604642868041992,
+            "S6:background": 0.11941033601760864
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0009",
+      "group": "chair|to the left of|table",
+      "sides": {
+        "source": {
+          "m_clean": -0.7600725889205933,
+          "delta": {
+            "S1:target": -0.49395155906677246,
+            "S6:target": -0.4923360347747803,
+            "S1:reference": -0.5112841129302979,
+            "S6:reference": -0.25496113300323486,
+            "S1:irrelevant": 0.0019297599792480469,
+            "S6:irrelevant": 0.12614881992340088,
+            "S1:background": 0.12677687406539917,
+            "S6:background": 0.125
+          }
+        },
+        "target": {
+          "m_clean": -1.1312922239303589,
+          "delta": {
+            "S1:target": -0.008762836456298828,
+            "S6:target": -0.008144497871398926,
+            "S1:reference": 0.006296515464782715,
+            "S6:reference": 0.24999994039535522,
+            "S1:irrelevant": 0.006294727325439453,
+            "S6:irrelevant": 0.13688623905181885,
+            "S1:background": 0.006298661231994629,
+            "S6:background": 0.13129520416259766
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0000",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.3746638894081116,
+          "delta": {
+            "S1:target": 0.3746485114097595,
+            "S6:target": 0.12485012412071228,
+            "S1:reference": -9.781122207641602e-05,
+            "S6:reference": -0.12521934509277344,
+            "S1:irrelevant": 0.12509074807167053,
+            "S6:irrelevant": -6.866455078125e-05,
+            "S1:background": 0.499860942363739,
+            "S6:background": 0.24987494945526123
+          }
+        },
+        "target": {
+          "m_clean": -0.250731885433197,
+          "delta": {
+            "S1:target": 0.12510764598846436,
+            "S6:target": 0.00021499395370483398,
+            "S1:reference": 0.0002110004425048828,
+            "S6:reference": 0.12500017881393433,
+            "S1:irrelevant": -0.12482202053070068,
+            "S6:irrelevant": 0.0001418590545654297,
+            "S1:background": -2.467632293701172e-05,
+            "S6:background": -4.5180320739746094e-05
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0001",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.5007636547088623,
+          "delta": {
+            "S1:target": 8.976459503173828e-05,
+            "S6:target": 0.00012969970703125,
+            "S1:reference": 4.684925079345703e-05,
+            "S6:reference": -0.12477225065231323,
+            "S1:irrelevant": -0.12480652332305908,
+            "S6:irrelevant": -0.12492412328720093,
+            "S1:background": -0.12480628490447998,
+            "S6:background": -0.12480640411376953
+          }
+        },
+        "target": {
+          "m_clean": 0.12181520462036133,
+          "delta": {
+            "S1:target": 0.2510834336280823,
+            "S6:target": 0.12491202354431152,
+            "S1:reference": 0.25182217359542847,
+            "S6:reference": 0.12654316425323486,
+            "S1:irrelevant": 0.12580430507659912,
+            "S6:irrelevant": 0.0007259249687194824,
+            "S1:background": 0.12494218349456787,
+            "S6:background": 0.0001366138458251953
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0002",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": 0.12251538038253784,
+          "delta": {
+            "S1:target": -0.7492583990097046,
+            "S6:target": -0.6248487234115601,
+            "S1:reference": 0.0011230111122131348,
+            "S6:reference": 0.12616151571273804,
+            "S1:irrelevant": -0.13067686557769775,
+            "S6:irrelevant": -0.0009626150131225586,
+            "S1:background": 0.0011616349220275879,
+            "S6:background": 0.0006276369094848633
+          }
+        },
+        "target": {
+          "m_clean": 0.4984383285045624,
+          "delta": {
+            "S1:target": 0.37498679757118225,
+            "S6:target": 0.5003269016742706,
+            "S1:reference": 0.37524887919425964,
+            "S6:reference": 0.4998813569545746,
+            "S1:irrelevant": 0.0004038214683532715,
+            "S6:irrelevant": 0.12499979138374329,
+            "S1:background": 0.12534037232398987,
+            "S6:background": 0.2501802146434784
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0003",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.0014685988426208496,
+          "delta": {
+            "S1:target": -0.12598848342895508,
+            "S6:target": -0.12511086463928223,
+            "S1:reference": -0.2503092885017395,
+            "S6:reference": 0.12248146533966064,
+            "S1:background": 0.12443119287490845,
+            "S6:background": 0.12456846237182617
+          }
+        },
+        "target": {
+          "m_clean": 0.7486836314201355,
+          "delta": {
+            "S1:target": -0.12452429533004761,
+            "S6:target": -0.12477153539657593,
+            "S1:reference": 0.1251125931739807,
+            "S6:reference": -4.488229751586914e-05,
+            "S1:irrelevant": 0.3745717406272888,
+            "S6:irrelevant": 0.12500756978988647,
+            "S1:background": -0.6263793110847473,
+            "S6:background": -0.12636756896972656
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0004",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.378939151763916,
+          "delta": {
+            "S1:target": 0.37381213903427124,
+            "S6:target": 0.2503369450569153,
+            "S1:reference": -0.12325406074523926,
+            "S6:reference": -0.12365120649337769,
+            "S1:irrelevant": 0.12545782327651978,
+            "S6:irrelevant": 0.2508634924888611,
+            "S1:background": -0.25530970096588135,
+            "S6:background": -0.0014299750328063965
+          }
+        },
+        "target": {
+          "m_clean": -0.3757495880126953,
+          "delta": {
+            "S1:target": 0.7503675222396851,
+            "S6:target": 0.7501580119132996,
+            "S1:reference": 0.0003666877746582031,
+            "S6:reference": -0.12478828430175781,
+            "S1:background": 0.625176727771759,
+            "S6:background": 0.4998847246170044
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0005",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.5030455589294434,
+          "delta": {
+            "S1:target": 0.1263524293899536,
+            "S6:target": 0.2508116364479065,
+            "S1:reference": -0.5023750066757202,
+            "S6:reference": -0.25195467472076416,
+            "S1:irrelevant": -0.12440991401672363,
+            "S6:irrelevant": -0.0006202459335327148
+          }
+        },
+        "target": {
+          "m_clean": -0.37705981731414795,
+          "delta": {
+            "S1:target": 1.000419557094574,
+            "S6:target": 0.8749976456165314,
+            "S1:reference": 0.24986553192138672,
+            "S6:reference": 0.12542235851287842,
+            "S1:irrelevant": 0.6257805824279785,
+            "S6:irrelevant": 0.3758929967880249
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0006",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.1289989948272705,
+          "delta": {
+            "S1:target": -0.0005278587341308594,
+            "S6:target": 0.00029796361923217773,
+            "S1:reference": 0.000728607177734375,
+            "S6:reference": -0.0002560615539550781,
+            "S1:irrelevant": -0.0005278587341308594,
+            "S6:irrelevant": 0.00029796361923217773,
+            "S1:background": 0.12471973896026611,
+            "S6:background": 0.12447249889373779
+          }
+        },
+        "target": {
+          "m_clean": -0.6281816959381104,
+          "delta": {
+            "S1:target": -0.00041961669921875,
+            "S6:target": 0.12493759393692017,
+            "S1:reference": 0.12578493356704712,
+            "S6:reference": 0.0012096166610717773,
+            "S1:irrelevant": 0.7506496906280518,
+            "S6:irrelevant": 0.6249983310699463,
+            "S1:background": 0.12513411045074463,
+            "S6:background": 0.12447988986968994
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0007",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.37697547674179077,
+          "delta": {
+            "S1:target": -0.2502603530883789,
+            "S6:target": -0.3749987483024597,
+            "S1:reference": 0.00011903047561645508,
+            "S6:reference": 0.00047963857650756836,
+            "S1:irrelevant": -0.12535756826400757,
+            "S6:irrelevant": -0.2497689127922058,
+            "S1:background": 0.00011903047561645508,
+            "S6:background": -0.0005559921264648438
+          }
+        },
+        "target": {
+          "m_clean": -0.0019061565399169922,
+          "delta": {
+            "S1:target": -0.24922752380371094,
+            "S6:target": 0.2507258653640747,
+            "S1:reference": 0.24966728687286377,
+            "S6:reference": 0.12558311223983765,
+            "S1:irrelevant": 0.3762804865837097,
+            "S6:irrelevant": 0.3756253719329834
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0008",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.12663960456848145,
+          "delta": {
+            "S1:target": 0.25019192695617676,
+            "S6:target": 0.24978119134902954,
+            "S1:reference": 0.00014215707778930664,
+            "S6:reference": -2.384185791015625e-07,
+            "S1:irrelevant": 0.12489438056945801,
+            "S6:irrelevant": 0.12399476766586304,
+            "S1:background": 0.1253170371055603,
+            "S6:background": 0.1253960132598877
+          }
+        },
+        "target": {
+          "m_clean": -0.37661105394363403,
+          "delta": {
+            "S1:target": 0.0001888871192932129,
+            "S6:target": -0.00010263919830322266,
+            "S1:reference": 0.1252468228340149,
+            "S6:reference": 8.344650268554688e-07,
+            "S1:irrelevant": 0.00024706125259399414,
+            "S6:irrelevant": -0.00021225214004516602,
+            "S1:background": 0.12518781423568726,
+            "S6:background": -0.0005102753639221191
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0009",
+      "group": "man|to the left of|person",
+      "sides": {
+        "source": {
+          "m_clean": -0.2553722858428955,
+          "delta": {
+            "S1:target": 0.12603437900543213,
+            "S6:target": 0.12259906530380249,
+            "S1:reference": 0.2498859167098999,
+            "S6:reference": 0.12591052055358887,
+            "S1:irrelevant": 0.0011799335479736328,
+            "S6:irrelevant": -0.12346011400222778,
+            "S1:background": 0.2514311671257019,
+            "S6:background": 0.3745689392089844
+          }
+        },
+        "target": {
+          "m_clean": 0.12235844135284424,
+          "delta": {
+            "S1:target": 0.12553781270980835,
+            "S6:target": 0.1252601146697998,
+            "S1:reference": 0.12508785724639893,
+            "S6:reference": -0.12433242797851562,
+            "S1:irrelevant": 0.0013984441757202148,
+            "S6:irrelevant": -0.12380528450012207,
+            "S1:background": 0.24964910745620728,
+            "S6:background": 0.125
+          }
+        }
+      }
+    }
+  ]
+}

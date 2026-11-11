@@ -1,0 +1,36 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+splitting E2: 20 pairs
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   3%|▎         | 20/657 [00:00<00:03, 199.08it/s]Loading weights:   7%|▋         | 48/657 [00:00<00:02, 245.98it/s]Loading weights:  12%|█▏        | 77/657 [00:00<00:02, 255.83it/s]Loading weights:  16%|█▌        | 104/657 [00:00<00:02, 259.28it/s]Loading weights:  20%|█▉        | 131/657 [00:00<00:02, 261.05it/s]Loading weights:  24%|██▍       | 159/657 [00:00<00:01, 260.83it/s]Loading weights:  28%|██▊       | 186/657 [00:00<00:01, 262.63it/s]Loading weights:  33%|███▎      | 218/657 [00:00<00:01, 280.12it/s]Loading weights:  64%|██████▍   | 421/657 [00:00<00:00, 816.71it/s]Loading weights:  96%|█████████▌| 631/657 [00:01<00:00, 1206.07it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 635.75it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  5/20
+  10/20
+  15/20
+  20/20
+saved results/e2/spatial_test_splitting.json
+  woman|to the left of|man n=5 blocks=13.0
+    S1: target=-1.35 reference=-0.68 irrelevant=-0.53 background=-0.03 full=-2.67
+  man|to the right of|woman n=5 blocks=13.0
+    S1: target=-1.67 reference=-0.55 irrelevant=-0.37 background=-0.28 full=-3.02
+  tree|to the left of|building n=5 blocks=13.0
+    S1: target=-1.03 reference=-0.71 irrelevant=-0.06 background=-0.06 full=-3.41
+  chair|to the left of|table n=5 blocks=13.8
+    S1: target=-0.48 reference=-0.28 irrelevant=-0.00 background=-0.20 full=-0.95

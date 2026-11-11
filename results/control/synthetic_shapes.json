@@ -1,0 +1,998 @@
+{
+  "summary": [
+    {
+      "relation": "above",
+      "n_pairs": 20,
+      "auc": 0.0,
+      "acc": 0.5,
+      "mean_yes": 2.1245155334472656,
+      "mean_no": 2.1245155334472656
+    },
+    {
+      "relation": "below",
+      "n_pairs": 20,
+      "auc": 0.0,
+      "acc": 0.5,
+      "mean_yes": 1.2248566150665283,
+      "mean_no": 1.2248566150665283
+    },
+    {
+      "relation": "to the left of",
+      "n_pairs": 20,
+      "auc": 0.0,
+      "acc": 0.5,
+      "mean_yes": 2.9994571208953857,
+      "mean_no": 2.9994571208953857
+    },
+    {
+      "relation": "to the right of",
+      "n_pairs": 20,
+      "auc": 0.0,
+      "acc": 0.5,
+      "mean_yes": 2.4895894527435303,
+      "mean_no": 2.4895894527435303
+    }
+  ],
+  "per_sample": [
+    {
+      "relation": "above",
+      "pair": 0,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 0,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 1,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 1,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 2,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 2,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 3,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 3,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 4,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 4,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 5,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 5,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 6,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 6,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 7,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 7,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 8,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 8,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 9,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 9,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 10,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 10,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 11,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 11,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 12,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 12,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 13,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 13,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 14,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 14,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 15,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 15,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 16,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 16,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 17,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 17,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 18,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 18,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 19,
+      "gold": "yes",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "above",
+      "pair": 19,
+      "gold": "no",
+      "margin": 2.1245155334472656
+    },
+    {
+      "relation": "below",
+      "pair": 0,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 0,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 1,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 1,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 2,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 2,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 3,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 3,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 4,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 4,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 5,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 5,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 6,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 6,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 7,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 7,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 8,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 8,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 9,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 9,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 10,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 10,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 11,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 11,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 12,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 12,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 13,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 13,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 14,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 14,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 15,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 15,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 16,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 16,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 17,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 17,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 18,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 18,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 19,
+      "gold": "yes",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "below",
+      "pair": 19,
+      "gold": "no",
+      "margin": 1.2248566150665283
+    },
+    {
+      "relation": "to the left of",
+      "pair": 0,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 0,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 1,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 1,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 2,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 2,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 3,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 3,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 4,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 4,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 5,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 5,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 6,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 6,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 7,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 7,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 8,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 8,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 9,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 9,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 10,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 10,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 11,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 11,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 12,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 12,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 13,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 13,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 14,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 14,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 15,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 15,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 16,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 16,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 17,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 17,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 18,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 18,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 19,
+      "gold": "yes",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the left of",
+      "pair": 19,
+      "gold": "no",
+      "margin": 2.9994571208953857
+    },
+    {
+      "relation": "to the right of",
+      "pair": 0,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 0,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 1,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 1,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 2,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 2,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 3,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 3,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 4,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 4,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 5,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 5,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 6,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 6,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 7,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 7,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 8,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 8,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 9,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 9,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 10,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 10,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 11,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 11,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 12,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 12,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 13,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 13,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 14,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 14,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 15,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 15,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 16,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 16,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 17,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 17,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 18,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 18,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 19,
+      "gold": "yes",
+      "margin": 2.4895894527435303
+    },
+    {
+      "relation": "to the right of",
+      "pair": 19,
+      "gold": "no",
+      "margin": 2.4895894527435303
+    }
+  ]
+}

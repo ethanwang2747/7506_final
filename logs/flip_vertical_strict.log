@@ -1,0 +1,60 @@
+[transformers] Model config: pad_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 128002. This may result in unexpected behavior.
+flip counterfactual: 20 source images
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/657 [00:00<00:04, 156.89it/s]Loading weights:   7%|▋         | 47/657 [00:00<00:02, 243.34it/s]Loading weights:  11%|█▏        | 75/657 [00:00<00:02, 256.62it/s]Loading weights:  16%|█▌        | 102/657 [00:00<00:02, 261.24it/s]Loading weights:  20%|█▉        | 131/657 [00:00<00:02, 260.69it/s]Loading weights:  24%|██▍       | 159/657 [00:00<00:01, 261.81it/s]Loading weights:  28%|██▊       | 186/657 [00:00<00:01, 258.32it/s]Loading weights:  33%|███▎      | 214/657 [00:00<00:01, 264.37it/s]Loading weights:  62%|██████▏   | 407/657 [00:00<00:00, 767.45it/s]Loading weights:  93%|█████████▎| 613/657 [00:01<00:00, 1156.59it/s]Loading weights: 100%|██████████| 657/657 [00:01<00:00, 623.06it/s] 
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+[transformers] Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  5/20
+  10/20
+  15/20
+  20/20
+saved results/flip/flip_vertical_strict.json
+  sign|above|building n=5 AUC=0.80 delta=+0.42
+    S1: auc_after_target_abl=0.60 patch_full=1.0 patch_target=0.15141476599524595 patch_random=-0.01739352821801652
+    S6: auc_after_target_abl=0.60 patch_full=1.0 patch_target=0.21021023081408208 patch_random=1.0427072284529715
+  tree|above|building n=5 AUC=0.80 delta=+0.43
+    S1: auc_after_target_abl=0.40 patch_full=1.0 patch_target=0.14648081720997075 patch_random=-0.037343162634103116
+    S6: auc_after_target_abl=0.80 patch_full=1.0 patch_target=0.2418098736113229 patch_random=-0.0647949442598071
+  building|below|sign n=5 AUC=0.40 delta=-0.00
+    S1: auc_after_target_abl=0.40 patch_full=1.0 patch_target=0.6579743308587545 patch_random=0.5600676709009396
+    S6: auc_after_target_abl=0.40 patch_full=1.0 patch_target=0.6704687800491702 patch_random=0.7365471097316657
+  building|below|tree n=5 AUC=0.80 delta=+0.19
+    S1: auc_after_target_abl=0.00 patch_full=1.0 patch_target=1.0 patch_random=0.22182371517700583
+    S6: auc_after_target_abl=0.00 patch_full=1.0 patch_target=0.4480869941224516 patch_random=0.24800986775251532

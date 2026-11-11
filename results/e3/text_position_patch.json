@@ -1,0 +1,212 @@
+{
+  "summary": [
+    {
+      "group": "woman|to the left of|man",
+      "n_pairs": 5,
+      "S12:visual": {
+        "median": 0.5296928300281152,
+        "n": 5
+      },
+      "S12:text": {
+        "median": 0.3331254415514957,
+        "n": 5
+      },
+      "S12:both": {
+        "median": 1.0,
+        "n": 5
+      },
+      "S18:visual": {
+        "median": 6.741226538441259e-05,
+        "n": 5
+      },
+      "S18:text": {
+        "median": 0.941328609178277,
+        "n": 5
+      },
+      "S18:both": {
+        "median": 1.0,
+        "n": 5
+      }
+    },
+    {
+      "group": "chair|to the left of|table",
+      "n_pairs": 5,
+      "S12:visual": {
+        "median": 0.5008258532370945,
+        "n": 5
+      },
+      "S12:text": {
+        "median": -0.5729380901777923,
+        "n": 5
+      },
+      "S12:both": {
+        "median": 1.0,
+        "n": 5
+      },
+      "S18:visual": {
+        "median": 0.0021941328998872902,
+        "n": 5
+      },
+      "S18:text": {
+        "median": 0.6996669747180879,
+        "n": 5
+      },
+      "S18:both": {
+        "median": 1.0,
+        "n": 5
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "group": "woman|to the left of|man",
+      "m_source": 1.1241180896759033,
+      "m_target": 0.3747056722640991,
+      "delta": 0.7494124174118042,
+      "patch": {
+        "S12:visual": 0.1648107532187486,
+        "S12:text": 0.6674457136667035,
+        "S12:both": 1.0,
+        "S18:visual": 0.1653609775317914,
+        "S18:text": 1.1671830885320305,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "group": "woman|to the left of|man",
+      "m_source": 3.4997024536132812,
+      "m_target": -1.3757610321044922,
+      "delta": 4.875463485717773,
+      "patch": {
+        "S12:visual": 0.5897489463634134,
+        "S12:text": 0.333313564810631,
+        "S12:both": 1.0,
+        "S18:visual": -4.4158258503912334e-05,
+        "S18:text": 0.974382733074428,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "group": "woman|to the left of|man",
+      "m_source": -0.0012913346290588379,
+      "m_target": 1.3744943141937256,
+      "delta": -1.3757856488227844,
+      "patch": {
+        "S12:visual": 0.8187196235934784,
+        "S12:text": 0.27264730435637036,
+        "S12:both": 1.0,
+        "S18:visual": 6.741226538441259e-05,
+        "S18:text": 0.9092822400350613,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "group": "woman|to the left of|man",
+      "m_source": 3.374880313873291,
+      "m_target": 1.8748137950897217,
+      "delta": 1.5000665187835693,
+      "patch": {
+        "S12:visual": 0.4167152621653646,
+        "S12:text": 0.3331254415514957,
+        "S12:both": 1.0,
+        "S18:visual": 1.4225011066104977e-05,
+        "S18:text": 0.9167182025307805,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "group": "woman|to the left of|man",
+      "m_source": 2.374323844909668,
+      "m_target": 0.248141348361969,
+      "delta": 2.126182496547699,
+      "patch": {
+        "S12:visual": 0.5296928300281152,
+        "S12:text": 0.17614825738799375,
+        "S12:both": 1.0,
+        "S18:visual": 0.05847361345803334,
+        "S18:text": 0.941328609178277,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "group": "chair|to the left of|table",
+      "m_source": -0.37655407190322876,
+      "m_target": -1.0162588357925415,
+      "delta": 0.6397047638893127,
+      "patch": {
+        "S12:visual": -0.3793814375355522,
+        "S12:text": -0.5729380901777923,
+        "S12:both": 1.0,
+        "S18:visual": 0.40514476404069333,
+        "S18:text": 0.9948621309270517,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "m_source": -1.5033389329910278,
+      "m_target": -1.3763132095336914,
+      "delta": -0.12702572345733643,
+      "patch": {
+        "S12:visual": 0.9917433784203556,
+        "S12:text": -0.01034189245370314,
+        "S12:both": 1.0,
+        "S18:visual": 0.0021941328998872902,
+        "S18:text": -0.004416419771971595,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "group": "chair|to the left of|table",
+      "m_source": 0.3679124116897583,
+      "m_target": -0.8757076263427734,
+      "delta": 1.2436200380325317,
+      "patch": {
+        "S12:visual": 0.5008258532370945,
+        "S12:text": -0.6009783516312555,
+        "S12:both": 1.0,
+        "S18:visual": -0.0020959063349859346,
+        "S18:text": 0.6996669747180879,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "m_source": -0.5049483776092529,
+      "m_target": -1.6285282373428345,
+      "delta": 1.1235798597335815,
+      "patch": {
+        "S12:visual": 0.5512414444104577,
+        "S12:text": 0.4464793638294326,
+        "S12:both": 1.0,
+        "S18:visual": -0.0004108104690040212,
+        "S18:text": 1.10380534416464,
+        "S18:both": 1.0
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "m_source": -0.37688350677490234,
+      "m_target": -0.6339351534843445,
+      "delta": 0.25705164670944214,
+      "patch": {
+        "S12:visual": 0.0186135498889188,
+        "S12:text": -1.4346244073485876,
+        "S12:both": 1.0,
+        "S18:visual": 0.4785467550864198,
+        "S18:text": 0.5179099158259347,
+        "S18:both": 1.0
+      }
+    }
+  ]
+}

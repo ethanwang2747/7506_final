@@ -1,0 +1,1545 @@
+{
+  "summary": [
+    {
+      "group": "fence|material|wood",
+      "n_pairs": 10,
+      "auc_clean": 0.8,
+      "S1:target": {
+        "source_delta_mean": -1.2355567157268523,
+        "target_delta_mean": 0.2885353803634644,
+        "source_delta_median": -1.2463547587394714,
+        "target_delta_median": 0.12546658515930176
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.2808925575680203,
+        "target_delta_mean": 0.08302513758341472,
+        "source_delta_median": 0.004288077354431152,
+        "target_delta_median": 0.12426972389221191
+      },
+      "S1:background": {
+        "source_delta_mean": 0.10765149195988973,
+        "target_delta_mean": 0.16488835215568542,
+        "source_delta_median": 0.12529659271240234,
+        "target_delta_median": 0.12727952003479004
+      },
+      "S1:auc_after_target": 0.8,
+      "S6:target": {
+        "source_delta_mean": -1.1942432701587677,
+        "target_delta_mean": 0.2986471652984619,
+        "source_delta_median": -1.2044480443000793,
+        "target_delta_median": 0.1258854866027832
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.14450988173484802,
+        "target_delta_mean": 0.15173982911639744,
+        "source_delta_median": 0.24512898921966553,
+        "target_delta_median": 0.250079870223999
+      },
+      "S6:background": {
+        "source_delta_mean": 0.19277395142449272,
+        "target_delta_mean": 0.20705132683118185,
+        "source_delta_median": 0.24847114086151123,
+        "target_delta_median": 0.18606865406036377
+      },
+      "S6:auc_after_target": 0.8
+    },
+    {
+      "group": "table|color|brown",
+      "n_pairs": 10,
+      "auc_clean": 0.9,
+      "S1:target": {
+        "source_delta_mean": -0.46436760425567625,
+        "target_delta_mean": 0.4745115041732788,
+        "source_delta_median": -0.5011733770370483,
+        "target_delta_median": 0.0634680986404419
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": 0.06159009784460068,
+        "target_delta_mean": 0.07151394230978829,
+        "source_delta_median": 0.06201726198196411,
+        "target_delta_median": 0.12488722801208496
+      },
+      "S1:background": {
+        "source_delta_mean": 0.08411230643590291,
+        "target_delta_mean": 0.12538424134254456,
+        "source_delta_median": 0.12398689985275269,
+        "target_delta_median": 0.12560060620307922
+      },
+      "S1:auc_after_target": 0.5,
+      "S6:target": {
+        "source_delta_mean": -0.4770196497440338,
+        "target_delta_mean": 0.4372099876403809,
+        "source_delta_median": -0.31601986289024353,
+        "target_delta_median": 0.0632932186126709
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.01642277091741562,
+        "target_delta_mean": 0.08977487257548741,
+        "source_delta_median": 0.06190422177314758,
+        "target_delta_median": 0.12473726272583008
+      },
+      "S6:background": {
+        "source_delta_mean": 0.12596742312113443,
+        "target_delta_mean": 0.12515494227409363,
+        "source_delta_median": 0.12395727634429932,
+        "target_delta_median": 0.12429735064506531
+      },
+      "S6:auc_after_target": 0.5
+    },
+    {
+      "group": "jacket|color|black",
+      "n_pairs": 10,
+      "auc_clean": 0.5,
+      "S1:target": {
+        "source_delta_mean": 0.012807071208953857,
+        "target_delta_mean": 0.43755685091018676,
+        "source_delta_median": 0.00016045570373535156,
+        "target_delta_median": 0.18749159574508667
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": 0.04984173774719238,
+        "target_delta_mean": 0.3472456865840488,
+        "source_delta_median": 3.1948089599609375e-05,
+        "target_delta_median": 0.12453961372375488
+      },
+      "S1:background": {
+        "source_delta_mean": -0.04969468712806702,
+        "target_delta_mean": 0.025090861320495605,
+        "source_delta_median": -0.0002415776252746582,
+        "target_delta_median": 0.06275445222854614
+      },
+      "S1:auc_after_target": 0.5,
+      "S6:target": {
+        "source_delta_mean": 0.025094753503799437,
+        "target_delta_mean": 0.4250329852104187,
+        "source_delta_median": 0.0002598762512207031,
+        "target_delta_median": 0.12534663081169128
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": 0.012580442428588866,
+        "target_delta_mean": 0.3888267543580797,
+        "source_delta_median": 0.00012487173080444336,
+        "target_delta_median": 0.0003650188446044922
+      },
+      "S6:background": {
+        "source_delta_mean": -0.02495766878128052,
+        "target_delta_mean": 0.03751780390739441,
+        "source_delta_median": -0.00038573145866394043,
+        "target_delta_median": 5.9604644775390625e-05
+      },
+      "S6:auc_after_target": 0.5
+    },
+    {
+      "group": "building|color|white",
+      "n_pairs": 10,
+      "auc_clean": 0.7,
+      "S1:target": {
+        "source_delta_mean": -0.5625456631183624,
+        "target_delta_mean": 0.3995858371257782,
+        "source_delta_median": -0.18707484006881714,
+        "target_delta_median": 0.12439233064651489
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.22517064213752747,
+        "target_delta_mean": 0.15301243464152017,
+        "source_delta_median": -0.0016395747661590576,
+        "target_delta_median": 0.12309741973876953
+      },
+      "S1:background": {
+        "source_delta_mean": -0.018086365291050503,
+        "target_delta_mean": -0.12508044640223184,
+        "source_delta_median": 0.00045937299728393555,
+        "target_delta_median": -0.12475800514221191
+      },
+      "S1:auc_after_target": 0.6,
+      "S6:target": {
+        "source_delta_mean": -0.5000922799110412,
+        "target_delta_mean": 0.5745482981204987,
+        "source_delta_median": -0.1254248321056366,
+        "target_delta_median": 0.12412551045417786
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.2000085234642029,
+        "target_delta_mean": 0.20804121096928915,
+        "source_delta_median": -0.06263983249664307,
+        "target_delta_median": 0.1250598430633545
+      },
+      "S6:background": {
+        "source_delta_mean": 0.017640207495008196,
+        "target_delta_mean": -0.12543820341428122,
+        "source_delta_median": 0.0006574392318725586,
+        "target_delta_median": -0.06311923265457153
+      },
+      "S6:auc_after_target": 0.3
+    },
+    {
+      "group": "door|color|white",
+      "n_pairs": 10,
+      "auc_clean": 0.8,
+      "S1:target": {
+        "source_delta_mean": -0.6120044589042664,
+        "target_delta_mean": 0.36260290145874025,
+        "source_delta_median": -0.6861287653446198,
+        "target_delta_median": 0.12563908100128174
+      },
+      "S1:irrelevant": {
+        "source_delta_mean": -0.25104960799217224,
+        "target_delta_mean": 0.057661980390548706,
+        "source_delta_median": -0.12555605173110962,
+        "target_delta_median": 0.0016737878322601318
+      },
+      "S1:background": {
+        "source_delta_mean": -0.17804373162133352,
+        "target_delta_mean": -0.014815136790275574,
+        "source_delta_median": -0.12538844347000122,
+        "target_delta_median": -0.000277101993560791
+      },
+      "S1:auc_after_target": 0.6,
+      "S6:target": {
+        "source_delta_mean": -0.5630503058433532,
+        "target_delta_mean": 0.37551758587360384,
+        "source_delta_median": -0.6237737536430359,
+        "target_delta_median": 0.12426832318305969
+      },
+      "S6:irrelevant": {
+        "source_delta_mean": -0.27693515121936796,
+        "target_delta_mean": 0.08475115232997471,
+        "source_delta_median": -0.2500588446855545,
+        "target_delta_median": 0.0018897056579589844
+      },
+      "S6:background": {
+        "source_delta_mean": -0.1968298852443695,
+        "target_delta_mean": 0.04788217321038246,
+        "source_delta_median": -0.2503267824649811,
+        "target_delta_median": 0.0047420114278793335
+      },
+      "S6:auc_after_target": 0.5
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "semantic:test:fence|material|wood:0000",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.7638339996337891,
+          "delta": {
+            "S1:target": -2.626981735229492,
+            "S6:target": -2.504893660545349,
+            "S1:irrelevant": -1.2479047179222107,
+            "S6:irrelevant": -1.253130704164505,
+            "S1:background": 0.12587988376617432,
+            "S6:background": 0.1223028302192688
+          }
+        },
+        "target": {
+          "m_clean": 0.2703458070755005,
+          "delta": {
+            "S1:target": -1.7534103393554688,
+            "S6:target": -1.7557029724121094,
+            "S1:irrelevant": -1.1281993389129639,
+            "S6:irrelevant": -1.0009614825248718,
+            "S1:background": 0.24103504419326782,
+            "S6:background": 0.3719053864479065
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0001",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -2.2377724647521973,
+          "delta": {
+            "S1:target": -0.002682209014892578,
+            "S6:target": 0.12170886993408203,
+            "S1:irrelevant": -0.0037736892700195312,
+            "S6:irrelevant": 0.12351679801940918,
+            "S1:background": 0.12294220924377441,
+            "S6:background": 0.24733459949493408
+          }
+        },
+        "target": {
+          "m_clean": -1.988279938697815,
+          "delta": {
+            "S1:target": 0.6173062324523926,
+            "S6:target": 0.867306113243103,
+            "S1:irrelevant": -0.2578784227371216,
+            "S6:irrelevant": -0.13441979885101318
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0002",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.23438364267349243,
+          "delta": {
+            "S1:target": -1.3729754090309143,
+            "S6:target": -1.379870355129242,
+            "S1:irrelevant": 0.004288077354431152,
+            "S6:irrelevant": 0.24512898921966553,
+            "S1:background": -0.004117131233215332,
+            "S6:background": 0.24907535314559937
+          }
+        },
+        "target": {
+          "m_clean": -2.2469468116760254,
+          "delta": {
+            "S1:target": 0.1250472068786621,
+            "S6:target": 0.12666630744934082,
+            "S1:irrelevant": 0.2493269443511963,
+            "S6:irrelevant": 0.37525761127471924
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0003",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.3631501793861389,
+          "delta": {
+            "S1:target": -0.3674786686897278,
+            "S6:target": -0.37073785066604614,
+            "S1:irrelevant": 0.24998551607131958,
+            "S6:irrelevant": 0.3736225962638855,
+            "S1:background": 0.0028691887855529785,
+            "S6:background": 0.12429141998291016
+          }
+        },
+        "target": {
+          "m_clean": -2.746687412261963,
+          "delta": {
+            "S1:target": 1.2492239475250244,
+            "S6:target": 1.2513178586959839,
+            "S1:irrelevant": 0.12426972389221191,
+            "S6:irrelevant": 0.250079870223999
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0004",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 1.2567877769470215,
+          "delta": {
+            "S1:target": -2.3651976585388184,
+            "S6:target": -2.5030038356781006,
+            "S1:irrelevant": 0.12292838096618652,
+            "S6:irrelevant": 0.24694585800170898
+          }
+        },
+        "target": {
+          "m_clean": -3.746701955795288,
+          "delta": {
+            "S1:target": 2.1484487056732178,
+            "S6:target": 2.0009857416152954,
+            "S1:irrelevant": 0.7579243183135986,
+            "S6:irrelevant": 0.500002384185791
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0005",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 1.0090829133987427,
+          "delta": {
+            "S1:target": -2.4728277921676636,
+            "S6:target": -2.4924771785736084,
+            "S1:background": 0.24656760692596436,
+            "S6:background": 0.24847114086151123
+          }
+        },
+        "target": {
+          "m_clean": -1.6198383569717407,
+          "delta": {
+            "S1:target": 0.12403273582458496,
+            "S6:target": -3.0875205993652344e-05,
+            "S1:irrelevant": -0.0009007453918457031,
+            "S6:irrelevant": -0.0006024837493896484,
+            "S1:background": 0.12437248229980469,
+            "S6:background": 0.12529683113098145
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0006",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": 0.6847858428955078,
+          "delta": {
+            "S1:target": -2.1544313430786133,
+            "S6:target": -2.1608972549438477,
+            "S1:irrelevant": -2.2794137001037598,
+            "S6:irrelevant": -1.911085844039917,
+            "S1:background": 0.3694038391113281,
+            "S6:background": 0.3796720504760742
+          }
+        },
+        "target": {
+          "m_clean": -2.495739221572876,
+          "delta": {
+            "S1:target": 0.1258859634399414,
+            "S6:target": 0.3746836185455322,
+            "S1:irrelevant": 0.5016766786575317,
+            "S6:irrelevant": 0.7515654563903809,
+            "S1:background": 0.12869048118591309,
+            "S6:background": 0.25119781494140625
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0007",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.214399516582489,
+          "delta": {
+            "S1:target": -1.1197341084480286,
+            "S6:target": -1.0290257334709167,
+            "S1:irrelevant": 0.12954217195510864,
+            "S6:irrelevant": 0.2499983310699463,
+            "S1:background": 0.35878682136535645,
+            "S6:background": 0.6113044023513794
+          }
+        },
+        "target": {
+          "m_clean": -2.8642404079437256,
+          "delta": {
+            "S1:target": 0.24652457237243652,
+            "S6:target": -0.003534555435180664,
+            "S1:background": 0.24784111976623535,
+            "S6:background": 0.2468404769897461
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0008",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -0.9775080680847168,
+          "delta": {
+            "S1:target": -0.12193167209625244,
+            "S6:target": 0.0022630691528320312,
+            "S1:irrelevant": 0.49511831998825073,
+            "S6:irrelevant": 0.624142050743103,
+            "S1:background": -0.3787655830383301,
+            "S6:background": -0.49693095684051514
+          }
+        },
+        "target": {
+          "m_clean": -2.4899353981018066,
+          "delta": {
+            "S1:target": 0.0020422935485839844,
+            "S6:target": 0.12510466575622559,
+            "S1:irrelevant": 0.5006382465362549,
+            "S6:irrelevant": 0.49947893619537354,
+            "S1:background": 0.12152242660522461,
+            "S6:background": 0.1223917007446289
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0009",
+      "group": "fence|material|wood",
+      "sides": {
+        "source": {
+          "m_clean": -2.7457363605499268,
+          "delta": {
+            "S1:target": 0.2486734390258789,
+            "S6:target": 0.37450122833251953,
+            "S1:irrelevant": 0.0011966228485107422,
+            "S6:irrelevant": 0.00027298927307128906,
+            "S1:background": 0.12529659271240234,
+            "S6:background": 0.24944472312927246
+          }
+        },
+        "target": {
+          "m_clean": -2.4980967044830322,
+          "delta": {
+            "S1:target": 0.0002524852752685547,
+            "S6:target": -0.000324249267578125,
+            "S1:irrelevant": 0.0003688335418701172,
+            "S6:irrelevant": 0.1252579689025879,
+            "S1:background": 0.125868558883667,
+            "S6:background": 0.12467575073242188
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0000",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.38139450550079346,
+          "delta": {
+            "S1:target": -0.6309975385665894,
+            "S6:target": -0.38094812631607056
+          }
+        },
+        "target": {
+          "m_clean": -0.999643087387085,
+          "delta": {
+            "S1:target": 0.2496393322944641,
+            "S6:target": 0.000650942325592041,
+            "S1:irrelevant": 0.12502193450927734,
+            "S6:irrelevant": 0.12507247924804688
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0001",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.5023037195205688,
+          "delta": {
+            "S1:target": -1.3745827674865723,
+            "S6:target": -1.249160647392273
+          }
+        },
+        "target": {
+          "m_clean": -0.12500476837158203,
+          "delta": {
+            "S1:target": -0.24904966354370117,
+            "S6:target": -0.12398958206176758,
+            "S1:irrelevant": -0.24833595752716064,
+            "S6:irrelevant": 0.0005542635917663574,
+            "S1:background": -0.12405037879943848,
+            "S6:background": -0.12256467342376709
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0002",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.6191823482513428,
+          "delta": {
+            "S1:target": 0.12055522203445435,
+            "S6:target": 0.12039941549301147,
+            "S1:irrelevant": -0.0022933483123779297,
+            "S6:irrelevant": -0.1259775161743164
+          }
+        },
+        "target": {
+          "m_clean": -0.7479735612869263,
+          "delta": {
+            "S1:target": 0.7496544122695923,
+            "S6:target": 0.6258363723754883,
+            "S1:background": 0.1248772144317627,
+            "S6:background": 0.00028395652770996094
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0003",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.6262040734291077,
+          "delta": {
+            "S1:target": -0.8756315112113953,
+            "S6:target": -0.8762087225914001,
+            "S1:irrelevant": 0.37470728158950806,
+            "S6:irrelevant": 0.24978595972061157
+          }
+        },
+        "target": {
+          "m_clean": -1.3724095821380615,
+          "delta": {
+            "S1:target": 0.000855565071105957,
+            "S6:target": 0.001309514045715332,
+            "S1:irrelevant": 9.810924530029297e-05,
+            "S6:irrelevant": 0.0015565156936645508,
+            "S1:background": 0.12575507164001465,
+            "S6:background": 0.1250213384628296
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0004",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.12144851684570312,
+          "delta": {
+            "S1:target": -0.6264388561248779,
+            "S6:target": -0.627528965473175,
+            "S1:irrelevant": 1.123815894126892,
+            "S6:irrelevant": 0.8737478852272034
+          }
+        },
+        "target": {
+          "m_clean": -1.874343752861023,
+          "delta": {
+            "S1:target": 1.624740719795227,
+            "S6:target": 1.3743400573730469,
+            "S1:irrelevant": 0.24995970726013184,
+            "S6:irrelevant": 0.25004255771636963
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0005",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -1.7491962909698486,
+          "delta": {
+            "S1:target": 0.2499065399169922,
+            "S6:target": 0.24919795989990234,
+            "S1:irrelevant": 0.12632787227630615,
+            "S6:irrelevant": 0.2498643398284912,
+            "S1:background": 0.0014629364013671875,
+            "S6:background": 5.066394805908203e-05
+          }
+        },
+        "target": {
+          "m_clean": -0.8719210624694824,
+          "delta": {
+            "S1:target": -0.1280820369720459,
+            "S6:target": -0.25205326080322266,
+            "S1:irrelevant": 0.247825026512146,
+            "S6:irrelevant": 0.0009081363677978516,
+            "S1:background": 0.1254461407661438,
+            "S6:background": 0.12357336282730103
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0006",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -1.3749988079071045,
+          "delta": {
+            "S1:target": -0.37590789794921875,
+            "S6:target": -0.2510915994644165,
+            "S1:irrelevant": -0.37500107288360596,
+            "S6:irrelevant": -0.2509075403213501,
+            "S1:background": 0.12688708305358887,
+            "S6:background": 0.2538943290710449
+          }
+        },
+        "target": {
+          "m_clean": -1.6250016689300537,
+          "delta": {
+            "S1:target": 0.001662135124206543,
+            "S6:target": -0.1233377456665039,
+            "S1:irrelevant": 0.0011415481567382812,
+            "S6:irrelevant": 0.12555289268493652,
+            "S1:background": 0.1258920431137085,
+            "S6:background": 0.24999845027923584
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0007",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": -0.7494509220123291,
+          "delta": {
+            "S1:target": -0.0005533695220947266,
+            "S6:target": -0.12555193901062012,
+            "S1:irrelevant": -0.25025391578674316,
+            "S6:irrelevant": -0.37447333335876465,
+            "S1:background": 0.12398689985275269,
+            "S6:background": 0.12395727634429932
+          }
+        },
+        "target": {
+          "m_clean": -1.6243864297866821,
+          "delta": {
+            "S1:target": 0.12527406215667725,
+            "S6:target": 0.12527692317962646,
+            "S1:background": 0.37438535690307617,
+            "S6:background": 0.37461721897125244
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0008",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 0.1284744143486023,
+          "delta": {
+            "S1:target": 0.12218356132507324,
+            "S6:target": -0.0021188855171203613,
+            "S1:irrelevant": 0.6225181221961975,
+            "S6:irrelevant": 0.6236382126808167
+          }
+        },
+        "target": {
+          "m_clean": -3.499737024307251,
+          "delta": {
+            "S1:target": 2.624436676502228,
+            "S6:target": 2.499735116958618,
+            "S1:irrelevant": 0.12488722801208496,
+            "S6:irrelevant": 0.12473726272583008
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:table|color|brown:0009",
+      "group": "table|color|brown",
+      "sides": {
+        "source": {
+          "m_clean": 1.0026063919067383,
+          "delta": {
+            "S1:target": -1.2522094249725342,
+            "S6:target": -1.6271849870681763,
+            "S1:irrelevant": -1.1271000504493713,
+            "S6:irrelevant": -1.3770601749420166
+          }
+        },
+        "target": {
+          "m_clean": -0.3696906566619873,
+          "delta": {
+            "S1:target": -0.2540161609649658,
+            "S6:target": 0.24433153867721558
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0000",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.25035715103149414,
+          "delta": {
+            "S1:target": 0.12502217292785645,
+            "S6:target": 0.12497740983963013,
+            "S1:irrelevant": -0.00021845102310180664,
+            "S6:irrelevant": -0.00021845102310180664,
+            "S1:background": -0.1246410608291626,
+            "S6:background": -0.0003364682197570801
+          }
+        },
+        "target": {
+          "m_clean": -0.12690222263336182,
+          "delta": {
+            "S1:target": -0.1241106390953064,
+            "S6:target": 0.00022155046463012695,
+            "S1:irrelevant": 0.00016009807586669922,
+            "S6:irrelevant": -0.12417584657669067,
+            "S1:background": 0.12520897388458252,
+            "S6:background": -0.12404704093933105
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0001",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.7505766153335571,
+          "delta": {
+            "S1:target": 0.00029754638671875,
+            "S6:target": -0.00011789798736572266,
+            "S1:irrelevant": 0.12487351894378662,
+            "S6:irrelevant": 0.12492358684539795,
+            "S1:background": 0.12433791160583496,
+            "S6:background": -0.0004349946975708008
+          }
+        },
+        "target": {
+          "m_clean": -1.500331163406372,
+          "delta": {
+            "S1:target": 0.00011742115020751953,
+            "S6:target": -0.12466943264007568,
+            "S1:irrelevant": 0.0001423358917236328,
+            "S6:irrelevant": 0.00022041797637939453,
+            "S1:background": 0.12497913837432861,
+            "S6:background": 0.00011754035949707031
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0002",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.752261221408844,
+          "delta": {
+            "S1:target": 0.0015984773635864258,
+            "S6:target": 0.001122593879699707,
+            "S1:irrelevant": -0.1241106390953064,
+            "S6:irrelevant": -0.24895042181015015,
+            "S1:background": -0.12461638450622559,
+            "S6:background": -0.12402719259262085
+          }
+        },
+        "target": {
+          "m_clean": -2.125450372695923,
+          "delta": {
+            "S1:target": 1.3751728534698486,
+            "S6:target": 1.3750189542770386,
+            "S1:irrelevant": 1.000098705291748,
+            "S6:irrelevant": 1.2498705387115479,
+            "S1:background": 0.3757297992706299,
+            "S6:background": 0.49987196922302246
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0003",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.6256260871887207,
+          "delta": {
+            "S1:target": -0.12477266788482666,
+            "S6:target": 0.0002957582473754883,
+            "S1:irrelevant": 0.1251974105834961,
+            "S6:irrelevant": 0.1251697540283203,
+            "S1:background": -0.12470501661300659,
+            "S6:background": -0.12470519542694092
+          }
+        },
+        "target": {
+          "m_clean": -2.7497520446777344,
+          "delta": {
+            "S1:target": 0.9993549585342407,
+            "S6:target": 0.8745721578598022,
+            "S1:irrelevant": 0.8745720386505127,
+            "S6:irrelevant": 0.9992727041244507,
+            "S1:background": 0.12511157989501953,
+            "S6:background": 0.24975347518920898
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0004",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.1252009868621826,
+          "delta": {
+            "S1:target": 2.3365020751953125e-05,
+            "S6:target": 0.00012004375457763672,
+            "S1:irrelevant": 1.239776611328125e-05,
+            "S6:irrelevant": -0.00010967254638671875,
+            "S1:background": 0.1248701810836792,
+            "S6:background": 0.1249089241027832
+          }
+        },
+        "target": {
+          "m_clean": -0.37545108795166016,
+          "delta": {
+            "S1:target": 0.00014036893844604492,
+            "S6:target": -2.866983413696289e-05,
+            "S1:irrelevant": -0.12473070621490479,
+            "S6:irrelevant": -0.00039017200469970703,
+            "S1:background": -0.0002472400665283203,
+            "S6:background": -0.0001278519630432129
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0005",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.62548828125,
+          "delta": {
+            "S1:target": -0.4998694658279419,
+            "S6:target": -0.4998668432235718,
+            "S1:irrelevant": 2.5033950805664062e-06,
+            "S6:irrelevant": -0.12491393089294434,
+            "S1:background": 0.12495338916778564,
+            "S6:background": 8.314847946166992e-05
+          }
+        },
+        "target": {
+          "m_clean": -1.5002601146697998,
+          "delta": {
+            "S1:target": 0.12475073337554932,
+            "S6:target": -6.830692291259766e-05,
+            "S1:background": -0.00043451786041259766,
+            "S6:background": 0.12464594841003418
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0006",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -0.5001933574676514,
+          "delta": {
+            "S1:target": -0.12480747699737549,
+            "S6:target": -0.1249774694442749,
+            "S1:irrelevant": 5.14984130859375e-05,
+            "S6:irrelevant": -0.12480759620666504,
+            "S1:background": -0.12480735778808594,
+            "S6:background": -0.1246572732925415
+          }
+        },
+        "target": {
+          "m_clean": -2.250231981277466,
+          "delta": {
+            "S1:target": 0.250232458114624,
+            "S6:target": 0.2502322196960449,
+            "S1:irrelevant": 0.1250908374786377,
+            "S6:irrelevant": 0.0003650188446044922,
+            "S1:background": 0.0005297660827636719,
+            "S6:background": 0.12465548515319824
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0007",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -2.123852491378784,
+          "delta": {
+            "S1:target": 0.3745063543319702,
+            "S6:target": 0.2491697072982788,
+            "S1:irrelevant": 0.249259352684021,
+            "S6:irrelevant": 0.12428569793701172,
+            "S1:background": 0.12413322925567627,
+            "S6:background": -6.866455078125e-05
+          }
+        },
+        "target": {
+          "m_clean": -1.874999761581421,
+          "delta": {
+            "S1:target": 1.3748671412467957,
+            "S6:target": 1.3748894333839417,
+            "S1:irrelevant": 1.4996891617774963,
+            "S6:irrelevant": 1.4996892809867859,
+            "S1:background": -0.37494444847106934,
+            "S6:background": -0.24991965293884277
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0008",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": -1.3753951787948608,
+          "delta": {
+            "S1:target": 0.5000463724136353,
+            "S6:target": 0.5000002384185791,
+            "S1:irrelevant": 0.24988484382629395,
+            "S6:irrelevant": 0.25006604194641113,
+            "S1:background": 0.3752366304397583,
+            "S6:background": 0.4999459981918335
+          }
+        },
+        "target": {
+          "m_clean": -0.37535226345062256,
+          "delta": {
+            "S1:target": 0.00022655725479125977,
+            "S6:target": 0.0004610419273376465,
+            "S1:irrelevant": -0.374350905418396,
+            "S6:irrelevant": -0.2499781847000122,
+            "S1:background": -0.25002288818359375,
+            "S6:background": -0.24977350234985352
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:jacket|color|black:0009",
+      "group": "jacket|color|black",
+      "sides": {
+        "source": {
+          "m_clean": 1.2489734888076782,
+          "delta": {
+            "S1:target": -0.12397396564483643,
+            "S6:target": 0.00022399425506591797,
+            "S1:irrelevant": -0.1265350580215454,
+            "S6:irrelevant": 0.00035941600799560547,
+            "S1:background": -0.8717083930969238,
+            "S6:background": -0.5002849698066711
+          }
+        },
+        "target": {
+          "m_clean": -2.1249969005584717,
+          "delta": {
+            "S1:target": 0.3748166561126709,
+            "S6:target": 0.4997009038925171,
+            "S1:irrelevant": 0.12453961372375488,
+            "S6:irrelevant": 0.12456703186035156,
+            "S1:background": 0.12499845027923584,
+            "S6:background": 1.6689300537109375e-06
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0000",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.9989120960235596,
+          "delta": {
+            "S1:target": 1.2494550943374634,
+            "S6:target": 1.374158263206482,
+            "S1:irrelevant": 0.750007152557373,
+            "S6:irrelevant": 0.7500072717666626,
+            "S1:background": -0.2484753131866455,
+            "S6:background": 0.12436318397521973
+          }
+        },
+        "target": {
+          "m_clean": -1.623988151550293,
+          "delta": {
+            "S1:target": 0.6248807907104492,
+            "S6:target": 0.8742499947547913,
+            "S1:irrelevant": -0.24586164951324463,
+            "S6:irrelevant": 0.0001354217529296875,
+            "S1:background": -0.12582361698150635,
+            "S6:background": -0.250637412071228
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0001",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.12853246927261353,
+          "delta": {
+            "S1:target": -1.2527411580085754,
+            "S6:target": -1.127149760723114,
+            "S1:irrelevant": -1.3773842453956604,
+            "S6:irrelevant": -1.2530093789100647,
+            "S1:background": 0.12390744686126709,
+            "S6:background": -0.12593746185302734
+          }
+        },
+        "target": {
+          "m_clean": -2.9996144771575928,
+          "delta": {
+            "S1:target": 1.9997658729553223,
+            "S6:target": 2.249614894390106,
+            "S1:irrelevant": 1.2497968673706055,
+            "S6:irrelevant": 1.3751598596572876
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0002",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.3755435943603516,
+          "delta": {
+            "S1:target": -2.6246933937072754,
+            "S6:target": -2.624221920967102,
+            "S1:irrelevant": 0.1250399351119995,
+            "S6:irrelevant": 0.00011754035949707031
+          }
+        },
+        "target": {
+          "m_clean": -0.9986132979393005,
+          "delta": {
+            "S1:target": -0.4988568425178528,
+            "S6:target": -0.24782544374465942,
+            "S1:irrelevant": -0.6247929930686951,
+            "S6:irrelevant": -0.7487711310386658,
+            "S1:background": -0.5003065466880798,
+            "S6:background": -0.3758247494697571
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0003",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.5008933544158936,
+          "delta": {
+            "S1:target": -1.749941349029541,
+            "S6:target": -1.624213457107544,
+            "S1:irrelevant": 0.2502511143684387,
+            "S6:irrelevant": 0.2497590184211731,
+            "S1:background": 0.24934667348861694,
+            "S6:background": 0.37431061267852783
+          }
+        },
+        "target": {
+          "m_clean": -1.3753538131713867,
+          "delta": {
+            "S1:target": 0.1250002384185791,
+            "S6:target": 0.12446701526641846,
+            "S1:irrelevant": 0.12512528896331787,
+            "S6:irrelevant": 0.1250598430633545,
+            "S1:background": -0.12525618076324463,
+            "S6:background": -0.12502264976501465
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0004",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.8746392726898193,
+          "delta": {
+            "S1:target": -6.0677528381347656e-05,
+            "S6:target": 1.1920928955078125e-07,
+            "S1:irrelevant": -0.7495704889297485,
+            "S6:irrelevant": -0.7495200634002686,
+            "S1:background": -0.1248161792755127,
+            "S6:background": -0.12474459409713745
+          }
+        },
+        "target": {
+          "m_clean": -0.873780369758606,
+          "delta": {
+            "S1:target": 0.12378442287445068,
+            "S6:target": 0.12378400564193726,
+            "S1:background": 0.12458693981170654,
+            "S6:background": -0.001215815544128418
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0005",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.6181943416595459,
+          "delta": {
+            "S1:target": -0.2502933740615845,
+            "S6:target": -0.1268419623374939,
+            "S1:irrelevant": -0.12831908464431763,
+            "S6:irrelevant": -0.1253972053527832,
+            "S1:background": -0.1283191442489624,
+            "S6:background": -0.12646126747131348
+          }
+        },
+        "target": {
+          "m_clean": -0.876865804195404,
+          "delta": {
+            "S1:target": 0.0005769133567810059,
+            "S6:target": -0.0005379319190979004,
+            "S1:irrelevant": 0.00010138750076293945,
+            "S6:irrelevant": -0.0016554594039916992,
+            "S1:background": 0.0005765557289123535,
+            "S6:background": -0.00024574995040893555
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0006",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.126290202140808,
+          "delta": {
+            "S1:target": 0.1257721185684204,
+            "S6:target": 0.0006667375564575195,
+            "S1:irrelevant": 0.1258324384689331,
+            "S6:irrelevant": 0.0012943744659423828,
+            "S1:background": 0.001292586326599121,
+            "S6:background": 0.0012935400009155273
+          }
+        },
+        "target": {
+          "m_clean": -2.246950626373291,
+          "delta": {
+            "S1:target": 0.74784255027771,
+            "S6:target": 1.2467347383499146,
+            "S1:irrelevant": 0.12309741973876953,
+            "S6:irrelevant": 0.37220096588134766
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0007",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.374487280845642,
+          "delta": {
+            "S1:target": -0.00023937225341796875,
+            "S6:target": 0.249487042427063,
+            "S1:irrelevant": -1.62484610080719,
+            "S6:irrelevant": -1.374886393547058
+          }
+        },
+        "target": {
+          "m_clean": -0.6245194673538208,
+          "delta": {
+            "S1:target": -0.5002239942550659,
+            "S6:target": -0.5003403425216675,
+            "S1:irrelevant": 0.37451982498168945,
+            "S6:irrelevant": 0.24971330165863037
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0008",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.12296617031097412,
+          "delta": {
+            "S1:target": -0.9988582134246826,
+            "S6:target": -0.9988001585006714,
+            "S1:irrelevant": 0.7514570951461792,
+            "S6:irrelevant": 0.8757146596908569,
+            "S1:background": 0.00045937299728393555,
+            "S6:background": 0.0006574392318725586
+          }
+        },
+        "target": {
+          "m_clean": -1.1920928955078125e-07,
+          "delta": {
+            "S1:target": -0.12442260980606079,
+            "S6:target": 0.00033718347549438477,
+            "S1:irrelevant": 0.0003813505172729492,
+            "S6:irrelevant": -0.12410593032836914,
+            "S1:background": -0.1242598295211792,
+            "S6:background": 0.0003171563148498535
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:building|color|white:0009",
+      "group": "building|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7506934404373169,
+          "delta": {
+            "S1:target": -0.1238563060760498,
+            "S6:target": -0.1240077018737793,
+            "S1:irrelevant": -0.37417423725128174,
+            "S6:irrelevant": -0.37416505813598633
+          }
+        },
+        "target": {
+          "m_clean": -2.49489688873291,
+          "delta": {
+            "S1:target": 1.4975110292434692,
+            "S6:target": 1.8749988675117493,
+            "S1:irrelevant": 0.3747444152832031,
+            "S6:irrelevant": 0.6246340274810791
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0000",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.125000238418579,
+          "delta": {
+            "S1:target": 0.0004057884216308594,
+            "S6:target": 0.12447941303253174,
+            "S1:irrelevant": -0.3749988079071045,
+            "S6:irrelevant": -0.2499990463256836,
+            "S1:background": -0.12194418907165527,
+            "S6:background": -0.12566375732421875
+          }
+        },
+        "target": {
+          "m_clean": -1.999999761581421,
+          "delta": {
+            "S1:target": 0.24999964237213135,
+            "S6:target": 0.12687039375305176,
+            "S1:irrelevant": -0.1243741512298584,
+            "S6:irrelevant": -0.24870800971984863,
+            "S1:background": -0.1250011920928955,
+            "S6:background": -0.1250007152557373
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0001",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.7467252016067505,
+          "delta": {
+            "S1:target": -0.1249992847442627,
+            "S6:target": -0.0010257363319396973,
+            "S1:irrelevant": -0.25021862983703613,
+            "S6:irrelevant": -0.0032747983932495117,
+            "S1:background": -0.37499892711639404,
+            "S6:background": -0.2514033317565918
+          }
+        },
+        "target": {
+          "m_clean": -1.0038931369781494,
+          "delta": {
+            "S1:target": 0.12688779830932617,
+            "S6:target": 0.12499946355819702,
+            "S1:irrelevant": -0.12455606460571289,
+            "S6:irrelevant": 0.0018897056579589844,
+            "S1:background": -0.12845110893249512,
+            "S6:background": -0.24767827987670898
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0002",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.374051809310913,
+          "delta": {
+            "S1:target": -0.0006132125854492188,
+            "S6:target": 0.0005184412002563477,
+            "S1:irrelevant": -0.12465071678161621,
+            "S6:irrelevant": -0.00036013126373291016,
+            "S1:background": -0.3749978542327881,
+            "S6:background": -0.25065112113952637
+          }
+        },
+        "target": {
+          "m_clean": -2.249034881591797,
+          "delta": {
+            "S1:target": -0.00037550926208496094,
+            "S6:target": -0.0009646415710449219,
+            "S1:irrelevant": 0.12488770484924316,
+            "S6:irrelevant": 0.12403535842895508,
+            "S1:background": 0.24974322319030762,
+            "S6:background": 0.24903512001037598
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0003",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.8742611408233643,
+          "delta": {
+            "S1:target": -0.8752614259719849,
+            "S6:target": -0.7504425048828125,
+            "S1:irrelevant": -0.0002906322479248047,
+            "S6:irrelevant": -8.64267349243164e-05,
+            "S1:background": -0.1254028081893921,
+            "S6:background": -0.12544238567352295
+          }
+        },
+        "target": {
+          "m_clean": -2.7505860328674316,
+          "delta": {
+            "S1:target": 1.0005905628204346,
+            "S6:target": 1.1286449432373047,
+            "S1:irrelevant": 0.009948968887329102,
+            "S6:irrelevant": 0.12798428535461426
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0004",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -1.0028961896896362,
+          "delta": {
+            "S1:target": -0.6221035718917847,
+            "S6:target": -0.4971050024032593,
+            "S1:irrelevant": -0.12451326847076416,
+            "S6:irrelevant": -0.37466442584991455,
+            "S1:background": -0.1237567663192749,
+            "S6:background": 0.0008962154388427734
+          }
+        },
+        "target": {
+          "m_clean": -0.12129718065261841,
+          "delta": {
+            "S1:target": -0.0025448203086853027,
+            "S6:target": -0.0037047863006591797,
+            "S1:background": -0.24980729818344116,
+            "S6:background": -0.003704249858856201
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0005",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.2492930293083191,
+          "delta": {
+            "S1:target": -0.7501539587974548,
+            "S6:target": -0.7511671185493469,
+            "S1:irrelevant": -0.12646138668060303,
+            "S6:irrelevant": -0.2501186430454254,
+            "S1:background": 0.00018286705017089844,
+            "S6:background": -0.2503267824649811
+          }
+        },
+        "target": {
+          "m_clean": 0.10616445541381836,
+          "delta": {
+            "S1:target": -0.12110471725463867,
+            "S6:target": -0.12110459804534912,
+            "S1:irrelevant": -0.12110376358032227,
+            "S6:irrelevant": -0.11941027641296387,
+            "S1:background": 0.005587756633758545,
+            "S6:background": 0.009483277797698975
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0006",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.8759633898735046,
+          "delta": {
+            "S1:target": -1.3735573291778564,
+            "S6:target": -1.3735303282737732,
+            "S1:irrelevant": -0.00011867284774780273,
+            "S6:irrelevant": -0.12516993284225464,
+            "S1:background": -0.12538844347000122,
+            "S6:background": -0.3752180337905884
+          }
+        },
+        "target": {
+          "m_clean": -1.875739574432373,
+          "delta": {
+            "S1:target": 1.5007402300834656,
+            "S6:target": 1.6257396936416626,
+            "S1:irrelevant": 0.6281435489654541,
+            "S6:irrelevant": 0.7507400512695312
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0007",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 1.0081758499145508,
+          "delta": {
+            "S1:target": -1.2447941899299622,
+            "S6:target": -1.2539888620376587,
+            "S1:irrelevant": -0.00756525993347168,
+            "S6:irrelevant": -0.3814992904663086
+          }
+        },
+        "target": {
+          "m_clean": -2.874995231628418,
+          "delta": {
+            "S1:target": 0.7499983310699463,
+            "S6:target": 0.7511575222015381,
+            "S1:irrelevant": 0.12499856948852539,
+            "S6:irrelevant": 0.125,
+            "S1:background": 0.12996172904968262,
+            "S6:background": 0.3766765594482422
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0008",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": 0.002390146255493164,
+          "delta": {
+            "S1:target": -0.8789660930633545,
+            "S6:target": -0.8755205273628235,
+            "S1:irrelevant": -1.249986171722412,
+            "S6:irrelevant": -1.0047823190689087
+          }
+        },
+        "target": {
+          "m_clean": -0.5000004768371582,
+          "delta": {
+            "S1:target": -0.0025528669357299805,
+            "S6:target": 6.854534149169922e-07,
+            "S1:irrelevant": 0.0016737878322601318,
+            "S6:irrelevant": 0.0018894374370574951,
+            "S1:background": 8.344650268554688e-07,
+            "S6:background": 7.450580596923828e-07
+          }
+        }
+      }
+    },
+    {
+      "pair_id": "semantic:test:door|color|white:0009",
+      "group": "door|color|white",
+      "sides": {
+        "source": {
+          "m_clean": -0.3706033229827881,
+          "delta": {
+            "S1:target": -0.25000131130218506,
+            "S6:target": -0.25272083282470703,
+            "S1:irrelevant": -0.251692533493042,
+            "S6:irrelevant": -0.3793964982032776
+          }
+        },
+        "target": {
+          "m_clean": -1.4985367059707642,
+          "delta": {
+            "S1:target": 0.1243903636932373,
+            "S6:target": 0.12353718280792236,
+            "S1:irrelevant": -0.0006607770919799805,
+            "S6:irrelevant": -0.0006601810455322266,
+            "S1:background": -0.0005550384521484375,
+            "S6:background": 0.12424492835998535
+          }
+        }
+      }
+    }
+  ]
+}

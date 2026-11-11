@@ -1,0 +1,243 @@
+{
+  "version": "v5-pilot-1",
+  "seed": 42,
+  "model": {
+    "id": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "dtype": "bfloat16",
+    "device": "cuda:0"
+  },
+  "data": {
+    "scene_graphs": "data/raw/gqa/val_sceneGraphs.json",
+    "val_instructions": "data/raw/gqa/val_balanced_instructions/val-00000-of-00001.parquet",
+    "val_images": "data/raw/gqa/val_balanced_images",
+    "split_rule": "sha1(image_id) % 5 == 0 -> dev, else test",
+    "spatial_pairs_dev": "data/derived/spatial_pairs_dev.jsonl",
+    "spatial_pairs_test": "data/derived/spatial_pairs_test.jsonl",
+    "semantic_pairs_dev": "data/derived/semantic_pairs_dev.jsonl",
+    "semantic_pairs_test": "data/derived/semantic_pairs_test.jsonl",
+    "pair_counts": {
+      "spatial_dev": {
+        "chair|to the left of|table": 7,
+        "man|to the left of|person": 20,
+        "man|to the right of|woman": 26,
+        "person|to the right of|man": 20,
+        "tree|to the left of|building": 22,
+        "woman|to the left of|man": 26
+      },
+      "spatial_test": {
+        "chair|to the left of|table": 40,
+        "man|to the left of|person": 40,
+        "man|to the right of|woman": 40,
+        "person|to the right of|man": 40,
+        "tree|to the left of|building": 40,
+        "woman|to the left of|man": 40
+      },
+      "semantic_dev": {
+        "building|color|white": 20,
+        "door|color|white": 20,
+        "fence|material|wood": 25,
+        "jacket|color|black": 18,
+        "table|color|brown": 22
+      },
+      "semantic_test": {
+        "building|color|white": 40,
+        "door|color|white": 40,
+        "fence|material|wood": 40,
+        "jacket|color|black": 40,
+        "table|color|brown": 40
+      }
+    }
+  },
+  "tasks": {
+    "spatial": {
+      "core_groups": [
+        "woman|to the left of|man",
+        "man|to the right of|woman",
+        "man|to the left of|person",
+        "person|to the right of|man"
+      ],
+      "exploratory_groups": [
+        "tree|to the left of|building",
+        "chair|to the left of|table"
+      ]
+    },
+    "semantic": {
+      "core_groups": [
+        "fence|material|wood",
+        "table|color|brown",
+        "jacket|color|black",
+        "building|color|white",
+        "door|color|white"
+      ],
+      "exploratory_groups": []
+    }
+  },
+  "preprocessing": {
+    "mechanism": {
+      "do_image_splitting": false,
+      "resize": "384x384 square",
+      "visual_tokens": 81,
+      "grid": "9x9"
+    },
+    "behavior_validation": {
+      "do_image_splitting_options": [
+        false,
+        true
+      ],
+      "splitting_blocks": 17,
+      "splitting_visual_tokens": 1377
+    }
+  },
+  "stages": {
+    "S0": {
+      "module": "model.model.vision_model.post_layernorm",
+      "position": "output",
+      "shape": "27x27x1152"
+    },
+    "S1": {
+      "module": "model.model.connector",
+      "position": "output",
+      "shape": "9x9x2048"
+    },
+    "S2": {
+      "module": "model.model.text_model.layers[6]",
+      "position": "input",
+      "note": "~25% depth"
+    },
+    "S3": {
+      "module": "model.model.text_model.layers[12]",
+      "position": "input",
+      "note": "~50% depth"
+    },
+    "S4": {
+      "module": "model.model.text_model.layers[18]",
+      "position": "input",
+      "note": "~75% depth"
+    }
+  },
+  "scoring": {
+    "prompt_template": "{question}\\nAnswer with a single word, yes or no.",
+    "candidate_margin": "logsumexp(log p(yes variants)) - logsumexp(log p(no variants))",
+    "generation": "greedy, max_new_tokens=4, first yes/no token"
+  },
+  "region_controls": {
+    "spatial": [
+      "target",
+      "reference",
+      "irrelevant",
+      "background",
+      "full_visual_block"
+    ],
+    "semantic": [
+      "target",
+      "irrelevant",
+      "background",
+      "full_visual_block"
+    ]
+  },
+  "frozen_at": "2026-11-07",
+  "analysis": {
+    "test_pairs_per_group": 20,
+    "min_abs_delta_for_recovery": 0.5,
+    "bootstrap_samples": 2000,
+    "cluster": "pair_id; image_id sensitivity",
+    "primary_metric": "candidate margin m=log p(yes)-log p(no)"
+  },
+  "experiments": {
+    "E2_regions": {
+      "stages": [
+        "S0",
+        "S1",
+        "S6",
+        "S12",
+        "S18"
+      ],
+      "regions_spatial": [
+        "target",
+        "reference",
+        "irrelevant",
+        "background",
+        "full"
+      ],
+      "regions_semantic": [
+        "target",
+        "irrelevant",
+        "background",
+        "full"
+      ]
+    },
+    "E3_full_block": {
+      "stages": [
+        "S0",
+        "S1",
+        "S6",
+        "S12",
+        "S18"
+      ]
+    }
+  },
+  "gate": {
+    "criterion": "test clean AUC >= 0.6 and mean source-target margin delta > 0",
+    "results": {
+      "spatial": {
+        "woman|to the left of|man": {
+          "auc": 0.605,
+          "mean_delta": 0.5750894173979759,
+          "pass": true
+        },
+        "man|to the right of|woman": {
+          "auc": 0.6175,
+          "mean_delta": 0.5371176853775979,
+          "pass": true
+        },
+        "man|to the left of|person": {
+          "auc": 0.405,
+          "mean_delta": -0.21330438554286957,
+          "pass": false
+        },
+        "person|to the right of|man": {
+          "auc": 0.4,
+          "mean_delta": -0.2656893014907837,
+          "pass": false
+        },
+        "tree|to the left of|building": {
+          "auc": 0.455,
+          "mean_delta": 0.006332319974899292,
+          "pass": false
+        },
+        "chair|to the left of|table": {
+          "auc": 0.725,
+          "mean_delta": 0.4679607629776001,
+          "pass": true
+        }
+      },
+      "semantic": {
+        "fence|material|wood": {
+          "auc": 0.89,
+          "mean_delta": 2.3984051257371903,
+          "pass": true
+        },
+        "table|color|brown": {
+          "auc": 0.81,
+          "mean_delta": 1.1141603782773017,
+          "pass": true
+        },
+        "jacket|color|black": {
+          "auc": 0.69,
+          "mean_delta": 0.8121927306056023,
+          "pass": true
+        },
+        "building|color|white": {
+          "auc": 0.75,
+          "mean_delta": 1.1872408598661424,
+          "pass": true
+        },
+        "door|color|white": {
+          "auc": 0.805,
+          "mean_delta": 1.3144273310899734,
+          "pass": true
+        }
+      }
+    }
+  }
+}

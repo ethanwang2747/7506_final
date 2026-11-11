@@ -1,0 +1,268 @@
+{
+  "summary": [
+    {
+      "region": "single",
+      "S1": {
+        "mean": -0.1750191330909729,
+        "median": -0.002135753631591797,
+        "n": 10
+      },
+      "S6": {
+        "mean": -0.12410279512405395,
+        "median": 0.00025981664657592773,
+        "n": 10
+      }
+    },
+    {
+      "region": "small",
+      "S1": {
+        "mean": -0.3611024677753448,
+        "median": -0.12226274609565735,
+        "n": 10
+      },
+      "S6": {
+        "mean": -0.31213793754577634,
+        "median": 0.0015085935592651367,
+        "n": 10
+      }
+    },
+    {
+      "region": "object",
+      "S1": {
+        "mean": -1.2355567157268523,
+        "median": -1.2463547587394714,
+        "n": 10
+      },
+      "S6": {
+        "mean": -1.1942432701587677,
+        "median": -1.2044480443000793,
+        "n": 10
+      }
+    },
+    {
+      "region": "full",
+      "S1": {
+        "mean": -0.8025639116764068,
+        "median": -0.8840183019638062,
+        "n": 10
+      },
+      "S6": {
+        "mean": -0.8568090260028839,
+        "median": -0.9524252414703369,
+        "n": 10
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "semantic:test:fence|material|wood:0000",
+      "group": "fence|material|wood",
+      "m_clean": 0.7638339996337891,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 8,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": 0.0004194974899291992,
+        "S6:single": -0.0021253228187561035,
+        "S1:small": -1.3694528937339783,
+        "S6:small": -1.376662254333496,
+        "S1:object": -2.626981735229492,
+        "S6:object": -2.504893660545349,
+        "S1:full": -1.872243881225586,
+        "S6:full": -2.0080299377441406
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0001",
+      "group": "fence|material|wood",
+      "m_clean": -2.2377724647521973,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 12,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.003791332244873047,
+        "S6:single": 0.0007529258728027344,
+        "S1:small": 0.0007536411285400391,
+        "S6:small": 0.0007541179656982422,
+        "S1:object": -0.002682209014892578,
+        "S6:object": 0.12170886993408203,
+        "S1:full": 1.1293625831604004,
+        "S6:full": 0.7479467391967773
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0002",
+      "group": "fence|material|wood",
+      "m_clean": -0.23438364267349243,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 6,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.49901849031448364,
+        "S6:single": -0.4990338683128357,
+        "S1:small": -1.3741634488105774,
+        "S6:small": -1.3740333914756775,
+        "S1:object": -1.3729754090309143,
+        "S6:object": -1.379870355129242,
+        "S1:full": -0.8740262389183044,
+        "S6:full": -1.001265823841095
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0003",
+      "group": "fence|material|wood",
+      "m_clean": -0.3631501793861389,
+      "sizes": {
+        "single": 1,
+        "small": 2,
+        "object": 2,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -1.3113021850585938e-05,
+        "S6:single": 0.0027770400047302246,
+        "S1:small": -0.3674786686897278,
+        "S6:small": -0.37073785066604614,
+        "S1:object": -0.3674786686897278,
+        "S6:object": -0.37073785066604614,
+        "S1:full": -0.745259702205658,
+        "S6:full": -0.24536985158920288
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0004",
+      "group": "fence|material|wood",
+      "m_clean": 1.2567877769470215,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 81,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.0004801750183105469,
+        "S6:single": -0.0002332925796508789,
+        "S1:small": -0.0004805326461791992,
+        "S6:small": 0.12437224388122559,
+        "S1:object": -2.3651976585388184,
+        "S6:object": -2.5030038356781006,
+        "S1:full": -2.3651976585388184,
+        "S6:full": -2.5030038356781006
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0005",
+      "group": "fence|material|wood",
+      "m_clean": 1.0090829133987427,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 27,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.9952695369720459,
+        "S6:single": -0.8694171905517578,
+        "S1:small": -0.0005415678024291992,
+        "S6:small": 0.1244577169418335,
+        "S1:object": -2.4728277921676636,
+        "S6:object": -2.4924771785736084,
+        "S1:full": -2.1174927949905396,
+        "S6:full": -2.371078133583069
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0006",
+      "group": "fence|material|wood",
+      "m_clean": 0.6847858428955078,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 27,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.12745654582977295,
+        "S6:single": 0.004477262496948242,
+        "S1:small": -0.12259382009506226,
+        "S6:small": 0.0044751763343811035,
+        "S1:object": -2.1544313430786133,
+        "S6:object": -2.1608972549438477,
+        "S1:full": -1.7931957244873047,
+        "S6:full": -1.6563667058944702
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0007",
+      "group": "fence|material|wood",
+      "m_clean": -0.214399516582489,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 28,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -1.4901161193847656e-06,
+        "S6:single": -0.0030201077461242676,
+        "S1:small": -0.3801354765892029,
+        "S6:small": -0.38013213872909546,
+        "S1:object": -1.1197341084480286,
+        "S6:object": -1.0290257334709167,
+        "S1:full": -0.8940103650093079,
+        "S6:full": -0.9035846590995789
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0008",
+      "group": "fence|material|wood",
+      "m_clean": -0.9775080680847168,
+      "sizes": {
+        "single": 1,
+        "small": 2,
+        "object": 2,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": 0.00013184547424316406,
+        "S6:single": 0.0014106035232543945,
+        "S1:small": -0.12193167209625244,
+        "S6:small": 0.0022630691528320312,
+        "S1:object": -0.12193167209625244,
+        "S6:object": 0.0022630691528320312,
+        "S1:full": -0.13090181350708008,
+        "S6:full": -0.13599026203155518
+      }
+    },
+    {
+      "pair_id": "semantic:test:fence|material|wood:0009",
+      "group": "fence|material|wood",
+      "m_clean": -2.7457363605499268,
+      "sizes": {
+        "single": 1,
+        "small": 4,
+        "object": 21,
+        "full": 81
+      },
+      "delta": {
+        "S1:single": -0.12471199035644531,
+        "S6:single": 0.12338399887084961,
+        "S1:small": 0.1249997615814209,
+        "S6:small": 0.12386393547058105,
+        "S1:object": 0.2486734390258789,
+        "S6:object": 0.37450122833251953,
+        "S1:full": 1.6373264789581299,
+        "S6:full": 1.5086522102355957
+      }
+    }
+  ]
+}

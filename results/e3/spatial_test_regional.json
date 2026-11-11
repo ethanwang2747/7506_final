@@ -1,0 +1,2306 @@
+{
+  "summary": [
+    {
+      "group": "woman|to the left of|man",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.22002127986203568,
+        "mean": -0.2610129610173792,
+        "frac_gt_half": 0.25,
+        "n": 20
+      },
+      "S1:reference": {
+        "median": 0.17403569961573423,
+        "mean": 0.5824694490478897,
+        "frac_gt_half": 0.1,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.12672024755380085,
+        "mean": 0.47771934930239335,
+        "frac_gt_half": 0.2777777777777778,
+        "n": 18
+      },
+      "S1:random": {
+        "median": 1.5550748841909328e-05,
+        "mean": -0.07155579967788878,
+        "frac_gt_half": 0.10526315789473684,
+        "n": 19
+      },
+      "S6:target": {
+        "median": 0.23619395434935014,
+        "mean": 0.048882200859053954,
+        "frac_gt_half": 0.3,
+        "n": 20
+      },
+      "S6:reference": {
+        "median": 0.04589200793841556,
+        "mean": 0.3751075643875069,
+        "frac_gt_half": 0.1,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.06901328545398061,
+        "mean": 0.2513823475506389,
+        "frac_gt_half": 0.05555555555555555,
+        "n": 18
+      },
+      "S6:random": {
+        "median": 0.025613012475417102,
+        "mean": 0.02303109405210391,
+        "frac_gt_half": 0.10526315789473684,
+        "n": 19
+      }
+    },
+    {
+      "group": "man|to the right of|woman",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.11817716924764318,
+        "mean": -22.053465406883966,
+        "frac_gt_half": 0.15,
+        "n": 20
+      },
+      "S1:reference": {
+        "median": 0.16684198857986451,
+        "mean": -22.148300564829334,
+        "frac_gt_half": 0.3,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.005211699395657825,
+        "mean": -49.82240744689147,
+        "frac_gt_half": 0.16666666666666666,
+        "n": 18
+      },
+      "S1:random": {
+        "median": 0.0004466094699479314,
+        "mean": 0.0473906102562119,
+        "frac_gt_half": 0.05263157894736842,
+        "n": 19
+      },
+      "S6:target": {
+        "median": 0.11462360006636718,
+        "mean": -22.157044645488178,
+        "frac_gt_half": 0.2,
+        "n": 20
+      },
+      "S6:reference": {
+        "median": 0.23633906887965656,
+        "mean": -22.237619918089823,
+        "frac_gt_half": 0.2,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.05250088483634807,
+        "mean": -49.65347205599427,
+        "frac_gt_half": 0.2777777777777778,
+        "n": 18
+      },
+      "S6:random": {
+        "median": 0.042978046161089044,
+        "mean": 0.15145298649672656,
+        "frac_gt_half": 0.05263157894736842,
+        "n": 19
+      }
+    },
+    {
+      "group": "man|to the left of|person",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": -0.0023057484273660378,
+        "mean": -3.983333619185722,
+        "frac_gt_half": 0.15,
+        "n": 20
+      },
+      "S1:reference": {
+        "median": 0.12135470095196713,
+        "mean": 9.652005624391473,
+        "frac_gt_half": 0.3,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.00013743280850901605,
+        "mean": 4.486876802299023,
+        "frac_gt_half": 0.17647058823529413,
+        "n": 17
+      },
+      "S1:random": {
+        "median": 0.1534648633592873,
+        "mean": -0.20331854438147007,
+        "frac_gt_half": 0.2631578947368421,
+        "n": 19
+      },
+      "S6:target": {
+        "median": -0.10709671631709851,
+        "mean": -6.104853413590289,
+        "frac_gt_half": 0.1,
+        "n": 20
+      },
+      "S6:reference": {
+        "median": 0.1333104052853223,
+        "mean": 11.395842267044745,
+        "frac_gt_half": 0.3,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 1.907566481672459e-06,
+        "mean": 4.393738848966124,
+        "frac_gt_half": 0.17647058823529413,
+        "n": 17
+      },
+      "S6:random": {
+        "median": 0.005218966526595837,
+        "mean": -0.3096169896521049,
+        "frac_gt_half": 0.15789473684210525,
+        "n": 19
+      }
+    },
+    {
+      "group": "person|to the right of|man",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.17023631593046679,
+        "mean": -8.142845253000392,
+        "frac_gt_half": 0.2,
+        "n": 20
+      },
+      "S1:reference": {
+        "median": 0.19607480885097545,
+        "mean": 26.666133631182976,
+        "frac_gt_half": 0.2,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.16720720631541688,
+        "mean": 12.420920689587547,
+        "frac_gt_half": 0.29411764705882354,
+        "n": 17
+      },
+      "S1:random": {
+        "median": -0.00015471173609703202,
+        "mean": -7.407642328835223,
+        "frac_gt_half": 0.15789473684210525,
+        "n": 19
+      },
+      "S6:target": {
+        "median": 0.16923970799075938,
+        "mean": 9.067022334930652,
+        "frac_gt_half": 0.25,
+        "n": 20
+      },
+      "S6:reference": {
+        "median": 0.12598817045516575,
+        "mean": 26.99801599013394,
+        "frac_gt_half": 0.2,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.12094861882079792,
+        "mean": 10.524367573167074,
+        "frac_gt_half": 0.23529411764705882,
+        "n": 17
+      },
+      "S6:random": {
+        "median": 0.0008483262218968136,
+        "mean": -7.250709413387645,
+        "frac_gt_half": 0.21052631578947367,
+        "n": 19
+      }
+    },
+    {
+      "group": "tree|to the left of|building",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.29161500266453433,
+        "mean": 0.38681640563657355,
+        "frac_gt_half": 0.2,
+        "n": 20
+      },
+      "S1:reference": {
+        "median": 0.2060913050731918,
+        "mean": 0.34364556063190266,
+        "frac_gt_half": 0.35,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.00047593742364496173,
+        "mean": 0.19575809949726206,
+        "frac_gt_half": 0.125,
+        "n": 16
+      },
+      "S1:random": {
+        "median": 0.0880094752998973,
+        "mean": 0.176667606901026,
+        "frac_gt_half": 0.2222222222222222,
+        "n": 18
+      },
+      "S6:target": {
+        "median": 0.31759036116033657,
+        "mean": 0.4216527707205824,
+        "frac_gt_half": 0.35,
+        "n": 20
+      },
+      "S6:reference": {
+        "median": 0.23197683589912754,
+        "mean": 0.3534662694338506,
+        "frac_gt_half": 0.4,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.0008762536245363192,
+        "mean": 0.1804872443470473,
+        "frac_gt_half": 0.125,
+        "n": 16
+      },
+      "S6:random": {
+        "median": 0.0413891204003783,
+        "mean": 0.10587955684106189,
+        "frac_gt_half": 0.05555555555555555,
+        "n": 18
+      }
+    },
+    {
+      "group": "chair|to the left of|table",
+      "n_pairs": 20,
+      "S1:target": {
+        "median": 0.38370112829244013,
+        "mean": 0.44356402011072904,
+        "frac_gt_half": 0.35,
+        "n": 20
+      },
+      "S1:reference": {
+        "median": 0.17182650798631793,
+        "mean": 0.1135046336488205,
+        "frac_gt_half": 0.2,
+        "n": 20
+      },
+      "S1:irrelevant": {
+        "median": 0.0005127279563314635,
+        "mean": 0.021122719122608803,
+        "frac_gt_half": 0.058823529411764705,
+        "n": 17
+      },
+      "S1:random": {
+        "median": 0.011159184958236696,
+        "mean": 0.11345669758853827,
+        "frac_gt_half": 0.11764705882352941,
+        "n": 17
+      },
+      "S6:target": {
+        "median": 0.33618996037373133,
+        "mean": 0.3766827775136696,
+        "frac_gt_half": 0.3,
+        "n": 20
+      },
+      "S6:reference": {
+        "median": 0.20204381711056857,
+        "mean": 0.10313820561811962,
+        "frac_gt_half": 0.25,
+        "n": 20
+      },
+      "S6:irrelevant": {
+        "median": 0.000918324838476023,
+        "mean": 0.05208546956623528,
+        "frac_gt_half": 0.058823529411764705,
+        "n": 17
+      },
+      "S6:random": {
+        "median": 0.0035976051503910063,
+        "mean": 0.2184779889825044,
+        "frac_gt_half": 0.23529411764705882,
+        "n": 17
+      }
+    }
+  ],
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "group": "woman|to the left of|man",
+      "m_source": 1.1241180896759033,
+      "m_target": 0.3747056722640991,
+      "delta": 0.7494124174118042,
+      "patch": {
+        "S1:target": 0.499609402775173,
+        "S6:target": 0.6660097061541292,
+        "S1:reference": 0.33329547459193287,
+        "S6:reference": 0.16677232914135262,
+        "S1:irrelevant": 0.16668694813527404,
+        "S6:irrelevant": 0.3330695947062663,
+        "S1:random": 0.1663026739565423,
+        "S6:random": 0.16604609349486607
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "group": "woman|to the left of|man",
+      "m_source": 3.4997024536132812,
+      "m_target": -1.3757610321044922,
+      "delta": 4.875463485717773,
+      "patch": {
+        "S1:target": 0.025670520905096614,
+        "S6:target": 0.025628465420807177,
+        "S1:reference": -0.17944595909390187,
+        "S6:reference": -0.15381314141948801,
+        "S1:irrelevant": 0.4871978093396037,
+        "S6:irrelevant": 0.4358820619471415,
+        "S1:random": 1.5550748841909328e-05,
+        "S6:random": 0.025613012475417102
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "group": "woman|to the left of|man",
+      "m_source": -0.0012913346290588379,
+      "m_target": 1.3744943141937256,
+      "delta": -1.3757856488227844,
+      "patch": {
+        "S1:target": 0.2733750188947135,
+        "S6:target": 0.18184770520806973,
+        "S1:reference": 0.18195038327295474,
+        "S6:reference": 0.09120229645340866,
+        "S1:irrelevant": -0.0002834261183450046,
+        "S6:irrelevant": -0.18189908756459025,
+        "S1:random": 9.487973084309998e-05,
+        "S6:random": 0.00012338697417404052
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "group": "woman|to the left of|man",
+      "m_source": 3.374880313873291,
+      "m_target": 1.8748137950897217,
+      "delta": 1.5000665187835693,
+      "patch": {
+        "S1:target": 0.1666675408293579,
+        "S6:target": 0.25002705930875985,
+        "S1:reference": -0.08331445936613668,
+        "S6:reference": -6.691318054558878e-05,
+        "S1:random": -0.08338868372555423,
+        "S6:random": -3.8463158413378824e-05
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "group": "woman|to the left of|man",
+      "m_source": 2.374323844909668,
+      "m_target": 0.248141348361969,
+      "delta": 2.126182496547699,
+      "patch": {
+        "S1:target": -0.11758134796024257,
+        "S6:target": -0.11723869272050066,
+        "S1:reference": 0.23530636834981325,
+        "S6:reference": 0.1767469439052095,
+        "S1:irrelevant": 0.29432408681874,
+        "S6:irrelevant": 0.11804041290979617,
+        "S1:random": -0.1769812771416492,
+        "S6:random": -0.00011493794346247415
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0005",
+      "group": "woman|to the left of|man",
+      "m_source": 0.7491711378097534,
+      "m_target": 0.1242169737815857,
+      "delta": 0.6249541640281677,
+      "patch": {
+        "S1:target": -0.00016585612710587924,
+        "S6:target": -0.00035479286534437655,
+        "S1:reference": -0.19951986606378586,
+        "S6:reference": -0.1994742770880776,
+        "S1:irrelevant": -0.0008496907627293147,
+        "S6:irrelevant": -0.0003774919787723232,
+        "S1:random": -0.0008371013384751594,
+        "S6:random": -0.0003765382345106448
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0006",
+      "group": "woman|to the left of|man",
+      "m_source": 1.1240354776382446,
+      "m_target": 0.3738023042678833,
+      "delta": 0.7502331733703613,
+      "patch": {
+        "S1:target": 0.8327448608163585,
+        "S6:target": 0.6665058635919593,
+        "S1:reference": 0.3330484322335801,
+        "S6:reference": 0.0005817194234224614,
+        "S1:irrelevant": 0.00035235258711808473,
+        "S6:irrelevant": -0.16651929033090476,
+        "S1:random": 0.00018773600075761763,
+        "S6:random": -0.00010105805880816321
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0007",
+      "group": "woman|to the left of|man",
+      "m_source": 1.3745503425598145,
+      "m_target": 2.4997174739837646,
+      "delta": -1.1251671314239502,
+      "patch": {
+        "S1:target": 0.4443926240646639,
+        "S6:target": 0.2223608493899404,
+        "S1:reference": -0.4445057766067926,
+        "S6:reference": -0.3334317237772692,
+        "S1:irrelevant": 1.9070653167752034e-06,
+        "S6:irrelevant": 0.11111240603200521
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0008",
+      "group": "woman|to the left of|man",
+      "m_source": -0.001991868019104004,
+      "m_target": 0.6241201162338257,
+      "delta": -0.6261119842529297,
+      "patch": {
+        "S1:target": 0.599796695028072,
+        "S6:target": 0.7988682093321513,
+        "S1:reference": 0.39980299713948875,
+        "S6:reference": 0.5989341054276601,
+        "S1:irrelevant": 0.3996861891227461,
+        "S6:irrelevant": 0.0006520114968790268,
+        "S1:random": -0.0,
+        "S6:random": 0.00028845011469461984
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0009",
+      "group": "woman|to the left of|man",
+      "m_source": 2.999717950820923,
+      "m_target": 0.37405455112457275,
+      "delta": 2.62566339969635,
+      "patch": {
+        "S1:target": 0.04783430790113405,
+        "S6:target": 0.04776627362057375,
+        "S1:reference": 0.04770492472393904,
+        "S6:reference": 0.0952079485832457,
+        "S1:random": 0.047616334874127045,
+        "S6:random": 0.04763720825449915
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0010",
+      "group": "woman|to the left of|man",
+      "m_source": 1.1236392259597778,
+      "m_target": -0.0006528496742248535,
+      "delta": 1.1242920756340027,
+      "patch": {
+        "S1:target": 0.44451339963528674,
+        "S6:target": 0.3335585421883038,
+        "S1:reference": 0.2224016965733741,
+        "S6:reference": 0.22233033802375307,
+        "S1:irrelevant": -7.199473282717537e-05,
+        "S6:irrelevant": 0.11101720340118386,
+        "S1:random": -9.993377862976847e-05,
+        "S6:random": 0.11114343275233372
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0011",
+      "group": "woman|to the left of|man",
+      "m_source": 0.12393993139266968,
+      "m_target": 0.24954718351364136,
+      "delta": -0.12560725212097168,
+      "patch": {
+        "S1:target": 0.00130401359059288,
+        "S6:target": 0.9893467594218304,
+        "S1:reference": 0.9892039253276642,
+        "S6:reference": -0.0035893590972505625,
+        "S1:irrelevant": 0.9896015830383327,
+        "S6:irrelevant": -0.99665644841364,
+        "S1:random": 0.9939463968794784,
+        "S6:random": 1.984647470270578
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0012",
+      "group": "woman|to the left of|man",
+      "m_source": 4.74983549118042,
+      "m_target": 0.12406027317047119,
+      "delta": 4.625775218009949,
+      "patch": {
+        "S1:target": -0.054010192039107494,
+        "S6:target": -0.027049389344836326,
+        "S1:reference": 0.37844887158646645,
+        "S6:reference": 0.35141214852199454,
+        "S1:irrelevant": 0.02699542557864478,
+        "S6:irrelevant": 0.027009367506777363,
+        "S1:random": 2.5770661982591145e-07,
+        "S6:random": 1.239568841362634e-05
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0013",
+      "group": "woman|to the left of|man",
+      "m_source": 1.2481391429901123,
+      "m_target": 1.1241978406906128,
+      "delta": 0.12394130229949951,
+      "patch": {
+        "S1:target": -11.119045008391884,
+        "S6:target": -5.0677246692539635,
+        "S1:reference": 11.098961714733647,
+        "S6:reference": 8.072541466487769,
+        "S1:irrelevant": 4.035885524120054,
+        "S6:irrelevant": 4.035555619676924,
+        "S1:random": -3.027491235410385,
+        "S6:random": -3.03413885803048
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0014",
+      "group": "woman|to the left of|man",
+      "m_source": -1.0008940696716309,
+      "m_target": 1.8730989694595337,
+      "delta": -2.8739930391311646,
+      "patch": {
+        "S1:target": 0.4784307087689678,
+        "S6:target": 0.34791058252959156,
+        "S1:reference": -0.3048755929421791,
+        "S6:reference": -0.26135580114498436,
+        "S1:irrelevant": 0.08675354697232766,
+        "S6:irrelevant": 0.13015251152473323,
+        "S1:random": 0.13137115362974708,
+        "S6:random": 0.08721387679130123
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0015",
+      "group": "woman|to the left of|man",
+      "m_source": 0.2498360276222229,
+      "m_target": 1.249495029449463,
+      "delta": -0.99965900182724,
+      "patch": {
+        "S1:target": 0.6258398550636064,
+        "S6:target": 0.50011140926912,
+        "S1:reference": 0.00018304867872542073,
+        "S6:reference": 0.00022729041149879603,
+        "S1:irrelevant": 0.6263509603645948,
+        "S6:irrelevant": 0.25046258547613076,
+        "S1:random": 0.7503964613768779,
+        "S6:random": 0.6254401292192496
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0016",
+      "group": "woman|to the left of|man",
+      "m_source": -1.8763319253921509,
+      "m_target": -0.37625330686569214,
+      "delta": -1.5000786185264587,
+      "patch": {
+        "S1:target": 0.08334585296392205,
+        "S6:target": 0.0003361525779863054,
+        "S1:reference": -0.2500362873926532,
+        "S6:reference": -0.25027052136986705,
+        "S1:irrelevant": -0.00018373162182135652,
+        "S6:irrelevant": 1.9867173639852566e-07,
+        "S1:random": -0.00012881875388080403,
+        "S6:random": -0.08336369368585063
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0017",
+      "group": "woman|to the left of|man",
+      "m_source": 0.8743867874145508,
+      "m_target": 1.3738187551498413,
+      "delta": -0.4994319677352905,
+      "patch": {
+        "S1:target": 1.0002386897460556,
+        "S6:target": 0.7504498704988782,
+        "S1:reference": -1.5027717846760706,
+        "S6:reference": -1.7531348914522575,
+        "S1:irrelevant": 0.5006159388896965,
+        "S6:irrelevant": 0.49997076050610817,
+        "S1:random": 0.24917801218702104,
+        "S6:random": 0.2504853159261675
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0018",
+      "group": "woman|to the left of|man",
+      "m_source": 2.9999170303344727,
+      "m_target": 0.24900221824645996,
+      "delta": 2.7509148120880127,
+      "patch": {
+        "S1:target": 0.5455441255734335,
+        "S6:target": 0.40916768191983255,
+        "S1:reference": 0.22742985392921392,
+        "S6:reference": 0.18198227743681777,
+        "S1:irrelevant": -0.18172892276792868,
+        "S6:irrelevant": -0.1817503299699181,
+        "S1:random": 0.090920276113038,
+        "S6:random": 0.09092948467664681
+      }
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0019",
+      "group": "woman|to the left of|man",
+      "m_source": 1.1241687536239624,
+      "m_target": 1.873636245727539,
+      "delta": -0.7494674921035767,
+      "patch": {
+        "S1:target": 0.0012355676143222137,
+        "S6:target": 0.00011643093379040428,
+        "S1:reference": 0.1661210159585137,
+        "S6:reference": 0.49934905246374695,
+        "S1:irrelevant": 1.1676137814142826,
+        "S6:irrelevant": -0.0008398296863570145,
+        "S1:random": -0.500662876935207,
+        "S6:random": 0.16614407946315796
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0000",
+      "group": "man|to the right of|woman",
+      "m_source": -0.25370246171951294,
+      "m_target": -0.3764682412147522,
+      "delta": 0.12276577949523926,
+      "patch": {
+        "S1:target": -1.0273340169386522,
+        "S6:target": -0.013652685772658506,
+        "S1:reference": 1.0195871373444652,
+        "S6:reference": 1.0164900362582707,
+        "S1:irrelevant": 2.0362684665683983,
+        "S6:irrelevant": 2.0390121126317444,
+        "S1:random": 0.005935422602089269,
+        "S6:random": 0.00513383710384392
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0001",
+      "group": "man|to the right of|woman",
+      "m_source": 1.7483396530151367,
+      "m_target": -1.1261272430419922,
+      "delta": 2.874466896057129,
+      "patch": {
+        "S1:target": 3.8029632092132404e-05,
+        "S6:target": -0.04342179432181512,
+        "S1:reference": 0.08697248296919442,
+        "S6:reference": 0.0870251728793068,
+        "S1:irrelevant": 0.1301600031452206,
+        "S6:irrelevant": 0.17345072587245866,
+        "S1:random": -0.04514896999001691,
+        "S6:random": 0.042978046161089044
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0002",
+      "group": "man|to the right of|woman",
+      "m_source": -0.8777717351913452,
+      "m_target": -1.880653977394104,
+      "delta": 1.0028822422027588,
+      "patch": {
+        "S1:target": 0.4989967651619808,
+        "S6:target": 0.2502342268066726,
+        "S1:reference": 0.11136132548718106,
+        "S6:reference": -0.0015551328656166934,
+        "S1:irrelevant": 1.1263411431124006,
+        "S6:irrelevant": 0.8741377707693979,
+        "S1:random": 0.12529464080032465,
+        "S6:random": 0.12306589041965409
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0003",
+      "group": "man|to the right of|woman",
+      "m_source": 2.1230807304382324,
+      "m_target": -0.7546108961105347,
+      "delta": 2.877691626548767,
+      "patch": {
+        "S1:target": -0.04307002697243854,
+        "S6:target": -0.043366342269147165,
+        "S1:reference": 0.08703438512628943,
+        "S6:reference": 0.04350511708306774,
+        "S1:random": 9.631386339264155e-05,
+        "S6:random": -0.04286130550977022
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0004",
+      "group": "man|to the right of|woman",
+      "m_source": 1.9986382722854614,
+      "m_target": -0.3765929937362671,
+      "delta": 2.3752312660217285,
+      "patch": {
+        "S1:target": 0.10485727294572957,
+        "S6:target": 0.10485852765817859,
+        "S1:reference": 0.10415782094390111,
+        "S6:reference": 0.10466331949536067,
+        "S1:irrelevant": 0.10498111306444745,
+        "S6:irrelevant": 0.10499963262019493,
+        "S1:random": 0.2627913919097346,
+        "S6:random": 0.21030709639263145
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0005",
+      "group": "man|to the right of|woman",
+      "m_source": -1.011492133140564,
+      "m_target": -0.6287777423858643,
+      "delta": -0.3827143907546997,
+      "patch": {
+        "S1:target": -0.0011936054890901281,
+        "S6:target": 0.3222317432402589,
+        "S1:reference": 0.9767371523102277,
+        "S6:reference": 0.9760674623828938,
+        "S1:irrelevant": 2.2909291901019206,
+        "S6:irrelevant": 2.2858326940130653,
+        "S1:random": -0.0035152491511290817,
+        "S6:random": -0.0036135222544192527
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0006",
+      "group": "man|to the right of|woman",
+      "m_source": 0.1215200424194336,
+      "m_target": -0.3762401342391968,
+      "delta": 0.49776017665863037,
+      "patch": {
+        "S1:target": 0.24837558959792982,
+        "S6:target": 0.2466893305376702,
+        "S1:reference": 0.5002455984471377,
+        "S6:reference": 0.24988857661869254,
+        "S1:irrelevant": 0.24153679246751597,
+        "S6:irrelevant": 0.7497453607519072,
+        "S1:random": 0.2384223263477679,
+        "S6:random": 0.49529375418361565
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0007",
+      "group": "man|to the right of|woman",
+      "m_source": -1.5040745735168457,
+      "m_target": 1.998843789100647,
+      "delta": -3.5029183626174927,
+      "patch": {
+        "S1:target": 0.4640882238725722,
+        "S6:target": 0.4639999123350595,
+        "S1:reference": 0.2856886916548728,
+        "S6:reference": 0.25007911454598564,
+        "S1:irrelevant": 0.39259896226626667,
+        "S6:irrelevant": 0.4283627527594463
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0008",
+      "group": "man|to the right of|woman",
+      "m_source": -0.6279923319816589,
+      "m_target": -0.6282691359519958,
+      "delta": 0.00027680397033691406,
+      "patch": {
+        "S1:target": -445.3305340223945,
+        "S6:target": -448.1996124031008,
+        "S1:reference": -448.42872523686475,
+        "S6:reference": -449.72416020671835,
+        "S1:irrelevant": -901.5021533161068,
+        "S6:irrelevant": -900.3184754521964,
+        "S1:random": -0.41709732988802756,
+        "S6:random": 1.6599913867355727
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0009",
+      "group": "man|to the right of|woman",
+      "m_source": 0.7469480037689209,
+      "m_target": -0.3773344159126282,
+      "delta": 1.124282419681549,
+      "patch": {
+        "S1:target": 0.11197042528523386,
+        "S6:target": 0.0007459312155990917,
+        "S1:reference": 0.22232265167254797,
+        "S6:reference": 0.22278956114062054,
+        "S1:random": -0.11445877123657423,
+        "S6:random": -0.0011286517163389526
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0010",
+      "group": "man|to the right of|woman",
+      "m_source": -0.25318360328674316,
+      "m_target": -0.37794357538223267,
+      "delta": 0.1247599720954895,
+      "patch": {
+        "S1:target": 0.0063498357718722006,
+        "S6:target": 6.640788295013437e-05,
+        "S1:reference": 1.0058797252911318,
+        "S6:reference": 0.0043618990743505524,
+        "S1:irrelevant": 0.010148462227530606,
+        "S6:irrelevant": 1.0070607345476261,
+        "S1:random": -0.9966738727978501,
+        "S6:random": -0.9967751567632129
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0011",
+      "group": "man|to the right of|woman",
+      "m_source": -0.7526885867118835,
+      "m_target": -0.5016691088676453,
+      "delta": -0.2510194778442383,
+      "patch": {
+        "S1:target": 0.47754527701899224,
+        "S6:target": 0.0004129260332886294,
+        "S1:reference": 0.49882343387294703,
+        "S6:reference": 0.4913005341681452,
+        "S1:irrelevant": 7.123508337354158e-07,
+        "S6:irrelevant": 2.1370525012062472e-06,
+        "S1:random": 0.4842188170797035,
+        "S6:random": -0.0007591285384840414
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0012",
+      "group": "man|to the right of|woman",
+      "m_source": 2.4993813037872314,
+      "m_target": -0.12697571516036987,
+      "delta": 2.6263570189476013,
+      "patch": {
+        "S1:target": 0.18929441393166538,
+        "S6:target": 0.14198215784827342,
+        "S1:reference": 0.0473600967197868,
+        "S6:reference": -8.292679572427263e-05,
+        "S1:irrelevant": 0.04713453311204089,
+        "S6:irrelevant": -0.0006199992152138489,
+        "S1:random": -0.04778723553268404,
+        "S6:random": -0.04813187875103894
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0013",
+      "group": "man|to the right of|woman",
+      "m_source": 0.1188250184059143,
+      "m_target": -0.629337728023529,
+      "delta": 0.7481627464294434,
+      "patch": {
+        "S1:target": 1.3337705248720373,
+        "S6:target": 0.9970289405236802,
+        "S1:reference": -0.16839325855586737,
+        "S6:reference": 0.33366273404074287,
+        "S1:irrelevant": -0.3384579521749688,
+        "S6:irrelevant": 0.1641013033050756,
+        "S1:random": 0.4996002258747708,
+        "S6:random": 0.3332768221510238
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0014",
+      "group": "man|to the right of|woman",
+      "m_source": -0.626678466796875,
+      "m_target": 0.12256026268005371,
+      "delta": -0.7492387294769287,
+      "patch": {
+        "S1:target": 0.1729434994359649,
+        "S6:target": 0.004506950598800013,
+        "S1:reference": -0.667904494301575,
+        "S6:reference": -0.8350552181598614,
+        "S1:irrelevant": -0.1666376030815886,
+        "S6:irrelevant": -0.16720887754631214,
+        "S1:random": 0.6685312176316254,
+        "S6:random": 0.334492615038496
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0015",
+      "group": "man|to the right of|woman",
+      "m_source": 0.12360382080078125,
+      "m_target": -0.6273711919784546,
+      "delta": 0.7509750127792358,
+      "patch": {
+        "S1:target": -0.0017200996565674043,
+        "S6:target": -0.0011533207876329343,
+        "S1:reference": 0.32980315526216997,
+        "S6:reference": 0.33378410018993165,
+        "S1:irrelevant": 0.0002749365637850447,
+        "S6:irrelevant": -0.0005382851546161007,
+        "S1:random": 0.16556181429559014,
+        "S6:random": 0.16634598671192855
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0016",
+      "group": "man|to the right of|woman",
+      "m_source": -0.12866079807281494,
+      "m_target": -0.37759071588516235,
+      "delta": 0.2489299178123474,
+      "patch": {
+        "S1:target": -0.5011087430151345,
+        "S6:target": 0.5027484519380675,
+        "S1:reference": 0.0006302152285571782,
+        "S6:reference": 0.5007747193662602,
+        "S1:irrelevant": -0.0013732083342611768,
+        "S6:irrelevant": -0.0013789549776826709,
+        "S1:random": -0.0015982852016030262,
+        "S6:random": 0.499220252320746
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0017",
+      "group": "man|to the right of|woman",
+      "m_source": 0.4980597496032715,
+      "m_target": -0.12826955318450928,
+      "delta": 0.6263293027877808,
+      "patch": {
+        "S1:target": 1.1994163148257024,
+        "S6:target": 1.199417171310942,
+        "S1:reference": 0.9983217171729668,
+        "S6:reference": 1.1971164616272725,
+        "S1:irrelevant": -0.2002630932326056,
+        "S6:irrelevant": -0.0016100019204302372,
+        "S1:random": 0.0004466094699479314,
+        "S6:random": 0.0005381582255605268
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0018",
+      "group": "man|to the right of|woman",
+      "m_source": 1.8738394975662231,
+      "m_target": 0.871925950050354,
+      "delta": 1.0019135475158691,
+      "patch": {
+        "S1:target": 0.12438391321005252,
+        "S6:target": 0.12438867247455578,
+        "S1:reference": 0.6227358394033786,
+        "S6:reference": 0.49707816853983383,
+        "S1:irrelevant": -0.8745886210744992,
+        "S6:irrelevant": -0.9983998162923902,
+        "S1:random": -0.12309635368950082,
+        "S6:random": 0.0008785007364961819
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0019",
+      "group": "man|to the right of|woman",
+      "m_source": -0.7541483640670776,
+      "m_target": 0.49666857719421387,
+      "delta": -1.2508169412612915,
+      "patch": {
+        "S1:target": 0.9036222912252648,
+        "S6:target": 0.8010022860845054,
+        "S1:reference": -0.5986497357712517,
+        "S6:reference": -0.50013185466766,
+        "S1:irrelevant": -0.1002345650220779,
+        "S6:irrelevant": -0.10097084491727656,
+        "S1:random": 0.19889888248046506,
+        "S6:random": 0.09935404079041131
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0000",
+      "group": "man|to the left of|person",
+      "m_source": 0.3746638894081116,
+      "m_target": -0.250731885433197,
+      "delta": 0.6253957748413086,
+      "patch": {
+        "S1:target": -0.1995292783347947,
+        "S6:target": 0.0001669780031260722,
+        "S1:reference": 0.39974715031832564,
+        "S6:reference": 0.3998176775570889,
+        "S1:irrelevant": 0.00013743280850901605,
+        "S6:irrelevant": 0.19957226182760857,
+        "S1:random": 0.19912069688536466,
+        "S6:random": -0.0003279516602493233
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0001",
+      "group": "man|to the left of|person",
+      "m_source": -0.5007636547088623,
+      "m_target": 0.12181520462036133,
+      "delta": -0.6225788593292236,
+      "patch": {
+        "S1:target": -0.2026093475051555,
+        "S6:target": -0.2031659700109333,
+        "S1:reference": -0.40433962589299904,
+        "S6:reference": -0.20424168560689468,
+        "S1:irrelevant": -0.00079098987663162,
+        "S6:irrelevant": -0.20067888032137435,
+        "S1:random": 0.1992549645098103,
+        "S6:random": 0.19999205372067774
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0002",
+      "group": "man|to the left of|person",
+      "m_source": 0.12251538038253784,
+      "m_target": 0.4984383285045624,
+      "delta": -0.37592294812202454,
+      "patch": {
+        "S1:target": -0.6646399311996046,
+        "S6:target": -0.6645140381457538,
+        "S1:reference": 1.3331098493794258,
+        "S6:reference": 1.0012205601115152,
+        "S1:irrelevant": 1.3301039545243847,
+        "S6:irrelevant": 1.3298042846606846,
+        "S1:random": 1.0028126157207287,
+        "S6:random": 0.9991193828449785
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0003",
+      "group": "man|to the left of|person",
+      "m_source": -0.0014685988426208496,
+      "m_target": 0.7486836314201355,
+      "delta": -0.7501522302627563,
+      "patch": {
+        "S1:target": 0.5002477460906096,
+        "S6:target": 0.6665206516786903,
+        "S1:reference": -0.0003410282940655515,
+        "S6:reference": 0.16658238955951254,
+        "S1:random": 1.166292451944171,
+        "S6:random": 1.001306665958972
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0004",
+      "group": "man|to the left of|person",
+      "m_source": -0.378939151763916,
+      "m_target": -0.3757495880126953,
+      "delta": -0.003189563751220703,
+      "patch": {
+        "S1:target": -78.23839512632681,
+        "S6:target": -117.49246897892061,
+        "S1:reference": 117.47548213484826,
+        "S6:reference": 78.34437135595755,
+        "S1:random": -78.09736133951263,
+        "S6:random": -78.01672522051129
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0005",
+      "group": "man|to the left of|person",
+      "m_source": -0.5030455589294434,
+      "m_target": -0.37705981731414795,
+      "delta": -0.1259857416152954,
+      "patch": {
+        "S1:target": 0.01465446683288467,
+        "S6:target": -0.9688237158712961,
+        "S1:reference": -1.9925906826450426,
+        "S6:reference": -2.9820881964715733,
+        "S1:irrelevant": -0.9965221957808382,
+        "S6:irrelevant": -0.9955196835865241,
+        "S1:random": -1.972451967885546,
+        "S6:random": -3.964313120656293
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0006",
+      "group": "man|to the left of|person",
+      "m_source": -0.1289989948272705,
+      "m_target": -0.6281816959381104,
+      "delta": 0.49918270111083984,
+      "patch": {
+        "S1:target": 0.24771232980087154,
+        "S6:target": 0.00038376595960116995,
+        "S1:reference": -0.24900559959192328,
+        "S6:reference": 0.0008533837315711144,
+        "S1:irrelevant": 0.0015732732681098369,
+        "S6:irrelevant": 0.0018581723283489133,
+        "S1:random": -0.2493265588014466,
+        "S6:random": -0.0007032923155105449
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0007",
+      "group": "man|to the left of|person",
+      "m_source": -0.37697547674179077,
+      "m_target": -0.0019061565399169922,
+      "delta": -0.3750693202018738,
+      "patch": {
+        "S1:target": 0.6718827248241154,
+        "S6:target": -1.335751536840225,
+        "S1:reference": 0.33582614806331035,
+        "S6:reference": 0.3341470379821184,
+        "S1:irrelevant": -0.6652781616048898,
+        "S6:irrelevant": -0.6676342553076867
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0008",
+      "group": "man|to the left of|person",
+      "m_source": -0.12663960456848145,
+      "m_target": -0.37661105394363403,
+      "delta": 0.2499714493751526,
+      "patch": {
+        "S1:target": 0.0007513427479687398,
+        "S6:target": -0.0004148957097637598,
+        "S1:reference": -0.0006008834417268246,
+        "S6:reference": -0.0015310605473523573,
+        "S1:irrelevant": 1.4306748612543442e-06,
+        "S6:irrelevant": 1.907566481672459e-06,
+        "S1:random": 0.0007546809893116665,
+        "S6:random": -0.0015367832467973748
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0009",
+      "group": "man|to the left of|person",
+      "m_source": -0.2553722858428955,
+      "m_target": 0.12235844135284424,
+      "delta": -0.37773072719573975,
+      "patch": {
+        "S1:target": -0.002375786419073197,
+        "S6:target": -0.33278367498938816,
+        "S1:reference": 0.3318503077823732,
+        "S6:reference": 0.3294956661149044,
+        "S1:irrelevant": 0.3285510953454721,
+        "S6:irrelevant": -0.0023663186198473476,
+        "S1:random": 0.6793231154740133,
+        "S6:random": 0.005218966526595837
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0010",
+      "group": "man|to the left of|person",
+      "m_source": -0.502100944519043,
+      "m_target": -0.6292704343795776,
+      "delta": 0.12716948986053467,
+      "patch": {
+        "S1:target": -0.0022357104356588785,
+        "S6:target": 0.0019390218180965996,
+        "S1:reference": 0.9964387991844579,
+        "S6:reference": 0.9903831642098849,
+        "S1:irrelevant": -0.0020393241311429306,
+        "S6:irrelevant": -0.004528602563802114,
+        "S1:random": 0.9849640270909986,
+        "S6:random": 0.00578847460804762
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0011",
+      "group": "man|to the left of|person",
+      "m_source": -0.8808032274246216,
+      "m_target": -0.12679433822631836,
+      "delta": -0.7540088891983032,
+      "patch": {
+        "S1:target": 0.0005290837988738491,
+        "S6:target": 0.16544267784543606,
+        "S1:reference": -0.33227490223451545,
+        "S6:reference": -0.166835544502564,
+        "S1:irrelevant": -0.0006119285353477464,
+        "S6:irrelevant": -0.16529366799023254,
+        "S1:random": 0.16638891018855873,
+        "S6:random": 0.16607958628223968
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0012",
+      "group": "man|to the left of|person",
+      "m_source": 0.6233218312263489,
+      "m_target": -0.0006464719772338867,
+      "delta": 0.6239683032035828,
+      "patch": {
+        "S1:target": -0.6012017441739947,
+        "S6:target": -0.40109974245473373,
+        "S1:reference": 0.0004231762655239061,
+        "S6:reference": 0.00034255306730671044,
+        "S1:irrelevant": 0.19998106692193526,
+        "S6:irrelevant": 0.19998144902240073,
+        "S1:random": 0.20026391679151004,
+        "S6:random": 0.19998049377123703
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0013",
+      "group": "man|to the left of|person",
+      "m_source": -0.12737315893173218,
+      "m_target": -0.12568676471710205,
+      "delta": -0.001686394214630127,
+      "patch": {
+        "S1:target": -0.011098151486233344,
+        "S6:target": -0.011027462623263705,
+        "S1:reference": 74.20644682430283,
+        "S6:reference": 148.2586858940374,
+        "S1:irrelevant": 74.12243311066341,
+        "S6:irrelevant": 74.11133495917719,
+        "S1:random": 74.19248577386632,
+        "S6:random": 74.20595200226204
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0014",
+      "group": "man|to the left of|person",
+      "m_source": -0.00452953577041626,
+      "m_target": 1.624192476272583,
+      "delta": -1.6287220120429993,
+      "patch": {
+        "S1:target": 0.768047416360026,
+        "S6:target": 0.7684086184802057,
+        "S1:reference": 0.6912804563926024,
+        "S6:reference": 0.7680946617437294,
+        "S1:irrelevant": -0.00028925446381960595,
+        "S6:irrelevant": -0.07679164394210065,
+        "S1:random": 0.1534648633592873,
+        "S6:random": 0.23013090996841365
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0015",
+      "group": "man|to the left of|person",
+      "m_source": -0.7536994814872742,
+      "m_target": 0.7491714954376221,
+      "delta": -1.5028709769248962,
+      "patch": {
+        "S1:target": 0.08304028505443664,
+        "S6:target": 0.08320919921007348,
+        "S1:reference": 0.0001137463720043368,
+        "S6:reference": 0.0001137463720043368,
+        "S1:random": 0.08358708464677408,
+        "S6:random": 0.08335380146681261
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0016",
+      "group": "man|to the left of|person",
+      "m_source": 0.24866539239883423,
+      "m_target": -0.002335786819458008,
+      "delta": 0.25100117921829224,
+      "patch": {
+        "S1:target": 0.0023464172433764947,
+        "S6:target": -0.4965791606518105,
+        "S1:reference": -0.4964229069784838,
+        "S6:reference": -0.4966387650165598,
+        "S1:irrelevant": 0.49698380542285736,
+        "S6:irrelevant": 0.002047445549275593,
+        "S1:random": -2.5012708078006205,
+        "S6:random": -0.9949198558761712
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0017",
+      "group": "man|to the left of|person",
+      "m_source": 0.370830237865448,
+      "m_target": -0.876459538936615,
+      "delta": 1.247289776802063,
+      "patch": {
+        "S1:target": -0.10112787649843138,
+        "S6:target": 0.19976402617789787,
+        "S1:reference": 0.1001226222817971,
+        "S6:reference": 0.10003842101113206,
+        "S1:irrelevant": 0.10020003775198855,
+        "S6:irrelevant": 0.10019955987871576,
+        "S1:random": 1.433619818360369e-07,
+        "S6:random": 0.00016457955514777038
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0018",
+      "group": "man|to the left of|person",
+      "m_source": -0.8762894868850708,
+      "m_target": 0.873984694480896,
+      "delta": -1.7502741813659668,
+      "patch": {
+        "S1:target": -0.428122405901393,
+        "S6:target": -0.571300234757836,
+        "S1:reference": 0.14258677962213714,
+        "S6:reference": 0.0714177907590358,
+        "S1:irrelevant": -0.1426175648553598,
+        "S6:irrelevant": -0.1429025325894386,
+        "S1:random": -0.07036118298116026,
+        "S6:random": 0.0008238455333214733
+      }
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0019",
+      "group": "man|to the left of|person",
+      "m_source": -0.5027561187744141,
+      "m_target": -0.7518557906150818,
+      "delta": 0.24909967184066772,
+      "patch": {
+        "S1:target": -1.5045488381864562,
+        "S6:target": -1.5049738000033022,
+        "S1:reference": 0.502260122095167,
+        "S6:reference": 1.002616290825108,
+        "S1:irrelevant": 1.5050898509499069,
+        "S6:irrelevant": 1.0044759773344127,
+        "S1:random": -0.0009937310953606181,
+        "S6:random": -0.0021073416221625246
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0000",
+      "group": "person|to the right of|man",
+      "m_source": 0.1238563060760498,
+      "m_target": -0.6260848641395569,
+      "delta": 0.7499411702156067,
+      "patch": {
+        "S1:target": 0.6675290148367599,
+        "S6:target": 0.6668055961230098,
+        "S1:reference": 0.3338192685141582,
+        "S6:reference": 0.3331076127063228,
+        "S1:irrelevant": 0.33361691474078886,
+        "S6:irrelevant": 0.33344619364683864,
+        "S1:random": 0.16589003669947167,
+        "S6:random": -0.0008053616596824413
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0001",
+      "group": "person|to the right of|man",
+      "m_source": -0.751851499080658,
+      "m_target": -1.2586888074874878,
+      "delta": 0.5068373084068298,
+      "patch": {
+        "S1:target": 0.2586644109200184,
+        "S6:target": 0.2592599430881048,
+        "S1:reference": 0.01171448466181264,
+        "S6:reference": 0.010998764129629853,
+        "S1:irrelevant": 0.4941021264755562,
+        "S6:irrelevant": 0.4942754705544976,
+        "S1:random": 0.250354244031066,
+        "S6:random": 0.00376629407881793
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0002",
+      "group": "person|to the right of|man",
+      "m_source": 0.3715221881866455,
+      "m_target": 0.7450976371765137,
+      "delta": -0.37357544898986816,
+      "patch": {
+        "S1:target": 0.34749366419701716,
+        "S6:target": 0.34077509638525766,
+        "S1:reference": -0.3298590391533797,
+        "S6:reference": 0.0036781482287513664,
+        "S1:irrelevant": 2.366724126597353,
+        "S6:irrelevant": 1.3515647885714943,
+        "S1:random": 1.3458038508152141,
+        "S6:random": 0.6754391185336038
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0003",
+      "group": "person|to the right of|man",
+      "m_source": 1.132228136062622,
+      "m_target": 1.4995431900024414,
+      "delta": -0.36731505393981934,
+      "patch": {
+        "S1:target": 2.721200761246528,
+        "S6:target": 3.061507427800687,
+        "S1:reference": 3.401796893610475,
+        "S6:reference": 3.063820116562629,
+        "S1:random": -1.0206606903275346,
+        "S6:random": -1.3584761698291155
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0004",
+      "group": "person|to the right of|man",
+      "m_source": -1.0154931545257568,
+      "m_target": -0.8764421343803406,
+      "delta": -0.13905102014541626,
+      "patch": {
+        "S1:target": 3.590551029217421,
+        "S6:target": 2.6924457185918405,
+        "S1:reference": 0.006701990536197822,
+        "S6:reference": -0.8995721613844465,
+        "S1:random": -0.0012246617820222052,
+        "S6:random": 0.8983132073579154
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0005",
+      "group": "person|to the right of|man",
+      "m_source": -0.7560091018676758,
+      "m_target": -0.7552903890609741,
+      "delta": -0.0007187128067016602,
+      "patch": {
+        "S1:target": -172.55523304030518,
+        "S6:target": 173.0727317963178,
+        "S1:reference": 526.4466744070327,
+        "S6:reference": 535.2977276496931,
+        "S1:irrelevant": 176.41980427931662,
+        "S6:irrelevant": 175.82932492950738,
+        "S1:random": -173.43357107314645,
+        "S6:random": -171.24166528445846
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0006",
+      "group": "person|to the right of|man",
+      "m_source": -0.6462302207946777,
+      "m_target": -0.7532651424407959,
+      "delta": 0.10703492164611816,
+      "patch": {
+        "S1:target": 0.00026841182615823604,
+        "S6:target": -0.003082837903759325,
+        "S1:reference": -0.001953503498263676,
+        "S6:reference": -1.1624448419265956,
+        "S1:irrelevant": -2.3482025317583535,
+        "S6:irrelevant": -0.0016672717998293747,
+        "S1:random": -2.3287632785892005,
+        "S6:random": -1.1709360110661406
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0007",
+      "group": "person|to the right of|man",
+      "m_source": -1.0039951801300049,
+      "m_target": -0.26044362783432007,
+      "delta": -0.7435515522956848,
+      "patch": {
+        "S1:target": 0.0038591632280471112,
+        "S6:target": -0.16723486890492575,
+        "S1:reference": 1.1793320494038946,
+        "S6:reference": 1.5014060029379406,
+        "S1:irrelevant": -0.6797910174372581,
+        "S6:irrelevant": -0.8522074835317011
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0008",
+      "group": "person|to the right of|man",
+      "m_source": -1.0064518451690674,
+      "m_target": -1.0026862621307373,
+      "delta": -0.003765583038330078,
+      "patch": {
+        "S1:target": 1.110168418386729,
+        "S6:target": 0.38682411042167913,
+        "S1:reference": 0.1458781815879448,
+        "S6:reference": 0.04555527415474231,
+        "S1:irrelevant": 33.02244523236672,
+        "S6:irrelevant": 0.14590983917943523,
+        "S1:random": 33.65436241610738,
+        "S6:random": 33.726763327846015
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0009",
+      "group": "person|to the right of|man",
+      "m_source": -2.0069727897644043,
+      "m_target": -0.005148351192474365,
+      "delta": -2.00182443857193,
+      "patch": {
+        "S1:target": 0.00033282674867063584,
+        "S6:target": -0.00015429488384426863,
+        "S1:reference": 0.1863881601335547,
+        "S6:reference": 0.186388398334842,
+        "S1:irrelevant": 0.49949074053534726,
+        "S6:irrelevant": 0.49893775624689574,
+        "S1:random": -0.00015471173609703202,
+        "S6:random": -0.06260313929645046
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0010",
+      "group": "person|to the right of|man",
+      "m_source": -1.3733365535736084,
+      "m_target": -0.7579232454299927,
+      "delta": -0.6154133081436157,
+      "patch": {
+        "S1:target": -0.4084086058955215,
+        "S6:target": -0.20308860444660018,
+        "S1:reference": 0.20576145756839617,
+        "S6:reference": 0.004504053396238732,
+        "S1:irrelevant": -0.19987947608708329,
+        "S6:irrelevant": 0.0045036659841110665,
+        "S1:random": -0.0007472211412347716,
+        "S6:random": 0.0017183664922601836
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0011",
+      "group": "person|to the right of|man",
+      "m_source": -1.1519453525543213,
+      "m_target": -0.13317477703094482,
+      "delta": -1.0187705755233765,
+      "patch": {
+        "S1:target": -0.0053204591070956965,
+        "S6:target": -0.127340564963977,
+        "S1:reference": -0.126254685342392,
+        "S6:reference": -0.0035575429024836806,
+        "S1:irrelevant": 0.11769449034275065,
+        "S6:irrelevant": 0.12094861882079792,
+        "S1:random": -0.0009452886339412036,
+        "S6:random": -0.0035995505300859447
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0012",
+      "group": "person|to the right of|man",
+      "m_source": -1.2522258758544922,
+      "m_target": -0.7505757808685303,
+      "delta": -0.5016500949859619,
+      "patch": {
+        "S1:target": -0.00019866230876970523,
+        "S6:target": -0.0004081369800382401,
+        "S1:reference": 0.7479612161745338,
+        "S6:reference": 0.7479742860632688,
+        "S1:irrelevant": -0.0007452212922270283,
+        "S6:irrelevant": 0.0005361030724694438,
+        "S1:random": 0.00015327414970868407,
+        "S6:random": 0.0006449396004796411
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0013",
+      "group": "person|to the right of|man",
+      "m_source": 0.3701677918434143,
+      "m_target": -0.37648046016693115,
+      "delta": 0.7466482520103455,
+      "patch": {
+        "S1:target": -0.0004220591906282583,
+        "S6:target": 0.1647890873550763,
+        "S1:reference": 0.3347558439072319,
+        "S6:reference": 0.16683671705804867,
+        "S1:irrelevant": 0.16720720631541688,
+        "S6:irrelevant": -0.0003453429276825885,
+        "S1:random": 0.1676330973277115,
+        "S6:random": 0.16621628126656715
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0014",
+      "group": "person|to the right of|man",
+      "m_source": -0.380545973777771,
+      "m_target": 0.6210224628448486,
+      "delta": -1.0015684366226196,
+      "patch": {
+        "S1:target": 0.49991870755728113,
+        "S6:target": 0.6240570284934177,
+        "S1:reference": 0.3762411826562633,
+        "S6:reference": 0.3765408220772659,
+        "S1:irrelevant": 0.5016886332812213,
+        "S6:irrelevant": 0.5003543303103574,
+        "S1:random": -0.12348655312306402,
+        "S6:random": 0.0016531050320974224
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0015",
+      "group": "person|to the right of|man",
+      "m_source": -1.262315273284912,
+      "m_target": -0.5025580525398254,
+      "delta": -0.7597572207450867,
+      "patch": {
+        "S1:target": 0.00018506879985589895,
+        "S6:target": 0.00375982290508434,
+        "S1:reference": 0.327398474778904,
+        "S6:reference": 0.4918237482888589,
+        "S1:random": -0.1652793044362929,
+        "S6:random": -0.000754318147780614
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0016",
+      "group": "person|to the right of|man",
+      "m_source": 0.24731868505477905,
+      "m_target": -1.2614905834197998,
+      "delta": 1.5088092684745789,
+      "patch": {
+        "S1:target": 0.16657499664508657,
+        "S6:target": 0.0833010088363896,
+        "S1:reference": 0.16932561085003295,
+        "S6:reference": 0.08513962385228284,
+        "S1:irrelevant": 0.08191061104301206,
+        "S6:irrelevant": -0.0009359388714825802,
+        "S1:random": 0.16569491703260605,
+        "S6:random": 0.0819117961758056
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0017",
+      "group": "person|to the right of|man",
+      "m_source": -0.5322091579437256,
+      "m_target": -1.252732515335083,
+      "delta": 0.7205233573913574,
+      "patch": {
+        "S1:target": 0.17389763521584703,
+        "S6:target": 0.17369032862644246,
+        "S1:reference": -0.17844663336084185,
+        "S6:reference": -0.17584165151712686,
+        "S1:irrelevant": 0.516367790015797,
+        "S6:irrelevant": 0.6914229835339337,
+        "S1:random": 0.519635060987514,
+        "S6:random": 0.5194547224540336
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0018",
+      "group": "person|to the right of|man",
+      "m_source": -1.0040054321289062,
+      "m_target": 0.9992895126342773,
+      "delta": -2.0032949447631836,
+      "patch": {
+        "S1:target": 0.3742576252959264,
+        "S6:target": 0.3126405248578149,
+        "S1:reference": -0.31180386193133697,
+        "S6:reference": -0.31202713072935584,
+        "S1:irrelevant": 0.061666580183727844,
+        "S6:irrelevant": -0.0003543321049582335,
+        "S1:random": 0.06204278096759651,
+        "S6:random": 0.0008483262218968136
+      }
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0019",
+      "group": "person|to the right of|man",
+      "m_source": -1.254777431488037,
+      "m_target": -0.628898024559021,
+      "delta": -0.6258794069290161,
+      "patch": {
+        "S1:target": 0.19777603267801938,
+        "S6:target": -0.0008314831064460273,
+        "S1:reference": 0.39724112552966456,
+        "S6:reference": 0.19826191365489346,
+        "S1:irrelevant": -0.19844876165109632,
+        "S6:irrelevant": -0.20146556635227572,
+        "S1:random": -0.001941143071662968,
+        "S6:random": -0.0013685044370208926
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0000",
+      "group": "tree|to the left of|building",
+      "m_source": 2.0187294483184814,
+      "m_target": -0.24860268831253052,
+      "delta": 2.267332136631012,
+      "patch": {
+        "S1:target": 0.44097374412259294,
+        "S6:target": 0.4404301515784071,
+        "S1:reference": 0.05795993067315437,
+        "S6:reference": 0.16621037367952135,
+        "S1:irrelevant": -0.3865306032639054,
+        "S6:irrelevant": -0.385986958142822,
+        "S1:random": -0.217750349695518,
+        "S6:random": -0.05136011044934031
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0001",
+      "group": "tree|to the left of|building",
+      "m_source": 2.499910593032837,
+      "m_target": -1.1260195970535278,
+      "delta": 3.6259301900863647,
+      "patch": {
+        "S1:target": -0.0009606954539520268,
+        "S6:target": -0.03445642196850546,
+        "S1:reference": 0.0687150894742779,
+        "S6:reference": 0.06901025814699893,
+        "S1:random": -0.0001734584447846033,
+        "S6:random": -1.78850253909826e-05
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0002",
+      "group": "tree|to the left of|building",
+      "m_source": 4.0016279220581055,
+      "m_target": 0.6274377107620239,
+      "delta": 3.3741902112960815,
+      "patch": {
+        "S1:target": 0.0006990520569350193,
+        "S6:target": 0.0003894221462899578,
+        "S1:reference": -0.07458922367083218,
+        "S6:reference": -0.18542855284512402,
+        "S1:irrelevant": -0.18485211267829554,
+        "S6:irrelevant": -0.14868158743199333,
+        "S1:random": 0.1112329908903305,
+        "S6:random": 0.03708358725117568
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0003",
+      "group": "tree|to the left of|building",
+      "m_source": -1.126556396484375,
+      "m_target": -1.0010855197906494,
+      "delta": -0.12547087669372559,
+      "patch": {
+        "S1:target": 0.01038074118834119,
+        "S6:target": 0.9875490011648168,
+        "S1:reference": -0.020493080455969735,
+        "S6:reference": 0.9777411674390941,
+        "S1:irrelevant": 0.9875556518318788,
+        "S6:irrelevant": 0.9793848322986796,
+        "S1:random": 0.010382641378930307,
+        "S6:random": 4.750476472790221e-06
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0004",
+      "group": "tree|to the left of|building",
+      "m_source": -0.00393986701965332,
+      "m_target": -0.8772574663162231,
+      "delta": 0.8733175992965698,
+      "patch": {
+        "S1:target": 0.4319864169942365,
+        "S6:target": 0.7173863101680485,
+        "S1:reference": 0.13905804855336237,
+        "S6:reference": 0.28277872032164153,
+        "S1:irrelevant": 0.0009185878249541115,
+        "S6:irrelevant": 0.00029948461073620936
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0005",
+      "group": "tree|to the left of|building",
+      "m_source": -0.8784818053245544,
+      "m_target": 0.4987660050392151,
+      "delta": -1.3772478103637695,
+      "patch": {
+        "S1:target": -0.09165800239448976,
+        "S6:target": -0.17955596167708457,
+        "S1:reference": 0.27312456159302123,
+        "S6:reference": 0.18117495147661355,
+        "S1:irrelevant": 0.09329746272718396,
+        "S6:irrelevant": 0.09236992685657781,
+        "S1:random": -0.000897327768810559,
+        "S6:random": 0.0017929244143090497
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0006",
+      "group": "tree|to the left of|building",
+      "m_source": -1.5015649795532227,
+      "m_target": -0.7482315301895142,
+      "delta": -0.7533334493637085,
+      "patch": {
+        "S1:target": 0.33420714784064803,
+        "S6:target": 0.1682782863424628,
+        "S1:reference": 0.9979208531670396,
+        "S6:reference": 0.9971389774914434,
+        "S1:irrelevant": -0.3302000152229184,
+        "S6:irrelevant": -0.1648412615147057,
+        "S1:random": -0.16658786195376504,
+        "S6:random": -0.1659299691949529
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0007",
+      "group": "tree|to the left of|building",
+      "m_source": 0.49861469864845276,
+      "m_target": 1.251459002494812,
+      "delta": -0.7528443038463593,
+      "patch": {
+        "S1:target": 3.1545702208159585,
+        "S6:target": 2.9885360838846418,
+        "S1:reference": 0.8344725281550649,
+        "S6:reference": 0.004443324943808233,
+        "S1:irrelevant": 0.4961580899577349,
+        "S6:irrelevant": 0.4968168060322241
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0008",
+      "group": "tree|to the left of|building",
+      "m_source": -1.7510735988616943,
+      "m_target": 0.626583456993103,
+      "delta": -2.3776570558547974,
+      "patch": {
+        "S1:target": 0.10435355656161048,
+        "S6:target": 0.10435280450220863,
+        "S1:reference": 0.4738182552191794,
+        "S6:reference": 0.5269406479232406,
+        "S1:irrelevant": -0.0012086848020276325,
+        "S6:irrelevant": 0.051121839489165155,
+        "S1:random": 0.10271599735134707,
+        "S6:random": 0.10444219929644341
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0009",
+      "group": "tree|to the left of|building",
+      "m_source": -0.119320809841156,
+      "m_target": 1.3768759965896606,
+      "delta": -1.4961968064308167,
+      "patch": {
+        "S1:target": 0.33283580359299414,
+        "S6:target": 0.5017993972356882,
+        "S1:reference": 0.9199687021166466,
+        "S6:reference": 0.6690839624560847,
+        "S1:random": 0.5004438487950988,
+        "S6:random": 0.33307984772697746
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0010",
+      "group": "tree|to the left of|building",
+      "m_source": -1.1242468357086182,
+      "m_target": -0.5023932456970215,
+      "delta": -0.6218535900115967,
+      "patch": {
+        "S1:target": 2.0092778932024355,
+        "S6:target": 1.607647370279533,
+        "S1:reference": -0.6095750089236317,
+        "S6:reference": -0.604348981287403,
+        "S1:random": -0.003848999115496524,
+        "S6:random": -0.0022984821582958336
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0011",
+      "group": "tree|to the left of|building",
+      "m_source": -1.1256669759750366,
+      "m_target": 1.7557551860809326,
+      "delta": -2.8814221620559692,
+      "patch": {
+        "S1:target": 0.6487680070775369,
+        "S6:target": 0.60747745212148,
+        "S1:reference": 0.1303974689465168,
+        "S6:reference": 0.04338048698692957,
+        "S1:irrelevant": 0.12926487770261047,
+        "S6:irrelevant": 0.1295926241898338,
+        "S1:random": 0.26228642850284023,
+        "S6:random": 0.045694653549580924
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0012",
+      "group": "tree|to the left of|building",
+      "m_source": 0.5044480562210083,
+      "m_target": -0.7542837262153625,
+      "delta": 1.2587317824363708,
+      "patch": {
+        "S1:target": 0.3956190011229749,
+        "S6:target": 0.4999299413320807,
+        "S1:reference": 0.002479020873884217,
+        "S6:reference": 0.09993917515448303,
+        "S1:random": 0.0991731467185718,
+        "S6:random": 0.19738914855397158
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0013",
+      "group": "tree|to the left of|building",
+      "m_source": -0.750956654548645,
+      "m_target": -1.2467526197433472,
+      "delta": 0.49579596519470215,
+      "patch": {
+        "S1:target": 0.2503942017360745,
+        "S6:target": 0.24556904745760919,
+        "S1:reference": 0.512512508902299,
+        "S6:reference": 0.5192720047280164,
+        "S1:irrelevant": -0.2552922094003469,
+        "S6:irrelevant": -0.2538385078472474,
+        "S1:random": 0.7527993252285745,
+        "S6:random": 0.4976915334748084
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0014",
+      "group": "tree|to the left of|building",
+      "m_source": -0.6281180381774902,
+      "m_target": 2.252699136734009,
+      "delta": -2.880817174911499,
+      "patch": {
+        "S1:target": 0.4343578175759493,
+        "S6:target": 0.3046706937494036,
+        "S1:reference": 1.086400832804837,
+        "S6:reference": 1.1298413070967424,
+        "S1:irrelevant": 0.087172059508618,
+        "S6:irrelevant": 0.08771840457474922,
+        "S1:random": 0.5222767100584018,
+        "S6:random": 0.2619353617054275
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0015",
+      "group": "tree|to the left of|building",
+      "m_source": -0.8762164115905762,
+      "m_target": -0.6267668604850769,
+      "delta": -0.24944955110549927,
+      "patch": {
+        "S1:target": -0.9898964628779119,
+        "S6:target": -1.4942740490061215,
+        "S1:reference": -1.0034345909231126,
+        "S6:reference": -0.9982547480101284,
+        "S1:irrelevant": 0.4966878682286959,
+        "S6:irrelevant": 0.0014530226383364288,
+        "S1:random": 1.0041987360303977,
+        "S6:random": 0.002089332338367659
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0016",
+      "group": "tree|to the left of|building",
+      "m_source": -1.127543568611145,
+      "m_target": -0.50559002161026,
+      "delta": -0.621953547000885,
+      "patch": {
+        "S1:target": 0.5907217386995959,
+        "S6:target": 0.5939495425289342,
+        "S1:reference": -0.008992635976543149,
+        "S6:reference": -0.008990048443411945,
+        "S1:irrelevant": -0.00512053639753479,
+        "S6:irrelevant": -0.0014796856128078673,
+        "S1:random": -0.20996834680304052,
+        "S6:random": -0.20654139875715993
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0017",
+      "group": "tree|to the left of|building",
+      "m_source": 0.9999956488609314,
+      "m_target": -0.12499785423278809,
+      "delta": 1.1249935030937195,
+      "patch": {
+        "S1:target": -0.2222236645157831,
+        "S6:target": -0.11111175278457289,
+        "S1:reference": 2.2241229178851474,
+        "S6:reference": 2.3363157197323616,
+        "S1:irrelevant": -0.3324773173876654,
+        "S6:irrelevant": -0.33333414572725745,
+        "S1:random": 0.0006297995592833605,
+        "S6:random": 0.11015690735196544
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0018",
+      "group": "tree|to the left of|building",
+      "m_source": 0.12499821186065674,
+      "m_target": -1.5008912086486816,
+      "delta": 1.6258894205093384,
+      "patch": {
+        "S1:target": 0.23067583873214864,
+        "S6:target": 0.153978066785058,
+        "S1:reference": 0.5388500609541101,
+        "S6:reference": 0.5385970355926986,
+        "S1:irrelevant": 3.3287022335811946e-05,
+        "S6:irrelevant": -0.00011870416114907388,
+        "S1:random": 0.07684580388122281,
+        "S6:random": 0.0770751470659506
+      }
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0019",
+      "group": "tree|to the left of|building",
+      "m_source": 0.004731237888336182,
+      "m_target": 0.3795124292373657,
+      "delta": -0.37478119134902954,
+      "patch": {
+        "S1:target": -0.32875424334642483,
+        "S6:target": 0.33051002857126954,
+        "S1:reference": 0.3301949732696013,
+        "S6:reference": 0.3244796060934017,
+        "S1:irrelevant": 2.336723186304875,
+        "S6:irrelevant": 2.337319819300437,
+        "S1:random": 0.3362578396048847,
+        "S6:random": 0.6635444755188035
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "group": "chair|to the left of|table",
+      "m_source": -0.37655407190322876,
+      "m_target": -1.0162588357925415,
+      "delta": 0.6397047638893127,
+      "patch": {
+        "S1:target": -0.20330520528135895,
+        "S6:target": -0.37938236928795016,
+        "S1:reference": -0.20363318212544834,
+        "S6:reference": -0.19631203083355037,
+        "S1:irrelevant": 0.3865679506059419,
+        "S6:irrelevant": 0.39080174032712894,
+        "S1:random": -0.20751150830680556,
+        "S6:random": -0.4127012759883214
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "m_source": -1.5033389329910278,
+      "m_target": -1.3763132095336914,
+      "delta": -0.12702572345733643,
+      "patch": {
+        "S1:target": 2.948937140626276,
+        "S6:target": 2.94767396574037,
+        "S1:reference": 1.9706635609707115,
+        "S6:reference": 1.969885572872334,
+        "S1:irrelevant": -0.982821384631122,
+        "S6:irrelevant": -0.9881790855402137,
+        "S1:random": 0.9822920899538181,
+        "S6:random": 0.984706762302582
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "group": "chair|to the left of|table",
+      "m_source": 0.3679124116897583,
+      "m_target": -0.8757076263427734,
+      "delta": 1.2436200380325317,
+      "patch": {
+        "S1:target": 1.607949624630029,
+        "S6:target": 1.808295456364553,
+        "S1:reference": -0.003930123930227456,
+        "S6:reference": -0.10585453307683364,
+        "S1:irrelevant": -0.0003622423983495013,
+        "S6:irrelevant": -0.0010306989648724565
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "m_source": -0.5049483776092529,
+      "m_target": -1.6285282373428345,
+      "delta": 1.1235798597335815,
+      "patch": {
+        "S1:target": 0.4481484935552516,
+        "S6:target": 0.33689768707976675,
+        "S1:reference": 0.11043130749237873,
+        "S6:reference": 0.10859921163009531,
+        "S1:irrelevant": -0.000409537296062893,
+        "S6:irrelevant": -0.10977668440514866,
+        "S1:random": 0.10796241296404104,
+        "S6:random": 6.822085009545084e-05
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "m_source": -0.37688350677490234,
+      "m_target": -0.6339351534843445,
+      "delta": 0.25705164670944214,
+      "patch": {
+        "S1:target": -0.47487728431801524,
+        "S6:target": 0.48054623985330464,
+        "S1:reference": -0.9589139850545296,
+        "S6:reference": -1.4548525243756045,
+        "S1:irrelevant": 1.4637383246483395,
+        "S6:irrelevant": 0.9692091403560396,
+        "S1:random": 0.4032144332053134,
+        "S6:random": 1.4354171985370348
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0005",
+      "group": "chair|to the left of|table",
+      "m_source": -1.8777234554290771,
+      "m_target": -1.3743717670440674,
+      "delta": -0.5033516883850098,
+      "patch": {
+        "S1:target": 1.4967781509181939,
+        "S6:target": 1.494180114720942,
+        "S1:reference": 0.25354938637084895,
+        "S6:reference": 0.7497996409641864
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0006",
+      "group": "chair|to the left of|table",
+      "m_source": -0.6335372924804688,
+      "m_target": -1.629696011543274,
+      "delta": 0.9961587190628052,
+      "patch": {
+        "S1:target": 0.5009789520229142,
+        "S6:target": 0.37549741903945305,
+        "S1:reference": 0.2522222228870498,
+        "S6:reference": 0.1257708925570088
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0007",
+      "group": "chair|to the left of|table",
+      "m_source": -1.7535252571105957,
+      "m_target": -1.6270323991775513,
+      "delta": -0.12649285793304443,
+      "patch": {
+        "S1:target": -0.9802148527140258,
+        "S6:target": -1.9712185196668737,
+        "S1:reference": -3.9399122984754484,
+        "S6:reference": -3.951742485856645,
+        "S1:irrelevant": -0.9925530040081085,
+        "S6:irrelevant": -0.008559992988401648,
+        "S1:random": 0.011159184958236696,
+        "S6:random": 0.000481576177152179
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0008",
+      "group": "chair|to the left of|table",
+      "m_source": -1.39004647731781,
+      "m_target": -0.8963527679443359,
+      "delta": -0.4936937093734741,
+      "patch": {
+        "S1:target": 0.2745504361686124,
+        "S6:target": -0.19188231621023116,
+        "S1:reference": -0.2626143845455272,
+        "S6:reference": -0.25828638265824405,
+        "S1:irrelevant": -0.4850225877558885,
+        "S6:irrelevant": -0.4769275050025317,
+        "S1:random": -0.258014977050048,
+        "S6:random": -0.25319861409285693
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0009",
+      "group": "chair|to the left of|table",
+      "m_source": -0.7600725889205933,
+      "m_target": -1.1312922239303589,
+      "delta": 0.3712196350097656,
+      "patch": {
+        "S1:target": 0.4675167051164798,
+        "S6:target": 0.9247940601461264,
+        "S1:reference": 0.012172063341999528,
+        "S6:reference": 0.01696555187898842,
+        "S1:irrelevant": 0.003599853051493634,
+        "S6:irrelevant": 0.016957844789493696,
+        "S1:random": 0.010079588544182175,
+        "S6:random": 0.0035976051503910063
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0010",
+      "group": "chair|to the left of|table",
+      "m_source": -0.5016771554946899,
+      "m_target": -1.249983310699463,
+      "delta": 0.748306155204773,
+      "patch": {
+        "S1:target": 0.8486455925662953,
+        "S6:target": 0.6935662241743873,
+        "S1:reference": 0.16702831671272456,
+        "S6:reference": 0.3340708116153467,
+        "S1:random": 0.0,
+        "S6:random": -2.3895825670074797e-06
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0011",
+      "group": "chair|to the left of|table",
+      "m_source": -1.3853950500488281,
+      "m_target": -1.0190041065216064,
+      "delta": -0.3663909435272217,
+      "patch": {
+        "S1:target": 0.34115750396126904,
+        "S6:target": 0.3354822336676959,
+        "S1:reference": 0.33038447898331225,
+        "S6:reference": 0.31372665128794114,
+        "S1:irrelevant": 0.3137325077842597,
+        "S6:irrelevant": 0.31672647884666066,
+        "S1:random": 0.38190342637570723,
+        "S6:random": 1.0371438518176288
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0012",
+      "group": "chair|to the left of|table",
+      "m_source": -0.25628191232681274,
+      "m_target": -1.1275553703308105,
+      "delta": 0.8712734580039978,
+      "patch": {
+        "S1:target": 0.4262447526236112,
+        "S6:target": 0.4290394083328505,
+        "S1:reference": -0.14882213789280455,
+        "S6:reference": 0.4198647474476388,
+        "S1:irrelevant": 0.2804899564858472,
+        "S6:irrelevant": 0.14118487628187582,
+        "S1:random": -0.289846932552208,
+        "S6:random": -0.2891711691903352
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0013",
+      "group": "chair|to the left of|table",
+      "m_source": -2.005755662918091,
+      "m_target": -1.6368790864944458,
+      "delta": -0.368876576423645,
+      "patch": {
+        "S1:target": 0.6675959915472047,
+        "S6:target": 0.33202331596087203,
+        "S1:reference": 2.3505263283760365,
+        "S6:reference": 1.6759424643730967,
+        "S1:irrelevant": -0.007351760185705546,
+        "S6:irrelevant": -0.010152015230285026,
+        "S1:random": -0.33959870874794507,
+        "S6:random": -0.004225428125548376
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0014",
+      "group": "chair|to the left of|table",
+      "m_source": 0.4962999224662781,
+      "m_target": -1.1160483360290527,
+      "delta": 1.6123482584953308,
+      "patch": {
+        "S1:target": 0.06322997377333649,
+        "S6:target": 0.006558495773586761,
+        "S1:reference": 0.23258265077281692,
+        "S6:reference": 0.22702889738774004,
+        "S1:irrelevant": 0.1495022220299907,
+        "S6:irrelevant": 0.2340165130570486,
+        "S1:random": -0.003154888881865045,
+        "S6:random": -0.0006089302999939189
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0015",
+      "group": "chair|to the left of|table",
+      "m_source": -0.3786431550979614,
+      "m_target": -0.8771162629127502,
+      "delta": 0.4984731078147888,
+      "patch": {
+        "S1:target": 0.7546050210983128,
+        "S6:target": 0.7565393768808313,
+        "S1:reference": 0.27518001633626055,
+        "S6:reference": 0.25501306888887004,
+        "S1:irrelevant": 0.2440263298142973,
+        "S6:irrelevant": -3.5872333235800445e-07,
+        "S1:random": 0.5003541197162594,
+        "S6:random": 0.503304619124904
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0016",
+      "group": "chair|to the left of|table",
+      "m_source": -0.6300240159034729,
+      "m_target": -1.5035268068313599,
+      "delta": 0.873502790927887,
+      "patch": {
+        "S1:target": -0.1401664762303782,
+        "S6:target": 0.002364799049058185,
+        "S1:reference": -0.2871924800809556,
+        "S6:reference": -0.2839627170214559,
+        "S1:irrelevant": 0.0005127279563314635,
+        "S6:irrelevant": 0.000918324838476023,
+        "S1:random": 0.1433434243526673,
+        "S6:random": 0.14357051493540235
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0017",
+      "group": "chair|to the left of|table",
+      "m_source": -0.2539878487586975,
+      "m_target": -1.0058144330978394,
+      "delta": 0.7518265843391418,
+      "patch": {
+        "S1:target": -0.3265025083725392,
+        "S6:target": -0.3281635782832709,
+        "S1:reference": 0.6652304342066239,
+        "S6:reference": 0.6659364206305961,
+        "S1:irrelevant": -0.1678210198756782,
+        "S6:irrelevant": -0.0018530855332877158,
+        "S1:random": 0.3322830348330768,
+        "S6:random": 0.1671572895734328
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0018",
+      "group": "chair|to the left of|table",
+      "m_source": -0.5147992372512817,
+      "m_target": -1.004840612411499,
+      "delta": 0.4900413751602173,
+      "patch": {
+        "S1:target": -0.0048823029290168615,
+        "S6:target": -0.5084126677151333,
+        "S1:reference": 1.2785157993706768,
+        "S6:reference": 1.2741121178174866,
+        "S1:irrelevant": -0.0016347322213748536,
+        "S6:irrelevant": 0.25190493740216235,
+        "S1:random": -0.0033991240073319687,
+        "S6:random": 0.24088898295086195
+      }
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0019",
+      "group": "chair|to the left of|table",
+      "m_source": -0.516839325428009,
+      "m_target": -1.2589490413665771,
+      "delta": 0.7421097159385681,
+      "patch": {
+        "S1:target": 0.15489069345212877,
+        "S6:target": -0.010743795346946939,
+        "S1:reference": 0.1766246992599113,
+        "S6:reference": 0.17705873683339712,
+        "S1:irrelevant": 0.15489262108013832,
+        "S6:irrelevant": 0.16021255311518742,
+        "S1:random": 0.15769828364805208,
+        "S6:random": 0.15769699856271235
+      }
+    }
+  ]
+}

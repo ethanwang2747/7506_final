@@ -1,0 +1,56 @@
+[
+  {
+    "group": "woman|to the left of|man",
+    "stage": "S1_region_pool",
+    "n_train": 52,
+    "n_test": 80,
+    "auc_test": 0.8725,
+    "acc_test": 0.7625,
+    "majority_test": 0.5
+  },
+  {
+    "group": "man|to the right of|woman",
+    "stage": "S1_region_pool",
+    "n_train": 52,
+    "n_test": 80,
+    "auc_test": 0.8725,
+    "acc_test": 0.7625,
+    "majority_test": 0.5
+  },
+  {
+    "group": "man|to the left of|person",
+    "stage": "S1_region_pool",
+    "n_train": 40,
+    "n_test": 80,
+    "auc_test": 0.735625,
+    "acc_test": 0.65,
+    "majority_test": 0.5
+  },
+  {
+    "group": "person|to the right of|man",
+    "stage": "S1_region_pool",
+    "n_train": 40,
+    "n_test": 80,
+    "auc_test": 0.735625,
+    "acc_test": 0.65,
+    "majority_test": 0.5
+  },
+  {
+    "group": "tree|to the left of|building",
+    "stage": "S1_region_pool",
+    "n_train": 44,
+    "n_test": 80,
+    "auc_test": 0.826875,
+    "acc_test": 0.725,
+    "majority_test": 0.5
+  },
+  {
+    "group": "chair|to the left of|table",
+    "stage": "S1_region_pool",
+    "n_train": 14,
+    "n_test": 80,
+    "auc_test": 0.7243750000000001,
+    "acc_test": 0.6625,
+    "majority_test": 0.5
+  }
+]

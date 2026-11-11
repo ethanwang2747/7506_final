@@ -1,0 +1,632 @@
+[
+  {
+    "group": "woman|to the left of|man",
+    "stage": "S0",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 8,
+    "matched_n_test": 14,
+    "auc": 0.793125,
+    "auc_ci95": [
+      0.6932661576704545,
+      0.891513822434875
+    ],
+    "residual_auc": 0.728125,
+    "residual_auc_ci95": [
+      0.6210683375637578,
+      0.8416396396396394
+    ],
+    "random_label_auc": 0.50025,
+    "acc": 0.6875
+  },
+  {
+    "group": "woman|to the left of|man",
+    "stage": "S1",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 8,
+    "matched_n_test": 14,
+    "auc": 0.8725,
+    "auc_ci95": [
+      0.7925928369553221,
+      0.9419011104127383
+    ],
+    "residual_auc": 0.725,
+    "residual_auc_ci95": [
+      0.6151459551925836,
+      0.8378205328138271
+    ],
+    "random_label_auc": 0.46749999999999997,
+    "acc": 0.7625
+  },
+  {
+    "group": "woman|to the left of|man",
+    "stage": "S6",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 8,
+    "matched_n_test": 14,
+    "auc": 0.888125,
+    "auc_ci95": [
+      0.8124099223946786,
+      0.9505012531328321
+    ],
+    "residual_auc": 0.73625,
+    "residual_auc_ci95": [
+      0.6300357960298076,
+      0.8501113195747342
+    ],
+    "random_label_auc": 0.475375,
+    "acc": 0.7875
+  },
+  {
+    "group": "woman|to the left of|man",
+    "stage": "S12",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 8,
+    "matched_n_test": 14,
+    "auc": 0.891875,
+    "auc_ci95": [
+      0.8113491048593351,
+      0.9492981104261592
+    ],
+    "residual_auc": 0.716875,
+    "residual_auc_ci95": [
+      0.613533670443303,
+      0.836001295452515
+    ],
+    "random_label_auc": 0.48425,
+    "acc": 0.7625
+  },
+  {
+    "group": "woman|to the left of|man",
+    "stage": "position",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 8,
+    "matched_n_test": 14,
+    "auc": 0.994375,
+    "auc_ci95": [
+      0.9792410714285715,
+      1.0
+    ],
+    "residual_auc": 0.993125,
+    "residual_auc_ci95": [
+      0.9772045454545455,
+      1.0
+    ],
+    "random_label_auc": 0.38,
+    "acc": 0.9875
+  },
+  {
+    "group": "man|to the right of|woman",
+    "stage": "S0",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": 0.6111111111111112,
+    "matched_n_train": 10,
+    "matched_n_test": 12,
+    "auc": 0.793125,
+    "auc_ci95": [
+      0.6932661576704545,
+      0.891513822434875
+    ],
+    "residual_auc": 0.728125,
+    "residual_auc_ci95": [
+      0.6210683375637578,
+      0.8416396396396394
+    ],
+    "random_label_auc": 0.50025,
+    "acc": 0.6875
+  },
+  {
+    "group": "man|to the right of|woman",
+    "stage": "S1",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": 0.7222222222222223,
+    "matched_n_train": 10,
+    "matched_n_test": 12,
+    "auc": 0.8725,
+    "auc_ci95": [
+      0.7925928369553221,
+      0.9419011104127383
+    ],
+    "residual_auc": 0.725625,
+    "residual_auc_ci95": [
+      0.6153775452488687,
+      0.8378205328138271
+    ],
+    "random_label_auc": 0.46749999999999997,
+    "acc": 0.7625
+  },
+  {
+    "group": "man|to the right of|woman",
+    "stage": "S6",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": 0.7222222222222223,
+    "matched_n_train": 10,
+    "matched_n_test": 12,
+    "auc": 0.888125,
+    "auc_ci95": [
+      0.8124099223946786,
+      0.9505012531328321
+    ],
+    "residual_auc": 0.73625,
+    "residual_auc_ci95": [
+      0.6300357960298076,
+      0.8501113195747342
+    ],
+    "random_label_auc": 0.475375,
+    "acc": 0.7875
+  },
+  {
+    "group": "man|to the right of|woman",
+    "stage": "S12",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": 0.7222222222222223,
+    "matched_n_train": 10,
+    "matched_n_test": 12,
+    "auc": 0.891875,
+    "auc_ci95": [
+      0.8113491048593351,
+      0.9492981104261592
+    ],
+    "residual_auc": 0.7175,
+    "residual_auc_ci95": [
+      0.613533670443303,
+      0.836329625658894
+    ],
+    "random_label_auc": 0.48425,
+    "acc": 0.7625
+  },
+  {
+    "group": "man|to the right of|woman",
+    "stage": "position",
+    "n_train": 52,
+    "n_test": 80,
+    "matched_auc": 0.888888888888889,
+    "matched_n_train": 10,
+    "matched_n_test": 12,
+    "auc": 0.994375,
+    "auc_ci95": [
+      0.9792410714285715,
+      1.0
+    ],
+    "residual_auc": 0.970625,
+    "residual_auc_ci95": [
+      0.935471875,
+      0.9968421577723903
+    ],
+    "random_label_auc": 0.38,
+    "acc": 0.9875
+  },
+  {
+    "group": "man|to the left of|person",
+    "stage": "S0",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 14,
+    "auc": 0.6556249999999999,
+    "auc_ci95": [
+      0.5311778166247644,
+      0.7820309523809524
+    ],
+    "residual_auc": 0.53125,
+    "residual_auc_ci95": [
+      0.3973715816703622,
+      0.6663690476190476
+    ],
+    "random_label_auc": 0.48412499999999997,
+    "acc": 0.625
+  },
+  {
+    "group": "man|to the left of|person",
+    "stage": "S1",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 14,
+    "auc": 0.735625,
+    "auc_ci95": [
+      0.6222798234906611,
+      0.8540226574500768
+    ],
+    "residual_auc": 0.576875,
+    "residual_auc_ci95": [
+      0.4453475386402216,
+      0.7024911699073285
+    ],
+    "random_label_auc": 0.46075,
+    "acc": 0.65
+  },
+  {
+    "group": "man|to the left of|person",
+    "stage": "S6",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 14,
+    "auc": 0.74,
+    "auc_ci95": [
+      0.6191426767676768,
+      0.8594169403948612
+    ],
+    "residual_auc": 0.606875,
+    "residual_auc_ci95": [
+      0.4732612781954887,
+      0.7298934778315395
+    ],
+    "random_label_auc": 0.47387499999999994,
+    "acc": 0.725
+  },
+  {
+    "group": "man|to the left of|person",
+    "stage": "S12",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 14,
+    "auc": 0.753125,
+    "auc_ci95": [
+      0.643786388898078,
+      0.8583489583333334
+    ],
+    "residual_auc": 0.601875,
+    "residual_auc_ci95": [
+      0.4791255731275893,
+      0.721663248832846
+    ],
+    "random_label_auc": 0.44425,
+    "acc": 0.6875
+  },
+  {
+    "group": "man|to the left of|person",
+    "stage": "position",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 14,
+    "auc": 0.97875,
+    "auc_ci95": [
+      0.9506717621809085,
+      0.9968589802812363
+    ],
+    "residual_auc": 0.971875,
+    "residual_auc_ci95": [
+      0.9399803001876172,
+      0.993669733044733
+    ],
+    "random_label_auc": 0.39337500000000003,
+    "acc": 0.9
+  },
+  {
+    "group": "person|to the right of|man",
+    "stage": "S0",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 8,
+    "auc": 0.6556249999999999,
+    "auc_ci95": [
+      0.5311778166247644,
+      0.7820309523809524
+    ],
+    "residual_auc": 0.53,
+    "residual_auc_ci95": [
+      0.3949491179869087,
+      0.6657738095238095
+    ],
+    "random_label_auc": 0.48412499999999997,
+    "acc": 0.625
+  },
+  {
+    "group": "person|to the right of|man",
+    "stage": "S1",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 8,
+    "auc": 0.735625,
+    "auc_ci95": [
+      0.6222798234906611,
+      0.8540226574500768
+    ],
+    "residual_auc": 0.576875,
+    "residual_auc_ci95": [
+      0.4453475386402216,
+      0.7024911699073285
+    ],
+    "random_label_auc": 0.46075,
+    "acc": 0.65
+  },
+  {
+    "group": "person|to the right of|man",
+    "stage": "S6",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 8,
+    "auc": 0.74,
+    "auc_ci95": [
+      0.6191426767676768,
+      0.8594169403948612
+    ],
+    "residual_auc": 0.606875,
+    "residual_auc_ci95": [
+      0.4732612781954887,
+      0.7298934778315395
+    ],
+    "random_label_auc": 0.47387499999999994,
+    "acc": 0.725
+  },
+  {
+    "group": "person|to the right of|man",
+    "stage": "S12",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 8,
+    "auc": 0.753125,
+    "auc_ci95": [
+      0.643786388898078,
+      0.8583489583333334
+    ],
+    "residual_auc": 0.601875,
+    "residual_auc_ci95": [
+      0.4791255731275893,
+      0.721663248832846
+    ],
+    "random_label_auc": 0.44425,
+    "acc": 0.6875
+  },
+  {
+    "group": "person|to the right of|man",
+    "stage": "position",
+    "n_train": 40,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 8,
+    "auc": 0.97875,
+    "auc_ci95": [
+      0.9506717621809085,
+      0.9968589802812363
+    ],
+    "residual_auc": 0.9575,
+    "residual_auc_ci95": [
+      0.9154501340391598,
+      0.9904168639520202
+    ],
+    "random_label_auc": 0.39337500000000003,
+    "acc": 0.9
+  },
+  {
+    "group": "tree|to the left of|building",
+    "stage": "S0",
+    "n_train": 44,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 2,
+    "auc": 0.706875,
+    "auc_ci95": [
+      0.5944206494190448,
+      0.8188303579114696
+    ],
+    "residual_auc": 0.72625,
+    "residual_auc_ci95": [
+      0.6044240053321528,
+      0.8264520202020201
+    ],
+    "random_label_auc": 0.565,
+    "acc": 0.6625
+  },
+  {
+    "group": "tree|to the left of|building",
+    "stage": "S1",
+    "n_train": 44,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 2,
+    "auc": 0.826875,
+    "auc_ci95": [
+      0.7399350649350649,
+      0.9118137400793651
+    ],
+    "residual_auc": 0.67625,
+    "residual_auc_ci95": [
+      0.5485104427736006,
+      0.7908845860694184
+    ],
+    "random_label_auc": 0.5738749999999999,
+    "acc": 0.725
+  },
+  {
+    "group": "tree|to the left of|building",
+    "stage": "S6",
+    "n_train": 44,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 2,
+    "auc": 0.86,
+    "auc_ci95": [
+      0.7770833333333333,
+      0.9322870544090056
+    ],
+    "residual_auc": 0.6799999999999999,
+    "residual_auc_ci95": [
+      0.5617335240417872,
+      0.7914438190535752
+    ],
+    "random_label_auc": 0.5713750000000001,
+    "acc": 0.775
+  },
+  {
+    "group": "tree|to the left of|building",
+    "stage": "S12",
+    "n_train": 44,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 2,
+    "auc": 0.873125,
+    "auc_ci95": [
+      0.7962074510854998,
+      0.9385828234098228
+    ],
+    "residual_auc": 0.711875,
+    "residual_auc_ci95": [
+      0.5925036599579283,
+      0.8194022417434715
+    ],
+    "random_label_auc": 0.5743750000000001,
+    "acc": 0.8125
+  },
+  {
+    "group": "tree|to the left of|building",
+    "stage": "position",
+    "n_train": 44,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 4,
+    "matched_n_test": 2,
+    "auc": 0.993125,
+    "auc_ci95": [
+      0.9795759154040404,
+      1.0
+    ],
+    "residual_auc": 0.83375,
+    "residual_auc_ci95": [
+      0.7439012394255361,
+      0.9187998416758008
+    ],
+    "random_label_auc": 0.622375,
+    "acc": 0.9375
+  },
+  {
+    "group": "chair|to the left of|table",
+    "stage": "S0",
+    "n_train": 14,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 2,
+    "matched_n_test": 4,
+    "auc": 0.66,
+    "auc_ci95": [
+      0.5372042039641943,
+      0.7687257424575739
+    ],
+    "residual_auc": 0.59625,
+    "residual_auc_ci95": [
+      0.46531699889258027,
+      0.7142373371636043
+    ],
+    "random_label_auc": 0.480875,
+    "acc": 0.6375
+  },
+  {
+    "group": "chair|to the left of|table",
+    "stage": "S1",
+    "n_train": 14,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 2,
+    "matched_n_test": 4,
+    "auc": 0.7243750000000001,
+    "auc_ci95": [
+      0.6078849288969201,
+      0.8280354662698413
+    ],
+    "residual_auc": 0.65125,
+    "residual_auc_ci95": [
+      0.5225119047619047,
+      0.7542652419861723
+    ],
+    "random_label_auc": 0.48587500000000006,
+    "acc": 0.6625
+  },
+  {
+    "group": "chair|to the left of|table",
+    "stage": "S6",
+    "n_train": 14,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 2,
+    "matched_n_test": 4,
+    "auc": 0.725625,
+    "auc_ci95": [
+      0.6091284990740101,
+      0.8256428023196316
+    ],
+    "residual_auc": 0.7500000000000001,
+    "residual_auc_ci95": [
+      0.6171638831522552,
+      0.8436424062049063
+    ],
+    "random_label_auc": 0.50075,
+    "acc": 0.6875
+  },
+  {
+    "group": "chair|to the left of|table",
+    "stage": "S12",
+    "n_train": 14,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 2,
+    "matched_n_test": 4,
+    "auc": 0.76375,
+    "auc_ci95": [
+      0.6575423671850218,
+      0.8604325396825396
+    ],
+    "residual_auc": 0.735,
+    "residual_auc_ci95": [
+      0.6076325162371674,
+      0.8287853026039002
+    ],
+    "random_label_auc": 0.506375,
+    "acc": 0.725
+  },
+  {
+    "group": "chair|to the left of|table",
+    "stage": "position",
+    "n_train": 14,
+    "n_test": 80,
+    "matched_auc": null,
+    "matched_n_train": 2,
+    "matched_n_test": 4,
+    "auc": 0.858125,
+    "auc_ci95": [
+      0.7668225109917184,
+      0.9215703564727955
+    ],
+    "residual_auc": 0.70375,
+    "residual_auc_ci95": [
+      0.5888746803069054,
+      0.8206579283887467
+    ],
+    "random_label_auc": 0.505875,
+    "acc": 0.7375
+  }
+]

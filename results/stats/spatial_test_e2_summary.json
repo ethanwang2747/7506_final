@@ -1,0 +1,2164 @@
+{
+  "e2": [
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S0",
+      "region": "target",
+      "n": 20,
+      "mean": -0.4378845103174448,
+      "ci95": [
+        -0.6480780161917209,
+        -0.22252948962152017
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S0",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.10449488843083381,
+      "ci95": [
+        -0.32473785310983655,
+        0.12634290777146814
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S0",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.06114587593972683,
+      "ci95": [
+        -0.012845397293567658,
+        0.14991001911461352
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S0",
+      "region": "background",
+      "n": 18,
+      "mean": -0.06252950803107686,
+      "ci95": [
+        -0.16904525872733855,
+        0.03421312843759851
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S0",
+      "region": "full",
+      "n": 20,
+      "mean": -0.14121094252467156,
+      "ci95": [
+        -0.4308907873928547,
+        0.16247820243239386
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S0",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.4522767572760582,
+      "ci95": [
+        -0.632476254850626,
+        -0.2649113417416812
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S1",
+      "region": "target",
+      "n": 20,
+      "mean": -0.39471251475512986,
+      "ci95": [
+        -0.5983645740151405,
+        -0.17852241337299357
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S1",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.10461541544497013,
+      "ci95": [
+        -0.3292960065603256,
+        0.12120467968285076
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S1",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.05644529418647289,
+      "ci95": [
+        -0.023400398045778276,
+        0.15157981313765048
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S1",
+      "region": "background",
+      "n": 18,
+      "mean": -0.035021212309598926,
+      "ci95": [
+        -0.13789446486367118,
+        0.05789156663748953
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S1",
+      "region": "full",
+      "n": 20,
+      "mean": -0.016499786633253098,
+      "ci95": [
+        -0.30617963150143623,
+        0.2871893583238123
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S1",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.42218550553023815,
+      "ci95": [
+        -0.5992877284437418,
+        -0.2454445021972061
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S6",
+      "region": "target",
+      "n": 20,
+      "mean": -0.2626539605021477,
+      "ci95": [
+        -0.4729608105868101,
+        -0.02325902841985226
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S6",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.10357087353765963,
+      "ci95": [
+        -0.1477516010403633,
+        0.38262512639164925
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S6",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.1425443521499634,
+      "ci95": [
+        0.04411663763225079,
+        0.2622051084786653
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S6",
+      "region": "background",
+      "n": 18,
+      "mean": 0.08370719952715769,
+      "ci95": [
+        8.405380778842513e-05,
+        0.16731460500094622
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S6",
+      "region": "full",
+      "n": 20,
+      "mean": 0.3198935793071985,
+      "ci95": [
+        0.005404916256666184,
+        0.6536956891417504
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S6",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.3930819688230753,
+      "ci95": [
+        -0.557757933922112,
+        -0.229283923432231
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S12",
+      "region": "target",
+      "n": 20,
+      "mean": -0.3109836434394121,
+      "ci95": [
+        -0.48584746204316615,
+        -0.13497842818498615
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S12",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.026459483405947688,
+      "ci95": [
+        -0.12883909240365027,
+        0.17686562076210977
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S12",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.06186942650973797,
+      "ci95": [
+        0.013520278409123421,
+        0.11905814290046692
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S12",
+      "region": "background",
+      "n": 18,
+      "mean": 0.07575516785846817,
+      "ci95": [
+        0.0177024770114157,
+        0.1279637868205706
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S12",
+      "region": "full",
+      "n": 20,
+      "mean": 0.05961944318115711,
+      "ci95": [
+        -0.18959760196506978,
+        0.3174310731887817
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S12",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.3790090460151434,
+      "ci95": [
+        -0.5701390290260315,
+        -0.18930505096912384
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S18",
+      "region": "target",
+      "n": 20,
+      "mean": -0.054284085765480994,
+      "ci95": [
+        -0.09882792674005031,
+        -0.01632336050271988
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S18",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.01798167270421982,
+      "ci95": [
+        -0.07671005345880985,
+        0.0319014035910368
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S18",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.017956669411063195,
+      "ci95": [
+        -0.04267081085592508,
+        0.006837035752832888
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S18",
+      "region": "background",
+      "n": 18,
+      "mean": 0.0018563840654161243,
+      "ci95": [
+        -0.027108877731694115,
+        0.03526762980553838
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S18",
+      "region": "full",
+      "n": 20,
+      "mean": -0.08909201932549476,
+      "ci95": [
+        -0.1518792490661144,
+        -0.027115371227264408
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "chair|to the left of|table",
+      "stage": "S18",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.04607804812937975,
+      "ci95": [
+        -0.0899479353055358,
+        -0.006245445795357229
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S0",
+      "region": "target",
+      "n": 20,
+      "mean": 0.06029132102131844,
+      "ci95": [
+        -0.1494754222780466,
+        0.23848907269537437
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S0",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.0671702463209629,
+      "ci95": [
+        -0.031024060025811196,
+        0.1630950929224491
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S0",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.07449235333800315,
+      "ci95": [
+        0.006594538390636444,
+        0.14381504386663435
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S0",
+      "region": "background",
+      "n": 18,
+      "mean": 0.0977247481909063,
+      "ci95": [
+        0.013072900970776876,
+        0.18047967441380022
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S0",
+      "region": "full",
+      "n": 20,
+      "mean": -0.04072862248718739,
+      "ci95": [
+        -0.22358107060194016,
+        0.13308665111660956
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S0",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.017813126700371506,
+      "ci95": [
+        -0.18714009979739785,
+        0.14765666661784052
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S1",
+      "region": "target",
+      "n": 20,
+      "mean": 0.060091741216182715,
+      "ci95": [
+        -0.13717248871922494,
+        0.23139427989721298
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S1",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.047344352388381965,
+      "ci95": [
+        -0.056020887792110445,
+        0.13824024789035322
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S1",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.04922078607678414,
+      "ci95": [
+        -0.013151259757578372,
+        0.11279203094542027
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S1",
+      "region": "background",
+      "n": 18,
+      "mean": 0.08389354942904578,
+      "ci95": [
+        0.005518707633018494,
+        0.159561274614599
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S1",
+      "region": "full",
+      "n": 20,
+      "mean": -0.0406547127276659,
+      "ci95": [
+        -0.22350716084241867,
+        0.13316056087613104
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S1",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": 0.003860215490311384,
+      "ci95": [
+        -0.16478776428848504,
+        0.16004088191315533
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S6",
+      "region": "target",
+      "n": 20,
+      "mean": 0.0036093739897012705,
+      "ci95": [
+        -0.16221701838076114,
+        0.1500016714259982
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S6",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.03688799312710762,
+      "ci95": [
+        -0.024946987703442572,
+        0.0944198228418827
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S6",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.04316393339037896,
+      "ci95": [
+        -0.018607832789421082,
+        0.10010015666484832
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S6",
+      "region": "background",
+      "n": 18,
+      "mean": 0.13179956718948155,
+      "ci95": [
+        0.0696908218993081,
+        0.20146771892905235
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S6",
+      "region": "full",
+      "n": 20,
+      "mean": 0.2842683093696833,
+      "ci95": [
+        0.11389621496200561,
+        0.457446352019906
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S6",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.08085069480985403,
+      "ci95": [
+        -0.23425751633942127,
+        0.05011163555085659
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S12",
+      "region": "target",
+      "n": 20,
+      "mean": -0.0918465644747019,
+      "ci95": [
+        -0.23765048295259475,
+        0.043317716866731644
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S12",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.00027196649610996247,
+      "ci95": [
+        -0.05599012292921544,
+        0.06266877047717571
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S12",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.00651159424930811,
+      "ci95": [
+        -0.03731039006263018,
+        0.049822181425988675
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S12",
+      "region": "background",
+      "n": 18,
+      "mean": 0.08940508959359593,
+      "ci95": [
+        0.041864138510492116,
+        0.1461275129682488
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S12",
+      "region": "full",
+      "n": 20,
+      "mean": 0.6138247645631433,
+      "ci95": [
+        0.4072290686145425,
+        0.8201581428572534
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S12",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.13568275877609853,
+      "ci95": [
+        -0.2752610754966736,
+        -0.012563615888357162
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S18",
+      "region": "target",
+      "n": 20,
+      "mean": -0.0315444915831089,
+      "ci95": [
+        -0.06851789973676205,
+        5.6954324245452845e-05
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S18",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.018916551002860067,
+      "ci95": [
+        -0.04967043153941631,
+        0.012561068683862685
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S18",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.024987140211462974,
+      "ci95": [
+        -0.05604326218366623,
+        0.006342246383428573
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S18",
+      "region": "background",
+      "n": 18,
+      "mean": -3.878561986817251e-05,
+      "ci95": [
+        -0.02057823489109675,
+        0.020786462144719228
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S18",
+      "region": "full",
+      "n": 20,
+      "mean": -0.04921753123700619,
+      "ci95": [
+        -0.10539162464439869,
+        0.00041241951286792757
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the left of|person",
+      "stage": "S18",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.015883942046761516,
+      "ci95": [
+        -0.0499969370663166,
+        0.018206877969205375
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S0",
+      "region": "target",
+      "n": 20,
+      "mean": -0.5109084800481797,
+      "ci95": [
+        -0.8999310185015202,
+        -0.1991807752847673
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S0",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.1266878508299589,
+      "ci95": [
+        -0.33672416873276234,
+        0.06367088064551353
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S0",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.12436523174494504,
+      "ci95": [
+        -0.049721074029803275,
+        0.34391506657004356
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S0",
+      "region": "background",
+      "n": 16,
+      "mean": -2.884719520807266e-06,
+      "ci95": [
+        -0.1562622337602079,
+        0.12403109986335038
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S0",
+      "region": "full",
+      "n": 20,
+      "mean": -0.11868597979843616,
+      "ci95": [
+        -0.636990432292223,
+        0.3396622656285761
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S0",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.6192742890916764,
+      "ci95": [
+        -0.9780447457171976,
+        -0.28688062807545067
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S1",
+      "region": "target",
+      "n": 20,
+      "mean": -0.5489426038354634,
+      "ci95": [
+        -0.9377008862048387,
+        -0.24305670358240605
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S1",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.12655336274206638,
+      "ci95": [
+        -0.3365885978192091,
+        0.06367131948471069
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S1",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.1558386500909925,
+      "ci95": [
+        -0.018461068645119667,
+        0.3697246588394045
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S1",
+      "region": "background",
+      "n": 16,
+      "mean": -0.007846279434859754,
+      "ci95": [
+        -0.15936516877263784,
+        0.10770270936191079
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S1",
+      "region": "full",
+      "n": 20,
+      "mean": -0.11889799351990223,
+      "ci95": [
+        -0.637202446013689,
+        0.33945025190711003
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S1",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.6728514220304788,
+      "ci95": [
+        -1.0258048193901779,
+        -0.3492693465389311
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S6",
+      "region": "target",
+      "n": 20,
+      "mean": -0.6292783402562142,
+      "ci95": [
+        -1.0683835276961327,
+        -0.27492893636226656
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S6",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.1708342198461294,
+      "ci95": [
+        -0.33765838153660294,
+        -0.024611393734812737
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S6",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.11806523812711238,
+      "ci95": [
+        -0.04986290872097015,
+        0.33768347345292565
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S6",
+      "region": "background",
+      "n": 16,
+      "mean": -0.00125737539306283,
+      "ci95": [
+        -0.1089066437445581,
+        0.09288819413632154
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S6",
+      "region": "full",
+      "n": 20,
+      "mean": -0.23804083526432515,
+      "ci95": [
+        -0.7617093899846077,
+        0.2215444181114434
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S6",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.7398153893589974,
+      "ci95": [
+        -1.1383210326358675,
+        -0.38669169712811746
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S12",
+      "region": "target",
+      "n": 20,
+      "mean": -0.3083646334514022,
+      "ci95": [
+        -0.5246310897544026,
+        -0.11840787932276726
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S12",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.09061179350316524,
+      "ci95": [
+        -0.20628283031284808,
+        0.006598846912384032
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S12",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.13636224006712436,
+      "ci95": [
+        -0.018584985509514807,
+        0.35684783197939396
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S12",
+      "region": "background",
+      "n": 16,
+      "mean": 0.039314854368567465,
+      "ci95": [
+        0.01577014341019094,
+        0.07034952510148287
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S12",
+      "region": "full",
+      "n": 20,
+      "mean": 0.32024940659254786,
+      "ci95": [
+        -0.03653104316443204,
+        0.6394265387952328
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S12",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.4503047097571194,
+      "ci95": [
+        -0.7162675813958049,
+        -0.2122388647496701
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S18",
+      "region": "target",
+      "n": 20,
+      "mean": -4.597292393445975e-05,
+      "ci95": [
+        -0.030886494554579258,
+        0.031409602835774424
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S18",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.012716419301927089,
+      "ci95": [
+        -0.01832698617130518,
+        0.04384585041552782
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S18",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.03732518808245659,
+      "ci95": [
+        0.00025168560445308684,
+        0.07454920858144759
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S18",
+      "region": "background",
+      "n": 16,
+      "mean": 0.015099295061081647,
+      "ci95": [
+        -0.030178256845101715,
+        0.05466516232118011
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S18",
+      "region": "full",
+      "n": 20,
+      "mean": 0.02561764318943024,
+      "ci95": [
+        0.00043004147708416,
+        0.056249651014804836
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "man|to the right of|woman",
+      "stage": "S18",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.02506706474646926,
+      "ci95": [
+        -0.055677190981805326,
+        0.006231231354176995
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S0",
+      "region": "target",
+      "n": 20,
+      "mean": -0.14283979133069516,
+      "ci95": [
+        -0.30479537717998023,
+        0.00967014491558065
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S0",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.008349774131178857,
+      "ci95": [
+        -0.19464895769953727,
+        0.13914935015141958
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S0",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.0010858918428421015,
+      "ci95": [
+        -0.11946742437779904,
+        0.10202226541936397
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S0",
+      "region": "background",
+      "n": 18,
+      "mean": 0.048288965006669356,
+      "ci95": [
+        -0.011844861176278854,
+        0.1116963957746823
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S0",
+      "region": "full",
+      "n": 20,
+      "mean": 0.4037554923176765,
+      "ci95": [
+        0.06686829783022404,
+        0.7245306269079446
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S0",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.15145007619708775,
+      "ci95": [
+        -0.26735359996557234,
+        -0.04363957297056924
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S1",
+      "region": "target",
+      "n": 20,
+      "mean": -0.09897150944173336,
+      "ci95": [
+        -0.2743462401628494,
+        0.05375305935740461
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S1",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.010343230482935905,
+      "ci95": [
+        -0.16799181930720808,
+        0.1575545870512724
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S1",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.025581189200282097,
+      "ci95": [
+        -0.15026728071272372,
+        0.08254997566342354
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S1",
+      "region": "background",
+      "n": 18,
+      "mean": 0.055424648750159476,
+      "ci95": [
+        -0.01425807981027497,
+        0.12862134079138438
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S1",
+      "region": "full",
+      "n": 20,
+      "mean": 0.27861053382158274,
+      "ci95": [
+        -0.05827666066586971,
+        0.5993856684118508
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S1",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.09560827094167472,
+      "ci95": [
+        -0.21271468659862877,
+        0.015971777178347104
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S6",
+      "region": "target",
+      "n": 20,
+      "mean": -0.14293131215572355,
+      "ci95": [
+        -0.29839747808873657,
+        -0.013204357475042358
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S6",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.07086933003067969,
+      "ci95": [
+        -0.23816551275551318,
+        0.06932052031159401
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S6",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.04571599098145961,
+      "ci95": [
+        -0.16775448724627492,
+        0.04452886864542961
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S6",
+      "region": "background",
+      "n": 18,
+      "mean": 0.00742630188829369,
+      "ci95": [
+        -0.0486570630222559,
+        0.06167812786168522
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S6",
+      "region": "full",
+      "n": 20,
+      "mean": 0.12805451394319534,
+      "ci95": [
+        -0.2618815039098263,
+        0.4821134637296199
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S6",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.11397894512936473,
+      "ci95": [
+        -0.2244913180731237,
+        -0.02679282277822497
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S12",
+      "region": "target",
+      "n": 20,
+      "mean": -0.09719976282119751,
+      "ci95": [
+        -0.24879443727433684,
+        0.027748252376913918
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S12",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.05870832591950894,
+      "ci95": [
+        -0.22118559926748277,
+        0.08139412760734557
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S12",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.010493984740972519,
+      "ci95": [
+        -0.0943026516586542,
+        0.09996469676494599
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S12",
+      "region": "background",
+      "n": 18,
+      "mean": 0.02950067157546679,
+      "ci95": [
+        -0.0056778142021762,
+        0.06996169984340667
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S12",
+      "region": "full",
+      "n": 20,
+      "mean": 0.7412514825269579,
+      "ci95": [
+        0.3549495650827885,
+        1.0974178039282556
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S12",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.11559544306844473,
+      "ci95": [
+        -0.23699142571538687,
+        -0.022999752052128314
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S18",
+      "region": "target",
+      "n": 20,
+      "mean": -0.024811556392908093,
+      "ci95": [
+        -0.06799888819456101,
+        0.01875750459730625
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S18",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.00027065662145614607,
+      "ci95": [
+        -0.03081745319068432,
+        0.03162811875343312
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S18",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.005828887864947319,
+      "ci95": [
+        -0.03713357120752334,
+        0.02416019804775715
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S18",
+      "region": "background",
+      "n": 18,
+      "mean": 0.0012442172335253823,
+      "ci95": [
+        -0.027261977477206125,
+        0.02781980774468846
+      ],
+      "n_clusters": 18
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S18",
+      "region": "full",
+      "n": 20,
+      "mean": -0.0888526724100113,
+      "ci95": [
+        -0.13955363549292088,
+        -0.04329442322254181
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "person|to the right of|man",
+      "stage": "S18",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.019101233349740503,
+      "ci95": [
+        -0.05907949682325125,
+        0.02189631335437298
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S0",
+      "region": "target",
+      "n": 20,
+      "mean": -0.4600391591310501,
+      "ci95": [
+        -0.9567925937473775,
+        -0.08802555788308382
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S0",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.1864730953603983,
+      "ci95": [
+        -0.6511470440402627,
+        0.2246870805695653
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S0",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.1572716767132282,
+      "ci95": [
+        0.024050962701439863,
+        0.286618148162961
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S0",
+      "region": "background",
+      "n": 17,
+      "mean": 0.22922243223295494,
+      "ci95": [
+        0.16265717613346437,
+        0.29482948350555754
+      ],
+      "n_clusters": 17
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S0",
+      "region": "full",
+      "n": 20,
+      "mean": -0.35158021180927757,
+      "ci95": [
+        -1.032182056196034,
+        0.24363649614155292
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S0",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.6423571083918214,
+      "ci95": [
+        -1.0882843643799425,
+        -0.3007477992773056
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S1",
+      "region": "target",
+      "n": 20,
+      "mean": -0.4025497083768248,
+      "ci95": [
+        -0.869668386541307,
+        -0.04342181060463203
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S1",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.10510397083759307,
+      "ci95": [
+        -0.5340017751976848,
+        0.28116405043750986
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S1",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.18838971157073975,
+      "ci95": [
+        0.04900692317634821,
+        0.3172412901371717
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S1",
+      "region": "background",
+      "n": 17,
+      "mean": 0.2653572324952659,
+      "ci95": [
+        0.19994207730188088,
+        0.33163537133265936
+      ],
+      "n_clusters": 17
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S1",
+      "region": "full",
+      "n": 20,
+      "mean": -0.3516194316655398,
+      "ci95": [
+        -1.0322212760522962,
+        0.2435972762852907
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S1",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.6158797772943974,
+      "ci95": [
+        -1.0444952984526754,
+        -0.29107202876359234
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S6",
+      "region": "target",
+      "n": 20,
+      "mean": -0.1764535536274314,
+      "ci95": [
+        -0.49450450416654346,
+        0.10072807956486927
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S6",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.24046638519316912,
+      "ci95": [
+        -0.1512269601225853,
+        0.6380399171262978
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S6",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.22564480870962142,
+      "ci95": [
+        0.09386430177837611,
+        0.34422900915145876
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S6",
+      "region": "background",
+      "n": 17,
+      "mean": 0.28831310502921836,
+      "ci95": [
+        0.2282226651906967,
+        0.359298616866855
+      ],
+      "n_clusters": 17
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S6",
+      "region": "full",
+      "n": 20,
+      "mean": 0.6461584391862154,
+      "ci95": [
+        0.027260669134557255,
+        1.149855791516602
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S6",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.4274243378967047,
+      "ci95": [
+        -0.7290391416661441,
+        -0.15945240549743184
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S12",
+      "region": "target",
+      "n": 20,
+      "mean": -0.5386855581283568,
+      "ci95": [
+        -1.0390399162098765,
+        -0.16873005922883763
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S12",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.20493655220866203,
+      "ci95": [
+        -0.5622835505008698,
+        0.12534602310508489
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S12",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.0010518455713987354,
+      "ci95": [
+        -0.09372673094272614,
+        0.08710884992033242
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S12",
+      "region": "background",
+      "n": 17,
+      "mean": 0.05227431159335024,
+      "ci95": [
+        0.016398038101546906,
+        0.08958027638933239
+      ],
+      "n_clusters": 17
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S12",
+      "region": "full",
+      "n": 20,
+      "mean": -0.3172859666913747,
+      "ci95": [
+        -0.87084460940212,
+        0.1757360277697444
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S12",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.5567358000651002,
+      "ci95": [
+        -1.027340735308826,
+        -0.19432500120252372
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S18",
+      "region": "target",
+      "n": 20,
+      "mean": -0.005939371550083161,
+      "ci95": [
+        -0.03699636898934841,
+        0.024893416017293925
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S18",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.0005283289939165117,
+      "ci95": [
+        -0.04251571454107761,
+        0.038732926249503995
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S18",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.01904421192407608,
+      "ci95": [
+        -0.04993768762797117,
+        0.01195363514125347
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S18",
+      "region": "background",
+      "n": 17,
+      "mean": -0.007622901963837007,
+      "ci95": [
+        -0.04293941141051405,
+        0.028762255609035493
+      ],
+      "n_clusters": 17
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S18",
+      "region": "full",
+      "n": 20,
+      "mean": -0.022962151139974595,
+      "ci95": [
+        -0.07836036760360002,
+        0.032840015441179274
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "tree|to the left of|building",
+      "stage": "S18",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": 0.0067110483512282364,
+      "ci95": [
+        -0.024834743849933148,
+        0.03826584488153455
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S0",
+      "region": "target",
+      "n": 20,
+      "mean": -0.6595256695270538,
+      "ci95": [
+        -1.2439951349794864,
+        -0.1936717738211155
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S0",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.42339945701956755,
+      "ci95": [
+        -0.775246540531516,
+        -0.16231933079659938
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S0",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.0962466346681118,
+      "ci95": [
+        -0.36940199170261623,
+        0.09392121613025652
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S0",
+      "region": "background",
+      "n": 16,
+      "mean": -0.03213753343001008,
+      "ci95": [
+        -0.17979121869429945,
+        0.10160212945193052
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S0",
+      "region": "full",
+      "n": 20,
+      "mean": -0.8022698356330396,
+      "ci95": [
+        -1.4879076182097195,
+        -0.1558262332528831
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S0",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.5817421629682182,
+      "ci95": [
+        -1.1030964124947786,
+        -0.14953559752553716
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S1",
+      "region": "target",
+      "n": 20,
+      "mean": -0.6720546290934085,
+      "ci95": [
+        -1.2751392447203398,
+        -0.19970164120197295
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S1",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.38668380238860844,
+      "ci95": [
+        -0.7505253129824996,
+        -0.12492521941661834
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S1",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.08257119258940218,
+      "ci95": [
+        -0.3816941642016172,
+        0.13720628798007964
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S1",
+      "region": "background",
+      "n": 16,
+      "mean": -0.07129202874749899,
+      "ci95": [
+        -0.2265927992761135,
+        0.06282037682831271
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S1",
+      "region": "full",
+      "n": 20,
+      "mean": -0.8021516992270947,
+      "ci95": [
+        -1.4877894818037747,
+        -0.1557080968469383
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S1",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.5852731294877827,
+      "ci95": [
+        -1.1030599476583303,
+        -0.14625696679577252
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S6",
+      "region": "target",
+      "n": 20,
+      "mean": -0.6681198377370835,
+      "ci95": [
+        -1.2062072050571442,
+        -0.2622927881404758
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S6",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.44840543093681334,
+      "ci95": [
+        -0.8188058133423328,
+        -0.17482473835349083
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S6",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": -0.028257808360457416,
+      "ci95": [
+        -0.24403129920363426,
+        0.14365815632045267
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S6",
+      "region": "background",
+      "n": 16,
+      "mean": -0.047210504684597254,
+      "ci95": [
+        -0.14832381708547474,
+        0.039278339408337894
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S6",
+      "region": "full",
+      "n": 20,
+      "mean": -0.6891176458597184,
+      "ci95": [
+        -1.362465340346098,
+        -0.07481460850685835
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S6",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.6267437221378088,
+      "ci95": [
+        -1.119134462028742,
+        -0.22455472733825468
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S12",
+      "region": "target",
+      "n": 20,
+      "mean": -0.3037335807353258,
+      "ci95": [
+        -0.5499332464486361,
+        -0.0871062628924848
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S12",
+      "region": "reference",
+      "n": 20,
+      "mean": -0.23708102623820304,
+      "ci95": [
+        -0.4248733002692461,
+        -0.07497972525656224
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S12",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.10729258523583413,
+      "ci95": [
+        6.14611804485321e-05,
+        0.2126214599609375
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S12",
+      "region": "background",
+      "n": 16,
+      "mean": -0.016227764219045638,
+      "ci95": [
+        -0.0546461982652545,
+        0.023511152341961862
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S12",
+      "region": "full",
+      "n": 20,
+      "mean": 0.058990891030430787,
+      "ci95": [
+        -0.3998999667167663,
+        0.49423929400742056
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S12",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.3724438726112246,
+      "ci95": [
+        -0.615663332156837,
+        -0.15293618343770513
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S18",
+      "region": "target",
+      "n": 20,
+      "mean": -0.005483383643627167,
+      "ci95": [
+        -0.03737515665590763,
+        0.025102250799536704
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S18",
+      "region": "reference",
+      "n": 20,
+      "mean": 0.012455699211359023,
+      "ci95": [
+        -0.01858635514974594,
+        0.043698622584342955
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S18",
+      "region": "irrelevant",
+      "n": 20,
+      "mean": 0.006342368391156196,
+      "ci95": [
+        -0.031109695956110954,
+        0.04367619201540947
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S18",
+      "region": "background",
+      "n": 16,
+      "mean": -0.01604399948567152,
+      "ci95": [
+        -0.06232755789533258,
+        0.03118633069097996
+      ],
+      "n_clusters": 16
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S18",
+      "region": "full",
+      "n": 20,
+      "mean": 0.007675009295344353,
+      "ci95": [
+        -0.030911346673965456,
+        0.050201086923480034
+      ],
+      "n_clusters": 20
+    },
+    {
+      "group": "woman|to the left of|man",
+      "stage": "S18",
+      "region": "target_minus_controls",
+      "n": 20,
+      "mean": -0.005210980698466301,
+      "ci95": [
+        -0.0405305028706789,
+        0.031199128031730652
+      ],
+      "n_clusters": 20
+    }
+  ]
+}
