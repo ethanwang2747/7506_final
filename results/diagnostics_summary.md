@@ -1,0 +1,188 @@
+# Diagnostic summary: where the relation answer is lost
+
+This note reports the diagnostic chain that follows `docs/diagnostic_handbook.md`. It is
+not an improvement experiment. The goal is to locate the bottleneck before touching the
+model, using probes, the logit lens, and causal region interventions on the same frozen
+SmolVLM2-2.2B and the same GQA same-image pairs.
+
+Data: `data/derived/spatial_pairs_dev_strict.jsonl` (2412 examples, 494 images, 1206 pairs)
+for all probes; `spatial_pairs_test*.jsonl` for the readout references. Boxes come from GQA
+scene graphs. Every probe is 5-fold cross-validated grouped by image id, so no image is
+shared between train and test, and every number is out-of-fold.
+
+## 1. The answer is almost fully determined by object geometry
+
+A per-group logistic probe on the 12-dimensional box description (centres, sizes,
+differences) reaches **AUC 0.991** on the 480 test-core examples. The task is therefore
+nearly deterministic from the two boxes: `chair left of table` is answered by the sign of
+`dx`.
+
+The model's own yes/no margin on the same examples reaches **AUC 0.600**. More importantly,
+the model's margin and the geometry rule are almost unrelated:
+
+| quantity | value |
+|---|---:|
+| per-group position-only AUC | 0.991 |
+| model margin AUC | 0.600 |
+| Spearman(position score, model margin) | 0.183 |
+| sign agreement | 0.562 |
+
+This is the core "sees but does not answer" fact in this benchmark: the evidence that
+decides the label is trivially decodable from the two objects, and the model's decision
+barely tracks it.
+
+## 2. Object identity is present in the visual tokens
+
+`experiments/per_token_probe_map.py` trains one probe per cell of the 9x9 visual grid
+(figure: `results/figures/per_token_probe_dev.png`).
+
+**Name pointing.** Train a 20-way name probe on object cells (top-20 names cover 78% of
+mentioned objects), then ask for each test example whether the target-name score and the
+reference-name score peak inside the corresponding box.
+
+| stage | top-1 hit (both objects) | both hit | chance |
+|---|---:|---:|---:|
+| S1 connector | 0.540 [0.496, 0.589] | 0.317 | 0.205 |
+| S6 | 0.595 [0.560, 0.633] | 0.358 | 0.205 |
+| S12 | 0.619 [0.580, 0.658] | 0.398 | 0.205 |
+
+Object identity is locally decodable and improves with depth. The model therefore has the
+ingredients needed to find the two objects.
+
+**Queried-object membership.** A per-cell probe for "this token belongs to one of the two
+queried objects" is much weaker (AUC 0.582 / 0.584 / 0.587; argmax hit 0.506 / 0.463 / 0.451
+against chance 0.390). Knowing *what* a patch looks like is easier than knowing that it is
+one of the two objects the question is about.
+
+## 3. No single token answers the relation
+
+For each relation type separately (question fixed within the type), a per-cell probe is
+trained to predict whether the image satisfies the relation.
+
+| target | mean cell acc (S1/S6/S12) | best cell | mean-pooled tokens |
+|---|---|---:|---|
+| left of (n=1052) | 0.494 / 0.496 / 0.495 | 0.524-0.541 | 0.488 / 0.484 / 0.479 |
+| right of (n=1052) | 0.494 / 0.496 / 0.494 | 0.524-0.541 | 0.488 / 0.484 / 0.478 |
+| above (n=154) | 0.494 / 0.495 / 0.490 | 0.591-0.597 | 0.494 / 0.474 / 0.513 |
+| below (n=154) | 0.495 / 0.495 / 0.491 | 0.591-0.597 | 0.494 / 0.474 / 0.513 |
+| model correctness (n=2412) | 0.544 / 0.542 / 0.542 | 0.583-0.604 | 0.588 / 0.582 / 0.586 |
+
+The relation decision is not linearly readable from any single token, nor from the mean of
+all tokens. Correctness is only slightly above chance and no better than its pooled
+baseline. Local object evidence exists (section 2), but the relation is not assembled at the
+token level.
+
+A matched control makes the same point without the 9x9 grid: under the same grouped CV, a
+global logistic reader on `[mean all tokens + question]` scores AUC 0.474, and a reader on
+`[pooled target + pooled reference + difference + question]` scores AUC 0.492
+(`results/diagnostics/region_pool_reference.json`). Pooled content does not carry the
+relation in a group-general way.
+
+Caveat: the earlier per-group oracle-region probe reaches 0.81 because a per-group reader
+also learns that group's rule and reads geometry off the region features; it is not evidence
+that pooled region content contains a group-general relation code. The honest upper bound
+for "information available to a simple reader" is the geometry probe in section 1, not 0.81.
+
+## 4. The decision appears only in the last layers
+
+`experiments/logit_lens.py` applies the model's own final norm and LM head to the last-token
+hidden state after each text layer. On the 80-pair test-core set:
+
+| layer | 12 | 14 | 16 | 17 | 18 | 19 | 20 | final |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| AUC | 0.507 | 0.493 | 0.557 | 0.567 | 0.636 | **0.646** | 0.621 | 0.634 |
+
+Through layer 14 the lens is at chance; the signal appears at layer 18 and peaks at 19 — in
+the last quarter of the 24-layer stack. Intermediate lens margins also carry a large
+positive yes-bias, so only AUC is interpretable (the accuracy column is at 0.50 because the
+threshold is off; the final margin has its own bias).
+
+On a 240-pair strict sample the same profile holds with a lower ceiling (AUC 0.50-0.55 in
+layers 1-14, 0.547 at layer 22, final 0.548).
+
+## 5. The model uses the target region, but only partly
+
+From the existing same-image flip counterfactual runs (`results/flip/*.json`, 376 unique
+pairs, 17 groups), aggregated by `experiments/aggregate_region_patching.py`.
+
+Baseline: the model ranks the original image above its mirror in 58.8% of pairs (left
+67.5%, right 58.8%, above 53.8%, **below 35.7%**).
+
+**Ablation** (replace a region's tokens by the layer mean; mean margin change, negative
+means the region supports "yes"):
+
+| stage | target | reference | irrelevant | background |
+|---|---:|---:|---:|---:|
+| S1 | -0.382 [-0.465, -0.306] | -0.141 [-0.200, -0.079] | +0.041 [-0.001, 0.081] | +0.033 [-0.002, 0.068] |
+| S6 | -0.316 [-0.395, -0.243] | -0.066 [-0.124, -0.004] | +0.076 [0.038, 0.113] | +0.104 [0.073, 0.135] |
+
+**Patching** (copy a region from the original image into the mirrored one; fraction of the
+flip gap recovered, median):
+
+| stage | target | reference | irrelevant | random |
+|---|---:|---:|---:|---:|
+| S1 | 0.333 [0.252, 0.464] | 0.201 [0.129, 0.256] | 0.072 [0.007, 0.126] | 0.003 [0.001, 0.014] |
+| S6 | 0.331 [0.250, 0.471] | 0.200 [0.083, 0.250] | 0.071 [0.005, 0.143] | 0.002 [0.000, 0.012] |
+
+The target region is causally used and the effect is specific (controls near zero), but only
+about one third of the flip gap is carried by the region tokens; the rest is carried
+elsewhere (global context, position, language prior).
+
+## 6. Synthesis
+
+```
+pixels -> visual tokens        object identity decodable (name pointing 0.54-0.62)
+       -> region selection      target region causally used (ablation -0.38, patch R 0.33)
+       -> composition           no single token answers; pooled tokens at chance
+       -> late decision         relation signal only readable at layers 18-19
+       -> weak answer           margin AUC 0.60; rho with geometry 0.18
+```
+
+- It is not an encoding failure: object identity is present and localizable.
+- It is not an attention-routing failure: attention mass on target/reference is below
+  background, head ablation/amplification has no effect, and latent steering is null
+  (`results/attention_summary.md`, `results/attention_causal_summary.md`,
+  `results/latent_steering_summary.md`).
+- It is a **late composition and readout failure**: the model has local object evidence but
+  does not turn object positions into a relation decision until the final layers, and the
+  result is only weakly aligned with the geometry that defines the answer.
+
+## 7. What this implies for an improvement
+
+Any intervention should be judged by whether it moves the late decision, not by whether it
+changes attention maps. The diagnosis suggests three directions, in order of cost:
+
+1. **Decomposition prompting (training-free).** Ask for each object's side separately
+   ("Is the chair on the left half or the right half?"), then either combine the two answers
+   with the relation rule or feed them back into the relation question. This tests whether
+   the model can report positions when asked directly, which is the missing composition step.
+2. **Question-side reversal consistency (training-free).** Ask both "Is X left of Y?" and
+   "Is Y left of X?"; inconsistent answer pairs flag a failed composition. This is the
+   question-space analogue of the image-flip consistency that already gives the only
+   deployable gain.
+3. **Explicit region supervision (light training).** Train a small head that pools two
+   proposal regions and compares them, with boxes only at train time. The earlier
+   mask-BCE reader failed with ~1.8k pairs; this diagnosis says the target is right but the
+   supervision was too weak.
+
+## 8. Reproduction
+
+```bash
+python experiments/per_token_probe_map.py            # per-token maps, ~25 min CPU
+python experiments/logit_lens.py --max-pairs 240 --batch-size 2     --out results/diagnostics/logit_lens_test.json   # ~1 min GPU
+python experiments/logit_lens.py --pairs data/derived/spatial_pairs_test.jsonl     --groups "chair|to the left of|table,woman|to the left of|man"     --max-per-group 40 --batch-size 2     --out results/diagnostics/logit_lens_core.json
+python experiments/aggregate_region_patching.py      # existing flip runs
+python experiments/region_pool_reference.py          # matched pooled readers
+python experiments/geometry_vs_model.py              # position rule vs margin
+```
+
+## 9. Caveats
+
+- Probes are correlational. The name and membership probes use boxes at train time; the
+  causal claims come only from the ablation/patching table.
+- The per-token answer probes contain no strong question vector. The matched global
+  region-pool reader is the fair control, and it is also at chance; the supportable claim is
+  "not linearly readable by a simple global reader", not "not representable at all".
+- The lens readout is biased at intermediate layers; use AUC, not the sign.
+- `dev_strict` is the hard subset (model accuracy 0.573); absolute levels are lower than on
+  the full dev set. All comparisons here are within-set.

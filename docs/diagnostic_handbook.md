@@ -494,11 +494,11 @@ PCA/UMAP/t-SNE 能显示“是否按标签聚类”，但：
 - [ ] blank/gray/flip/position 对照
 
 ### 可解码性
-- [ ] linear probe
-- [ ] random-label control
-- [ ] position-only baseline
-- [ ] group/image-held-out
-- [ ] per-token probe map
+- [x] linear probe
+- [x] random-label control
+- [x] position-only baseline
+- [x] group/image-held-out
+- [x] per-token probe map (`experiments/per_token_probe_map.py`)
 
 ### 几何
 - [ ] CKA/RSA 层间比较
@@ -506,11 +506,11 @@ PCA/UMAP/t-SNE 能显示“是否按标签聚类”，但：
 - [ ] 不把 PCA/UMAP 当因果
 
 ### 因果
-- [ ] necessity：ablation/patching
-- [ ] sufficiency：patch-in/steering
-- [ ] specificity：random region/direction/head
+- [x] necessity：ablation/patching
+- [x] sufficiency：patch-in/steering
+- [x] specificity：random region/direction/head
 - [ ] dose-response
-- [ ] held-out
+- [x] held-out
 
 ### 定位
 - [ ] layer/head/token/region
@@ -518,15 +518,24 @@ PCA/UMAP/t-SNE 能显示“是否按标签聚类”，但：
 - [ ] visual token ablation
 
 ### Readout
-- [ ] final-token probe
-- [ ] logit/tuned lens
-- [ ] calibration
-- [ ] flip consistency
+- [x] final-token probe
+- [x] logit lens (`experiments/logit_lens.py`; tuned lens 未做)
+- [x] calibration
+- [x] flip consistency
 
 ### 结论
 - [ ] 写清楚“能支持/不能支持”
 - [ ] 负结果也写
 - [ ] 成本/可部署性
+
+---
+
+## 15.5 本项目的执行结果
+
+这套流程在本项目上的实际输出（逐 token probe map、logit lens、region ablation/patching、
+geometry 对照）见 `results/diagnostics_summary.md`。结论一句话：物体身份在 token 上可解码，
+target region 被因果使用，但关系答案无法从任何单个 token 或 pooled token 读出，只在第
+18–19 层才出现——是晚期的组合/readout 失败，而不是编码失败或 attention 路由失败。
 
 ---
 

@@ -114,6 +114,38 @@ The improvement evidence is mixed and deliberately separated from the diagnostic
 
 The only robust, training-free accuracy gain so far is mirror consistency. Calibration and prompt engineering do not close the spatial gap. A learned no-box reader still fails to localize objects. This is an honest limitation: the project diagnoses the gap better than it fixes it.
 
+## Diagnostic chain: where the relation answer is lost
+
+Following the diagnostic handbook (`docs/diagnostic_handbook.md`), four measurements were
+run on the same frozen model and the same same-image pairs. Full numbers and reproduction
+commands are in `results/diagnostics_summary.md`.
+
+| diagnostic | question | result |
+|---|---|---|
+| per-group position probe vs model margin | is the label decidable from the two boxes? | position AUC **0.991**; model AUC 0.600; Spearman 0.183; sign agreement 0.562 |
+| per-token name pointing (9x9 grid, grouped CV) | is object identity local? | top-1 hit 0.540 / 0.595 / 0.619 at S1/S6/S12; chance 0.205 |
+| per-token answer probe, per relation type | does any token answer the relation? | mean cell accuracy 0.49-0.50; best cell 0.52-0.60; mean-pooled 0.48-0.51 |
+| logit lens over 24 layers | when does the answer become readable? | AUC ~0.50 through L14, 0.636 at L18, 0.646 at L19; final 0.634 |
+
+Region interventions already in `results/flip/*.json` complete the chain: ablating the
+target region lowers the margin by -0.382 [-0.465, -0.306] at S1 (reference -0.141,
+irrelevant +0.041), and patching the target region from the original into the mirror
+recovers a median 0.333 [0.252, 0.464] of the flip gap (reference 0.201, irrelevant 0.072,
+random 0.003).
+
+The picture is consistent across all four: object identity is locally decodable, the target
+region is causally used, but the relation decision is not readable from any single token nor
+from pooled tokens, and it appears only in the last quarter of the network. This is a late
+composition/readout failure, not an encoding failure and not an attention-routing failure.
+
+One correction to an earlier reading: the per-group oracle region probe (0.81) is not a
+group-general relation code. Under the same global reader and the same CV, `[mean all tokens
++ question]` scores AUC 0.474 and `[pooled target + pooled reference + difference +
+question]` scores AUC 0.492. The per-group reader reaches 0.81 partly because it learns that
+group's rule and reads object geometry off the region features; the position-only probe
+(0.99) shows how much of the task is geometry. The useful upper bound is therefore the
+geometry probe, not 0.81.
+
 ## Learned no-box readers do not close the gap
 
 Global readers trained on 3,788 dev examples (mean-pooled or attention-pooled S1/S6/S12 tokens plus the question) do not beat the original margin:
@@ -137,7 +169,8 @@ The same-image horizontal flip is not a clean position control. A position-only 
 
 - **Abstract.** Add: “A training-free flip-consistency readout raises AUC from 0.60 to 0.69 on held-out pairs and from 0.63 to 0.81 on the strict subset; an oracle region readout reaches 0.81/0.83, while a position-only oracle reaches 0.96/0.95, showing that the paired benchmark is strongly position-confounded. The failure is task-specific: same-image existence and attribute questions are answered well and fall to chance without the image, whereas spatial relations do not.”
 - **Conclusion.** Replace the statement that the failure cannot yet be localized to readout with: “The model has usable relation evidence, but it is not calibrated into a single-image margin; a mirror-consistency readout recovers part of it. The remaining gap is dominated by object localization and by the position shortcut in the benchmark. The same model answers same-image existence, attribute, and behavior questions well, so the limitation is a task-specific spatial binding/readout gap rather than a general inability to use visual evidence.”
-- **Limitations.** Add the oracle-box caveat and the position-confound caveat above. The current evidence does not support a claim of a rich, position-invariant relation code.
+- **Limitations.** Add the oracle-box caveat and the position-confound caveat above. The current evidence does not support a claim of a rich, position-invariant relation code. Add that the per-group oracle-region number (0.81) is not a group-general relation code: a matched global reader on the same pooled regions scores 0.492, and the label is 0.99-decodable from boxes alone.
+- **Diagnosis.** Add: “Where the model fails is composition, not encoding: object identity is decodable from single visual tokens (name pointing 0.54-0.62 vs chance 0.21), the target region is causally used (ablation -0.38, patch recovery 0.33), yet no single token and no pooled-token reader answers the relation (0.47-0.50), and the decision only becomes readable at layers 18-19. The model's margin is nearly uncorrelated with the geometry that defines the label (Spearman 0.18).”
 
 ## Reproduction
 

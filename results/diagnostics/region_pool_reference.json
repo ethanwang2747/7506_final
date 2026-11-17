@@ -1,0 +1,18 @@
+{
+ "features": "results/readout/features_dev_strict.pt",
+ "n_examples": 2412,
+ "n_images": 494,
+ "cv": "GroupKFold(5) by image_id",
+ "readers": {
+  "mean_all": {
+   "auc": 0.47433197473109845,
+   "acc": 0.478441127694859,
+   "dim": 8192
+  },
+  "oracle_pair": {
+   "auc": 0.49169987541562504,
+   "acc": 0.4900497512437811,
+   "dim": 20480
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "n_examples": 480,
+ "position_auc": 0.9909722222222223,
+ "position_acc": 0.9541666666666667,
+ "model_auc": 0.5995138888888889,
+ "model_acc": 0.5708333333333333,
+ "spearman": 0.18334921930023718,
+ "sign_agreement": 0.5625,
+ "note": "position probe is fitted per group on dev; boxes are oracle at test time"
+}

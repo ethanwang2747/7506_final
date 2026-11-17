@@ -327,6 +327,32 @@ python experiments/region_bce_reader.py \
 
 The negative result is summarized in `results/region_reader_summary.md`.
 
+## E15: diagnostic chain (per-token probes, logit lens, region controls)
+
+These scripts implement the handbook's diagnostic sequence. They are diagnostics,
+not improvement experiments; boxes are used at train time by the name/membership
+probes and at test time only in the oracle controls.
+
+```bash
+# per-token probe maps on the 9x9 grid (grouped CV by image, CPU, ~25 min)
+python experiments/per_token_probe_map.py
+
+# layer-wise logit lens (last prompt token, all 24 text layers, GPU)
+python experiments/logit_lens.py --max-pairs 240 --batch-size 2   --out results/diagnostics/logit_lens_test.json
+
+# matched global readers: all-token pooling vs oracle target/reference pooling
+python experiments/region_pool_reference.py
+
+# geometry rule vs the model's own margin
+python experiments/geometry_vs_model.py
+
+# aggregate the existing same-image region ablation/patching runs
+python experiments/aggregate_region_patching.py
+```
+
+Outputs: `results/diagnostics/*.json`, `results/figures/per_token_probe_dev.png`,
+and the write-up in `results/diagnostics_summary.md`.
+
 ## Diagnostic handbook
 
 The full diagnostic protocol (probing, per-token latent maps, RSA/CKA, causal

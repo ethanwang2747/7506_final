@@ -112,7 +112,7 @@ Per-group flip results:
 The results support a **localization/position-readout gap**, not a claim that visual relation information is rich but linearly unreadable:
 
 1. The original model's margin is weak (0.63 test, 0.58 flip).
-2. A per-group oracle readout over target/reference regions reaches 0.81 test and 0.83 flip, so the frozen features contain information that a simple reader can use.
+2. A per-group oracle readout over target/reference regions reaches 0.81 test and 0.83 flip. **Caveat added later:** this is not a group-general relation code. Under the same global reader and CV, `[mean all tokens + question]` scores 0.474 and `[pooled target + pooled reference + difference + question]` scores 0.492 (`results/diagnostics_summary.md`). The per-group reader also learns that group's rule and reads geometry off the region features; the position-only probe (0.99) shows how much of the task is geometry.
 3. A position-only oracle is even stronger (0.96 test, 0.95 flip). The paired benchmark is therefore largely solvable from object positions alone; any "relation readout" claim must control this shortcut.
 4. After position residualization, the region probe retains only 0.69 test / 0.71 flip. This is evidence for some position-independent signal, but not for a strong, uniformly decodable relation code.
 5. A training-free flip-consistency readout improves AUC from 0.600 to 0.690 on test and from 0.633 to 0.813 on strict test. This shows that the model has usable relation evidence, but it is not calibrated into a single-image margin; comparing the image with its mirror removes part of the image-level bias.
