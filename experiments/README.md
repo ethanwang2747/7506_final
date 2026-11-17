@@ -353,6 +353,27 @@ python experiments/aggregate_region_patching.py
 Outputs: `results/diagnostics/*.json`, `results/figures/per_token_probe_dev.png`,
 and the write-up in `results/diagnostics_summary.md`.
 
+## E16: GQA train images for SFT (data prepared, experiments pending)
+
+The Stanford GQA host runs at ~15 KB/s from this network, so the train images
+were taken from the ModelScope mirror (`lmms-lab/GQA`), which stores them as 22
+parquet shards.
+
+```bash
+tools/download_gqa_train_images.sh          # resumable, ~10 GB
+```
+
+- Location: `data/raw/gqa/train_all_images/train-000NN-of-00022.parquet`
+- Content: 74,256 images, columns `id` (string) + `image.bytes` (JPEG)
+- 73,761 images have at least two distinct object names in the train scene
+  graphs, so they can produce relation pairs
+- Image ids are disjoint from the local val images used in all evaluations
+- `data/raw/gqa/sceneGraphs.zip` already contains `train_sceneGraphs.json`
+
+Next: build train pairs with the same filtering as `build_val_pairs.py`
+(source/target, same image both roles), add mirror and question-reversal
+augmentation, and keep the eval images held out.
+
 ## Diagnostic handbook
 
 The full diagnostic protocol (probing, per-token latent maps, RSA/CKA, causal
