@@ -315,3 +315,14 @@ python experiments/latent_steering_per_group.py --layer 6 \
 ```
 
 The summary is in `results/latent_steering_summary.md`.
+
+## E14: learnable region reader
+
+Train a token-level region scorer with bbox masks; test without boxes.
+
+```bash
+python experiments/region_bce_reader.py \
+  --out results/region_reader/region_bce.json
+```
+
+The negative result is summarized in `results/region_reader_summary.md`.

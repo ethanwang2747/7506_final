@@ -1,0 +1,6 @@
+train 2582 pairs=1291
+seed 0 val_auc=0.676 best_ep=38
+seed 1 val_auc=0.671 best_ep=29
+saved results/region_reader/region_bce.json
+test_pairs   AUC=0.561 CI[0.5109561631944445, 0.60925] pair_acc=0.546
+test_flip    AUC=0.534 CI[0.4991610243055556, 0.5677994791666667] pair_acc=0.554

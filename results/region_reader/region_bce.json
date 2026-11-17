@@ -1,0 +1,152 @@
+{
+  "config": {
+    "train_pairs": [
+      "results/readout/features_dev_strict.pt",
+      "results/readout/features_dev_core.pt"
+    ],
+    "test_pairs": "results/readout/features_test_core.pt",
+    "test_flip": "results/readout/features_test_core_flip.pt",
+    "out": "results/region_reader/region_bce.json",
+    "seeds": 2,
+    "epochs": 40,
+    "patience": 8,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "hidden": 128,
+    "mask_weight": 1.0,
+    "bootstrap": 300
+  },
+  "test_pairs": {
+    "n_examples": 480,
+    "n_pairs": 240,
+    "auc": 0.5610590277777777,
+    "auc_ci95": [
+      0.5109561631944445,
+      0.60925
+    ],
+    "pair_acc": 0.5458333333333333,
+    "per_group": {
+      "chair|to the left of|table": {
+        "n": 80,
+        "auc": 0.533125,
+        "auc_ci95": [
+          0.39621875,
+          0.650453125
+        ],
+        "pair_acc": 0.5
+      },
+      "man|to the left of|person": {
+        "n": 80,
+        "auc": 0.6643749999999999,
+        "auc_ci95": [
+          0.5399375000000001,
+          0.7694375
+        ],
+        "pair_acc": 0.6
+      },
+      "man|to the right of|woman": {
+        "n": 80,
+        "auc": 0.459375,
+        "auc_ci95": [
+          0.33585937499999996,
+          0.5976249999999999
+        ],
+        "pair_acc": 0.525
+      },
+      "person|to the right of|man": {
+        "n": 80,
+        "auc": 0.65875,
+        "auc_ci95": [
+          0.534609375,
+          0.768484375
+        ],
+        "pair_acc": 0.6
+      },
+      "tree|to the left of|building": {
+        "n": 80,
+        "auc": 0.51875,
+        "auc_ci95": [
+          0.41059375,
+          0.6522343749999999
+        ],
+        "pair_acc": 0.575
+      },
+      "woman|to the left of|man": {
+        "n": 80,
+        "auc": 0.47625,
+        "auc_ci95": [
+          0.34171875,
+          0.6126562499999999
+        ],
+        "pair_acc": 0.475
+      }
+    }
+  },
+  "test_flip": {
+    "n_examples": 480,
+    "n_pairs": 240,
+    "auc": 0.5339583333333333,
+    "auc_ci95": [
+      0.4991610243055556,
+      0.5677994791666667
+    ],
+    "pair_acc": 0.5541666666666667,
+    "per_group": {
+      "chair|to the left of|table": {
+        "n": 80,
+        "auc": 0.5018750000000001,
+        "auc_ci95": [
+          0.40546875,
+          0.5925937499999999
+        ],
+        "pair_acc": 0.575
+      },
+      "man|to the left of|person": {
+        "n": 80,
+        "auc": 0.5724999999999999,
+        "auc_ci95": [
+          0.49306249999999996,
+          0.6563437499999999
+        ],
+        "pair_acc": 0.6
+      },
+      "man|to the right of|woman": {
+        "n": 80,
+        "auc": 0.52125,
+        "auc_ci95": [
+          0.418390625,
+          0.620953125
+        ],
+        "pair_acc": 0.5
+      },
+      "person|to the right of|man": {
+        "n": 80,
+        "auc": 0.574375,
+        "auc_ci95": [
+          0.48746875,
+          0.6626874999999998
+        ],
+        "pair_acc": 0.6
+      },
+      "tree|to the left of|building": {
+        "n": 80,
+        "auc": 0.515,
+        "auc_ci95": [
+          0.44059375,
+          0.5909843749999999
+        ],
+        "pair_acc": 0.55
+      },
+      "woman|to the left of|man": {
+        "n": 80,
+        "auc": 0.516875,
+        "auc_ci95": [
+          0.41273437500000004,
+          0.6130156249999998
+        ],
+        "pair_acc": 0.5
+      }
+    }
+  }
+}
