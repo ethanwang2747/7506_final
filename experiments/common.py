@@ -1,4 +1,5 @@
 import io
+import os
 from pathlib import Path
 
 import pyarrow as pa
@@ -9,7 +10,7 @@ from PIL import Image
 from transformers import AutoModelForImageTextToText, AutoProcessor
 
 ROOT = Path(__file__).resolve().parents[1]
-MID = "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+MID = os.environ.get("SMOLVLM_MODEL", "HuggingFaceTB/SmolVLM2-2.2B-Instruct")
 IMAGE_DIR = ROOT / "data/raw/gqa/val_balanced_images"
 
 

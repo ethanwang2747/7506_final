@@ -1,0 +1,43 @@
+saved /home/yucheng/ris/7506project/results/readout/region_probe.json
+== test: region=0.812 [0.743,0.891] resid=0.687 [0.602,0.751] position=0.961 original=0.626
+  chair|to the left of|table          region=0.747 CI[0.64746875, 0.8415781250000001] resid=0.722 pos=0.853 orig=0.719
+  man|to the left of|person           region=0.743 CI[0.633390625, 0.846578125] resid=0.602 pos=0.969 orig=0.583
+  man|to the right of|woman           region=0.891 CI[0.81125, 0.958125] resid=0.751 pos=0.992 orig=0.658
+  person|to the right of|man          region=0.743 CI[0.633390625, 0.846578125] resid=0.602 pos=0.969 orig=0.576
+  tree|to the left of|building        region=0.861 CI[0.785296875, 0.927828125] resid=0.695 pos=0.993 orig=0.524
+  woman|to the left of|man            region=0.891 CI[0.81125, 0.958125] resid=0.751 pos=0.992 orig=0.698
+== test_aug: region=0.859 [0.794,0.919] resid=0.560 [0.367,0.672] position=0.970 original=0.626
+  chair|to the left of|table          region=0.814 CI[0.716875, 0.90190625] resid=0.628 pos=0.898 orig=0.719
+  man|to the left of|person           region=0.794 CI[0.68621875, 0.88753125] resid=0.509 pos=0.965 orig=0.583
+  man|to the right of|woman           region=0.917 CI[0.850890625, 0.9743750000000001] resid=0.672 pos=0.999 orig=0.658
+  person|to the right of|man          region=0.794 CI[0.68621875, 0.88753125] resid=0.509 pos=0.965 orig=0.576
+  tree|to the left of|building        region=0.919 CI[0.851546875, 0.966875] resid=0.367 pos=0.995 orig=0.524
+  woman|to the left of|man            region=0.917 CI[0.850890625, 0.974375] resid=0.672 pos=0.999 orig=0.698
+== test_strict: region=0.883 [0.816,0.975] resid=0.749 [0.653,0.827] position=0.994 original=0.665
+  chair|to the left of|table          region=0.851 CI[0.7394628099173554, 1.0] resid=0.802 pos=0.967 orig=0.620
+  man|to the left of|person           region=0.816 CI[0.5510204081632654, 1.0] resid=0.653 pos=1.000 orig=0.592
+  man|to the right of|woman           region=0.975 CI[0.9259259259259259, 1.0] resid=0.827 pos=1.000 orig=0.741
+  person|to the right of|man          region=0.816 CI[0.5510204081632654, 1.0] resid=0.653 pos=1.000 orig=0.653
+  tree|to the left of|building        region=0.862 CI[0.6885204081632653, 0.9795918367346939] resid=0.730 pos=1.000 orig=0.592
+  woman|to the left of|man            region=0.975 CI[0.9259259259259259, 1.0] resid=0.827 pos=1.000 orig=0.790
+== flip: region=0.829 [0.731,0.898] resid=0.705 [0.673,0.738] position=0.950 original=0.584
+  chair|to the left of|table          region=0.731 CI[0.6511562500000001, 0.810625] resid=0.738 pos=0.893 orig=0.634
+  man|to the left of|person           region=0.814 CI[0.7424375, 0.890625] resid=0.731 pos=0.939 orig=0.567
+  man|to the right of|woman           region=0.898 CI[0.83875, 0.949375] resid=0.673 pos=0.968 orig=0.594
+  person|to the right of|man          region=0.814 CI[0.7424375, 0.890625] resid=0.731 pos=0.939 orig=0.551
+  tree|to the left of|building        region=0.819 CI[0.734375, 0.8981562499999999] resid=0.685 pos=0.991 orig=0.498
+  woman|to the left of|man            region=0.898 CI[0.83875, 0.949375] resid=0.674 pos=0.968 orig=0.662
+== flip_aug: region=0.881 [0.838,0.926] resid=0.564 [0.397,0.670] position=0.958 original=0.584
+  chair|to the left of|table          region=0.838 CI[0.757703125, 0.9084531250000001] resid=0.670 pos=0.926 orig=0.634
+  man|to the left of|person           region=0.849 CI[0.789015625, 0.917234375] resid=0.545 pos=0.934 orig=0.567
+  man|to the right of|woman           region=0.926 CI[0.861546875, 0.9747343749999999] resid=0.612 pos=0.979 orig=0.594
+  person|to the right of|man          region=0.849 CI[0.789015625, 0.917234375] resid=0.545 pos=0.934 orig=0.551
+  tree|to the left of|building        region=0.895 CI[0.82934375, 0.9528281249999999] resid=0.397 pos=0.994 orig=0.498
+  woman|to the left of|man            region=0.926 CI[0.861546875, 0.9747343749999999] resid=0.612 pos=0.979 orig=0.662
+== flip_strict: region=0.936 [0.843,1.000] resid=0.765 [0.556,0.980] position=0.988 original=0.701
+  chair|to the left of|table          region=0.843 CI[0.731198347107438, 0.9834710743801652] resid=0.884 pos=0.967 orig=0.744
+  man|to the left of|person           region=1.000 CI[0.9999999999999999, 1.0] resid=0.980 pos=0.980 orig=0.714
+  man|to the right of|woman           region=0.963 CI[0.888888888888889, 1.0] resid=0.556 pos=1.000 orig=0.691
+  person|to the right of|man          region=1.000 CI[0.9999999999999999, 1.0] resid=0.980 pos=0.980 orig=0.816
+  tree|to the left of|building        region=0.847 CI[0.7040816326530612, 0.9591836734693878] resid=0.633 pos=1.000 orig=0.500
+  woman|to the left of|man            region=0.963 CI[0.888888888888889, 1.0] resid=0.556 pos=1.000 orig=0.741

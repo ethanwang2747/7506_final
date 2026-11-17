@@ -1,0 +1,19 @@
+train examples=3788 pairs=1291
+test pairs examples=480 test flip examples=480
+training meanpool...
+training attention...
+saved results/readout/main.json
+== test_pairs
+  original           AUC=0.600 CI[0.5578719618055555, 0.6414227430555555] pair_acc=0.604
+  position           AUC=0.568 CI[0.5232074652777777, 0.6124227430555554] pair_acc=0.592
+  final_token_h12    AUC=0.490 CI[0.43595225694444445, 0.5376666666666666] pair_acc=0.500
+  question_only_linear AUC=0.500 CI[0.5, 0.5] pair_acc=0.000
+  meanpool           AUC=0.474 CI[0.4162339409722222, 0.5278394097222222] pair_acc=0.483
+  attention          AUC=0.443 CI[0.39051692708333335, 0.4967907986111111] pair_acc=0.450
+== test_flip
+  original           AUC=0.559 CI[0.5372178819444444, 0.5824934895833332] pair_acc=0.642
+  position           AUC=0.521 CI[0.49836024305555554, 0.5429535590277778] pair_acc=0.525
+  final_token_h12    AUC=0.522 CI[0.49825260416666667, 0.5483732638888887] pair_acc=0.571
+  question_only_linear AUC=0.500 CI[0.5, 0.5] pair_acc=0.000
+  meanpool           AUC=0.533 CI[0.5160911458333333, 0.5508511284722222] pair_acc=0.583
+  attention          AUC=0.497 CI[0.45396788194444443, 0.5414505208333333] pair_acc=0.512

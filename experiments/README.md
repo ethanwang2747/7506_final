@@ -5,7 +5,10 @@ All commands run from the project root with the project environment:
 ```bash
 cd /path/to/7506project
 source .venv/bin/activate
+export PYTHONPATH=.
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+# Optional: local model directory
+# export SMOLVLM_MODEL=$PWD/models/SmolVLM2-2.2B-Instruct
 ```
 
 ## Data
@@ -119,3 +122,40 @@ python experiments/report_tables.py
 ```
 
 `results/summary.md` contains the combined tables. The report draft is `report/report_v5_draft.md`.
+
+## E5: readout-gap experiments
+
+Cache frozen features once, then train readers without re-running the backbone. The feature files are large and are ignored by Git.
+
+```bash
+export SMOLVLM_MODEL=$PWD/models/SmolVLM2-2.2B-Instruct
+export PYTHONPATH=.
+
+python experiments/extract_readout_features.py \
+  --pairs data/derived/spatial_pairs_dev_strict.jsonl \
+  --out results/readout/features_dev_strict.pt
+python experiments/extract_readout_features.py \
+  --pairs data/derived/spatial_pairs_dev_strict.jsonl --mode flip --only-flipped \
+  --out results/readout/features_dev_strict_flip.pt
+python experiments/extract_readout_features.py \
+  --pairs data/derived/spatial_pairs_test.jsonl \
+  --groups "woman|to the left of|man,man|to the right of|woman,man|to the left of|person,person|to the right of|man,tree|to the left of|building,chair|to the left of|table" \
+  --max-per-group 40 --out results/readout/features_test_core.pt
+python experiments/extract_readout_features.py \
+  --pairs data/derived/spatial_pairs_test.jsonl \
+  --groups "woman|to the left of|man,man|to the right of|woman,man|to the left of|person,person|to the right of|man,tree|to the left of|building,chair|to the left of|table" \
+  --max-per-group 40 --mode flip --out results/readout/features_test_core_flip.pt
+
+python experiments/readout_experiment.py \
+  --train-pairs results/readout/features_dev_strict.pt results/readout/features_dev_core.pt \
+  --train-flip results/readout/features_dev_strict_flip.pt \
+  --test-pairs results/readout/features_test_core.pt \
+  --test-flip results/readout/features_test_core_flip.pt \
+  --out results/readout/main.json --seeds 2 --epochs 40 --patience 8 \
+  --batch-size 64 --bootstrap 300
+
+python experiments/region_readout.py \
+  --out results/readout/region_probe.json --bootstrap 500
+```
+
+The interpretation and tables are in `results/readout_summary.md`.

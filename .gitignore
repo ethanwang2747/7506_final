@@ -13,8 +13,12 @@ __pycache__/
 # Large datasets: see README for download and regeneration
 data/raw/
 data/fixed/images/
+models/
 
 # Generated at run time from data/fixed + data/raw
 data/derived/*
 !data/derived/manifest.json
 !data/derived/experiment_config.json
+
+# Cached readout features
+results/readout/*.pt

@@ -11,13 +11,14 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - Report draft: [`report/report_v5_draft.md`](report/report_v5_draft.md)
 - Combined result tables: [`results/summary.md`](results/summary.md)
 - Experiment dashboard: [`results/dashboard.md`](results/dashboard.md)
+- Readout-gap experiments: [`results/readout_summary.md`](results/readout_summary.md)
 - Full experiment commands: [`experiments/README.md`](experiments/README.md)
 
 ## Repository layout
 
 | Path | Contents |
 |---|---|
-| `experiments/` | Pair construction, E0 validation, E1 behavior map, E2 ablation, E3 patching, E4 alternative mechanisms, statistics, figures |
+| `experiments/` | Pair construction, E0 validation, E1 behavior map, E2 ablation, E3 patching, E4 alternative mechanisms, readout probes, statistics, figures |
 | `prepare_fixed_subsets.py` | Builds the fixed GQA / TextVQA / CV-Bench subset annotations and image files |
 | `data/fixed/` | Fixed subset annotations (`*.jsonl`, `manifest.json`); extracted images are not tracked |
 | `data/derived/` | Generated pairs and mean vectors; not tracked except `manifest.json` and `experiment_config.json` |
@@ -42,6 +43,14 @@ pip install transformers==5.18.0 accelerate==1.15.0 datasets==5.1.0 \
 ```
 
 Model weights are downloaded from the Hugging Face Hub on first use. Set `HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1` only after the model is cached.
+
+If the model is stored locally (for example a ModelScope download under `models/`), point the pipeline at it:
+
+```bash
+export SMOLVLM_MODEL=$PWD/models/SmolVLM2-2.2B-Instruct
+```
+
+`experiments/common.py` reads `SMOLVLM_MODEL`; `models/` is ignored by Git.
 
 > `requirement.txt` is the course project brief, not a Python dependency file.
 
