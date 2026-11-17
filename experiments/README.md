@@ -230,3 +230,19 @@ python experiments/pope_experiment.py \
 ```
 
 The summary is in `results/pope_summary.md`.
+
+## E9: TIFA/COCO description coverage
+
+Generate free descriptions and compare cued TIFA fact recall with whether the
+description covers the same fact.
+
+```bash
+python experiments/tifa_experiment.py \
+  --sample data/raw/tifa/sample_100.jsonl \
+  --out results/tifa/tifa_100.json
+python experiments/tifa_judge.py \
+  --results results/tifa/tifa_100.json \
+  --out results/tifa/tifa_100_judge.json
+```
+
+The summary is in `results/tifa_summary.md`.

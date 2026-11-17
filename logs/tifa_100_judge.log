@@ -1,0 +1,31 @@
+466 questions, judge=/home/yucheng/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:00<02:21,  3.07it/s]Loading weights:   2%|▏         | 9/434 [00:00<00:16, 26.02it/s]Loading weights:   4%|▍         | 18/434 [00:00<00:09, 45.00it/s]Loading weights:   7%|▋         | 29/434 [00:00<00:06, 62.77it/s]Loading weights:   9%|▉         | 41/434 [00:00<00:05, 76.56it/s]Loading weights:  12%|█▏        | 53/434 [00:00<00:04, 85.45it/s]Loading weights:  15%|█▍        | 65/434 [00:00<00:03, 92.66it/s]Loading weights:  18%|█▊        | 77/434 [00:01<00:03, 98.90it/s]Loading weights:  21%|██        | 89/434 [00:01<00:03, 102.93it/s]Loading weights:  23%|██▎       | 101/434 [00:01<00:03, 105.79it/s]Loading weights:  26%|██▌       | 113/434 [00:01<00:03, 105.59it/s]Loading weights:  29%|██▉       | 125/434 [00:01<00:02, 107.21it/s]Loading weights:  32%|███▏      | 138/434 [00:01<00:02, 113.54it/s]Loading weights:  36%|███▌      | 155/434 [00:01<00:02, 129.42it/s]Loading weights:  39%|███▉      | 169/434 [00:01<00:02, 130.63it/s]Loading weights:  42%|████▏     | 183/434 [00:01<00:02, 117.20it/s]Loading weights:  45%|████▌     | 196/434 [00:02<00:02, 106.23it/s]Loading weights:  48%|████▊     | 208/434 [00:02<00:02, 108.34it/s]Loading weights:  51%|█████     | 220/434 [00:02<00:01, 109.48it/s]Loading weights:  53%|█████▎    | 232/434 [00:02<00:01, 104.45it/s]Loading weights:  56%|█████▌    | 244/434 [00:02<00:01, 106.93it/s]Loading weights:  59%|█████▉    | 255/434 [00:02<00:01, 105.15it/s]Loading weights:  62%|██████▏   | 268/434 [00:02<00:01, 100.42it/s]Loading weights:  65%|██████▍   | 281/434 [00:02<00:01, 105.76it/s]Loading weights:  68%|██████▊   | 293/434 [00:03<00:01, 105.94it/s]Loading weights:  70%|███████   | 305/434 [00:03<00:01, 105.50it/s]Loading weights:  73%|███████▎  | 317/434 [00:03<00:01, 105.40it/s]Loading weights:  76%|███████▌  | 329/434 [00:03<00:00, 106.00it/s]Loading weights:  79%|███████▉  | 345/434 [00:03<00:00, 120.11it/s]Loading weights:  82%|████████▏ | 358/434 [00:03<00:00, 122.47it/s]Loading weights:  85%|████████▌ | 371/434 [00:03<00:00, 119.33it/s]Loading weights:  88%|████████▊ | 384/434 [00:03<00:00, 114.12it/s]Loading weights:  91%|█████████ | 396/434 [00:03<00:00, 114.18it/s]Loading weights:  94%|█████████▍| 408/434 [00:04<00:00, 114.51it/s]Loading weights:  97%|█████████▋| 420/434 [00:04<00:00, 113.22it/s]Loading weights: 100%|█████████▉| 432/434 [00:04<00:00, 110.58it/s]Loading weights: 100%|██████████| 434/434 [00:04<00:00, 101.85it/s]
+  80/466
+  160/466
+  240/466
+  320/466
+  400/466
+saved results/tifa/tifa_100_judge.json
+  overall {'n': 466, 'cued_recall': 0.7532188841201717, 'judge_coverage': 0.7875536480686696, 'keyword_coverage': 0.4313304721030043, 'gap_cued_minus_judge': -0.03433476394849788}
+  activity        n= 89 cued=0.629 judge=0.685 keyword=0.382
+  animal/human    n= 64 cued=0.812 judge=0.844 keyword=0.547
+  attribute       n= 42 cued=0.714 judge=0.762 keyword=0.190
+  color           n= 17 cued=0.824 judge=0.765 keyword=0.588
+  counting        n= 15 cued=0.867 judge=0.800 keyword=0.400
+  food            n= 29 cued=0.828 judge=0.862 keyword=0.586
+  location        n= 39 cued=0.718 judge=0.846 keyword=0.308
+  material        n=  1 cued=0.000 judge=1.000 keyword=0.000
+  object          n=141 cued=0.809 judge=0.851 keyword=0.518
+  other           n=  3 cued=0.667 judge=0.667 keyword=0.000
+  spatial         n= 26 cued=0.692 judge=0.538 keyword=0.231
+omissions (cued yes, caption no): 41
+  Q: are there people looking into the front window display?
+   cap: In the image, there is a display case filled with a variety of cakes and pastries. The cakes are of different shapes and sizes, and they are arranged in a visually appealing manner. The pastries are also of different sha
+  Q: is the baby elephant standing near its mother?
+   cap: In the image, a baby elephant is standing on a dirt path, surrounded by tall grass and trees. The baby elephant is looking down at the ground, possibly searching for food or water. The surrounding environment is lush and
+  Q: is the plate white?
+   cap: In the image, there is a plate of food placed on a countertop. The plate contains a sandwich, a side salad, and some carrots. The sandwich is made with a variety of ingredients, including lettuce, tomato, and chicken.
+  Q: is there a guard?
+   cap: In the image, there is a restaurant with a sign that reads "RETAIL" and a sign that says "PLEASE HAVE FUN" on the left side. There are several people standing in front of the restaurant, some of
+  Q: is the guard in front of the rental store?
+   cap: In the image, there is a restaurant with a sign that reads "RETAIL" and a sign that says "PLEASE HAVE FUN" on the left side. There are several people standing in front of the restaurant, some of

@@ -66,6 +66,10 @@ The self-built existence result also holds on the standard POPE benchmark. On 30
 
 A targeted production pilot asks for a one-sentence spatial description of the same source/target images. On 60 test pairs, yes/no pair accuracy is 0.517 [0.383, 0.633], while the description is correct for only 0.117 [0.033, 0.200] of source images and 0.050 [0.000, 0.117] of target images; no pair has both descriptions correct. Between 78% and 82% of descriptions contain no left/right word at all, often using “next to”, “in front of”, or “behind” instead. The model can sometimes answer the cued question but does not produce the requested relation. This is a stronger “seeing but not answering” signal and motivates using established caption/description benchmarks with SPICE/TIFA/CLAIR-style metrics rather than relying only on candidate margins.
 
+### TIFA/COCO description coverage
+
+On 100 COCO images and 466 TIFA yes/no facts (almost all positive), cued fact recall is 0.753 [0.709, 0.793]. A CLAIR-style local text judge gives caption coverage 0.788 [0.741, 0.833]; keyword coverage is 0.431. Overall, free descriptions are **not** uniformly worse than cued answers. The exception is spatial facts: cued recall 0.692 versus caption coverage 0.538 (keyword 0.231). Captions describe the objects but often omit “near”, “under”, “in front of”, or “next to”. This is consistent with the targeted spatial-description pilot and supports a spatial-specific production failure rather than a generic captioning failure.
+
 ## Learned no-box readers do not close the gap
 
 Global readers trained on 3,788 dev examples (mean-pooled or attention-pooled S1/S6/S12 tokens plus the question) do not beat the original margin:
