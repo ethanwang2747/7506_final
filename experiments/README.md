@@ -217,3 +217,16 @@ python experiments/describe_spatial.py \
 ```
 
 The results and a table of established description/hallucination/action benchmarks are in `results/description_summary.md`.
+
+## E8: POPE external validation
+
+POPE is the standard object-existence / hallucination benchmark. This uses a
+300-question stratified sample (100 per split) and 229 COCO val2014 images.
+
+```bash
+python experiments/pope_experiment.py \
+  --sample data/raw/pope/sample_300.jsonl \
+  --out results/pope/pope_300.json
+```
+
+The summary is in `results/pope_summary.md`.

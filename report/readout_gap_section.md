@@ -58,6 +58,10 @@ The blank-image control replaces the image with a uniform gray canvas, so the mo
 
 This is the key qualification of the project's title. The model is **not generically “seeing but not answering”**. It reads existence, colour, and object-binding evidence well; flip agreement is 0.91–0.95. The failure is specific to spatial relation/position readout, where the same model is near 0.60 and no-box readers are at chance. The report should therefore claim a **task-specific spatial readout/localization gap**, not a general VLM readout failure.
 
+### POPE external validation
+
+The self-built existence result also holds on the standard POPE benchmark. On 300 balanced questions (100 per random/popular/adversarial split, 229 COCO images), accuracy is **0.783** [0.730, 0.835], AUC 0.890. The model is conservative: yes rate 0.33, precision 0.929, recall 0.613. Adversarial questions are hardest (0.740), popular easiest (0.830). Flip agreement is 0.953, and the flip-combined score gives accuracy 0.800 / AUC 0.899. This is consistent with the self-built existence pairs (0.865 full, 0.455 blank) and supports the conclusion that existence is not a generic readout failure.
+
 ## Description vs cued yes/no
 
 A targeted production pilot asks for a one-sentence spatial description of the same source/target images. On 60 test pairs, yes/no pair accuracy is 0.517 [0.383, 0.633], while the description is correct for only 0.117 [0.033, 0.200] of source images and 0.050 [0.000, 0.117] of target images; no pair has both descriptions correct. Between 78% and 82% of descriptions contain no left/right word at all, often using “next to”, “in front of”, or “behind” instead. The model can sometimes answer the cued question but does not produce the requested relation. This is a stronger “seeing but not answering” signal and motivates using established caption/description benchmarks with SPICE/TIFA/CLAIR-style metrics rather than relying only on candidate margins.

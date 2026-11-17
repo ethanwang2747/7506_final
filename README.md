@@ -14,6 +14,7 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - Readout-gap experiments: [`results/readout_summary.md`](results/readout_summary.md) and report section [`report/readout_gap_section.md`](report/readout_gap_section.md) (training-free flip-consistency readout: test AUC 0.600 → 0.690; strict test 0.633 → 0.813)
 - Fine-grained extension: [`results/finegrained_summary.md`](results/finegrained_summary.md) (same-image existence / attribute / behavior pairs, with blank-image and flip controls)
 - Description vs yes/no pilot: [`results/description_summary.md`](results/description_summary.md) (targeted spatial description; also lists established benchmarks to reuse)
+- POPE external validation: [`results/pope_summary.md`](results/pope_summary.md) (300 questions; accuracy 0.783, AUC 0.890, conservative yes rate 0.33)
 - Full experiment commands: [`experiments/README.md`](experiments/README.md)
 
 ## Repository layout
