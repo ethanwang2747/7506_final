@@ -293,3 +293,13 @@ python experiments/attention_audit.py \
 ```
 
 The summary is in `results/attention_summary.md`.
+
+### Attention head causal test
+
+```bash
+SMOLVLM_MODEL=$PWD/models/SmolVLM2-2.2B-Instruct PYTHONPATH=. \
+python experiments/attention_head_intervention.py \
+  --out results/attention/head_intervention_dev.json
+```
+
+The result is in `results/attention_causal_summary.md`.

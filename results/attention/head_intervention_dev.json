@@ -1,0 +1,2136 @@
+{
+  "config": {
+    "pairs": "/home/yucheng/ris/7506project/data/derived/spatial_pairs_dev.jsonl",
+    "pairs_per_group": 10,
+    "out": "results/attention/head_intervention_dev.json",
+    "scale": 2.0
+  },
+  "top_heads": {
+    "6": [
+      3,
+      9
+    ],
+    "12": [
+      24,
+      6
+    ]
+  },
+  "random_heads": {
+    "6": [
+      26,
+      20
+    ],
+    "12": [
+      9,
+      8
+    ]
+  },
+  "results": {
+    "clean": {
+      "metrics": {
+        "pair_acc": 0.7368421052631579,
+        "auc": 0.7103724222837796,
+        "mean_delta": 1.0701026660308504
+      },
+      "per_pair": [
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0000",
+          "group": "woman|to the left of|man",
+          "ms": 1.999191164970398,
+          "mt": 0.6223887801170349
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0001",
+          "group": "woman|to the left of|man",
+          "ms": 2.3748245239257812,
+          "mt": 2.124030828475952
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0002",
+          "group": "woman|to the left of|man",
+          "ms": -0.5010621547698975,
+          "mt": 0.6239370107650757
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0003",
+          "group": "woman|to the left of|man",
+          "ms": 3.8748936653137207,
+          "mt": 2.4996283054351807
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0004",
+          "group": "woman|to the left of|man",
+          "ms": 1.749861717224121,
+          "mt": -2.2516374588012695
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0005",
+          "group": "woman|to the left of|man",
+          "ms": 4.87489652633667,
+          "mt": 1.2490863800048828
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0006",
+          "group": "woman|to the left of|man",
+          "ms": 1.1265614032745361,
+          "mt": 0.49963632225990295
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0007",
+          "group": "woman|to the left of|man",
+          "ms": 0.9991482496261597,
+          "mt": -2.0004165172576904
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0008",
+          "group": "woman|to the left of|man",
+          "ms": 4.749855995178223,
+          "mt": -0.6257809400558472
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0009",
+          "group": "woman|to the left of|man",
+          "ms": 1.9995509386062622,
+          "mt": 1.2482874393463135
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0000",
+          "group": "man|to the right of|woman",
+          "ms": 1.12259840965271,
+          "mt": -0.5149402618408203
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0001",
+          "group": "man|to the right of|woman",
+          "ms": -0.6274504661560059,
+          "mt": 0.11892902851104736
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0002",
+          "group": "man|to the right of|woman",
+          "ms": -1.2528600692749023,
+          "mt": -0.37875890731811523
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0003",
+          "group": "man|to the right of|woman",
+          "ms": 2.6227457523345947,
+          "mt": 0.6229914426803589
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0004",
+          "group": "man|to the right of|woman",
+          "ms": 1.624997615814209,
+          "mt": -0.127061128616333
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0005",
+          "group": "man|to the right of|woman",
+          "ms": 3.6237192153930664,
+          "mt": -0.12649649381637573
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0006",
+          "group": "man|to the right of|woman",
+          "ms": 0.3743317723274231,
+          "mt": -0.3765796422958374
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0007",
+          "group": "man|to the right of|woman",
+          "ms": 0.24681758880615234,
+          "mt": -0.3757953643798828
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0008",
+          "group": "man|to the right of|woman",
+          "ms": 3.122988700866699,
+          "mt": 0.12346035242080688
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0009",
+          "group": "man|to the right of|woman",
+          "ms": 2.49941086769104,
+          "mt": 0.2472444772720337
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0000",
+          "group": "man|to the left of|person",
+          "ms": 1.123282551765442,
+          "mt": -0.7526431083679199
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0001",
+          "group": "man|to the left of|person",
+          "ms": 0.37200599908828735,
+          "mt": -2.0015883445739746
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0002",
+          "group": "man|to the left of|person",
+          "ms": -0.3756052851676941,
+          "mt": 0.12185543775558472
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0003",
+          "group": "man|to the left of|person",
+          "ms": 0.7489827275276184,
+          "mt": -1.251061201095581
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0004",
+          "group": "man|to the left of|person",
+          "ms": 0.3744282126426697,
+          "mt": -0.7517127990722656
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0005",
+          "group": "man|to the left of|person",
+          "ms": 0.12336593866348267,
+          "mt": -0.7586907148361206
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0006",
+          "group": "man|to the left of|person",
+          "ms": 0.62449049949646,
+          "mt": 1.124040126800537
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0007",
+          "group": "man|to the left of|person",
+          "ms": -0.7510053515434265,
+          "mt": -0.1275213360786438
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0008",
+          "group": "man|to the left of|person",
+          "ms": 0.12129443883895874,
+          "mt": 0.24661052227020264
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0009",
+          "group": "man|to the left of|person",
+          "ms": 1.8720043897628784,
+          "mt": -0.7542557716369629
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0000",
+          "group": "person|to the right of|man",
+          "ms": -0.13506948947906494,
+          "mt": -1.1404564380645752
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0001",
+          "group": "person|to the right of|man",
+          "ms": -0.256990909576416,
+          "mt": -1.499993085861206
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0002",
+          "group": "person|to the right of|man",
+          "ms": -1.0021097660064697,
+          "mt": -0.25504088401794434
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0003",
+          "group": "person|to the right of|man",
+          "ms": -0.37798547744750977,
+          "mt": -1.2513703107833862
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0004",
+          "group": "person|to the right of|man",
+          "ms": -0.5044901371002197,
+          "mt": -1.1272313594818115
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0005",
+          "group": "person|to the right of|man",
+          "ms": -0.8805414438247681,
+          "mt": -0.8194484710693359
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0006",
+          "group": "person|to the right of|man",
+          "ms": 1.4978102445602417,
+          "mt": -1.0031208992004395
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0007",
+          "group": "person|to the right of|man",
+          "ms": -1.008352518081665,
+          "mt": -0.8819817900657654
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0008",
+          "group": "person|to the right of|man",
+          "ms": 1.9983619451522827,
+          "mt": 0.12330561876296997
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0009",
+          "group": "person|to the right of|man",
+          "ms": 0.37615352869033813,
+          "mt": -1.2614575624465942
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0000",
+          "group": "tree|to the left of|building",
+          "ms": -0.9999977350234985,
+          "mt": -1.1234164237976074
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0001",
+          "group": "tree|to the left of|building",
+          "ms": -0.7478793859481812,
+          "mt": -0.9999920129776001
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0002",
+          "group": "tree|to the left of|building",
+          "ms": -0.7519066333770752,
+          "mt": 0.4999930262565613
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0003",
+          "group": "tree|to the left of|building",
+          "ms": 2.2499966621398926,
+          "mt": -1.2500001192092896
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0004",
+          "group": "tree|to the left of|building",
+          "ms": -0.2509075403213501,
+          "mt": -1.0082941055297852
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0005",
+          "group": "tree|to the left of|building",
+          "ms": 1.2499949932098389,
+          "mt": -0.6255204677581787
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0006",
+          "group": "tree|to the left of|building",
+          "ms": -0.37360644340515137,
+          "mt": -0.5012341141700745
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0007",
+          "group": "tree|to the left of|building",
+          "ms": -0.6249974370002747,
+          "mt": -1.250488519668579
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0008",
+          "group": "tree|to the left of|building",
+          "ms": -0.6262287497520447,
+          "mt": -0.5032405853271484
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0009",
+          "group": "tree|to the left of|building",
+          "ms": -1.0019878149032593,
+          "mt": -1.000002384185791
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0000",
+          "group": "chair|to the left of|table",
+          "ms": -1.144002079963684,
+          "mt": -1.374995470046997
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0001",
+          "group": "chair|to the left of|table",
+          "ms": -0.13129311800003052,
+          "mt": -1.880301833152771
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0002",
+          "group": "chair|to the left of|table",
+          "ms": -0.9986884593963623,
+          "mt": -0.5089442133903503
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0003",
+          "group": "chair|to the left of|table",
+          "ms": -0.1100531816482544,
+          "mt": -1.1280567646026611
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0004",
+          "group": "chair|to the left of|table",
+          "ms": -1.0034804344177246,
+          "mt": -1.7472800016403198
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0005",
+          "group": "chair|to the left of|table",
+          "ms": -1.0043857097625732,
+          "mt": -2.126288414001465
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0006",
+          "group": "chair|to the left of|table",
+          "ms": -1.7542381286621094,
+          "mt": -1.1267905235290527
+        }
+      ]
+    },
+    "ablate_top": {
+      "metrics": {
+        "pair_acc": 0.7368421052631579,
+        "auc": 0.7032933210218528,
+        "mean_delta": 1.103309447828092
+      },
+      "per_pair": [
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0000",
+          "group": "woman|to the left of|man",
+          "ms": 1.8744720220565796,
+          "mt": 1.12314772605896
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0001",
+          "group": "woman|to the left of|man",
+          "ms": 2.124912738800049,
+          "mt": 2.2495272159576416
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0002",
+          "group": "woman|to the left of|man",
+          "ms": -0.3755142092704773,
+          "mt": 0.7494848370552063
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0003",
+          "group": "woman|to the left of|man",
+          "ms": 3.999976396560669,
+          "mt": 2.874851703643799
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0004",
+          "group": "woman|to the left of|man",
+          "ms": 1.8748809099197388,
+          "mt": -2.3756179809570312
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0005",
+          "group": "woman|to the left of|man",
+          "ms": 4.749935626983643,
+          "mt": 1.2497026920318604
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0006",
+          "group": "woman|to the left of|man",
+          "ms": 1.5000001192092896,
+          "mt": 0.749738335609436
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0007",
+          "group": "woman|to the left of|man",
+          "ms": 1.124464750289917,
+          "mt": -2.250274658203125
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0008",
+          "group": "woman|to the left of|man",
+          "ms": 4.499938011169434,
+          "mt": -0.3753519058227539
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0009",
+          "group": "woman|to the left of|man",
+          "ms": 2.2497615814208984,
+          "mt": 1.4992973804473877
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0000",
+          "group": "man|to the right of|woman",
+          "ms": 0.8743926286697388,
+          "mt": 0.37072306871414185
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0001",
+          "group": "man|to the right of|woman",
+          "ms": -0.500422477722168,
+          "mt": 0.49762579798698425
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0002",
+          "group": "man|to the right of|woman",
+          "ms": -0.7512326240539551,
+          "mt": -0.126226544380188
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0003",
+          "group": "man|to the right of|woman",
+          "ms": 3.749589681625366,
+          "mt": 1.2495131492614746
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0004",
+          "group": "man|to the right of|woman",
+          "ms": 2.24971866607666,
+          "mt": 0.2492648959159851
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0005",
+          "group": "man|to the right of|woman",
+          "ms": 4.24973726272583,
+          "mt": 0.12422364950180054
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0006",
+          "group": "man|to the right of|woman",
+          "ms": 0.7499992847442627,
+          "mt": -0.0006621479988098145
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0007",
+          "group": "man|to the right of|woman",
+          "ms": 0.4991745352745056,
+          "mt": -0.25037121772766113
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0008",
+          "group": "man|to the right of|woman",
+          "ms": 3.6249938011169434,
+          "mt": 0.7496316432952881
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0009",
+          "group": "man|to the right of|woman",
+          "ms": 3.249887704849243,
+          "mt": 0.999350905418396
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0000",
+          "group": "man|to the left of|person",
+          "ms": 0.8746623396873474,
+          "mt": -0.7509410381317139
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0001",
+          "group": "man|to the left of|person",
+          "ms": 0.12424463033676147,
+          "mt": -1.6259921789169312
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0002",
+          "group": "man|to the left of|person",
+          "ms": -0.7503926753997803,
+          "mt": 0.24846386909484863
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0003",
+          "group": "man|to the left of|person",
+          "ms": 0.8745584487915039,
+          "mt": -1.2503242492675781
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0004",
+          "group": "man|to the left of|person",
+          "ms": 0.12474548816680908,
+          "mt": -0.8755583763122559
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0005",
+          "group": "man|to the left of|person",
+          "ms": 0.24948978424072266,
+          "mt": -0.6288884282112122
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0006",
+          "group": "man|to the left of|person",
+          "ms": 0.49981650710105896,
+          "mt": 0.8745431900024414
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0007",
+          "group": "man|to the left of|person",
+          "ms": -0.6255376935005188,
+          "mt": -0.37620335817337036
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0008",
+          "group": "man|to the left of|person",
+          "ms": -0.0016515851020812988,
+          "mt": 0.12371224164962769
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0009",
+          "group": "man|to the left of|person",
+          "ms": 1.9991180896759033,
+          "mt": -0.7512232065200806
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0000",
+          "group": "person|to the right of|man",
+          "ms": -0.00187605619430542,
+          "mt": -1.1301356554031372
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0001",
+          "group": "person|to the right of|man",
+          "ms": -0.12684893608093262,
+          "mt": -1.374630093574524
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0002",
+          "group": "person|to the right of|man",
+          "ms": -1.251030445098877,
+          "mt": -0.5016452074050903
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0003",
+          "group": "person|to the right of|man",
+          "ms": -0.5005987882614136,
+          "mt": -0.875698447227478
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0004",
+          "group": "person|to the right of|man",
+          "ms": -0.751392126083374,
+          "mt": -1.375770926475525
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0005",
+          "group": "person|to the right of|man",
+          "ms": -1.0031635761260986,
+          "mt": -0.5486141443252563
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0006",
+          "group": "person|to the right of|man",
+          "ms": 2.2493698596954346,
+          "mt": -0.8761701583862305
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0007",
+          "group": "person|to the right of|man",
+          "ms": -1.0664650201797485,
+          "mt": -1.2521541118621826
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0008",
+          "group": "person|to the right of|man",
+          "ms": 2.2493157386779785,
+          "mt": 0.12433409690856934
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0009",
+          "group": "person|to the right of|man",
+          "ms": 0.8750112056732178,
+          "mt": -1.1279113292694092
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0000",
+          "group": "tree|to the left of|building",
+          "ms": -0.7508498430252075,
+          "mt": -0.999987006187439
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0001",
+          "group": "tree|to the left of|building",
+          "ms": -0.3731120228767395,
+          "mt": -1.0008965730667114
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0002",
+          "group": "tree|to the left of|building",
+          "ms": -0.12624478340148926,
+          "mt": 0.9999942779541016
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0003",
+          "group": "tree|to the left of|building",
+          "ms": 2.5002403259277344,
+          "mt": -1.2503564357757568
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0004",
+          "group": "tree|to the left of|building",
+          "ms": 0.37361961603164673,
+          "mt": -0.8831496238708496
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0005",
+          "group": "tree|to the left of|building",
+          "ms": 2.0004560947418213,
+          "mt": -0.37499845027923584
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0006",
+          "group": "tree|to the left of|building",
+          "ms": 1.1324882507324219e-06,
+          "mt": -0.2524075508117676
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0007",
+          "group": "tree|to the left of|building",
+          "ms": -0.25393444299697876,
+          "mt": -1.1254205703735352
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0008",
+          "group": "tree|to the left of|building",
+          "ms": -0.49940356612205505,
+          "mt": -0.37635576725006104
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0009",
+          "group": "tree|to the left of|building",
+          "ms": -1.000426173210144,
+          "mt": -0.7506982088088989
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0000",
+          "group": "chair|to the left of|table",
+          "ms": -0.8810238838195801,
+          "mt": -1.1271263360977173
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0001",
+          "group": "chair|to the left of|table",
+          "ms": 0.24672538042068481,
+          "mt": -1.8769646883010864
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0002",
+          "group": "chair|to the left of|table",
+          "ms": -0.9985324144363403,
+          "mt": -0.3780471086502075
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0003",
+          "group": "chair|to the left of|table",
+          "ms": 0.1346638798713684,
+          "mt": -1.123534083366394
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0004",
+          "group": "chair|to the left of|table",
+          "ms": -0.7516770362854004,
+          "mt": -1.8710529804229736
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0005",
+          "group": "chair|to the left of|table",
+          "ms": -0.8767480254173279,
+          "mt": -2.001225233078003
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0006",
+          "group": "chair|to the left of|table",
+          "ms": -1.6265734434127808,
+          "mt": -1.1259608268737793
+        }
+      ]
+    },
+    "amplify_top": {
+      "metrics": {
+        "pair_acc": 0.7368421052631579,
+        "auc": 0.6866728224068944,
+        "mean_delta": 0.8226458759684312
+      },
+      "per_pair": [
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0000",
+          "group": "woman|to the left of|man",
+          "ms": 1.8709988594055176,
+          "mt": 0.24490219354629517
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0001",
+          "group": "woman|to the left of|man",
+          "ms": 2.3743062019348145,
+          "mt": 1.8714371919631958
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0002",
+          "group": "woman|to the left of|man",
+          "ms": -0.5040827989578247,
+          "mt": 0.49730271100997925
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0003",
+          "group": "woman|to the left of|man",
+          "ms": 3.124664306640625,
+          "mt": 1.748537302017212
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0004",
+          "group": "woman|to the left of|man",
+          "ms": 1.6239169836044312,
+          "mt": -1.756192684173584
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0005",
+          "group": "woman|to the left of|man",
+          "ms": 4.374274730682373,
+          "mt": 0.9986976385116577
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0006",
+          "group": "woman|to the left of|man",
+          "ms": 0.7499959468841553,
+          "mt": 0.12395578622817993
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0007",
+          "group": "woman|to the left of|man",
+          "ms": 0.7443480491638184,
+          "mt": -1.6262773275375366
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0008",
+          "group": "woman|to the left of|man",
+          "ms": 4.374444961547852,
+          "mt": -0.6278111338615417
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0009",
+          "group": "woman|to the left of|man",
+          "ms": 1.4984018802642822,
+          "mt": 0.8678834438323975
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0000",
+          "group": "man|to the right of|woman",
+          "ms": 0.7443373203277588,
+          "mt": -0.9044926166534424
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0001",
+          "group": "man|to the right of|woman",
+          "ms": -0.8832919001579285,
+          "mt": -0.14170223474502563
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0002",
+          "group": "man|to the right of|woman",
+          "ms": -1.270621418952942,
+          "mt": -0.3887256979942322
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0003",
+          "group": "man|to the right of|woman",
+          "ms": 1.2394287586212158,
+          "mt": -0.00698542594909668
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0004",
+          "group": "man|to the right of|woman",
+          "ms": 0.9810227155685425,
+          "mt": -0.2633242607116699
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0005",
+          "group": "man|to the right of|woman",
+          "ms": 2.3651645183563232,
+          "mt": -0.3804818391799927
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0006",
+          "group": "man|to the right of|woman",
+          "ms": 0.0,
+          "mt": -0.7551555633544922
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0007",
+          "group": "man|to the right of|woman",
+          "ms": -0.13544774055480957,
+          "mt": -0.5034829378128052
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0008",
+          "group": "man|to the right of|woman",
+          "ms": 1.9849309921264648,
+          "mt": -0.2601025104522705
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0009",
+          "group": "man|to the right of|woman",
+          "ms": 1.49544095993042,
+          "mt": -0.26016831398010254
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0000",
+          "group": "man|to the left of|person",
+          "ms": 0.9928814172744751,
+          "mt": -0.6355756521224976
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0001",
+          "group": "man|to the left of|person",
+          "ms": 0.24016648530960083,
+          "mt": -2.0045106410980225
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0002",
+          "group": "man|to the left of|person",
+          "ms": -0.1273338794708252,
+          "mt": 0.11659747362136841
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0003",
+          "group": "man|to the left of|person",
+          "ms": 0.24549686908721924,
+          "mt": -1.3787882328033447
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0004",
+          "group": "man|to the left of|person",
+          "ms": 0.24795526266098022,
+          "mt": -0.757563591003418
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0005",
+          "group": "man|to the left of|person",
+          "ms": -0.25428324937820435,
+          "mt": -0.7740088701248169
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0006",
+          "group": "man|to the left of|person",
+          "ms": 0.3732861876487732,
+          "mt": 0.7461633086204529
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0007",
+          "group": "man|to the left of|person",
+          "ms": -0.6300941705703735,
+          "mt": -0.011600792407989502
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0008",
+          "group": "man|to the left of|person",
+          "ms": 0.3597456216812134,
+          "mt": 0.4895830452442169
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0009",
+          "group": "man|to the left of|person",
+          "ms": 1.6094887256622314,
+          "mt": -0.8868027925491333
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0000",
+          "group": "person|to the right of|man",
+          "ms": -0.28027451038360596,
+          "mt": -1.0611767768859863
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0001",
+          "group": "person|to the right of|man",
+          "ms": -0.4052661061286926,
+          "mt": -1.2551615238189697
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0002",
+          "group": "person|to the right of|man",
+          "ms": -1.0059013366699219,
+          "mt": -0.14170032739639282
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0003",
+          "group": "person|to the right of|man",
+          "ms": -0.39213162660598755,
+          "mt": -1.1355425119400024
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0004",
+          "group": "person|to the right of|man",
+          "ms": -0.28025150299072266,
+          "mt": -0.8852696418762207
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0005",
+          "group": "person|to the right of|man",
+          "ms": -0.8875272274017334,
+          "mt": -0.8729838132858276
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0006",
+          "group": "person|to the right of|man",
+          "ms": 0.36278069019317627,
+          "mt": -0.7636793851852417
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0007",
+          "group": "person|to the right of|man",
+          "ms": -0.9056957960128784,
+          "mt": -0.5213410258293152
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0008",
+          "group": "person|to the right of|man",
+          "ms": 1.2414504289627075,
+          "mt": -0.0061956048011779785
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0009",
+          "group": "person|to the right of|man",
+          "ms": -0.1263853907585144,
+          "mt": -1.290838599205017
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0000",
+          "group": "tree|to the left of|building",
+          "ms": -1.1187047958374023,
+          "mt": -1.124991774559021
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0001",
+          "group": "tree|to the left of|building",
+          "ms": -0.9944096803665161,
+          "mt": -1.0081372261047363
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0002",
+          "group": "tree|to the left of|building",
+          "ms": -1.2537555694580078,
+          "mt": -0.006305396556854248
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0003",
+          "group": "tree|to the left of|building",
+          "ms": 1.4991414546966553,
+          "mt": -1.1240956783294678
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0004",
+          "group": "tree|to the left of|building",
+          "ms": -0.634356677532196,
+          "mt": -1.0133848190307617
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0005",
+          "group": "tree|to the left of|building",
+          "ms": 0.3725908398628235,
+          "mt": -0.6269931793212891
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0006",
+          "group": "tree|to the left of|building",
+          "ms": -0.6222899556159973,
+          "mt": -0.7500003576278687
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0007",
+          "group": "tree|to the left of|building",
+          "ms": -0.6463197469711304,
+          "mt": -1.252252221107483
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0008",
+          "group": "tree|to the left of|building",
+          "ms": -0.8775507211685181,
+          "mt": -0.634244978427887
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0009",
+          "group": "tree|to the left of|building",
+          "ms": -1.2520041465759277,
+          "mt": -1.1259090900421143
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0000",
+          "group": "chair|to the left of|table",
+          "ms": -1.170670986175537,
+          "mt": -1.2792179584503174
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0001",
+          "group": "chair|to the left of|table",
+          "ms": -0.2738865613937378,
+          "mt": -1.6465258598327637
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0002",
+          "group": "chair|to the left of|table",
+          "ms": -1.2499998807907104,
+          "mt": -0.5411844253540039
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0003",
+          "group": "chair|to the left of|table",
+          "ms": -0.4575244188308716,
+          "mt": -1.1440093517303467
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0004",
+          "group": "chair|to the left of|table",
+          "ms": -0.8855489492416382,
+          "mt": -1.4999927282333374
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0005",
+          "group": "chair|to the left of|table",
+          "ms": -1.0189998149871826,
+          "mt": -1.7644364833831787
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0006",
+          "group": "chair|to the left of|table",
+          "ms": -1.877262830734253,
+          "mt": -1.1277633905410767
+        }
+      ]
+    },
+    "ablate_random": {
+      "metrics": {
+        "pair_acc": 0.7543859649122807,
+        "auc": 0.7082179132040629,
+        "mean_delta": 1.0533550538514789
+      },
+      "per_pair": [
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0000",
+          "group": "woman|to the left of|man",
+          "ms": 2.123816967010498,
+          "mt": 0.7458459138870239
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0001",
+          "group": "woman|to the left of|man",
+          "ms": 2.249858856201172,
+          "mt": 1.9986653327941895
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0002",
+          "group": "woman|to the left of|man",
+          "ms": -0.3762372136116028,
+          "mt": 0.7487630248069763
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0003",
+          "group": "woman|to the left of|man",
+          "ms": 3.749911069869995,
+          "mt": 2.624668836593628
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0004",
+          "group": "woman|to the left of|man",
+          "ms": 1.7497202157974243,
+          "mt": -2.3764448165893555
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0005",
+          "group": "woman|to the left of|man",
+          "ms": 4.87479829788208,
+          "mt": 1.249192237854004
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0006",
+          "group": "woman|to the left of|man",
+          "ms": 1.375586748123169,
+          "mt": 0.37448352575302124
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0007",
+          "group": "woman|to the left of|man",
+          "ms": 0.998457133769989,
+          "mt": -2.2504162788391113
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0008",
+          "group": "woman|to the left of|man",
+          "ms": 4.624879837036133,
+          "mt": -0.37574470043182373
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0009",
+          "group": "woman|to the left of|man",
+          "ms": 2.124344825744629,
+          "mt": 1.3735383749008179
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0000",
+          "group": "man|to the right of|woman",
+          "ms": 0.9975494742393494,
+          "mt": -0.516189455986023
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0001",
+          "group": "man|to the right of|woman",
+          "ms": -0.7515569925308228,
+          "mt": 0.11883234977722168
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0002",
+          "group": "man|to the right of|woman",
+          "ms": -1.3779881000518799,
+          "mt": -0.5048155784606934
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0003",
+          "group": "man|to the right of|woman",
+          "ms": 2.747974157333374,
+          "mt": 0.6230213642120361
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0004",
+          "group": "man|to the right of|woman",
+          "ms": 1.6199005842208862,
+          "mt": -0.12781119346618652
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0005",
+          "group": "man|to the right of|woman",
+          "ms": 3.497878074645996,
+          "mt": -0.1278117299079895
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0006",
+          "group": "man|to the right of|woman",
+          "ms": 0.3740324378013611,
+          "mt": -0.5022729635238647
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0007",
+          "group": "man|to the right of|woman",
+          "ms": 0.24639761447906494,
+          "mt": -0.5012997388839722
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0008",
+          "group": "man|to the right of|woman",
+          "ms": 2.997234344482422,
+          "mt": -0.002252340316772461
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0009",
+          "group": "man|to the right of|woman",
+          "ms": 2.2493343353271484,
+          "mt": 0.37122881412506104
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0000",
+          "group": "man|to the left of|person",
+          "ms": 1.1230555772781372,
+          "mt": -0.7528890371322632
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0001",
+          "group": "man|to the left of|person",
+          "ms": 0.37057745456695557,
+          "mt": -1.8772315979003906
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0002",
+          "group": "man|to the left of|person",
+          "ms": -0.25072962045669556,
+          "mt": 0.24289190769195557
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0003",
+          "group": "man|to the left of|person",
+          "ms": 0.6240209937095642,
+          "mt": -1.2515407800674438
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0004",
+          "group": "man|to the left of|person",
+          "ms": 0.4992661476135254,
+          "mt": -0.7515411972999573
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0005",
+          "group": "man|to the left of|person",
+          "ms": 0.12308770418167114,
+          "mt": -0.7591968774795532
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0006",
+          "group": "man|to the left of|person",
+          "ms": 0.6244477033615112,
+          "mt": 1.1239206790924072
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0007",
+          "group": "man|to the left of|person",
+          "ms": -0.6275167465209961,
+          "mt": -0.12859570980072021
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0008",
+          "group": "man|to the left of|person",
+          "ms": 0.37105536460876465,
+          "mt": 0.4941946864128113
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0009",
+          "group": "man|to the left of|person",
+          "ms": 1.9967252016067505,
+          "mt": -0.8795245289802551
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0000",
+          "group": "person|to the right of|man",
+          "ms": -0.5073433518409729,
+          "mt": -1.1424659490585327
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0001",
+          "group": "person|to the right of|man",
+          "ms": -0.3826638460159302,
+          "mt": -1.50084388256073
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0002",
+          "group": "person|to the right of|man",
+          "ms": -1.002706527709961,
+          "mt": -0.2564554214477539
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0003",
+          "group": "person|to the right of|man",
+          "ms": -0.3784196972846985,
+          "mt": -1.1277503967285156
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0004",
+          "group": "person|to the right of|man",
+          "ms": -0.5088964700698853,
+          "mt": -1.2518508434295654
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0005",
+          "group": "person|to the right of|man",
+          "ms": -0.8814479112625122,
+          "mt": -0.7261354923248291
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0006",
+          "group": "person|to the right of|man",
+          "ms": 1.4980136156082153,
+          "mt": -0.8795095682144165
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0007",
+          "group": "person|to the right of|man",
+          "ms": -1.1318609714508057,
+          "mt": -0.8867285847663879
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0008",
+          "group": "person|to the right of|man",
+          "ms": 1.9982564449310303,
+          "mt": -0.12608963251113892
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0009",
+          "group": "person|to the right of|man",
+          "ms": 0.37434566020965576,
+          "mt": -1.261451005935669
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0000",
+          "group": "tree|to the left of|building",
+          "ms": -0.7500003576278687,
+          "mt": -0.999989926815033
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0001",
+          "group": "tree|to the left of|building",
+          "ms": -0.6196524500846863,
+          "mt": -0.8766652345657349
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0002",
+          "group": "tree|to the left of|building",
+          "ms": -0.6266676187515259,
+          "mt": 0.7522561550140381
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0003",
+          "group": "tree|to the left of|building",
+          "ms": 2.125190258026123,
+          "mt": -1.125
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0004",
+          "group": "tree|to the left of|building",
+          "ms": -0.0035291314125061035,
+          "mt": -0.889436662197113
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0005",
+          "group": "tree|to the left of|building",
+          "ms": 1.2499934434890747,
+          "mt": -0.251076340675354
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0006",
+          "group": "tree|to the left of|building",
+          "ms": -0.2484256625175476,
+          "mt": -0.3791877031326294
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0007",
+          "group": "tree|to the left of|building",
+          "ms": -0.25558966398239136,
+          "mt": -1.0011433362960815
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0008",
+          "group": "tree|to the left of|building",
+          "ms": -0.37918365001678467,
+          "mt": -0.37915319204330444
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0009",
+          "group": "tree|to the left of|building",
+          "ms": -0.7532758712768555,
+          "mt": -1.0005912780761719
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0000",
+          "group": "chair|to the left of|table",
+          "ms": -1.0190048217773438,
+          "mt": -1.1362640857696533
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0001",
+          "group": "chair|to the left of|table",
+          "ms": -0.015056073665618896,
+          "mt": -1.8825513124465942
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0002",
+          "group": "chair|to the left of|table",
+          "ms": -1.1249971389770508,
+          "mt": -0.4999909996986389
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0003",
+          "group": "chair|to the left of|table",
+          "ms": -0.22429752349853516,
+          "mt": -1.1288954019546509
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0004",
+          "group": "chair|to the left of|table",
+          "ms": -0.8800948858261108,
+          "mt": -1.61790132522583
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0005",
+          "group": "chair|to the left of|table",
+          "ms": -1.0081313848495483,
+          "mt": -2.0021238327026367
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0006",
+          "group": "chair|to the left of|table",
+          "ms": -1.7539851665496826,
+          "mt": -1.1274596452713013
+        }
+      ]
+    },
+    "amplify_random": {
+      "metrics": {
+        "pair_acc": 0.7368421052631579,
+        "auc": 0.7122191443521083,
+        "mean_delta": 0.9866540233294169
+      },
+      "per_pair": [
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0000",
+          "group": "woman|to the left of|man",
+          "ms": 1.749151587486267,
+          "mt": 0.6227341294288635
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0001",
+          "group": "woman|to the left of|man",
+          "ms": 2.374803304672241,
+          "mt": 2.248765707015991
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0002",
+          "group": "woman|to the left of|man",
+          "ms": -0.3771958351135254,
+          "mt": 0.7483896017074585
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0003",
+          "group": "woman|to the left of|man",
+          "ms": 3.6249358654022217,
+          "mt": 2.2495903968811035
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0004",
+          "group": "woman|to the left of|man",
+          "ms": 1.749800682067871,
+          "mt": -2.001277208328247
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0005",
+          "group": "woman|to the left of|man",
+          "ms": 4.624762058258057,
+          "mt": 1.2490410804748535
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0006",
+          "group": "woman|to the left of|man",
+          "ms": 1.1249971389770508,
+          "mt": 0.49949419498443604
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0007",
+          "group": "woman|to the left of|man",
+          "ms": 0.9985922574996948,
+          "mt": -1.7503159046173096
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0008",
+          "group": "woman|to the left of|man",
+          "ms": 4.499764919281006,
+          "mt": -0.5011056661605835
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0009",
+          "group": "woman|to the left of|man",
+          "ms": 1.8745917081832886,
+          "mt": 1.120805263519287
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0000",
+          "group": "man|to the right of|woman",
+          "ms": 0.9985913038253784,
+          "mt": -0.3899432420730591
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0001",
+          "group": "man|to the right of|woman",
+          "ms": -0.6275877952575684,
+          "mt": 0.11776655912399292
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0002",
+          "group": "man|to the right of|woman",
+          "ms": -0.8799070119857788,
+          "mt": -0.37752777338027954
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0003",
+          "group": "man|to the right of|woman",
+          "ms": 2.4983174800872803,
+          "mt": 0.4978480935096741
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0004",
+          "group": "man|to the right of|woman",
+          "ms": 1.5027004480361938,
+          "mt": -0.0025323033332824707
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0005",
+          "group": "man|to the right of|woman",
+          "ms": 3.4982221126556396,
+          "mt": -0.12638431787490845
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0006",
+          "group": "man|to the right of|woman",
+          "ms": 0.49834251403808594,
+          "mt": -0.3765522241592407
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0007",
+          "group": "man|to the right of|woman",
+          "ms": 0.370296835899353,
+          "mt": -0.1259446144104004
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0008",
+          "group": "man|to the right of|woman",
+          "ms": 2.8738300800323486,
+          "mt": 0.24840950965881348
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0009",
+          "group": "man|to the right of|woman",
+          "ms": 2.374544143676758,
+          "mt": 0.37235885858535767
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0000",
+          "group": "man|to the left of|person",
+          "ms": 0.7488367557525635,
+          "mt": -0.7525323629379272
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0001",
+          "group": "man|to the left of|person",
+          "ms": 0.24768811464309692,
+          "mt": -1.7534445524215698
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0002",
+          "group": "man|to the left of|person",
+          "ms": -0.5006053447723389,
+          "mt": 0.24530541896820068
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0003",
+          "group": "man|to the left of|person",
+          "ms": 0.6239111423492432,
+          "mt": -1.2515404224395752
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0004",
+          "group": "man|to the left of|person",
+          "ms": 0.12466377019882202,
+          "mt": -0.8769752979278564
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0005",
+          "group": "man|to the left of|person",
+          "ms": 0.12296277284622192,
+          "mt": -0.7604414224624634
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0006",
+          "group": "man|to the left of|person",
+          "ms": 0.37443989515304565,
+          "mt": 0.9985772967338562
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0007",
+          "group": "man|to the left of|person",
+          "ms": -0.6262279748916626,
+          "mt": -0.12684762477874756
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0008",
+          "group": "man|to the left of|person",
+          "ms": -0.129416823387146,
+          "mt": 0.12057507038116455
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0009",
+          "group": "man|to the left of|person",
+          "ms": 1.6220381259918213,
+          "mt": -0.8786711096763611
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0000",
+          "group": "person|to the right of|man",
+          "ms": 0.2426525354385376,
+          "mt": -1.022451639175415
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0001",
+          "group": "person|to the right of|man",
+          "ms": -0.13605141639709473,
+          "mt": -1.2481021881103516
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0002",
+          "group": "person|to the right of|man",
+          "ms": -0.8769291639328003,
+          "mt": -0.3803127408027649
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0003",
+          "group": "person|to the right of|man",
+          "ms": -0.2539650797843933,
+          "mt": -1.0028939247131348
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0004",
+          "group": "person|to the right of|man",
+          "ms": -0.5029187202453613,
+          "mt": -1.0023720264434814
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0005",
+          "group": "person|to the right of|man",
+          "ms": -0.7596467733383179,
+          "mt": -0.8274186849594116
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0006",
+          "group": "person|to the right of|man",
+          "ms": 1.370259165763855,
+          "mt": -0.7539677619934082
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0007",
+          "group": "person|to the right of|man",
+          "ms": -1.0113236904144287,
+          "mt": -0.8800870180130005
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0008",
+          "group": "person|to the right of|man",
+          "ms": 1.4979770183563232,
+          "mt": 0.24921011924743652
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0009",
+          "group": "person|to the right of|man",
+          "ms": 0.5000081062316895,
+          "mt": -1.2628889083862305
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0000",
+          "group": "tree|to the left of|building",
+          "ms": -1.0000003576278687,
+          "mt": -1.2439624071121216
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0001",
+          "group": "tree|to the left of|building",
+          "ms": -0.7474532723426819,
+          "mt": -1.0038883686065674
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0002",
+          "group": "tree|to the left of|building",
+          "ms": -0.8769045472145081,
+          "mt": 0.2543905973434448
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0003",
+          "group": "tree|to the left of|building",
+          "ms": 2.001378059387207,
+          "mt": -1.2499992847442627
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0004",
+          "group": "tree|to the left of|building",
+          "ms": -0.2511608600616455,
+          "mt": -1.2517770528793335
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0005",
+          "group": "tree|to the left of|building",
+          "ms": 1.1236854791641235,
+          "mt": -0.7500004768371582
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0006",
+          "group": "tree|to the left of|building",
+          "ms": -0.4955499470233917,
+          "mt": -0.3800995945930481
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0007",
+          "group": "tree|to the left of|building",
+          "ms": -0.7499954700469971,
+          "mt": -1.3755197525024414
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0008",
+          "group": "tree|to the left of|building",
+          "ms": -0.6263912320137024,
+          "mt": -0.5029544234275818
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0009",
+          "group": "tree|to the left of|building",
+          "ms": -1.1262295246124268,
+          "mt": -0.8754082322120667
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0000",
+          "group": "chair|to the left of|table",
+          "ms": -1.1407397985458374,
+          "mt": -1.3574453592300415
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0001",
+          "group": "chair|to the left of|table",
+          "ms": -0.12499547004699707,
+          "mt": -1.758918046951294
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0002",
+          "group": "chair|to the left of|table",
+          "ms": -0.8749998211860657,
+          "mt": -0.4999925196170807
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0003",
+          "group": "chair|to the left of|table",
+          "ms": 0.01897430419921875,
+          "mt": -1.1270066499710083
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0004",
+          "group": "chair|to the left of|table",
+          "ms": -0.8784826397895813,
+          "mt": -1.6187005043029785
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0005",
+          "group": "chair|to the left of|table",
+          "ms": -0.8749897480010986,
+          "mt": -2.001086473464966
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0006",
+          "group": "chair|to the left of|table",
+          "ms": -1.7550939321517944,
+          "mt": -1.0022937059402466
+        }
+      ]
+    },
+    "ablate_all_layer6": {
+      "metrics": {
+        "pair_acc": 0.7368421052631579,
+        "auc": 0.7460757156048016,
+        "mean_delta": 0.8514929779788905
+      },
+      "per_pair": [
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0000",
+          "group": "woman|to the left of|man",
+          "ms": 0.8748249411582947,
+          "mt": -0.7502316832542419
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0001",
+          "group": "woman|to the left of|man",
+          "ms": 1.7499117851257324,
+          "mt": -0.12550842761993408
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0002",
+          "group": "woman|to the left of|man",
+          "ms": -0.3754279613494873,
+          "mt": 0.6248698234558105
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0003",
+          "group": "woman|to the left of|man",
+          "ms": 1.9999182224273682,
+          "mt": 1.499868631362915
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0004",
+          "group": "woman|to the left of|man",
+          "ms": 0.625023603439331,
+          "mt": -2.8752024173736572
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0005",
+          "group": "woman|to the left of|man",
+          "ms": 2.874891996383667,
+          "mt": 0.24955636262893677
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0006",
+          "group": "woman|to the left of|man",
+          "ms": 0.6256234645843506,
+          "mt": -0.25007641315460205
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0007",
+          "group": "woman|to the left of|man",
+          "ms": 0.749894380569458,
+          "mt": -2.0000219345092773
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0008",
+          "group": "woman|to the left of|man",
+          "ms": 2.2498912811279297,
+          "mt": -1.0003113746643066
+        },
+        {
+          "pair_id": "spatial:dev:woman|to the left of|man:0009",
+          "group": "woman|to the left of|man",
+          "ms": 0.37483519315719604,
+          "mt": 1.1243078708648682
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0000",
+          "group": "man|to the right of|woman",
+          "ms": -0.00011998414993286133,
+          "mt": -1.5017390251159668
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0001",
+          "group": "man|to the right of|woman",
+          "ms": -0.8731850385665894,
+          "mt": -1.375693917274475
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0002",
+          "group": "man|to the right of|woman",
+          "ms": -1.5008718967437744,
+          "mt": -0.12522560358047485
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0003",
+          "group": "man|to the right of|woman",
+          "ms": 0.9993497133255005,
+          "mt": -0.8751946091651917
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0004",
+          "group": "man|to the right of|woman",
+          "ms": 0.6247270107269287,
+          "mt": -0.5007373094558716
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0005",
+          "group": "man|to the right of|woman",
+          "ms": 0.6235286593437195,
+          "mt": -0.8750749826431274
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0006",
+          "group": "man|to the right of|woman",
+          "ms": 0.12526804208755493,
+          "mt": -0.8751386404037476
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0007",
+          "group": "man|to the right of|woman",
+          "ms": -0.00019508600234985352,
+          "mt": -1.125060796737671
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0008",
+          "group": "man|to the right of|woman",
+          "ms": 0.4988504648208618,
+          "mt": -0.7504327893257141
+        },
+        {
+          "pair_id": "spatial:dev:man|to the right of|woman:0009",
+          "group": "man|to the right of|woman",
+          "ms": 1.6249983310699463,
+          "mt": -0.625380277633667
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0000",
+          "group": "man|to the left of|person",
+          "ms": -0.25,
+          "mt": -1.125603199005127
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0001",
+          "group": "man|to the left of|person",
+          "ms": 0.12474536895751953,
+          "mt": -2.1868722438812256
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0002",
+          "group": "man|to the left of|person",
+          "ms": -0.8750917911529541,
+          "mt": -0.0016963481903076172
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0003",
+          "group": "man|to the left of|person",
+          "ms": 0.249799907207489,
+          "mt": -0.5007898807525635
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0004",
+          "group": "man|to the left of|person",
+          "ms": -0.12517249584197998,
+          "mt": -0.37599295377731323
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0005",
+          "group": "man|to the left of|person",
+          "ms": 0.24869471788406372,
+          "mt": -0.7340532541275024
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0006",
+          "group": "man|to the left of|person",
+          "ms": -0.125188410282135,
+          "mt": 0.3746703267097473
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0007",
+          "group": "man|to the left of|person",
+          "ms": -0.6928378939628601,
+          "mt": -0.37547463178634644
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0008",
+          "group": "man|to the left of|person",
+          "ms": -0.00020897388458251953,
+          "mt": -0.12589430809020996
+        },
+        {
+          "pair_id": "spatial:dev:man|to the left of|person:0009",
+          "group": "man|to the left of|person",
+          "ms": 1.2484290599822998,
+          "mt": -1.2504291534423828
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0000",
+          "group": "person|to the right of|man",
+          "ms": -0.9966422319412231,
+          "mt": -1.2571964263916016
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0001",
+          "group": "person|to the right of|man",
+          "ms": -0.8124774694442749,
+          "mt": -1.4374090433120728
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0002",
+          "group": "person|to the right of|man",
+          "ms": -1.0636799335479736,
+          "mt": -0.4464658498764038
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0003",
+          "group": "person|to the right of|man",
+          "ms": -0.38597363233566284,
+          "mt": -1.3184977769851685
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0004",
+          "group": "person|to the right of|man",
+          "ms": -0.06139206886291504,
+          "mt": -1.3124816417694092
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0005",
+          "group": "person|to the right of|man",
+          "ms": -0.880523681640625,
+          "mt": -0.99428790807724
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0006",
+          "group": "person|to the right of|man",
+          "ms": 0.9996542930603027,
+          "mt": -1.440173864364624
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0007",
+          "group": "person|to the right of|man",
+          "ms": -0.9133479595184326,
+          "mt": -0.6263443231582642
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0008",
+          "group": "person|to the right of|man",
+          "ms": 0.8725544810295105,
+          "mt": -1.1264851093292236
+        },
+        {
+          "pair_id": "spatial:dev:person|to the right of|man:0009",
+          "group": "person|to the right of|man",
+          "ms": 0.6934667825698853,
+          "mt": -1.6356359720230103
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0000",
+          "group": "tree|to the left of|building",
+          "ms": -1.5003288984298706,
+          "mt": -1.625146746635437
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0001",
+          "group": "tree|to the left of|building",
+          "ms": -1.3751121759414673,
+          "mt": -1.1255338191986084
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0002",
+          "group": "tree|to the left of|building",
+          "ms": -0.9379318952560425,
+          "mt": -0.00014853477478027344
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0003",
+          "group": "tree|to the left of|building",
+          "ms": 1.4998587369918823,
+          "mt": -1.6874966621398926
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0004",
+          "group": "tree|to the left of|building",
+          "ms": -1.000221610069275,
+          "mt": -1.751849889755249
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0005",
+          "group": "tree|to the left of|building",
+          "ms": -0.12582319974899292,
+          "mt": -1.0002037286758423
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0006",
+          "group": "tree|to the left of|building",
+          "ms": -1.0634891986846924,
+          "mt": -1.5012757778167725
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0007",
+          "group": "tree|to the left of|building",
+          "ms": -1.2502135038375854,
+          "mt": -1.250243902206421
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0008",
+          "group": "tree|to the left of|building",
+          "ms": -1.2503621578216553,
+          "mt": -0.8756427764892578
+        },
+        {
+          "pair_id": "spatial:dev:tree|to the left of|building:0009",
+          "group": "tree|to the left of|building",
+          "ms": -1.8752734661102295,
+          "mt": -1.5000696182250977
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0000",
+          "group": "chair|to the left of|table",
+          "ms": -0.6878846883773804,
+          "mt": -1.249916434288025
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0001",
+          "group": "chair|to the left of|table",
+          "ms": 0.25000786781311035,
+          "mt": -1.3752833604812622
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0002",
+          "group": "chair|to the left of|table",
+          "ms": -0.7481732368469238,
+          "mt": -0.49972838163375854
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0003",
+          "group": "chair|to the left of|table",
+          "ms": -0.5560843348503113,
+          "mt": -1.374993920326233
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0004",
+          "group": "chair|to the left of|table",
+          "ms": -1.1251025199890137,
+          "mt": -1.1247183084487915
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0005",
+          "group": "chair|to the left of|table",
+          "ms": -0.6289933919906616,
+          "mt": -2.1876373291015625
+        },
+        {
+          "pair_id": "spatial:dev:chair|to the left of|table:0006",
+          "group": "chair|to the left of|table",
+          "ms": -1.2503676414489746,
+          "mt": -0.8746196031570435
+        }
+      ]
+    }
+  }
+}

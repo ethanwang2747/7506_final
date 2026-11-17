@@ -88,13 +88,13 @@ zero or negative, and no head has a meaningful positive correlation with pair
 correctness or margin delta.
 
 This is a useful negative result: there is no “relation head” to amplify, and the
-answer token largely ignores the object tokens. The next causal test is **oracle
-attention steering** — force the answer token to attend to target/reference
-tokens at test time (boxes only as a diagnostic). If that improves the answer,
-routing is causally sufficient and the next step is a learned attention
-controller; if not, the bottleneck is downstream (connector/MLP/readout), and
-attention is the wrong lever. The current evidence already explains why global
-attention readers fail while oracle region readout succeeds.
+answer token largely ignores the object tokens. The causal head intervention
+confirms it: ablating the top heads gives 0.737 pair accuracy / 0.703 AUC versus
+0.737 / 0.710 clean; amplifying them is slightly worse; ablating random heads
+gives 0.754 / 0.708; even zeroing all 32 layer-6 heads leaves pair accuracy at
+0.737. Attention-head output is therefore a **control row**, not the current
+bottleneck. The next causal tests should target latent content (steering
+directions) or the localization/readout interface — not more attention tuning.
 
 ### What actually improves accuracy?
 
