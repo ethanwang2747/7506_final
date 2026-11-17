@@ -127,6 +127,12 @@ commands are in `results/diagnostics_summary.md`.
 | per-token answer probe, per relation type | does any token answer the relation? | mean cell accuracy 0.49-0.50; best cell 0.52-0.60; mean-pooled 0.48-0.51 |
 | logit lens over 24 layers | when does the answer become readable? | AUC ~0.50 through L14, 0.636 at L18, 0.646 at L19; final 0.634 |
 
+The per-token answer probe has no group or question context, so it tests whether a single
+token answers the relation *without knowing which relation is asked*. The matched global
+reader on pooled tokens is the fair control, and it is also at chance; the supportable claim
+is "not readable from pooled visual content by a simple global reader", not "not
+representable at all". A per-group token probe (question fixed) is the missing control.
+
 Region interventions already in `results/flip/*.json` complete the chain: ablating the
 target region lowers the margin by -0.382 [-0.465, -0.306] at S1 (reference -0.141,
 irrelevant +0.041), and patching the target region from the original into the mirror
