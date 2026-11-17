@@ -158,10 +158,10 @@
 | 项目 | 现状 | 影响 |
 |---|---|---|
 | GPU | RTX 3070 8GB | LoRA 可行但紧；GRPO 基本不可行 |
-| 本地 GQA 图 | 293 张（val 子集） | SFT 必须下载 train 图或引入其他数据 |
+| 本地 GQA 图 | val 子集 293 张；**train 74,256 张已下载**（22 个 parquet 分片，9.8GB，`data/raw/gqa/train_all_images`） | SFT 数据已就绪；其中 73,761 张可生成关系对 |
 | 本地配对 | dev 1206 对；test 240 对 | 只够评测，不够训练 |
 | GQA train scene graph | 已有（`data/raw/gqa/sceneGraphs.zip`） | 配对脚本可直接复用 |
-| 网络 | HF 直连不可用 | 需从 GQA 官方源或其他镜像取图 |
+| 网络 | HF 直连不可用；Stanford 源约 15KB/s；ModelScope 镜像约 10MB/s | 大数据一律走国内镜像（`tools/download_gqa_train_images.sh`） |
 | 时间 | 距今约 3 周 | 只够一条主线 + 一个回退 |
 
 ---
@@ -193,3 +193,4 @@
 | 日期 | 变更 |
 |---|---|
 | 2026-11-17 | 建立本文档；记录诊断结论、修正 0.81 的解读、确定三阶段计划 |
+| 2026-11-17 | 从 ModelScope 下载 GQA train 图（74,256 张，9.8GB），SFT 数据就绪 |
