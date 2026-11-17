@@ -108,6 +108,8 @@ The improvement evidence is mixed and deliberately separated from the diagnostic
 | Oracle region/position readout | region 0.812, position 0.961; not deployable | no (uses boxes) |
 | Global mean-pool / attention readers | 0.474 / 0.443, no improvement | yes, but negative |
 | Region-supervised attention | 0.548 test, still below the original 0.600 | partial |
+| Latent source−target direction (L6/L12, global/per-group) | 0.517 clean → 0.533 target-steered (L6); no gain over random directions; L12 worse | yes, but negative |
+| Attention head ablation/amplification | no change: top-head ablation 0.737 vs clean 0.737; random heads similar; all layer-6 heads ablated also 0.737 | yes, but negative |
 
 The only robust, training-free accuracy gain so far is mirror consistency. Calibration and prompt engineering do not close the spatial gap. A learned no-box reader still fails to localize objects. This is an honest limitation: the project diagnoses the gap better than it fixes it.
 

@@ -21,6 +21,7 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - External benchmark synthesis: [`results/external_benchmarks_summary.md`](results/external_benchmarks_summary.md)
 - Attention audit: [`results/attention_summary.md`](results/attention_summary.md) (no ready-made relation heads)
 - Attention causal test: [`results/attention_causal_summary.md`](results/attention_causal_summary.md) (head ablation/amplification has no effect)
+- Latent steering test: [`results/latent_steering_summary.md`](results/latent_steering_summary.md) (linear source−target direction has no robust gain)
 - Full experiment commands: [`experiments/README.md`](experiments/README.md)
 
 ## Repository layout

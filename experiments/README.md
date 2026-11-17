@@ -303,3 +303,15 @@ python experiments/attention_head_intervention.py \
 ```
 
 The result is in `results/attention_causal_summary.md`.
+
+## E13: latent steering
+
+```bash
+SMOLVLM_MODEL=$PWD/models/SmolVLM2-2.2B-Instruct PYTHONPATH=. \
+python experiments/latent_steering.py --layer 6 --out results/latent/steering_layer6.json
+python experiments/latent_steering.py --layer 12 --out results/latent/steering_layer12.json
+python experiments/latent_steering_per_group.py --layer 6 \
+  --out results/latent/steering_per_group_layer6.json
+```
+
+The summary is in `results/latent_steering_summary.md`.
