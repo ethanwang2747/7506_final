@@ -1,0 +1,311 @@
+{
+  "config": {
+    "pairs": "results/readout/features_test_core.pt",
+    "flip_source": "results/readout/features_test_core_flip.pt",
+    "flip_target": "results/readout/features_test_core_flip_target.pt",
+    "out": "results/readout/flip_consistency_test.json",
+    "bootstrap": 1000
+  },
+  "n_examples": 480,
+  "n_missing": 0,
+  "original": {
+    "n_examples": 480,
+    "n_pairs": 240,
+    "auc": 0.5995138888888889,
+    "auc_ci95": [
+      0.5579670138888889,
+      0.6446367187500001
+    ],
+    "acc": 0.5708333333333333,
+    "pair_acc": 0.6041666666666666,
+    "per_group": {
+      "chair|to the left of|table": {
+        "n": 80,
+        "auc": 0.71875,
+        "auc_ci95": [
+          0.621234375,
+          0.8175
+        ],
+        "acc": 0.5625,
+        "pair_acc": 0.7
+      },
+      "man|to the left of|person": {
+        "n": 80,
+        "auc": 0.583125,
+        "auc_ci95": [
+          0.42931249999999993,
+          0.7225
+        ],
+        "acc": 0.55,
+        "pair_acc": 0.575
+      },
+      "man|to the right of|woman": {
+        "n": 80,
+        "auc": 0.658125,
+        "auc_ci95": [
+          0.519375,
+          0.7881718750000001
+        ],
+        "acc": 0.65,
+        "pair_acc": 0.7
+      },
+      "person|to the right of|man": {
+        "n": 80,
+        "auc": 0.5756249999999999,
+        "auc_ci95": [
+          0.4199375,
+          0.7119062500000001
+        ],
+        "acc": 0.5875,
+        "pair_acc": 0.5
+      },
+      "tree|to the left of|building": {
+        "n": 80,
+        "auc": 0.524375,
+        "auc_ci95": [
+          0.38803124999999994,
+          0.6625
+        ],
+        "acc": 0.525,
+        "pair_acc": 0.475
+      },
+      "woman|to the left of|man": {
+        "n": 80,
+        "auc": 0.6975,
+        "auc_ci95": [
+          0.578625,
+          0.8150625
+        ],
+        "acc": 0.55,
+        "pair_acc": 0.675
+      }
+    }
+  },
+  "flipped": {
+    "n_examples": 480,
+    "n_pairs": 240,
+    "auc": 0.5067013888888889,
+    "auc_ci95": [
+      0.45722092013888893,
+      0.5528832465277778
+    ],
+    "acc": 0.4791666666666667,
+    "pair_acc": 0.5041666666666667,
+    "per_group": {
+      "chair|to the left of|table": {
+        "n": 80,
+        "auc": 0.5706249999999999,
+        "auc_ci95": [
+          0.43434375,
+          0.7
+        ],
+        "acc": 0.4875,
+        "pair_acc": 0.475
+      },
+      "man|to the left of|person": {
+        "n": 80,
+        "auc": 0.54625,
+        "auc_ci95": [
+          0.3993125,
+          0.682546875
+        ],
+        "acc": 0.5125,
+        "pair_acc": 0.525
+      },
+      "man|to the right of|woman": {
+        "n": 80,
+        "auc": 0.48374999999999996,
+        "auc_ci95": [
+          0.35181250000000003,
+          0.619390625
+        ],
+        "acc": 0.475,
+        "pair_acc": 0.575
+      },
+      "person|to the right of|man": {
+        "n": 80,
+        "auc": 0.56375,
+        "auc_ci95": [
+          0.44499999999999995,
+          0.6968749999999999
+        ],
+        "acc": 0.4625,
+        "pair_acc": 0.575
+      },
+      "tree|to the left of|building": {
+        "n": 80,
+        "auc": 0.45249999999999996,
+        "auc_ci95": [
+          0.32746875000000003,
+          0.593140625
+        ],
+        "acc": 0.4625,
+        "pair_acc": 0.5
+      },
+      "woman|to the left of|man": {
+        "n": 80,
+        "auc": 0.44437499999999996,
+        "auc_ci95": [
+          0.31125,
+          0.5950312499999999
+        ],
+        "acc": 0.475,
+        "pair_acc": 0.375
+      }
+    }
+  },
+  "consistency": {
+    "n_examples": 480,
+    "n_pairs": 240,
+    "auc": 0.6902256944444445,
+    "auc_ci95": [
+      0.6433098958333334,
+      0.7361809895833333
+    ],
+    "acc": 0.61875,
+    "pair_acc": 0.6833333333333333,
+    "per_group": {
+      "chair|to the left of|table": {
+        "n": 80,
+        "auc": 0.743125,
+        "auc_ci95": [
+          0.656859375,
+          0.830625
+        ],
+        "acc": 0.6625,
+        "pair_acc": 0.8
+      },
+      "man|to the left of|person": {
+        "n": 80,
+        "auc": 0.5543750000000001,
+        "auc_ci95": [
+          0.42370312499999996,
+          0.685015625
+        ],
+        "acc": 0.5125,
+        "pair_acc": 0.5
+      },
+      "man|to the right of|woman": {
+        "n": 80,
+        "auc": 0.768125,
+        "auc_ci95": [
+          0.684984375,
+          0.8568906249999999
+        ],
+        "acc": 0.6625,
+        "pair_acc": 0.85
+      },
+      "person|to the right of|man": {
+        "n": 80,
+        "auc": 0.5499999999999999,
+        "auc_ci95": [
+          0.4005625,
+          0.6900156249999999
+        ],
+        "acc": 0.5375,
+        "pair_acc": 0.475
+      },
+      "tree|to the left of|building": {
+        "n": 80,
+        "auc": 0.695625,
+        "auc_ci95": [
+          0.585609375,
+          0.801265625
+        ],
+        "acc": 0.6,
+        "pair_acc": 0.725
+      },
+      "woman|to the left of|man": {
+        "n": 80,
+        "auc": 0.82125,
+        "auc_ci95": [
+          0.723125,
+          0.901265625
+        ],
+        "acc": 0.7375,
+        "pair_acc": 0.75
+      }
+    }
+  },
+  "sum": {
+    "n_examples": 480,
+    "n_pairs": 240,
+    "auc": 0.5560937499999999,
+    "auc_ci95": [
+      0.5122213541666667,
+      0.6005364583333332
+    ],
+    "acc": 0.525,
+    "pair_acc": 0.5666666666666667,
+    "per_group": {
+      "chair|to the left of|table": {
+        "n": 80,
+        "auc": 0.655,
+        "auc_ci95": [
+          0.535,
+          0.775
+        ],
+        "acc": 0.5625,
+        "pair_acc": 0.575
+      },
+      "man|to the left of|person": {
+        "n": 80,
+        "auc": 0.546875,
+        "auc_ci95": [
+          0.392484375,
+          0.6818906250000001
+        ],
+        "acc": 0.5,
+        "pair_acc": 0.525
+      },
+      "man|to the right of|woman": {
+        "n": 80,
+        "auc": 0.5856250000000001,
+        "auc_ci95": [
+          0.446234375,
+          0.7263437499999998
+        ],
+        "acc": 0.55,
+        "pair_acc": 0.675
+      },
+      "person|to the right of|man": {
+        "n": 80,
+        "auc": 0.5800000000000001,
+        "auc_ci95": [
+          0.4418125,
+          0.71628125
+        ],
+        "acc": 0.525,
+        "pair_acc": 0.575
+      },
+      "tree|to the left of|building": {
+        "n": 80,
+        "auc": 0.484375,
+        "auc_ci95": [
+          0.348734375,
+          0.622515625
+        ],
+        "acc": 0.4625,
+        "pair_acc": 0.475
+      },
+      "woman|to the left of|man": {
+        "n": 80,
+        "auc": 0.5950000000000001,
+        "auc_ci95": [
+          0.461859375,
+          0.739390625
+        ],
+        "acc": 0.55,
+        "pair_acc": 0.575
+      }
+    }
+  },
+  "consistency_minus_original": {
+    "delta_auc": 0.09071180555555558,
+    "delta_ci95": [
+      0.03246267361111119,
+      0.14877690972222232
+    ],
+    "delta_pair_acc": 0.07916666666666672
+  }
+}

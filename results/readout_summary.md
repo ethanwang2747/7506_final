@@ -27,9 +27,40 @@ The same training set is used for all readers. Values are AUC over source/target
 | Attention over S1/S6/S12 + question | 0.443 | 0.497 |
 | Attention + training-time region loss (1 seed, 15 epochs) | 0.548 | 0.529 |
 
-The global readers do not improve on the model's own margin. The question-only and final-token probes are at chance, so the readers are not exploiting a question or answer-token bias. The attention reader trained with a region loss improves over the unsupervised attention reader, but remains below the original model.
+The global trained readers do not improve on the model's own margin. The question-only and final-token probes are at chance, so the readers are not exploiting a question or answer-token bias. The attention reader trained with a region loss improves over the unsupervised attention reader, but remains below the original model. A training-free flip-consistency readout does improve the practical readout substantially (section 2).
 
-## 2. Oracle region readout
+## 2. Training-free flip-consistency readout
+
+For a left/right question, a relation-consistent model should give a higher yes margin on the image and a lower yes margin on its horizontal flip. The score is therefore `margin(original) - margin(flipped)`. It needs two forwards per image, but no training, no bounding boxes, and no labels.
+
+| Split | Readout | AUC | 95% CI | Accuracy | Pair accuracy |
+|---|---|---:|---|---:|---:|
+| test core | Original margin | 0.600 | [0.558, 0.645] | 0.571 | 0.604 |
+| test core | Flipped margin | 0.507 | [0.457, 0.553] | 0.479 | 0.504 |
+| test core | **Consistency** | **0.690** | **[0.643, 0.736]** | **0.619** | **0.683** |
+| test core | Sum of margins | 0.556 | [0.512, 0.601] | 0.525 | 0.567 |
+| strict test | Original margin | 0.633 | [0.543, 0.727] | 0.614 | 0.632 |
+| strict test | **Consistency** | **0.813** | **[0.735, 0.886]** | **0.728** | **0.807** |
+
+Paired bootstrap over pairs:
+
+- test core: ΔAUC = **+0.091** [0.032, 0.149]; Δpair accuracy = +0.079.
+- strict test: ΔAUC = **+0.180** [0.067, 0.286]; Δpair accuracy = +0.175.
+
+Per-group test core:
+
+| Group | Original | Consistency | Consistency 95% CI | Accuracy |
+|---|---:|---:|---|---:|
+| chair / left / table | 0.719 | 0.743 | [0.657, 0.831] | 0.662 |
+| man / left / person | 0.583 | 0.554 | [0.424, 0.685] | 0.512 |
+| man / right / woman | 0.658 | 0.768 | [0.685, 0.857] | 0.662 |
+| person / right / man | 0.576 | 0.550 | [0.401, 0.690] | 0.537 |
+| tree / left / building | 0.524 | 0.696 | [0.586, 0.801] | 0.600 |
+| woman / left / man | 0.698 | 0.821 | [0.723, 0.901] | 0.738 |
+
+Four of six groups improve; the two person/man groups remain near chance. The consistency score is symmetric under flipping by construction, so evaluating it on the flip split would be circular. The cross-image source/target test is the meaningful evaluation.
+
+## 3. Oracle region readout
 
 A per-group logistic reader pools target/reference object tokens at S1, S6, and S12 using GQA boxes. This is an **oracle diagnostic**: boxes are used at test time and this is not a deployable reader.
 
@@ -66,14 +97,14 @@ Per-group flip results:
 | tree / left / building | 0.498 | 0.819 | [0.734, 0.898] | 0.685 | 0.991 |
 | woman / left / man | 0.662 | 0.898 | [0.839, 0.949] | 0.674 | 0.968 |
 
-## 3. Controls
+## 4. Controls
 
 - **Random labels.** Permuting dev labels gives mean AUC 0.496 for the region probe and 0.504 for the position probe, so the region/position numbers are not a label-leak artifact.
 - **Position residualization.** Regressing the region features on the 12-dimensional box description and training on the residual lowers the region probe to 0.687 (test) and 0.705 (flip). The remaining signal is above chance but much smaller than the raw region probe.
 - **Flip augmentation.** Training with horizontal flips increases the raw region probe (0.812 to 0.859 on test; 0.829 to 0.881 on flips) but the position-residualized version falls to 0.560/0.564. The augmented reader is therefore using position more strongly; the residual estimate is sensitive to this augmentation.
 - **Question-only baseline.** A linear probe on `E_mean` is exactly 0.500 on both splits because the question vector is identical for the two members of a pair.
 
-## 4. Interpretation
+## 5. Interpretation
 
 The results support a **localization/position-readout gap**, not a claim that visual relation information is rich but linearly unreadable:
 
@@ -81,16 +112,18 @@ The results support a **localization/position-readout gap**, not a claim that vi
 2. A per-group oracle readout over target/reference regions reaches 0.81 test and 0.83 flip, so the frozen features contain information that a simple reader can use.
 3. A position-only oracle is even stronger (0.96 test, 0.95 flip). The paired benchmark is therefore largely solvable from object positions alone; any "relation readout" claim must control this shortcut.
 4. After position residualization, the region probe retains only 0.69 test / 0.71 flip. This is evidence for some position-independent signal, but not for a strong, uniformly decodable relation code.
-5. No-box readers over all 81 visual tokens do not learn to localize; mean-pooling and global attention are at or below chance. Region supervision during training helps only partially. The bottleneck is finding the right object tokens, not the linear classifier on top.
-6. The same-image horizontal flip is **not** a clean position control: a position-only reader reaches 0.95 on it because flipping moves objects to the other side of the image. Position-residualized or position-matched pairs are required for a strong relation claim.
+5. A training-free flip-consistency readout improves AUC from 0.600 to 0.690 on test and from 0.633 to 0.813 on strict test. This shows that the model has usable relation evidence, but it is not calibrated into a single-image margin; comparing the image with its mirror removes part of the image-level bias.
+6. No-box trained readers over all 81 visual tokens do not learn to localize; mean-pooling and global attention are at or below chance. Region supervision during training helps only partially. The bottleneck is finding the right object tokens, not the linear classifier on top.
+7. The same-image horizontal flip is **not** a clean position control: a position-only reader reaches 0.95 on it because flipping moves objects to the other side of the image. Position-residualized or position-matched pairs are required for a strong relation claim.
 
-## 5. Limitations and next steps
+## 6. Limitations and next steps
 
 - Oracle boxes are used at test time in the region probe; the result is an upper bound, not a deployable VLM.
 - Test pairs come from GQA val with noisy relation labels; the strict subset is smaller.
 - Per-group training sets are small (14–52 pairs), so per-group CIs are wide.
 - Flip augmentation changes the residualized estimate; a position-matched evaluation set is the cleaner next control.
-- A practical reader would need a learned object proposal/localization stage. The current no-box attention reader is a negative result for that step.
+- The flip-consistency readout is practical but needs two forwards per image and does not localize objects.
+- A stronger reader would need a learned object proposal/localization stage. The current no-box attention reader is a negative result for that step.
 
 ## Reproduction
 
@@ -109,6 +142,18 @@ python experiments/readout_experiment.py --train-pairs results/readout/features_
 
 # Oracle region probe
 python experiments/region_readout.py --out results/readout/region_probe.json --bootstrap 500
+
+# Training-free flip-consistency readout
+python experiments/flip_consistency.py \
+  --pairs results/readout/features_test_core.pt \
+  --flip-source results/readout/features_test_core_flip.pt \
+  --flip-target results/readout/features_test_core_flip_target.pt \
+  --out results/readout/flip_consistency_test.json --bootstrap 1000
+python experiments/flip_consistency.py \
+  --pairs results/readout/features_test_core_strict.pt \
+  --flip-source results/readout/features_test_core_strict_flip.pt \
+  --flip-target results/readout/features_test_core_strict_flip_target.pt \
+  --out results/readout/flip_consistency_strict.json --bootstrap 1000
 ```
 
-Raw outputs: `results/readout/main.json`, `results/readout/region_probe.json`, `results/readout/aux_smoke.json`.
+Raw outputs: `results/readout/main.json`, `results/readout/region_probe.json`, `results/readout/flip_consistency_test.json`, `results/readout/flip_consistency_strict.json`, `results/readout/aux_smoke.json`.

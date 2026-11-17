@@ -121,6 +121,7 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--mode", choices=["pairs", "flip"], default="pairs")
     ap.add_argument("--only-flipped", action="store_true", help="in flip mode, skip the original image")
+    ap.add_argument("--flip-role", choices=["source", "target"], default="source")
     args = ap.parse_args()
 
     cfg = json.loads(CONFIG.read_text())
@@ -163,24 +164,27 @@ def main():
                     "position": box_feat(obj, ref, g["width"], g["height"]),
                 })
         else:
-            image_id = r["source_image_id"]
+            role = args.flip_role
+            image_id = r[f"{role}_image_id"]
             g = sg[image_id]
+            base_label = 1 if role == "source" else 0
             for is_flip in ((1,) if args.only_flipped else (0, 1)):
                 key = f"{image_id}|{r['question']}|{is_flip}"
                 add_item(key, image_id, r["question"], bool(is_flip))
-                obj = r["source_target"]
-                ref = r["source_reference"]
+                obj = r[f"{role}_target"]
+                ref = r[f"{role}_reference"]
                 if is_flip:
                     obj = {**obj, "bbox": mirror_box(obj["bbox"], g["width"])}
                     ref = {**ref, "bbox": mirror_box(ref["bbox"], g["width"])}
                 horizontal = ("left" in rel) or ("right" in rel)
+                label = (1 - base_label) if (is_flip and horizontal) else base_label
                 examples.append({
                     "key": key,
                     "pair_id": r["pair_id"],
                     "group": r["group"],
                     "split": r.get("split", ""),
-                    "role": "source_flipped" if is_flip else "source",
-                    "label": 0 if (is_flip and horizontal) else 1,
+                    "role": f"{role}_flipped" if is_flip else role,
+                    "label": label,
                     "is_flip": int(is_flip),
                     "position": box_feat(obj, ref, g["width"], g["height"]),
                 })

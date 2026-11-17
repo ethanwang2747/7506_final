@@ -159,3 +159,24 @@ python experiments/region_readout.py \
 ```
 
 The interpretation and tables are in `results/readout_summary.md`.
+
+### Flip-consistency readout
+
+A training-free improvement: compare the yes/no margin on each image with the margin on its horizontal flip. No boxes and no training; two forwards per image.
+
+```bash
+# For target images, extract their flipped features as well
+python experiments/extract_readout_features.py \
+  --pairs data/derived/spatial_pairs_test.jsonl \
+  --groups "woman|to the left of|man,man|to the right of|woman,man|to the left of|person,person|to the right of|man,tree|to the left of|building,chair|to the left of|table" \
+  --max-per-group 40 --mode flip --flip-role target --only-flipped \
+  --out results/readout/features_test_core_flip_target.pt
+
+python experiments/flip_consistency.py \
+  --pairs results/readout/features_test_core.pt \
+  --flip-source results/readout/features_test_core_flip.pt \
+  --flip-target results/readout/features_test_core_flip_target.pt \
+  --out results/readout/flip_consistency_test.json --bootstrap 1000
+```
+
+The strict-test variant follows the same pattern with the `*_strict` payloads.
