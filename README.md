@@ -11,7 +11,7 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - Report draft: [`report/report_v5_draft.md`](report/report_v5_draft.md)
 - Combined result tables: [`results/summary.md`](results/summary.md)
 - Experiment dashboard: [`results/dashboard.md`](results/dashboard.md)
-- Readout-gap experiments: [`results/readout_summary.md`](results/readout_summary.md) (includes a training-free flip-consistency readout: test AUC 0.600 → 0.690; strict test 0.633 → 0.813)
+- Readout-gap experiments: [`results/readout_summary.md`](results/readout_summary.md) and report section [`report/readout_gap_section.md`](report/readout_gap_section.md) (training-free flip-consistency readout: test AUC 0.600 → 0.690; strict test 0.633 → 0.813)
 - Full experiment commands: [`experiments/README.md`](experiments/README.md)
 
 ## Repository layout

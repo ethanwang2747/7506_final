@@ -2,7 +2,7 @@
 
 This note records the first readout experiment round on frozen SmolVLM2-2.2B features. The goal is to test whether spatial relation information is present in the visual representation but not used by the model's own yes/no readout, and whether a lightweight reader can close the gap.
 
-All numbers are from cached features and can be reproduced without re-running the backbone. The feature files (`results/readout/*.pt`) are not tracked in Git.
+All numbers are from cached features and can be reproduced without re-running the backbone. The feature files (`results/readout/*.pt`) are not tracked in Git. A report-ready section is in [`report/readout_gap_section.md`](../report/readout_gap_section.md).
 
 ## Setup
 
@@ -35,6 +35,8 @@ For a left/right question, a relation-consistent model should give a higher yes 
 
 | Split | Readout | AUC | 95% CI | Accuracy | Pair accuracy |
 |---|---|---:|---|---:|---:|
+| dev core | Original margin | 0.694 | [0.642, 0.745] | 0.628 | 0.760 |
+| dev core | **Consistency** | **0.744** | **[0.678, 0.802]** | **0.653** | **0.785** |
 | test core | Original margin | 0.600 | [0.558, 0.645] | 0.571 | 0.604 |
 | test core | Flipped margin | 0.507 | [0.457, 0.553] | 0.479 | 0.504 |
 | test core | **Consistency** | **0.690** | **[0.643, 0.736]** | **0.619** | **0.683** |
@@ -44,6 +46,7 @@ For a left/right question, a relation-consistent model should give a higher yes 
 
 Paired bootstrap over pairs:
 
+- dev core: ΔAUC = +0.051 [−0.018, 0.116]; Δpair accuracy = +0.025. The direction is consistent, but this interval includes zero.
 - test core: ΔAUC = **+0.091** [0.032, 0.149]; Δpair accuracy = +0.079.
 - strict test: ΔAUC = **+0.180** [0.067, 0.286]; Δpair accuracy = +0.175.
 

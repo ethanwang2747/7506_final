@@ -1,0 +1,12 @@
+saved /home/yucheng/ris/7506project/results/readout/flip_consistency_dev.json (n=242, missing=0)
+  original     AUC=0.694 CI[0.6420941192541493, 0.7446400519090226] acc=0.628 pair_acc=0.760
+  flipped      AUC=0.564 CI[0.5106823304419098, 0.62026671675432] acc=0.537 pair_acc=0.570
+  consistency  AUC=0.744 CI[0.6778157229697426, 0.8024093299638002] acc=0.653 pair_acc=0.785
+  sum          AUC=0.637 CI[0.5902602281264943, 0.6898521275869135] acc=0.607 pair_acc=0.678
+  per-group consistency:
+    chair|to the left of|table          AUC=0.776 CI[0.38775510204081637, 1.0] acc=0.643
+    man|to the left of|person           AUC=0.660 CI[0.44000000000000006, 0.8475625] acc=0.575
+    man|to the right of|woman           AUC=0.839 CI[0.7232988165680473, 0.9334319526627219] acc=0.712
+    person|to the right of|man          AUC=0.673 CI[0.51, 0.8225625] acc=0.650
+    tree|to the left of|building        AUC=0.653 CI[0.5020661157024793, 0.7976239669421487] acc=0.568
+    woman|to the left of|man            AUC=0.833 CI[0.7174186390532544, 0.9319526627218935] acc=0.731
