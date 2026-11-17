@@ -74,6 +74,10 @@ On 100 COCO images and 466 TIFA yes/no facts (almost all positive), cued fact re
 
 On 30 short videos (6 per temporal dimension, 8 frames each), yes/no accuracy is 0.605 with video versus 0.377 with a black video; multiple-choice is 0.552 versus 0.431; open-description coverage is 0.241 versus 0.000. The model therefore uses video, but the gain is very uneven. Action is strong (yes/no 0.833, MC 0.944), while direction is near chance (yes/no 0.400, MC 0.200), and speed/order descriptions cover none of the references. This is consistent with the image result: direction/spatial/temporal-order evidence is the weak part, while object/action recognition is comparatively strong.
 
+### Something-Something V2 action pilot
+
+On 30 real action videos (one true template and one random false template per video, same video for both), pair accuracy is 0.667 [0.500, 0.833] with video versus 0.600 [0.433, 0.767] with a black video; AUC is 0.729 versus 0.601. The visual gain is real but modest, and the model is strongly conservative (yes rate 0.27 on true actions, 0.13 on false). This is a harder test than TempCompass multiple-choice action accuracy, where answer options and text priors make the task easier. The combined external summary is in `results/external_benchmarks_summary.md`.
+
 ## Learned no-box readers do not close the gap
 
 Global readers trained on 3,788 dev examples (mean-pooled or attention-pooled S1/S6/S12 tokens plus the question) do not beat the original margin:

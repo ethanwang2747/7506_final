@@ -260,3 +260,16 @@ python experiments/tempcompass_judge.py \
 ```
 
 The summary is in `results/tempcompass_summary.md`.
+
+## E11: Something-Something V2 action pilot
+
+Small real-action discrimination test with a black-video control.
+
+```bash
+python experiments/ssv2_experiment.py \
+  --sample data/raw/ssv2/sample_30.tsv \
+  --out results/ssv2/ssv2_30.json
+```
+
+The summary is in `results/ssv2_summary.md`; the overall external synthesis is
+in `results/external_benchmarks_summary.md`.
