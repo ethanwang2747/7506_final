@@ -2,7 +2,7 @@
 
 This note records the first readout experiment round on frozen SmolVLM2-2.2B features. The goal is to test whether spatial relation information is present in the visual representation but not used by the model's own yes/no readout, and whether a lightweight reader can close the gap.
 
-All numbers are from cached features and can be reproduced without re-running the backbone. The feature files (`results/readout/*.pt`) are not tracked in Git. A report-ready section is in [`report/readout_gap_section.md`](../report/readout_gap_section.md).
+All numbers are from cached features and can be reproduced without re-running the backbone. The feature files (`results/readout/*.pt`) are not tracked in Git. A report-ready section is in [`report/readout_gap_section.md`](../report/readout_gap_section.md). The fine-grained extension (existence, attributes, behavior) is in [`results/finegrained_summary.md`](finegrained_summary.md).
 
 ## Setup
 

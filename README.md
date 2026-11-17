@@ -12,6 +12,7 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - Combined result tables: [`results/summary.md`](results/summary.md)
 - Experiment dashboard: [`results/dashboard.md`](results/dashboard.md)
 - Readout-gap experiments: [`results/readout_summary.md`](results/readout_summary.md) and report section [`report/readout_gap_section.md`](report/readout_gap_section.md) (training-free flip-consistency readout: test AUC 0.600 → 0.690; strict test 0.633 → 0.813)
+- Fine-grained extension: [`results/finegrained_summary.md`](results/finegrained_summary.md) (same-image existence / attribute / behavior pairs, with blank-image and flip controls)
 - Full experiment commands: [`experiments/README.md`](experiments/README.md)
 
 ## Repository layout

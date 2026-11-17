@@ -180,3 +180,27 @@ python experiments/flip_consistency.py \
 ```
 
 The strict-test variant follows the same pattern with the `*_strict` payloads.
+
+## E6: same-image fine-grained discrimination
+
+Build same-image positive/negative pairs for existence, attribute, and behavior questions. Both questions use the same image, so image content and layout are fixed; only the question changes.
+
+```bash
+python experiments/build_finegrained_pairs.py --max-per-task 200 --per-image 4
+python experiments/finegrained_experiment.py \
+  --pairs data/derived/finegrained_pairs_test.jsonl \
+  --out results/finegrained/test.json
+python experiments/finegrained_blank_control.py \
+  --results results/finegrained/test.json \
+  --out results/finegrained/test_blank.json
+
+# Clear predicate-swap behavior pilot
+python experiments/finegrained_experiment.py \
+  --pairs data/derived/finegrained_predicate_test.jsonl \
+  --out results/finegrained/predicate_test.json
+python experiments/finegrained_blank_control.py \
+  --results results/finegrained/predicate_test.json \
+  --out results/finegrained/predicate_test_blank.json
+```
+
+The interpretation is in `results/finegrained_summary.md`.

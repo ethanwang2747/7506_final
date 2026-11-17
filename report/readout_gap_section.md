@@ -43,6 +43,21 @@ A per-group logistic reader that pools target and reference object tokens using 
 
 The region probe is an oracle diagnostic: it uses ground-truth boxes at test time. The position-only column shows why this matters. Object positions alone nearly solve the paired benchmark. After residualizing the region features against the 12-dimensional box description, the region readout drops to 0.69 test and 0.71 flip. The remaining signal is above chance, but it is much smaller than the raw region result.
 
+## Extension: existence, attributes, and behavior
+
+The same same-image design can be applied beyond left/right. We build 200 positive/negative pairs per task from GQA val scene graphs, with both questions on the same image:
+
+| Task | Positive | Negative | Full pair acc | Blank-image acc | Visual gain |
+|---|---|---|---:|---:|---:|
+| existence | a present object | an absent confusable/random object | 0.865 | 0.455 | +0.410 [0.325, 0.490] |
+| attribute | a true colour/material | a false colour/material on the same object | 0.765 | 0.445 | +0.320 [0.245, 0.400] |
+| behavior | a true relation with object A | the same relation with an absent confusable object B | 0.865 | 0.715 | +0.150 [0.075, 0.225] |
+| behavior (predicate swap, n=38) | sitting on / riding / lying on | standing on / walking on / sitting on | 0.895 | 0.658 | +0.237 [0.105, 0.368] |
+
+The blank-image control replaces the image with a uniform gray canvas, so the model sees only the question text. Existence and attribute questions fall to chance on the blank image; the model is genuinely using visual evidence and answering those questions well. Behavior/object binding retains a substantial language prior (0.715 blank), but the real image still adds +0.15.
+
+This is the key qualification of the project's title. The model is **not generically “seeing but not answering”**. It reads existence, colour, and object-binding evidence well; flip agreement is 0.91–0.95. The failure is specific to spatial relation/position readout, where the same model is near 0.60 and no-box readers are at chance. The report should therefore claim a **task-specific spatial readout/localization gap**, not a general VLM readout failure.
+
 ## Learned no-box readers do not close the gap
 
 Global readers trained on 3,788 dev examples (mean-pooled or attention-pooled S1/S6/S12 tokens plus the question) do not beat the original margin:
@@ -64,8 +79,8 @@ The same-image horizontal flip is not a clean position control. A position-only 
 
 ## Suggested changes to the main report
 
-- **Abstract.** Add: “A training-free flip-consistency readout raises AUC from 0.60 to 0.69 on held-out pairs and from 0.63 to 0.81 on the strict subset; an oracle region readout reaches 0.81/0.83, while a position-only oracle reaches 0.96/0.95, showing that the paired benchmark is strongly position-confounded.”
-- **Conclusion.** Replace the statement that the failure cannot yet be localized to readout with: “The model has usable relation evidence, but it is not calibrated into a single-image margin; a mirror-consistency readout recovers part of it. The remaining gap is dominated by object localization and by the position shortcut in the benchmark.”
+- **Abstract.** Add: “A training-free flip-consistency readout raises AUC from 0.60 to 0.69 on held-out pairs and from 0.63 to 0.81 on the strict subset; an oracle region readout reaches 0.81/0.83, while a position-only oracle reaches 0.96/0.95, showing that the paired benchmark is strongly position-confounded. The failure is task-specific: same-image existence and attribute questions are answered well and fall to chance without the image, whereas spatial relations do not.”
+- **Conclusion.** Replace the statement that the failure cannot yet be localized to readout with: “The model has usable relation evidence, but it is not calibrated into a single-image margin; a mirror-consistency readout recovers part of it. The remaining gap is dominated by object localization and by the position shortcut in the benchmark. The same model answers same-image existence, attribute, and behavior questions well, so the limitation is a task-specific spatial binding/readout gap rather than a general inability to use visual evidence.”
 - **Limitations.** Add the oracle-box caveat and the position-confound caveat above. The current evidence does not support a claim of a rich, position-invariant relation code.
 
 ## Reproduction
