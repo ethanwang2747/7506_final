@@ -37,9 +37,8 @@ def image_path(coco_id):
     return IMAGE_DIR / f"COCO_val2014_{int(coco_id):012d}.jpg"
 
 
-def caption_batch(model, proc, items, images, max_new_tokens):
-    prompts = [build_prompt(proc, "Describe what is happening in the image in one or two sentences.",
-                            instruction=None) for _ in items]
+def caption_batch(model, proc, items, images, max_new_tokens, prompt_text):
+    prompts = [build_prompt(proc, prompt_text, instruction=None) for _ in items]
     imgs = [[images[it["coco_val_id"]]] for it in items]
     inputs = proc(text=prompts, images=imgs, return_tensors="pt", padding=True)
     inputs = {k: v.to("cuda") for k, v in inputs.items()}
@@ -55,6 +54,7 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "results/tifa/tifa_100.json"))
     ap.add_argument("--max-new-tokens", type=int, default=48)
     ap.add_argument("--batch-size", type=int, default=4)
+    ap.add_argument("--prompt", default="Describe what is happening in the image in one or two sentences.")
     args = ap.parse_args()
 
     rows = read_jsonl(args.sample)
@@ -76,7 +76,7 @@ def main():
     t0 = time.time()
     for start in range(0, len(items), args.batch_size):
         batch = items[start:start + args.batch_size]
-        texts = caption_batch(model, proc, batch, images, args.max_new_tokens)
+        texts = caption_batch(model, proc, batch, images, args.max_new_tokens, args.prompt)
         for it, text in zip(batch, texts):
             it["description"] = text.strip()
         if (start // args.batch_size + 1) % 10 == 0:

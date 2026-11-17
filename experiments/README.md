@@ -273,3 +273,10 @@ python experiments/ssv2_experiment.py \
 
 The summary is in `results/ssv2_summary.md`; the overall external synthesis is
 in `results/external_benchmarks_summary.md`.
+
+### Improvement checks
+
+- POPE flip-combination/calibration: `python experiments/pope_calibration.py`
+- TIFA structured prompt variant:
+  `python experiments/tifa_experiment.py --sample data/raw/tifa/sample_100.jsonl --out results/tifa/tifa_100_struct.json --max-new-tokens 64 --prompt "Describe the image in detail. Mention the main objects, their colors and materials, what the people are doing, and the spatial relationships between the main objects."`
+  then judge with `tifa_judge.py`.

@@ -63,6 +63,29 @@ By fact type:
   bound. The spatial pattern is the same under both: spatial is the lowest
   non-trivial category.
 
+## Attempted improvement: structured prompt
+
+We tried to improve coverage with a prompt that explicitly asks for objects,
+colours/materials, actions, and spatial relationships:
+
+> “Describe the image in detail. Mention the main objects, their colours and
+> materials, what the people are doing, and the spatial relationships between
+> the main objects.”
+
+| Metric | Default prompt | Structured prompt |
+|---|---:|---:|
+| Overall judge coverage | 0.788 | 0.734 |
+| Overall keyword coverage | 0.431 | 0.408 |
+| Spatial judge coverage | 0.538 | 0.385 |
+| Spatial keyword coverage | 0.231 | 0.115 |
+| Attribute judge coverage | 0.762 | 0.810 |
+| Colour judge coverage | 0.765 | 0.882 |
+
+The structured prompt improves some attribute/colour facts but **reduces**
+overall and spatial coverage. Prompt engineering alone does not fix spatial
+relation omission; it can even distract the model from relations. This is a
+negative result for the “just ask for relations” intervention.
+
 ## Caveats
 
 - TIFA yes/no questions are almost all positive, so there is no balanced

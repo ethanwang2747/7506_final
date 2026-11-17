@@ -78,6 +78,21 @@ On 30 short videos (6 per temporal dimension, 8 frames each), yes/no accuracy is
 
 On 30 real action videos (one true template and one random false template per video, same video for both), pair accuracy is 0.667 [0.500, 0.833] with video versus 0.600 [0.433, 0.767] with a black video; AUC is 0.729 versus 0.601. The visual gain is real but modest, and the model is strongly conservative (yes rate 0.27 on true actions, 0.13 on false). This is a harder test than TempCompass multiple-choice action accuracy, where answer options and text priors make the task easier. The combined external summary is in `results/external_benchmarks_summary.md`.
 
+### What actually improves accuracy?
+
+The improvement evidence is mixed and deliberately separated from the diagnostic results:
+
+| Intervention | Result | Deployable? |
+|---|---|---|
+| Training-free flip consistency | spatial AUC 0.600→0.690 (test), 0.633→0.813 (strict); POPE held-out accuracy 0.779→0.798, F1 0.732→0.757, wins 20/20 image splits | yes, 2× compute |
+| Threshold/blend calibration | no gain beyond the simple flip sum on POPE | yes, but redundant |
+| Structured “mention relations” prompt on TIFA | spatial coverage 0.538→0.385; overall 0.788→0.734 | yes, but negative |
+| Oracle region/position readout | region 0.812, position 0.961; not deployable | no (uses boxes) |
+| Global mean-pool / attention readers | 0.474 / 0.443, no improvement | yes, but negative |
+| Region-supervised attention | 0.548 test, still below the original 0.600 | partial |
+
+The only robust, training-free accuracy gain so far is mirror consistency. Calibration and prompt engineering do not close the spatial gap. A learned no-box reader still fails to localize objects. This is an honest limitation: the project diagnoses the gap better than it fixes it.
+
 ## Learned no-box readers do not close the gap
 
 Global readers trained on 3,788 dev examples (mean-pooled or attention-pooled S1/S6/S12 tokens plus the question) do not beat the original margin:

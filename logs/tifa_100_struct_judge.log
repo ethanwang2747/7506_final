@@ -1,0 +1,31 @@
+466 questions, judge=/home/yucheng/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   3%|▎         | 15/434 [00:00<00:03, 132.54it/s]Loading weights:  15%|█▍        | 64/434 [00:00<00:01, 327.92it/s]Loading weights:  26%|██▌       | 112/434 [00:00<00:00, 381.76it/s]Loading weights:  37%|███▋      | 161/434 [00:00<00:00, 419.05it/s]Loading weights:  48%|████▊     | 209/434 [00:00<00:00, 436.81it/s]Loading weights:  59%|█████▉    | 257/434 [00:00<00:00, 446.57it/s]Loading weights:  70%|███████   | 305/434 [00:00<00:00, 455.13it/s]Loading weights:  81%|████████▏ | 353/434 [00:00<00:00, 461.82it/s]Loading weights:  92%|█████████▏| 401/434 [00:00<00:00, 465.11it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 439.12it/s]
+  80/466
+  160/466
+  240/466
+  320/466
+  400/466
+saved results/tifa/tifa_100_struct_judge.json
+  overall {'n': 466, 'cued_recall': 0.7532188841201717, 'judge_coverage': 0.7339055793991416, 'keyword_coverage': 0.40772532188841204, 'gap_cued_minus_judge': 0.0193133047210301}
+  activity        n= 89 cued=0.629 judge=0.607 keyword=0.270
+  animal/human    n= 64 cued=0.812 judge=0.719 keyword=0.453
+  attribute       n= 42 cued=0.714 judge=0.810 keyword=0.333
+  color           n= 17 cued=0.824 judge=0.882 keyword=0.647
+  counting        n= 15 cued=0.867 judge=0.667 keyword=0.267
+  food            n= 29 cued=0.828 judge=0.897 keyword=0.517
+  location        n= 39 cued=0.718 judge=0.846 keyword=0.462
+  material        n=  1 cued=0.000 judge=1.000 keyword=0.000
+  object          n=141 cued=0.809 judge=0.794 keyword=0.511
+  other           n=  3 cued=0.667 judge=0.333 keyword=0.000
+  spatial         n= 26 cued=0.692 judge=0.385 keyword=0.115
+omissions (cued yes, caption no): 62
+  Q: are there people looking into the front window display?
+   cap: The image depicts a bustling bakery or dessert shop, brimming with an array of delectable pastries and cakes. The display case, made of glass, is filled with an assortment of sweet treats, each with its own unique design
+  Q: is this a woman?
+   cap: The image depicts a social gathering, likely a party or a celebration, taking place in a dimly lit room. The room is filled with people, some of whom are standing and others are seated around a table. The table is adorne
+  Q: is the baby elephant standing?
+   cap: The image depicts a young elephant standing on a dirt ground, surrounded by a lush, green environment. The elephant is the central focus of the image, with its large, gray body and long, curved tusks. Its trunk is extend
+  Q: is the baby elephant standing near its mother?
+   cap: The image depicts a young elephant standing on a dirt ground, surrounded by a lush, green environment. The elephant is the central focus of the image, with its large, gray body and long, curved tusks. Its trunk is extend
+  Q: is there a guard?
+   cap: The image depicts a lively scene at a beachfront restaurant. The restaurant, named "REALTY," is situated on a sandy beach, with a wooden sign displaying its name prominently. The sign is adorned with a palm tree and a fe

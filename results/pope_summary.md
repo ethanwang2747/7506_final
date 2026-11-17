@@ -48,6 +48,22 @@ The levels are similar; POPE is somewhat harder and has a stronger class-prior
 structure. The direction is the same: existence is largely answered from the
 image, unlike spatial left/right.
 
+## Held-out flip-consistency and calibration
+
+We split the 229 images into disjoint calibration/evaluation halves (20 random
+splits) and compared three readouts on the held-out half:
+
+| Readout | Mean accuracy | Std | Mean F1 |
+|---|---:|---:|---:|
+| original margin, threshold 0 | 0.779 | 0.021 | 0.732 |
+| **flip-combined margin** (`m + m_flip`) | **0.798** | 0.022 | **0.757** |
+| calibrated blend (fit on half) | 0.798 | 0.025 | — |
+
+Flip-combination wins on **20/20** splits; average gain is +1.8 percentage
+points accuracy and +2.5 points F1. Training a threshold/blend on the
+calibration half adds nothing beyond the simple flip sum. This is a practical,
+training-free accuracy improvement on an external benchmark.
+
 ## Caveats
 
 - 300-question sample; per-split CIs are wide.

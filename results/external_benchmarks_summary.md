@@ -9,10 +9,12 @@ numbers.
 | Benchmark | Task / metric | Sample | Result | Control | Interpretation |
 |---|---|---|---:|---|---|
 | **POPE** | existence yes/no accuracy | 300 Q, 229 COCO images | **0.783** (AUC 0.890) | — | existence is largely answered; adversarial 0.740 |
+| **POPE** | flip-combined, held-out | 20 image splits | **0.798** vs 0.779 baseline; F1 0.757 vs 0.732 | flip wins 20/20 | training-free +1.8pp accuracy |
 | self-built existence | same-image pair acc | 200 pairs | 0.865 | blank image 0.455 | confirms external result |
 | **TIFA/COCO** | cued fact recall | 100 images, 466 facts | **0.753** | — | facts are often answerable when cued |
 | **TIFA/COCO** | caption coverage | same | **0.788 judge / 0.431 keyword** | — | descriptions are not uniformly worse |
 | **TIFA/COCO** | spatial fact coverage | 26 spatial facts | **0.538** | cued 0.692 | spatial facts are the exception |
+| **TIFA/COCO** | structured prompt (spatial) | 100 images | **0.385** vs 0.538 default | — | prompt alone does not fix spatial omission |
 | **TempCompass** | video yes/no | 30 videos, 114 Q | **0.605** | black video 0.377 | model uses video, but limited |
 | **TempCompass** | video multi-choice | 58 Q | **0.552** | black video 0.431 | strong text prior; direction weak |
 | **TempCompass** | open description coverage | 29 videos | **0.241** | black video 0.000 | visual, but often wrong/omitted |
