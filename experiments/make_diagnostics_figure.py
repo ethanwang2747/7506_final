@@ -14,6 +14,9 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+
+matplotlib.rcParams["font.sans-serif"] = ["Noto Sans CJK SC", "Noto Sans CJK JP", "DejaVu Sans"]
+matplotlib.rcParams["axes.unicode_minus"] = False
 import numpy as np
 import torch
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
@@ -64,18 +67,18 @@ def geometry_scores():
 def panel_geometry(ax):
     geo, margin, y = geometry_scores()
     ax.scatter(geo[y == 1], margin[y == 1], s=14, alpha=0.55, c="#1f77b4",
-               label="source (relation true)")
+               label="正例（关系成立）")
     ax.scatter(geo[y == 0], margin[y == 0], s=14, alpha=0.55, c="#d62728",
-               label="target (relation false)")
+               label="负例（关系不成立）")
     ax.axhline(0, color="k", lw=0.6)
     ax.axvline(0, color="k", lw=0.6)
     auc_geo = roc_auc_score(y, geo)
     auc_model = roc_auc_score(y, margin)
     rho = spearmanr(geo, margin).correlation
-    ax.set_xlabel("geometry-only score (oracle boxes, per-group)")
-    ax.set_ylabel("model yes/no margin")
-    ax.set_title(f"(A) The model ignores the geometry that defines the label\n"
-                 f"position AUC {auc_geo:.2f} vs model AUC {auc_model:.2f}, "
+    ax.set_xlabel("纯几何分数（oracle 框，按组训练）")
+    ax.set_ylabel("模型 yes/no margin")
+    ax.set_title(f"(A) 标签由几何决定，模型却几乎不用它\n"
+                 f"位置 AUC {auc_geo:.2f} vs 模型 AUC {auc_model:.2f}，"
                  f"Spearman {rho:.2f}", fontsize=10)
     ax.legend(fontsize=8, loc="lower right")
 
@@ -87,20 +90,21 @@ def panel_tokens(ax):
     ans = [d["answer_to the left of"][s]["acc_peak"] for s in STAGES]
     ans_pool = [d["answer_to the left of"][s]["pooled_acc"] for s in STAGES]
     corr = [d["correct"][s]["acc_peak"] for s in STAGES]
-    ax.plot(x, name, "o-", lw=2, color="#2ca02c", label="object identity: name pointing")
-    ax.plot(x, corr, "s--", lw=1.4, color="#9467bd", label="model correctness (best token)")
-    ax.plot(x, ans, "^-", lw=1.4, color="#ff7f0e", label="relation answer (best token)")
-    ax.plot(x, ans_pool, "v:", lw=1.2, color="#8c564b", label="relation answer (all-token mean)")
+    ax.plot(x, name, "o-", lw=2, color="#2ca02c", label="物体身份：命名指向")
+    ax.plot(x, corr, "s--", lw=1.4, color="#9467bd", label="模型正确性（最好格）")
+    ax.plot(x, ans, "^-", lw=1.4, color="#ff7f0e", label="关系答案（最好格）")
+    ax.plot(x, ans_pool, "v:", lw=1.2, color="#8c564b", label="关系答案（全 token 平均）")
     ax.axhline(0.5, color="k", lw=0.6, ls=":")
     ax.axhline(0.205, color="#2ca02c", lw=0.6, ls=":")
-    ax.text(2.02, 0.21, "chance (name)", fontsize=7, color="#2ca02c")
-    ax.text(2.02, 0.46, "chance (answer)", fontsize=7)
+    ax.text(2.02, 0.215, "随机（命名）", fontsize=7, color="#2ca02c")
+    ax.text(2.02, 0.465, "随机（答案）", fontsize=7)
     ax.set_xticks(x)
     ax.set_xticklabels(STAGES)
     ax.set_ylim(0.15, 0.75)
-    ax.set_ylabel("accuracy / top-1 hit")
-    ax.set_title("(B) Identity is local, the relation is not\n"
-                 "9x9 per-cell probes, grouped CV by image", fontsize=10)
+    ax.set_xlim(-0.2, 2.4)
+    ax.set_ylabel("准确率 / top-1 命中")
+    ax.set_title("(B) 身份是局部的，关系不是\n"
+                 "9×9 逐格 probe，按图像分组交叉验证", fontsize=10)
     ax.legend(fontsize=7, loc="upper left")
 
 
@@ -109,14 +113,14 @@ def panel_lens(ax):
     strict = load("logit_lens_test.json")["summary"]
     lc = [d["auc"] for d in core["per_layer"]]
     ls = [d["auc"] for d in strict["per_layer"]]
-    ax.plot(range(len(lc)), lc, "o-", ms=3, color="#1f77b4", label="test core (80 pairs)")
-    ax.plot(range(len(ls)), ls, "s--", ms=3, color="#ff7f0e", label="strict sample (240 pairs)")
+    ax.plot(range(len(lc)), lc, "o-", ms=3, color="#1f77b4", label="test core（80 对）")
+    ax.plot(range(len(ls)), ls, "s--", ms=3, color="#ff7f0e", label="strict 样本（240 对）")
     ax.axhline(0.5, color="k", lw=0.6, ls=":")
     ax.axvspan(17.5, 19.5, color="#ffe08a", alpha=0.5)
-    ax.set_xlabel("text layer (input to layer)")
-    ax.set_ylabel("yes/no AUC of the lens")
-    ax.set_title("(C) The decision appears only in the last layers\n"
-                 "final norm + LM head on the last prompt token", fontsize=10)
+    ax.set_xlabel("文本层（该层输入）")
+    ax.set_ylabel("lens 的 yes/no AUC")
+    ax.set_title("(C) 决策只在最后几层出现\n"
+                 "对最后一个 prompt token 应用 final norm + LM head", fontsize=10)
     ax.legend(fontsize=8, loc="upper left")
 
 
@@ -128,21 +132,21 @@ def panel_regions(ax):
            [d["ablation"][f"S1:{r}"]["orig_ci"][1] - d["ablation"][f"S1:{r}"]["orig_mean"] for r in regions]]
     x = np.arange(len(regions))
     ax.bar(x - 0.2, abl, width=0.38, color="#d62728", alpha=0.8,
-           label="ablation: margin change")
+           label="消融：margin 变化")
     ax.errorbar(x - 0.2, abl, yerr=err, fmt="none", ecolor="k", lw=1, capsize=3)
     pr = ["target", "reference", "irrelevant", "random"]
     patch = [d["patching"][f"S1:{r}"]["median_R"] for r in pr]
     perr = [[d["patching"][f"S1:{r}"]["median_R"] - d["patching"][f"S1:{r}"]["median_ci"][0] for r in pr],
             [d["patching"][f"S1:{r}"]["median_ci"][1] - d["patching"][f"S1:{r}"]["median_R"] for r in pr]]
     ax.bar(x + 0.2, patch, width=0.38, color="#1f77b4", alpha=0.8,
-           label="patching: fraction of flip gap")
+           label="patching：恢复的翻转差距")
     ax.errorbar(x + 0.2, patch, yerr=perr, fmt="none", ecolor="k", lw=1, capsize=3)
     ax.axhline(0, color="k", lw=0.6)
     ax.set_xticks(x)
-    ax.set_xticklabels(["target", "reference", "irrelevant", "background /\nrandom"])
-    ax.set_ylabel("effect (margin units / fraction)")
-    ax.set_title("(D) The target region is used, but only partly\n"
-                 "S1; 376 same-image pairs; 95% bootstrap CI", fontsize=10)
+    ax.set_xticklabels(["目标区域", "参照区域", "无关区域", "背景 / 随机"])
+    ax.set_ylabel("效应（margin / 比例）")
+    ax.set_title("(D) 目标区域被使用，但只承担一部分\n"
+                 "S1；376 对同图翻转；95% bootstrap 区间", fontsize=10)
     ax.legend(fontsize=8, loc="upper right")
 
 
@@ -152,7 +156,7 @@ def dashboard():
     panel_tokens(axes[0, 1])
     panel_lens(axes[1, 0])
     panel_regions(axes[1, 1])
-    fig.suptitle("Where the spatial answer is lost: diagnostic dashboard", fontsize=13)
+    fig.suptitle("空间答案是在哪一环丢失的：诊断总览", fontsize=13)
     fig.tight_layout()
     out = FIG / "diagnostics_dashboard.png"
     fig.savefig(out, dpi=160)
@@ -165,12 +169,12 @@ def chain():
     ax.set_ylim(0, 4.6)
     ax.axis("off")
     boxes = [
-        ("Image\npixels", "input", "grey"),
-        ("Visual tokens\n(S1, S6, S12)", "object identity decodable\nname pointing 0.54-0.62", "#2ca02c"),
-        ("Region selection", "target region causally used\nablation -0.38, patch R 0.33", "#f0ad4e"),
-        ("Composition", "no token or pooled reader\nanswers the relation", "#d9534f"),
-        ("Late decision\n(layers 18-19)", "readable only at the end\nAUC 0.50 -> 0.65", "#f0ad4e"),
-        ("Answer", "AUC 0.60\nrho with geometry 0.18", "#d9534f"),
+        ("图像像素", "输入", "grey"),
+        ("视觉 token\n(S1, S6, S12)", "物体身份可解码\n命名指向 0.54-0.62", "#2ca02c"),
+        ("区域选择", "目标区域被因果使用\n消融 -0.38，patching 0.33", "#f0ad4e"),
+        ("组合", "没有单个 token 或 pooled\n表征能回答关系", "#d9534f"),
+        ("晚期决策\n(第 18-19 层)", "答案直到最后才可读\nAUC 0.50 -> 0.65", "#f0ad4e"),
+        ("答案", "AUC 0.60\n与几何的 rho 0.18", "#d9534f"),
     ]
     w, h, gap = 2.0, 2.1, 0.32
     y = 1.3
@@ -187,10 +191,10 @@ def chain():
             ax.add_patch(FancyArrowPatch((x + w + 0.03, y + h / 2),
                                          (x + w + gap - 0.03, y + h / 2),
                                          arrowstyle="-|>", mutation_scale=14, lw=1.2))
-    ax.text(0.25, 3.85, "The chain: where the information is still usable and where it is lost",
+    ax.text(0.25, 3.85, "信息链路：哪一环仍可用，哪一环已经丢失",
             fontsize=12, weight="bold")
     ax.text(0.25, 0.55,
-            "green = available and decodable    amber = partly used / late    red = not readable / not used",
+            "绿色 = 可用且可解码    黄色 = 部分使用 / 偏晚    红色 = 读不出 / 未使用",
             fontsize=9)
     out = FIG / "diagnostics_chain.png"
     fig.savefig(out, dpi=160, bbox_inches="tight")
