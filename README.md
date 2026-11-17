@@ -8,6 +8,7 @@ DASE7506 Advanced Machine Learning Methods final project, The University of Hong
 
 This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evidence into yes/no decisions about object relations. The pipeline builds canonical GQA-derived source/target pairs, measures clean behavior and input dependence, and applies stage-wise regional mean replacement and activation patching at five stages of the vision-to-language path. Supporting experiments cover semantic relations, image splitting, question-context binding, coverage, and a same-image flip counterfactual.
 
+- Progress and plan: [`docs/progress_and_plan.md`](docs/progress_and_plan.md) (current status, diagnostic conclusions, next steps)
 - Report draft: [`report/report_v5_draft.md`](report/report_v5_draft.md)
 - Combined result tables: [`results/summary.md`](results/summary.md)
 - Experiment dashboard: [`results/dashboard.md`](results/dashboard.md)
