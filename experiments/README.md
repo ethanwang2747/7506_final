@@ -280,3 +280,16 @@ in `results/external_benchmarks_summary.md`.
 - TIFA structured prompt variant:
   `python experiments/tifa_experiment.py --sample data/raw/tifa/sample_100.jsonl --out results/tifa/tifa_100_struct.json --max-new-tokens 64 --prompt "Describe the image in detail. Mention the main objects, their colors and materials, what the people are doing, and the spatial relationships between the main objects."`
   then judge with `tifa_judge.py`.
+
+## E12: attention audit
+
+Extract text-to-image attention on spatial dev pairs and test whether any head
+selectively attends to target/reference tokens.
+
+```bash
+SMOLVLM_MODEL=$PWD/models/SmolVLM2-2.2B-Instruct PYTHONPATH=. \
+python experiments/attention_audit.py \
+  --out results/attention/audit_dev_last.json
+```
+
+The summary is in `results/attention_summary.md`.

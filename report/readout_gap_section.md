@@ -78,6 +78,24 @@ On 30 short videos (6 per temporal dimension, 8 frames each), yes/no accuracy is
 
 On 30 real action videos (one true template and one random false template per video, same video for both), pair accuracy is 0.667 [0.500, 0.833] with video versus 0.600 [0.433, 0.767] with a black video; AUC is 0.729 versus 0.601. The visual gain is real but modest, and the model is strongly conservative (yes rate 0.27 on true actions, 0.13 on false). This is a harder test than TempCompass multiple-choice action accuracy, where answer options and text priors make the task easier. The combined external summary is in `results/external_benchmarks_summary.md`.
 
+### Attention audit: no ready-made relation heads
+
+We extracted text-to-image attention on 57 dev pairs at layers 6 and 12, using
+the last answer-position token as the query and GQA boxes only to define the
+target/reference token sets. Attention mass on target+reference is about
+0.0007, usually **below** the background mass of 0.0011; selectivity is near
+zero or negative, and no head has a meaningful positive correlation with pair
+correctness or margin delta.
+
+This is a useful negative result: there is no “relation head” to amplify, and the
+answer token largely ignores the object tokens. The next causal test is **oracle
+attention steering** — force the answer token to attend to target/reference
+tokens at test time (boxes only as a diagnostic). If that improves the answer,
+routing is causally sufficient and the next step is a learned attention
+controller; if not, the bottleneck is downstream (connector/MLP/readout), and
+attention is the wrong lever. The current evidence already explains why global
+attention readers fail while oracle region readout succeeds.
+
 ### What actually improves accuracy?
 
 The improvement evidence is mixed and deliberately separated from the diagnostic results:

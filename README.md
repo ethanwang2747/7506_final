@@ -19,6 +19,7 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - TempCompass video pilot: [`results/tempcompass_summary.md`](results/tempcompass_summary.md) (30 videos; yes/no 0.605 vs black-video 0.377; direction weakest)
 - Something-Something action pilot: [`results/ssv2_summary.md`](results/ssv2_summary.md) (30 videos; pair acc 0.667 vs black-video 0.600)
 - External benchmark synthesis: [`results/external_benchmarks_summary.md`](results/external_benchmarks_summary.md)
+- Attention audit: [`results/attention_summary.md`](results/attention_summary.md) (no ready-made relation heads; next test is oracle attention steering)
 - Full experiment commands: [`experiments/README.md`](experiments/README.md)
 
 ## Repository layout
