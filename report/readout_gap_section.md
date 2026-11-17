@@ -70,6 +70,10 @@ A targeted production pilot asks for a one-sentence spatial description of the s
 
 On 100 COCO images and 466 TIFA yes/no facts (almost all positive), cued fact recall is 0.753 [0.709, 0.793]. A CLAIR-style local text judge gives caption coverage 0.788 [0.741, 0.833]; keyword coverage is 0.431. Overall, free descriptions are **not** uniformly worse than cued answers. The exception is spatial facts: cued recall 0.692 versus caption coverage 0.538 (keyword 0.231). Captions describe the objects but often omit “near”, “under”, “in front of”, or “next to”. This is consistent with the targeted spatial-description pilot and supports a spatial-specific production failure rather than a generic captioning failure.
 
+### Video: TempCompass 30-video pilot
+
+On 30 short videos (6 per temporal dimension, 8 frames each), yes/no accuracy is 0.605 with video versus 0.377 with a black video; multiple-choice is 0.552 versus 0.431; open-description coverage is 0.241 versus 0.000. The model therefore uses video, but the gain is very uneven. Action is strong (yes/no 0.833, MC 0.944), while direction is near chance (yes/no 0.400, MC 0.200), and speed/order descriptions cover none of the references. This is consistent with the image result: direction/spatial/temporal-order evidence is the weak part, while object/action recognition is comparatively strong.
+
 ## Learned no-box readers do not close the gap
 
 Global readers trained on 3,788 dev examples (mean-pooled or attention-pooled S1/S6/S12 tokens plus the question) do not beat the original margin:

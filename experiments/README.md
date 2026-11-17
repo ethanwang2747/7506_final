@@ -246,3 +246,17 @@ python experiments/tifa_judge.py \
 ```
 
 The summary is in `results/tifa_summary.md`.
+
+## E10: TempCompass video pilot
+
+Small video event/direction/order evaluation with a black-video control.
+
+```bash
+python experiments/tempcompass_experiment.py \
+  --out results/tempcompass/tempcompass_30.json
+python experiments/tempcompass_judge.py \
+  --results results/tempcompass/tempcompass_30.json \
+  --out results/tempcompass/tempcompass_30_judge.json
+```
+
+The summary is in `results/tempcompass_summary.md`.

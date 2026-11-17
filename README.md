@@ -16,6 +16,7 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - Description vs yes/no pilot: [`results/description_summary.md`](results/description_summary.md) (targeted spatial description; also lists established benchmarks to reuse)
 - POPE external validation: [`results/pope_summary.md`](results/pope_summary.md) (300 questions; accuracy 0.783, AUC 0.890, conservative yes rate 0.33)
 - TIFA/COCO description coverage: [`results/tifa_summary.md`](results/tifa_summary.md) (466 facts; cued recall 0.753, caption coverage 0.788, spatial coverage 0.538)
+- TempCompass video pilot: [`results/tempcompass_summary.md`](results/tempcompass_summary.md) (30 videos; yes/no 0.605 vs black-video 0.377; direction weakest)
 - Full experiment commands: [`experiments/README.md`](experiments/README.md)
 
 ## Repository layout
