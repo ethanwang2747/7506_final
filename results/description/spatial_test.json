@@ -1,0 +1,1678 @@
+{
+  "overall": {
+    "n_pairs": 60,
+    "desc_source_acc": 0.11666666666666667,
+    "desc_target_acc": 0.05,
+    "desc_pair_acc": 0.0,
+    "desc_source_none": 0.7833333333333333,
+    "desc_target_none": 0.8166666666666667,
+    "yesno_pair_acc": 0.5166666666666667
+  },
+  "groups": {
+    "woman|to the left of|man": {
+      "n_pairs": 10,
+      "desc_source_acc": 0.4,
+      "desc_target_acc": 0.1,
+      "desc_pair_acc": 0.0,
+      "desc_source_none": 0.6,
+      "desc_target_none": 0.9,
+      "yesno_pair_acc": 0.7
+    },
+    "man|to the right of|woman": {
+      "n_pairs": 10,
+      "desc_source_acc": 0.1,
+      "desc_target_acc": 0.1,
+      "desc_pair_acc": 0.0,
+      "desc_source_none": 0.6,
+      "desc_target_none": 0.9,
+      "yesno_pair_acc": 0.8
+    },
+    "man|to the left of|person": {
+      "n_pairs": 10,
+      "desc_source_acc": 0.1,
+      "desc_target_acc": 0.0,
+      "desc_pair_acc": 0.0,
+      "desc_source_none": 0.8,
+      "desc_target_none": 0.6,
+      "yesno_pair_acc": 0.3
+    },
+    "person|to the right of|man": {
+      "n_pairs": 10,
+      "desc_source_acc": 0.0,
+      "desc_target_acc": 0.1,
+      "desc_pair_acc": 0.0,
+      "desc_source_none": 0.9,
+      "desc_target_none": 0.7,
+      "yesno_pair_acc": 0.3
+    },
+    "tree|to the left of|building": {
+      "n_pairs": 10,
+      "desc_source_acc": 0.0,
+      "desc_target_acc": 0.0,
+      "desc_pair_acc": 0.0,
+      "desc_source_none": 0.9,
+      "desc_target_none": 1.0,
+      "yesno_pair_acc": 0.4
+    },
+    "chair|to the left of|table": {
+      "n_pairs": 10,
+      "desc_source_acc": 0.1,
+      "desc_target_acc": 0.0,
+      "desc_pair_acc": 0.0,
+      "desc_source_none": 0.9,
+      "desc_target_none": 0.8,
+      "yesno_pair_acc": 0.6
+    }
+  },
+  "per_pair": [
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0000",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is standing next to the man, with the man holding a kite.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is sitting across from the man at the dining table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 1.1241180896759033,
+      "m_target": 0.3747056722640991,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0001",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is standing to the left of the man, who is seated at the table.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is standing closer to the man than the man is to the camera.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 3.4997024536132812,
+      "m_target": -1.3757610321044922,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0002",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is standing on the left side of the man.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is standing behind the woman, with his hand on her shoulder.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.0012913346290588379,
+      "m_target": 1.3744943141937256,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0003",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is standing to the left of the man, and they are both standing in front of the cake.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is in front of the man, riding a skateboard down the street.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 3.374880313873291,
+      "m_target": 1.8748137950897217,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0004",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is riding on the back of the man's motorcycle.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is standing on the sidewalk, while the man is walking on the street.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 2.374323844909668,
+      "m_target": 0.248141348361969,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0005",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is standing in front of the man, with her back to the camera.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is standing closer to the camera than the man.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 0.7491711378097534,
+      "m_target": 0.1242169737815857,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0006",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is standing close to the man, with her arm around his shoulder.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is standing behind the man, watching him play frisbee.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 1.1240354776382446,
+      "m_target": 0.3738023042678833,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0007",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The man is standing in front of the woman, who is standing on the steps of the bus.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is standing to the right of the man.",
+        "first": "right",
+        "all_relations": [
+          "right"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "right"
+      },
+      "m_source": 1.3745503425598145,
+      "m_target": 2.4997174739837646,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0008",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is standing closer to the man than the motorcycle.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is standing next to the man, who is sitting on the ground.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.001991868019104004,
+      "m_target": 0.6241201162338257,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:woman|to the left of|man:0009",
+      "group": "woman|to the left of|man",
+      "desc_source": {
+        "text": " The woman is sitting to the left of the man.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The woman is standing closer to the man than the bicycle.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 2.999717950820923,
+      "m_target": 0.37405455112457275,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0000",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is standing next to the woman, with a kite flying in the background.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is sitting across from the woman at the dining table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -0.25370246171951294,
+      "m_target": -0.3764682412147522,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0001",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is seated at the table, while the woman is standing in the kitchen.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is standing in front of the woman, who is sitting on a bench.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": 1.7483396530151367,
+      "m_target": -1.1261272430419922,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0002",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is standing on the left side of the woman.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is standing to the left of the woman.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "m_source": -0.8777717351913452,
+      "m_target": -1.880653977394104,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0003",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is standing to the right of the woman, with his arm around her shoulder.",
+        "first": "right",
+        "all_relations": [
+          "right"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is riding a bicycle behind the woman, who is skateboarding.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": 2.1230807304382324,
+      "m_target": -0.7546108961105347,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0004",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is riding the motorcycle in front of the woman, who is sitting behind him.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is walking in front of the woman, who is standing on the sidewalk.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": 1.9986382722854614,
+      "m_target": -0.3765929937362671,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0005",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is standing behind the woman, with his back to the camera.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man and the woman are standing close to each other, with the man slightly in front of the woman.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -1.011492133140564,
+      "m_target": -0.6287777423858643,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0006",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is standing close to the woman, with his arm around her shoulder.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is standing closer to the woman than the child.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": 0.1215200424194336,
+      "m_target": -0.3762401342391968,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0007",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is standing on the left side of the woman.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is standing behind the woman, with his arm around her shoulder.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -1.5040745735168457,
+      "m_target": 1.998843789100647,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0008",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is standing closer to the woman than the motorcycle.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is standing next to the woman, with the woman being closer to the camera.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -0.6279923319816589,
+      "m_target": -0.6282691359519958,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the right of|woman:0009",
+      "group": "man|to the right of|woman",
+      "desc_source": {
+        "text": " The man is sitting to the left of the woman.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man is standing closer to the camera than the woman.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": 0.7469480037689209,
+      "m_target": -0.3773344159126282,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0000",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is standing next to the person, with the person being slightly behind him.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is standing in front of the person, who is standing on skis.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 0.3746638894081116,
+      "m_target": -0.250731885433197,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0001",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is sitting in front of the person, with the person sitting behind him.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is walking on the sidewalk, while the person is standing on the street.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.5007636547088623,
+      "m_target": 0.12181520462036133,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0002",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is sitting on the left side of the couch, while the person in the middle is sitting on the right side.",
+        "first": "left",
+        "all_relations": [
+          "left",
+          "right"
+        ],
+        "correct": false,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is standing to the left of the person.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "m_source": 0.12251538038253784,
+      "m_target": 0.4984383285045624,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0003",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is standing to the left of the person in the blue jacket.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is standing on the left side of the person in a straw hat.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "m_source": -0.0014685988426208496,
+      "m_target": 0.7486836314201355,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0004",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is standing behind the person, with his back to the camera.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is jumping over the person in the skate park.",
+        "first": "above",
+        "all_relations": [
+          "above"
+        ],
+        "correct": false,
+        "wrong": false,
+        "none": false,
+        "expected": "right"
+      },
+      "m_source": -0.378939151763916,
+      "m_target": -0.3757495880126953,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0005",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is sitting at a table with a plate of food in front of him, while the person in the background is standing nearby.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is riding a bicycle in front of a person who is standing on the sidewalk.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.5030455589294434,
+      "m_target": -0.37705981731414795,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0006",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is walking towards the person in the water.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is standing in front of the person, who is sitting on the ground.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.1289989948272705,
+      "m_target": -0.6281816959381104,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0007",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is standing in front of the person, who is standing in front of the kite.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is sitting in the passenger seat of a car, while the person in the back seat is holding a carrot.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.37697547674179077,
+      "m_target": -0.0019061565399169922,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0008",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is standing in front of the person, who is sitting on a motorcycle.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is jumping over the person in the skateboard.",
+        "first": "above",
+        "all_relations": [
+          "above"
+        ],
+        "correct": false,
+        "wrong": false,
+        "none": false,
+        "expected": "right"
+      },
+      "m_source": -0.12663960456848145,
+      "m_target": -0.37661105394363403,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:man|to the left of|person:0009",
+      "group": "man|to the left of|person",
+      "desc_source": {
+        "text": " The man is standing on the tennis court, while the person is sitting on the bench.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The man is riding a bicycle in front of the person, who is standing on the sidewalk.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.2553722858428955,
+      "m_target": 0.12235844135284424,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0000",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is standing in front of the man, who is standing on the snow.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is standing in front of the man, who is standing on the snow.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": 0.1238563060760498,
+      "m_target": -0.6260848641395569,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0001",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is sitting on the chairlift, while the man is standing on the snow.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is standing on the sidewalk, while the man is walking on the street.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -0.751851499080658,
+      "m_target": -1.2586888074874878,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0002",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is sitting in front of the man, who is sitting in front of the television.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is standing to the left of the man.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "m_source": 0.3715221881866455,
+      "m_target": 0.7450976371765137,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0003",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is standing to the left of the man.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is standing close to the man, with the man being slightly behind the person.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": 1.132228136062622,
+      "m_target": 1.4995431900024414,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0004",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is sitting at a table with the man standing behind them.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is jumping over the man in the skateboard park.",
+        "first": "above",
+        "all_relations": [
+          "above"
+        ],
+        "correct": false,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "m_source": -1.0154931545257568,
+      "m_target": -0.8764421343803406,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0005",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is sitting at a table with a man, and they are both looking at a phone together.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The man in the brown cap and plaid pants is riding a bicycle on the road, while the person in the black shirt and brown vest is standing on the",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -0.7560091018676758,
+      "m_target": -0.7552903890609741,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0006",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is walking towards the man in the water.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is standing in front of the man, who is standing in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -0.6462302207946777,
+      "m_target": -0.7532651424407959,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0007",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is standing in front of the man, who is standing in front of the kite.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is sitting in the passenger seat of a car, while the man is sitting in the driver's seat.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -1.0039951801300049,
+      "m_target": -0.26044362783432007,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0008",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is standing on the sidewalk, while the man is riding a motorcycle down the street.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is jumping over the man in the skateboard.",
+        "first": "above",
+        "all_relations": [
+          "above"
+        ],
+        "correct": false,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "m_source": -1.0064518451690674,
+      "m_target": -1.0026862621307373,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:person|to the right of|man:0009",
+      "group": "person|to the right of|man",
+      "desc_source": {
+        "text": " The person is standing on the tennis court, while the man is standing on the sidelines.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "desc_target": {
+        "text": " The person is standing closer to the camera than the man.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "m_source": -2.0069727897644043,
+      "m_target": -0.005148351192474365,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0000",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 2.0187294483184814,
+      "m_target": -0.24860268831253052,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0001",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 2.499910593032837,
+      "m_target": -1.1260195970535278,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0002",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building, partially obscuring it.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 4.0016279220581055,
+      "m_target": 0.6274377107620239,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0003",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -1.126556396484375,
+      "m_target": -1.0010855197906494,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0004",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building, with its branches extending over the sidewalk.",
+        "first": "above",
+        "all_relations": [
+          "above"
+        ],
+        "correct": false,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.00393986701965332,
+      "m_target": -0.8772574663162231,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0005",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building, with a small palm tree nearby.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.8784818053245544,
+      "m_target": 0.4987660050392151,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0006",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building, with the building behind it.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -1.5015649795532227,
+      "m_target": -0.7482315301895142,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0007",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building, with its trunk and branches partially obscured by the brick wall.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 0.49861469864845276,
+      "m_target": 1.251459002494812,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0008",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building, with the building being taller than the tree.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building, with the building being behind the tree.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -1.7510735988616943,
+      "m_target": 0.626583456993103,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:tree|to the left of|building:0009",
+      "group": "tree|to the left of|building",
+      "desc_source": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The tree is in front of the building.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.119320809841156,
+      "m_target": 1.3768759965896606,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0000",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned to the left of the table.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "m_source": -0.37655407190322876,
+      "m_target": -1.0162588357925415,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0001",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table, with the table being the surface on which the chair is placed.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned next to the table, with the table being slightly larger than the chair.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -1.5033389329910278,
+      "m_target": -1.3763132095336914,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0002",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": 0.3679124116897583,
+      "m_target": -0.8757076263427734,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0003",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table, with the table being the focal point of the room.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table, with the table being the surface on which the chair is placed.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.5049483776092529,
+      "m_target": -1.6285282373428345,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0004",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table, with the table being the larger object in the scene.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table, with the table to the left of the chair.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": false,
+        "wrong": true,
+        "none": false,
+        "expected": "right"
+      },
+      "m_source": -0.37688350677490234,
+      "m_target": -0.6339351534843445,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0005",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned at the table, with the table being the central object in the image.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -1.8777234554290771,
+      "m_target": -1.3743717670440674,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0006",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned to the left of the table.",
+        "first": "left",
+        "all_relations": [
+          "left"
+        ],
+        "correct": true,
+        "wrong": false,
+        "none": false,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table, with the table being the surface on which the chair is placed.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.6335372924804688,
+      "m_target": -1.629696011543274,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0007",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -1.7535252571105957,
+      "m_target": -1.6270323991775513,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0008",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table, with the table being the focal point of the room.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -1.39004647731781,
+      "m_target": -0.8963527679443359,
+      "yesno_correct": false,
+      "desc_pair_correct": false
+    },
+    {
+      "pair_id": "spatial:test:chair|to the left of|table:0009",
+      "group": "chair|to the left of|table",
+      "desc_source": {
+        "text": " The chair is positioned in front of the table.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "left"
+      },
+      "desc_target": {
+        "text": " The chair is positioned in front of the table, with the table being the main focus of the room.",
+        "first": "none",
+        "all_relations": [],
+        "correct": false,
+        "wrong": false,
+        "none": true,
+        "expected": "right"
+      },
+      "m_source": -0.7600725889205933,
+      "m_target": -1.1312922239303589,
+      "yesno_correct": true,
+      "desc_pair_correct": false
+    }
+  ]
+}

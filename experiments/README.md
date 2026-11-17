@@ -204,3 +204,16 @@ python experiments/finegrained_blank_control.py \
 ```
 
 The interpretation is in `results/finegrained_summary.md`.
+
+## E7: description vs cued yes/no
+
+Compare the original yes/no margin with a one-sentence spatial description on the same images.
+
+```bash
+python experiments/describe_spatial.py \
+  --pairs data/derived/spatial_pairs_test.jsonl \
+  --pairs-per-group 10 \
+  --out results/description/spatial_test.json
+```
+
+The results and a table of established description/hallucination/action benchmarks are in `results/description_summary.md`.
