@@ -19,6 +19,7 @@ This project studies how `HuggingFaceTB/SmolVLM2-2.2B-Instruct` turns visual evi
 - TempCompass video pilot: [`results/tempcompass_summary.md`](results/tempcompass_summary.md) (30 videos; yes/no 0.605 vs black-video 0.377; direction weakest)
 - Something-Something action pilot: [`results/ssv2_summary.md`](results/ssv2_summary.md) (30 videos; pair acc 0.667 vs black-video 0.600)
 - External benchmark synthesis: [`results/external_benchmarks_summary.md`](results/external_benchmarks_summary.md)
+- Diagnostic handbook: [`docs/diagnostic_handbook.md`](docs/diagnostic_handbook.md) (probing, latent maps, causal interventions, controls, decision tree)
 - Attention audit: [`results/attention_summary.md`](results/attention_summary.md) (no ready-made relation heads)
 - Attention causal test: [`results/attention_causal_summary.md`](results/attention_causal_summary.md) (head ablation/amplification has no effect)
 - Latent steering test: [`results/latent_steering_summary.md`](results/latent_steering_summary.md) (linear source−target direction has no robust gain)

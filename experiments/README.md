@@ -326,3 +326,9 @@ python experiments/region_bce_reader.py \
 ```
 
 The negative result is summarized in `results/region_reader_summary.md`.
+
+## Diagnostic handbook
+
+The full diagnostic protocol (probing, per-token latent maps, RSA/CKA, causal
+patching, DAS, readout analysis, controls and decision tree) is in
+`docs/diagnostic_handbook.md`.
