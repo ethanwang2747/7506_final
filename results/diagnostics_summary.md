@@ -428,3 +428,11 @@ target's absolute side.
 The defensible claim is therefore: a controlled same-image pairing protocol plus
 a single-box / same-half decomposition of what the benchmark measures and what
 SFT learns, not a "readout bottleneck" mechanism.
+
+**Reference-only counterfactual.** Keeping the target fixed and moving only the
+reference horizontally lowers the margin by -0.324 (base) / -0.737 (full) and
+flips 16.3% / 19.2% of answers; a vertical-move control gives -0.053 / -0.147 and
+7.9% / 8.3%. The model therefore uses the reference partially, and SFT increases
+that sensitivity, but most answers do not flip. This is weaker than a full
+comparison account and consistent with the single-box shortcut dominating the
+score.

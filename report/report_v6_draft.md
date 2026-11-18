@@ -64,7 +64,11 @@ not object grounding. This is the failure mode warned about by
 
 The defensible contribution is a controlled same-image pairing protocol plus a
 single-box / same-half decomposition of what the benchmark measures and what SFT
-learns, not a "readout bottleneck" mechanism claim.
+learns, not a "readout bottleneck" mechanism claim. A reference-only
+counterfactual adds nuance: moving only the reference horizontally lowers the
+margin by -0.324 (base) / -0.737 (full) and flips 16.3% / 19.2% of answers,
+versus -0.053 / -0.147 and 7.9% / 8.3% for a vertical-move control. The model
+compares partially; SFT strengthens this, but most answers do not flip.
 
 ## 1. Introduction
 

@@ -1,0 +1,40 @@
+{
+ "adapter": "results/sft/adapter_full",
+ "n": 960,
+ "acc": 0.7010416666666667,
+ "auc": 0.7709939236111111,
+ "pair_pref_acc": 0.49166666666666664,
+ "mean_delta": 0.1310949898014466,
+ "per_group": {
+  "chair|to the left of|table": {
+   "n": 160,
+   "acc": 0.71875,
+   "auc": 0.7740624999999999
+  },
+  "man|to the left of|person": {
+   "n": 160,
+   "acc": 0.59375,
+   "auc": 0.5701562499999999
+  },
+  "man|to the right of|woman": {
+   "n": 160,
+   "acc": 0.78125,
+   "auc": 0.863125
+  },
+  "person|to the right of|man": {
+   "n": 160,
+   "acc": 0.54375,
+   "auc": 0.6229687499999998
+  },
+  "tree|to the left of|building": {
+   "n": 160,
+   "acc": 0.775,
+   "auc": 0.85515625
+  },
+  "woman|to the left of|man": {
+   "n": 160,
+   "acc": 0.79375,
+   "auc": 0.8728125
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "adapter": "results/sft/adapter_full",
+ "n_pairs": 240,
+ "conditions": {
+  "ref_hflip": {
+   "mean_delta": -0.7373593346526225,
+   "median_delta": -0.24971410632133484,
+   "frac_flip": 0.19166666666666668,
+   "frac_drop_0.5": 0.4
+  },
+  "ref_vflip": {
+   "mean_delta": -0.14718602610131104,
+   "median_delta": -0.11956286430358887,
+   "frac_flip": 0.08333333333333333,
+   "frac_drop_0.5": 0.21666666666666667
+  },
+  "ref_gray": {
+   "mean_delta": -0.8623538219680389,
+   "median_delta": -0.38170498609542847,
+   "frac_flip": 0.20416666666666666,
+   "frac_drop_0.5": 0.4708333333333333
+  }
+ }
+}

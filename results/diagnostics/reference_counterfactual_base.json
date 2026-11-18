@@ -1,0 +1,24 @@
+{
+ "adapter": null,
+ "n_pairs": 240,
+ "conditions": {
+  "ref_hflip": {
+   "mean_delta": -0.32391972181697687,
+   "median_delta": -0.12500303983688354,
+   "frac_flip": 0.1625,
+   "frac_drop_0.5": 0.22916666666666666
+  },
+  "ref_vflip": {
+   "mean_delta": -0.05320873148739338,
+   "median_delta": -0.0001653432846069336,
+   "frac_flip": 0.07916666666666666,
+   "frac_drop_0.5": 0.1125
+  },
+  "ref_gray": {
+   "mean_delta": -0.27485375565787157,
+   "median_delta": -0.12440979480743408,
+   "frac_flip": 0.19166666666666668,
+   "frac_drop_0.5": 0.2791666666666667
+  }
+ }
+}
