@@ -1,0 +1,39 @@
+{
+ "adapter": null,
+ "n": 480,
+ "acc": 0.5,
+ "auc": 0.5,
+ "yes_rate": 0.0,
+ "per_group": {
+  "chair|to the left of|table": {
+   "n": 80,
+   "acc": 0.5,
+   "auc": 0.5
+  },
+  "man|to the left of|person": {
+   "n": 80,
+   "acc": 0.5,
+   "auc": 0.5
+  },
+  "man|to the right of|woman": {
+   "n": 80,
+   "acc": 0.5,
+   "auc": 0.5
+  },
+  "person|to the right of|man": {
+   "n": 80,
+   "acc": 0.5,
+   "auc": 0.5
+  },
+  "tree|to the left of|building": {
+   "n": 80,
+   "acc": 0.5,
+   "auc": 0.5
+  },
+  "woman|to the left of|man": {
+   "n": 80,
+   "acc": 0.5,
+   "auc": 0.5
+  }
+ }
+}

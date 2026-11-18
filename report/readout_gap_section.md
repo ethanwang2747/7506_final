@@ -174,6 +174,7 @@ minutes per run) tests this directly on 2,954 GQA train images.
 | side-only | 0.645 | 0.682 | 0.617 | 0.717 |
 | relation-only | 0.551 | 0.492 | 0.683 | 0.777 |
 | mixed | 0.689 | 0.704 | 0.656 | 0.750 |
+| full (1 epoch) | 0.714 | 0.802 | 0.721 | 0.799 |
 
 Side-only training transfers to the relation task (+0.117 AUC, 95% paired
 bootstrap [0.073, 0.160]; a second seed gives +0.105 [0.060, 0.150]), while

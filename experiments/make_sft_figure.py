@@ -44,7 +44,7 @@ def main():
     ax.axhline(0.5, color="k", lw=0.6, ls=":")
     ax.set_xticks(x)
     ax.set_xticklabels(["horizontal", "vertical"])
-    ax.set_ylim(0.4, 0.8)
+    ax.set_ylim(0.4, 0.85)
     ax.set_ylabel("side-report accuracy")
     ax.set_title("(A) Asking each object's side")
     ax.legend(fontsize=8)
@@ -91,7 +91,7 @@ def main():
     ax.axvline(0, color="k", lw=0.6)
     ax.set_xlabel("delta AUC vs base (cross-group adapter)")
     ax.set_title("(D) Cross-group: red = held-out groups")
-    fig.suptitle("Side-only training transfers to relations; direct relation training is stronger",
+    fig.suptitle("Teaching the missing readout improves relations; a full epoch is strongest",
                  fontsize=11)
     fig.tight_layout()
     out = ROOT / "results/figures/sft_result.png"

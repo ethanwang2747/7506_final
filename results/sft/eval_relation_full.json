@@ -1,0 +1,3882 @@
+{
+ "adapter": "results/sft/adapter_full",
+ "n": 480,
+ "margins": [
+  4.1133,
+  -2.1237,
+  3.5821,
+  0.2528,
+  2.624,
+  1.375,
+  -1.3728,
+  -0.8743,
+  -0.2487,
+  -1.6229,
+  1.0045,
+  -0.6228,
+  3.372,
+  -0.7483,
+  -0.7473,
+  1.375,
+  -0.2491,
+  -0.8744,
+  6.1063,
+  -2.2494,
+  -0.6243,
+  -1.2485,
+  0.6256,
+  -0.2491,
+  5.5528,
+  -1.1234,
+  -0.4992,
+  0.0015,
+  3.6081,
+  -2.3737,
+  2.4965,
+  2.875,
+  1.3755,
+  -0.4937,
+  3.995,
+  0.8801,
+  2.5095,
+  -1.1231,
+  0.875,
+  -2.8743,
+  4.337,
+  -1.6192,
+  -1.1191,
+  -2.2486,
+  2.7395,
+  1.2479,
+  0.5013,
+  -0.7479,
+  3.4935,
+  0.2534,
+  0.5,
+  -1.1223,
+  1.1258,
+  -0.3744,
+  3.4868,
+  -1.6214,
+  -0.6242,
+  -0.4983,
+  5.3723,
+  -1.999,
+  6.3875,
+  2.6235,
+  0.6267,
+  -1.8735,
+  3.0,
+  1.5,
+  -0.4904,
+  5.3642,
+  4.7091,
+  2.8723,
+  1.3844,
+  -0.4975,
+  4.6233,
+  -0.25,
+  0.5035,
+  -1.113,
+  1.0035,
+  -2.1238,
+  4.375,
+  1.2516,
+  2.4327,
+  2.6092,
+  0.163,
+  -0.1218,
+  3.117,
+  -1.476,
+  3.99,
+  2.5951,
+  -1.7455,
+  -0.223,
+  2.5,
+  -0.9926,
+  1.6675,
+  2.3926,
+  1.375,
+  1.7594,
+  1.39,
+  2.75,
+  1.7047,
+  2.3794,
+  0.2546,
+  -0.3583,
+  1.0286,
+  -1.3714,
+  -1.996,
+  -0.2419,
+  2.527,
+  3.375,
+  -1.496,
+  2.7657,
+  -0.6206,
+  0.2648,
+  4.6702,
+  1.1341,
+  -0.3664,
+  -0.1226,
+  0.2546,
+  1.6384,
+  1.129,
+  -0.2287,
+  3.2563,
+  -0.3642,
+  1.06,
+  0.1286,
+  2.625,
+  -2.3562,
+  0.6425,
+  0.2604,
+  0.1269,
+  0.7591,
+  -0.8386,
+  2.0119,
+  3.0832,
+  -0.8704,
+  2.9805,
+  0.1333,
+  1.4288,
+  2.269,
+  0.76,
+  3.2345,
+  1.8789,
+  -0.9959,
+  1.875,
+  0.0189,
+  3.0879,
+  0.2804,
+  0.6014,
+  2.2765,
+  0.7954,
+  -0.4976,
+  0.0022,
+  0.402,
+  -1.725,
+  -0.6184,
+  1.3869,
+  1.2904,
+  1.2717,
+  1.5116,
+  2.4307,
+  0.524,
+  -0.7443,
+  -1.6198,
+  3.8779,
+  -0.6218,
+  2.6278,
+  -1.4948,
+  5.75,
+  -2.6209,
+  3.6269,
+  -0.8736,
+  1.1301,
+  -0.3735,
+  -0.7486,
+  -1.2392,
+  -1.6233,
+  -3.3028,
+  -0.9906,
+  0.0013,
+  2.2563,
+  -1.9906,
+  -3.3719,
+  -0.1241,
+  2.8789,
+  1.2535,
+  5.5,
+  -1.3715,
+  4.6258,
+  -2.3612,
+  0.0094,
+  -2.9891,
+  4.1301,
+  -0.8733,
+  0.8816,
+  -1.9934,
+  -0.2473,
+  1.0074,
+  5.25,
+  0.8813,
+  -0.3737,
+  -3.7229,
+  4.0058,
+  1.6271,
+  0.5075,
+  0.3906,
+  5.2539,
+  -1.4948,
+  4.0045,
+  -0.2487,
+  3.9989,
+  -2.4827,
+  0.3767,
+  -3.113,
+  5.1235,
+  5.367,
+  5.004,
+  -1.4941,
+  0.0017,
+  -0.6206,
+  3.0084,
+  -1.7475,
+  1.8765,
+  0.6358,
+  -0.996,
+  -1.2417,
+  -1.4992,
+  -2.7131,
+  3.6274,
+  -3.1156,
+  6.1244,
+  -1.9941,
+  4.7515,
+  -1.8698,
+  0.5049,
+  -1.4985,
+  6.375,
+  0.1275,
+  1.3948,
+  -0.7451,
+  5.3793,
+  -2.2481,
+  4.5003,
+  2.3774,
+  -0.7464,
+  -0.749,
+  3.502,
+  -1.4956,
+  4.2529,
+  0.1278,
+  -0.6199,
+  0.2552,
+  2.1281,
+  0.6266,
+  1.6308,
+  0.5035,
+  2.1268,
+  0.7512,
+  0.8776,
+  2.876,
+  1.5013,
+  3.0014,
+  0.3771,
+  -0.7438,
+  1.8795,
+  -0.9981,
+  -1.3684,
+  -0.2483,
+  2.8799,
+  3.7542,
+  -0.4954,
+  3.0013,
+  -0.2479,
+  -1.6228,
+  4.8759,
+  1.8765,
+  -0.6198,
+  -0.6214,
+  1.8767,
+  1.8788,
+  0.0027,
+  0.2534,
+  3.2566,
+  0.1285,
+  2.2558,
+  -0.7472,
+  2.1261,
+  -2.7462,
+  1.8773,
+  1.2517,
+  -0.124,
+  0.1296,
+  -1.3675,
+  3.2518,
+  3.1321,
+  -0.7485,
+  3.0045,
+  0.5022,
+  0.128,
+  2.3754,
+  -1.9948,
+  3.5045,
+  2.0024,
+  -0.8733,
+  2.7527,
+  -0.7481,
+  2.5016,
+  0.0056,
+  1.0022,
+  1.629,
+  1.7517,
+  -0.6218,
+  0.0009,
+  1.1296,
+  -1.1228,
+  0.2517,
+  0.1275,
+  -1.6155,
+  1.004,
+  0.7557,
+  3.3764,
+  0.1289,
+  5.4882,
+  0.2596,
+  3.7179,
+  -0.9972,
+  6.2323,
+  -0.6231,
+  4.3699,
+  -1.2425,
+  4.4981,
+  -0.2434,
+  1.8774,
+  -0.8709,
+  0.0024,
+  1.379,
+  2.879,
+  -1.7425,
+  4.0017,
+  0.2546,
+  3.0045,
+  -1.7481,
+  3.25,
+  -2.4959,
+  1.1302,
+  -2.1222,
+  2.0014,
+  -0.1235,
+  0.7546,
+  -0.6229,
+  2.7515,
+  -1.6233,
+  3.8694,
+  -0.4964,
+  3.8733,
+  -0.6238,
+  1.7523,
+  -0.245,
+  3.8677,
+  -1.4978,
+  0.751,
+  2.2544,
+  2.375,
+  1.8766,
+  4.3536,
+  -1.3734,
+  2.8884,
+  -2.6191,
+  3.375,
+  0.5028,
+  0.0041,
+  0.5025,
+  5.348,
+  0.0007,
+  -2.4989,
+  -2.7479,
+  0.2622,
+  -3.3731,
+  2.8784,
+  2.1275,
+  0.6289,
+  -0.4787,
+  5.4849,
+  -0.2448,
+  2.0049,
+  1.0017,
+  5.9905,
+  -0.9843,
+  4.7417,
+  -0.4975,
+  0.6285,
+  -0.2481,
+  1.88,
+  -1.3584,
+  4.375,
+  3.1254,
+  4.125,
+  -0.4988,
+  1.8815,
+  -0.2459,
+  1.2584,
+  4.6236,
+  0.277,
+  -1.1073,
+  6.0732,
+  -0.3698,
+  4.1265,
+  -0.3212,
+  5.625,
+  -3.4832,
+  5.3162,
+  2.3769,
+  1.6172,
+  -0.1077,
+  -0.3577,
+  -2.2459,
+  -1.4356,
+  -3.6618,
+  1.4113,
+  2.1314,
+  3.625,
+  -2.1192,
+  -0.8729,
+  0.6346,
+  5.2286,
+  3.125,
+  6.8835,
+  -0.6111,
+  5.9867,
+  -2.7457,
+  0.9762,
+  -3.5967,
+  5.0598,
+  -2.1053,
+  0.0027,
+  -1.3573,
+  0.1731,
+  -0.855,
+  4.3806,
+  -0.6148,
+  0.7929,
+  -4.725,
+  6.2277,
+  1.3038,
+  4.75,
+  0.254,
+  6.4844,
+  -0.9278,
+  5.4697,
+  -1.1212,
+  3.625,
+  -3.7439,
+  2.3989,
+  -3.4905,
+  3.998,
+  5.8706,
+  4.9394,
+  -2.7437,
+  0.3846,
+  -1.0998,
+  5.375,
+  -2.3709,
+  1.0006,
+  -1.8289,
+  0.3519,
+  -1.8362,
+  0.2566,
+  -3.7209,
+  4.601,
+  -3.4759,
+  6.3365,
+  -3.3634,
+  6.9849,
+  0.8868,
+  3.125,
+  -0.8433,
+  7.004,
+  2.4402,
+  -0.2091,
+  -2.7435,
+  5.9386,
+  -1.9826
+ ],
+ "meta": [
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0000",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2335072"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0000",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2372163"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0001",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389312"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0001",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2386194"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0002",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "575"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0002",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2316450"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0003",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2363630"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0003",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364614"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0004",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2362398"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0004",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2384655"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0005",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2358723"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0005",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2340079"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0006",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2381398"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0006",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2356041"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0007",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2343911"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0007",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2320162"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0008",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "4622"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0008",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2393682"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0009",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410307"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0009",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2342838"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0010",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378945"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0010",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2365993"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0011",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2337449"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0011",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364335"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0012",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2319473"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0012",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2333167"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0013",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2381592"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0013",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2329177"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0014",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2367682"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0014",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2342480"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0015",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2367678"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0015",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2416649"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0016",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2317127"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0016",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343402"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0017",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334334"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0017",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2399389"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0018",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374146"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0018",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2452"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0019",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2385021"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0019",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407481"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0020",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "4856"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0020",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2404639"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0021",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2393577"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0021",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2388665"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0022",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2384329"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0022",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2390108"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0023",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2369489"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0023",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2348281"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0024",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2346426"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0024",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2345111"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0025",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2392955"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0025",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2373862"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0026",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379412"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0026",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2396447"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0027",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417436"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0027",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403669"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0028",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2339847"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0028",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2368660"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0029",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2323054"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0029",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2027"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0030",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2388658"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0030",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "498276"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0031",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2380181"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0031",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2377794"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0032",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2371481"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0032",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2335118"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0033",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2331126"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0033",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2411681"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0034",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410495"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0034",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2404154"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0035",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2388927"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0035",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401863"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0036",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2401635"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0036",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2382398"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0037",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2329566"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0037",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2384693"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0038",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2343942"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0038",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407388"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0039",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2355633"
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0039",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "713692"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0000",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327999"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0000",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379799"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0001",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2394560"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0001",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2272"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0002",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "713572"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0002",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2358390"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0003",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2352342"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0003",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2377973"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0004",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2350568"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0004",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2353765"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0005",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2346644"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0005",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2400997"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0006",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374661"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0006",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2323780"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0007",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2369041"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0007",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2368559"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0008",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379879"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0008",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409866"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0009",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2341861"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0009",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2861"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0010",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2372693"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0010",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "285915"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0011",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2324881"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0011",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2321891"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0012",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2328930"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0012",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2336137"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0013",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2354629"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0013",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2349434"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0014",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2339668"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0014",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2338191"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0015",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2387706"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0015",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2400591"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0016",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2318392"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0016",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "3898"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0017",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "150507"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0017",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2398067"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0018",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378560"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0018",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2362398"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0019",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2395374"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0019",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2391104"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0020",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2354154"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0020",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395309"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0021",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "1159269"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0021",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2346600"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0022",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2325296"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0022",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2399704"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0023",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2371"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0023",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2340509"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0024",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2901"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0024",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2365760"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0025",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379856"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0025",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403125"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0026",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2357735"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0026",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2411069"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0027",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2335798"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0027",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364614"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0028",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379138"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0028",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "1592545"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0029",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2330538"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0029",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "713928"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0030",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2316935"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0030",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "713222"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0031",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2362149"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0031",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2368908"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0032",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2400082"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0032",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2329136"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0033",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2377159"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0033",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2318861"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0034",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2388904"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0034",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2412670"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0035",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2320129"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0035",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2406733"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0036",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334324"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0036",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2387148"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0037",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2402334"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0037",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2413600"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0038",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2416722"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0038",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2330934"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0039",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2364258"
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0039",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "285942"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0000",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2330666"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0000",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2354629"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0001",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2388873"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0001",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2416057"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0002",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412670"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0002",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2366127"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0003",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "713770"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0003",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2413209"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0004",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2352092"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0004",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2272"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0005",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2349905"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0005",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2347450"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0006",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2348670"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0006",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364258"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0007",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412751"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0007",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2347226"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0008",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2373679"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0008",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2378533"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0009",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334878"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0009",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2324119"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0010",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2861"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0010",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360622"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0011",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404030"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0011",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2384693"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0012",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2365923"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0012",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379879"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0013",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2332878"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0013",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2339204"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0014",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2317358"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0014",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2337631"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0015",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404848"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0015",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2356967"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0016",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2403125"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0016",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2378123"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0017",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "107903"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0017",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2362149"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0018",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2336164"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0018",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2402334"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0019",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2416035"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0019",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2384950"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0020",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "1160038"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0020",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2371568"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0021",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2359927"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0021",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2416055"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0022",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2406028"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0022",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2392625"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0023",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2353038"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0023",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403180"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0024",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2411104"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0024",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2339490"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0025",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2414208"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0025",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2385163"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0026",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2370926"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0026",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2319853"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0027",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374220"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0027",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2320260"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0028",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "4985"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0028",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343615"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0029",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2355239"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0029",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409543"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0030",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2376201"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0030",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2381547"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0031",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327121"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0031",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403296"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0032",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "3947"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0032",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395600"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0033",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2408048"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0033",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403496"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0034",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2403045"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0034",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407807"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0035",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389812"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0035",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409707"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0036",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2367577"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0036",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2332159"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0037",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2322244"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0037",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401477"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0038",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2335159"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0038",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379466"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0039",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2344245"
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0039",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407659"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0000",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327999"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0000",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379799"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0001",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2394560"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0001",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2272"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0002",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "713572"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0002",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2358390"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0003",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2352342"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0003",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2377973"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0004",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2350568"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0004",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2353765"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0005",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2346644"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0005",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2400997"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0006",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374661"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0006",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2323780"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0007",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2369041"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0007",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2368559"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0008",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379879"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0008",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409866"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0009",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2341861"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0009",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2861"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0010",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2372693"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0010",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "285915"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0011",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2324881"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0011",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2321891"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0012",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2328930"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0012",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2336137"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0013",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2354629"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0013",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2349434"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0014",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2339668"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0014",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2338191"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0015",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2387706"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0015",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2400591"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0016",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2318392"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0016",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "3898"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0017",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "150507"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0017",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2398067"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0018",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378560"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0018",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2362398"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0019",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2395374"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0019",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2391104"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0020",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2354154"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0020",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395309"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0021",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "1159269"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0021",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2346600"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0022",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2325296"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0022",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2399704"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0023",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2371"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0023",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2340509"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0024",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2901"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0024",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2365760"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0025",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379856"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0025",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403125"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0026",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2357735"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0026",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2411069"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0027",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2335798"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0027",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364614"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0028",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379138"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0028",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "1592545"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0029",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2330538"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0029",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "713928"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0030",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2316935"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0030",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "713222"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0031",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2362149"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0031",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2368908"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0032",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2400082"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0032",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2329136"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0033",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2377159"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0033",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2318861"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0034",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2388904"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0034",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2412670"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0035",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2320129"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0035",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2406733"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0036",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334324"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0036",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2387148"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0037",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2402334"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0037",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2413600"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0038",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2416722"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0038",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2330934"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0039",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2364258"
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0039",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "285942"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0000",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327592"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0000",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2367922"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0001",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "3810"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0001",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2317403"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0002",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374317"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0002",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2357869"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0003",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389837"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0003",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2365375"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0004",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "713542"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0004",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2355633"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0005",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2350250"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0005",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2386569"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0006",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2349040"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0006",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2321728"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0007",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2344867"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0007",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2363826"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0008",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2395949"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0008",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395097"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0009",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2391104"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0009",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2391016"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0010",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410596"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0010",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2344624"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0011",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2361351"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0011",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2344439"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0012",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2392384"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0012",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2361675"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0013",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2332111"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0013",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2380732"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0014",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "3121"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0014",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2363956"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0015",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2383409"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0015",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395374"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0016",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2360441"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0016",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2377810"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0017",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2328273"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0017",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "4343"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0018",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2318396"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0018",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403961"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0019",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2400631"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0019",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2405227"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0020",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2383936"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0020",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2345261"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0021",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2381612"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0021",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2396663"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0022",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "1159879"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0022",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2318496"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0023",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2342323"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0023",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "713854"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0024",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2392185"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0024",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2389320"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0025",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417201"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0025",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "4761"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0026",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "1856"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0026",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2405667"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0027",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2385966"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0027",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2325388"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0028",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2358850"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0028",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2317780"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0029",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2397397"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0029",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "3935"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0030",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2352009"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0030",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2355306"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0031",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2326327"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0031",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2416959"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0032",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2387426"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0032",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2321264"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0033",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2333085"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0033",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "3048"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0034",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2395135"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0034",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "3144"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0035",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2392355"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0035",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2335384"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0036",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2330137"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0036",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "3122"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0037",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2354301"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0037",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2405917"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0038",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2411655"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0038",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "438"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0039",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2353117"
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0039",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2376240"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0000",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2330666"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0000",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2354629"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0001",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2388873"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0001",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2416057"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0002",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412670"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0002",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2366127"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0003",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "713770"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0003",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2413209"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0004",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2352092"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0004",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2272"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0005",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2349905"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0005",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2347450"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0006",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2348670"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0006",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364258"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0007",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412751"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0007",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2347226"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0008",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2373679"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0008",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2378533"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0009",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334878"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0009",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2324119"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0010",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2861"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0010",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360622"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0011",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404030"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0011",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2384693"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0012",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2365923"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0012",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379879"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0013",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2332878"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0013",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2339204"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0014",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2317358"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0014",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2337631"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0015",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404848"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0015",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2356967"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0016",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2403125"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0016",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2378123"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0017",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "107903"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0017",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2362149"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0018",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2336164"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0018",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2402334"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0019",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2416035"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0019",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2384950"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0020",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "1160038"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0020",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2371568"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0021",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2359927"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0021",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2416055"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0022",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2406028"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0022",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2392625"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0023",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2353038"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0023",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403180"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0024",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2411104"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0024",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2339490"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0025",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2414208"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0025",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2385163"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0026",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2370926"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0026",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2319853"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0027",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374220"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0027",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2320260"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0028",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "4985"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0028",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343615"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0029",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2355239"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0029",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409543"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0030",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2376201"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0030",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2381547"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0031",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327121"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0031",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403296"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0032",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "3947"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0032",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395600"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0033",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2408048"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0033",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2403496"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0034",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2403045"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0034",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407807"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0035",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389812"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0035",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409707"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0036",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2367577"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0036",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2332159"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0037",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2322244"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0037",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401477"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0038",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2335159"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0038",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379466"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0039",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2344245"
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0039",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407659"
+  }
+ ],
+ "acc": 0.7208333333333333,
+ "auc": 0.7990972222222221,
+ "per_group": {
+  "chair|to the left of|table": {
+   "n": 80,
+   "acc": 0.725,
+   "auc": 0.8137500000000001
+  },
+  "man|to the left of|person": {
+   "n": 80,
+   "acc": 0.6,
+   "auc": 0.600625
+  },
+  "man|to the right of|woman": {
+   "n": 80,
+   "acc": 0.775,
+   "auc": 0.853125
+  },
+  "person|to the right of|man": {
+   "n": 80,
+   "acc": 0.55,
+   "auc": 0.62875
+  },
+  "tree|to the left of|building": {
+   "n": 80,
+   "acc": 0.8375,
+   "auc": 0.901875
+  },
+  "woman|to the left of|man": {
+   "n": 80,
+   "acc": 0.8375,
+   "auc": 0.903125
+  }
+ }
+}

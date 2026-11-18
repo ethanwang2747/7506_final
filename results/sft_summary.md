@@ -27,6 +27,7 @@ and 3,600 relation questions; evaluation uses the same 6 groups / 240 pairs /
 | side-only | 0.645 | 0.682 | 0.617 | 0.717 | +0.117 [0.073, 0.160] |
 | relation-only | 0.551 | 0.492 | 0.683 | 0.777 | +0.177 [0.124, 0.229] |
 | mixed | 0.689 | 0.704 | 0.656 | 0.750 | +0.150 [0.102, 0.199] |
+| full (1 epoch) | **0.714** | **0.802** | **0.721** | **0.799** | **+0.199 [0.145, 0.254]** |
 
 Intervals: paired bootstrap by pair id, 2,000 draws.
 
@@ -34,7 +35,8 @@ Intervals: paired bootstrap by pair id, 2,000 draws.
   accuracy delta is +0.044 [-0.004, 0.094], so the gain is in ranking.
 - Relation-only training leaves side reporting at base level (0.551/0.492):
   relation labels do not teach the readout.
-- Direct relation supervision is the strongest relation intervention (+0.177).
+- Direct relation supervision is strong (+0.177), and a full epoch of mixed
+  training is stronger still (+0.199, accuracy +0.150 [0.098, 0.202]).
 
 ## 3. Stability across seeds
 
@@ -71,6 +73,12 @@ held-out average gain (+0.164) is at least as large as the trained groups'
 | swapped sides | 0.120 | 0.277 |
 
 Composition does not degrade; the model still follows swapped statements.
+
+## 5.1 Blank-image control
+
+With a uniform gray image, both the base model and the full adapter score
+0.500 accuracy / 0.500 AUC on the relation task. The improvement requires the
+image and is not a language prior.
 
 ## 6. Caveats
 

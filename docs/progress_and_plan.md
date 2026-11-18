@@ -33,6 +33,9 @@
 | 分解式提示 / 反转一致性 | **部分完成**：分解提示被证否；反转一致性未做 | — |
 | LoRA-SFT 首轮（混合） | 完成（2026-11-18） | `results/sft/adapter_side`、`results/sft/eval_relation_sft.json` |
 | 2×2 对照（side-only / relation-only） | 完成（2026-11-18） | `results/sft/bootstrap_deltas.json` |
+| 跨组泛化 | 完成（2026-11-18） | `results/sft/eval_relation_crossgroup.json` |
+| 全量 1 epoch | 完成（2026-11-18） | `results/sft/eval_relation_full.json` |
+| 空白图对照 | 完成（2026-11-18） | `results/sft/eval_blank_base.json`、`eval_blank_full.json` |
 | LoRA-SFT（中间步骤监督） | **未做** | — |
 | DPO / 轻量 RL | **未做** | — |
 

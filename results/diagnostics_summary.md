@@ -321,6 +321,7 @@ LoRA r=8), differing only in the training tasks:
 | side-only | 0.645 | 0.682 | 0.617 | 0.717 | +0.117 [0.071, 0.161] |
 | relation-only | 0.551 | 0.492 | 0.683 | 0.777 | +0.177 [0.124, 0.229] |
 | mixed | 0.689 | 0.704 | 0.656 | 0.750 | +0.150 [0.102, 0.199] |
+| full (1 epoch) | 0.714 | 0.802 | 0.721 | 0.799 | +0.199 [0.145, 0.254] |
 
 Intervals are paired bootstrap by pair id (2,000 draws). The side-only delta in
 accuracy is +0.044 [-0.008, 0.094], so the transfer is in ranking rather than in
@@ -331,7 +332,9 @@ supervision is stronger for the relation task itself.
 
 This supports the diagnosis: teaching the missing readout (object side) moves
 the relation decision even without any relation labels, while relation labels
-alone do not teach the readout.
+alone do not teach the readout. A full epoch of mixed training is stronger
+(+0.199 AUC, +0.150 accuracy), and the blank-image control stays at 0.500 for
+both the base model and the full adapter, so the gain requires the image.
 
 **Cross-group generalization.** A mixed adapter trained with the relation
 supervision for two groups removed (`chair|left of|table`, `tree|left of|building`)
