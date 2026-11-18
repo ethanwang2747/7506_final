@@ -86,9 +86,11 @@ group.
 | flip-consistency AUC | 0.750 | **0.821** |
 | flip-consistency pair accuracy | 0.750 | 0.787 |
 
-The gain replicates on unseen images, and the adapter's confirmation AUC (0.802)
-is essentially identical to the original test (0.799). The base number on the
-original test (0.600) was optimistic; the adapter number was not.
+The gain replicates on unseen images: delta AUC +0.271 [0.215, 0.328], delta
+accuracy +0.192 [0.140, 0.246] (paired bootstrap by pair). The adapter's
+confirmation AUC (0.802) is essentially identical to the original test (0.799).
+The base number on the original test (0.600) was optimistic; the adapter number
+was not.
 
 ## 4.2 Regression checks
 
