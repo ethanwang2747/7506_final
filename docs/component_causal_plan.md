@@ -24,12 +24,24 @@
 
 结论：自然题的提升主要来自绝对位置读出；位置受控指标上，full 没有优于 base，且 RC 特异性下降。Stage 0 完成，进入 Stage 1。
 
-## Stage 1 — 内容 vs 路由（第 2 周）
+## Stage 1 — 内容 vs 路由（进行中）
 
-- [ ] Token ablation：目标/参照/上下文 × shrink/dilate × 随机 token 对照
+- [x] Token ablation（S1/S6，20 对/组，均值替换）
 - [ ] Attention knockout：text→目标/参照，4 层一组 + 全层；随机 token 对照
 - [ ] 指标：RC preference、Δmargin、翻转率
 - [ ] 产出：内容 vs 路由的因果表
+
+**Stage 1 token ablation 结果（base，120 对）：**
+
+| 条件 | S1 pair_pref | S1 Δmargin | S6 pair_pref | S6 Δmargin |
+|---|---:|---:|---:|---:|
+| 原图 | 0.708 | −0.261 | 0.708 | −0.261 |
+| 消融目标 token | **0.567** | −0.080 | **0.583** | −0.089 |
+| 消融参照 token | 0.667 | −0.103 | 0.608 | −0.105 |
+| 消融背景 token | 0.625 | −0.204 | 0.642 | −0.230 |
+| 消融随机 token | 0.700 | −0.213 | 0.642 | −0.200 |
+
+读法：S1 主要靠目标内容，S6 参照内容开始起作用；背景/随机对照保持较高，效应是特异的。
 
 ## Stage 2 — 精细定位（第 3 周）
 

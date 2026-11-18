@@ -1,0 +1,2794 @@
+{
+ "stage": "S6",
+ "adapter": null,
+ "n_pairs": 120,
+ "conditions": {
+  "original": {
+   "pair_pref": 0.7083333333333334,
+   "mean_delta": -0.26106390431523324,
+   "frac_flip": 0.175
+  },
+  "target": {
+   "pair_pref": 0.5833333333333334,
+   "mean_delta": -0.08906421437859535,
+   "frac_flip": 0.15
+  },
+  "reference": {
+   "pair_pref": 0.6083333333333333,
+   "mean_delta": -0.10452395925919215,
+   "frac_flip": 0.14166666666666666
+  },
+  "background": {
+   "pair_pref": 0.6416666666666667,
+   "mean_delta": -0.22971245472629864,
+   "frac_flip": 0.15
+  },
+  "random": {
+   "pair_pref": 0.6416666666666667,
+   "mean_delta": -0.1996463879942894,
+   "frac_flip": 0.16666666666666666
+  }
+ },
+ "per_pair": [
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0000",
+   "original": {
+    "clean": -0.37655407190322876,
+    "moved": -1.2506682872772217
+   },
+   "target": {
+    "clean": -0.999289870262146,
+    "moved": -1.0006279945373535
+   },
+   "reference": {
+    "clean": -0.005474567413330078,
+    "moved": -0.0013790130615234375
+   },
+   "background": {
+    "clean": -0.25289469957351685,
+    "moved": -0.8758014440536499
+   },
+   "random": {
+    "clean": 0.2478710412979126,
+    "moved": -0.37690281867980957
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0001",
+   "original": {
+    "clean": -1.5033389329910278,
+    "moved": -1.5092071294784546
+   },
+   "target": {
+    "clean": -1.2540194988250732,
+    "moved": -1.5100624561309814
+   },
+   "reference": {
+    "clean": -1.254274845123291,
+    "moved": -1.3800185918807983
+   },
+   "background": {
+    "clean": -1.1285524368286133,
+    "moved": -1.38289475440979
+   },
+   "random": {
+    "clean": -1.6283373832702637,
+    "moved": -1.5044437646865845
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0002",
+   "original": {
+    "clean": 0.3679124116897583,
+    "moved": -0.3919522166252136
+   },
+   "target": {
+    "clean": -0.5062938928604126,
+    "moved": -0.8823443651199341
+   },
+   "reference": {
+    "clean": -0.004957318305969238,
+    "moved": -0.2650298476219177
+   },
+   "background": {
+    "clean": 0.25558924674987793,
+    "moved": -0.38994407653808594
+   },
+   "random": {
+    "clean": 0.3687037229537964,
+    "moved": -0.38329070806503296
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0003",
+   "original": {
+    "clean": -0.5049483776092529,
+    "moved": -0.5043894052505493
+   },
+   "target": {
+    "clean": -0.3806684613227844,
+    "moved": -0.3780527114868164
+   },
+   "reference": {
+    "clean": -0.7513890266418457,
+    "moved": -0.6267728805541992
+   },
+   "background": {
+    "clean": -0.5081360340118408,
+    "moved": -0.49786174297332764
+   },
+   "random": {
+    "clean": -0.5133704543113708,
+    "moved": -0.3805848956108093
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0004",
+   "original": {
+    "clean": -0.37688350677490234,
+    "moved": -0.7512171864509583
+   },
+   "target": {
+    "clean": -0.5012933015823364,
+    "moved": -0.8750005960464478
+   },
+   "reference": {
+    "clean": -0.37621742486953735,
+    "moved": -0.5018831491470337
+   },
+   "background": {
+    "clean": -0.37571054697036743,
+    "moved": -0.6271530389785767
+   },
+   "random": {
+    "clean": -0.37571054697036743,
+    "moved": -0.6264708042144775
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0005",
+   "original": {
+    "clean": -1.8777234554290771,
+    "moved": -2.002927780151367
+   },
+   "target": {
+    "clean": -1.754239797592163,
+    "moved": -2.0016517639160156
+   },
+   "reference": {
+    "clean": -0.6257115602493286,
+    "moved": -0.8755543828010559
+   },
+   "background": {
+    "clean": -1.7519891262054443,
+    "moved": -1.7537814378738403
+   },
+   "random": {
+    "clean": -1.7530796527862549,
+    "moved": -2.0009026527404785
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0006",
+   "original": {
+    "clean": -0.6335372924804688,
+    "moved": -0.8799808621406555
+   },
+   "target": {
+    "clean": -1.2582557201385498,
+    "moved": -1.2545431852340698
+   },
+   "reference": {
+    "clean": -0.3773118257522583,
+    "moved": -0.5019043684005737
+   },
+   "background": {
+    "clean": -0.6335372924804688,
+    "moved": -0.8799808621406555
+   },
+   "random": {
+    "clean": -0.6309919953346252,
+    "moved": -0.753978967666626
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0007",
+   "original": {
+    "clean": -1.7535252571105957,
+    "moved": -1.5027235746383667
+   },
+   "target": {
+    "clean": -1.6281170845031738,
+    "moved": -0.8791546821594238
+   },
+   "reference": {
+    "clean": -0.8767699003219604,
+    "moved": -0.7523096203804016
+   },
+   "background": {
+    "clean": -1.5061861276626587,
+    "moved": -1.2531167268753052
+   },
+   "random": {
+    "clean": -1.5037821531295776,
+    "moved": -1.2536649703979492
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0008",
+   "original": {
+    "clean": -1.39004647731781,
+    "moved": -1.3900480270385742
+   },
+   "target": {
+    "clean": -1.2562874555587769,
+    "moved": -1.3778704404830933
+   },
+   "reference": {
+    "clean": -0.8841688632965088,
+    "moved": -1.1278711557388306
+   },
+   "background": {
+    "clean": -1.1355422735214233,
+    "moved": -1.2570781707763672
+   },
+   "random": {
+    "clean": -1.2499912977218628,
+    "moved": -1.2532320022583008
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0009",
+   "original": {
+    "clean": -0.7600725889205933,
+    "moved": -1.1285279989242554
+   },
+   "target": {
+    "clean": -1.2524086236953735,
+    "moved": -1.377455711364746
+   },
+   "reference": {
+    "clean": -1.0150337219238281,
+    "moved": -0.8842153549194336
+   },
+   "background": {
+    "clean": -0.6378152370452881,
+    "moved": -1.0054762363433838
+   },
+   "random": {
+    "clean": -0.7573481798171997,
+    "moved": -1.004991054534912
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0010",
+   "original": {
+    "clean": -0.5016771554946899,
+    "moved": -0.6280580163002014
+   },
+   "target": {
+    "clean": -1.12898850440979,
+    "moved": -0.8795112371444702
+   },
+   "reference": {
+    "clean": -0.37889933586120605,
+    "moved": -0.6264830231666565
+   },
+   "background": {
+    "clean": -0.5015771389007568,
+    "moved": -0.629188060760498
+   },
+   "random": {
+    "clean": -0.5000030994415283,
+    "moved": -0.6275449991226196
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0011",
+   "original": {
+    "clean": -1.3853950500488281,
+    "moved": -1.5189648866653442
+   },
+   "target": {
+    "clean": -1.2557557821273804,
+    "moved": -1.2618775367736816
+   },
+   "reference": {
+    "clean": -1.2557532787322998,
+    "moved": -1.516836404800415
+   },
+   "background": {
+    "clean": -1.135395884513855,
+    "moved": -1.261878252029419
+   },
+   "random": {
+    "clean": -1.2534465789794922,
+    "moved": -1.1341677904129028
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0012",
+   "original": {
+    "clean": -0.25628191232681274,
+    "moved": -1.0063810348510742
+   },
+   "target": {
+    "clean": -0.8794090747833252,
+    "moved": -0.8809999227523804
+   },
+   "reference": {
+    "clean": -0.37999874353408813,
+    "moved": -1.0040240287780762
+   },
+   "background": {
+    "clean": -0.25499874353408813,
+    "moved": -1.0032739639282227
+   },
+   "random": {
+    "clean": -0.25668126344680786,
+    "moved": -0.8801474571228027
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0013",
+   "original": {
+    "clean": -2.005755662918091,
+    "moved": -2.010396957397461
+   },
+   "target": {
+    "clean": -0.8785252571105957,
+    "moved": -1.0027233362197876
+   },
+   "reference": {
+    "clean": -0.13030636310577393,
+    "moved": -0.12955230474472046
+   },
+   "background": {
+    "clean": -2.128051519393921,
+    "moved": -2.130093812942505
+   },
+   "random": {
+    "clean": -0.5050941109657288,
+    "moved": -0.6287466287612915
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0014",
+   "original": {
+    "clean": 0.4962999224662781,
+    "moved": 0.11958348751068115
+   },
+   "target": {
+    "clean": -0.8780739307403564,
+    "moved": 0.11990737915039062
+   },
+   "reference": {
+    "clean": -0.37656038999557495,
+    "moved": -0.7507495880126953
+   },
+   "background": {
+    "clean": 0.3740960955619812,
+    "moved": 0.12192034721374512
+   },
+   "random": {
+    "clean": -0.0012281537055969238,
+    "moved": -0.13111764192581177
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0015",
+   "original": {
+    "clean": -0.3786431550979614,
+    "moved": -0.48098400235176086
+   },
+   "target": {
+    "clean": -0.3715565800666809,
+    "moved": -0.492021769285202
+   },
+   "reference": {
+    "clean": -0.8819108009338379,
+    "moved": -0.7569109201431274
+   },
+   "background": {
+    "clean": -0.24082225561141968,
+    "moved": -0.2413516640663147
+   },
+   "random": {
+    "clean": -0.6297943592071533,
+    "moved": -0.7525584697723389
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0016",
+   "original": {
+    "clean": -0.6300240159034729,
+    "moved": -0.63435298204422
+   },
+   "target": {
+    "clean": -1.0039379596710205,
+    "moved": -1.003893256187439
+   },
+   "reference": {
+    "clean": -0.879447340965271,
+    "moved": -0.6312929391860962
+   },
+   "background": {
+    "clean": -0.505672812461853,
+    "moved": -0.509351909160614
+   },
+   "random": {
+    "clean": -0.8814019560813904,
+    "moved": -0.8793908357620239
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0017",
+   "original": {
+    "clean": -0.2539878487586975,
+    "moved": -0.3778963088989258
+   },
+   "target": {
+    "clean": -0.6272678375244141,
+    "moved": -0.5020033717155457
+   },
+   "reference": {
+    "clean": -0.6268713474273682,
+    "moved": -0.6277258396148682
+   },
+   "background": {
+    "clean": -0.5034831762313843,
+    "moved": -0.3795081377029419
+   },
+   "random": {
+    "clean": -0.2517601251602173,
+    "moved": -0.1274096965789795
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0018",
+   "original": {
+    "clean": -0.5147992372512817,
+    "moved": -0.14327776432037354
+   },
+   "target": {
+    "clean": -1.2557580471038818,
+    "moved": -0.5089204907417297
+   },
+   "reference": {
+    "clean": -0.8848287463188171,
+    "moved": -0.636794924736023
+   },
+   "background": {
+    "clean": -0.38157808780670166,
+    "moved": -0.1354030966758728
+   },
+   "random": {
+    "clean": -0.5116041302680969,
+    "moved": -0.39327627420425415
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0019",
+   "original": {
+    "clean": -0.516839325428009,
+    "moved": -0.641840934753418
+   },
+   "target": {
+    "clean": -0.8832865953445435,
+    "moved": -0.5073450803756714
+   },
+   "reference": {
+    "clean": -0.7600650787353516,
+    "moved": -0.5133172273635864
+   },
+   "background": {
+    "clean": -0.2649434804916382,
+    "moved": -0.5117418766021729
+   },
+   "random": {
+    "clean": -0.3899434804916382,
+    "moved": -0.5132507085800171
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0000",
+   "original": {
+    "clean": 0.3746638894081116,
+    "moved": 0.12468677759170532
+   },
+   "target": {
+    "clean": 0.49951401352882385,
+    "moved": 0.37419557571411133
+   },
+   "reference": {
+    "clean": 0.24944454431533813,
+    "moved": 0.12454235553741455
+   },
+   "background": {
+    "clean": 0.6243915557861328,
+    "moved": 0.37440866231918335
+   },
+   "random": {
+    "clean": 0.6245960593223572,
+    "moved": 0.49931204319000244
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0001",
+   "original": {
+    "clean": -0.5007636547088623,
+    "moved": -0.7506072521209717
+   },
+   "target": {
+    "clean": -0.500633955001831,
+    "moved": -0.7505039572715759
+   },
+   "reference": {
+    "clean": -0.6255359053611755,
+    "moved": -0.6255367994308472
+   },
+   "background": {
+    "clean": -0.5006071329116821,
+    "moved": -0.6255713701248169
+   },
+   "random": {
+    "clean": -0.5008639097213745,
+    "moved": -0.6256340742111206
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0002",
+   "original": {
+    "clean": 0.12251538038253784,
+    "moved": -1.0022355318069458
+   },
+   "target": {
+    "clean": -0.5023333430290222,
+    "moved": -0.8778877854347229
+   },
+   "reference": {
+    "clean": 0.24867689609527588,
+    "moved": -0.6289399862289429
+   },
+   "background": {
+    "clean": 0.12325429916381836,
+    "moved": -0.7517439126968384
+   },
+   "random": {
+    "clean": 0.12314385175704956,
+    "moved": -0.8778101205825806
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0003",
+   "original": {
+    "clean": -0.0014685988426208496,
+    "moved": -0.6277121901512146
+   },
+   "target": {
+    "clean": -0.12657946348190308,
+    "moved": -0.0013593435287475586
+   },
+   "reference": {
+    "clean": 0.1210128664970398,
+    "moved": -0.6284421682357788
+   },
+   "background": {
+    "clean": 0.24820047616958618,
+    "moved": -0.5012370347976685
+   },
+   "random": {
+    "clean": 0.1224098801612854,
+    "moved": -0.5032358169555664
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0004",
+   "original": {
+    "clean": -0.378939151763916,
+    "moved": -0.2540011405944824
+   },
+   "target": {
+    "clean": -0.12860220670700073,
+    "moved": -0.253781259059906
+   },
+   "reference": {
+    "clean": -0.5025903582572937,
+    "moved": -0.37799251079559326
+   },
+   "background": {
+    "clean": -0.1290016770362854,
+    "moved": -0.37753063440322876
+   },
+   "random": {
+    "clean": -0.25419241189956665,
+    "moved": -0.2534809708595276
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0005",
+   "original": {
+    "clean": -0.5030455589294434,
+    "moved": -0.8775303363800049
+   },
+   "target": {
+    "clean": -0.25223392248153687,
+    "moved": -0.7522333264350891
+   },
+   "reference": {
+    "clean": -0.7550002336502075,
+    "moved": -1.0041519403457642
+   },
+   "background": {
+    "clean": -0.377236008644104,
+    "moved": -0.6270976066589355
+   },
+   "random": {
+    "clean": -0.37723416090011597,
+    "moved": -0.7528636455535889
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0006",
+   "original": {
+    "clean": -0.1289989948272705,
+    "moved": -0.6289361715316772
+   },
+   "target": {
+    "clean": -0.12870103120803833,
+    "moved": -0.5053677558898926
+   },
+   "reference": {
+    "clean": -0.12925505638122559,
+    "moved": -0.6290746927261353
+   },
+   "background": {
+    "clean": -0.1287006139755249,
+    "moved": -0.5029879808425903
+   },
+   "random": {
+    "clean": -0.12838393449783325,
+    "moved": -0.5039371252059937
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0007",
+   "original": {
+    "clean": -0.37697547674179077,
+    "moved": -0.2525302767753601
+   },
+   "target": {
+    "clean": -0.7519742250442505,
+    "moved": -0.3773782253265381
+   },
+   "reference": {
+    "clean": -0.3764958381652832,
+    "moved": -0.2517435550689697
+   },
+   "background": {
+    "clean": -0.25219422578811646,
+    "moved": -0.2523782253265381
+   },
+   "random": {
+    "clean": -0.3767433166503906,
+    "moved": -0.25269174575805664
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0008",
+   "original": {
+    "clean": -0.12663960456848145,
+    "moved": -0.12799328565597534
+   },
+   "target": {
+    "clean": 0.1231415867805481,
+    "moved": -0.002643287181854248
+   },
+   "reference": {
+    "clean": -0.12663984298706055,
+    "moved": -0.0030773282051086426
+   },
+   "background": {
+    "clean": -0.0019756555557250977,
+    "moved": -0.0018048882484436035
+   },
+   "random": {
+    "clean": -0.12659227848052979,
+    "moved": -0.12737828493118286
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0009",
+   "original": {
+    "clean": -0.2553722858428955,
+    "moved": -0.2558032274246216
+   },
+   "target": {
+    "clean": -0.13277322053909302,
+    "moved": -0.1307101845741272
+   },
+   "reference": {
+    "clean": -0.12946176528930664,
+    "moved": -0.12946176528930664
+   },
+   "background": {
+    "clean": -0.004259049892425537,
+    "moved": -0.003535151481628418
+   },
+   "random": {
+    "clean": -0.12883323431015015,
+    "moved": -0.12890690565109253
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0010",
+   "original": {
+    "clean": -0.502100944519043,
+    "moved": -0.0022373199462890625
+   },
+   "target": {
+    "clean": -0.25223588943481445,
+    "moved": 0.12379688024520874
+   },
+   "reference": {
+    "clean": -0.3772357702255249,
+    "moved": -0.0016416311264038086
+   },
+   "background": {
+    "clean": -0.3765932321548462,
+    "moved": 0.12314271926879883
+   },
+   "random": {
+    "clean": -0.5024586915969849,
+    "moved": -0.0024597644805908203
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0011",
+   "original": {
+    "clean": -0.8808032274246216,
+    "moved": -0.7539440393447876
+   },
+   "target": {
+    "clean": -0.3781830072402954,
+    "moved": -0.2529938817024231
+   },
+   "reference": {
+    "clean": -0.6275337934494019,
+    "moved": -0.5026974081993103
+   },
+   "background": {
+    "clean": -0.3784831166267395,
+    "moved": -0.3773835301399231
+   },
+   "random": {
+    "clean": -0.3784836530685425,
+    "moved": -0.502868115901947
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0012",
+   "original": {
+    "clean": 0.6233218312263489,
+    "moved": -0.0012804269790649414
+   },
+   "target": {
+    "clean": 0.6237964630126953,
+    "moved": 0.1238701343536377
+   },
+   "reference": {
+    "clean": 0.7488901615142822,
+    "moved": 0.24838906526565552
+   },
+   "background": {
+    "clean": 0.7490006685256958,
+    "moved": 0.12363725900650024
+   },
+   "random": {
+    "clean": 0.7483444213867188,
+    "moved": 0.12348693609237671
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0013",
+   "original": {
+    "clean": -0.12737315893173218,
+    "moved": -0.5011650323867798
+   },
+   "target": {
+    "clean": -0.5013100504875183,
+    "moved": -0.376359224319458
+   },
+   "reference": {
+    "clean": 0.12336456775665283,
+    "moved": -0.5014468431472778
+   },
+   "background": {
+    "clean": -0.25122910737991333,
+    "moved": -0.6264442205429077
+   },
+   "random": {
+    "clean": -0.12737631797790527,
+    "moved": -0.501444935798645
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0014",
+   "original": {
+    "clean": -0.00452953577041626,
+    "moved": 0.623548686504364
+   },
+   "target": {
+    "clean": -0.0032715797424316406,
+    "moved": 0.7480050921440125
+   },
+   "reference": {
+    "clean": -0.1282450556755066,
+    "moved": 0.7473516464233398
+   },
+   "background": {
+    "clean": -0.0037035346031188965,
+    "moved": 0.6231763958930969
+   },
+   "random": {
+    "clean": -0.003049194812774658,
+    "moved": 0.7480058670043945
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0015",
+   "original": {
+    "clean": -0.7536994814872742,
+    "moved": -1.0030720233917236
+   },
+   "target": {
+    "clean": -0.6275308132171631,
+    "moved": -1.0023730993270874
+   },
+   "reference": {
+    "clean": -0.7532410621643066,
+    "moved": -1.0028870105743408
+   },
+   "background": {
+    "clean": -0.6273782253265381,
+    "moved": -1.0022339820861816
+   },
+   "random": {
+    "clean": -0.6285324096679688,
+    "moved": -0.8784795999526978
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0016",
+   "original": {
+    "clean": 0.24866539239883423,
+    "moved": -2.001056671142578
+   },
+   "target": {
+    "clean": -0.75136798620224,
+    "moved": -1.6268677711486816
+   },
+   "reference": {
+    "clean": 0.37406158447265625,
+    "moved": -1.0011978149414062
+   },
+   "background": {
+    "clean": 0.6233471035957336,
+    "moved": -1.3767077922821045
+   },
+   "random": {
+    "clean": 0.24866515398025513,
+    "moved": -0.87729811668396
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0017",
+   "original": {
+    "clean": 0.370830237865448,
+    "moved": -0.13047081232070923
+   },
+   "target": {
+    "clean": 0.4966609477996826,
+    "moved": -0.004527628421783447
+   },
+   "reference": {
+    "clean": 0.37076854705810547,
+    "moved": -0.2548162341117859
+   },
+   "background": {
+    "clean": 0.3707314729690552,
+    "moved": -0.1298425793647766
+   },
+   "random": {
+    "clean": 0.3716609477996826,
+    "moved": -0.0057697296142578125
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0018",
+   "original": {
+    "clean": -0.8762894868850708,
+    "moved": -0.8765534162521362
+   },
+   "target": {
+    "clean": -0.5019369125366211,
+    "moved": -0.6270612478256226
+   },
+   "reference": {
+    "clean": -0.8764209747314453,
+    "moved": -1.0013349056243896
+   },
+   "background": {
+    "clean": -0.6267579793930054,
+    "moved": -0.5019003748893738
+   },
+   "random": {
+    "clean": -0.501510500907898,
+    "moved": -0.502021312713623
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0019",
+   "original": {
+    "clean": -0.5027561187744141,
+    "moved": -0.7537776231765747
+   },
+   "target": {
+    "clean": -0.37674325704574585,
+    "moved": -0.5040120482444763
+   },
+   "reference": {
+    "clean": -0.2533385753631592,
+    "moved": -0.5031359195709229
+   },
+   "background": {
+    "clean": -0.37771278619766235,
+    "moved": -0.6304796934127808
+   },
+   "random": {
+    "clean": -0.37755072116851807,
+    "moved": -0.7534767389297485
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0000",
+   "original": {
+    "clean": -0.25370246171951294,
+    "moved": -0.2529919743537903
+   },
+   "target": {
+    "clean": -0.6283389329910278,
+    "moved": -0.628271222114563
+   },
+   "reference": {
+    "clean": -0.0028910040855407715,
+    "moved": -0.1273810863494873
+   },
+   "background": {
+    "clean": -0.3794604539871216,
+    "moved": -0.503834068775177
+   },
+   "random": {
+    "clean": -0.1282719373703003,
+    "moved": -0.1288350224494934
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0001",
+   "original": {
+    "clean": 1.7483396530151367,
+    "moved": 0.6184194087982178
+   },
+   "target": {
+    "clean": 0.6229953765869141,
+    "moved": 0.11778432130813599
+   },
+   "reference": {
+    "clean": 0.8732534050941467,
+    "moved": 0.24530082941055298
+   },
+   "background": {
+    "clean": 1.4985328912734985,
+    "moved": 0.9966809749603271
+   },
+   "random": {
+    "clean": 1.622096061706543,
+    "moved": 0.37097424268722534
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0002",
+   "original": {
+    "clean": -0.8777717351913452,
+    "moved": -0.7540136575698853
+   },
+   "target": {
+    "clean": -0.7527650594711304,
+    "moved": -0.7531311511993408
+   },
+   "reference": {
+    "clean": -0.8774477243423462,
+    "moved": -0.8781384229660034
+   },
+   "background": {
+    "clean": -0.6285542845726013,
+    "moved": -0.7537820339202881
+   },
+   "random": {
+    "clean": -0.7531310319900513,
+    "moved": -0.7537720203399658
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0003",
+   "original": {
+    "clean": 2.1230807304382324,
+    "moved": 1.8732552528381348
+   },
+   "target": {
+    "clean": -0.25066709518432617,
+    "moved": -0.000977933406829834
+   },
+   "reference": {
+    "clean": 2.123786687850952,
+    "moved": 1.998860239982605
+   },
+   "background": {
+    "clean": 1.8724662065505981,
+    "moved": 1.74770987033844
+   },
+   "random": {
+    "clean": 0.8729355931282043,
+    "moved": 0.4977630078792572
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0004",
+   "original": {
+    "clean": 1.9986382722854614,
+    "moved": 0.9913060069084167
+   },
+   "target": {
+    "clean": 0.371726393699646,
+    "moved": -0.6297005414962769
+   },
+   "reference": {
+    "clean": 0.8724054098129272,
+    "moved": 0.9924435019493103
+   },
+   "background": {
+    "clean": 1.9981769323349,
+    "moved": 0.8686044216156006
+   },
+   "random": {
+    "clean": 0.7471863031387329,
+    "moved": -0.3803081512451172
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0005",
+   "original": {
+    "clean": -1.011492133140564,
+    "moved": -1.1325544118881226
+   },
+   "target": {
+    "clean": -1.0102684497833252,
+    "moved": -1.3831737041473389
+   },
+   "reference": {
+    "clean": -1.2592085599899292,
+    "moved": -1.2596583366394043
+   },
+   "background": {
+    "clean": -0.6387206315994263,
+    "moved": -0.8840827941894531
+   },
+   "random": {
+    "clean": -0.6349364519119263,
+    "moved": -0.6330349445343018
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0006",
+   "original": {
+    "clean": 0.1215200424194336,
+    "moved": -0.003601670265197754
+   },
+   "target": {
+    "clean": -0.12781280279159546,
+    "moved": -0.5060173869132996
+   },
+   "reference": {
+    "clean": 0.24756377935409546,
+    "moved": -0.12769192457199097
+   },
+   "background": {
+    "clean": -0.0022360682487487793,
+    "moved": 0.12211066484451294
+   },
+   "random": {
+    "clean": -0.002235591411590576,
+    "moved": 0.24623876810073853
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0007",
+   "original": {
+    "clean": -1.5040745735168457,
+    "moved": -1.0032377243041992
+   },
+   "target": {
+    "clean": -1.5044163465499878,
+    "moved": -0.7544573545455933
+   },
+   "reference": {
+    "clean": -1.1286991834640503,
+    "moved": -0.6282428503036499
+   },
+   "background": {
+    "clean": -1.5034477710723877,
+    "moved": -0.8802202939987183
+   },
+   "random": {
+    "clean": -1.50473952293396,
+    "moved": -0.8802211284637451
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0008",
+   "original": {
+    "clean": -0.6279923319816589,
+    "moved": -0.5037618279457092
+   },
+   "target": {
+    "clean": -0.6276418566703796,
+    "moved": -0.6275527477264404
+   },
+   "reference": {
+    "clean": -0.6278895139694214,
+    "moved": -0.7521018981933594
+   },
+   "background": {
+    "clean": -0.6285338401794434,
+    "moved": -0.7529910206794739
+   },
+   "random": {
+    "clean": -0.627991795539856,
+    "moved": -0.627716064453125
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0009",
+   "original": {
+    "clean": 0.7469480037689209,
+    "moved": 0.24713480472564697
+   },
+   "target": {
+    "clean": -0.25314658880233765,
+    "moved": 0.2455407977104187
+   },
+   "reference": {
+    "clean": 0.6219478845596313,
+    "moved": 0.49761927127838135
+   },
+   "background": {
+    "clean": 1.3726171255111694,
+    "moved": 0.3723577857017517
+   },
+   "random": {
+    "clean": 0.6193506717681885,
+    "moved": 0.3721093535423279
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0010",
+   "original": {
+    "clean": -0.25318360328674316,
+    "moved": -0.2538319230079651
+   },
+   "target": {
+    "clean": -0.25289028882980347,
+    "moved": -0.37748265266418457
+   },
+   "reference": {
+    "clean": -0.3774363398551941,
+    "moved": -0.25353556871414185
+   },
+   "background": {
+    "clean": -0.25348103046417236,
+    "moved": -0.2530485987663269
+   },
+   "random": {
+    "clean": -0.25580334663391113,
+    "moved": -0.2573121190071106
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0011",
+   "original": {
+    "clean": -0.7526885867118835,
+    "moved": -1.1270992755889893
+   },
+   "target": {
+    "clean": -1.0022332668304443,
+    "moved": -1.1265366077423096
+   },
+   "reference": {
+    "clean": -0.7518004179000854,
+    "moved": -1.2518513202667236
+   },
+   "background": {
+    "clean": -0.876799464225769,
+    "moved": -1.1273308992385864
+   },
+   "random": {
+    "clean": -0.877036988735199,
+    "moved": -1.3762385845184326
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0012",
+   "original": {
+    "clean": 2.4993813037872314,
+    "moved": -0.0036696791648864746
+   },
+   "target": {
+    "clean": -0.3775305151939392,
+    "moved": -0.8783831596374512
+   },
+   "reference": {
+    "clean": 1.9991172552108765,
+    "moved": -0.8808308839797974
+   },
+   "background": {
+    "clean": 2.3735902309417725,
+    "moved": 0.7484179735183716
+   },
+   "random": {
+    "clean": 1.623253583908081,
+    "moved": -0.0029900670051574707
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0013",
+   "original": {
+    "clean": 0.1188250184059143,
+    "moved": -0.0055602192878723145
+   },
+   "target": {
+    "clean": -0.25367581844329834,
+    "moved": -0.1278662085533142
+   },
+   "reference": {
+    "clean": -0.12991362810134888,
+    "moved": -0.1294236183166504
+   },
+   "background": {
+    "clean": 0.11977463960647583,
+    "moved": -0.005227029323577881
+   },
+   "random": {
+    "clean": -0.005561888217926025,
+    "moved": -0.2526172399520874
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0014",
+   "original": {
+    "clean": -0.626678466796875,
+    "moved": -0.7514857053756714
+   },
+   "target": {
+    "clean": -0.626678466796875,
+    "moved": -0.7514857053756714
+   },
+   "reference": {
+    "clean": -0.6265727877616882,
+    "moved": -0.6265771389007568
+   },
+   "background": {
+    "clean": -0.6267856359481812,
+    "moved": -0.7511579394340515
+   },
+   "random": {
+    "clean": -0.5017695426940918,
+    "moved": -0.7514777183532715
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0015",
+   "original": {
+    "clean": 0.12360382080078125,
+    "moved": -0.1266939640045166
+   },
+   "target": {
+    "clean": 0.3735504150390625,
+    "moved": -0.12636113166809082
+   },
+   "reference": {
+    "clean": 0.12319713830947876,
+    "moved": -0.12685567140579224
+   },
+   "background": {
+    "clean": -0.12657994031906128,
+    "moved": -0.0028650760650634766
+   },
+   "random": {
+    "clean": 0.12314373254776001,
+    "moved": -0.2519741654396057
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0016",
+   "original": {
+    "clean": -0.12866079807281494,
+    "moved": 0.1203877329826355
+   },
+   "target": {
+    "clean": -0.12969648838043213,
+    "moved": -0.12834203243255615
+   },
+   "reference": {
+    "clean": -0.2536596655845642,
+    "moved": -0.1288946270942688
+   },
+   "background": {
+    "clean": -0.003668546676635742,
+    "moved": 0.12132960557937622
+   },
+   "random": {
+    "clean": -0.12960928678512573,
+    "moved": -0.12889450788497925
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0017",
+   "original": {
+    "clean": 0.4980597496032715,
+    "moved": 0.247935950756073
+   },
+   "target": {
+    "clean": -0.127255380153656,
+    "moved": -0.3769909739494324
+   },
+   "reference": {
+    "clean": -0.127255380153656,
+    "moved": -0.3769909739494324
+   },
+   "background": {
+    "clean": 0.4978038966655731,
+    "moved": 0.24863839149475098
+   },
+   "random": {
+    "clean": 0.37314337491989136,
+    "moved": 0.24759942293167114
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0018",
+   "original": {
+    "clean": 1.8738394975662231,
+    "moved": 2.7493741512298584
+   },
+   "target": {
+    "clean": -0.501914381980896,
+    "moved": -0.001692056655883789
+   },
+   "reference": {
+    "clean": 1.499375820159912,
+    "moved": 2.7492873668670654
+   },
+   "background": {
+    "clean": 1.498938798904419,
+    "moved": 2.3741466999053955
+   },
+   "random": {
+    "clean": 1.4984581470489502,
+    "moved": 2.749427080154419
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0019",
+   "original": {
+    "clean": -0.7541483640670776,
+    "moved": -0.5049082040786743
+   },
+   "target": {
+    "clean": -0.6289054155349731,
+    "moved": -0.25415486097335815
+   },
+   "reference": {
+    "clean": -0.6278657913208008,
+    "moved": -0.6277785897254944
+   },
+   "background": {
+    "clean": -0.5039066076278687,
+    "moved": -0.25537002086639404
+   },
+   "random": {
+    "clean": -0.7531454563140869,
+    "moved": -0.37991034984588623
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0000",
+   "original": {
+    "clean": 0.1238563060760498,
+    "moved": 0.12323349714279175
+   },
+   "target": {
+    "clean": -0.6260740756988525,
+    "moved": -0.25230467319488525
+   },
+   "reference": {
+    "clean": -0.5010839700698853,
+    "moved": -0.2514808177947998
+   },
+   "background": {
+    "clean": 0.12384539842605591,
+    "moved": 0.24885576963424683
+   },
+   "random": {
+    "clean": 0.12457120418548584,
+    "moved": 0.3726952075958252
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0001",
+   "original": {
+    "clean": -0.751851499080658,
+    "moved": -0.6264432072639465
+   },
+   "target": {
+    "clean": -0.8775256872177124,
+    "moved": -0.6269844174385071
+   },
+   "reference": {
+    "clean": -0.7519700527191162,
+    "moved": -0.6271880865097046
+   },
+   "background": {
+    "clean": -0.7517380118370056,
+    "moved": -0.7514415979385376
+   },
+   "random": {
+    "clean": -0.7518492937088013,
+    "moved": -0.6269703507423401
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0002",
+   "original": {
+    "clean": 0.3715221881866455,
+    "moved": 1.751237392425537
+   },
+   "target": {
+    "clean": -0.3769969344139099,
+    "moved": -0.12699896097183228
+   },
+   "reference": {
+    "clean": -0.37811094522476196,
+    "moved": 1.6236926317214966
+   },
+   "background": {
+    "clean": 0.6217283010482788,
+    "moved": 1.7500032186508179
+   },
+   "random": {
+    "clean": -0.002110719680786133,
+    "moved": 1.7500028610229492
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0003",
+   "original": {
+    "clean": 1.132228136062622,
+    "moved": -0.002557516098022461
+   },
+   "target": {
+    "clean": 1.1250029802322388,
+    "moved": 0.11801064014434814
+   },
+   "reference": {
+    "clean": 7.271766662597656e-06,
+    "moved": -0.12637001276016235
+   },
+   "background": {
+    "clean": 1.1294007301330566,
+    "moved": -0.0014587640762329102
+   },
+   "random": {
+    "clean": 0.8770113587379456,
+    "moved": -0.12775081396102905
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0004",
+   "original": {
+    "clean": -1.0154931545257568,
+    "moved": -1.1357334852218628
+   },
+   "target": {
+    "clean": -0.8833914995193481,
+    "moved": -0.8833900690078735
+   },
+   "reference": {
+    "clean": -0.8887133002281189,
+    "moved": -0.8845517635345459
+   },
+   "background": {
+    "clean": -0.8852630853652954,
+    "moved": -1.0053107738494873
+   },
+   "random": {
+    "clean": -1.1340779066085815,
+    "moved": -0.8843403458595276
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0005",
+   "original": {
+    "clean": -0.7560091018676758,
+    "moved": -0.7559951543807983
+   },
+   "target": {
+    "clean": -1.13423752784729,
+    "moved": -1.0131008625030518
+   },
+   "reference": {
+    "clean": -0.6280378103256226,
+    "moved": -0.7541478276252747
+   },
+   "background": {
+    "clean": -0.7515854835510254,
+    "moved": -0.5026837587356567
+   },
+   "random": {
+    "clean": -1.134817361831665,
+    "moved": -0.8982383012771606
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0006",
+   "original": {
+    "clean": -0.6462302207946777,
+    "moved": -0.8911835551261902
+   },
+   "target": {
+    "clean": -0.6416952013969421,
+    "moved": -0.8880983591079712
+   },
+   "reference": {
+    "clean": -0.6462311744689941,
+    "moved": -0.7697494626045227
+   },
+   "background": {
+    "clean": -0.6419408321380615,
+    "moved": -0.892494797706604
+   },
+   "random": {
+    "clean": -0.516943097114563,
+    "moved": -0.8867868781089783
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0007",
+   "original": {
+    "clean": -1.0039951801300049,
+    "moved": -1.2534728050231934
+   },
+   "target": {
+    "clean": -1.1289939880371094,
+    "moved": -1.1298264265060425
+   },
+   "reference": {
+    "clean": -1.004016399383545,
+    "moved": -1.127926230430603
+   },
+   "background": {
+    "clean": -1.1291847229003906,
+    "moved": -1.1292728185653687
+   },
+   "random": {
+    "clean": -1.0039944648742676,
+    "moved": -1.2534728050231934
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0008",
+   "original": {
+    "clean": -1.0064518451690674,
+    "moved": -1.13003671169281
+   },
+   "target": {
+    "clean": -1.0053603649139404,
+    "moved": -1.1303590536117554
+   },
+   "reference": {
+    "clean": -1.0078887939453125,
+    "moved": -1.0061615705490112
+   },
+   "background": {
+    "clean": -1.006864070892334,
+    "moved": -1.0065548419952393
+   },
+   "random": {
+    "clean": -1.006554126739502,
+    "moved": -1.0061612129211426
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0009",
+   "original": {
+    "clean": -2.0069727897644043,
+    "moved": -0.2806110382080078
+   },
+   "target": {
+    "clean": -1.8834420442581177,
+    "moved": -0.15712404251098633
+   },
+   "reference": {
+    "clean": -1.7614858150482178,
+    "moved": -0.5272376537322998
+   },
+   "background": {
+    "clean": -2.130699634552002,
+    "moved": -0.40743565559387207
+   },
+   "random": {
+    "clean": -2.0074174404144287,
+    "moved": -0.39921891689300537
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0010",
+   "original": {
+    "clean": -1.3733365535736084,
+    "moved": -1.258142352104187
+   },
+   "target": {
+    "clean": -1.3740828037261963,
+    "moved": -1.3819791078567505
+   },
+   "reference": {
+    "clean": -1.2490838766098022,
+    "moved": -1.2598141431808472
+   },
+   "background": {
+    "clean": -1.3749920129776,
+    "moved": -1.2590746879577637
+   },
+   "random": {
+    "clean": -1.3732308149337769,
+    "moved": -1.257681131362915
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0011",
+   "original": {
+    "clean": -1.1519453525543213,
+    "moved": -1.1519453525543213
+   },
+   "target": {
+    "clean": -1.2633848190307617,
+    "moved": -1.2633848190307617
+   },
+   "reference": {
+    "clean": -1.0224491357803345,
+    "moved": -1.0224491357803345
+   },
+   "background": {
+    "clean": -1.1521193981170654,
+    "moved": -1.1521193981170654
+   },
+   "random": {
+    "clean": -1.0229525566101074,
+    "moved": -1.0229525566101074
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0012",
+   "original": {
+    "clean": -1.2522258758544922,
+    "moved": -0.8793300986289978
+   },
+   "target": {
+    "clean": -1.1273914575576782,
+    "moved": -1.0025248527526855
+   },
+   "reference": {
+    "clean": -1.1275215148925781,
+    "moved": -1.0038976669311523
+   },
+   "background": {
+    "clean": -0.8791823387145996,
+    "moved": -0.754412055015564
+   },
+   "random": {
+    "clean": -1.1268494129180908,
+    "moved": -0.8786635398864746
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0013",
+   "original": {
+    "clean": 0.3701677918434143,
+    "moved": -0.6277696490287781
+   },
+   "target": {
+    "clean": 0.2488635778427124,
+    "moved": -0.5009555816650391
+   },
+   "reference": {
+    "clean": 0.371019184589386,
+    "moved": -0.6270138025283813
+   },
+   "background": {
+    "clean": 0.37101954221725464,
+    "moved": -0.5012899041175842
+   },
+   "random": {
+    "clean": 0.3716914653778076,
+    "moved": -0.6270135641098022
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0014",
+   "original": {
+    "clean": -0.380545973777771,
+    "moved": -0.1329406499862671
+   },
+   "target": {
+    "clean": -0.3799017071723938,
+    "moved": -0.006392002105712891
+   },
+   "reference": {
+    "clean": -0.1308283805847168,
+    "moved": -0.13021552562713623
+   },
+   "background": {
+    "clean": -0.13044756650924683,
+    "moved": -0.005446970462799072
+   },
+   "random": {
+    "clean": -0.38255274295806885,
+    "moved": -0.13210231065750122
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0015",
+   "original": {
+    "clean": -1.262315273284912,
+    "moved": -1.5044947862625122
+   },
+   "target": {
+    "clean": -1.2581639289855957,
+    "moved": -1.3790135383605957
+   },
+   "reference": {
+    "clean": -1.2576556205749512,
+    "moved": -1.2576603889465332
+   },
+   "background": {
+    "clean": -1.2598081827163696,
+    "moved": -1.380462646484375
+   },
+   "random": {
+    "clean": -1.259192943572998,
+    "moved": -1.3808083534240723
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0016",
+   "original": {
+    "clean": 0.24731868505477905,
+    "moved": -0.6288981437683105
+   },
+   "target": {
+    "clean": -0.7516297101974487,
+    "moved": -0.3779855966567993
+   },
+   "reference": {
+    "clean": -0.12684965133666992,
+    "moved": -0.5026874542236328
+   },
+   "background": {
+    "clean": 0.24676275253295898,
+    "moved": -0.37859654426574707
+   },
+   "random": {
+    "clean": -0.3760709762573242,
+    "moved": -0.1288253664970398
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0017",
+   "original": {
+    "clean": -0.5322091579437256,
+    "moved": -1.0146559476852417
+   },
+   "target": {
+    "clean": -0.5401787757873535,
+    "moved": -0.8933240175247192
+   },
+   "reference": {
+    "clean": -0.40717989206314087,
+    "moved": -0.8948845863342285
+   },
+   "background": {
+    "clean": -0.530150294303894,
+    "moved": -1.0164337158203125
+   },
+   "random": {
+    "clean": -0.5253323316574097,
+    "moved": -1.0155795812606812
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0018",
+   "original": {
+    "clean": -1.0040054321289062,
+    "moved": -1.0084245204925537
+   },
+   "target": {
+    "clean": -1.003332257270813,
+    "moved": -1.007934808731079
+   },
+   "reference": {
+    "clean": -0.7545459866523743,
+    "moved": -0.8833516240119934
+   },
+   "background": {
+    "clean": -0.8787732124328613,
+    "moved": -0.8849103450775146
+   },
+   "random": {
+    "clean": -1.003525972366333,
+    "moved": -0.8876814842224121
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0019",
+   "original": {
+    "clean": -1.254777431488037,
+    "moved": -0.87898850440979
+   },
+   "target": {
+    "clean": -1.128533124923706,
+    "moved": -0.7542445063591003
+   },
+   "reference": {
+    "clean": -1.25400972366333,
+    "moved": -0.8784681558609009
+   },
+   "background": {
+    "clean": -1.254777193069458,
+    "moved": -0.8804395198822021
+   },
+   "random": {
+    "clean": -1.3792424201965332,
+    "moved": -0.879542350769043
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0000",
+   "original": {
+    "clean": 2.0187294483184814,
+    "moved": 0.37499934434890747
+   },
+   "target": {
+    "clean": 0.5103987455368042,
+    "moved": 0.9999974966049194
+   },
+   "reference": {
+    "clean": 1.3777177333831787,
+    "moved": 1.8755146265029907
+   },
+   "background": {
+    "clean": 2.510434865951538,
+    "moved": 1.1249977350234985
+   },
+   "random": {
+    "clean": 2.3822054862976074,
+    "moved": 0.9999976754188538
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0001",
+   "original": {
+    "clean": 2.499910593032837,
+    "moved": 1.8739745616912842
+   },
+   "target": {
+    "clean": 2.2499947547912598,
+    "moved": 2.124338388442993
+   },
+   "reference": {
+    "clean": 2.374995231628418,
+    "moved": 1.8739659786224365
+   },
+   "background": {
+    "clean": 1.9986830949783325,
+    "moved": 1.6209690570831299
+   },
+   "random": {
+    "clean": 1.874153971672058,
+    "moved": 1.2476856708526611
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0002",
+   "original": {
+    "clean": 4.0016279220581055,
+    "moved": 3.6261513233184814
+   },
+   "target": {
+    "clean": 2.125328540802002,
+    "moved": 2.1252899169921875
+   },
+   "reference": {
+    "clean": 1.999728798866272,
+    "moved": 1.999542236328125
+   },
+   "background": {
+    "clean": 3.8780367374420166,
+    "moved": 3.751669406890869
+   },
+   "random": {
+    "clean": 2.8759992122650146,
+    "moved": 2.874990224838257
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0003",
+   "original": {
+    "clean": -1.126556396484375,
+    "moved": -1.2509064674377441
+   },
+   "target": {
+    "clean": -0.8767605423927307,
+    "moved": -1.37590491771698
+   },
+   "reference": {
+    "clean": 0.49940919876098633,
+    "moved": -0.624035120010376
+   },
+   "background": {
+    "clean": -1.0007539987564087,
+    "moved": -1.2499985694885254
+   },
+   "random": {
+    "clean": -0.8765554428100586,
+    "moved": -1.1260230541229248
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0004",
+   "original": {
+    "clean": -0.00393986701965332,
+    "moved": 0.23825454711914062
+   },
+   "target": {
+    "clean": 0.4970425069332123,
+    "moved": 0.2454865574836731
+   },
+   "reference": {
+    "clean": 0.7495036125183105,
+    "moved": 0.8744370341300964
+   },
+   "background": {
+    "clean": -0.00393986701965332,
+    "moved": 0.23825454711914062
+   },
+   "random": {
+    "clean": 1.1233394145965576,
+    "moved": 1.122876763343811
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0005",
+   "original": {
+    "clean": -0.8784818053245544,
+    "moved": -0.8749994039535522
+   },
+   "target": {
+    "clean": -1.2521164417266846,
+    "moved": -1.2509064674377441
+   },
+   "reference": {
+    "clean": -0.7487884759902954,
+    "moved": -0.6244149208068848
+   },
+   "background": {
+    "clean": -0.6284829378128052,
+    "moved": -0.6249986886978149
+   },
+   "random": {
+    "clean": -0.2500004768371582,
+    "moved": -0.12665605545043945
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0006",
+   "original": {
+    "clean": -1.5015649795532227,
+    "moved": -1.380149483680725
+   },
+   "target": {
+    "clean": -1.2505561113357544,
+    "moved": -1.0037529468536377
+   },
+   "reference": {
+    "clean": 0.37499338388442993,
+    "moved": 0.37561899423599243
+   },
+   "background": {
+    "clean": -1.3757104873657227,
+    "moved": -1.1304750442504883
+   },
+   "random": {
+    "clean": -1.250591516494751,
+    "moved": -1.0054763555526733
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0007",
+   "original": {
+    "clean": 0.49861469864845276,
+    "moved": 0.4985317885875702
+   },
+   "target": {
+    "clean": -0.7509577870368958,
+    "moved": 0.25075870752334595
+   },
+   "reference": {
+    "clean": -0.2512962222099304,
+    "moved": -0.1254051923751831
+   },
+   "background": {
+    "clean": 0.6250079870223999,
+    "moved": 0.8766825199127197
+   },
+   "random": {
+    "clean": 0.4990391433238983,
+    "moved": 0.6239761114120483
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0008",
+   "original": {
+    "clean": -1.7510735988616943,
+    "moved": -1.8754889965057373
+   },
+   "target": {
+    "clean": -1.3745120763778687,
+    "moved": -1.3754322528839111
+   },
+   "reference": {
+    "clean": -1.2504332065582275,
+    "moved": -1.2508924007415771
+   },
+   "background": {
+    "clean": -1.5004597902297974,
+    "moved": -1.125461220741272
+   },
+   "random": {
+    "clean": -1.4999998807907104,
+    "moved": -1.375838279724121
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0009",
+   "original": {
+    "clean": -0.119320809841156,
+    "moved": -0.37647849321365356
+   },
+   "target": {
+    "clean": -0.37245190143585205,
+    "moved": -0.4999972879886627
+   },
+   "reference": {
+    "clean": -0.24999767541885376,
+    "moved": -0.12770313024520874
+   },
+   "background": {
+    "clean": 0.0016750097274780273,
+    "moved": -0.3736036419868469
+   },
+   "random": {
+    "clean": 0.006920993328094482,
+    "moved": -0.37193894386291504
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0010",
+   "original": {
+    "clean": -1.1242468357086182,
+    "moved": -0.7500002384185791
+   },
+   "target": {
+    "clean": -0.7505550384521484,
+    "moved": -0.49929285049438477
+   },
+   "reference": {
+    "clean": -1.2496193647384644,
+    "moved": -0.2493748664855957
+   },
+   "background": {
+    "clean": -0.7500007152557373,
+    "moved": -0.24929237365722656
+   },
+   "random": {
+    "clean": -0.8741472959518433,
+    "moved": -0.37324124574661255
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0011",
+   "original": {
+    "clean": -1.1256669759750366,
+    "moved": -0.8763121962547302
+   },
+   "target": {
+    "clean": -0.7500013113021851,
+    "moved": -0.5014835000038147
+   },
+   "reference": {
+    "clean": -0.7505902051925659,
+    "moved": -0.6264811754226685
+   },
+   "background": {
+    "clean": -0.7506680488586426,
+    "moved": -0.6250014305114746
+   },
+   "random": {
+    "clean": -0.6250013113021851,
+    "moved": -0.5011616349220276
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0012",
+   "original": {
+    "clean": 0.5044480562210083,
+    "moved": -0.12648236751556396
+   },
+   "target": {
+    "clean": 0.502705454826355,
+    "moved": -0.25270408391952515
+   },
+   "reference": {
+    "clean": 0.2500002384185791,
+    "moved": 0.12499868869781494
+   },
+   "background": {
+    "clean": 0.6277042627334595,
+    "moved": 0.12500035762786865
+   },
+   "random": {
+    "clean": 0.6277025938034058,
+    "moved": 0.2500004768371582
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0013",
+   "original": {
+    "clean": -0.750956654548645,
+    "moved": -0.8778873682022095
+   },
+   "target": {
+    "clean": -0.6260178089141846,
+    "moved": -0.6284752488136292
+   },
+   "reference": {
+    "clean": -0.1264607310295105,
+    "moved": -0.5010850429534912
+   },
+   "background": {
+    "clean": -0.6249921321868896,
+    "moved": -0.5030748844146729
+   },
+   "random": {
+    "clean": -0.5028910636901855,
+    "moved": -0.6291781663894653
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0014",
+   "original": {
+    "clean": -0.6281180381774902,
+    "moved": -0.6326702833175659
+   },
+   "target": {
+    "clean": -0.3772650361061096,
+    "moved": -0.37827640771865845
+   },
+   "reference": {
+    "clean": 1.499439001083374,
+    "moved": 1.1241413354873657
+   },
+   "background": {
+    "clean": -0.5028752088546753,
+    "moved": -0.6303414106369019
+   },
+   "random": {
+    "clean": -0.002265632152557373,
+    "moved": -0.13047504425048828
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0015",
+   "original": {
+    "clean": -0.8762164115905762,
+    "moved": -0.8755893111228943
+   },
+   "target": {
+    "clean": -0.5010112524032593,
+    "moved": -0.5008928775787354
+   },
+   "reference": {
+    "clean": -0.751143217086792,
+    "moved": -0.875000536441803
+   },
+   "background": {
+    "clean": -0.25000178813934326,
+    "moved": -0.2507885694503784
+   },
+   "random": {
+    "clean": -0.25147008895874023,
+    "moved": -0.3755529522895813
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0016",
+   "original": {
+    "clean": -1.127543568611145,
+    "moved": -1.127543568611145
+   },
+   "target": {
+    "clean": -0.8760243654251099,
+    "moved": -0.8760243654251099
+   },
+   "reference": {
+    "clean": -0.5000019669532776,
+    "moved": -0.5000019669532776
+   },
+   "background": {
+    "clean": -1.0013095140457153,
+    "moved": -1.0013095140457153
+   },
+   "random": {
+    "clean": -0.8775445818901062,
+    "moved": -0.8775445818901062
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0017",
+   "original": {
+    "clean": 0.9999956488609314,
+    "moved": -0.13009995222091675
+   },
+   "target": {
+    "clean": 1.2518666982650757,
+    "moved": -0.12648361921310425
+   },
+   "reference": {
+    "clean": 0.7499934434890747,
+    "moved": 0.874240517616272
+   },
+   "background": {
+    "clean": 1.0018670558929443,
+    "moved": -0.12824875116348267
+   },
+   "random": {
+    "clean": 1.2508466243743896,
+    "moved": -0.1277076005935669
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0018",
+   "original": {
+    "clean": 0.12499821186065674,
+    "moved": -0.000756680965423584
+   },
+   "target": {
+    "clean": -0.7496402263641357,
+    "moved": -1.124210238456726
+   },
+   "reference": {
+    "clean": 0.499565452337265,
+    "moved": -0.0007100105285644531
+   },
+   "background": {
+    "clean": 0.24999821186065674,
+    "moved": 0.2509462833404541
+   },
+   "random": {
+    "clean": 0.250429630279541,
+    "moved": -0.12441319227218628
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0019",
+   "original": {
+    "clean": 0.004731237888336182,
+    "moved": 0.6315059661865234
+   },
+   "target": {
+    "clean": -0.4993343949317932,
+    "moved": 0.2528954744338989
+   },
+   "reference": {
+    "clean": -0.12333929538726807,
+    "moved": 0.6263719201087952
+   },
+   "background": {
+    "clean": 0.3814052939414978,
+    "moved": 0.7600709795951843
+   },
+   "random": {
+    "clean": 0.3829011917114258,
+    "moved": 0.8823460340499878
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0000",
+   "original": {
+    "clean": 1.1241180896759033,
+    "moved": 0.3740602731704712
+   },
+   "target": {
+    "clean": 1.1241939067840576,
+    "moved": 0.1241714358329773
+   },
+   "reference": {
+    "clean": 0.9989584684371948,
+    "moved": 0.49913468956947327
+   },
+   "background": {
+    "clean": 1.2489570379257202,
+    "moved": 0.3741704821586609
+   },
+   "random": {
+    "clean": 1.1240618228912354,
+    "moved": 0.3740614652633667
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0001",
+   "original": {
+    "clean": 3.4997024536132812,
+    "moved": 3.374683380126953
+   },
+   "target": {
+    "clean": -0.5007625818252563,
+    "moved": -0.37583374977111816
+   },
+   "reference": {
+    "clean": 2.9997947216033936,
+    "moved": 2.6248068809509277
+   },
+   "background": {
+    "clean": 2.874596357345581,
+    "moved": 3.12428617477417
+   },
+   "random": {
+    "clean": 3.624589443206787,
+    "moved": 3.124591827392578
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0002",
+   "original": {
+    "clean": -0.0012913346290588379,
+    "moved": -0.251140832901001
+   },
+   "target": {
+    "clean": 0.1235155463218689,
+    "moved": -0.2511403560638428
+   },
+   "reference": {
+    "clean": 0.24905967712402344,
+    "moved": 0.12411606311798096
+   },
+   "background": {
+    "clean": -0.001180887222290039,
+    "moved": -0.25118112564086914
+   },
+   "random": {
+    "clean": -0.0011397600173950195,
+    "moved": -0.2514612078666687
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0003",
+   "original": {
+    "clean": 3.374880313873291,
+    "moved": 1.6245157718658447
+   },
+   "target": {
+    "clean": 0.874718427658081,
+    "moved": 1.624597191810608
+   },
+   "reference": {
+    "clean": 0.3746740221977234,
+    "moved": 1.6239652633666992
+   },
+   "background": {
+    "clean": 3.124804735183716,
+    "moved": 0.1244778037071228
+   },
+   "random": {
+    "clean": 2.874765634536743,
+    "moved": 1.2496657371520996
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0004",
+   "original": {
+    "clean": 2.374323844909668,
+    "moved": -1.001418113708496
+   },
+   "target": {
+    "clean": 1.3745238780975342,
+    "moved": -0.8757092952728271
+   },
+   "reference": {
+    "clean": 1.4996501207351685,
+    "moved": -0.5009968280792236
+   },
+   "background": {
+    "clean": 2.3742196559906006,
+    "moved": -0.6262785196304321
+   },
+   "random": {
+    "clean": 2.4996047019958496,
+    "moved": -0.5012543201446533
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0005",
+   "original": {
+    "clean": 0.7491711378097534,
+    "moved": 0.4991438388824463
+   },
+   "target": {
+    "clean": 0.874593198299408,
+    "moved": 0.6244105100631714
+   },
+   "reference": {
+    "clean": 0.7497228384017944,
+    "moved": 0.6244099736213684
+   },
+   "background": {
+    "clean": 0.8744474649429321,
+    "moved": 0.6240026354789734
+   },
+   "random": {
+    "clean": 0.7493342161178589,
+    "moved": 0.623869776725769
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0006",
+   "original": {
+    "clean": 1.1240354776382446,
+    "moved": 1.1239923238754272
+   },
+   "target": {
+    "clean": 0.7493062615394592,
+    "moved": 0.6240543127059937
+   },
+   "reference": {
+    "clean": 0.6240608096122742,
+    "moved": 0.6239372491836548
+   },
+   "background": {
+    "clean": 0.9987696409225464,
+    "moved": 1.2491698265075684
+   },
+   "random": {
+    "clean": 0.9990348815917969,
+    "moved": 0.9993865489959717
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0007",
+   "original": {
+    "clean": 1.3745503425598145,
+    "moved": 0.9994579553604126
+   },
+   "target": {
+    "clean": 1.6245691776275635,
+    "moved": 1.1245331764221191
+   },
+   "reference": {
+    "clean": 1.3746511936187744,
+    "moved": 1.124457597732544
+   },
+   "background": {
+    "clean": 1.249612808227539,
+    "moved": 0.9994913339614868
+   },
+   "random": {
+    "clean": 1.4995235204696655,
+    "moved": 1.2493234872817993
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0008",
+   "original": {
+    "clean": -0.001991868019104004,
+    "moved": -0.12651240825653076
+   },
+   "target": {
+    "clean": -0.12606161832809448,
+    "moved": -0.0014216899871826172
+   },
+   "reference": {
+    "clean": -0.12599927186965942,
+    "moved": -0.12606215476989746
+   },
+   "background": {
+    "clean": -0.0017129778861999512,
+    "moved": -0.126420259475708
+   },
+   "random": {
+    "clean": -0.12620145082473755,
+    "moved": -0.1262437105178833
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0009",
+   "original": {
+    "clean": 2.999717950820923,
+    "moved": 0.6241177916526794
+   },
+   "target": {
+    "clean": 2.7496485710144043,
+    "moved": 0.6244099736213684
+   },
+   "reference": {
+    "clean": 2.4998059272766113,
+    "moved": 0.9992200136184692
+   },
+   "background": {
+    "clean": 2.99965763092041,
+    "moved": 0.6242215633392334
+   },
+   "random": {
+    "clean": 2.999680519104004,
+    "moved": 0.7490619421005249
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0010",
+   "original": {
+    "clean": 1.1236392259597778,
+    "moved": 1.248549222946167
+   },
+   "target": {
+    "clean": 0.49889007210731506,
+    "moved": 0.37411749362945557
+   },
+   "reference": {
+    "clean": 0.748820424079895,
+    "moved": 0.6240010261535645
+   },
+   "background": {
+    "clean": 1.3731756210327148,
+    "moved": 1.124146819114685
+   },
+   "random": {
+    "clean": 1.2484865188598633,
+    "moved": 0.9990010261535645
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0011",
+   "original": {
+    "clean": 0.12393993139266968,
+    "moved": -0.1261293888092041
+   },
+   "target": {
+    "clean": 0.249173104763031,
+    "moved": -0.000826418399810791
+   },
+   "reference": {
+    "clean": 0.12424474954605103,
+    "moved": -0.000709831714630127
+   },
+   "background": {
+    "clean": 0.12426924705505371,
+    "moved": -0.2510608434677124
+   },
+   "random": {
+    "clean": 0.24889254570007324,
+    "moved": -0.25093626976013184
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0012",
+   "original": {
+    "clean": 4.74983549118042,
+    "moved": 3.2494068145751953
+   },
+   "target": {
+    "clean": 2.8747260570526123,
+    "moved": 1.3743870258331299
+   },
+   "reference": {
+    "clean": 3.124864101409912,
+    "moved": 2.374551773071289
+   },
+   "background": {
+    "clean": 4.374878406524658,
+    "moved": 3.2491376399993896
+   },
+   "random": {
+    "clean": 3.8748722076416016,
+    "moved": 2.3745949268341064
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0013",
+   "original": {
+    "clean": 1.2481391429901123,
+    "moved": 0.8725098967552185
+   },
+   "target": {
+    "clean": 0.6240900754928589,
+    "moved": 0.49835607409477234
+   },
+   "reference": {
+    "clean": 1.1234140396118164,
+    "moved": 0.9981399178504944
+   },
+   "background": {
+    "clean": 1.373299479484558,
+    "moved": 0.8732523918151855
+   },
+   "random": {
+    "clean": 1.247509479522705,
+    "moved": 0.8726140856742859
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0014",
+   "original": {
+    "clean": -1.0008940696716309,
+    "moved": -0.7509032487869263
+   },
+   "target": {
+    "clean": -0.8759602308273315,
+    "moved": -0.6257516145706177
+   },
+   "reference": {
+    "clean": -1.0008478164672852,
+    "moved": -0.7507473826408386
+   },
+   "background": {
+    "clean": -1.0009028911590576,
+    "moved": -0.7508000731468201
+   },
+   "random": {
+    "clean": -1.0007998943328857,
+    "moved": -0.7509033679962158
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0015",
+   "original": {
+    "clean": 0.2498360276222229,
+    "moved": -0.0004271268844604492
+   },
+   "target": {
+    "clean": 0.12464451789855957,
+    "moved": -0.0005868077278137207
+   },
+   "reference": {
+    "clean": 0.24975311756134033,
+    "moved": 0.24966520071029663
+   },
+   "background": {
+    "clean": -0.0006201863288879395,
+    "moved": -0.0004875659942626953
+   },
+   "random": {
+    "clean": 0.12484633922576904,
+    "moved": -0.0005184412002563477
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0016",
+   "original": {
+    "clean": -1.8763319253921509,
+    "moved": -1.7520185708999634
+   },
+   "target": {
+    "clean": -1.751550316810608,
+    "moved": -1.7519352436065674
+   },
+   "reference": {
+    "clean": -1.8760584592819214,
+    "moved": -1.876605749130249
+   },
+   "background": {
+    "clean": -1.6270192861557007,
+    "moved": -1.7519350051879883
+   },
+   "random": {
+    "clean": -1.751988410949707,
+    "moved": -1.751755714416504
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0017",
+   "original": {
+    "clean": 0.8743867874145508,
+    "moved": 0.24945884943008423
+   },
+   "target": {
+    "clean": 0.7494724988937378,
+    "moved": 0.2495344877243042
+   },
+   "reference": {
+    "clean": 0.7494724988937378,
+    "moved": 0.2495344877243042
+   },
+   "background": {
+    "clean": 0.8745801448822021,
+    "moved": 0.24947291612625122
+   },
+   "random": {
+    "clean": 0.8746050596237183,
+    "moved": 0.2496514916419983
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0018",
+   "original": {
+    "clean": 2.9999170303344727,
+    "moved": 1.9994035959243774
+   },
+   "target": {
+    "clean": 0.9997281432151794,
+    "moved": -0.2505360245704651
+   },
+   "reference": {
+    "clean": 1.6248048543930054,
+    "moved": 1.999457836151123
+   },
+   "background": {
+    "clean": 2.874873638153076,
+    "moved": 2.374427318572998
+   },
+   "random": {
+    "clean": 1.9998224973678589,
+    "moved": 1.7496508359909058
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0019",
+   "original": {
+    "clean": 1.1241687536239624,
+    "moved": 0.7493758797645569
+   },
+   "target": {
+    "clean": 0.3741688132286072,
+    "moved": 0.4990610182285309
+   },
+   "reference": {
+    "clean": 1.124115228652954,
+    "moved": 0.8743311166763306
+   },
+   "background": {
+    "clean": 1.1242403984069824,
+    "moved": 0.8741940855979919
+   },
+   "random": {
+    "clean": 0.9991695880889893,
+    "moved": 0.8743306994438171
+   }
+  }
+ ]
+}
