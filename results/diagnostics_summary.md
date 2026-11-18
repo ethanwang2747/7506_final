@@ -326,7 +326,8 @@ LoRA r=8), differing only in the training tasks:
 | side-only | 0.645 | 0.682 | 0.617 | 0.717 | +0.117 [0.071, 0.161] |
 | relation-only | 0.551 | 0.492 | 0.683 | 0.777 | +0.177 [0.124, 0.229] |
 | mixed | 0.689 | 0.704 | 0.656 | 0.750 | +0.150 [0.102, 0.199] |
-| full (1 epoch) | 0.714 | 0.802 | 0.721 | 0.799 | +0.199 [0.145, 0.254] |
+| full (1 epoch, seed 0) | 0.714 | 0.802 | 0.721 | 0.799 | +0.199 [0.145, 0.254] |
+| full (1 epoch, seed 1) | - | - | 0.665 | 0.781 | +0.181 [0.126, 0.238] |
 
 Intervals are paired bootstrap by pair id (2,000 draws). The side-only delta in
 accuracy is +0.044 [-0.008, 0.094], so the transfer is in ranking rather than in
@@ -363,5 +364,9 @@ from the original test (0.799 vs 0.802). The base number on the original test
 **Regressions.** POPE improves (0.783 -> 0.850 accuracy, F1 0.732 -> 0.852).
 Fine-grained tasks are stable: overall 0.832 -> 0.823, attribute 0.765 -> 0.805,
 behavior 0.865 -> 0.820, existence 0.865 -> 0.845; the gray-image control is
-unchanged (0.807 -> 0.802). The adapter's logit lens moves the readable signal
-to layers 17-18 (0.667 / 0.831) and strengthens it (final 0.864 vs 0.634).
+unchanged (0.807 -> 0.802). TIFA shows a trade-off: cued recall rises (0.753 ->
+0.867) while free-form coverage falls (0.788 -> 0.588), mostly because the
+adapter follows the "one or two sentences" instruction and writes 12.2 words
+instead of 39.6; at matched length coverage is 0.702 vs 0.788. The adapter's
+logit lens moves the readable signal to layers 17-18 (0.667 / 0.831) and
+strengthens it (final 0.864 vs 0.634).

@@ -40,12 +40,15 @@ Intervals: paired bootstrap by pair id, 2,000 draws.
 
 ## 3. Stability across seeds
 
-| seed | relation acc | relation AUC | delta AUC |
+| adapter / seed | relation acc | relation AUC | delta AUC |
 |---|---:|---:|---:|
 | side-only seed 0 | 0.617 | 0.717 | +0.117 [0.073, 0.160] |
 | side-only seed 1 | 0.594 | 0.705 | +0.105 [0.060, 0.150] |
+| full seed 0 | 0.721 | 0.799 | +0.199 [0.145, 0.254] |
+| full seed 1 | 0.665 | 0.781 | +0.181 [0.126, 0.238] |
 
-The ranking gain is stable; the accuracy gain is not (both CIs include 0).
+The ranking gain is stable; the side-only accuracy gain is not (both CIs include 0).
+On the confirmation set the two full seeds are nearly identical (0.802 / 0.804).
 
 ## 4. Cross-group generalization
 
@@ -100,6 +103,18 @@ F1 0.732 -> **0.852**.
 Fine-grained (600 pairs): overall 0.832 -> 0.823, attribute 0.765 -> **0.805**,
 behavior 0.865 -> 0.820, existence 0.865 -> 0.845; gray-image control 0.807 ->
 0.802. No catastrophic regression.
+
+TIFA (100 images / 466 facts) exposes a trade-off:
+
+| setting | cued recall | judge coverage | mean words |
+|---|---:|---:|---:|
+| base, default prompt | 0.753 | 0.788 | 39.6 |
+| full, default prompt | **0.867** | 0.588 | 12.2 |
+| full, asked for four sentences | **0.867** | **0.702** | 36.3 |
+
+The adapter follows the "one or two sentences" instruction more closely, so the
+coverage drop is partly a length/style effect; at matched length coverage is
+0.702 vs base 0.788. Cued recall improves, so this is not a knowledge regression.
 
 Logit lens (core 80 pairs): the readable signal moves earlier and strengthens —
 base L18/L19/final = 0.636/0.646/0.634; full = 0.831/0.847/0.864.

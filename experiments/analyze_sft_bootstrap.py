@@ -13,7 +13,7 @@ import glob
 TAGS = ["base"] + sorted(
     Path(f).stem.replace("eval_relation_", "")
     for f in glob.glob(str(ROOT / "results/sft/eval_relation_*.json"))
-    if "base" not in Path(f).stem)
+    if "base" not in Path(f).stem and "confirm" not in Path(f).stem)
 
 
 def main():

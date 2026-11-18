@@ -344,7 +344,8 @@ images; 11,816 side questions plus 3,600 relation questions.
 | side-only | 0.645 / 0.682 | 0.617 | 0.717 |
 | relation-only | 0.551 / 0.492 | 0.683 | 0.777 |
 | mixed, 4k steps | 0.689 / 0.704 | 0.656 | 0.750 |
-| full, 1 epoch | 0.714 / 0.802 | 0.721 | 0.799 |
+| full, 1 epoch (seed 0) | 0.714 / 0.802 | 0.721 | 0.799 |
+| full, 1 epoch (seed 1) | - | 0.665 | 0.781 |
 
 - Side-only training transfers to relations (+0.117 AUC, paired bootstrap
   [0.071, 0.161]; second seed +0.105 [0.058, 0.150]) while relation-only training
@@ -355,7 +356,10 @@ images; 11,816 side questions plus 3,600 relation questions.
   replicates; the base number on the original test was optimistic.
 - POPE improves (0.783 -> 0.850 accuracy, F1 0.732 -> 0.852). Fine-grained tasks
   are stable (overall 0.832 -> 0.823; attribute 0.765 -> 0.805; behavior 0.865 ->
-  0.820; gray control 0.807 -> 0.802).
+  0.820; gray control 0.807 -> 0.802). TIFA shows a trade-off: cued recall rises
+  (0.753 -> 0.867) but free-form coverage falls (0.788 -> 0.588), largely because
+  the adapter writes 12.2 words instead of 39.6 under the "one or two sentences"
+  instruction; at matched length coverage is 0.702 vs 0.788.
 - The adapter's lens moves the readable signal to L17-18 (0.667 / 0.831) and
   strengthens it (final 0.864 vs 0.634).
 
