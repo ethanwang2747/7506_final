@@ -1,0 +1,668 @@
+{
+ "adapter": null,
+ "n_pairs": 12,
+ "conditions": {
+  "early:target": {
+   "pair_pref": 0.8333333333333334,
+   "mean_delta": -0.44007522116104764
+  },
+  "early:reference": {
+   "pair_pref": 0.75,
+   "mean_delta": -0.4392819404602051
+  },
+  "early:random": {
+   "pair_pref": 0.6666666666666666,
+   "mean_delta": -0.417965034643809
+  },
+  "mid:target": {
+   "pair_pref": 0.5833333333333334,
+   "mean_delta": -0.05375449607769648
+  },
+  "mid:reference": {
+   "pair_pref": 0.75,
+   "mean_delta": -0.2508312811454137
+  },
+  "mid:random": {
+   "pair_pref": 0.75,
+   "mean_delta": -0.397676778336366
+  },
+  "late:target": {
+   "pair_pref": 0.75,
+   "mean_delta": -0.4398777311046918
+  },
+  "late:reference": {
+   "pair_pref": 0.75,
+   "mean_delta": -0.4704997390508652
+  },
+  "late:random": {
+   "pair_pref": 0.6666666666666666,
+   "mean_delta": -0.40843968093395233
+  },
+  "all:target": {
+   "pair_pref": 0.5833333333333334,
+   "mean_delta": -0.04351218044757843
+  },
+  "all:reference": {
+   "pair_pref": 0.8333333333333334,
+   "mean_delta": -0.24030949175357819
+  },
+  "all:random": {
+   "pair_pref": 0.6666666666666666,
+   "mean_delta": -0.36598299195369083
+  }
+ },
+ "per_pair": [
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0000",
+   "early:target": {
+    "clean": -0.25275468826293945,
+    "moved": -1.2506288290023804
+   },
+   "early:reference": {
+    "clean": -0.2514607310295105,
+    "moved": -1.1261441707611084
+   },
+   "early:random": {
+    "clean": -0.2524067163467407,
+    "moved": -1.250002145767212
+   },
+   "mid:target": {
+    "clean": -1.3749988079071045,
+    "moved": -1.5004905462265015
+   },
+   "mid:reference": {
+    "clean": -0.006000101566314697,
+    "moved": -0.7506280541419983
+   },
+   "mid:random": {
+    "clean": -0.7519880533218384,
+    "moved": -1.126147985458374
+   },
+   "late:target": {
+    "clean": -0.6249985694885254,
+    "moved": -1.251217246055603
+   },
+   "late:reference": {
+    "clean": -0.3768702745437622,
+    "moved": -1.2506284713745117
+   },
+   "late:random": {
+    "clean": -0.5016539096832275,
+    "moved": -1.2507119178771973
+   },
+   "all:target": {
+    "clean": -1.374334692955017,
+    "moved": -1.6250019073486328
+   },
+   "all:reference": {
+    "clean": -0.0042798519134521484,
+    "moved": -0.8750017881393433
+   },
+   "all:random": {
+    "clean": -0.7506257891654968,
+    "moved": -1.1264714002609253
+   }
+  },
+  {
+   "pair_id": "spatial:test:chair|to the left of|table:0001",
+   "early:target": {
+    "clean": -1.502554178237915,
+    "moved": -1.5103987455368042
+   },
+   "early:reference": {
+    "clean": -1.503110647201538,
+    "moved": -1.5103970766067505
+   },
+   "early:random": {
+    "clean": -1.503778100013733,
+    "moved": -1.5048389434814453
+   },
+   "mid:target": {
+    "clean": -1.502554178237915,
+    "moved": -1.6323418617248535
+   },
+   "mid:reference": {
+    "clean": -1.5021225214004517,
+    "moved": -1.5065019130706787
+   },
+   "mid:random": {
+    "clean": -1.253310203552246,
+    "moved": -1.505666971206665
+   },
+   "late:target": {
+    "clean": -1.3796851634979248,
+    "moved": -1.508918046951294
+   },
+   "late:reference": {
+    "clean": -1.5037777423858643,
+    "moved": -1.6315003633499146
+   },
+   "late:random": {
+    "clean": -1.6277494430541992,
+    "moved": -1.5103981494903564
+   },
+   "all:target": {
+    "clean": -1.5037773847579956,
+    "moved": -1.6323407888412476
+   },
+   "all:reference": {
+    "clean": -1.5021226406097412,
+    "moved": -1.5078964233398438
+   },
+   "all:random": {
+    "clean": -1.2521241903305054,
+    "moved": -1.5030773878097534
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0000",
+   "early:target": {
+    "clean": 0.37472039461135864,
+    "moved": 0.12464171648025513
+   },
+   "early:reference": {
+    "clean": 0.3746400475502014,
+    "moved": 0.12447816133499146
+   },
+   "early:random": {
+    "clean": -0.12600165605545044,
+    "moved": -0.2509130835533142
+   },
+   "mid:target": {
+    "clean": 0.4997210204601288,
+    "moved": 0.37461984157562256
+   },
+   "mid:reference": {
+    "clean": 0.24964064359664917,
+    "moved": 0.24964207410812378
+   },
+   "mid:random": {
+    "clean": 0.2493916153907776,
+    "moved": -0.0005372166633605957
+   },
+   "late:target": {
+    "clean": 0.37431126832962036,
+    "moved": 0.12456923723220825
+   },
+   "late:reference": {
+    "clean": 0.2496841549873352,
+    "moved": 0.12459522485733032
+   },
+   "late:random": {
+    "clean": 0.24966353178024292,
+    "moved": 0.24939101934432983
+   },
+   "all:target": {
+    "clean": 0.4995383024215698,
+    "moved": 0.3744286894798279
+   },
+   "all:reference": {
+    "clean": 0.24961698055267334,
+    "moved": 0.12461936473846436
+   },
+   "all:random": {
+    "clean": -0.5010671615600586,
+    "moved": -0.6262087821960449
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the left of|person:0001",
+   "early:target": {
+    "clean": -0.5007171630859375,
+    "moved": -0.6256124973297119
+   },
+   "early:reference": {
+    "clean": -0.6256067752838135,
+    "moved": -0.7504734992980957
+   },
+   "early:random": {
+    "clean": -0.5005955696105957,
+    "moved": -0.7505044937133789
+   },
+   "mid:target": {
+    "clean": -0.5006335973739624,
+    "moved": -0.7504453659057617
+   },
+   "mid:reference": {
+    "clean": -0.5006742477416992,
+    "moved": -0.6256122589111328
+   },
+   "mid:random": {
+    "clean": -0.500673770904541,
+    "moved": -0.6255593299865723
+   },
+   "late:target": {
+    "clean": -0.5009011030197144,
+    "moved": -0.7505707740783691
+   },
+   "late:reference": {
+    "clean": -0.5007843375205994,
+    "moved": -0.7505708932876587
+   },
+   "late:random": {
+    "clean": -0.5008348226547241,
+    "moved": -0.7505710124969482
+   },
+   "all:target": {
+    "clean": -0.5006740689277649,
+    "moved": -0.6255408525466919
+   },
+   "all:reference": {
+    "clean": -0.5007843971252441,
+    "moved": -0.7505366802215576
+   },
+   "all:random": {
+    "clean": -0.5008465051651001,
+    "moved": -0.625633955001831
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0000",
+   "early:target": {
+    "clean": -0.2526429295539856,
+    "moved": -0.2525317668914795
+   },
+   "early:reference": {
+    "clean": -0.25223374366760254,
+    "moved": -0.12771660089492798
+   },
+   "early:random": {
+    "clean": -0.25286591053009033,
+    "moved": -0.25248438119888306
+   },
+   "mid:target": {
+    "clean": -0.7519358396530151,
+    "moved": -0.6273980140686035
+   },
+   "mid:reference": {
+    "clean": -0.1268567442893982,
+    "moved": -0.12706226110458374
+   },
+   "mid:random": {
+    "clean": -0.2528114914894104,
+    "moved": -0.25281184911727905
+   },
+   "late:target": {
+    "clean": -0.25281256437301636,
+    "moved": -0.12919378280639648
+   },
+   "late:reference": {
+    "clean": -0.25307416915893555,
+    "moved": -0.1282728910446167
+   },
+   "late:random": {
+    "clean": -0.25327110290527344,
+    "moved": -0.12848126888275146
+   },
+   "all:target": {
+    "clean": -0.6277570724487305,
+    "moved": -0.6271020174026489
+   },
+   "all:reference": {
+    "clean": -0.001821756362915039,
+    "moved": -0.12725478410720825
+   },
+   "all:random": {
+    "clean": -0.25425708293914795,
+    "moved": -0.25271672010421753
+   }
+  },
+  {
+   "pair_id": "spatial:test:man|to the right of|woman:0001",
+   "early:target": {
+    "clean": 1.2489715814590454,
+    "moved": 0.49017325043678284
+   },
+   "early:reference": {
+    "clean": 1.6249938011169434,
+    "moved": 0.4948505163192749
+   },
+   "early:random": {
+    "clean": 1.2499940395355225,
+    "moved": 0.36778444051742554
+   },
+   "mid:target": {
+    "clean": 0.7487819194793701,
+    "moved": 0.24515706300735474
+   },
+   "mid:reference": {
+    "clean": 0.8742437958717346,
+    "moved": 0.7460936903953552
+   },
+   "mid:random": {
+    "clean": 1.998701572418213,
+    "moved": 0.7451565265655518
+   },
+   "late:target": {
+    "clean": 1.7464672327041626,
+    "moved": 0.4918461740016937
+   },
+   "late:reference": {
+    "clean": 1.6224334239959717,
+    "moved": 0.36684560775756836
+   },
+   "late:random": {
+    "clean": 1.624192714691162,
+    "moved": 0.49184465408325195
+   },
+   "all:target": {
+    "clean": 0.2483447790145874,
+    "moved": -0.007668256759643555
+   },
+   "all:reference": {
+    "clean": 0.6239670515060425,
+    "moved": 0.6217553615570068
+   },
+   "all:random": {
+    "clean": 1.747239351272583,
+    "moved": 0.49515652656555176
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0000",
+   "early:target": {
+    "clean": 0.24832242727279663,
+    "moved": 0.24821501970291138
+   },
+   "early:reference": {
+    "clean": 0.12421435117721558,
+    "moved": 0.24841129779815674
+   },
+   "early:random": {
+    "clean": -0.1279296875,
+    "moved": -0.1271289587020874
+   },
+   "mid:target": {
+    "clean": -0.6257835030555725,
+    "moved": -0.1264020800590515
+   },
+   "mid:reference": {
+    "clean": -0.37630730867385864,
+    "moved": -0.0014428496360778809
+   },
+   "mid:random": {
+    "clean": 0.1238563060760498,
+    "moved": 0.2478334903717041
+   },
+   "late:target": {
+    "clean": -0.0005182623863220215,
+    "moved": 0.12385541200637817
+   },
+   "late:reference": {
+    "clean": 0.12312102317810059,
+    "moved": 0.12370431423187256
+   },
+   "late:random": {
+    "clean": 0.12362170219421387,
+    "moved": 0.2478327751159668
+   },
+   "all:target": {
+    "clean": -0.376392126083374,
+    "moved": -0.127036452293396
+   },
+   "all:reference": {
+    "clean": -0.3766327500343323,
+    "moved": -0.1259656548500061
+   },
+   "all:random": {
+    "clean": -0.2532746195793152,
+    "moved": -0.12902474403381348
+   }
+  },
+  {
+   "pair_id": "spatial:test:person|to the right of|man:0001",
+   "early:target": {
+    "clean": -0.7515349388122559,
+    "moved": -0.6271880865097046
+   },
+   "early:reference": {
+    "clean": -0.7517403960227966,
+    "moved": -0.6268156170845032
+   },
+   "early:random": {
+    "clean": -0.7513554096221924,
+    "moved": -0.6269322633743286
+   },
+   "mid:target": {
+    "clean": -0.8765347003936768,
+    "moved": -0.6267529726028442
+   },
+   "mid:reference": {
+    "clean": -0.7516340017318726,
+    "moved": -0.7513545751571655
+   },
+   "mid:random": {
+    "clean": -0.7523744106292725,
+    "moved": -0.751535177230835
+   },
+   "late:target": {
+    "clean": -0.7520556449890137,
+    "moved": -0.6266470551490784
+   },
+   "late:reference": {
+    "clean": -0.752056360244751,
+    "moved": -0.7513557076454163
+   },
+   "late:random": {
+    "clean": -0.876400351524353,
+    "moved": -0.7511236667633057
+   },
+   "all:target": {
+    "clean": -0.8768504858016968,
+    "moved": -0.6272491216659546
+   },
+   "all:reference": {
+    "clean": -0.751442551612854,
+    "moved": -0.626705527305603
+   },
+   "all:random": {
+    "clean": -0.7514437437057495,
+    "moved": -0.6267061233520508
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0000",
+   "early:target": {
+    "clean": 1.8897911310195923,
+    "moved": 0.375
+   },
+   "early:reference": {
+    "clean": 1.8822059631347656,
+    "moved": 0.12500113248825073
+   },
+   "early:random": {
+    "clean": 2.0102624893188477,
+    "moved": 0.374999463558197
+   },
+   "mid:target": {
+    "clean": -0.11633557081222534,
+    "moved": 0.4989069700241089
+   },
+   "mid:reference": {
+    "clean": 1.2581470012664795,
+    "moved": 0.6257087588310242
+   },
+   "mid:random": {
+    "clean": 2.0154929161071777,
+    "moved": 0.49903419613838196
+   },
+   "late:target": {
+    "clean": 2.014789581298828,
+    "moved": 0.37288278341293335
+   },
+   "late:reference": {
+    "clean": 2.0130996704101562,
+    "moved": 0.3738383650779724
+   },
+   "late:random": {
+    "clean": 2.1354353427886963,
+    "moved": 0.25
+   },
+   "all:target": {
+    "clean": -0.24021267890930176,
+    "moved": 0.4984424114227295
+   },
+   "all:reference": {
+    "clean": 0.8792339563369751,
+    "moved": 0.4995381832122803
+   },
+   "all:random": {
+    "clean": 2.136225938796997,
+    "moved": 0.4982387125492096
+   }
+  },
+  {
+   "pair_id": "spatial:test:tree|to the left of|building:0001",
+   "early:target": {
+    "clean": 2.4999048709869385,
+    "moved": 1.7493354082107544
+   },
+   "early:reference": {
+    "clean": 2.6247382164001465,
+    "moved": 1.8740357160568237
+   },
+   "early:random": {
+    "clean": 2.1249098777770996,
+    "moved": 1.6242974996566772
+   },
+   "mid:target": {
+    "clean": 1.3747698068618774,
+    "moved": 1.2495183944702148
+   },
+   "mid:reference": {
+    "clean": 2.4996652603149414,
+    "moved": 1.874375820159912
+   },
+   "mid:random": {
+    "clean": 1.7498294115066528,
+    "moved": 1.3743348121643066
+   },
+   "late:target": {
+    "clean": 2.2496860027313232,
+    "moved": 1.873719573020935
+   },
+   "late:reference": {
+    "clean": 2.4998302459716797,
+    "moved": 1.8742003440856934
+   },
+   "late:random": {
+    "clean": 2.374568223953247,
+    "moved": 1.8736377954483032
+   },
+   "all:target": {
+    "clean": 0.7496874332427979,
+    "moved": 0.7496230602264404
+   },
+   "all:reference": {
+    "clean": 2.2498786449432373,
+    "moved": 1.7493410110473633
+   },
+   "all:random": {
+    "clean": 1.124617099761963,
+    "moved": 0.8744826316833496
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0000",
+   "early:target": {
+    "clean": 1.124220848083496,
+    "moved": 0.2490612268447876
+   },
+   "early:reference": {
+    "clean": 1.1241179704666138,
+    "moved": 0.37422001361846924
+   },
+   "early:random": {
+    "clean": 1.1243115663528442,
+    "moved": 0.3743523955345154
+   },
+   "mid:target": {
+    "clean": 1.2493534088134766,
+    "moved": 0.24931079149246216
+   },
+   "mid:reference": {
+    "clean": 1.1242671012878418,
+    "moved": 0.3742208480834961
+   },
+   "mid:random": {
+    "clean": 1.4992669820785522,
+    "moved": 0.6242198348045349
+   },
+   "late:target": {
+    "clean": 1.2491697072982788,
+    "moved": 0.249370276927948
+   },
+   "late:reference": {
+    "clean": 1.2491705417633057,
+    "moved": 0.37406015396118164
+   },
+   "late:random": {
+    "clean": 1.2490205764770508,
+    "moved": 0.3740202784538269
+   },
+   "all:target": {
+    "clean": 1.2494769096374512,
+    "moved": 0.12416952848434448
+   },
+   "all:reference": {
+    "clean": 1.1240607500076294,
+    "moved": 0.49913346767425537
+   },
+   "all:random": {
+    "clean": 1.3745657205581665,
+    "moved": 0.6243913173675537
+   }
+  },
+  {
+   "pair_id": "spatial:test:woman|to the left of|man:0001",
+   "early:target": {
+    "clean": 3.3747518062591553,
+    "moved": 3.249509811401367
+   },
+   "early:reference": {
+    "clean": 3.3748278617858887,
+    "moved": 3.3747527599334717
+   },
+   "early:random": {
+    "clean": 2.874377965927124,
+    "moved": 2.8747129440307617
+   },
+   "mid:target": {
+    "clean": 0.6246151328086853,
+    "moved": 0.7497289180755615
+   },
+   "mid:reference": {
+    "clean": 3.124781847000122,
+    "moved": 2.7497360706329346
+   },
+   "mid:random": {
+    "clean": 2.999539852142334,
+    "moved": 3.124479055404663
+   },
+   "late:target": {
+    "clean": 3.124478578567505,
+    "moved": 2.999701738357544
+   },
+   "late:reference": {
+    "clean": 3.3747029304504395,
+    "moved": 3.3745665550231934
+   },
+   "late:random": {
+    "clean": 3.3747663497924805,
+    "moved": 3.3746421337127686
+   },
+   "all:target": {
+    "clean": -0.12552601099014282,
+    "moved": 0.1246524453163147
+   },
+   "all:reference": {
+    "clean": 2.9997661113739014,
+    "moved": 2.624699115753174
+   },
+   "all:random": {
+    "clean": 2.12451434135437,
+    "moved": 2.2492973804473877
+   }
+  }
+ ]
+}

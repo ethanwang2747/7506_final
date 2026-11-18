@@ -27,7 +27,7 @@
 ## Stage 1 — 内容 vs 路由（进行中）
 
 - [x] Token ablation（S1/S6，20 对/组，均值替换）
-- [ ] Attention knockout：text→目标/参照，4 层一组 + 全层；随机 token 对照
+- [x] Attention knockout：text→目标/参照，early/mid/late/all；随机 token 对照
 - [ ] 指标：RC preference、Δmargin、翻转率
 - [ ] 产出：内容 vs 路由的因果表
 
@@ -42,6 +42,17 @@
 | 消融随机 token | 0.700 | −0.213 | 0.642 | −0.200 |
 
 读法：S1 主要靠目标内容，S6 参照内容开始起作用；背景/随机对照保持较高，效应是特异的。
+
+**Stage 1 attention knockout 结果（base，60 对）：**
+
+| 层组 | 目标 token | 参照 token | 随机 token |
+|---|---:|---:|---:|
+| early (0–7) | 0.750 | 0.667 | 0.667 |
+| mid (8–15) | 0.717 | 0.717 | 0.733 |
+| late (16–23) | 0.733 | 0.650 | 0.700 |
+| all | 0.633 | 0.650 | 0.700 |
+
+读法：只有全层阻断目标/参照时偏好略降（0.633/0.650 vs 随机 0.700），但效应小、特异性弱；late 参照 0.650 也接近随机。结论：**在这个模型上，text→object attention 不是 RC 偏好的主要载体**；内容替换（token ablation）的效应更清楚。这是与 Grounding Isn't Knowing 的模型不同的地方。
 
 ## Stage 2 — 精细定位（第 3 周）
 
