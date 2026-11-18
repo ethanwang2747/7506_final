@@ -1,0 +1,36 @@
+{
+ "adapter": "results/sft/adapter_full",
+ "n": 480,
+ "margin_auc": 0.7990972222222221,
+ "margin_acc": 0.7208333333333333,
+ "flip_score_auc": 0.8111979166666667,
+ "flip_score_acc": 0.71875,
+ "margin_pair_acc": 0.7833333333333333,
+ "flip_pair_acc": 0.8166666666666667,
+ "per_group": {
+  "chair|to the left of|table": {
+   "margin_auc": 0.8137500000000001,
+   "flip_auc": 0.7987500000000001
+  },
+  "man|to the left of|person": {
+   "margin_auc": 0.600625,
+   "flip_auc": 0.6431250000000001
+  },
+  "man|to the right of|woman": {
+   "margin_auc": 0.853125,
+   "flip_auc": 0.88625
+  },
+  "person|to the right of|man": {
+   "margin_auc": 0.62875,
+   "flip_auc": 0.67875
+  },
+  "tree|to the left of|building": {
+   "margin_auc": 0.901875,
+   "flip_auc": 0.905625
+  },
+  "woman|to the left of|man": {
+   "margin_auc": 0.903125,
+   "flip_auc": 0.89125
+  }
+ }
+}

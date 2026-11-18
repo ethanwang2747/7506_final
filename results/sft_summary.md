@@ -80,6 +80,18 @@ With a uniform gray image, both the base model and the full adapter score
 0.500 accuracy / 0.500 AUC on the relation task. The improvement requires the
 image and is not a language prior.
 
+## 5.2 Flip consistency stacks with SFT
+
+| metric | base | full adapter |
+|---|---:|---:|
+| margin AUC | 0.600 | 0.799 |
+| flip-consistency AUC | 0.687 | **0.811** |
+| margin pair accuracy | 0.596 | 0.783 |
+| flip pair accuracy | 0.663 | **0.817** |
+
+The two interventions are complementary, but SFT captures most of the flip gain
+(base +0.087 AUC, full +0.012); pair accuracy still gains +0.034.
+
 ## 6. Caveats
 
 - 4,000-step pilots (1/4 epoch), one seed per adapter except side-only.

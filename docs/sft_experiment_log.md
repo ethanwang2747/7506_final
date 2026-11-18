@@ -274,3 +274,20 @@
 - 与 flip consistency 组合（推理时）
 - 跨组泛化：留出未参与训练的组
 - 报告整合：把 2×2 写进 report/readout_gap_section.md
+
+
+---
+
+## Step 11 — 与镜像一致性叠加（2026-11-18）
+
+脚本：`eval_flip_adapter.py`；每个样本计算原图与水平镜像的 margin，score = margin(原) − margin(镜像)。
+
+| 指标 | base | full adapter |
+|---|---:|---:|
+| 原始 margin AUC | 0.600 | 0.799 |
+| 翻转一致性 AUC | 0.687 | **0.811** |
+| 原始 margin pair acc | 0.596 | 0.783 |
+| 翻转一致性 pair acc | 0.663 | **0.817** |
+
+结论：两种干预可以叠加，但 SFT 已经吃掉了大部分翻转一致性带来的增益
+（base +0.087 AUC，full 仅 +0.012 AUC）；pair acc 上仍有 +0.034。
