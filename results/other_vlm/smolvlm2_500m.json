@@ -1,0 +1,103 @@
+{
+ "model": "models/SmolVLM2-500M",
+ "tag": "smolvlm2_500m",
+ "n": 480,
+ "margin_acc": 0.5604166666666667,
+ "margin_auc": 0.540564236111111,
+ "per_group": {
+  "chair|to the left of|table": {
+   "acc": 0.6125,
+   "auc": 0.630625
+  },
+  "man|to the left of|person": {
+   "acc": 0.5125,
+   "auc": 0.515625
+  },
+  "man|to the right of|woman": {
+   "acc": 0.55,
+   "auc": 0.49375
+  },
+  "person|to the right of|man": {
+   "acc": 0.5375,
+   "auc": 0.556875
+  },
+  "tree|to the left of|building": {
+   "acc": 0.575,
+   "auc": 0.566875
+  },
+  "woman|to the left of|man": {
+   "acc": 0.575,
+   "auc": 0.5246875
+  }
+ },
+ "side": {
+  "horizontal": {
+   "n": 1920,
+   "acc": 0.5052083333333334,
+   "pred_dist": {
+    "left": 1890,
+    "right": 30
+   },
+   "truth_dist": {
+    "left": 962,
+    "right": 958
+   }
+  },
+  "horizontal_order0": {
+   "n": 960,
+   "acc": 0.5010416666666667,
+   "pred_dist": {
+    "left": 960
+   }
+  },
+  "horizontal_order1": {
+   "n": 960,
+   "acc": 0.509375,
+   "pred_dist": {
+    "left": 930,
+    "right": 30
+   }
+  },
+  "vertical": {
+   "n": 1920,
+   "acc": 0.47604166666666664,
+   "pred_dist": {
+    "top": 1612,
+    "bottom": 308
+   },
+   "truth_dist": {
+    "bottom": 1144,
+    "top": 776
+   }
+  },
+  "vertical_order0": {
+   "n": 960,
+   "acc": 0.4041666666666667,
+   "pred_dist": {
+    "top": 960
+   }
+  },
+  "vertical_order1": {
+   "n": 960,
+   "acc": 0.5479166666666667,
+   "pred_dist": {
+    "bottom": 308,
+    "top": 652
+   }
+  }
+ },
+ "side_given": {
+  "true": {
+   "n": 480,
+   "acc": 0.6520833333333333,
+   "diff_half_n": 267,
+   "diff_half_acc": 0.7265917602996255
+  },
+  "swapped": {
+   "n": 480,
+   "acc": 0.42083333333333334,
+   "diff_half_n": 267,
+   "diff_half_acc": 0.3258426966292135
+  }
+ }
+}

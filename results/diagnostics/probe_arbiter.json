@@ -1,0 +1,61 @@
+{
+ "n": 480,
+ "results": {
+  "original": {
+   "S1": {
+    "target_left": 0.9488853392596707,
+    "reference_left": 0.9293986907676546
+   },
+   "S6": {
+    "target_left": 0.942721716785888,
+    "reference_left": 0.9205952318938723
+   },
+   "S12": {
+    "target_left": 0.9484339190221542,
+    "reference_left": 0.9161153652480422
+   }
+  },
+  "gray": {
+   "S1": {
+    "target_left": 0.9944180151399402,
+    "reference_left": 0.983599868034936
+   },
+   "S6": {
+    "target_left": 0.9950256962289047,
+    "reference_left": 0.9848153357295412
+   },
+   "S12": {
+    "target_left": 0.9958938120702827,
+    "reference_left": 0.9864128075567362
+   }
+  },
+  "shuffled": {
+   "S1": {
+    "target_left": 0.9833842627960275,
+    "reference_left": 0.9617822229167752
+   },
+   "S6": {
+    "target_left": 0.9864921175081602,
+    "reference_left": 0.9636054244586829
+   },
+   "S12": {
+    "target_left": 0.9824293353705119,
+    "reference_left": 0.9547151464638572
+   }
+  },
+  "target_gray": {
+   "S1": {
+    "target_left": 0.9759358288770054,
+    "reference_left": 0.9207688701359588
+   },
+   "S6": {
+    "target_left": 0.9795471907771373,
+    "reference_left": 0.9162716396659201
+   },
+   "S12": {
+    "target_left": 0.9717341482047364,
+    "reference_left": 0.9167230990953447
+   }
+  }
+ }
+}

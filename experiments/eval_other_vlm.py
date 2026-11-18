@@ -100,16 +100,28 @@ def main():
     ap.add_argument("--max-per-group", type=int, default=40)
     ap.add_argument("--batch-size", type=int, default=4)
     ap.add_argument("--max-pixels", type=int, default=384 * 384)
+    ap.add_argument("--load-4bit", action="store_true")
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
     proc = AutoProcessor.from_pretrained(args.model)
     if hasattr(proc, "image_processor"):
-        proc.image_processor.max_pixels = args.max_pixels
-        proc.image_processor.min_pixels = 64 * 64
+        ip = proc.image_processor
+        if hasattr(ip, "max_pixels") and "Qwen" in type(ip).__name__:
+            ip.max_pixels = args.max_pixels
+            ip.min_pixels = 64 * 64
+        if hasattr(ip, "do_image_splitting"):
+            ip.do_image_splitting = False
     proc.tokenizer.padding_side = "left"
-    model = AutoModelForImageTextToText.from_pretrained(
-        args.model, dtype=torch.bfloat16, device_map={"": 0}).eval()
+    if args.load_4bit:
+        from transformers import BitsAndBytesConfig
+        quant = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16)
+        model = AutoModelForImageTextToText.from_pretrained(
+            args.model, quantization_config=quant, device_map={"": 0}).eval()
+    else:
+        model = AutoModelForImageTextToText.from_pretrained(
+            args.model, dtype=torch.bfloat16, device_map={"": 0},
+            attn_implementation="sdpa").eval()
     yes_ids, no_ids = yes_no_ids(proc)
     print(f"{args.tag}: yes {yes_ids[:3]} no {no_ids[:3]}")
 

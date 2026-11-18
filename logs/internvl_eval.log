@@ -1,0 +1,33 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1795006658.340001   47778 sentencepiece_processor.cc:130] Piece at index 354 is a null character (\0) and byte_fallback is enabled. Treating it as an UNUSED piece.
+/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+FlashAttention2 is not installed.
+[transformers] InternLM2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly defined. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Warning: Flash attention is not available, using eager attention instead.
+Traceback (most recent call last):
+  File "/home/yucheng/ris/7506project/experiments/eval_internvl.py", line 197, in <module>
+    main()
+  File "/home/yucheng/ris/7506project/experiments/eval_internvl.py", line 100, in main
+    model = AutoModel.from_pretrained(args.model, dtype=torch.bfloat16, low_cpu_mem_usage=True,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 392, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4339, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4419, in _load_pretrained_model
+    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)
+  File "/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 5051, in caching_allocator_warmup
+    total_byte_count = get_total_byte_count(model, accelerator_device_map, hf_quantizer)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 5000, in get_total_byte_count
+    tied_param_names = model.all_tied_weights_keys.keys()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yucheng/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1968, in __getattr__
+    raise AttributeError(
+AttributeError: 'InternVLChatModel' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?

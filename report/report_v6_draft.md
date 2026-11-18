@@ -14,8 +14,11 @@ On these pairs the label is almost fully determined by the two bounding boxes
 reaches only 0.600 and is nearly uncorrelated with that geometry (Spearman
 0.18). A staged diagnostic chain locates the gap. Object identity is linearly
 decodable from single visual tokens (name pointing 0.54-0.62 vs chance 0.21),
-and pooled target-region tokens decode an object's horizontal side at AUC 0.95.
-The decision state at layer 19 does not: target-left 0.65, reference-left 0.56.
+and pooled target-region tokens appear to decode an object's horizontal side at
+AUC 0.95. A gray-image arbiter overturns that reading: the same probe reaches
+0.994 on a uniform gray image and 0.983 on shuffled patches, so it decodes the
+oracle box's location, not object content. The last-token side probe is a
+different and weaker measurement (target-left 0.65, reference-left 0.56).
 When asked directly, the model cannot report a side at all (horizontal answers
 are a constant "left"; vertical answers follow a "top" prior and fall below the
 truth majority baseline). Yet when the true sides are supplied in the prompt,
@@ -30,16 +33,38 @@ gives 0.705. Relation-only training does not teach side reporting. A full-epoch
 mixed adapter reaches 0.721 accuracy / 0.799 AUC on the development test and
 0.700 / 0.802 on a fresh image-disjoint confirmation set (delta AUC +0.271,
 95% paired bootstrap [0.215, 0.328]); a second seed gives 0.708 / 0.804 on the
-confirmation set. The adapter's logit lens moves the readable signal from layers
-18-19 to layers 17-18. POPE improves, fine-grained attribute/behavior tasks are
+confirmation set. The adapter's logit lens makes the signal readable earlier and stronger, but
+the peak remains at layer 23 (0.860). POPE improves, fine-grained attribute/behavior tasks are
 stable, and TIFA exposes a trade-off: cued recall rises while free-form
 description coverage falls, mostly because the adapter follows the
 "one-or-two-sentences" instruction and writes much shorter captions. A same-size check (Qwen2-VL-2B, 2.2B) on the same 480 examples reaches 0.746
 accuracy / 0.826 AUC, reports sides at 0.746/0.802, and is only partly swayed by
-swapped side statements (0.562 vs our model's 0.120). The readout weakness is
-therefore model-specific, not a general limitation of small VLMs. We conclude
+swapped side statements (0.562 vs our model's 0.120). The weakness is therefore family/training-specific in this single-checkpoint
+comparison, not a general limitation of small VLMs; token budgets (81 vs 165)
+are not matched. We conclude
 that the contribution is a controlled diagnostic chain plus intervention
 evidence for a spatial readout bottleneck, not a claim of a unique mechanism.
+
+## Correction after review (2026-11-18)
+
+Two controls changed the interpretation.
+
+**Single-box rule.** A rule that uses only the target box's absolute x (no
+reference object) reaches AUC 0.871 / accuracy 0.804 on the same 480 examples;
+our full adapter reaches 0.799 / 0.721. On the same-half subset, where a
+comparison is actually required, the rule reaches 0.721 and the adapter 0.701.
+Most of the benchmark score is therefore explained by the target's absolute
+side, and SFT mainly improves that readout.
+
+**Gray/shuffled probe arbiter.** The oracle-box visual side probe scores 0.949
+on original images, 0.994 on gray images, 0.983 on shuffled patches, and 0.976
+with the target box painted gray. It reads the location of the pooled tokens,
+not object grounding. This is the failure mode warned about by
+[Decodable Is Not Grounded](https://arxiv.org/abs/2606.31257).
+
+The defensible contribution is a controlled same-image pairing protocol plus a
+single-box / same-half decomposition of what the benchmark measures and what SFT
+learns, not a "readout bottleneck" mechanism claim.
 
 ## 1. Introduction
 
@@ -277,7 +302,18 @@ base L18/L19/final = 0.636/0.646/0.634; full = 0.831/0.847/0.864.
 ## 8. Related work
 
 Probing classifiers show that decodability is not use [Belinkov 2022; Hewitt &
-Liang 2019]. Attention is not explanation [Jain & Wallace 2019], and activation
+Liang 2019]; in VLMs, [Decodable Is Not Grounded](https://arxiv.org/abs/2606.31257)
+shows that probes and steering overstate grounding and that a gray-image arbiter
+is needed, while [Grounding Isn't Knowing](https://arxiv.org/abs/2608.23074)
+finds a staged grounding-to-reasoning process and
+[Dual Mechanisms](https://arxiv.org/abs/2603.22278) locates the dominant spatial
+signal in the vision encoder. Spatial benchmarks and failure analyses include
+[What's Up](https://aclanthology.org/2023.emnlp-main.596/),
+[BLINK](https://arxiv.org/abs/2404.12390), and
+[SpatialEval](https://arxiv.org/abs/2406.14852); auxiliary localization training
+is known to help [Learning to Localize](https://arxiv.org/abs/2404.07449),
+[EmbSpatial-Bench](https://arxiv.org/abs/2406.12036), and attention-alignment
+decoding helps on What's Up/VSR [Why Is Spatial Reasoning Hard](https://arxiv.org/abs/2503.01773). Attention is not explanation [Jain & Wallace 2019], and activation
 and path patching provide causal contrasts [Meng et al. 2022; Wang et al. 2022;
 Geiger et al. 2021]. The tuned/logit lens reads intermediate predictions
 [Belrose et al. 2023]. On the VLM side, POPE measures object hallucination [Li
