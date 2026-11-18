@@ -22,3 +22,6 @@ data/derived/*
 
 # Cached readout features
 results/readout/*.pt
+
+# Diagnostic feature caches (regenerable)
+results/diagnostics/*.pt

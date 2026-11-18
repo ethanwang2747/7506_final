@@ -71,11 +71,12 @@ def batch_margins(model, proc, items, yes_ids, no_ids, batch_size=4):
     return margins
 
 
-def batch_generate(model, proc, items, batch_size=4, max_new_tokens=4):
+def batch_generate(model, proc, items, batch_size=4, max_new_tokens=4,
+                   instruction="Answer with a single word, yes or no."):
     texts = []
     for start in range(0, len(items), batch_size):
         batch = items[start:start + batch_size]
-        prompts = [build_prompt(proc, x["question"]) for x in batch]
+        prompts = [build_prompt(proc, x["question"], instruction) for x in batch]
         images = [[x["image"]] for x in batch]
         inputs = proc(text=prompts, images=images, return_tensors="pt", padding=True)
         inputs = {k: v.to("cuda") for k, v in inputs.items()}

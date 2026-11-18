@@ -186,3 +186,105 @@ python experiments/geometry_vs_model.py              # position rule vs margin
 - The lens readout is biased at intermediate layers; use AUC, not the sign.
 - `dev_strict` is the hard subset (model accuracy 0.573); absolute levels are lower than on
   the full dev set. All comparisons here are within-set.
+
+
+---
+
+## 10. Stage 0/1 update (2026-11-18): the bottleneck is position readout
+
+Four new measurements on the same model and test-core pairs refine the diagnosis.
+
+### 10.1 Where is an object's side decodable?
+
+`experiments/extract_side_features.py` + `side_probe.py`: last-token states at layers
+12/16/18/19/20/23, 480 examples, GroupKFold by image.
+
+| probe | L12 | L16 | L18 | L19 | L20 | L23 |
+|---|---:|---:|---:|---:|---:|---:|
+| target left half (raw) | 0.523 | 0.594 | 0.622 | 0.653 | 0.647 | 0.633 |
+| reference left half (raw) | 0.487 | 0.553 | 0.566 | 0.544 | 0.555 | 0.519 |
+| target top half (raw) | 0.768 | 0.805 | 0.795 | 0.792 | 0.789 | 0.773 |
+| reference top half (raw) | 0.767 | 0.791 | 0.810 | 0.782 | 0.790 | 0.793 |
+| answer | 0.489 | 0.590 | 0.583 | 0.589 | 0.590 | 0.567 |
+
+Group-centering (to remove object-category effects) leaves the pattern: at L19
+target-left 0.649, reference-left 0.556, target-top 0.746, reference-top 0.701,
+answer 0.608. Continuous centre-x regression gives R^2 ~ 0 (target) and negative
+(reference): the last token has a coarse vertical code, but no usable horizontal
+position.
+
+### 10.2 With the question fixed, does one token answer?
+
+`experiments/build_train_pairs.py` + `extract_train_features.py` +
+`per_group_token_probe.py`: 600 train pairs per group from GQA train images
+(balanced, held-out val images), 80 test examples per group.
+
+| group | mean cell acc | best cell | model acc |
+|---|---:|---:|---:|
+| chair left of table | 0.52 | 0.70 (S6) | 0.56 |
+| man left of person | 0.50 | 0.69 (S1) | 0.55 |
+| man right of woman | 0.53 | 0.71 (S12) | 0.65 |
+| person right of man | 0.51 | 0.68 (S12) | 0.59 |
+| tree left of building | 0.52 | 0.66 (S1) | 0.53 |
+| woman left of man | 0.52 | 0.69 (S6) | 0.55 |
+
+Mean accuracy is at chance; the best cell is 0.61-0.71, i.e. noisy and not
+better than the model itself. The earlier chance-level per-token result was not
+only a missing-question artifact.
+
+### 10.3 Can the model report a side when asked?
+
+`side_report.py`: 960 items per option order, 3,840 generations.
+
+| axis | accuracy | prediction distribution |
+|---|---:|---|
+| horizontal (left/right) | 0.506 | "left" 953, "right" 18 (order 0: "left" 960/960) |
+| vertical (top/bottom) | 0.492 | "top" 592, "bottom" 352 (majority baseline 0.718) |
+
+The answers do not change when the option order is reversed: horizontal is a
+fixed "left" prior, vertical a fixed "top" prior. The model is not reading the
+box; it is emitting a prior.
+
+### 10.4 Is the position in the visual tokens?
+
+Pooled target-region features (oracle box) predict "target on the left half"
+with AUC **0.949 / 0.943 / 0.948** at S1/S6/S12. The visual representation
+contains horizontal position; the decision state does not.
+
+### 10.5 Is composition intact?
+
+`side_given_relation.py` gives the model the true sides in the prompt, plus a
+swapped-side manipulation check:
+
+| condition | overall acc | acc when the two objects are in different halves (n=267) |
+|---|---:|---:|
+| true sides | 0.760 | **0.921** |
+| swapped sides | 0.271 | 0.120 |
+
+The model follows the statements (swapping them flips the answer), and composes
+them almost perfectly when they are supplied. Composition is not the missing
+piece; extracting the sides is.
+
+### 10.6 Revised diagnosis
+
+```
+pixels -> visual tokens        horizontal side decodable at AUC 0.95 (oracle box)
+       -> decision state       target-left 0.65, reference-left 0.56 at L19
+       -> generation           constant "left" / "top" prior, accuracy 0.49-0.51
+       -> composition          intact: 0.92 with true sides, 0.12 with swapped
+```
+
+The bottleneck is the **visual-to-text readout of object position**, not
+encoding and not composition. This also explains why decomposition prompting
+fails as a zero-shot intervention: the sub-question ("which half?") cannot be
+answered.
+
+Implications:
+
+1. Stage 1's "ask each side first" prompting path is closed; the sub-capability
+   is absent.
+2. SFT should first teach side reporting (visual -> text), then the relation.
+   The relation stage can reuse the already-working composition.
+3. A two-stage system is a legitimate alternative: a small side reader on visual
+   features (0.95 with oracle boxes) plus the relation prompt (0.92). Deployable
+   only if a proposal stage supplies the boxes.

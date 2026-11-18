@@ -144,6 +144,16 @@ region is causally used, but the relation decision is not readable from any sing
 from pooled tokens, and it appears only in the last quarter of the network. This is a late
 composition/readout failure, not an encoding failure and not an attention-routing failure.
 
+**Update (2026-11-18).** Stage-0/1 controls narrow this further. When asked directly, the
+model cannot report an object's side: horizontal answers are a constant "left" (960/960, and
+reversing the option order changes nothing), vertical answers are a "top" prior, and both
+are at chance. Yet pooled target-region tokens decode "left half" at AUC 0.95, while the
+last-token state at layer 19 only reaches 0.65. If the true sides are supplied in the
+prompt, relation accuracy is 0.760 overall and 0.921 when the two objects are in different
+halves; supplying swapped sides drops it to 0.271 / 0.120. Composition is intact. The
+missing piece is the **visual-to-text readout of object position**, which is also why
+decomposition prompting fails as a zero-shot intervention.
+
 One correction to an earlier reading: the per-group oracle region probe (0.81) is not a
 group-general relation code. Under the same global reader and the same CV, `[mean all tokens
 + question]` scores AUC 0.474 and `[pooled target + pooled reference + difference +
@@ -176,7 +186,7 @@ The same-image horizontal flip is not a clean position control. A position-only 
 - **Abstract.** Add: “A training-free flip-consistency readout raises AUC from 0.60 to 0.69 on held-out pairs and from 0.63 to 0.81 on the strict subset; an oracle region readout reaches 0.81/0.83, while a position-only oracle reaches 0.96/0.95, showing that the paired benchmark is strongly position-confounded. The failure is task-specific: same-image existence and attribute questions are answered well and fall to chance without the image, whereas spatial relations do not.”
 - **Conclusion.** Replace the statement that the failure cannot yet be localized to readout with: “The model has usable relation evidence, but it is not calibrated into a single-image margin; a mirror-consistency readout recovers part of it. The remaining gap is dominated by object localization and by the position shortcut in the benchmark. The same model answers same-image existence, attribute, and behavior questions well, so the limitation is a task-specific spatial binding/readout gap rather than a general inability to use visual evidence.”
 - **Limitations.** Add the oracle-box caveat and the position-confound caveat above. The current evidence does not support a claim of a rich, position-invariant relation code. Add that the per-group oracle-region number (0.81) is not a group-general relation code: a matched global reader on the same pooled regions scores 0.492, and the label is 0.99-decodable from boxes alone.
-- **Diagnosis.** Add: “Where the model fails is composition, not encoding: object identity is decodable from single visual tokens (name pointing 0.54-0.62 vs chance 0.21), the target region is causally used (ablation -0.38, patch recovery 0.33), yet no single token and no pooled-token reader answers the relation (0.47-0.50), and the decision only becomes readable at layers 18-19. The model's margin is nearly uncorrelated with the geometry that defines the label (Spearman 0.18).”
+- **Diagnosis.** Add: “Where the model fails is position readout, not encoding and not composition: object identity is decodable from single visual tokens (name pointing 0.54-0.62 vs chance 0.21), pooled visual tokens decode horizontal side at AUC 0.95, but the decision state only reaches 0.65 and the model cannot report a side at all (constant 'left'). Given the sides in the prompt, relation accuracy reaches 0.92 when the objects are in different halves, so composition is intact. The model's margin is nearly uncorrelated with the geometry that defines the label (Spearman 0.18).”
 
 ## Reproduction
 
