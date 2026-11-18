@@ -54,12 +54,22 @@
 
 读法：只有全层阻断目标/参照时偏好略降（0.633/0.650 vs 随机 0.700），但效应小、特异性弱；late 参照 0.650 也接近随机。结论：**在这个模型上，text→object attention 不是 RC 偏好的主要载体**；内容替换（token ablation）的效应更清楚。这是与 Grounding Isn't Knowing 的模型不同的地方。
 
-## Stage 2 — 精细定位（第 3 周）
+## Stage 2 — 精细定位（进行中）
 
+- [x] Tuned lens：last prompt token，dev 训练 affine translator，test 评测
 - [ ] Head-level CMA：clean=原图，corrupted=参照移动；MF；随机/负 MF 对照
 - [ ] Cumulative head ablation（nAUC）
-- [ ] Tuned lens：last vs answer token；与 CMA 层对齐
+- [ ] Tuned lens：answer token 版本；与 CMA 层对齐
 - [ ] （可选）DAS：参照侧别子空间 interchange
+
+**Stage 2a tuned lens 结果（480 test examples，dev 训练）：**
+
+| 层 | 14 | 15 | 16 | 17 | 18 | 19 | 23 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| raw logit lens | 0.501 | 0.522 | 0.537 | 0.544 | 0.578 | 0.607 | 0.606 |
+| tuned lens | 0.568 | 0.599 | 0.612 | 0.613 | 0.614 | 0.614 | 0.607 |
+
+读法：tuned lens 把可读性提前到 L15–16，说明“L18–19 才出现”部分是 raw logit lens 的伪影；但天花板仍只有 0.61，模型整体很弱。
 
 ## Stage 3 — 纠正
 
