@@ -151,6 +151,21 @@ Attention knockout（阻断 text→目标/参照 token，60 对）：
 
 ---
 
+### 2.4 Stage 2b：L15 是 mediation layer，但没有单 head
+
+clean = 原图，corrupted = 参照物移到另一侧；把 clean 的 o_proj 输入 patch 到 corrupted：
+
+| 干预 | median R | 95% CI |
+|---|---:|---|
+| L15 全部 head | **0.499** | [0.401, 0.526] |
+| L17 全部 head | 0.212 | [0.012, 0.349] |
+| L16 全部 head | 0.134 | [0.003, 0.300] |
+| L15 单个 head（16 个） | 全部 ≈ 0 | — |
+
+读法：L15 是明确的中介层，能恢复约一半的 clean–corrupted 差距；但单 head patch 全部无效，说明效应是**层内分布式**的，不存在一个“关系 head”。这与 Grounding Isn't Knowing 的稀疏 head 结论不同，是模型特异的成分差异。
+
+---
+
 ## 3. 仍然成立的结论
 
 1. **受控配对协议是资产**：同问题、两图、一正一负、图像级隔离，比 GQA 原始 yes/no 干净。

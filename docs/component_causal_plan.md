@@ -57,7 +57,7 @@
 ## Stage 2 — 精细定位（进行中）
 
 - [x] Tuned lens：last prompt token，dev 训练 affine translator，test 评测
-- [ ] Head-level CMA：clean=原图，corrupted=参照移动；MF；随机/负 MF 对照
+- [x] Head-level CMA：clean=原图，corrupted=参照移动；层级别 + L15 单 head
 - [ ] Cumulative head ablation（nAUC）
 - [ ] Tuned lens：answer token 版本；与 CMA 层对齐
 - [ ] （可选）DAS：参照侧别子空间 interchange
@@ -70,6 +70,17 @@
 | tuned lens | 0.568 | 0.599 | 0.612 | 0.613 | 0.614 | 0.614 | 0.607 |
 
 读法：tuned lens 把可读性提前到 L15–16，说明“L18–19 才出现”部分是 raw logit lens 的伪影；但天花板仍只有 0.61，模型整体很弱。
+
+**Stage 2b CMA 结果（60 对，median R，bootstrap CI）：**
+
+| 干预 | median R | 95% CI |
+|---|---:|---|
+| 替换 L15 全部 head | **0.499** | [0.401, 0.526] |
+| 替换 L17 全部 head | 0.212 | [0.012, 0.349] |
+| 替换 L16 全部 head | 0.134 | [0.003, 0.300] |
+| 替换 L15 单个 head（16 个） | 全部 ≈ 0 | — |
+
+读法：L15 是明确的 mediation layer，但效应**分布在多个 head 上**，没有单个“关系 head”；这与 Grounding Isn't Knowing 的稀疏 head 结论不同，是模型特异的。
 
 ## Stage 3 — 纠正
 
