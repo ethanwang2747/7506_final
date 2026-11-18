@@ -40,11 +40,33 @@ for r, s in zip(rows, m):
     by.setdefault(key, {})[r["pair_id"].rsplit(":", 1)[1]] = s
 deltas = [v["true"] - v["opp"] for v in by.values() if "true" in v and "opp" in v]
 out = {"adapter": args.adapter, "n": len(y),
+       "margins": [round(float(v), 4) for v in m],
+       "meta": rows,
        "acc": float(((m > 0).astype(int) == y).mean()),
        "auc": float(roc_auc_score(y, m)),
        "pair_pref_acc": float(np.mean([d > 0 for d in deltas])),
        "mean_delta": float(np.mean(deltas)),
        "per_group": {}}
+# image-cluster bootstrap for pair preference
+imgs = [r["image_id"] for r in rows]
+pref_by_img = {}
+for r, s in zip(rows, m):
+    key = r["pair_id"].rsplit(":", 1)[0]
+    pref_by_img.setdefault(r["image_id"], []).append((key, s, r["pair_id"].rsplit(":", 1)[1]))
+uniq = sorted(pref_by_img)
+rng = np.random.default_rng(0)
+boot = []
+for _ in range(2000):
+    pick = rng.choice(uniq, len(uniq), replace=True)
+    vals = []
+    for im in pick:
+        d = {}
+        for key, s, tag in pref_by_img[im]:
+            d.setdefault(key, {})[tag] = s
+        vals.extend([1.0 if v["true"] > v["opp"] else 0.0 for v in d.values() if "true" in v and "opp" in v])
+    if vals:
+        boot.append(np.mean(vals))
+out["pair_pref_ci"] = [float(np.percentile(boot, 2.5)), float(np.percentile(boot, 97.5))] if boot else None
 for g in sorted({r["group"] for r in rows}):
     idx = [i for i, r in enumerate(rows) if r["group"] == g]
     out["per_group"][g] = {"n": len(idx),

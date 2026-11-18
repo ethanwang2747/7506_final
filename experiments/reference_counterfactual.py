@@ -70,7 +70,7 @@ m = np.array(batch_margins(model, proc, items, yes, no, 8))
 by = {}
 for x, s in zip(meta, m):
     by.setdefault(x["pair_id"], {})[x["cond"]] = float(s)
-out = {"adapter": args.adapter, "n_pairs": len(by), "conditions": {}}
+out = {"adapter": args.adapter, "n_pairs": len(by), "conditions": {}, "per_pair": by}
 for cond in ("ref_hflip", "ref_vflip", "ref_gray"):
     deltas = [v[cond] - v["original"] for v in by.values()]
     flips = [1.0 if (v[cond] > 0) != (v["original"] > 0) else 0.0 for v in by.values()]
@@ -81,6 +81,18 @@ for cond in ("ref_hflip", "ref_vflip", "ref_gray"):
         "frac_drop_0.5": float(np.mean([d < -0.5 for d in deltas])),
     }
     print(cond, {k: round(v, 3) for k, v in out["conditions"][cond].items()})
+# pair preference: clean margin > moved margin
+imgs = {m["pair_id"]: m.get("image_id") for m in meta}
+for cond in ("ref_hflip", "ref_vflip", "ref_gray"):
+    prefs = [1.0 if v["original"] > v[cond] else 0.0 for v in by.values()]
+    out["conditions"][cond]["pair_pref"] = float(np.mean(prefs))
+    rng = np.random.default_rng(0)
+    vals = np.array(prefs)
+    boot = [vals[rng.integers(0, len(vals), len(vals))].mean() for _ in range(2000)]
+    out["conditions"][cond]["pair_pref_ci"] = [float(np.percentile(boot, 2.5)),
+                                               float(np.percentile(boot, 97.5))]
+    print(cond, "pair_pref", round(out["conditions"][cond]["pair_pref"], 3),
+          out["conditions"][cond]["pair_pref_ci"])
 dst = ROOT / (args.out or f"results/diagnostics/reference_counterfactual_{args.tag}.json")
 dst.parent.mkdir(parents=True, exist_ok=True)
 dst.write_text(json.dumps(out, indent=1))

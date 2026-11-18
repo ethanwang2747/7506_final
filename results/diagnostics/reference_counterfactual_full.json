@@ -6,19 +6,1476 @@
    "mean_delta": -0.7373593346526225,
    "median_delta": -0.24971410632133484,
    "frac_flip": 0.19166666666666668,
-   "frac_drop_0.5": 0.4
+   "frac_drop_0.5": 0.4,
+   "pair_pref": 0.625,
+   "pair_pref_ci": [
+    0.5666666666666667,
+    0.6875
+   ]
   },
   "ref_vflip": {
    "mean_delta": -0.14718602610131104,
    "median_delta": -0.11956286430358887,
    "frac_flip": 0.08333333333333333,
-   "frac_drop_0.5": 0.21666666666666667
+   "frac_drop_0.5": 0.21666666666666667,
+   "pair_pref": 0.5833333333333334,
+   "pair_pref_ci": [
+    0.5208333333333334,
+    0.6458333333333334
+   ]
   },
   "ref_gray": {
    "mean_delta": -0.8623538219680389,
    "median_delta": -0.38170498609542847,
    "frac_flip": 0.20416666666666666,
-   "frac_drop_0.5": 0.4708333333333333
+   "frac_drop_0.5": 0.4708333333333333,
+   "pair_pref": 0.6416666666666667,
+   "pair_pref_ci": [
+    0.5833333333333334,
+    0.7
+   ]
+  }
+ },
+ "per_pair": {
+  "spatial:test:chair|to the left of|table:0000": {
+   "original": 4.113254547119141,
+   "ref_hflip": 0.8750286102294922,
+   "ref_vflip": 3.6145992279052734,
+   "ref_gray": 5.592953681945801
+  },
+  "spatial:test:chair|to the left of|table:0001": {
+   "original": 3.5821094512939453,
+   "ref_hflip": 2.3609068393707275,
+   "ref_vflip": 3.350992202758789,
+   "ref_gray": 2.7310006618499756
+  },
+  "spatial:test:chair|to the left of|table:0002": {
+   "original": 2.6239891052246094,
+   "ref_hflip": 3.250001907348633,
+   "ref_vflip": 2.7514686584472656,
+   "ref_gray": 1.625011682510376
+  },
+  "spatial:test:chair|to the left of|table:0003": {
+   "original": -1.3727858066558838,
+   "ref_hflip": -1.8734915256500244,
+   "ref_vflip": -1.2468281984329224,
+   "ref_gray": -0.9964041709899902
+  },
+  "spatial:test:chair|to the left of|table:0004": {
+   "original": -0.24869883060455322,
+   "ref_hflip": 1.5013039112091064,
+   "ref_vflip": 0.12582474946975708,
+   "ref_gray": 0.7518690824508667
+  },
+  "spatial:test:chair|to the left of|table:0005": {
+   "original": 1.004540205001831,
+   "ref_hflip": 1.3780850172042847,
+   "ref_vflip": 0.7545393705368042,
+   "ref_gray": -0.0946388840675354
+  },
+  "spatial:test:chair|to the left of|table:0006": {
+   "original": 3.3719513416290283,
+   "ref_hflip": 2.8715593814849854,
+   "ref_vflip": 3.128464698791504,
+   "ref_gray": 0.21353906393051147
+  },
+  "spatial:test:chair|to the left of|table:0007": {
+   "original": -0.7472855448722839,
+   "ref_hflip": -1.3714247941970825,
+   "ref_vflip": 0.6250233054161072,
+   "ref_gray": 0.7534011602401733
+  },
+  "spatial:test:chair|to the left of|table:0008": {
+   "original": -0.2490607500076294,
+   "ref_hflip": -1.1225659847259521,
+   "ref_vflip": -0.623639702796936,
+   "ref_gray": -0.49690982699394226
+  },
+  "spatial:test:chair|to the left of|table:0009": {
+   "original": 6.106268882751465,
+   "ref_hflip": 2.248352289199829,
+   "ref_vflip": 5.86428689956665,
+   "ref_gray": 4.744346618652344
+  },
+  "spatial:test:chair|to the left of|table:0010": {
+   "original": -0.6242764592170715,
+   "ref_hflip": 0.25149625539779663,
+   "ref_vflip": -0.6239853501319885,
+   "ref_gray": -0.4990765452384949
+  },
+  "spatial:test:chair|to the left of|table:0011": {
+   "original": 0.6255762577056885,
+   "ref_hflip": 0.2509353756904602,
+   "ref_vflip": 0.6255142688751221,
+   "ref_gray": 1.0000252723693848
+  },
+  "spatial:test:chair|to the left of|table:0012": {
+   "original": 5.552783489227295,
+   "ref_hflip": 2.730470657348633,
+   "ref_vflip": 5.3027825355529785,
+   "ref_gray": 5.037118911743164
+  },
+  "spatial:test:chair|to the left of|table:0013": {
+   "original": -0.49921777844429016,
+   "ref_hflip": -0.49911484122276306,
+   "ref_vflip": -2.3715744018554688,
+   "ref_gray": -1.2381904125213623
+  },
+  "spatial:test:chair|to the left of|table:0014": {
+   "original": 3.6081478595733643,
+   "ref_hflip": 3.1250038146972656,
+   "ref_vflip": 2.750006914138794,
+   "ref_gray": 3.1250009536743164
+  },
+  "spatial:test:chair|to the left of|table:0015": {
+   "original": 2.4965450763702393,
+   "ref_hflip": 2.366706371307373,
+   "ref_vflip": 2.7460975646972656,
+   "ref_gray": 2.9918408393859863
+  },
+  "spatial:test:chair|to the left of|table:0016": {
+   "original": 1.3754925727844238,
+   "ref_hflip": 1.2508066892623901,
+   "ref_vflip": 1.75054931640625,
+   "ref_gray": 1.7500061988830566
+  },
+  "spatial:test:chair|to the left of|table:0017": {
+   "original": 3.995009660720825,
+   "ref_hflip": 2.998351812362671,
+   "ref_vflip": 3.996469736099243,
+   "ref_gray": 3.8676490783691406
+  },
+  "spatial:test:chair|to the left of|table:0018": {
+   "original": 2.5095112323760986,
+   "ref_hflip": 1.3845202922821045,
+   "ref_vflip": 2.262151002883911,
+   "ref_gray": 2.0189805030822754
+  },
+  "spatial:test:chair|to the left of|table:0019": {
+   "original": 0.8750156164169312,
+   "ref_hflip": 1.6250114440917969,
+   "ref_vflip": 0.5000268220901489,
+   "ref_gray": 0.12854260206222534
+  },
+  "spatial:test:chair|to the left of|table:0020": {
+   "original": 4.337003707885742,
+   "ref_hflip": 4.239449501037598,
+   "ref_vflip": 1.5049901008605957,
+   "ref_gray": 2.6211016178131104
+  },
+  "spatial:test:chair|to the left of|table:0021": {
+   "original": -1.1191478967666626,
+   "ref_hflip": 1.1274442672729492,
+   "ref_vflip": -1.1204421520233154,
+   "ref_gray": -0.9948452711105347
+  },
+  "spatial:test:chair|to the left of|table:0022": {
+   "original": 2.739466905593872,
+   "ref_hflip": 2.7367615699768066,
+   "ref_vflip": 4.212008476257324,
+   "ref_gray": -0.7493094205856323
+  },
+  "spatial:test:chair|to the left of|table:0023": {
+   "original": 0.5013266801834106,
+   "ref_hflip": -0.12382286787033081,
+   "ref_vflip": 0.5018706321716309,
+   "ref_gray": 0.2513279914855957
+  },
+  "spatial:test:chair|to the left of|table:0024": {
+   "original": 3.4934868812561035,
+   "ref_hflip": 2.368497371673584,
+   "ref_vflip": 2.8676531314849854,
+   "ref_gray": 2.0000061988830566
+  },
+  "spatial:test:chair|to the left of|table:0025": {
+   "original": 0.5000324249267578,
+   "ref_hflip": 0.5021281242370605,
+   "ref_vflip": 0.6250319480895996,
+   "ref_gray": 0.12634944915771484
+  },
+  "spatial:test:chair|to the left of|table:0026": {
+   "original": 1.1258041858673096,
+   "ref_hflip": 0.8773514628410339,
+   "ref_vflip": 1.1266740560531616,
+   "ref_gray": 1.1294283866882324
+  },
+  "spatial:test:chair|to the left of|table:0027": {
+   "original": 3.4867568016052246,
+   "ref_hflip": 3.4867568016052246,
+   "ref_vflip": -1.3710484504699707,
+   "ref_gray": 3.2025933265686035
+  },
+  "spatial:test:chair|to the left of|table:0028": {
+   "original": -0.6241840124130249,
+   "ref_hflip": -0.4996333420276642,
+   "ref_vflip": -0.12231624126434326,
+   "ref_gray": -0.6242083311080933
+  },
+  "spatial:test:chair|to the left of|table:0029": {
+   "original": 5.372297286987305,
+   "ref_hflip": 5.11934232711792,
+   "ref_vflip": 5.4958295822143555,
+   "ref_gray": 5.122983455657959
+  },
+  "spatial:test:chair|to the left of|table:0030": {
+   "original": 6.387475967407227,
+   "ref_hflip": 6.284662246704102,
+   "ref_vflip": 3.2366206645965576,
+   "ref_gray": 6.203843116760254
+  },
+  "spatial:test:chair|to the left of|table:0031": {
+   "original": 0.626657247543335,
+   "ref_hflip": 0.3759356141090393,
+   "ref_vflip": -0.49829769134521484,
+   "ref_gray": 0.37708616256713867
+  },
+  "spatial:test:chair|to the left of|table:0032": {
+   "original": 3.000006914138794,
+   "ref_hflip": 3.1280617713928223,
+   "ref_vflip": 2.875011682510376,
+   "ref_gray": 2.6440114974975586
+  },
+  "spatial:test:chair|to the left of|table:0033": {
+   "original": -0.4904169738292694,
+   "ref_hflip": -0.6175060868263245,
+   "ref_vflip": -0.4925003945827484,
+   "ref_gray": 0.0074599385261535645
+  },
+  "spatial:test:chair|to the left of|table:0034": {
+   "original": 4.709137439727783,
+   "ref_hflip": 4.588695526123047,
+   "ref_vflip": 0.379020094871521,
+   "ref_gray": 2.3905177116394043
+  },
+  "spatial:test:chair|to the left of|table:0035": {
+   "original": 1.3843929767608643,
+   "ref_hflip": 1.3843929767608643,
+   "ref_vflip": -0.6127745509147644,
+   "ref_gray": 1.0149874687194824
+  },
+  "spatial:test:chair|to the left of|table:0036": {
+   "original": 4.623311519622803,
+   "ref_hflip": 3.999207019805908,
+   "ref_vflip": 4.99721097946167,
+   "ref_gray": 3.7494404315948486
+  },
+  "spatial:test:chair|to the left of|table:0037": {
+   "original": 0.5034763216972351,
+   "ref_hflip": -0.871907114982605,
+   "ref_vflip": 0.3843908905982971,
+   "ref_gray": -0.8725138902664185
+  },
+  "spatial:test:chair|to the left of|table:0038": {
+   "original": 1.0034786462783813,
+   "ref_hflip": -0.6215600371360779,
+   "ref_vflip": 1.1294209957122803,
+   "ref_gray": 1.3784664869308472
+  },
+  "spatial:test:chair|to the left of|table:0039": {
+   "original": 4.375003814697266,
+   "ref_hflip": 4.375003814697266,
+   "ref_vflip": -0.36866360902786255,
+   "ref_gray": 3.1249895095825195
+  },
+  "spatial:test:man|to the left of|person:0000": {
+   "original": 2.432694435119629,
+   "ref_hflip": 2.874347448348999,
+   "ref_vflip": 2.787775993347168,
+   "ref_gray": 2.2178797721862793
+  },
+  "spatial:test:man|to the left of|person:0001": {
+   "original": 0.16302716732025146,
+   "ref_hflip": 1.249995231628418,
+   "ref_vflip": 0.3850640654563904,
+   "ref_gray": 0.7765182256698608
+  },
+  "spatial:test:man|to the left of|person:0002": {
+   "original": 3.117018461227417,
+   "ref_hflip": -1.3714258670806885,
+   "ref_vflip": 3.4666831493377686,
+   "ref_gray": 2.6108789443969727
+  },
+  "spatial:test:man|to the left of|person:0003": {
+   "original": 3.9900269508361816,
+   "ref_hflip": 0.39197254180908203,
+   "ref_vflip": 4.0335001945495605,
+   "ref_gray": 4.637638568878174
+  },
+  "spatial:test:man|to the left of|person:0004": {
+   "original": -1.7454936504364014,
+   "ref_hflip": -0.6183501482009888,
+   "ref_vflip": -1.4914851188659668,
+   "ref_gray": 1.2675166130065918
+  },
+  "spatial:test:man|to the left of|person:0005": {
+   "original": 2.5000100135803223,
+   "ref_hflip": 2.1250128746032715,
+   "ref_vflip": 0.5103049278259277,
+   "ref_gray": 3.7344586849212646
+  },
+  "spatial:test:man|to the left of|person:0006": {
+   "original": 1.6674989461898804,
+   "ref_hflip": 1.2882877588272095,
+   "ref_vflip": 1.6778444051742554,
+   "ref_gray": 0.9764503836631775
+  },
+  "spatial:test:man|to the left of|person:0007": {
+   "original": 1.3750196695327759,
+   "ref_hflip": 0.630609393119812,
+   "ref_vflip": 1.3839776515960693,
+   "ref_gray": 1.1250252723693848
+  },
+  "spatial:test:man|to the left of|person:0008": {
+   "original": 1.3899667263031006,
+   "ref_hflip": 1.6354146003723145,
+   "ref_vflip": 1.141725778579712,
+   "ref_gray": 2.2689778804779053
+  },
+  "spatial:test:man|to the left of|person:0009": {
+   "original": 1.7047452926635742,
+   "ref_hflip": 1.9628461599349976,
+   "ref_vflip": 2.448606252670288,
+   "ref_gray": 1.7128528356552124
+  },
+  "spatial:test:man|to the left of|person:0010": {
+   "original": 0.25455576181411743,
+   "ref_hflip": 0.7533964514732361,
+   "ref_vflip": 0.6277683973312378,
+   "ref_gray": 0.6324357986450195
+  },
+  "spatial:test:man|to the left of|person:0011": {
+   "original": 1.028611660003662,
+   "ref_hflip": -0.23435819149017334,
+   "ref_vflip": 1.93503737449646,
+   "ref_gray": 0.785921037197113
+  },
+  "spatial:test:man|to the left of|person:0012": {
+   "original": -1.9959996938705444,
+   "ref_hflip": -0.06114476919174194,
+   "ref_vflip": -0.22162556648254395,
+   "ref_gray": -0.9933927059173584
+  },
+  "spatial:test:man|to the left of|person:0013": {
+   "original": 2.526984453201294,
+   "ref_hflip": 1.2688744068145752,
+   "ref_vflip": 2.5269856452941895,
+   "ref_gray": 4.374971866607666
+  },
+  "spatial:test:man|to the left of|person:0014": {
+   "original": -1.496016263961792,
+   "ref_hflip": 1.9922289848327637,
+   "ref_vflip": -1.121403455734253,
+   "ref_gray": 2.624997138977051
+  },
+  "spatial:test:man|to the left of|person:0015": {
+   "original": -0.6206194162368774,
+   "ref_hflip": -0.36752593517303467,
+   "ref_vflip": -0.37106359004974365,
+   "ref_gray": -0.6198304891586304
+  },
+  "spatial:test:man|to the left of|person:0016": {
+   "original": 4.670233726501465,
+   "ref_hflip": -0.6211379766464233,
+   "ref_vflip": 4.662116527557373,
+   "ref_gray": 3.624974489212036
+  },
+  "spatial:test:man|to the left of|person:0017": {
+   "original": -0.3664156198501587,
+   "ref_hflip": 0.3975999355316162,
+   "ref_vflip": -0.8179153203964233,
+   "ref_gray": -1.480165719985962
+  },
+  "spatial:test:man|to the left of|person:0018": {
+   "original": 0.2545645236968994,
+   "ref_hflip": 0.3795700669288635,
+   "ref_vflip": -0.24682378768920898,
+   "ref_gray": -0.37050628662109375
+  },
+  "spatial:test:man|to the left of|person:0019": {
+   "original": 1.1290045976638794,
+   "ref_hflip": 1.132234811782837,
+   "ref_vflip": 1.127163290977478,
+   "ref_gray": 1.252762794494629
+  },
+  "spatial:test:man|to the left of|person:0020": {
+   "original": 3.2562954425811768,
+   "ref_hflip": 2.5168490409851074,
+   "ref_vflip": 3.382082223892212,
+   "ref_gray": 2.931636095046997
+  },
+  "spatial:test:man|to the left of|person:0021": {
+   "original": 1.060049057006836,
+   "ref_hflip": 0.9472237825393677,
+   "ref_vflip": 1.5267436504364014,
+   "ref_gray": 1.1807664632797241
+  },
+  "spatial:test:man|to the left of|person:0022": {
+   "original": 2.624997615814209,
+   "ref_hflip": 1.7544050216674805,
+   "ref_vflip": 2.2444119453430176,
+   "ref_gray": 3.228672504425049
+  },
+  "spatial:test:man|to the left of|person:0023": {
+   "original": 0.6425435543060303,
+   "ref_hflip": 0.6449297666549683,
+   "ref_vflip": 0.26563549041748047,
+   "ref_gray": 0.5176575183868408
+  },
+  "spatial:test:man|to the left of|person:0024": {
+   "original": 0.1269170045852661,
+   "ref_hflip": 0.0013220906257629395,
+   "ref_vflip": 0.1281411051750183,
+   "ref_gray": 0.12778222560882568
+  },
+  "spatial:test:man|to the left of|person:0025": {
+   "original": -0.838597297668457,
+   "ref_hflip": 0.4402467608451843,
+   "ref_vflip": -0.4545685648918152,
+   "ref_gray": 0.6724359393119812
+  },
+  "spatial:test:man|to the left of|person:0026": {
+   "original": 3.0831551551818848,
+   "ref_hflip": 1.1018719673156738,
+   "ref_vflip": 3.124985933303833,
+   "ref_gray": 1.171093225479126
+  },
+  "spatial:test:man|to the left of|person:0027": {
+   "original": 2.9804744720458984,
+   "ref_hflip": 1.7500120401382446,
+   "ref_vflip": 2.9804739952087402,
+   "ref_gray": 3.464804172515869
+  },
+  "spatial:test:man|to the left of|person:0028": {
+   "original": 1.4287517070770264,
+   "ref_hflip": -0.8319904804229736,
+   "ref_vflip": 1.8302360773086548,
+   "ref_gray": 1.8235979080200195
+  },
+  "spatial:test:man|to the left of|person:0029": {
+   "original": 0.7599915266036987,
+   "ref_hflip": -0.1919657588005066,
+   "ref_vflip": 1.675532341003418,
+   "ref_gray": 0.2803056836128235
+  },
+  "spatial:test:man|to the left of|person:0030": {
+   "original": 1.878896951675415,
+   "ref_hflip": 1.6332993507385254,
+   "ref_vflip": 1.7544002532958984,
+   "ref_gray": 1.5044018030166626
+  },
+  "spatial:test:man|to the left of|person:0031": {
+   "original": 1.875004768371582,
+   "ref_hflip": -0.7433840036392212,
+   "ref_vflip": 2.610889434814453,
+   "ref_gray": 3.3097875118255615
+  },
+  "spatial:test:man|to the left of|person:0032": {
+   "original": 3.0879135131835938,
+   "ref_hflip": 3.3097798824310303,
+   "ref_vflip": 3.0793120861053467,
+   "ref_gray": 3.0916879177093506
+  },
+  "spatial:test:man|to the left of|person:0033": {
+   "original": 0.6014443635940552,
+   "ref_hflip": -0.045202434062957764,
+   "ref_vflip": 2.055739641189575,
+   "ref_gray": 0.6837756037712097
+  },
+  "spatial:test:man|to the left of|person:0034": {
+   "original": 0.795361340045929,
+   "ref_hflip": 0.1829814910888672,
+   "ref_vflip": 1.1590827703475952,
+   "ref_gray": 0.16093158721923828
+  },
+  "spatial:test:man|to the left of|person:0035": {
+   "original": 0.0021842122077941895,
+   "ref_hflip": -0.24752670526504517,
+   "ref_vflip": 0.12692642211914062,
+   "ref_gray": -0.24829232692718506
+  },
+  "spatial:test:man|to the left of|person:0036": {
+   "original": -1.7250032424926758,
+   "ref_hflip": -0.5890135765075684,
+   "ref_vflip": -1.2361934185028076,
+   "ref_gray": -1.3392080068588257
+  },
+  "spatial:test:man|to the left of|person:0037": {
+   "original": 1.386905550956726,
+   "ref_hflip": 1.4162179231643677,
+   "ref_vflip": 1.2668652534484863,
+   "ref_gray": 3.12498140335083
+  },
+  "spatial:test:man|to the left of|person:0038": {
+   "original": 1.271675944328308,
+   "ref_hflip": 2.9494636058807373,
+   "ref_vflip": 0.3917354941368103,
+   "ref_gray": 0.38827401399612427
+  },
+  "spatial:test:man|to the left of|person:0039": {
+   "original": 2.430739641189575,
+   "ref_hflip": -0.7361232042312622,
+   "ref_vflip": 2.329738140106201,
+   "ref_gray": 2.4363348484039307
+  },
+  "spatial:test:man|to the right of|woman:0000": {
+   "original": -0.7442686557769775,
+   "ref_hflip": -0.24542254209518433,
+   "ref_vflip": 0.7558466196060181,
+   "ref_gray": 0.6290202140808105
+  },
+  "spatial:test:man|to the right of|woman:0001": {
+   "original": 3.8778862953186035,
+   "ref_hflip": 1.6260744333267212,
+   "ref_vflip": 3.7537002563476562,
+   "ref_gray": 0.754012942314148
+  },
+  "spatial:test:man|to the right of|woman:0002": {
+   "original": 2.6277668476104736,
+   "ref_hflip": 2.2531347274780273,
+   "ref_vflip": 2.503920555114746,
+   "ref_gray": 2.253316640853882
+  },
+  "spatial:test:man|to the right of|woman:0003": {
+   "original": 5.749992847442627,
+   "ref_hflip": 5.8725996017456055,
+   "ref_vflip": 4.499998092651367,
+   "ref_gray": 4.010048866271973
+  },
+  "spatial:test:man|to the right of|woman:0004": {
+   "original": 3.6268529891967773,
+   "ref_hflip": 3.7507872581481934,
+   "ref_vflip": 3.6263105869293213,
+   "ref_gray": 0.37668997049331665
+  },
+  "spatial:test:man|to the right of|woman:0005": {
+   "original": 1.1301453113555908,
+   "ref_hflip": 1.1288514137268066,
+   "ref_vflip": 1.2535511255264282,
+   "ref_gray": 1.2540175914764404
+  },
+  "spatial:test:man|to the right of|woman:0006": {
+   "original": -0.7485562562942505,
+   "ref_hflip": 1.8766858577728271,
+   "ref_vflip": 2.3794214725494385,
+   "ref_gray": 3.254509449005127
+  },
+  "spatial:test:man|to the right of|woman:0007": {
+   "original": -1.6232951879501343,
+   "ref_hflip": -1.7480616569519043,
+   "ref_vflip": -1.8736660480499268,
+   "ref_gray": -0.49726709723472595
+  },
+  "spatial:test:man|to the right of|woman:0008": {
+   "original": -0.9906245470046997,
+   "ref_hflip": -0.8656257390975952,
+   "ref_vflip": -0.993374228477478,
+   "ref_gray": -0.8665313124656677
+  },
+  "spatial:test:man|to the right of|woman:0009": {
+   "original": 2.2562856674194336,
+   "ref_hflip": 1.8794207572937012,
+   "ref_vflip": 2.880553722381592,
+   "ref_gray": -1.2391420602798462
+  },
+  "spatial:test:man|to the right of|woman:0010": {
+   "original": -3.371940851211548,
+   "ref_hflip": -2.872591733932495,
+   "ref_vflip": -3.371628999710083,
+   "ref_gray": 0.7515056133270264
+  },
+  "spatial:test:man|to the right of|woman:0011": {
+   "original": 2.8789007663726807,
+   "ref_hflip": -0.7468373775482178,
+   "ref_vflip": 2.7526915073394775,
+   "ref_gray": 2.8793392181396484
+  },
+  "spatial:test:man|to the right of|woman:0012": {
+   "original": 5.499993324279785,
+   "ref_hflip": -0.11421585083007812,
+   "ref_vflip": 5.252386569976807,
+   "ref_gray": 0.27862513065338135
+  },
+  "spatial:test:man|to the right of|woman:0013": {
+   "original": 4.625752925872803,
+   "ref_hflip": 4.001308441162109,
+   "ref_vflip": 4.126104354858398,
+   "ref_gray": 2.7521557807922363
+  },
+  "spatial:test:man|to the right of|woman:0014": {
+   "original": 0.009377241134643555,
+   "ref_hflip": -0.86937016248703,
+   "ref_vflip": 2.129448413848877,
+   "ref_gray": -1.364645004272461
+  },
+  "spatial:test:man|to the right of|woman:0015": {
+   "original": 4.130098342895508,
+   "ref_hflip": 3.880760669708252,
+   "ref_vflip": 4.249999046325684,
+   "ref_gray": 4.499998092651367
+  },
+  "spatial:test:man|to the right of|woman:0016": {
+   "original": 0.881636381149292,
+   "ref_hflip": 1.0084792375564575,
+   "ref_vflip": 0.634378969669342,
+   "ref_gray": 0.8855962753295898
+  },
+  "spatial:test:man|to the right of|woman:0017": {
+   "original": -0.24728137254714966,
+   "ref_hflip": 0.12745612859725952,
+   "ref_vflip": 0.002718031406402588,
+   "ref_gray": 0.25340694189071655
+  },
+  "spatial:test:man|to the right of|woman:0018": {
+   "original": 5.249997138977051,
+   "ref_hflip": 5.373776912689209,
+   "ref_vflip": 4.374996185302734,
+   "ref_gray": 1.5132684707641602
+  },
+  "spatial:test:man|to the right of|woman:0019": {
+   "original": -0.3737168312072754,
+   "ref_hflip": -0.6232911348342896,
+   "ref_vflip": -0.6235432028770447,
+   "ref_gray": -0.9987186193466187
+  },
+  "spatial:test:man|to the right of|woman:0020": {
+   "original": 4.005796909332275,
+   "ref_hflip": 1.379023790359497,
+   "ref_vflip": 3.7551238536834717,
+   "ref_gray": 0.3808208107948303
+  },
+  "spatial:test:man|to the right of|woman:0021": {
+   "original": 0.5074793100357056,
+   "ref_hflip": -0.36114728450775146,
+   "ref_vflip": 0.7595635652542114,
+   "ref_gray": -1.1141444444656372
+  },
+  "spatial:test:man|to the right of|woman:0022": {
+   "original": 5.253887176513672,
+   "ref_hflip": 2.893843173980713,
+   "ref_vflip": 4.632341384887695,
+   "ref_gray": 1.7676267623901367
+  },
+  "spatial:test:man|to the right of|woman:0023": {
+   "original": 4.00451135635376,
+   "ref_hflip": 0.7538497447967529,
+   "ref_vflip": 3.257218360900879,
+   "ref_gray": 3.8780579566955566
+  },
+  "spatial:test:man|to the right of|woman:0024": {
+   "original": 3.9988582134246826,
+   "ref_hflip": 1.3759052753448486,
+   "ref_vflip": 3.752117872238159,
+   "ref_gray": 3.5000011920928955
+  },
+  "spatial:test:man|to the right of|woman:0025": {
+   "original": 0.376695454120636,
+   "ref_hflip": -0.49854719638824463,
+   "ref_vflip": 0.3758964538574219,
+   "ref_gray": -0.49869173765182495
+  },
+  "spatial:test:man|to the right of|woman:0026": {
+   "original": 5.123529434204102,
+   "ref_hflip": 5.123701095581055,
+   "ref_vflip": 4.249996185302734,
+   "ref_gray": 2.2572195529937744
+  },
+  "spatial:test:man|to the right of|woman:0027": {
+   "original": 5.003983974456787,
+   "ref_hflip": -3.1185104846954346,
+   "ref_vflip": 4.378986835479736,
+   "ref_gray": 0.011634886264801025
+  },
+  "spatial:test:man|to the right of|woman:0028": {
+   "original": 0.0016941428184509277,
+   "ref_hflip": -0.24921220541000366,
+   "ref_vflip": -0.3743841052055359,
+   "ref_gray": 1.1261177062988281
+  },
+  "spatial:test:man|to the right of|woman:0029": {
+   "original": 3.008406162261963,
+   "ref_hflip": 2.6322271823883057,
+   "ref_vflip": 3.0049126148223877,
+   "ref_gray": 2.255566358566284
+  },
+  "spatial:test:man|to the right of|woman:0030": {
+   "original": 1.8764644861221313,
+   "ref_hflip": 2.000919818878174,
+   "ref_vflip": 2.000983476638794,
+   "ref_gray": 1.8761436939239502
+  },
+  "spatial:test:man|to the right of|woman:0031": {
+   "original": -0.9959633350372314,
+   "ref_hflip": -0.24598294496536255,
+   "ref_vflip": 0.5039303302764893,
+   "ref_gray": -2.7361557483673096
+  },
+  "spatial:test:man|to the right of|woman:0032": {
+   "original": -1.499210000038147,
+   "ref_hflip": -1.6243693828582764,
+   "ref_vflip": -1.6241049766540527,
+   "ref_gray": -1.749320387840271
+  },
+  "spatial:test:man|to the right of|woman:0033": {
+   "original": 3.627432346343994,
+   "ref_hflip": 3.7563791275024414,
+   "ref_vflip": 2.8781204223632812,
+   "ref_gray": 0.6316075325012207
+  },
+  "spatial:test:man|to the right of|woman:0034": {
+   "original": 6.124439239501953,
+   "ref_hflip": 4.5021467208862305,
+   "ref_vflip": 4.626139163970947,
+   "ref_gray": -0.11124378442764282
+  },
+  "spatial:test:man|to the right of|woman:0035": {
+   "original": 4.751460552215576,
+   "ref_hflip": 4.994899749755859,
+   "ref_vflip": 4.874996662139893,
+   "ref_gray": 1.0071282386779785
+  },
+  "spatial:test:man|to the right of|woman:0036": {
+   "original": 0.5049408674240112,
+   "ref_hflip": 0.5065970420837402,
+   "ref_vflip": 0.13132286071777344,
+   "ref_gray": -0.6193932890892029
+  },
+  "spatial:test:man|to the right of|woman:0037": {
+   "original": 6.374994277954102,
+   "ref_hflip": 0.758427619934082,
+   "ref_vflip": 6.247289180755615,
+   "ref_gray": 2.013120412826538
+  },
+  "spatial:test:man|to the right of|woman:0038": {
+   "original": 1.3947830200195312,
+   "ref_hflip": -0.47764259576797485,
+   "ref_vflip": 1.9019638299942017,
+   "ref_gray": 0.15039527416229248
+  },
+  "spatial:test:man|to the right of|woman:0039": {
+   "original": 5.379332065582275,
+   "ref_hflip": 5.377432823181152,
+   "ref_vflip": 6.249997138977051,
+   "ref_gray": 6.127303600311279
+  },
+  "spatial:test:person|to the right of|man:0000": {
+   "original": 4.500293254852295,
+   "ref_hflip": 3.0003345012664795,
+   "ref_vflip": 3.875534772872925,
+   "ref_gray": 0.5016316771507263
+  },
+  "spatial:test:person|to the right of|man:0001": {
+   "original": -0.7464193105697632,
+   "ref_hflip": -0.9933613538742065,
+   "ref_vflip": -0.2472183108329773,
+   "ref_gray": -0.8698186278343201
+  },
+  "spatial:test:person|to the right of|man:0002": {
+   "original": 3.5020334720611572,
+   "ref_hflip": 3.62599778175354,
+   "ref_vflip": 3.501211643218994,
+   "ref_gray": 0.6285547018051147
+  },
+  "spatial:test:person|to the right of|man:0003": {
+   "original": 4.252912998199463,
+   "ref_hflip": 0.25546884536743164,
+   "ref_vflip": 3.8770062923431396,
+   "ref_gray": -1.1183788776397705
+  },
+  "spatial:test:person|to the right of|man:0004": {
+   "original": -0.6199132204055786,
+   "ref_hflip": -1.4956822395324707,
+   "ref_vflip": -0.1199270486831665,
+   "ref_gray": -0.7429524064064026
+  },
+  "spatial:test:person|to the right of|man:0005": {
+   "original": 2.1280674934387207,
+   "ref_hflip": 2.0022079944610596,
+   "ref_vflip": 1.3777129650115967,
+   "ref_gray": 1.002168893814087
+  },
+  "spatial:test:person|to the right of|man:0006": {
+   "original": 1.6308156251907349,
+   "ref_hflip": -0.4972713887691498,
+   "ref_vflip": 1.1290178298950195,
+   "ref_gray": 2.5074644088745117
+  },
+  "spatial:test:person|to the right of|man:0007": {
+   "original": 2.1268343925476074,
+   "ref_hflip": 1.12712824344635,
+   "ref_vflip": 1.8768699169158936,
+   "ref_gray": -0.24751776456832886
+  },
+  "spatial:test:person|to the right of|man:0008": {
+   "original": 0.8776038289070129,
+   "ref_hflip": 1.251923680305481,
+   "ref_vflip": 1.1266990900039673,
+   "ref_gray": 0.3773118853569031
+  },
+  "spatial:test:person|to the right of|man:0009": {
+   "original": 1.5012619495391846,
+   "ref_hflip": -0.9959526062011719,
+   "ref_vflip": 1.6261141300201416,
+   "ref_gray": -0.3658774495124817
+  },
+  "spatial:test:person|to the right of|man:0010": {
+   "original": 0.3770737648010254,
+   "ref_hflip": 0.12735646963119507,
+   "ref_vflip": 0.2516927123069763,
+   "ref_gray": -0.9989689588546753
+  },
+  "spatial:test:person|to the right of|man:0011": {
+   "original": 1.879539966583252,
+   "ref_hflip": 1.879539966583252,
+   "ref_vflip": 1.5035501718521118,
+   "ref_gray": -0.37143152952194214
+  },
+  "spatial:test:person|to the right of|man:0012": {
+   "original": -1.3683931827545166,
+   "ref_hflip": -1.3711268901824951,
+   "ref_vflip": -1.6204302310943604,
+   "ref_gray": -0.7408797740936279
+  },
+  "spatial:test:person|to the right of|man:0013": {
+   "original": 2.879920244216919,
+   "ref_hflip": 3.5014500617980957,
+   "ref_vflip": 2.878458023071289,
+   "ref_gray": 4.130648136138916
+  },
+  "spatial:test:person|to the right of|man:0014": {
+   "original": -0.495440274477005,
+   "ref_hflip": -0.37158292531967163,
+   "ref_vflip": -0.49250540137290955,
+   "ref_gray": -0.6226375102996826
+  },
+  "spatial:test:person|to the right of|man:0015": {
+   "original": -0.2478961944580078,
+   "ref_hflip": -0.6238322257995605,
+   "ref_vflip": -0.12313050031661987,
+   "ref_gray": -0.49919310212135315
+  },
+  "spatial:test:person|to the right of|man:0016": {
+   "original": 4.875861644744873,
+   "ref_hflip": 0.6273640990257263,
+   "ref_vflip": 3.753340244293213,
+   "ref_gray": -0.367687463760376
+  },
+  "spatial:test:person|to the right of|man:0017": {
+   "original": -0.6198272109031677,
+   "ref_hflip": -0.3718404769897461,
+   "ref_vflip": -0.24452781677246094,
+   "ref_gray": -0.11841213703155518
+  },
+  "spatial:test:person|to the right of|man:0018": {
+   "original": 1.87668776512146,
+   "ref_hflip": 2.0011403560638428,
+   "ref_vflip": 2.625905752182007,
+   "ref_gray": 1.5016239881515503
+  },
+  "spatial:test:person|to the right of|man:0019": {
+   "original": 0.0027283430099487305,
+   "ref_hflip": -1.617502212524414,
+   "ref_vflip": 0.0024123191833496094,
+   "ref_gray": 0.25173354148864746
+  },
+  "spatial:test:person|to the right of|man:0020": {
+   "original": 3.256591320037842,
+   "ref_hflip": 0.387251615524292,
+   "ref_vflip": 2.3824634552001953,
+   "ref_gray": -2.87154483795166
+  },
+  "spatial:test:person|to the right of|man:0021": {
+   "original": 2.255812406539917,
+   "ref_hflip": 1.8839547634124756,
+   "ref_vflip": 2.1334500312805176,
+   "ref_gray": 2.3898167610168457
+  },
+  "spatial:test:person|to the right of|man:0022": {
+   "original": 2.126115560531616,
+   "ref_hflip": 2.2512195110321045,
+   "ref_vflip": 2.001488447189331,
+   "ref_gray": 2.1260054111480713
+  },
+  "spatial:test:person|to the right of|man:0023": {
+   "original": 1.8772993087768555,
+   "ref_hflip": 2.1277148723602295,
+   "ref_vflip": 1.1292777061462402,
+   "ref_gray": -1.2468208074569702
+  },
+  "spatial:test:person|to the right of|man:0024": {
+   "original": -0.12395906448364258,
+   "ref_hflip": -0.24930340051651,
+   "ref_vflip": 0.12618106603622437,
+   "ref_gray": -0.124653160572052
+  },
+  "spatial:test:person|to the right of|man:0025": {
+   "original": -1.367485523223877,
+   "ref_hflip": -1.7418813705444336,
+   "ref_vflip": -1.2415049076080322,
+   "ref_gray": -0.8694071173667908
+  },
+  "spatial:test:person|to the right of|man:0026": {
+   "original": 3.132106065750122,
+   "ref_hflip": 0.007243931293487549,
+   "ref_vflip": 2.5116095542907715,
+   "ref_gray": -0.7395647168159485
+  },
+  "spatial:test:person|to the right of|man:0027": {
+   "original": 3.004546880722046,
+   "ref_hflip": 3.128549098968506,
+   "ref_vflip": 2.878538131713867,
+   "ref_gray": 3.2542848587036133
+  },
+  "spatial:test:person|to the right of|man:0028": {
+   "original": 0.12801963090896606,
+   "ref_hflip": -0.12314552068710327,
+   "ref_vflip": -0.9965659379959106,
+   "ref_gray": -0.7475907802581787
+  },
+  "spatial:test:person|to the right of|man:0029": {
+   "original": -1.9948186874389648,
+   "ref_hflip": -1.4954053163528442,
+   "ref_vflip": -1.4929858446121216,
+   "ref_gray": -1.864385962486267
+  },
+  "spatial:test:person|to the right of|man:0030": {
+   "original": 2.0024404525756836,
+   "ref_hflip": 1.8774478435516357,
+   "ref_vflip": 1.8774423599243164,
+   "ref_gray": 2.002156972885132
+  },
+  "spatial:test:person|to the right of|man:0031": {
+   "original": 2.7527031898498535,
+   "ref_hflip": 0.25230902433395386,
+   "ref_vflip": 1.879823088645935,
+   "ref_gray": -1.6192467212677002
+  },
+  "spatial:test:person|to the right of|man:0032": {
+   "original": 2.5015735626220703,
+   "ref_hflip": 1.2514984607696533,
+   "ref_vflip": 2.2516496181488037,
+   "ref_gray": 1.0019166469573975
+  },
+  "spatial:test:person|to the right of|man:0033": {
+   "original": 1.002164363861084,
+   "ref_hflip": 0.6266258955001831,
+   "ref_vflip": 0.8777173757553101,
+   "ref_gray": -0.7368353605270386
+  },
+  "spatial:test:person|to the right of|man:0034": {
+   "original": 1.7516963481903076,
+   "ref_hflip": 3.7505524158477783,
+   "ref_vflip": -0.2479063868522644,
+   "ref_gray": 1.0027751922607422
+  },
+  "spatial:test:person|to the right of|man:0035": {
+   "original": 0.0009366273880004883,
+   "ref_hflip": 1.37614905834198,
+   "ref_vflip": 1.7511405944824219,
+   "ref_gray": 1.6270248889923096
+  },
+  "spatial:test:person|to the right of|man:0036": {
+   "original": -1.1228100061416626,
+   "ref_hflip": 0.7535685300827026,
+   "ref_vflip": -0.37052059173583984,
+   "ref_gray": -0.6243711113929749
+  },
+  "spatial:test:person|to the right of|man:0037": {
+   "original": 0.12746018171310425,
+   "ref_hflip": 0.5049277544021606,
+   "ref_vflip": -0.11915004253387451,
+   "ref_gray": -1.3704279661178589
+  },
+  "spatial:test:person|to the right of|man:0038": {
+   "original": 1.0040438175201416,
+   "ref_hflip": 0.12816035747528076,
+   "ref_vflip": 0.37857627868652344,
+   "ref_gray": 0.25150352716445923
+  },
+  "spatial:test:person|to the right of|man:0039": {
+   "original": 3.3764491081237793,
+   "ref_hflip": 3.0020668506622314,
+   "ref_vflip": 3.3770649433135986,
+   "ref_gray": -0.6214236617088318
+  },
+  "spatial:test:tree|to the left of|building:0000": {
+   "original": 5.488242149353027,
+   "ref_hflip": -0.11169511079788208,
+   "ref_vflip": 5.9894208908081055,
+   "ref_gray": 4.368691444396973
+  },
+  "spatial:test:tree|to the left of|building:0001": {
+   "original": 3.717862844467163,
+   "ref_hflip": 2.5216848850250244,
+   "ref_vflip": 3.720759391784668,
+   "ref_gray": 1.6548625230789185
+  },
+  "spatial:test:tree|to the left of|building:0002": {
+   "original": 6.232349395751953,
+   "ref_hflip": 6.471578598022461,
+   "ref_vflip": 6.0998454093933105,
+   "ref_gray": 4.374965667724609
+  },
+  "spatial:test:tree|to the left of|building:0003": {
+   "original": 4.369899749755859,
+   "ref_hflip": 3.1268844604492188,
+   "ref_vflip": 4.369356632232666,
+   "ref_gray": 3.6250038146972656
+  },
+  "spatial:test:tree|to the left of|building:0004": {
+   "original": 4.498126983642578,
+   "ref_hflip": 4.123854637145996,
+   "ref_vflip": 5.121933937072754,
+   "ref_gray": 4.749957084655762
+  },
+  "spatial:test:tree|to the left of|building:0005": {
+   "original": 1.8773949146270752,
+   "ref_hflip": 2.0021138191223145,
+   "ref_vflip": 3.37500262260437,
+   "ref_gray": 2.138389825820923
+  },
+  "spatial:test:tree|to the left of|building:0006": {
+   "original": 0.0024140477180480957,
+   "ref_hflip": 0.7580763101577759,
+   "ref_vflip": -0.6183749437332153,
+   "ref_gray": -1.717747688293457
+  },
+  "spatial:test:tree|to the left of|building:0007": {
+   "original": 2.8790106773376465,
+   "ref_hflip": 3.255664110183716,
+   "ref_vflip": 1.517543077468872,
+   "ref_gray": -0.7391958236694336
+  },
+  "spatial:test:tree|to the left of|building:0008": {
+   "original": 4.00166654586792,
+   "ref_hflip": 0.503166139125824,
+   "ref_vflip": 3.0093817710876465,
+   "ref_gray": 1.2604286670684814
+  },
+  "spatial:test:tree|to the left of|building:0009": {
+   "original": 3.0045204162597656,
+   "ref_hflip": 1.8845657110214233,
+   "ref_vflip": 2.6307733058929443,
+   "ref_gray": 1.1315362453460693
+  },
+  "spatial:test:tree|to the left of|building:0010": {
+   "original": 3.2500083446502686,
+   "ref_hflip": 4.748342990875244,
+   "ref_vflip": 3.1260197162628174,
+   "ref_gray": 2.125011444091797
+  },
+  "spatial:test:tree|to the left of|building:0011": {
+   "original": 1.1301571130752563,
+   "ref_hflip": 2.0092334747314453,
+   "ref_vflip": 1.3871840238571167,
+   "ref_gray": 2.0095293521881104
+  },
+  "spatial:test:tree|to the left of|building:0012": {
+   "original": 2.00140118598938,
+   "ref_hflip": -1.4989535808563232,
+   "ref_vflip": 1.5012409687042236,
+   "ref_gray": 1.1257038116455078
+  },
+  "spatial:test:tree|to the left of|building:0013": {
+   "original": 0.7545665502548218,
+   "ref_hflip": -0.12050426006317139,
+   "ref_vflip": 0.0024774670600891113,
+   "ref_gray": 1.1345422267913818
+  },
+  "spatial:test:tree|to the left of|building:0014": {
+   "original": 2.75148344039917,
+   "ref_hflip": 2.7516815662384033,
+   "ref_vflip": 3.5007874965667725,
+   "ref_gray": 2.6305859088897705
+  },
+  "spatial:test:tree|to the left of|building:0015": {
+   "original": 3.8693552017211914,
+   "ref_hflip": 3.9954888820648193,
+   "ref_vflip": 3.4987101554870605,
+   "ref_gray": 3.9978833198547363
+  },
+  "spatial:test:tree|to the left of|building:0016": {
+   "original": 3.8733434677124023,
+   "ref_hflip": 3.8733434677124023,
+   "ref_vflip": 3.001878261566162,
+   "ref_gray": 0.2535504698753357
+  },
+  "spatial:test:tree|to the left of|building:0017": {
+   "original": 1.7523467540740967,
+   "ref_hflip": -2.4919936656951904,
+   "ref_vflip": 1.8793529272079468,
+   "ref_gray": 0.1372433304786682
+  },
+  "spatial:test:tree|to the left of|building:0018": {
+   "original": 3.867652654647827,
+   "ref_hflip": 1.7549735307693481,
+   "ref_vflip": 3.7201390266418457,
+   "ref_gray": 4.8705925941467285
+  },
+  "spatial:test:tree|to the left of|building:0019": {
+   "original": 0.7510342597961426,
+   "ref_hflip": 2.2517776489257812,
+   "ref_vflip": 0.12691152095794678,
+   "ref_gray": 2.1261720657348633
+  },
+  "spatial:test:tree|to the left of|building:0020": {
+   "original": 2.3750202655792236,
+   "ref_hflip": 2.3784706592559814,
+   "ref_vflip": 2.1274185180664062,
+   "ref_gray": 2.3806161880493164
+  },
+  "spatial:test:tree|to the left of|building:0021": {
+   "original": 4.353640079498291,
+   "ref_hflip": 4.1170268058776855,
+   "ref_vflip": 3.8694064617156982,
+   "ref_gray": 4.609933376312256
+  },
+  "spatial:test:tree|to the left of|building:0022": {
+   "original": 2.888392925262451,
+   "ref_hflip": 2.2556095123291016,
+   "ref_vflip": 2.6369011402130127,
+   "ref_gray": 2.1419472694396973
+  },
+  "spatial:test:tree|to the left of|building:0023": {
+   "original": 3.375011444091797,
+   "ref_hflip": 3.375011444091797,
+   "ref_vflip": 3.3790018558502197,
+   "ref_gray": -1.4954257011413574
+  },
+  "spatial:test:tree|to the left of|building:0024": {
+   "original": 0.004056274890899658,
+   "ref_hflip": -0.12040549516677856,
+   "ref_vflip": 0.1308673620223999,
+   "ref_gray": -0.49493634700775146
+  },
+  "spatial:test:tree|to the left of|building:0025": {
+   "original": 5.348031520843506,
+   "ref_hflip": 4.360047340393066,
+   "ref_vflip": 5.071225643157959,
+   "ref_gray": 4.465907096862793
+  },
+  "spatial:test:tree|to the left of|building:0026": {
+   "original": -2.4988527297973633,
+   "ref_hflip": -1.497168779373169,
+   "ref_vflip": -2.3732972145080566,
+   "ref_gray": -2.2489829063415527
+  },
+  "spatial:test:tree|to the left of|building:0027": {
+   "original": 0.2621723413467407,
+   "ref_hflip": 1.6552987098693848,
+   "ref_vflip": -0.3683711290359497,
+   "ref_gray": 0.38410598039627075
+  },
+  "spatial:test:tree|to the left of|building:0028": {
+   "original": 2.878397226333618,
+   "ref_hflip": 0.25119489431381226,
+   "ref_vflip": 2.3783981800079346,
+   "ref_gray": 3.00276517868042
+  },
+  "spatial:test:tree|to the left of|building:0029": {
+   "original": 0.628859281539917,
+   "ref_hflip": -1.3718883991241455,
+   "ref_vflip": 0.3808332085609436,
+   "ref_gray": -0.6209643483161926
+  },
+  "spatial:test:tree|to the left of|building:0030": {
+   "original": 5.484923362731934,
+   "ref_hflip": 1.519777774810791,
+   "ref_vflip": 5.216042518615723,
+   "ref_gray": 4.374997138977051
+  },
+  "spatial:test:tree|to the left of|building:0031": {
+   "original": 2.0049335956573486,
+   "ref_hflip": 1.5058245658874512,
+   "ref_vflip": 2.128852128982544,
+   "ref_gray": 3.5018792152404785
+  },
+  "spatial:test:tree|to the left of|building:0032": {
+   "original": 5.990450382232666,
+   "ref_hflip": -2.1111202239990234,
+   "ref_vflip": 5.493535995483398,
+   "ref_gray": 2.376671075820923
+  },
+  "spatial:test:tree|to the left of|building:0033": {
+   "original": 4.741695880889893,
+   "ref_hflip": 4.6200337409973145,
+   "ref_vflip": 3.6200404167175293,
+   "ref_gray": 4.970122814178467
+  },
+  "spatial:test:tree|to the left of|building:0034": {
+   "original": 0.6284944415092468,
+   "ref_hflip": 0.7566121220588684,
+   "ref_vflip": 0.2580929398536682,
+   "ref_gray": 0.130049467086792
+  },
+  "spatial:test:tree|to the left of|building:0035": {
+   "original": 1.8800164461135864,
+   "ref_hflip": 1.6301583051681519,
+   "ref_vflip": 1.635439157485962,
+   "ref_gray": -0.33206045627593994
+  },
+  "spatial:test:tree|to the left of|building:0036": {
+   "original": 4.375001907348633,
+   "ref_hflip": 4.624303817749023,
+   "ref_vflip": 4.748531818389893,
+   "ref_gray": 4.477721214294434
+  },
+  "spatial:test:tree|to the left of|building:0037": {
+   "original": 4.124992847442627,
+   "ref_hflip": 1.0103132724761963,
+   "ref_vflip": 3.2500009536743164,
+   "ref_gray": 3.0126161575317383
+  },
+  "spatial:test:tree|to the left of|building:0038": {
+   "original": 1.8815170526504517,
+   "ref_hflip": 1.3867669105529785,
+   "ref_vflip": 2.753901720046997,
+   "ref_gray": 2.504403591156006
+  },
+  "spatial:test:tree|to the left of|building:0039": {
+   "original": 1.2584216594696045,
+   "ref_hflip": -0.4954008162021637,
+   "ref_vflip": 1.5137441158294678,
+   "ref_gray": -0.11562299728393555
+  },
+  "spatial:test:woman|to the left of|man:0000": {
+   "original": 0.27701056003570557,
+   "ref_hflip": 0.8990387320518494,
+   "ref_vflip": 2.651735305786133,
+   "ref_gray": -0.0740923285484314
+  },
+  "spatial:test:woman|to the left of|man:0001": {
+   "original": 6.07318639755249,
+   "ref_hflip": 5.863713264465332,
+   "ref_vflip": 4.919717311859131,
+   "ref_gray": 3.874983787536621
+  },
+  "spatial:test:woman|to the left of|man:0002": {
+   "original": 4.12645959854126,
+   "ref_hflip": 3.9999988079071045,
+   "ref_vflip": 3.626654624938965,
+   "ref_gray": 4.374210834503174
+  },
+  "spatial:test:woman|to the left of|man:0003": {
+   "original": 5.6249518394470215,
+   "ref_hflip": 5.686297416687012,
+   "ref_vflip": 5.4734320640563965,
+   "ref_gray": 0.31052857637405396
+  },
+  "spatial:test:woman|to the left of|man:0004": {
+   "original": 5.316229343414307,
+   "ref_hflip": 2.3925528526306152,
+   "ref_vflip": 5.42548131942749,
+   "ref_gray": 2.773885488510132
+  },
+  "spatial:test:woman|to the left of|man:0005": {
+   "original": 1.6172270774841309,
+   "ref_hflip": -1.7497764825820923,
+   "ref_vflip": 1.5872389078140259,
+   "ref_gray": 2.0000178813934326
+  },
+  "spatial:test:woman|to the left of|man:0006": {
+   "original": -0.3576963543891907,
+   "ref_hflip": -0.8479375839233398,
+   "ref_vflip": -1.4852770566940308,
+   "ref_gray": -0.9898350238800049
+  },
+  "spatial:test:woman|to the left of|man:0007": {
+   "original": -1.4356197118759155,
+   "ref_hflip": -1.5840191841125488,
+   "ref_vflip": -1.3176534175872803,
+   "ref_gray": -1.8239659070968628
+  },
+  "spatial:test:woman|to the left of|man:0008": {
+   "original": 1.411320686340332,
+   "ref_hflip": 2.035909414291382,
+   "ref_vflip": 1.1658867597579956,
+   "ref_gray": 1.9158750772476196
+  },
+  "spatial:test:woman|to the left of|man:0009": {
+   "original": 3.624962091445923,
+   "ref_hflip": -0.5154246687889099,
+   "ref_vflip": 2.7115585803985596,
+   "ref_gray": 2.0192699432373047
+  },
+  "spatial:test:woman|to the left of|man:0010": {
+   "original": -0.8728502988815308,
+   "ref_hflip": -0.4982829689979553,
+   "ref_vflip": -0.8728508949279785,
+   "ref_gray": -0.37348490953445435
+  },
+  "spatial:test:woman|to the left of|man:0011": {
+   "original": 5.22863245010376,
+   "ref_hflip": 5.0947089195251465,
+   "ref_vflip": 5.223008155822754,
+   "ref_gray": 4.24103307723999
+  },
+  "spatial:test:woman|to the left of|man:0012": {
+   "original": 6.88348913192749,
+   "ref_hflip": 5.765482425689697,
+   "ref_vflip": 7.100684642791748,
+   "ref_gray": 2.1982264518737793
+  },
+  "spatial:test:woman|to the left of|man:0013": {
+   "original": 5.986731052398682,
+   "ref_hflip": 6.106139183044434,
+   "ref_vflip": 5.860036849975586,
+   "ref_gray": 3.378056764602661
+  },
+  "spatial:test:woman|to the left of|man:0014": {
+   "original": 0.9762457609176636,
+   "ref_hflip": 1.8849575519561768,
+   "ref_vflip": 0.7233046293258667,
+   "ref_gray": -0.1621328592300415
+  },
+  "spatial:test:woman|to the left of|man:0015": {
+   "original": 5.059782981872559,
+   "ref_hflip": 2.8843629360198975,
+   "ref_vflip": 5.184778213500977,
+   "ref_gray": 5.477719783782959
+  },
+  "spatial:test:woman|to the left of|man:0016": {
+   "original": 0.0026704072952270508,
+   "ref_hflip": 0.002672553062438965,
+   "ref_vflip": -0.12184685468673706,
+   "ref_gray": -0.12233078479766846
+  },
+  "spatial:test:woman|to the left of|man:0017": {
+   "original": 0.17308437824249268,
+   "ref_hflip": 1.5333147048950195,
+   "ref_vflip": 0.4224397540092468,
+   "ref_gray": 1.2880077362060547
+  },
+  "spatial:test:woman|to the left of|man:0018": {
+   "original": 4.380580902099609,
+   "ref_hflip": -0.12070757150650024,
+   "ref_vflip": 4.874985218048096,
+   "ref_gray": -0.8643869161605835
+  },
+  "spatial:test:woman|to the left of|man:0019": {
+   "original": 0.792934775352478,
+   "ref_hflip": 0.5429457426071167,
+   "ref_vflip": 0.9020181894302368,
+   "ref_gray": 0.9179347157478333
+  },
+  "spatial:test:woman|to the left of|man:0020": {
+   "original": 6.22772216796875,
+   "ref_hflip": 5.685896396636963,
+   "ref_vflip": 5.931619644165039,
+   "ref_gray": 3.874983310699463
+  },
+  "spatial:test:woman|to the left of|man:0021": {
+   "original": 4.749981880187988,
+   "ref_hflip": 6.134519100189209,
+   "ref_vflip": 4.521301746368408,
+   "ref_gray": 0.5759808421134949
+  },
+  "spatial:test:woman|to the left of|man:0022": {
+   "original": 6.484434127807617,
+   "ref_hflip": 5.504232406616211,
+   "ref_vflip": 5.9471516609191895,
+   "ref_gray": 2.7277607917785645
+  },
+  "spatial:test:woman|to the left of|man:0023": {
+   "original": 5.469712734222412,
+   "ref_hflip": 2.875007152557373,
+   "ref_vflip": 5.095124244689941,
+   "ref_gray": 4.063648700714111
+  },
+  "spatial:test:woman|to the left of|man:0024": {
+   "original": 3.6249940395355225,
+   "ref_hflip": 2.124999761581421,
+   "ref_vflip": 3.7499890327453613,
+   "ref_gray": 1.7740181684494019
+  },
+  "spatial:test:woman|to the left of|man:0025": {
+   "original": 2.398900032043457,
+   "ref_hflip": 1.2713525295257568,
+   "ref_vflip": 2.8876283168792725,
+   "ref_gray": 2.5216846466064453
+  },
+  "spatial:test:woman|to the left of|man:0026": {
+   "original": 3.9980268478393555,
+   "ref_hflip": 2.2500362396240234,
+   "ref_vflip": 4.0505218505859375,
+   "ref_gray": -1.3456330299377441
+  },
+  "spatial:test:woman|to the left of|man:0027": {
+   "original": 4.939423084259033,
+   "ref_hflip": 2.9355411529541016,
+   "ref_vflip": 3.492196798324585,
+   "ref_gray": 2.647244691848755
+  },
+  "spatial:test:woman|to the left of|man:0028": {
+   "original": 0.38457614183425903,
+   "ref_hflip": -1.4956870079040527,
+   "ref_vflip": 0.8815861940383911,
+   "ref_gray": -0.4926643669605255
+  },
+  "spatial:test:woman|to the left of|man:0029": {
+   "original": 5.374997138977051,
+   "ref_hflip": 4.250698089599609,
+   "ref_vflip": 4.376309871673584,
+   "ref_gray": 3.9999918937683105
+  },
+  "spatial:test:woman|to the left of|man:0030": {
+   "original": 1.0006201267242432,
+   "ref_hflip": 0.6256952285766602,
+   "ref_vflip": 1.2503060102462769,
+   "ref_gray": 1.2505565881729126
+  },
+  "spatial:test:woman|to the left of|man:0031": {
+   "original": 0.35192376375198364,
+   "ref_hflip": 0.7835701107978821,
+   "ref_vflip": -0.43056464195251465,
+   "ref_gray": 0.2842192053794861
+  },
+  "spatial:test:woman|to the left of|man:0032": {
+   "original": 0.2565910816192627,
+   "ref_hflip": 1.1294281482696533,
+   "ref_vflip": 2.5073506832122803,
+   "ref_gray": 1.1285415887832642
+  },
+  "spatial:test:woman|to the left of|man:0033": {
+   "original": 4.600978374481201,
+   "ref_hflip": 1.022317886352539,
+   "ref_vflip": 5.46415376663208,
+   "ref_gray": 2.992197036743164
+  },
+  "spatial:test:woman|to the left of|man:0034": {
+   "original": 6.336523056030273,
+   "ref_hflip": 3.199490547180176,
+   "ref_vflip": 5.557668685913086,
+   "ref_gray": 1.726425290107727
+  },
+  "spatial:test:woman|to the left of|man:0035": {
+   "original": 6.984923362731934,
+   "ref_hflip": 4.999996662139893,
+   "ref_vflip": 6.169699668884277,
+   "ref_gray": 4.072155475616455
+  },
+  "spatial:test:woman|to the left of|man:0036": {
+   "original": 3.1249990463256836,
+   "ref_hflip": 3.3749916553497314,
+   "ref_vflip": 2.999997615814209,
+   "ref_gray": 2.5722055435180664
+  },
+  "spatial:test:woman|to the left of|man:0037": {
+   "original": 7.004027843475342,
+   "ref_hflip": 5.865635871887207,
+   "ref_vflip": 7.2414374351501465,
+   "ref_gray": 3.1137170791625977
+  },
+  "spatial:test:woman|to the left of|man:0038": {
+   "original": -0.2091020941734314,
+   "ref_hflip": 0.22754210233688354,
+   "ref_vflip": -1.7142189741134644,
+   "ref_gray": 1.3037545680999756
+  },
+  "spatial:test:woman|to the left of|man:0039": {
+   "original": 5.938629627227783,
+   "ref_hflip": 2.771359920501709,
+   "ref_vflip": 5.575919151306152,
+   "ref_gray": 1.2368884086608887
   }
  }
 }
