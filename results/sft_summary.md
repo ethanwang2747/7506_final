@@ -65,6 +65,13 @@ Overall 0.569/0.600 -> 0.683/0.759; delta AUC +0.159 [0.109, 0.208]. The
 held-out average gain (+0.164) is at least as large as the trained groups'
 (+0.110), so the learned readout is not group-specific memorization.
 
+Caveat: most of the held-out gain is already carried by side-only training
+(side-only gains on the same groups are +0.036 and +0.260; the extra gain from
+the remaining groups' relation supervision is only +0.014 and +0.019). This run
+therefore supports "side supervision transfers across groups", not "relation
+supervision generalizes across groups". The full-vs-4k comparison is also
+confounded by training steps.
+
 ## 4.1 Fresh confirmation set
 
 Built from 71,302 GQA train images that appear in no pair file and no SFT batch

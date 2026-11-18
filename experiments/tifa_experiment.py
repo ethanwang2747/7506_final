@@ -55,6 +55,7 @@ def main():
     ap.add_argument("--max-new-tokens", type=int, default=48)
     ap.add_argument("--batch-size", type=int, default=4)
     ap.add_argument("--prompt", default="Describe what is happening in the image in one or two sentences.")
+    ap.add_argument("--adapter", default=None)
     args = ap.parse_args()
 
     rows = read_jsonl(args.sample)
@@ -71,6 +72,9 @@ def main():
 
     proc = load_processor(splitting=False)
     model = load_model(attn="sdpa")
+    if args.adapter:
+        from peft import PeftModel
+        model = PeftModel.from_pretrained(model, str(ROOT / args.adapter))
     yes_ids, no_ids = yes_no_ids(proc)
 
     t0 = time.time()

@@ -36,6 +36,9 @@
 | 跨组泛化 | 完成（2026-11-18） | `results/sft/eval_relation_crossgroup.json` |
 | 全量 1 epoch | 完成（2026-11-18） | `results/sft/eval_relation_full.json` |
 | 空白图对照 | 完成（2026-11-18） | `results/sft/eval_blank_base.json`、`eval_blank_full.json` |
+| 新确认集（train 留出） | 完成（2026-11-18） | `results/sft/eval_relation_confirm_*.json` |
+| POPE / 属性回归 | 完成（2026-11-18） | `results/pope/pope_300_full.json`、`results/finegrained/test_full.json` |
+| adapter logit lens | 完成（2026-11-18） | `results/diagnostics/logit_lens_core_full.json` |
 | LoRA-SFT（中间步骤监督） | **未做** | — |
 | DPO / 轻量 RL | **未做** | — |
 
@@ -222,3 +225,4 @@
 | 2026-11-17 | 从 ModelScope 下载 GQA train 图（74,256 张，9.8GB），SFT 数据就绪 |
 | 2026-11-18 | Stage 0/1：侧别 probe、按组逐 token probe、直接询问方位、给方位后的关系；结论改为“方位读出”瓶颈，SFT 目标调整为先教方位报告 |
 | 2026-11-18 | SFT 首轮 + 2×2 对照：side-only 迁移到关系（ΔAUC +0.117），relation-only 不提升方位；直接关系监督最强（+0.177） |
+| 2026-11-18 | 新确认集复现（base 0.531 / full 0.802）；POPE 与属性任务无实质回归；修正 majority baseline；收紧机制措辞 |
