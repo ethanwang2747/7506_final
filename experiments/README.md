@@ -374,6 +374,28 @@ Next: build train pairs with the same filtering as `build_val_pairs.py`
 (source/target, same image both roles), add mirror and question-reversal
 augmentation, and keep the eval images held out.
 
+## E17: Stage 0/1 — position readout vs composition
+
+```bash
+# build 600 balanced train pairs per group from GQA train scene graphs
+python experiments/build_train_pairs.py
+python experiments/extract_train_features.py        # S1/S6/S12 for 3600 pairs
+python experiments/per_group_token_probe.py         # question fixed, one probe per cell
+
+# last-token side probe at layers 12/16/18/19/20/23
+python experiments/extract_side_features.py
+python experiments/side_probe.py
+
+# can the model report sides, and can it compose given sides?
+python experiments/side_report.py
+python experiments/side_given_relation.py
+```
+
+Results and the revised diagnosis are in `results/diagnostics_summary.md` §10.
+In short: pooled visual tokens decode horizontal side at AUC 0.95, the L19
+decision state only reaches 0.65, generation is a constant "left"/"top" prior,
+and composition is intact (0.92 with true sides, 0.12 with swapped sides).
+
 ## Diagnostic handbook
 
 The full diagnostic protocol (probing, per-token latent maps, RSA/CKA, causal
