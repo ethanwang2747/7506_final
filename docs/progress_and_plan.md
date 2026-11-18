@@ -41,6 +41,8 @@
 | adapter logit lens | 完成（2026-11-18） | `results/diagnostics/logit_lens_core_full.json` |
 | full 第二个种子 | 完成（2026-11-18） | `results/sft/eval_relation_full_s1.json`、`confirm_full_s1.json` |
 | TIFA 回归 | 完成（2026-11-18） | `results/tifa/tifa_100_full_judge.json`、`..._long_judge.json` |
+| 问句反转 / 增强 | 完成（2026-11-18） | `results/sft/eval_relation_rev_*.json`、`adapter_aug` |
+| 报告 v6 整合稿 | 完成（2026-11-18） | `report/report_v6_draft.md` |
 | LoRA-SFT（中间步骤监督） | **未做** | — |
 | DPO / 轻量 RL | **未做** | — |
 
