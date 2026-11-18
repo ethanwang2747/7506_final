@@ -31,6 +31,8 @@
 | 直接询问方位 | 完成（2026-11-18） | `results/diagnostics/side_report.json` |
 | 给方位后的关系判断 | 完成（2026-11-18） | `results/diagnostics/side_given_relation.json` |
 | 分解式提示 / 反转一致性 | **部分完成**：分解提示被证否；反转一致性未做 | — |
+| LoRA-SFT 首轮（混合） | 完成（2026-11-18） | `results/sft/adapter_side`、`results/sft/eval_relation_sft.json` |
+| 2×2 对照（side-only / relation-only） | 完成（2026-11-18） | `results/sft/bootstrap_deltas.json` |
 | LoRA-SFT（中间步骤监督） | **未做** | — |
 | DPO / 轻量 RL | **未做** | — |
 
@@ -121,7 +123,20 @@
 **结论**：阶段 1 的“提示激发”路径关闭；直接进入阶段 2，但训练目标改为
 **先教方位报告（visual → text），再教关系**。
 
-### 阶段 2：LoRA-SFT（11/18 起，目标已调整）
+### 阶段 2：LoRA-SFT（11/18 首轮完成）
+
+**首轮结果（4,000 步，14 分钟，5.55GB）：**
+
+| adapter | 方位 水平/竖直 | 关系 acc / AUC |
+|---|---|---|
+| base | 0.506 / 0.492 | 0.569 / 0.600 |
+| side-only | 0.645 / 0.682 | 0.617 / 0.717 |
+| relation-only | 0.551 / 0.492 | 0.683 / 0.777 |
+| mixed | 0.689 / 0.704 | 0.656 / 0.750 |
+
+- 方位训练迁移到关系（ΔAUC +0.117，CI 不跨 0）；关系训练不提升方位。
+- 直接关系监督更强（ΔAUC +0.177），但机制证据来自 side-only。
+- 详见 `docs/sft_experiment_log.md` 与 `results/diagnostics_summary.md` §11。
 
 数据（程序化生成，不需要人工标注）：
 
@@ -203,3 +218,4 @@
 | 2026-11-17 | 建立本文档；记录诊断结论、修正 0.81 的解读、确定三阶段计划 |
 | 2026-11-17 | 从 ModelScope 下载 GQA train 图（74,256 张，9.8GB），SFT 数据就绪 |
 | 2026-11-18 | Stage 0/1：侧别 probe、按组逐 token probe、直接询问方位、给方位后的关系；结论改为“方位读出”瓶颈，SFT 目标调整为先教方位报告 |
+| 2026-11-18 | SFT 首轮 + 2×2 对照：side-only 迁移到关系（ΔAUC +0.117），relation-only 不提升方位；直接关系监督最强（+0.177） |

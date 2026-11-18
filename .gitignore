@@ -25,3 +25,6 @@ results/readout/*.pt
 
 # Diagnostic feature caches (regenerable)
 results/diagnostics/*.pt
+
+# LoRA adapters (regenerable from the logged commands)
+results/sft/adapter*/

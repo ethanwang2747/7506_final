@@ -288,3 +288,46 @@ Implications:
 3. A two-stage system is a legitimate alternative: a small side reader on visual
    features (0.95 with oracle boxes) plus the relation prompt (0.92). Deployable
    only if a proposal stage supplies the boxes.
+
+
+---
+
+## 11. SFT pilot (2026-11-18): teaching side reporting transfers to relations
+
+Data: 2,954 GQA train images. 11,816 side questions (which half is object X in)
+plus 3,600 relation questions (600 per group, balanced). Model: SmolVLM2-2.2B,
+vision tower frozen, LoRA r=8 on q_proj/v_proj (2.57M trainable, 0.11%), bf16,
+batch 1, 4,000 steps, 14 minutes, 5.55 GB peak.
+
+| metric | base | + LoRA (side 77% / relation 23%) | delta |
+|---|---:|---:|---:|
+| side report, horizontal | 0.506 | **0.689** | +0.183 |
+| side report, vertical | 0.492 | **0.704** | +0.212 |
+| relation accuracy | 0.569 | **0.656** | +0.087 |
+| relation AUC | 0.600 | **0.750** | +0.150 |
+| composition, true sides (diff-half) | 0.921 | 0.903 | -0.018 |
+| composition, swapped sides (diff-half) | 0.120 | 0.277 | +0.157 |
+
+The side answers stop being a constant prior (the prediction distribution becomes
+close to 50/50), and the relation gain appears in 5 of 6 groups. Composition does
+not degrade: the model still follows swapped side statements.
+
+**2x2 control.** Four adapters were trained with the same config (4,000 steps,
+LoRA r=8), differing only in the training tasks:
+
+| adapter | side horizontal | side vertical | relation acc | relation AUC | delta AUC vs base |
+|---|---:|---:|---:|---:|---:|
+| base | 0.506 | 0.492 | 0.569 | 0.600 | - |
+| side-only | 0.645 | 0.682 | 0.617 | 0.717 | +0.117 [0.071, 0.161] |
+| relation-only | 0.551 | 0.492 | 0.683 | 0.777 | +0.177 [0.124, 0.229] |
+| mixed | 0.689 | 0.704 | 0.656 | 0.750 | +0.150 [0.102, 0.199] |
+
+Intervals are paired bootstrap by pair id (2,000 draws). The side-only delta in
+accuracy is +0.044 [-0.008, 0.094], so the transfer is in ranking rather than in
+the thresholded answer. Relation-only training leaves side reporting at base
+level, so position readout needs explicit supervision; direct relation
+supervision is stronger for the relation task itself.
+
+This supports the diagnosis: teaching the missing readout (object side) moves
+the relation decision even without any relation labels, while relation labels
+alone do not teach the readout.

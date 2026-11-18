@@ -67,6 +67,7 @@ def main():
     ap.add_argument("--pairs", default="data/derived/spatial_pairs_test.jsonl")
     ap.add_argument("--max-per-group", type=int, default=40)
     ap.add_argument("--batch-size", type=int, default=8)
+    ap.add_argument("--adapter", default=None)
     ap.add_argument("--out", default="results/diagnostics/side_given_relation.json")
     args = ap.parse_args()
 
@@ -79,6 +80,9 @@ def main():
                                  for role in ("source", "target")}))
     proc = load_processor(splitting=False)
     model = load_model(attn="sdpa")
+    if args.adapter:
+        from peft import PeftModel
+        model = PeftModel.from_pretrained(model, str(ROOT / args.adapter))
 
     items, meta = [], []
     for r in rows:
