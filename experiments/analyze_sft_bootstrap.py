@@ -9,7 +9,11 @@ from sklearn.metrics import roc_auc_score
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from experiments.common import ROOT
 
-TAGS = ["base", "side_only", "relation_only", "sft"]
+import glob
+TAGS = ["base"] + sorted(
+    Path(f).stem.replace("eval_relation_", "")
+    for f in glob.glob(str(ROOT / "results/sft/eval_relation_*.json"))
+    if "base" not in Path(f).stem)
 
 
 def main():

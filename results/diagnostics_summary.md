@@ -324,10 +324,18 @@ LoRA r=8), differing only in the training tasks:
 
 Intervals are paired bootstrap by pair id (2,000 draws). The side-only delta in
 accuracy is +0.044 [-0.008, 0.094], so the transfer is in ranking rather than in
-the thresholded answer. Relation-only training leaves side reporting at base
+the thresholded answer. A second side-only seed gives +0.105 AUC [0.060, 0.150]
+(accuracy +0.021 [-0.027, 0.069]), so the ranking gain is stable across seeds. Relation-only training leaves side reporting at base
 level, so position readout needs explicit supervision; direct relation
 supervision is stronger for the relation task itself.
 
 This supports the diagnosis: teaching the missing readout (object side) moves
 the relation decision even without any relation labels, while relation labels
 alone do not teach the readout.
+
+**Cross-group generalization.** A mixed adapter trained with the relation
+supervision for two groups removed (`chair|left of|table`, `tree|left of|building`)
+still improves both held-out groups: chair 0.723 -> 0.772 AUC, tree 0.523 ->
+0.802. The held-out average gain (+0.164) is at least as large as the trained
+groups' (+0.110), so the learned readout transfers across relation groups rather
+than memorizing group-specific rules.
