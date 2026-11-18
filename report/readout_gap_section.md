@@ -162,6 +162,26 @@ group's rule and reads object geometry off the region features; the position-onl
 (0.99) shows how much of the task is geometry. The useful upper bound is therefore the
 geometry probe, not 0.81.
 
+### Targeted SFT: teaching the missing readout
+
+The diagnosis says the missing piece is the visual-to-text readout of object
+position. A LoRA pilot (r=8, vision frozen, 2.57M trainable parameters, 14
+minutes per run) tests this directly on 2,954 GQA train images.
+
+| adapter | side horizontal | side vertical | relation acc | relation AUC |
+|---|---:|---:|---:|---:|
+| base | 0.506 | 0.492 | 0.569 | 0.600 |
+| side-only | 0.645 | 0.682 | 0.617 | 0.717 |
+| relation-only | 0.551 | 0.492 | 0.683 | 0.777 |
+| mixed | 0.689 | 0.704 | 0.656 | 0.750 |
+
+Side-only training transfers to the relation task (+0.117 AUC, 95% paired
+bootstrap [0.073, 0.160]; a second seed gives +0.105 [0.060, 0.150]), while
+relation-only training does not teach side reporting. A cross-group run with two
+groups' relation supervision removed still improves the held-out groups
+(chair +0.049, tree +0.279 AUC), so the readout transfers across groups rather
+than memorizing rules. Full details: `results/sft_summary.md`.
+
 ## Learned no-box readers do not close the gap
 
 Global readers trained on 3,788 dev examples (mean-pooled or attention-pooled S1/S6/S12 tokens plus the question) do not beat the original margin:
