@@ -85,6 +85,7 @@ def main():
     ap.add_argument("--pairs", default=str(ROOT / "data/derived/finegrained_pairs_test.jsonl"))
     ap.add_argument("--out", default=str(ROOT / "results/finegrained/test.json"))
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--adapter", default=None)
     ap.add_argument("--gray", action="store_true", default=True)
     ap.add_argument("--no-gray", dest="gray", action="store_false")
     args = ap.parse_args()
@@ -97,6 +98,9 @@ def main():
     images = load_images(image_ids)
     proc = load_processor(splitting=False)
     model = load_model(attn="sdpa")
+    if args.adapter:
+        from peft import PeftModel
+        model = PeftModel.from_pretrained(model, str(ROOT / args.adapter))
     yes_ids, no_ids = yes_no_ids(proc)
 
     cache = {}

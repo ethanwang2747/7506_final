@@ -65,6 +65,36 @@ Overall 0.569/0.600 -> 0.683/0.759; delta AUC +0.159 [0.109, 0.208]. The
 held-out average gain (+0.164) is at least as large as the trained groups'
 (+0.110), so the learned readout is not group-specific memorization.
 
+## 4.1 Fresh confirmation set
+
+Built from 71,302 GQA train images that appear in no pair file and no SFT batch
+(image-disjoint from every prior evaluation; the base model may have seen them
+during pretraining). 240 pairs / 480 examples, 40 positive and 40 negative per
+group.
+
+| metric | base | full adapter |
+|---|---:|---:|
+| relation accuracy | 0.510 | **0.700** |
+| relation AUC | 0.531 | **0.802** |
+| flip-consistency AUC | 0.750 | **0.821** |
+| flip-consistency pair accuracy | 0.750 | 0.787 |
+
+The gain replicates on unseen images, and the adapter's confirmation AUC (0.802)
+is essentially identical to the original test (0.799). The base number on the
+original test (0.600) was optimistic; the adapter number was not.
+
+## 4.2 Regression checks
+
+POPE (300 questions): accuracy 0.783 -> **0.850**, AUC 0.890 -> **0.914**,
+F1 0.732 -> **0.852**.
+
+Fine-grained (600 pairs): overall 0.832 -> 0.823, attribute 0.765 -> **0.805**,
+behavior 0.865 -> 0.820, existence 0.865 -> 0.845; gray-image control 0.807 ->
+0.802. No catastrophic regression.
+
+Logit lens (core 80 pairs): the readable signal moves earlier and strengthens —
+base L18/L19/final = 0.636/0.646/0.634; full = 0.831/0.847/0.864.
+
 ## 5. Composition check
 
 | condition | base (diff-half) | mixed (diff-half) |
@@ -94,9 +124,13 @@ The two interventions are complementary, but SFT captures most of the flip gain
 
 ## 6. Caveats
 
-- 4,000-step pilots (1/4 epoch), one seed per adapter except side-only.
-- Eval groups overlap the training groups except in the cross-group run;
-  image ids are always disjoint.
+- The 4,000-step pilots are 1/4 epoch; one seed per adapter except side-only.
+  A second full-epoch seed is running.
+- The original test set has been used for many comparisons; treat it as a
+  development benchmark. The fresh confirmation set is the clean held-out check.
+- Confirmation images are train-derived (image-disjoint from SFT, but possibly
+  seen by the base model in pretraining).
 - No mirror or question-reversal augmentation yet; no position-residualized
-  evaluation of the adapters yet.
+  evaluation of the adapters. Position residualization is not a success gate:
+  the label is defined by object positions, so geometry is legitimate evidence.
 - Adapters are not committed (regenerable from the logged commands).

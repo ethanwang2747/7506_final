@@ -129,11 +129,13 @@ def main():
         idx = [i for i, m in enumerate(meta) if m["axis"] == axis]
         ok = [preds[i] == truth[i] for i in idx]
         dist = collections.Counter(preds[i] for i in idx)
+        truth_dist = collections.Counter(truth[i] for i in idx)
         conf = collections.Counter((truth[i], preds[i]) for i in idx)
         out["by_axis"][axis] = {
             "n": len(idx), "acc": float(np.mean(ok)),
             "pred_dist": {str(k): int(v) for k, v in dist.items()},
-            "majority_baseline": float(max(dist.values()) / max(1, len(idx))),
+            "majority_baseline": float(max(truth_dist.values()) / max(1, len(idx))),
+            "truth_dist": {str(k): int(v) for k, v in truth_dist.items()},
             "confusion": {f"{a}->{b}": int(v) for (a, b), v in sorted(conf.items())},
         }
     for order in (0, 1):

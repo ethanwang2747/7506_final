@@ -47,6 +47,7 @@ def main():
     ap.add_argument("--pairs", default="data/derived/spatial_pairs_test.jsonl")
     ap.add_argument("--max-per-group", type=int, default=40)
     ap.add_argument("--adapter", default=None)
+    ap.add_argument("--image-dir", default=None)
     ap.add_argument("--tag", default="base")
     ap.add_argument("--batch-size", type=int, default=8)
     ap.add_argument("--out", default=None)
@@ -57,8 +58,9 @@ def main():
         cfg = json.load(f)
     with open(ROOT / cfg["data"]["scene_graphs"]) as f:
         sg = json.load(f)
-    images = load_images(sorted({r[f"{role}_image_id"] for r in rows
-                                 for role in ("source", "target")}))
+    image_ids = sorted({r[f"{role}_image_id"] for r in rows for role in ("source", "target")})
+    images = (load_images(image_ids, image_dir=ROOT / args.image_dir) if args.image_dir
+              else load_images(image_ids))
     proc = load_processor(splitting=False)
     model = load_model(attn="sdpa")
     if args.adapter:

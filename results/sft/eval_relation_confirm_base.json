@@ -1,0 +1,3882 @@
+{
+ "adapter": null,
+ "n": 480,
+ "margins": [
+  0.742,
+  -1.1289,
+  0.4942,
+  -1.2324,
+  -1.3769,
+  -1.6268,
+  -0.1037,
+  -0.8829,
+  -1.7413,
+  -1.6272,
+  -1.377,
+  -1.1266,
+  -1.505,
+  -0.7558,
+  -0.2571,
+  -2.1259,
+  -1.132,
+  -1.0,
+  -0.9973,
+  -1.375,
+  -1.3962,
+  -1.6274,
+  -1.6269,
+  -1.1223,
+  -0.8779,
+  -1.2547,
+  -1.1314,
+  -2.2544,
+  -0.5028,
+  -2.6321,
+  -2.007,
+  -1.6278,
+  -0.627,
+  -0.7675,
+  -1.132,
+  -1.3832,
+  -1.1288,
+  -1.7523,
+  -1.005,
+  -1.5113,
+  -0.6305,
+  -0.377,
+  -1.1264,
+  -0.7601,
+  -1.0,
+  -2.125,
+  -0.5133,
+  -1.1369,
+  -2.2517,
+  -1.7519,
+  -1.2414,
+  -1.127,
+  -1.7539,
+  -1.7535,
+  -1.3766,
+  -0.3868,
+  -0.6381,
+  -1.0054,
+  -0.6292,
+  -0.0267,
+  -1.1298,
+  -0.019,
+  -1.0151,
+  -1.6277,
+  -1.0044,
+  -2.0011,
+  -0.2626,
+  -0.4874,
+  -1.8771,
+  -0.307,
+  -0.5,
+  -1.7521,
+  -0.4735,
+  -0.6219,
+  -1.6274,
+  -1.6308,
+  -1.7573,
+  -1.2527,
+  -1.3699,
+  -1.888,
+  -1.1269,
+  0.1238,
+  -0.5026,
+  0.8735,
+  -0.8766,
+  -0.0008,
+  1.8743,
+  -0.5014,
+  -0.251,
+  -1.1257,
+  0.1242,
+  -0.8778,
+  -1.2592,
+  -0.1278,
+  0.2491,
+  0.9991,
+  -0.1272,
+  -2.1321,
+  0.2495,
+  1.1243,
+  0.249,
+  1.7467,
+  -0.2516,
+  -1.6261,
+  -0.005,
+  -0.5016,
+  0.1236,
+  0.1234,
+  -0.8801,
+  -0.8788,
+  0.3739,
+  -0.8767,
+  -0.3765,
+  -1.6261,
+  -1.0014,
+  -0.5006,
+  0.7489,
+  0.2465,
+  -0.3755,
+  -0.0022,
+  0.495,
+  -0.1258,
+  0.4974,
+  0.1235,
+  0.6243,
+  -0.3781,
+  1.3742,
+  0.2494,
+  0.2481,
+  -1.0072,
+  -0.2544,
+  -1.0019,
+  1.3732,
+  0.4969,
+  -0.5019,
+  -0.6264,
+  -1.0017,
+  -0.2515,
+  1.9994,
+  0.8743,
+  -0.2521,
+  0.1227,
+  -0.7506,
+  0.118,
+  -0.7509,
+  0.1229,
+  0.3743,
+  1.2489,
+  -0.7514,
+  0.8745,
+  0.2483,
+  0.4973,
+  -0.128,
+  0.2467,
+  -0.3777,
+  -1.0051,
+  0.374,
+  -0.7517,
+  -0.1293,
+  -0.8774,
+  -0.0007,
+  0.8742,
+  2.6231,
+  0.8684,
+  -1.0017,
+  -0.5032,
+  -0.7598,
+  -1.6463,
+  2.6232,
+  -0.5044,
+  -0.376,
+  -0.1281,
+  -0.0015,
+  -0.7548,
+  -0.8774,
+  -0.7585,
+  -0.7529,
+  0.7494,
+  3.2495,
+  -0.2513,
+  3.374,
+  -1.1269,
+  -0.7509,
+  0.1239,
+  0.749,
+  0.4969,
+  0.9905,
+  0.7477,
+  -0.1267,
+  0.3735,
+  -0.7517,
+  -0.0035,
+  -0.3773,
+  -0.2509,
+  0.4951,
+  -0.8772,
+  -0.0018,
+  -0.0007,
+  0.2485,
+  -0.5019,
+  -0.1345,
+  -0.1274,
+  -0.7521,
+  0.1221,
+  -0.2526,
+  -0.5025,
+  -0.5018,
+  -0.2529,
+  -0.3784,
+  0.874,
+  0.1235,
+  0.373,
+  0.7473,
+  -0.5064,
+  0.2484,
+  0.7495,
+  0.2475,
+  1.4981,
+  1.3737,
+  -0.7532,
+  -0.502,
+  -0.5019,
+  -0.7516,
+  -0.5016,
+  -0.1285,
+  -0.5042,
+  0.9967,
+  1.3725,
+  -0.377,
+  -0.0027,
+  -0.3776,
+  -0.6268,
+  -0.6261,
+  0.2484,
+  -0.2514,
+  -0.1297,
+  -0.2572,
+  -0.5028,
+  0.9959,
+  -0.0033,
+  0.2437,
+  -1.2522,
+  -0.7583,
+  -0.8792,
+  -1.5012,
+  -0.8869,
+  0.1169,
+  -1.6291,
+  0.1131,
+  -0.3769,
+  -0.5781,
+  -0.8945,
+  -0.0021,
+  -1.1293,
+  -1.0008,
+  -0.0007,
+  -0.7545,
+  -1.2521,
+  -1.3829,
+  -0.1257,
+  4.4999,
+  -0.8821,
+  -0.5037,
+  0.1189,
+  -0.7518,
+  0.9949,
+  -0.6412,
+  -1.1331,
+  -0.7538,
+  -1.1255,
+  0.8697,
+  0.3697,
+  -0.7523,
+  0.6235,
+  0.3741,
+  -0.6318,
+  1.2437,
+  0.8781,
+  -1.0067,
+  -1.6276,
+  -0.5019,
+  -1.1335,
+  -0.5034,
+  -0.4461,
+  -0.629,
+  -0.8791,
+  -1.25,
+  -0.0017,
+  -1.5014,
+  -0.8766,
+  0.1224,
+  -1.004,
+  -1.7585,
+  -1.375,
+  0.8725,
+  -1.7541,
+  0.49,
+  -2.1291,
+  -1.8771,
+  -0.875,
+  -0.2542,
+  -0.504,
+  -0.7556,
+  -1.0114,
+  -0.7533,
+  -0.6314,
+  -0.1263,
+  0.0039,
+  -1.1267,
+  0.9961,
+  -0.9986,
+  -0.6292,
+  -0.2588,
+  -1.0036,
+  1.746,
+  -1.629,
+  -0.3781,
+  -0.8839,
+  2.3682,
+  -1.2533,
+  -1.0012,
+  1.75,
+  0.6242,
+  -0.3738,
+  0.6203,
+  2.0018,
+  -0.1265,
+  -0.125,
+  -0.0983,
+  0.13,
+  0.9786,
+  0.1264,
+  0.6281,
+  -0.1267,
+  0.0015,
+  -1.25,
+  -0.7494,
+  -0.4833,
+  -2.1257,
+  -1.2503,
+  1.5101,
+  0.8785,
+  -0.75,
+  1.001,
+  0.0,
+  -0.375,
+  -0.2547,
+  0.75,
+  -1.1273,
+  0.2518,
+  -1.1241,
+  -0.2573,
+  -1.1331,
+  -0.3773,
+  -1.1258,
+  0.125,
+  -0.8776,
+  -0.504,
+  0.377,
+  -0.3483,
+  -1.3741,
+  0.6255,
+  -0.5042,
+  -0.1239,
+  -0.7509,
+  1.5035,
+  -1.375,
+  -0.3726,
+  -1.7503,
+  -0.0,
+  -0.625,
+  0.2469,
+  -0.7479,
+  -1.5,
+  -1.1262,
+  -1.8763,
+  1.1226,
+  0.007,
+  1.7514,
+  -1.3781,
+  1.0014,
+  -0.7471,
+  -0.3715,
+  -1.1255,
+  1.2514,
+  0.0012,
+  -0.9988,
+  -0.5016,
+  0.1255,
+  1.505,
+  -0.2513,
+  -0.3773,
+  0.125,
+  -0.1125,
+  1.7505,
+  0.2535,
+  0.125,
+  0.8875,
+  -1.3798,
+  -0.875,
+  3.9998,
+  1.3747,
+  -1.2505,
+  0.4987,
+  2.7498,
+  -2.2512,
+  -0.3756,
+  -2.1279,
+  -0.0012,
+  -0.001,
+  -0.1265,
+  2.6245,
+  -2.6256,
+  1.8739,
+  0.874,
+  1.6242,
+  0.1245,
+  0.8735,
+  2.8727,
+  1.3738,
+  1.6248,
+  3.2494,
+  -3.2514,
+  -0.126,
+  0.1242,
+  0.9996,
+  3.1251,
+  1.2496,
+  2.8747,
+  -1.8776,
+  -0.8762,
+  0.8743,
+  0.873,
+  2.1242,
+  3.2497,
+  1.8746,
+  0.3738,
+  -0.2505,
+  0.9995,
+  2.3746,
+  -2.6253,
+  0.3741,
+  -0.0008,
+  0.9989,
+  -1.6258,
+  0.2489,
+  3.3748,
+  -2.3778,
+  0.6241,
+  -0.005,
+  0.1239,
+  -2.126,
+  1.1235,
+  1.3744,
+  3.3748,
+  0.3744,
+  1.3746,
+  0.8746,
+  1.1245,
+  -1.2513,
+  4.1249,
+  -2.2505,
+  -1.1257,
+  0.1242,
+  0.7494,
+  0.6244,
+  -1.6256,
+  -1.126,
+  -1.0005,
+  0.1243,
+  -0.6283,
+  1.4989,
+  0.1239,
+  0.1236,
+  1.6233,
+  0.4987,
+  1.9995,
+  2.1246,
+  3.8748,
+  0.3743
+ ],
+ "meta": [
+  {
+   "pair_id": "confirm:chair|to the left of|table:0000",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "37"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0000",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "713302"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0001",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2390051"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0001",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2390637"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0002",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2370723"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0002",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2353401"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0003",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2371771"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0003",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2326505"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0004",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "966"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0004",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2373255"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0005",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2320566"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0005",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2357238"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0006",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2362780"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0006",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2411370"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0007",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389563"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0007",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2318979"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0008",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2343694"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0008",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2352101"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0009",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2393678"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0009",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2335794"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0010",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2416560"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0010",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2382441"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0011",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378372"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0011",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2346778"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0012",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2391381"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0012",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343809"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0013",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2350980"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0013",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2321906"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0014",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412371"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0014",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2396325"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0015",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412368"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0015",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2398579"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0016",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2335099"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0016",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2405708"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0017",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2363340"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0017",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2414290"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0018",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2333284"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0018",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2327691"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0019",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2413675"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0019",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2316630"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0020",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2338085"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0020",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "3650"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0021",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417029"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0021",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360115"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0022",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2391451"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0022",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2317393"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0023",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378539"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0023",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2317069"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0024",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2365755"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0024",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2367167"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0025",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2354699"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0025",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2374574"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0026",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2370638"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0026",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2359590"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0027",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382571"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0027",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401193"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0028",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2411132"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0028",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2405199"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0029",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379904"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0029",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2323164"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0030",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2370232"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0030",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2390448"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0031",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404843"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0031",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2337792"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0032",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2394524"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0032",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2383191"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0033",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2361291"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0033",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409443"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0034",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2321754"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0034",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2387748"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0035",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2326036"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0035",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343296"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0036",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2384442"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0036",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2400937"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0037",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2343233"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0037",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2347314"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0038",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412269"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0038",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2319329"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0039",
+   "group": "chair|to the left of|table",
+   "role": "source",
+   "label": 1,
+   "image_id": "2392683"
+  },
+  {
+   "pair_id": "confirm:chair|to the left of|table:0039",
+   "group": "chair|to the left of|table",
+   "role": "target",
+   "label": 0,
+   "image_id": "2324370"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0000",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2347592"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0000",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2411127"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0001",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2350219"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0001",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2334016"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0002",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2342608"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0002",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2380566"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0003",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2318377"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0003",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2319679"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0004",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2356437"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0004",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2411308"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0005",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2329934"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0005",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2361975"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0006",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2345685"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0006",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2320103"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0007",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "286087"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0007",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401326"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0008",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2316586"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0008",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2344653"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0009",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2322253"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0009",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2374724"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0010",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2355876"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0010",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2348485"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0011",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334825"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0011",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2410981"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0012",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2362554"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0012",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2394772"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0013",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2318265"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0013",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2328015"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0014",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2406192"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0014",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2359409"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0015",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2324964"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0015",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2328127"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0016",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2363982"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0016",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2351462"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0017",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389365"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0017",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2384486"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0018",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2336570"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0018",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2330758"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0019",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "592"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0019",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2366243"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0020",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410349"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0020",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2366333"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0021",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2368997"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0021",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2340222"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0022",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417228"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0022",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364434"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0023",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382131"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0023",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2388453"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0024",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378009"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0024",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2408398"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0025",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2403398"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0025",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2408164"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0026",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2353163"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0026",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2348736"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0027",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2369099"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0027",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2363336"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0028",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404389"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0028",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2387294"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0029",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2373058"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0029",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2397432"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0030",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410752"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0030",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "1160115"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0031",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2385556"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0031",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2362248"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0032",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327268"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0032",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2342604"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0033",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2358787"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0033",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2345148"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0034",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2341692"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0034",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395968"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0035",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "3932"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0035",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2417498"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0036",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2345552"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0036",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2391635"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0037",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2397390"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0037",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2353485"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0038",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2409002"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0038",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2332153"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0039",
+   "group": "man|to the left of|person",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417487"
+  },
+  {
+   "pair_id": "confirm:man|to the left of|person:0039",
+   "group": "man|to the left of|person",
+   "role": "target",
+   "label": 0,
+   "image_id": "2410817"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0000",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2335407"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0000",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2409438"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0001",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2329624"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0001",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2363438"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0002",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334117"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0002",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2317336"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0003",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2385724"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0003",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2398926"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0004",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374805"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0004",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2391445"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0005",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2351581"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0005",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2321617"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0006",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2406249"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0006",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401689"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0007",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404200"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0007",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2352507"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0008",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2359061"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0008",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2393005"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0009",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2343495"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0009",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2405662"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0010",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2409582"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0010",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343163"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0011",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2358752"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0011",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2375745"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0012",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2394833"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0012",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2377469"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0013",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2377594"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0013",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2357011"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0014",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2377056"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0014",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2417885"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0015",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382896"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0015",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2321123"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0016",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2315716"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0016",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2394498"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0017",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "1593232"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0017",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2374634"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0018",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2358220"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0018",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2369380"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0019",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "150496"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0019",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2394327"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0020",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2379313"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0020",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360269"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0021",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2370188"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0021",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2402277"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0022",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2322432"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0022",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "3161"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0023",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382006"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0023",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2378576"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0024",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404795"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0024",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2316829"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0025",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2396500"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0025",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2406989"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0026",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2405309"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0026",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2396724"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0027",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410786"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0027",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360254"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0028",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374347"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0028",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2316265"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0029",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2402751"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0029",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "1759"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0030",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2402231"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0030",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2388848"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0031",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2352282"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0031",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "61593"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0032",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2354929"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0032",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2392598"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0033",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2412840"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0033",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379661"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0034",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2380990"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0034",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2372291"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0035",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2403908"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0035",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2382567"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0036",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2395412"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0036",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2347467"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0037",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2325127"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0037",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2385939"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0038",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2409336"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0038",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2334805"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0039",
+   "group": "man|to the right of|woman",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327749"
+  },
+  {
+   "pair_id": "confirm:man|to the right of|woman:0039",
+   "group": "man|to the right of|woman",
+   "role": "target",
+   "label": 0,
+   "image_id": "2395290"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0000",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2396257"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0000",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2396500"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0001",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2316586"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0001",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "498253"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0002",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2348056"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0002",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2326839"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0003",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410349"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0003",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2340521"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0004",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2321552"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0004",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2410774"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0005",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2397390"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0005",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2355381"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0006",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2400988"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0006",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2410817"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0007",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2347352"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0007",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2402371"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0008",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2384646"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0008",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2397518"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0009",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389284"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0009",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2348869"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0010",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2318377"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0010",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2353277"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0011",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417117"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0011",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2362248"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0012",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2361746"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0012",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2338470"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0013",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2376320"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0013",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2367736"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0014",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2369099"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0014",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2383693"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0015",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417228"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0015",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2346250"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0016",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2359469"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0016",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2345148"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0017",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2322253"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0017",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2326649"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0018",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410357"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0018",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2349251"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0019",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2387097"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0019",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2325047"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0020",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2409002"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0020",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2356990"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0021",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2402838"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0021",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2408398"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0022",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2417487"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0022",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2353485"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0023",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2350219"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0023",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2374724"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0024",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2347054"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0024",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2349637"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0025",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382517"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0025",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2412447"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0026",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2326934"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0026",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2354816"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0027",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382131"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0027",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2359315"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0028",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2375488"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0028",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401931"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0029",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404389"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0029",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2366333"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0030",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2416856"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0030",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2350805"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0031",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2391870"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0031",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2297"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0032",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2386516"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0032",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2336408"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0033",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378161"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0033",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "1592109"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0034",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2401503"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0034",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2324479"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0035",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2385398"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0035",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2349923"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0036",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2317927"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0036",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407712"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0037",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2408241"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0037",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2390766"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0038",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2441"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0038",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2417498"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0039",
+   "group": "person|to the right of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2353163"
+  },
+  {
+   "pair_id": "confirm:person|to the right of|man:0039",
+   "group": "person|to the right of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "1160206"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0000",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2399230"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0000",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2364767"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0001",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2407154"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0001",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2350670"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0002",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2327780"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0002",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "1875"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0003",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2406924"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0003",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2417379"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0004",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "1570"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0004",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2329552"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0005",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2396900"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0005",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2385125"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0006",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2588"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0006",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2387885"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0007",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2341594"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0007",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2358423"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0008",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2404137"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0008",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2322330"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0009",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2337489"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0009",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2383352"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0010",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "3661"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0010",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2374481"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0011",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2323646"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0011",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2381909"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0012",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2348219"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0012",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360210"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0013",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2349217"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0013",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2391100"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0014",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2414897"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0014",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2365418"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0015",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2366177"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0015",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2318094"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0016",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "3281"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0016",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2407879"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0017",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2405286"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0017",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2362844"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0018",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2377147"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0018",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2316224"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0019",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2922"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0019",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "3562"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0020",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "713539"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0020",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2363685"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0021",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "150378"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0021",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2380303"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0022",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334058"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0022",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2326375"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0023",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2373659"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0023",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2408343"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0024",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2363542"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0024",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2353248"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0025",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2352850"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0025",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2375644"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0026",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2316237"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0026",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2405678"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0027",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2321278"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0027",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "713472"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0028",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2332212"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0028",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360007"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0029",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "3305"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0029",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2376254"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0030",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "245"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0030",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "1586"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0031",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2385093"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0031",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2379745"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0032",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2378961"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0032",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2363406"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0033",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382841"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0033",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2352289"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0034",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2408595"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0034",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2334314"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0035",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2367255"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0035",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2380117"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0036",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2794"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0036",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2355231"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0037",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "3454"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0037",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2417009"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0038",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2407413"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0038",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2331040"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0039",
+   "group": "tree|to the left of|building",
+   "role": "source",
+   "label": 1,
+   "image_id": "2396966"
+  },
+  {
+   "pair_id": "confirm:tree|to the left of|building:0039",
+   "group": "tree|to the left of|building",
+   "role": "target",
+   "label": 0,
+   "image_id": "2370610"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0000",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2374992"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0000",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2365244"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0001",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2351518"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0001",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2415065"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0002",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2377891"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0002",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "713474"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0003",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2406249"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0003",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2347422"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0004",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2410786"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0004",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2346296"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0005",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2316734"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0005",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343488"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0006",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2348201"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0006",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2406872"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0007",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2413729"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0007",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2357011"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0008",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2373515"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0008",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2391666"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0009",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "498046"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0009",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2352396"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0010",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2326848"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0010",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2387216"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0011",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2349300"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0011",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2373265"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0012",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2323228"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0012",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2356918"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0013",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "1592416"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0013",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2412553"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0014",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2405817"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0014",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "1159825"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0015",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2337272"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0015",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2404674"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0016",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2409336"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0016",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2383464"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0017",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2389374"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0017",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2360717"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0018",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2359061"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0018",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2355698"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0019",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "3466"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0019",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2406989"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0020",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2380990"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0020",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2342574"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0021",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2371172"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0021",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2385199"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0022",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2325127"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0022",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2325792"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0023",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2330139"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0023",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2387540"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0024",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2332740"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0024",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2328321"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0025",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2322467"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0025",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2327299"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0026",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2363512"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0026",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2401689"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0027",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2355098"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0027",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2375745"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0028",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2353715"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0028",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2369380"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0029",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2382282"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0029",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2415720"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0030",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2371841"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0030",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2389344"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0031",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2326739"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0031",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2378160"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0032",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2375138"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0032",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2396705"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0033",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2334117"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0033",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2343163"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0034",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2409732"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0034",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2410872"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0035",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2396561"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0035",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2363300"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0036",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "498184"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0036",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2345712"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0037",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2392150"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0037",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2318508"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0038",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "1593250"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0038",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "1759"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0039",
+   "group": "woman|to the left of|man",
+   "role": "source",
+   "label": 1,
+   "image_id": "2408613"
+  },
+  {
+   "pair_id": "confirm:woman|to the left of|man:0039",
+   "group": "woman|to the left of|man",
+   "role": "target",
+   "label": 0,
+   "image_id": "2325897"
+  }
+ ],
+ "acc": 0.5104166666666666,
+ "auc": 0.5308680555555555,
+ "per_group": {
+  "chair|to the left of|table": {
+   "n": 80,
+   "acc": 0.525,
+   "auc": 0.60375
+  },
+  "man|to the left of|person": {
+   "n": 80,
+   "acc": 0.5,
+   "auc": 0.55125
+  },
+  "man|to the right of|woman": {
+   "n": 80,
+   "acc": 0.5125,
+   "auc": 0.5381250000000001
+  },
+  "person|to the right of|man": {
+   "n": 80,
+   "acc": 0.5625,
+   "auc": 0.63
+  },
+  "tree|to the left of|building": {
+   "n": 80,
+   "acc": 0.4875,
+   "auc": 0.43562500000000004
+  },
+  "woman|to the left of|man": {
+   "n": 80,
+   "acc": 0.475,
+   "auc": 0.535
+  }
+ }
+}

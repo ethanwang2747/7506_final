@@ -70,6 +70,7 @@ def main():
     ap.add_argument("--max-pairs", type=int, default=0)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--batch-size", type=int, default=8)
+    ap.add_argument("--adapter", default=None)
     ap.add_argument("--out", default="results/diagnostics/logit_lens_test.json")
     args = ap.parse_args()
 
@@ -81,8 +82,12 @@ def main():
 
     proc = load_processor(splitting=False)
     model = load_model(attn="sdpa")
+    if args.adapter:
+        from peft import PeftModel
+        model = PeftModel.from_pretrained(model, str(ROOT / args.adapter))
     yes_ids, no_ids = yes_no_ids(proc)
-    n_layers = len(model.model.text_model.layers)
+    core = model.base_model.model if hasattr(model, "base_model") else model
+    n_layers = len(core.model.text_model.layers)
     print(f"{len(rows)} pairs, {n_layers} layers, batch {args.batch_size}")
 
     items = []
@@ -100,7 +105,7 @@ def main():
             caps[i] = x[:, -1, :].detach()
         return f
 
-    handles = [model.model.text_model.layers[i].register_forward_pre_hook(hook(i), with_kwargs=True)
+    handles = [core.model.text_model.layers[i].register_forward_pre_hook(hook(i), with_kwargs=True)
                for i in range(n_layers)]
 
     lens, finals = [], []
@@ -119,8 +124,8 @@ def main():
                                - torch.logsumexp(lp[:, no_ids], -1)).detach().cpu())
                 row = []
                 for i in range(n_layers):
-                    h = model.model.text_model.norm(caps[i].to(model.dtype))
-                    lp_i = torch.log_softmax(model.lm_head(h).float(), dim=-1)
+                    h = core.model.text_model.norm(caps[i].to(model.dtype))
+                    lp_i = torch.log_softmax(core.lm_head(h).float(), dim=-1)
                     row.append((torch.logsumexp(lp_i[:, yes_ids], -1)
                                 - torch.logsumexp(lp_i[:, no_ids], -1)).detach().cpu())
                 lens.append(torch.stack(row, dim=1))  # (batch, layers)

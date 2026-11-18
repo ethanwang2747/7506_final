@@ -9,12 +9,16 @@
     "left": 1267,
     "right": 653
    },
-   "majority_baseline": 0.6598958333333333,
+   "majority_baseline": 0.5010416666666667,
    "confusion": {
     "left->left": 840,
     "left->right": 122,
     "right->left": 427,
     "right->right": 531
+   },
+   "truth_dist": {
+    "left": 962,
+    "right": 958
    }
   },
   "vertical": {
@@ -24,12 +28,16 @@
     "bottom": 1199,
     "top": 721
    },
-   "majority_baseline": 0.6244791666666667,
+   "majority_baseline": 0.5958333333333333,
    "confusion": {
     "bottom->bottom": 981,
     "bottom->top": 163,
     "top->bottom": 218,
     "top->top": 558
+   },
+   "truth_dist": {
+    "top": 776,
+    "bottom": 1144
    }
   }
  },

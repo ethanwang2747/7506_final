@@ -65,6 +65,7 @@ def main():
     ap.add_argument("--flip", action="store_true", default=True)
     ap.add_argument("--no-flip", dest="flip", action="store_false")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--adapter", default=None)
     args = ap.parse_args()
 
     rows = read_jsonl(args.sample)
@@ -73,6 +74,9 @@ def main():
     print(f"{len(rows)} questions, {len(set(r['image'] for r in rows))} images")
     proc = load_processor(splitting=False)
     model = load_model(attn="sdpa")
+    if args.adapter:
+        from peft import PeftModel
+        model = PeftModel.from_pretrained(model, str(ROOT / args.adapter))
     yes_ids, no_ids = yes_no_ids(proc)
 
     for i, r in enumerate(rows):

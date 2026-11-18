@@ -239,11 +239,12 @@ only a missing-question artifact.
 | axis | accuracy | prediction distribution |
 |---|---:|---|
 | horizontal (left/right) | 0.506 | "left" 953, "right" 18 (order 0: "left" 960/960) |
-| vertical (top/bottom) | 0.492 | "top" 592, "bottom" 352 (majority baseline 0.718) |
+| vertical (top/bottom) | 0.492 | "top" 592, "bottom" 352 (truth majority baseline 0.596) |
 
 The answers do not change when the option order is reversed: horizontal is a
 fixed "left" prior, vertical a fixed "top" prior. The model is not reading the
-box; it is emitting a prior.
+box; it is emitting a prior. On the vertical axis it is below the truth majority
+baseline (0.492 vs 0.596), i.e. worse than always answering "bottom".
 
 ### 10.4 Is the position in the visual tokens?
 
@@ -261,9 +262,12 @@ swapped-side manipulation check:
 | true sides | 0.760 | **0.921** |
 | swapped sides | 0.271 | 0.120 |
 
-The model follows the statements (swapping them flips the answer), and composes
-them almost perfectly when they are supplied. Composition is not the missing
-piece; extracting the sides is.
+The model follows the statements (swapping them flips the answer) and composes
+them almost perfectly when they are supplied. This shows that the **text-side**
+composition circuit works on verbal premises; it does not by itself prove that
+the full visual composition circuit is intact. The supportable claim is that the
+dominant failure lies in the path from localization/binding to the side
+representation and its text readout.
 
 ### 10.6 Revised diagnosis
 
@@ -274,9 +278,10 @@ pixels -> visual tokens        horizontal side decodable at AUC 0.95 (oracle box
        -> composition          intact: 0.92 with true sides, 0.12 with swapped
 ```
 
-The bottleneck is the **visual-to-text readout of object position**, not
-encoding and not composition. This also explains why decomposition prompting
-fails as a zero-shot intervention: the sub-question ("which half?") cannot be
+The dominant bottleneck is the **visual-to-text readout of object position**,
+with localization/binding as a contributing stage; encoding holds and text-side
+composition is available. This also explains why decomposition prompting fails
+as a zero-shot intervention: the sub-question ("which half?") cannot be
 answered.
 
 Implications:
@@ -339,6 +344,24 @@ both the base model and the full adapter, so the gain requires the image.
 **Cross-group generalization.** A mixed adapter trained with the relation
 supervision for two groups removed (`chair|left of|table`, `tree|left of|building`)
 still improves both held-out groups: chair 0.723 -> 0.772 AUC, tree 0.523 ->
-0.802. The held-out average gain (+0.164) is at least as large as the trained
-groups' (+0.110), so the learned readout transfers across relation groups rather
-than memorizing group-specific rules.
+0.802. Most of this is already carried by side-only training (side-only gains on
+the same groups are +0.036 and +0.260); the extra gain from the remaining
+groups' relation supervision is only +0.014 and +0.019. The cross-group run
+therefore supports "side supervision transfers across groups", not "relation
+supervision generalizes across groups". The full-vs-4k comparison is also
+confounded by training steps (15k vs 4k).
+
+**Fresh confirmation set.** A new set of 240 pairs was built from 71,302 GQA
+train images that are in no pair file and in no SFT batch (image-disjoint from
+every prior evaluation; the base model may have seen them in pretraining). Base
+scores 0.510 accuracy / 0.531 AUC there, while the full adapter scores 0.700 /
+0.802; flip consistency gives 0.750 for base and 0.821 for full. The SFT gain
+replicates on unseen images, and the adapter's number is essentially unchanged
+from the original test (0.799 vs 0.802). The base number on the original test
+(0.600) was therefore optimistic; the adapter result was not.
+
+**Regressions.** POPE improves (0.783 -> 0.850 accuracy, F1 0.732 -> 0.852).
+Fine-grained tasks are stable: overall 0.832 -> 0.823, attribute 0.765 -> 0.805,
+behavior 0.865 -> 0.820, existence 0.865 -> 0.845; the gray-image control is
+unchanged (0.807 -> 0.802). The adapter's logit lens moves the readable signal
+to layers 17-18 (0.667 / 0.831) and strengthens it (final 0.864 vs 0.634).

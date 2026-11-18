@@ -527,7 +527,7 @@ E0 未通过时，不解释任何阶段或区域结果。
 
 ## 十三、资源控制与止损
 
-- 一个真实主模型，不微调；
+- 一个真实主模型；前期诊断不微调，后期增加 LoRA pilot（见 `docs/sft_experiment_log.md`）；
 - 一个核心数据源 GQA + scene graph；
 - 五个代表阶段，不遍历所有层；
 - 均值替换与 activation patching 为核心，噪声为可选；

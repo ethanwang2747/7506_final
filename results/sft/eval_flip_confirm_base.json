@@ -1,0 +1,36 @@
+{
+ "adapter": null,
+ "n": 480,
+ "margin_auc": 0.5308680555555555,
+ "margin_acc": 0.5104166666666666,
+ "flip_score_auc": 0.7503472222222223,
+ "flip_score_acc": 0.6729166666666667,
+ "margin_pair_acc": 0.5166666666666667,
+ "flip_pair_acc": 0.75,
+ "per_group": {
+  "chair|to the left of|table": {
+   "margin_auc": 0.60375,
+   "flip_auc": 0.773125
+  },
+  "man|to the left of|person": {
+   "margin_auc": 0.55125,
+   "flip_auc": 0.63625
+  },
+  "man|to the right of|woman": {
+   "margin_auc": 0.5381250000000001,
+   "flip_auc": 0.7375
+  },
+  "person|to the right of|man": {
+   "margin_auc": 0.63,
+   "flip_auc": 0.68875
+  },
+  "tree|to the left of|building": {
+   "margin_auc": 0.43562500000000004,
+   "flip_auc": 0.805625
+  },
+  "woman|to the left of|man": {
+   "margin_auc": 0.535,
+   "flip_auc": 0.87
+  }
+ }
+}

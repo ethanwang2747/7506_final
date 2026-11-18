@@ -4,7 +4,7 @@
 
 ## Abstract
 
-We study where visual evidence becomes task-relevant in a small vision-language model. Rather than treating attention as an explanation, we combine clean behavior mapping, region-level mean replacement, and activation patching across five representative stages of SmolVLM2-2.2B-Instruct. Because GQA's balanced yes/no questions do not provide relation counterfactuals — every "no" `relVerifyCo` question removes the reference object — we construct canonical questions from GQA scene graphs and pair images that contain the same unique target and reference objects with opposite spatial relations. On held-out images, attribute-verification control tasks are robustly above chance. Without image splitting, only chair/table has a spatial AUC confidence interval excluding chance; with splitting, four of six spatial groups reach AUC 0.72–0.79 with intervals excluding chance, while two person/man groups remain at chance. Target-object mean replacement reduces the answer margin at early and middle stages (S0–S12) and disappears at S18; full visual-block patching recovers source evidence almost completely through S6, partially at S12, and not at S18. A same-image horizontal-flip counterfactual shows that regional target transfer is possible (`woman/man` \(R\approx0.46\), `man/person` \(R\approx0.38\)) but remains object-pair dependent (`chair/table` \(R\approx0.01\)), and shows that target ablation can shift the yes/no bias without destroying source–target discrimination. Whole-image linear probes at S0/S1 are close to chance. Object-region probes are higher (AUC 0.66–0.89 across stages), but a position-only baseline is higher still (0.86–0.99), so the region probe is dominated by bounding-box position and does not isolate relation information. The results support a conditional, failure-oriented account: semantic attributes show consistent margin separation and target-region output dependence; spatial behavior is resolution-sensitive and object-pair dependent. The failure cannot yet be localized to projection, binding, late composition, or readout/calibration. Full visual-block recovery is a positive control, not evidence for a unique storage location.
+We study where visual evidence becomes task-relevant in a small vision-language model. Rather than treating attention as an explanation, we combine clean behavior mapping, region-level mean replacement, and activation patching across five representative stages of SmolVLM2-2.2B-Instruct. Because GQA's balanced yes/no questions do not provide relation counterfactuals — every "no" `relVerifyCo` question removes the reference object — we construct canonical questions from GQA scene graphs and pair images that contain the same unique target and reference objects with opposite spatial relations. On held-out images, attribute-verification control tasks are robustly above chance. Without image splitting, only chair/table has a spatial AUC confidence interval excluding chance; with splitting, four of six spatial groups reach AUC 0.72–0.79 with intervals excluding chance, while two person/man groups remain at chance. Target-object mean replacement reduces the answer margin at early and middle stages (S0–S12) and disappears at S18; full visual-block patching recovers source evidence almost completely through S6, partially at S12, and not at S18. A same-image horizontal-flip counterfactual shows that regional target transfer is possible (`woman/man` \(R\approx0.46\), `man/person` \(R\approx0.38\)) but remains object-pair dependent (`chair/table` \(R\approx0.01\)), and shows that target ablation can shift the yes/no bias without destroying source–target discrimination. Whole-image linear probes at S0/S1 are close to chance. Object-region probes are higher (AUC 0.66–0.89 across stages), but a position-only baseline is higher still (0.86–0.99), so the region probe is dominated by bounding-box position and does not isolate relation information. The results support a conditional, failure-oriented account: semantic attributes show consistent margin separation and target-region output dependence; spatial behavior is resolution-sensitive and object-pair dependent. The stage-wise evidence alone cannot separate projection, binding, composition, and readout. A later diagnostic and intervention phase (Section 11) narrows this: pooled visual tokens decode an object's horizontal side at AUC 0.95, the layer-19 decision state only reaches 0.65, the model cannot report a side when asked (a constant "left"/"top" prior), and text-side composition works when the sides are supplied (0.92 on different-half examples). LoRA training on side questions alone transfers to the relation task (+0.117 AUC), and a full-epoch mixed adapter reaches 0.721 accuracy / 0.799 AUC on the original test and 0.700 / 0.802 on a fresh image-disjoint confirmation set. Full visual-block recovery remains a positive control, not evidence for a unique storage location.
 
 ## 1. Introduction and Research Scope
 
@@ -306,6 +306,72 @@ Full-block patching from original to flipped gives \(R=1.00\) at both S1 and S6 
 ## 10. Conclusion
 
 The project delivers a validated stage-wise intervention pipeline for SmolVLM2-2.2B-Instruct, a GQA-derived counterfactual pairing protocol that avoids the object-presence confound in GQA balanced questions, and a held-out behavior map that separates semantic from spatial evidence. Semantic attribute verification is robust and image-dependent. Spatial left/right verification is fragile and object-pair dependent: in no-split runs only chair/table has a 95% AUC interval excluding chance, while with splitting four groups do and the two person/man groups remain at chance; the two person/man groups that fail also fail to show question-context-specific target effects (the tree/building group was not included in the question-context run). Target-region ablation and activation patching show measurable output dependence at S0–S12 and a null at S18, but the full-block positive control and the near-chance early probes prevent a strong claim about a unique spatial-information stage. The most defensible conclusion is conditional and partly negative. For this model and task family, semantic attributes show consistent margin separation and target-region output dependence. Spatial behavior is resolution-sensitive and object-pair dependent; object-region probes are dominated by position and do not establish relation encoding, while whole-image pooling and a zero-threshold yes/no decision lose much of the behavioral signal. The present cross-scene patching and source-only ablation do not determine whether the failure comes from projection loss, task binding, relation composition, or readout/calibration. Yes/no decision bias is an important failure factor; full-block versus global-block differences indicate additional crop-level contributions, but not a clean distributed account. A same-image horizontal-flip counterfactual shows that regional target transfer is possible for some groups (`woman/man`, `man/person`) but not others (`chair/table`), and that target ablation can shift the yes/no bias without destroying source–target discrimination; bilateral interventions on both source and target remain the next test for the stronger claim. The current evidence does not support a single late “spatial module” or a precise stage localization.
+
+## 11. Update: position readout and targeted SFT (2026-11-17/18)
+
+The stage-wise phase left the failure unlocalized. A controlled diagnostic chain
+and a small LoRA intervention now support a narrower account.
+
+### 11.1 Diagnostic chain
+
+| probe | result |
+|---|---|
+| per-group geometry-only reader (oracle boxes) | AUC 0.991; model margin AUC 0.600; Spearman 0.183 |
+| per-token name pointing (9x9, grouped CV) | 0.540 / 0.595 / 0.619 at S1/S6/S12; chance 0.205 |
+| per-token relation answer, question fixed | mean cell 0.50-0.54; best cell 0.61-0.71 |
+| side probe at layer 19 | target-left 0.65, reference-left 0.56; target-top 0.75 |
+| pooled visual tokens, target-left | AUC 0.95 at S1/S6/S12 |
+| direct side question | horizontal: "left" 960/960; vertical: "top" prior; accuracy 0.49-0.51 |
+| relation with true sides supplied | 0.76 overall, 0.92 when the objects are in different halves |
+| relation with swapped sides | 0.27 overall, 0.12 in different halves |
+| logit lens, base | readable only at L18-19 (0.636 / 0.646) |
+
+The visual representation contains the horizontal side; the decision state does
+not; the output emits a prior. Text-side composition is available. The dominant
+failure is therefore the path from object localization/binding to the side
+representation and its text readout. This is narrower than "composition fails"
+and weaker than "the only bottleneck is side readout": localization and binding
+are not separately measured.
+
+### 11.2 Intervention
+
+LoRA (r=8, q_proj/v_proj, vision frozen, 2.57M parameters) on 2,954 GQA train
+images; 11,816 side questions plus 3,600 relation questions.
+
+| adapter | side h/v | relation acc | relation AUC |
+|---|---|---:|---:|
+| base | 0.506 / 0.492 | 0.569 | 0.600 |
+| side-only | 0.645 / 0.682 | 0.617 | 0.717 |
+| relation-only | 0.551 / 0.492 | 0.683 | 0.777 |
+| mixed, 4k steps | 0.689 / 0.704 | 0.656 | 0.750 |
+| full, 1 epoch | 0.714 / 0.802 | 0.721 | 0.799 |
+
+- Side-only training transfers to relations (+0.117 AUC, paired bootstrap
+  [0.071, 0.161]; second seed +0.105 [0.058, 0.150]) while relation-only training
+  does not teach side reporting. The transfer is in ranking; the accuracy delta
+  for side-only has a CI crossing zero.
+- A fresh confirmation set of 240 pairs from 71,302 train images in no prior
+  experiment gives base 0.510 / 0.531 and full 0.700 / 0.802. The adapter result
+  replicates; the base number on the original test was optimistic.
+- POPE improves (0.783 -> 0.850 accuracy, F1 0.732 -> 0.852). Fine-grained tasks
+  are stable (overall 0.832 -> 0.823; attribute 0.765 -> 0.805; behavior 0.865 ->
+  0.820; gray control 0.807 -> 0.802).
+- The adapter's lens moves the readable signal to L17-18 (0.667 / 0.831) and
+  strengthens it (final 0.864 vs 0.634).
+
+### 11.3 Boundaries
+
+- The confirmation images are train-derived: image-disjoint from SFT and prior
+  evaluations, but possibly seen by the base model in pretraining.
+- The original test set has been used for many comparisons and is now a
+  development benchmark; the confirmation set is the clean held-out check.
+- Cross-group gains are mostly explained by side-only training; the extra gain
+  from the remaining groups' relation supervision is +0.014 / +0.019 AUC.
+- The full-epoch vs 4k comparison is confounded by training steps.
+- Position residualization is not a success gate: the label is defined by object
+  positions, so geometry is legitimate evidence.
+- No mirror or question-reversal augmentation yet; no second full-epoch seed
+  result at the time of writing.
 
 ## Appendix: Reproducibility
 
