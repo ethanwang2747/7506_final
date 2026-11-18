@@ -161,6 +161,22 @@ adapter learned the relation or a lexical pattern.
 The standard adapter is already robust to reversal. Augmentation at 4k steps
 tightens the reversal gap but slightly lowers original accuracy, so it is a wash.
 
+## 5.4 Same-size cross-model check
+
+Qwen2-VL-2B (2.2B, same 480 examples, same prompts):
+
+| metric | SmolVLM2-2.2B | Qwen2-VL-2B |
+|---|---:|---:|
+| relation accuracy / AUC | 0.569 / 0.600 | **0.746 / 0.826** |
+| side report horizontal | 0.506 | **0.746** |
+| side report vertical | 0.492 | **0.802** |
+| side-given true (diff-half) | 0.921 | 0.884 |
+| side-given swapped (diff-half) | 0.120 | 0.562 |
+
+The readout weakness is model-specific, not a general small-VLM limitation.
+This is a between-family comparison; it does not isolate architecture from
+training data.
+
 ## 6. Caveats
 
 - The 4,000-step pilots are 1/4 epoch; one seed per adapter except side-only.

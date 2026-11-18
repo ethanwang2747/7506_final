@@ -34,7 +34,10 @@ confirmation set. The adapter's logit lens moves the readable signal from layers
 18-19 to layers 17-18. POPE improves, fine-grained attribute/behavior tasks are
 stable, and TIFA exposes a trade-off: cued recall rises while free-form
 description coverage falls, mostly because the adapter follows the
-"one-or-two-sentences" instruction and writes much shorter captions. We conclude
+"one-or-two-sentences" instruction and writes much shorter captions. A same-size check (Qwen2-VL-2B, 2.2B) on the same 480 examples reaches 0.746
+accuracy / 0.826 AUC, reports sides at 0.746/0.802, and is only partly swayed by
+swapped side statements (0.562 vs our model's 0.120). The readout weakness is
+therefore model-specific, not a general limitation of small VLMs. We conclude
 that the contribution is a controlled diagnostic chain plus intervention
 evidence for a spatial readout bottleneck, not a claim of a unique mechanism.
 
@@ -262,6 +265,14 @@ base L18/L19/final = 0.636/0.646/0.634; full = 0.831/0.847/0.864.
   confirmation set is the primary check.
 - **TIFA coverage** is length-sensitive; the matched-length comparison is the
   fair one.
+- **Cross-model check.** Qwen2-VL-2B (same 2.2B size) reaches relation
+  0.746/0.826, side report 0.746/0.802, and side-given 0.884/0.562 on the same
+  480 examples. Both models encode horizontal side in pooled visual tokens
+  (0.95/0.94 for SmolVLM2, 0.91/0.87 for Qwen), but the decision state differs:
+  SmolVLM2 0.65/0.54 at L19 vs Qwen 0.84/0.80 at L20. The capability is
+  achievable at this scale and the gap is in the decision-state readout. This is
+  a between-family comparison and does not isolate architecture from training
+  data.
 
 ## 8. Related work
 
@@ -289,7 +300,8 @@ relation task, and a full-epoch adapter improves relation AUC from 0.600 to
 same intervention leaves open-ended description coverage lower, mostly through
 shorter captions. The defensible claim is a controlled diagnostic chain plus
 intervention evidence for a localization-to-readout bottleneck, not a unique
-spatial mechanism.
+spatial mechanism. A same-size Qwen2-VL-2B check shows that the weakness is
+model-specific rather than a general small-VLM limit.
 
 ## 10. Reproducibility
 

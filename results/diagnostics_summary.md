@@ -370,3 +370,30 @@ adapter follows the "one or two sentences" instruction and writes 12.2 words
 instead of 39.6; at matched length coverage is 0.702 vs 0.788. The adapter's
 logit lens moves the readable signal to layers 17-18 (0.667 / 0.831) and
 strengthens it (final 0.864 vs 0.634).
+
+
+---
+
+## 12. Same-size cross-model check (2026-11-18)
+
+Qwen2-VL-2B-Instruct (2.2B, same 480 test-core examples, same prompts, bf16,
+384^2 pixel cap):
+
+| metric | SmolVLM2-2.2B | Qwen2-VL-2B |
+|---|---:|---:|
+| relation accuracy / AUC | 0.569 / 0.600 | **0.746 / 0.826** |
+| side report, horizontal | 0.506 | **0.746** |
+| side report, vertical | 0.492 | **0.802** |
+| side-given, true (diff-half) | 0.921 | 0.884 |
+| side-given, swapped (diff-half) | 0.120 | 0.562 |
+
+Qwen2-VL-2B has a mild left bias in side reports (1340 left / 580 right) but is
+not a constant prior, and its six per-group relation AUCs are 0.685-0.903.
+Mechanistically, both models encode horizontal side in pooled visual tokens
+(SmolVLM2 0.95/0.94, Qwen 0.91/0.87), but the decision state differs:
+SmolVLM2 0.65/0.54 at L19 vs Qwen 0.84/0.80 at L20; the lens peaks at 0.646
+(SmolVLM2 L19) vs 0.824 (Qwen L20). The "visual decodable, decision unreadable,
+generation prior" pattern is therefore model-specific rather than a general
+small-VLM property. This is a between-family comparison; it shows the capability
+is achievable at this scale but does not isolate architecture from training
+data.

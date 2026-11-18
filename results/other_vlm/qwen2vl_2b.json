@@ -1,0 +1,105 @@
+{
+ "model": "models/Qwen2-VL-2B-Instruct",
+ "tag": "qwen2vl_2b",
+ "n": 480,
+ "margin_acc": 0.7458333333333333,
+ "margin_auc": 0.8261284722222222,
+ "per_group": {
+  "chair|to the left of|table": {
+   "acc": 0.8,
+   "auc": 0.86875
+  },
+  "man|to the left of|person": {
+   "acc": 0.6625,
+   "auc": 0.7375
+  },
+  "man|to the right of|woman": {
+   "acc": 0.775,
+   "auc": 0.8868750000000001
+  },
+  "person|to the right of|man": {
+   "acc": 0.6,
+   "auc": 0.685
+  },
+  "tree|to the left of|building": {
+   "acc": 0.8,
+   "auc": 0.8868750000000001
+  },
+  "woman|to the left of|man": {
+   "acc": 0.8375,
+   "auc": 0.903125
+  }
+ },
+ "side": {
+  "horizontal": {
+   "n": 1920,
+   "acc": 0.7458333333333333,
+   "pred_dist": {
+    "left": 1340,
+    "right": 580
+   },
+   "truth_dist": {
+    "left": 962,
+    "right": 958
+   }
+  },
+  "horizontal_order0": {
+   "n": 960,
+   "acc": 0.7385416666666667,
+   "pred_dist": {
+    "left": 692,
+    "right": 268
+   }
+  },
+  "horizontal_order1": {
+   "n": 960,
+   "acc": 0.753125,
+   "pred_dist": {
+    "left": 648,
+    "right": 312
+   }
+  },
+  "vertical": {
+   "n": 1920,
+   "acc": 0.8020833333333334,
+   "pred_dist": {
+    "bottom": 1076,
+    "top": 844
+   },
+   "truth_dist": {
+    "bottom": 1144,
+    "top": 776
+   }
+  },
+  "vertical_order0": {
+   "n": 960,
+   "acc": 0.7895833333333333,
+   "pred_dist": {
+    "bottom": 492,
+    "top": 468
+   }
+  },
+  "vertical_order1": {
+   "n": 960,
+   "acc": 0.8145833333333333,
+   "pred_dist": {
+    "bottom": 584,
+    "top": 376
+   }
+  }
+ },
+ "side_given": {
+  "true": {
+   "n": 480,
+   "acc": 0.7625,
+   "diff_half_n": 267,
+   "diff_half_acc": 0.8838951310861424
+  },
+  "swapped": {
+   "n": 480,
+   "acc": 0.5583333333333333,
+   "diff_half_n": 267,
+   "diff_half_acc": 0.5617977528089888
+  }
+ }
+}

@@ -1,0 +1,46 @@
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   1%|          | 5/729 [00:00<00:15, 46.99it/s]Loading weights:   6%|▌         | 45/729 [00:00<00:02, 248.02it/s]Loading weights:  12%|█▏        | 87/729 [00:00<00:02, 306.94it/s]Loading weights:  16%|█▌        | 118/729 [00:00<00:02, 279.01it/s]Loading weights:  22%|██▏       | 159/729 [00:00<00:01, 314.70it/s]Loading weights:  27%|██▋       | 195/729 [00:00<00:01, 324.04it/s]Loading weights:  32%|███▏      | 232/729 [00:00<00:01, 305.46it/s]Loading weights:  36%|███▌      | 263/729 [00:00<00:01, 295.71it/s]Loading weights:  40%|████      | 293/729 [00:01<00:01, 296.83it/s]Loading weights:  49%|████▊     | 354/729 [00:01<00:00, 384.91it/s]Loading weights:  64%|██████▎   | 464/729 [00:01<00:00, 589.49it/s]Loading weights:  75%|███████▍  | 546/729 [00:01<00:00, 655.39it/s]Loading weights:  87%|████████▋ | 634/729 [00:01<00:00, 716.78it/s]Loading weights:  97%|█████████▋| 707/729 [00:01<00:00, 708.06it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 469.34it/s]
+/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+  40/240
+  80/240
+  120/240
+  160/240
+  200/240
+  240/240
+{
+ "model": "models/Qwen2-VL-2B-Instruct",
+ "n": 480,
+ "layers": [
+  8,
+  12,
+  16,
+  20,
+  24,
+  27
+ ],
+ "probes": {
+  "visual_target_left": 0.9115737203972498,
+  "visual_reference_left": 0.873191991804275,
+  "decision_target_left_L8": 0.5432148065837905,
+  "decision_reference_left_L8": 0.5647236547377195,
+  "decision_target_left_L12": 0.7122716855337176,
+  "decision_reference_left_L12": 0.5930787796704347,
+  "decision_target_left_L16": 0.8144662823807209,
+  "decision_reference_left_L16": 0.7968779844072859,
+  "decision_target_left_L20": 0.8380269463157164,
+  "decision_reference_left_L20": 0.8007674810300219,
+  "decision_target_left_L24": 0.8366205986526842,
+  "decision_reference_left_L24": 0.7942213193033633,
+  "decision_target_left_L27": 0.8221057017848462,
+  "decision_reference_left_L27": 0.7865638728273515
+ },
+ "lens": {
+  "L8": 0.4798263888888889,
+  "L12": 0.5346701388888889,
+  "L16": 0.5526388888888889,
+  "L20": 0.8238020833333333,
+  "L24": 0.8165625000000001,
+  "L27": 0.8207118055555557
+ }
+}
+saved /home/yucheng/ris/7506project/results/other_vlm/qwen2vl_2b_probe.json

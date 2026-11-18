@@ -1,0 +1,10 @@
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<01:18,  9.24it/s]Loading weights:  10%|█         | 75/729 [00:00<00:01, 412.44it/s]Loading weights:  20%|██        | 149/729 [00:00<00:01, 552.15it/s]Loading weights:  32%|███▏      | 231/729 [00:00<00:00, 643.80it/s]Loading weights:  41%|████      | 296/729 [00:00<00:00, 516.09it/s]Loading weights:  48%|████▊     | 352/729 [00:00<00:00, 430.11it/s]Loading weights:  71%|███████   | 514/729 [00:00<00:00, 726.73it/s]Loading weights:  94%|█████████▎| 682/729 [00:00<00:00, 974.71it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 724.32it/s]
+qwen2vl_2b: yes [7414, 9454, 9693] no [902, 2152, 2308]
+/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+relation acc 0.746 auc 0.826
+/home/yucheng/ris/7506project/.venv/lib/python3.12/site-packages/transformers/models/qwen2_vl/image_processing_qwen2_vl.py:129: FutureWarning: Passing `min_pixels` and `max_pixels` to a processor call is deprecated and will be removed in v5.23. Pass in `size={'longest_edge': xxx, 'shortest_edge': xxx} to override the target size.`
+  warnings.warn(
+side h 0.746 v 0.802
+side-given true 0.762 swapped 0.558
+saved /home/yucheng/ris/7506project/results/other_vlm/qwen2vl_2b.json

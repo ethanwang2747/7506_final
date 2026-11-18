@@ -43,6 +43,8 @@
 | TIFA 回归 | 完成（2026-11-18） | `results/tifa/tifa_100_full_judge.json`、`..._long_judge.json` |
 | 问句反转 / 增强 | 完成（2026-11-18） | `results/sft/eval_relation_rev_*.json`、`adapter_aug` |
 | 报告 v6 整合稿 | 完成（2026-11-18） | `report/report_v6_draft.md` |
+| 中文说明报告 | 完成（2026-11-18） | `report/findings_cn.md` |
+| 同尺寸 VLM 对照（Qwen2-VL-2B） | 完成（2026-11-18） | `results/other_vlm/qwen2vl_2b*.json` |
 | LoRA-SFT（中间步骤监督） | **未做** | — |
 | DPO / 轻量 RL | **未做** | — |
 
@@ -231,3 +233,4 @@
 | 2026-11-18 | SFT 首轮 + 2×2 对照：side-only 迁移到关系（ΔAUC +0.117），relation-only 不提升方位；直接关系监督最强（+0.177） |
 | 2026-11-18 | 新确认集复现（base 0.531 / full 0.802）；POPE 与属性任务无实质回归；修正 majority baseline；收紧机制措辞 |
 | 2026-11-18 | full seed 1：test 0.781 / confirm 0.804；TIFA cued 0.867 但 coverage 0.588（长度匹配后 0.702），作为 trade-off 记录 |
+| 2026-11-18 | 同尺寸对照 Qwen2-VL-2B：关系 0.746/0.826、方位 0.746/0.802；决策层侧别 0.84/0.80 vs SmolVLM2 0.65/0.54。结论：读出弱点是模型特异的 |

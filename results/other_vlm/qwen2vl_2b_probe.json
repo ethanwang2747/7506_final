@@ -1,0 +1,36 @@
+{
+ "model": "models/Qwen2-VL-2B-Instruct",
+ "n": 480,
+ "layers": [
+  8,
+  12,
+  16,
+  20,
+  24,
+  27
+ ],
+ "probes": {
+  "visual_target_left": 0.9115737203972498,
+  "visual_reference_left": 0.873191991804275,
+  "decision_target_left_L8": 0.5432148065837905,
+  "decision_reference_left_L8": 0.5647236547377195,
+  "decision_target_left_L12": 0.7122716855337176,
+  "decision_reference_left_L12": 0.5930787796704347,
+  "decision_target_left_L16": 0.8144662823807209,
+  "decision_reference_left_L16": 0.7968779844072859,
+  "decision_target_left_L20": 0.8380269463157164,
+  "decision_reference_left_L20": 0.8007674810300219,
+  "decision_target_left_L24": 0.8366205986526842,
+  "decision_reference_left_L24": 0.7942213193033633,
+  "decision_target_left_L27": 0.8221057017848462,
+  "decision_reference_left_L27": 0.7865638728273515
+ },
+ "lens": {
+  "L8": 0.4798263888888889,
+  "L12": 0.5346701388888889,
+  "L16": 0.5526388888888889,
+  "L20": 0.8238020833333333,
+  "L24": 0.8165625000000001,
+  "L27": 0.8207118055555557
+ }
+}
