@@ -397,3 +397,34 @@ generation prior" pattern is therefore model-specific rather than a general
 small-VLM property. This is a between-family comparison; it shows the capability
 is achievable at this scale but does not isolate architecture from training
 data.
+
+
+---
+
+## 13. Correction after review (2026-11-18): the 0.95 probe is position leakage
+
+The oracle-box visual side probe was re-run on three controls (480 examples,
+grouped CV):
+
+| input | S1 target-left | S6 | S12 |
+|---|---:|---:|---:|
+| original | 0.949 | 0.943 | 0.948 |
+| uniform gray image | **0.994** | **0.995** | **0.996** |
+| shuffled 16x16 patches | 0.983 | 0.986 | 0.982 |
+| target box painted gray | 0.976 | 0.980 | 0.972 |
+
+The probe is *higher* on gray images: it reads the location of the pooled
+tokens, not object content. The 0.95 claim in Sections 10-11 must be read as an
+oracle-box position oracle, not as evidence that the visual representation
+contains the object's side. This is the failure mode documented by
+[Decodable Is Not Grounded](https://arxiv.org/abs/2606.31257).
+
+A second correction: a rule that uses only the target box's absolute x (no
+reference object) reaches AUC 0.871 / accuracy 0.804 on the same 480 examples,
+versus 0.799 / 0.721 for the full adapter. On the same-half subset the rule is
+0.721 and the adapter 0.701. Most of the benchmark score is explained by the
+target's absolute side.
+
+The defensible claim is therefore: a controlled same-image pairing protocol plus
+a single-box / same-half decomposition of what the benchmark measures and what
+SFT learns, not a "readout bottleneck" mechanism.

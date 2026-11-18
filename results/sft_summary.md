@@ -161,6 +161,21 @@ adapter learned the relation or a lexical pattern.
 The standard adapter is already robust to reversal. Augmentation at 4k steps
 tightens the reversal gap but slightly lowers original accuracy, so it is a wash.
 
+## 4.3 Single-box baseline and same-half decomposition
+
+A rule that uses only the target box's absolute x (no reference object):
+
+| metric | base | side-only | relation-only | full | single-box rule |
+|---|---:|---:|---:|---:|---:|
+| overall AUC (n=480) | 0.600 | 0.717 | 0.777 | 0.799 | **0.871** |
+| overall accuracy | 0.569 | - | - | 0.721 | **0.804** |
+| same-half AUC (n=213) | 0.590 | 0.616 | 0.707 | 0.701 | **0.721** |
+| diff-half AUC (n=267) | 0.611 | 0.794 | 0.831 | 0.866 | **1.000** |
+
+The full adapter is below the single-box rule overall and on same-half. SFT
+improves absolute-side readout (base 0.590 -> full 0.701 same-half) but does not
+establish ordinal comparison.
+
 ## 5.4 Same-size cross-model check
 
 Qwen2-VL-2B (2.2B, same 480 examples, same prompts):
@@ -173,7 +188,8 @@ Qwen2-VL-2B (2.2B, same 480 examples, same prompts):
 | side-given true (diff-half) | 0.921 | 0.884 |
 | side-given swapped (diff-half) | 0.120 | 0.562 |
 
-The readout weakness is model-specific, not a general small-VLM limitation.
+The weakness is family/training-specific in this single-checkpoint comparison,
+not a general small-VLM limitation; token budgets (81 vs 165) are not matched.
 This is a between-family comparison; it does not isolate architecture from
 training data.
 
