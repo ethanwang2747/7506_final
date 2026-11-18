@@ -374,8 +374,11 @@ images; 11,816 side questions plus 3,600 relation questions.
 - The full-epoch vs 4k comparison is confounded by training steps.
 - Position residualization is not a success gate: the label is defined by object
   positions, so geometry is legitimate evidence.
-- No mirror or question-reversal augmentation yet; no second full-epoch seed
-  result at the time of writing.
+- Question-reversal robustness: base 0.600 -> 0.575 AUC, full 0.799 -> 0.770;
+  a 4k-step reversal/mirror-augmented adapter closes the gap (-0.003) but loses
+  0.013 original AUC, so augmentation is neutral at matched steps.
+- A second full-epoch seed gives 0.665 / 0.781 on the original test and
+  0.708 / 0.804 on the confirmation set.
 
 ## Appendix: Reproducibility
 

@@ -146,6 +146,21 @@ image and is not a language prior.
 The two interventions are complementary, but SFT captures most of the flip gain
 (base +0.087 AUC, full +0.012); pair accuracy still gains +0.034.
 
+## 5.3 Question-reversal robustness and augmentation
+
+Reversed questions ("Is Y right of X?" for "Is X left of Y?") test whether the
+adapter learned the relation or a lexical pattern.
+
+| adapter | original AUC | reversed AUC | delta |
+|---|---:|---:|---:|
+| base | 0.600 | 0.575 | -0.025 |
+| mixed 4k | 0.750 | 0.737 | -0.013 |
+| mixed 4k + reversal/mirror augmentation | 0.737 | 0.734 | **-0.003** |
+| full 1 epoch | 0.799 | 0.770 | -0.029 |
+
+The standard adapter is already robust to reversal. Augmentation at 4k steps
+tightens the reversal gap but slightly lowers original accuracy, so it is a wash.
+
 ## 6. Caveats
 
 - The 4,000-step pilots are 1/4 epoch; one seed per adapter except side-only.

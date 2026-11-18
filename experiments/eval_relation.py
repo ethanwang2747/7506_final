@@ -49,11 +49,18 @@ def main():
     ap.add_argument("--adapter", default=None)
     ap.add_argument("--image-dir", default=None)
     ap.add_argument("--tag", default="base")
+    ap.add_argument("--reverse", action="store_true")
     ap.add_argument("--batch-size", type=int, default=8)
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
     rows = select(read_jsonl(ROOT / args.pairs), GROUPS, args.max_per_group)
+    if args.reverse:
+        rev = {"to the left of": "to the right of", "to the right of": "to the left of",
+               "above": "below", "below": "above"}
+        for r in rows:
+            a, rel, b = r["group"].split("|")
+            r["question"] = f"Is the {b} {rev[rel]} the {a}?"
     with open(ROOT / "data/derived/experiment_config.json") as f:
         cfg = json.load(f)
     with open(ROOT / cfg["data"]["scene_graphs"]) as f:

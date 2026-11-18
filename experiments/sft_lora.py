@@ -72,6 +72,7 @@ def main():
     ap.add_argument("--dev-every", type=int, default=500)
     ap.add_argument("--dev-size", type=int, default=48)
     ap.add_argument("--tasks", default="", help="comma list: side_h,side_v,relation")
+    ap.add_argument("--augment", action="store_true")
     ap.add_argument("--seed", type=int, default=0)
     args = ap.parse_args()
 
@@ -119,9 +120,25 @@ def main():
     t0 = time.time()
     running, seen = 0.0, 0
     opt.zero_grad()
+    rev = {"to the left of": "to the right of", "to the right of": "to the left of",
+           "above": "below", "below": "above"}
+    flip_answer = {"left": "right", "right": "left", "top": "top", "bottom": "bottom",
+                   "yes": "no", "no": "yes"}
     for step in range(1, total + 1):
-        e = train[step - 1]
-        inp, labels = build_inputs(proc, e, images[e["image_id"]])
+        e = dict(train[step - 1])
+        img = images[e["image_id"]]
+        if args.augment:
+            if e["task"] == "relation":
+                a, rel, b = e["group"].split("|")
+                if random.random() < 0.5:
+                    e["question"] = f"Is the {b} {rev[rel]} the {a}?"
+                if random.random() < 0.5 and rel in ("to the left of", "to the right of"):
+                    img = img.transpose(Image.FLIP_LEFT_RIGHT)
+                    e["answer"] = flip_answer[e["answer"]]
+            elif e["task"] == "side_h" and random.random() < 0.5:
+                img = img.transpose(Image.FLIP_LEFT_RIGHT)
+                e["answer"] = flip_answer[e["answer"]]
+        inp, labels = build_inputs(proc, e, img)
         out = model(**inp, labels=labels)
         loss = out.loss / args.grad_accum
         loss.backward()
